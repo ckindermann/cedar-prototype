@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import type { FormField, FieldType } from '../types';
+import type { FormField, FieldType, CustomFieldType } from '../types';
 import { FIELD_TYPES } from './FormBuilder';
 
 interface FieldEditorProps {
@@ -13,6 +13,7 @@ interface FieldEditorProps {
   onFocus: () => void;
   onBlur: () => void;
   forceCollapsed?: boolean;
+  customFields?: CustomFieldType[];
 }
 
 export function FieldEditor({
@@ -26,6 +27,7 @@ export function FieldEditor({
   onFocus,
   onBlur,
   forceCollapsed,
+  customFields = [],
 }: FieldEditorProps) {
   const [isExpanded, setIsExpanded] = useState(true);
 
@@ -36,14 +38,45 @@ export function FieldEditor({
     }
   }, [forceCollapsed]);
 
-  const handleTypeChange = (newType: FieldType) => {
-    const updatedField: FormField = {
-      ...field,
-      type: newType,
-      options: newType === 'select' ? (field.options || ['Option 1', 'Option 2', 'Option 3']) : undefined,
-    };
-    onUpdate(updatedField);
+  // Get library fields based on the field's own libraryId (not the global selection)
+  const fieldLibraryId = field.libraryId;
+  const libraryFields = fieldLibraryId 
+    ? customFields.filter(cf => cf.libraryIds?.includes(fieldLibraryId))
+    : [];
+  
+  const isLibraryField = fieldLibraryId && libraryFields.length > 0;
+
+  const handleTypeChange = (value: string) => {
+    if (isLibraryField) {
+      // Value is a custom field ID
+      const customField = customFields.find(cf => cf.id === value);
+      if (customField) {
+        const updatedField: FormField = {
+          ...field,
+          type: customField.baseType,
+          customFieldTypeId: customField.id,
+          options: customField.baseType === 'select' ? (field.options || ['Option 1', 'Option 2', 'Option 3']) : undefined,
+          validationRules: customField.validationRules ? [...customField.validationRules] : undefined,
+        };
+        onUpdate(updatedField);
+      }
+    } else {
+      // Value is a standard field type
+      const newType = value as FieldType;
+      const updatedField: FormField = {
+        ...field,
+        type: newType,
+        customFieldTypeId: undefined,
+        options: newType === 'select' ? (field.options || ['Option 1', 'Option 2', 'Option 3']) : undefined,
+      };
+      onUpdate(updatedField);
+    }
   };
+
+  // Get the current value for the select
+  const selectValue = isLibraryField 
+    ? (field.customFieldTypeId || libraryFields[0]?.id || '')
+    : field.type;
 
   return (
     <div 
@@ -60,15 +93,23 @@ export function FieldEditor({
         <div className="field-editor-title">
           <select
             className="field-type-select"
-            value={field.type}
-            onChange={(e) => handleTypeChange(e.target.value as FieldType)}
+            value={selectValue}
+            onChange={(e) => handleTypeChange(e.target.value)}
             onClick={(e) => e.stopPropagation()}
           >
-            {FIELD_TYPES.map(({ type, label, icon }) => (
-              <option key={type} value={type}>
-                {icon} {label}
-              </option>
-            ))}
+            {isLibraryField ? (
+              libraryFields.map((cf) => (
+                <option key={cf.id} value={cf.id}>
+                  {cf.icon} {cf.name}
+                </option>
+              ))
+            ) : (
+              FIELD_TYPES.map(({ type, label, icon }) => (
+                <option key={type} value={type}>
+                  {icon} {label}
+                </option>
+              ))
+            )}
           </select>
           <input
             type="text"

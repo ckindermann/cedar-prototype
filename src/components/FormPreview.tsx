@@ -144,7 +144,7 @@ export function FormPreview({ schema, focusedFieldId }: FormPreviewProps) {
   return (
     <div className="form-preview">
       <div className="preview-header">
-        <h2>{schema.title || 'Untitled Form'}</h2>
+        <h2>{schema.title || 'Untitled Template'}</h2>
         {schema.description && <p className="preview-description">{schema.description}</p>}
       </div>
       <form className="preview-form" onSubmit={(e) => e.preventDefault()}>
