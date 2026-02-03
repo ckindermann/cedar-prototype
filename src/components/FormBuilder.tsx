@@ -264,6 +264,19 @@ export function FormBuilder({ customFields, fieldLibraries, onSaveCustomField, o
                 setEditingFieldType(null);
                 setIsCreateFieldModalOpen(true);
               }}
+              onEditFieldType={(fieldType) => {
+                setEditingFieldType(fieldType);
+                setIsCreateFieldModalOpen(true);
+              }}
+              highlightedFieldType={focusedFieldId ? (() => {
+                const field = schema.fields.find(f => f.id === focusedFieldId);
+                if (!field) return null;
+                return {
+                  type: field.type,
+                  customFieldTypeId: field.customFieldTypeId,
+                  libraryId: field.libraryId,
+                };
+              })() : null}
             />
           </div>
           <div className="form-builder-main">
@@ -383,6 +396,19 @@ export function FormBuilder({ customFields, fieldLibraries, onSaveCustomField, o
                 setEditingFieldType(null);
                 setIsCreateFieldModalOpen(true);
               }}
+              onEditFieldType={(fieldType) => {
+                setEditingFieldType(fieldType);
+                setIsCreateFieldModalOpen(true);
+              }}
+              highlightedFieldType={focusedFieldId ? (() => {
+                const field = schema.fields.find(f => f.id === focusedFieldId);
+                if (!field) return null;
+                return {
+                  type: field.type,
+                  customFieldTypeId: field.customFieldTypeId,
+                  libraryId: field.libraryId,
+                };
+              })() : null}
             />
           </div>
           <div className="split-panel builder-panel">

@@ -2068,6 +2068,17 @@ body {
   box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.15);
 }
 
+.field-item.highlighted {
+  background: #fffbeb;
+  border-color: var(--warning-color);
+  box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.15);
+}
+
+.field-item.highlighted .field-item-name {
+  color: #d97706;
+  font-weight: 500;
+}
+
 .field-item.selected .field-item-name {
   color: var(--primary-color);
   font-weight: 500;
@@ -2103,6 +2114,27 @@ body {
   background: var(--bg-light);
   padding: 2px 6px;
   border-radius: 4px;
+}
+
+.field-item-edit-btn {
+  opacity: 0;
+  background: transparent;
+  border: none;
+  padding: 4px 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  border-radius: var(--radius-sm);
+  transition: all 0.2s ease;
+  margin-left: auto;
+}
+
+.field-item:hover .field-item-edit-btn {
+  opacity: 1;
+}
+
+.field-item-edit-btn:hover {
+  background: var(--bg-light);
+  transform: scale(1.1);
 }
 
 /* Search Results */

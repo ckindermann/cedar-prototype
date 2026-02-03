@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import type { CustomFieldType, FieldLibrary, FieldType } from '../types';
 import { FIELD_TYPES } from './FormBuilder';
 
@@ -8,7 +8,8 @@ interface FieldLibraryBrowserProps {
   onAddField: (type: FieldType, customFieldTypeId?: string, libraryId?: string) => void;
   onCreateLibrary: (name: string, parentId?: string) => void;
   onCreateFieldType: (libraryId: string) => void;
-  highlightedFieldType?: { type: FieldType; customFieldTypeId?: string } | null;
+  onEditFieldType?: (fieldType: CustomFieldType) => void;
+  highlightedFieldType?: { type: FieldType; customFieldTypeId?: string; libraryId?: string } | null;
 }
 
 interface LibraryNode {
@@ -23,6 +24,7 @@ export function FieldLibraryBrowser({
   onAddField,
   onCreateLibrary,
   onCreateFieldType,
+  onEditFieldType,
   highlightedFieldType,
 }: FieldLibraryBrowserProps) {
   const [searchQuery, setSearchQuery] = useState('');
@@ -35,6 +37,28 @@ export function FieldLibraryBrowser({
   const [isStandardExpanded, setIsStandardExpanded] = useState(true);
   const [isCreatingLibrary, setIsCreatingLibrary] = useState<string | null>(null); // null = not creating, 'root' = root level, libraryId = sub-library
   const [newLibraryName, setNewLibraryName] = useState('');
+
+  // Auto-expand library containing highlighted field
+  useEffect(() => {
+    if (highlightedFieldType?.libraryId) {
+      setExpandedLibraries(prev => new Set([...prev, highlightedFieldType.libraryId!]));
+    }
+  }, [highlightedFieldType]);
+
+  // Check if a field type matches the highlighted one
+  const isHighlighted = (fieldType: FieldType, customFieldId?: string, isStandard?: boolean) => {
+    if (!highlightedFieldType) return false;
+    
+    if (isStandard && !highlightedFieldType.customFieldTypeId) {
+      return highlightedFieldType.type === fieldType;
+    }
+    
+    if (customFieldId && highlightedFieldType.customFieldTypeId) {
+      return highlightedFieldType.customFieldTypeId === customFieldId;
+    }
+    
+    return false;
+  };
 
   // Build hierarchical library structure
   const libraryTree = useMemo(() => {
@@ -233,7 +257,7 @@ export function FieldLibraryBrowser({
                   (selectedField.field as CustomFieldType).id === field.id 
                     ? 'selected' 
                     : ''
-                }`}
+                } ${isHighlighted(field.baseType, field.id, false) ? 'highlighted' : ''}`}
                 onClick={() => setSelectedField({
                   field,
                   libraryId: node.library.id,
@@ -243,6 +267,18 @@ export function FieldLibraryBrowser({
                 <span className="field-item-icon">{field.icon}</span>
                 <span className="field-item-name">{field.name}</span>
                 <span className="field-item-type">{field.baseType}</span>
+                {onEditFieldType && (
+                  <button
+                    className="field-item-edit-btn"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onEditFieldType(field);
+                    }}
+                    title="Edit field type"
+                  >
+                    ✏️
+                  </button>
+                )}
               </div>
             ))}
 
@@ -352,7 +388,7 @@ export function FieldLibraryBrowser({
                           (selectedField.field as { type: FieldType }).type === fieldType.type 
                             ? 'selected' 
                             : ''
-                        }`}
+                        } ${isHighlighted(fieldType.type, undefined, true) ? 'highlighted' : ''}`}
                         onClick={() => setSelectedField({
                           field: fieldType,
                           libraryId: null,
