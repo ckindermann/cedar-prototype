@@ -10,6 +10,7 @@ export interface FieldLibrary {
   id: string;
   name: string;
   description?: string;
+  parentId?: string; // For hierarchical folder structure (null = root level)
 }
 
 export interface CustomFieldType {

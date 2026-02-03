@@ -1,5 +1,4 @@
-import { useState, useEffect } from 'react';
-import type { FormField, FieldType, CustomFieldType } from '../types';
+import type { FormField, FieldType, CustomFieldType, FieldLibrary } from '../types';
 import { FIELD_TYPES } from './FormBuilder';
 
 interface FieldEditorProps {
@@ -12,8 +11,9 @@ interface FieldEditorProps {
   isFocused: boolean;
   onFocus: () => void;
   onBlur: () => void;
-  forceCollapsed?: boolean;
   customFields?: CustomFieldType[];
+  fieldLibraries?: FieldLibrary[];
+  onEditFieldType?: (fieldType: CustomFieldType) => void;
 }
 
 export function FieldEditor({
@@ -26,17 +26,10 @@ export function FieldEditor({
   isFocused,
   onFocus,
   onBlur,
-  forceCollapsed,
   customFields = [],
+  fieldLibraries = [],
+  onEditFieldType,
 }: FieldEditorProps) {
-  const [isExpanded, setIsExpanded] = useState(true);
-
-  // Sync with forceCollapsed prop
-  useEffect(() => {
-    if (forceCollapsed !== undefined) {
-      setIsExpanded(!forceCollapsed);
-    }
-  }, [forceCollapsed]);
 
   // Get library fields based on the field's own libraryId (not the global selection)
   const fieldLibraryId = field.libraryId;
@@ -78,6 +71,16 @@ export function FieldEditor({
     ? (field.customFieldTypeId || libraryFields[0]?.id || '')
     : field.type;
 
+  // Get the current custom field type if this is a library field
+  const currentCustomField = field.customFieldTypeId 
+    ? customFields.find(cf => cf.id === field.customFieldTypeId)
+    : null;
+
+  // Get the library name for display
+  const fieldLibrary = field.libraryId 
+    ? fieldLibraries.find(l => l.id === field.libraryId)
+    : null;
+
   return (
     <div 
       className={`field-editor ${isMoving ? 'is-moving' : ''} ${isFocused ? 'is-focused' : ''}`}
@@ -111,6 +114,23 @@ export function FieldEditor({
               ))
             )}
           </select>
+          {fieldLibrary && (
+            <span className="field-library-badge" title={`From library: ${fieldLibrary.name}`}>
+              📁 {fieldLibrary.name}
+            </span>
+          )}
+          {currentCustomField && onEditFieldType && (
+            <button
+              className="edit-field-type-button"
+              onClick={(e) => {
+                e.stopPropagation();
+                onEditFieldType(currentCustomField);
+              }}
+              title="Edit this field type"
+            >
+              ✏️
+            </button>
+          )}
           <input
             type="text"
             className="field-label-input"
@@ -143,18 +163,10 @@ export function FieldEditor({
           >
             ×
           </button>
-          <button
-            className="icon-button"
-            onClick={() => setIsExpanded(!isExpanded)}
-            title={isExpanded ? 'Collapse' : 'Expand'}
-          >
-            {isExpanded ? '▼' : '▶'}
-          </button>
         </div>
       </div>
 
-      {isExpanded && (
-        <div className="field-editor-body">
+      <div className="field-editor-body">
           <div className="form-group">
             <label>Placeholder Text</label>
             <input
@@ -202,7 +214,6 @@ export function FieldEditor({
             </label>
           </div>
         </div>
-      )}
     </div>
   );
 }

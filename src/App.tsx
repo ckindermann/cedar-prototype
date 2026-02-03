@@ -65,7 +65,12 @@ function App() {
       </nav>
 
       {activeSection === 'forms' ? (
-        <FormBuilder customFields={customFields} fieldLibraries={fieldLibraries} />
+        <FormBuilder 
+          customFields={customFields} 
+          fieldLibraries={fieldLibraries}
+          onSaveCustomField={handleSaveCustomField}
+          onSaveLibrary={handleSaveLibrary}
+        />
       ) : (
         <FieldDesigner
           customFields={customFields}

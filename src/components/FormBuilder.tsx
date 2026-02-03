@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import type { FormField, FormSchema, FieldType, CustomFieldType, FieldLibrary } from '../types';
 import { FieldEditor } from './FieldEditor';
 import { FormPreview } from './FormPreview';
+import { CreateFieldModal } from './CreateFieldModal';
+import { FieldLibraryBrowser } from './FieldLibraryBrowser';
 
 const generateId = () => Math.random().toString(36).substring(2, 11);
 
@@ -45,9 +47,11 @@ export const FIELD_TYPES: { type: FieldType; label: string; icon: string }[] = [
 interface FormBuilderProps {
   customFields: CustomFieldType[];
   fieldLibraries: FieldLibrary[];
+  onSaveCustomField: (field: CustomFieldType) => void;
+  onSaveLibrary: (library: FieldLibrary) => void;
 }
 
-export function FormBuilder({ customFields, fieldLibraries }: FormBuilderProps) {
+export function FormBuilder({ customFields, fieldLibraries, onSaveCustomField, onSaveLibrary }: FormBuilderProps) {
   const [schema, setSchema] = useState<FormSchema>({
     id: generateId(),
     title: 'My Template',
@@ -62,9 +66,9 @@ export function FormBuilder({ customFields, fieldLibraries }: FormBuilderProps) 
   const [savedVersions, setSavedVersions] = useState<SavedVersion[]>([]);
   const [currentVersionId, setCurrentVersionId] = useState<string | null>(null);
   const [isVersionDropdownOpen, setIsVersionDropdownOpen] = useState(false);
-  const [allFieldsCollapsed, setAllFieldsCollapsed] = useState(false);
-  const [isLibraryDropdownOpen, setIsLibraryDropdownOpen] = useState(false);
-  const [selectedLibraryId, setSelectedLibraryId] = useState<string | null>(null);
+  const [isCreateFieldModalOpen, setIsCreateFieldModalOpen] = useState(false);
+  const [editingFieldType, setEditingFieldType] = useState<CustomFieldType | null>(null);
+  const [createFieldForLibraryId, setCreateFieldForLibraryId] = useState<string | null>(null);
 
   // Auto-dismiss toast after 5 seconds
   useEffect(() => {
@@ -238,7 +242,31 @@ export function FormBuilder({ customFields, fieldLibraries }: FormBuilderProps) 
       </header>
 
       {activeTab === 'builder' && (
-        <div className="builder-layout-single">
+        <div className="form-builder-with-panel">
+          <div className="library-panel">
+            <FieldLibraryBrowser
+              customFields={customFields}
+              fieldLibraries={fieldLibraries}
+              onAddField={(type, customFieldTypeId, libraryId) => {
+                addField(type, customFieldTypeId, libraryId);
+              }}
+              onCreateLibrary={(name, parentId) => {
+                const newLibrary: FieldLibrary = {
+                  id: generateId(),
+                  name,
+                  description: '',
+                  parentId,
+                };
+                onSaveLibrary(newLibrary);
+              }}
+              onCreateFieldType={(libraryId) => {
+                setCreateFieldForLibraryId(libraryId);
+                setEditingFieldType(null);
+                setIsCreateFieldModalOpen(true);
+              }}
+            />
+          </div>
+          <div className="form-builder-main">
           <main className="form-canvas">
             <div className="form-meta">
               <input
@@ -262,18 +290,10 @@ export function FormBuilder({ customFields, fieldLibraries }: FormBuilderProps) 
                 <div className="empty-state">
                   <span className="empty-icon">📝</span>
                   <h3>Start building your template</h3>
-                  <p>Click the button below to add your first field.</p>
+                  <p>Select a field from the library to add it.</p>
                 </div>
               ) : (
                 <>
-                  <div className="fields-toolbar">
-                    <button
-                      className="collapse-all-button"
-                      onClick={() => setAllFieldsCollapsed(!allFieldsCollapsed)}
-                    >
-                      {allFieldsCollapsed ? '▶ Expand All' : '▼ Collapse All'}
-                    </button>
-                  </div>
                   {schema.fields.map((field, index) => {
                     const isBeingMoved = movingFieldId === field.id;
                     const currentMovingIndex = schema.fields.findIndex(f => f.id === movingFieldId);
@@ -305,8 +325,12 @@ export function FormBuilder({ customFields, fieldLibraries }: FormBuilderProps) 
                           isFocused={focusedFieldId === field.id}
                           onFocus={() => setFocusedFieldId(field.id)}
                           onBlur={() => setFocusedFieldId(null)}
-                          forceCollapsed={allFieldsCollapsed}
                           customFields={customFields}
+                          fieldLibraries={fieldLibraries}
+                          onEditFieldType={(fieldType) => {
+                            setEditingFieldType(fieldType);
+                            setIsCreateFieldModalOpen(true);
+                          }}
                         />
                       </div>
                     );
@@ -325,72 +349,8 @@ export function FormBuilder({ customFields, fieldLibraries }: FormBuilderProps) 
                 </>
               )}
             </div>
-
-            <div className="add-field-row">
-              <button className="add-field-button" onClick={() => {
-                if (selectedLibraryId) {
-                  // Find the first custom field in this library and add it
-                  const libraryFields = customFields.filter(cf => cf.libraryIds?.includes(selectedLibraryId));
-                  if (libraryFields.length > 0) {
-                    addField(libraryFields[0].baseType, libraryFields[0].id, selectedLibraryId);
-                  } else {
-                    addField('text', undefined, selectedLibraryId);
-                  }
-                } else {
-                  addField('text');
-                }
-              }}>
-                + Add Field
-              </button>
-              
-              <div className="library-dropdown-container">
-                <button
-                  className="library-dropdown-trigger"
-                  onClick={() => setIsLibraryDropdownOpen(!isLibraryDropdownOpen)}
-                >
-                  📚 {selectedLibraryId 
-                    ? fieldLibraries.find(l => l.id === selectedLibraryId)?.name || 'Unknown' 
-                    : 'Standard'}
-                  <span className="dropdown-arrow">{isLibraryDropdownOpen ? '▲' : '▼'}</span>
-                </button>
-                {isLibraryDropdownOpen && (
-                  <div className="library-dropdown">
-                    <button
-                      className={`library-option ${!selectedLibraryId ? 'active' : ''}`}
-                      onClick={() => {
-                        setSelectedLibraryId(null);
-                        setIsLibraryDropdownOpen(false);
-                      }}
-                    >
-                      <span className="library-name">📚 Standard</span>
-                      <span className="library-count">{FIELD_TYPES.length} fields</span>
-                    </button>
-                    {fieldLibraries.map(library => {
-                      const fieldCount = customFields.filter(cf => cf.libraryIds?.includes(library.id)).length;
-                      return (
-                        <button
-                          key={library.id}
-                          className={`library-option ${selectedLibraryId === library.id ? 'active' : ''}`}
-                          onClick={() => {
-                            setSelectedLibraryId(library.id);
-                            setIsLibraryDropdownOpen(false);
-                          }}
-                        >
-                          <span className="library-name">📁 {library.name}</span>
-                          <span className="library-count">{fieldCount} field{fieldCount !== 1 ? 's' : ''}</span>
-                        </button>
-                      );
-                    })}
-                    {fieldLibraries.length === 0 && (
-                      <div className="library-empty-hint">
-                        Create libraries in Field Designer
-                      </div>
-                    )}
-                  </div>
-                )}
-              </div>
-            </div>
           </main>
+          </div>
         </div>
       )}
 
@@ -401,7 +361,30 @@ export function FormBuilder({ customFields, fieldLibraries }: FormBuilderProps) 
       )}
 
       {activeTab === 'split' && (
-        <div className="split-layout">
+        <div className="split-layout-with-browser">
+          <div className="split-library-panel">
+            <FieldLibraryBrowser
+              customFields={customFields}
+              fieldLibraries={fieldLibraries}
+              onAddField={(type, customFieldTypeId, libraryId) => {
+                addField(type, customFieldTypeId, libraryId);
+              }}
+              onCreateLibrary={(name, parentId) => {
+                const newLibrary: FieldLibrary = {
+                  id: generateId(),
+                  name,
+                  description: '',
+                  parentId,
+                };
+                onSaveLibrary(newLibrary);
+              }}
+              onCreateFieldType={(libraryId) => {
+                setCreateFieldForLibraryId(libraryId);
+                setEditingFieldType(null);
+                setIsCreateFieldModalOpen(true);
+              }}
+            />
+          </div>
           <div className="split-panel builder-panel">
             <div className="split-panel-header">Builder</div>
             <main className="form-canvas">
@@ -427,18 +410,10 @@ export function FormBuilder({ customFields, fieldLibraries }: FormBuilderProps) 
                   <div className="empty-state">
                     <span className="empty-icon">📝</span>
                     <h3>Start building your template</h3>
-                    <p>Click the button below to add your first field.</p>
+                    <p>Select a field from the library to add it.</p>
                   </div>
                 ) : (
                   <>
-                    <div className="fields-toolbar">
-                      <button
-                        className="collapse-all-button"
-                        onClick={() => setAllFieldsCollapsed(!allFieldsCollapsed)}
-                      >
-                        {allFieldsCollapsed ? '▶ Expand All' : '▼ Collapse All'}
-                      </button>
-                    </div>
                     {schema.fields.map((field, index) => {
                       const isBeingMoved = movingFieldId === field.id;
                       const currentMovingIndex = schema.fields.findIndex(f => f.id === movingFieldId);
@@ -469,8 +444,12 @@ export function FormBuilder({ customFields, fieldLibraries }: FormBuilderProps) 
                             isFocused={focusedFieldId === field.id}
                             onFocus={() => setFocusedFieldId(field.id)}
                             onBlur={() => setFocusedFieldId(null)}
-                            forceCollapsed={allFieldsCollapsed}
                             customFields={customFields}
+                            fieldLibraries={fieldLibraries}
+                            onEditFieldType={(fieldType) => {
+                              setEditingFieldType(fieldType);
+                              setIsCreateFieldModalOpen(true);
+                            }}
                           />
                         </div>
                       );
@@ -487,70 +466,6 @@ export function FormBuilder({ customFields, fieldLibraries }: FormBuilderProps) 
                     )}
                   </>
                 )}
-              </div>
-
-              <div className="add-field-row">
-                <button className="add-field-button" onClick={() => {
-                  if (selectedLibraryId) {
-                    const libraryFields = customFields.filter(cf => cf.libraryIds?.includes(selectedLibraryId));
-                    if (libraryFields.length > 0) {
-                      addField(libraryFields[0].baseType, libraryFields[0].id, selectedLibraryId);
-                    } else {
-                      addField('text', undefined, selectedLibraryId);
-                    }
-                  } else {
-                    addField('text');
-                  }
-                }}>
-                  + Add Field
-                </button>
-                
-                <div className="library-dropdown-container">
-                  <button
-                    className="library-dropdown-trigger"
-                    onClick={() => setIsLibraryDropdownOpen(!isLibraryDropdownOpen)}
-                  >
-                    📚 {selectedLibraryId 
-                      ? fieldLibraries.find(l => l.id === selectedLibraryId)?.name || 'Unknown' 
-                      : 'Standard'}
-                    <span className="dropdown-arrow">{isLibraryDropdownOpen ? '▲' : '▼'}</span>
-                  </button>
-                  {isLibraryDropdownOpen && (
-                    <div className="library-dropdown">
-                      <button
-                        className={`library-option ${!selectedLibraryId ? 'active' : ''}`}
-                        onClick={() => {
-                          setSelectedLibraryId(null);
-                          setIsLibraryDropdownOpen(false);
-                        }}
-                      >
-                        <span className="library-name">📚 Standard</span>
-                        <span className="library-count">{FIELD_TYPES.length} fields</span>
-                      </button>
-                      {fieldLibraries.map(library => {
-                        const fieldCount = customFields.filter(cf => cf.libraryIds?.includes(library.id)).length;
-                        return (
-                          <button
-                            key={library.id}
-                            className={`library-option ${selectedLibraryId === library.id ? 'active' : ''}`}
-                            onClick={() => {
-                              setSelectedLibraryId(library.id);
-                              setIsLibraryDropdownOpen(false);
-                            }}
-                          >
-                            <span className="library-name">📁 {library.name}</span>
-                            <span className="library-count">{fieldCount} field{fieldCount !== 1 ? 's' : ''}</span>
-                          </button>
-                        );
-                      })}
-                      {fieldLibraries.length === 0 && (
-                        <div className="library-empty-hint">
-                          Create libraries in Field Designer
-                        </div>
-                      )}
-                    </div>
-                  )}
-                </div>
               </div>
             </main>
           </div>
@@ -574,6 +489,19 @@ export function FormBuilder({ customFields, fieldLibraries }: FormBuilderProps) 
           </button>
         </div>
       )}
+
+      <CreateFieldModal
+        isOpen={isCreateFieldModalOpen}
+        onClose={() => {
+          setIsCreateFieldModalOpen(false);
+          setEditingFieldType(null);
+          setCreateFieldForLibraryId(null);
+        }}
+        onSave={onSaveCustomField}
+        fieldLibraries={fieldLibraries}
+        preSelectedLibraryId={createFieldForLibraryId}
+        editingField={editingFieldType}
+      />
     </div>
   );
 }
