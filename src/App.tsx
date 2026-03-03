@@ -1,13 +1,22 @@
 import { useState } from 'react'
 import { FormBuilder } from './components/FormBuilder'
 import { FieldDesigner } from './components/FieldDesigner'
-import type { CustomFieldType, FieldLibrary } from './types'
+import type { CustomFieldType, FieldLibrary, FormSchema, TemplateLibrary } from './types'
 import './App.css'
+
+const generateId = () => Math.random().toString(36).substring(2, 11);
 
 function App() {
   const [activeSection, setActiveSection] = useState<'forms' | 'fields'>('forms');
   const [customFields, setCustomFields] = useState<CustomFieldType[]>([]);
   const [fieldLibraries, setFieldLibraries] = useState<FieldLibrary[]>([]);
+
+  // Template management
+  const [templates, setTemplates] = useState<FormSchema[]>([
+    { id: generateId(), title: 'My Template', description: '', fields: [] },
+  ]);
+  const [activeTemplateId, setActiveTemplateId] = useState<string>(templates[0].id);
+  const [templateLibraries, setTemplateLibraries] = useState<TemplateLibrary[]>([]);
 
   const handleSaveCustomField = (field: CustomFieldType) => {
     setCustomFields(prev => {
@@ -47,6 +56,67 @@ function App() {
     ));
   };
 
+  // Template management handlers
+  const activeTemplate = templates.find(t => t.id === activeTemplateId) || templates[0];
+
+  const handleUpdateTemplate = (schema: FormSchema) => {
+    setTemplates(prev => prev.map(t => t.id === schema.id ? schema : t));
+  };
+
+  const handleCreateTemplate = (libraryId?: string) => {
+    const newTemplate: FormSchema = {
+      id: generateId(),
+      title: 'Untitled Template',
+      description: '',
+      fields: [],
+      libraryId,
+    };
+    setTemplates(prev => [...prev, newTemplate]);
+    setActiveTemplateId(newTemplate.id);
+  };
+
+  const handleDeleteTemplate = (id: string) => {
+    setTemplates(prev => {
+      const filtered = prev.filter(t => t.id !== id);
+      // If we deleted the active one, switch to another
+      if (id === activeTemplateId && filtered.length > 0) {
+        setActiveTemplateId(filtered[0].id);
+      }
+      // Don't allow deleting the last template
+      if (filtered.length === 0) {
+        const newTemplate: FormSchema = {
+          id: generateId(),
+          title: 'My Template',
+          description: '',
+          fields: [],
+        };
+        setActiveTemplateId(newTemplate.id);
+        return [newTemplate];
+      }
+      return filtered;
+    });
+  };
+
+  const handleSaveTemplateLibrary = (library: TemplateLibrary) => {
+    setTemplateLibraries(prev => {
+      const existingIndex = prev.findIndex(l => l.id === library.id);
+      if (existingIndex >= 0) {
+        const updated = [...prev];
+        updated[existingIndex] = library;
+        return updated;
+      }
+      return [...prev, library];
+    });
+  };
+
+  const handleDeleteTemplateLibrary = (id: string) => {
+    // Remove library and unassign any templates that were in it
+    setTemplateLibraries(prev => prev.filter(l => l.id !== id));
+    setTemplates(prev => prev.map(t =>
+      t.libraryId === id ? { ...t, libraryId: undefined } : t
+    ));
+  };
+
   return (
     <div className="app-container">
       <nav className="app-nav">
@@ -70,6 +140,15 @@ function App() {
           fieldLibraries={fieldLibraries}
           onSaveCustomField={handleSaveCustomField}
           onSaveLibrary={handleSaveLibrary}
+          templates={templates}
+          activeTemplate={activeTemplate}
+          templateLibraries={templateLibraries}
+          onUpdateTemplate={handleUpdateTemplate}
+          onSelectTemplate={(id) => setActiveTemplateId(id)}
+          onCreateTemplate={handleCreateTemplate}
+          onDeleteTemplate={handleDeleteTemplate}
+          onSaveTemplateLibrary={handleSaveTemplateLibrary}
+          onDeleteTemplateLibrary={handleDeleteTemplateLibrary}
         />
       ) : (
         <FieldDesigner

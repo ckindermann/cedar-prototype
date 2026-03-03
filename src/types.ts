@@ -13,6 +13,13 @@ export interface FieldLibrary {
   parentId?: string; // For hierarchical folder structure (null = root level)
 }
 
+export interface TemplateLibrary {
+  id: string;
+  name: string;
+  description?: string;
+  parentId?: string; // For hierarchical folder structure (null = root level)
+}
+
 export interface CustomFieldType {
   id: string;
   name: string;
@@ -42,4 +49,5 @@ export interface FormSchema {
   title: string;
   description?: string;
   fields: FormField[];
+  libraryId?: string; // Which template library this template belongs to
 }

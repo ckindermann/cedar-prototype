@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
-import type { FormField, FormSchema, FieldType, CustomFieldType, FieldLibrary } from '../types';
+import type { FormField, FormSchema, FieldType, CustomFieldType, FieldLibrary, TemplateLibrary } from '../types';
 import { FieldEditor } from './FieldEditor';
 import { FormPreview } from './FormPreview';
 import { CreateFieldModal } from './CreateFieldModal';
 import { FieldLibraryBrowser } from './FieldLibraryBrowser';
+import { TemplateLibraryBrowser } from './TemplateLibraryBrowser';
 
 const generateId = () => Math.random().toString(36).substring(2, 11);
 
@@ -49,17 +50,43 @@ interface FormBuilderProps {
   fieldLibraries: FieldLibrary[];
   onSaveCustomField: (field: CustomFieldType) => void;
   onSaveLibrary: (library: FieldLibrary) => void;
+  templates: FormSchema[];
+  activeTemplate: FormSchema;
+  templateLibraries: TemplateLibrary[];
+  onUpdateTemplate: (schema: FormSchema) => void;
+  onSelectTemplate: (templateId: string) => void;
+  onCreateTemplate: (libraryId?: string) => void;
+  onDeleteTemplate: (templateId: string) => void;
+  onSaveTemplateLibrary: (library: TemplateLibrary) => void;
+  onDeleteTemplateLibrary: (id: string) => void;
 }
 
-export function FormBuilder({ customFields, fieldLibraries, onSaveCustomField, onSaveLibrary }: FormBuilderProps) {
-  const [schema, setSchema] = useState<FormSchema>({
-    id: generateId(),
-    title: 'My Template',
-    description: '',
-    fields: [],
-  });
+export function FormBuilder({
+  customFields,
+  fieldLibraries,
+  onSaveCustomField,
+  onSaveLibrary,
+  templates,
+  activeTemplate,
+  templateLibraries,
+  onUpdateTemplate,
+  onSelectTemplate,
+  onCreateTemplate,
+  onDeleteTemplate,
+  onSaveTemplateLibrary,
+  onDeleteTemplateLibrary,
+}: FormBuilderProps) {
+  // Use the activeTemplate as the schema, syncing changes back via onUpdateTemplate
+  const schema = activeTemplate;
+  const setSchema = (updater: FormSchema | ((prev: FormSchema) => FormSchema)) => {
+    if (typeof updater === 'function') {
+      onUpdateTemplate(updater(schema));
+    } else {
+      onUpdateTemplate(updater);
+    }
+  };
 
-  const [activeTab, setActiveTab] = useState<'builder' | 'preview' | 'split'>('builder');
+  const [activeTab, setActiveTab] = useState<'builder' | 'preview' | 'split'>('split');
   const [movingFieldId, setMovingFieldId] = useState<string | null>(null);
   const [focusedFieldId, setFocusedFieldId] = useState<string | null>(null);
   const [deletedField, setDeletedField] = useState<DeletedFieldInfo | null>(null);
@@ -244,7 +271,26 @@ export function FormBuilder({ customFields, fieldLibraries, onSaveCustomField, o
       {activeTab === 'builder' && (
         <div className="form-builder-with-panel">
           <div className="library-panel">
-            <FieldLibraryBrowser
+            <div className="library-panel-stack">
+              <TemplateLibraryBrowser
+                templates={templates}
+                templateLibraries={templateLibraries}
+                activeTemplateId={activeTemplate.id}
+                onSelectTemplate={onSelectTemplate}
+                onCreateTemplate={onCreateTemplate}
+                onCreateLibrary={(name, parentId) => {
+                  const newLibrary: TemplateLibrary = {
+                    id: generateId(),
+                    name,
+                    description: '',
+                    parentId,
+                  };
+                  onSaveTemplateLibrary(newLibrary);
+                }}
+                onDeleteTemplate={onDeleteTemplate}
+                onDeleteLibrary={onDeleteTemplateLibrary}
+              />
+              <FieldLibraryBrowser
               customFields={customFields}
               fieldLibraries={fieldLibraries}
               onAddField={(type, customFieldTypeId, libraryId) => {
@@ -278,6 +324,7 @@ export function FormBuilder({ customFields, fieldLibraries, onSaveCustomField, o
                 };
               })() : null}
             />
+            </div>
           </div>
           <div className="form-builder-main">
           <main className="form-canvas">
@@ -376,7 +423,26 @@ export function FormBuilder({ customFields, fieldLibraries, onSaveCustomField, o
       {activeTab === 'split' && (
         <div className="split-layout-with-browser">
           <div className="split-library-panel">
-            <FieldLibraryBrowser
+            <div className="library-panel-stack">
+              <TemplateLibraryBrowser
+                templates={templates}
+                templateLibraries={templateLibraries}
+                activeTemplateId={activeTemplate.id}
+                onSelectTemplate={onSelectTemplate}
+                onCreateTemplate={onCreateTemplate}
+                onCreateLibrary={(name, parentId) => {
+                  const newLibrary: TemplateLibrary = {
+                    id: generateId(),
+                    name,
+                    description: '',
+                    parentId,
+                  };
+                  onSaveTemplateLibrary(newLibrary);
+                }}
+                onDeleteTemplate={onDeleteTemplate}
+                onDeleteLibrary={onDeleteTemplateLibrary}
+              />
+              <FieldLibraryBrowser
               customFields={customFields}
               fieldLibraries={fieldLibraries}
               onAddField={(type, customFieldTypeId, libraryId) => {
@@ -410,6 +476,7 @@ export function FormBuilder({ customFields, fieldLibraries, onSaveCustomField, o
                 };
               })() : null}
             />
+            </div>
           </div>
           <div className="split-panel builder-panel">
             <div className="split-panel-header">Builder</div>

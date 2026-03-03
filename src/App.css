@@ -271,6 +271,11 @@ body {
   width: 280px;
   flex-shrink: 0;
   height: 100%;
+  overflow: hidden;
+}
+
+.split-library-panel .library-panel-stack {
+  height: 100%;
 }
 
 .split-library-panel .library-browser {
@@ -2137,6 +2142,22 @@ body {
   transform: scale(1.1);
 }
 
+/* Move target hint */
+.move-target-hint {
+  font-size: 0.7rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  padding: 2px 8px;
+  background: var(--primary-light);
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.field-item.is-moving {
+  opacity: 0.6;
+  border-style: dashed;
+}
+
 /* Search Results */
 .search-results-header {
   font-size: 0.75rem;
@@ -2222,11 +2243,27 @@ body {
   height: calc(100vh - 120px);
   position: sticky;
   top: 24px;
+  overflow-y: auto;
+}
+
+/* Stacked library panels (template library + field library) */
+.library-panel-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+}
+
+.library-panel-stack .library-browser {
+  flex: 1;
+  min-height: 0;
 }
 
 .form-builder-main {
   flex: 1;
   min-width: 0;
+  overflow-y: auto;
+  max-height: calc(100vh - 120px);
 }
 
 /* Library Browser Header Row */

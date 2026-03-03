@@ -67,7 +67,9 @@ export function FieldLibraryBrowser({
 
     // First pass: create nodes for all libraries
     fieldLibraries.forEach(library => {
-      const fields = customFields.filter(cf => cf.libraryIds?.includes(library.id));
+      const fields = customFields
+        .filter(cf => cf.libraryIds?.includes(library.id))
+        .sort((a, b) => a.name.localeCompare(b.name));
       libraryMap.set(library.id, {
         library,
         children: [],
@@ -84,6 +86,13 @@ export function FieldLibraryBrowser({
         rootLibraries.push(node);
       }
     });
+
+    // Sort libraries and their children alphabetically
+    const sortNodes = (nodes: LibraryNode[]) => {
+      nodes.sort((a, b) => a.library.name.localeCompare(b.library.name));
+      nodes.forEach(node => sortNodes(node.children));
+    };
+    sortNodes(rootLibraries);
 
     return rootLibraries;
   }, [fieldLibraries, customFields]);
@@ -126,6 +135,12 @@ export function FieldLibraryBrowser({
           isStandard: false,
         });
       }
+    });
+
+    results.sort((a, b) => {
+      const nameA = a.isStandard ? (a.field as { label: string }).label : (a.field as CustomFieldType).name;
+      const nameB = b.isStandard ? (b.field as { label: string }).label : (b.field as CustomFieldType).name;
+      return nameA.localeCompare(nameB);
     });
 
     return results;
