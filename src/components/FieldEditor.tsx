@@ -1,8 +1,9 @@
-import type { FormField, FieldType, CustomFieldType, FieldLibrary } from '../types';
+import type { FormField, FieldType, CustomFieldType, FieldLibrary, FormSchema } from '../types';
 import { FIELD_TYPES } from './FormBuilder';
 
 interface FieldEditorProps {
   field: FormField;
+  position: number;
   onUpdate: (field: FormField) => void;
   onDelete: (id: string) => void;
   isFocused: boolean;
@@ -10,11 +11,14 @@ interface FieldEditorProps {
   onBlur: () => void;
   customFields?: CustomFieldType[];
   fieldLibraries?: FieldLibrary[];
+  templates?: FormSchema[];
+  currentTemplateId?: string;
   onEditFieldType?: (fieldType: CustomFieldType) => void;
 }
 
 export function FieldEditor({
   field,
+  position,
   onUpdate,
   onDelete,
   isFocused,
@@ -22,6 +26,8 @@ export function FieldEditor({
   onBlur,
   customFields = [],
   fieldLibraries = [],
+  templates = [],
+  currentTemplateId,
   onEditFieldType,
 }: FieldEditorProps) {
 
@@ -32,6 +38,8 @@ export function FieldEditor({
     : [];
   
   const isLibraryField = fieldLibraryId && libraryFields.length > 0;
+  const isTemplateComponentField = field.type === 'template';
+  const availableTemplates = templates.filter((template) => template.id !== currentTemplateId);
 
   const handleTypeChange = (value: string) => {
     if (isLibraryField) {
@@ -61,7 +69,7 @@ export function FieldEditor({
   };
 
   // Get the current value for the select
-  const selectValue = isLibraryField 
+  const selectValue = isLibraryField
     ? (field.customFieldTypeId || libraryFields[0]?.id || '')
     : field.type;
 
@@ -88,26 +96,33 @@ export function FieldEditor({
     >
       <div className="field-editor-header">
         <div className="field-editor-title">
-          <select
-            className="field-type-select"
-            value={selectValue}
-            onChange={(e) => handleTypeChange(e.target.value)}
-            onClick={(e) => e.stopPropagation()}
-          >
-            {isLibraryField ? (
-              libraryFields.map((cf) => (
-                <option key={cf.id} value={cf.id}>
-                  {cf.icon} {cf.name}
-                </option>
-              ))
-            ) : (
-              FIELD_TYPES.map(({ type, label, icon }) => (
-                <option key={type} value={type}>
-                  {icon} {label}
-                </option>
-              ))
-            )}
-          </select>
+          <span className="field-order-badge" title={`Field ${position} in template`}>
+            {position}
+          </span>
+          {isTemplateComponentField ? (
+            <span className="field-type-badge">🧩 Component</span>
+          ) : (
+            <select
+              className="field-type-select"
+              value={selectValue}
+              onChange={(e) => handleTypeChange(e.target.value)}
+              onClick={(e) => e.stopPropagation()}
+            >
+              {isLibraryField ? (
+                libraryFields.map((cf) => (
+                  <option key={cf.id} value={cf.id}>
+                    {cf.icon} {cf.name}
+                  </option>
+                ))
+              ) : (
+                FIELD_TYPES.map(({ type, label, icon }) => (
+                  <option key={type} value={type}>
+                    {icon} {label}
+                  </option>
+                ))
+              )}
+            </select>
+          )}
           {fieldLibrary && (
             <span className="field-library-badge" title={`From library: ${fieldLibrary.name}`}>
               📁 {fieldLibrary.name}
@@ -131,7 +146,7 @@ export function FieldEditor({
             value={field.label}
             onChange={(e) => onUpdate({ ...field, label: e.target.value })}
             onClick={(e) => e.stopPropagation()}
-            placeholder="Untitled Field"
+            placeholder={isTemplateComponentField ? 'Component Name' : 'Untitled Field'}
           />
         </div>
         <div className="field-editor-actions">
@@ -147,6 +162,26 @@ export function FieldEditor({
       </div>
 
       <div className="field-editor-body">
+          {isTemplateComponentField ? (
+            <div className="form-group">
+              <label>Referenced Template</label>
+              <select
+                value={field.componentTemplateId || ''}
+                onChange={(e) => onUpdate({ ...field, componentTemplateId: e.target.value || undefined })}
+              >
+                <option value="">Select a template...</option>
+                {availableTemplates.map((template) => (
+                  <option key={template.id} value={template.id}>
+                    {template.title || 'Untitled Template'}
+                  </option>
+                ))}
+              </select>
+              {availableTemplates.length === 0 && (
+                <span className="input-hint">No other templates available to reference.</span>
+              )}
+            </div>
+          ) : (
+            <>
           <div className="form-group">
             <label>Placeholder Text</label>
             <input
@@ -193,6 +228,8 @@ export function FieldEditor({
               <span>Allow Multiple Values</span>
             </label>
           </div>
+            </>
+          )}
         </div>
     </div>
   );

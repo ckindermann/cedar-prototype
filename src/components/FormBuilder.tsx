@@ -19,6 +19,8 @@ interface SavedVersion {
   schema: FormSchema;
 }
 
+type BuilderProfile = 'basic' | 'semantic' | 'modular';
+
 const formatVersionId = (date: Date): string => {
   const pad = (n: number) => n.toString().padStart(2, '0');
   return `${date.getFullYear()}${pad(date.getMonth() + 1)}${pad(date.getDate())}-${pad(date.getHours())}${pad(date.getMinutes())}${pad(date.getSeconds())}`;
@@ -57,8 +59,12 @@ interface FormBuilderProps {
   onSelectTemplate: (templateId: string) => void;
   onCreateTemplate: (libraryId?: string) => void;
   onDeleteTemplate: (templateId: string) => void;
+  onMoveTemplate: (templateId: string, targetLibraryId?: string) => void;
   onSaveTemplateLibrary: (library: TemplateLibrary) => void;
+  onMoveTemplateLibrary: (libraryId: string, targetParentId?: string) => void;
   onDeleteTemplateLibrary: (id: string) => void;
+  onMoveCustomField: (fieldTypeId: string, targetLibraryId?: string) => void;
+  onMoveFieldLibrary: (libraryId: string, targetParentId?: string) => void;
 }
 
 export function FormBuilder({
@@ -73,8 +79,12 @@ export function FormBuilder({
   onSelectTemplate,
   onCreateTemplate,
   onDeleteTemplate,
+  onMoveTemplate,
   onSaveTemplateLibrary,
+  onMoveTemplateLibrary,
   onDeleteTemplateLibrary,
+  onMoveCustomField,
+  onMoveFieldLibrary,
 }: FormBuilderProps) {
   // Use the activeTemplate as the schema, syncing changes back via onUpdateTemplate
   const schema = activeTemplate;
@@ -86,7 +96,6 @@ export function FormBuilder({
     }
   };
 
-  const [activeTab, setActiveTab] = useState<'builder' | 'preview' | 'split'>('split');
   const [focusedFieldId, setFocusedFieldId] = useState<string | null>(null);
   const [draggedFieldId, setDraggedFieldId] = useState<string | null>(null);
   const [dropTargetIndex, setDropTargetIndex] = useState<number | null>(null);
@@ -100,6 +109,7 @@ export function FormBuilder({
   const [librarySearchQuery, setLibrarySearchQuery] = useState('');
   const [searchTemplates, setSearchTemplates] = useState(true);
   const [searchFields, setSearchFields] = useState(true);
+  const [activeProfile, setActiveProfile] = useState<BuilderProfile>('basic');
 
   // Auto-dismiss toast after 5 seconds
   useEffect(() => {
@@ -110,6 +120,39 @@ export function FormBuilder({
       return () => clearTimeout(timer);
     }
   }, [deletedField]);
+
+  const profileIncludes = (minimumProfile: BuilderProfile): boolean => {
+    const profileOrder: Record<BuilderProfile, number> = {
+      basic: 0,
+      semantic: 1,
+      modular: 2,
+    };
+    return profileOrder[activeProfile] >= profileOrder[minimumProfile];
+  };
+
+  const templateDependsOn = (
+    sourceTemplateId: string,
+    targetTemplateId: string,
+    visited = new Set<string>(),
+  ): boolean => {
+    if (visited.has(sourceTemplateId)) return false;
+    visited.add(sourceTemplateId);
+
+    const sourceTemplate = templates.find((template) => template.id === sourceTemplateId);
+    if (!sourceTemplate) return false;
+
+    return sourceTemplate.fields.some((field) => {
+      if (field.type !== 'template' || !field.componentTemplateId) return false;
+      if (field.componentTemplateId === targetTemplateId) return true;
+      return templateDependsOn(field.componentTemplateId, targetTemplateId, visited);
+    });
+  };
+
+  const canAddTemplateAsComponent = (templateId: string): boolean => {
+    if (!profileIncludes('modular')) return false;
+    if (templateId === schema.id) return false;
+    return !templateDependsOn(templateId, schema.id);
+  };
 
   const addField = (type: FieldType, customFieldTypeId?: string, libraryId?: string | null) => {
     const customField = customFieldTypeId ? customFields.find(cf => cf.id === customFieldTypeId) : undefined;
@@ -125,6 +168,29 @@ export function FormBuilder({
       multiple: false,
       options: type === 'select' ? ['Option 1', 'Option 2', 'Option 3'] : undefined,
       validationRules: customField?.validationRules ? [...customField.validationRules] : undefined,
+    };
+
+    setSchema((prev) => ({
+      ...prev,
+      fields: [...prev.fields, newField],
+    }));
+  };
+
+  const addTemplateComponent = (templateId: string) => {
+    if (!canAddTemplateAsComponent(templateId)) return;
+
+    const referencedTemplate = templates.find((template) => template.id === templateId);
+    const componentName = referencedTemplate?.title
+      ? `${referencedTemplate.title} Component`
+      : 'Template Component';
+
+    const newField: FormField = {
+      id: generateId(),
+      type: 'template',
+      componentTemplateId: templateId,
+      label: componentName,
+      required: false,
+      multiple: false,
     };
 
     setSchema((prev) => ({
@@ -234,258 +300,71 @@ export function FormBuilder({
     setIsVersionDropdownOpen(false);
   };
 
+  const renderVersionControl = () => (
+    <div className="version-control">
+      <button className="save-button" onClick={saveVersion}>
+        💾 Save
+      </button>
+      <div className="version-dropdown-container">
+        <button
+          className="version-dropdown-trigger"
+          onClick={() => setIsVersionDropdownOpen(!isVersionDropdownOpen)}
+        >
+          {currentVersionId ? `v${currentVersionId}` : 'No saved versions'}
+          <span className="dropdown-arrow">{isVersionDropdownOpen ? '▲' : '▼'}</span>
+        </button>
+        {isVersionDropdownOpen && (
+          <div className="version-dropdown">
+            {savedVersions.length === 0 ? (
+              <div className="version-dropdown-empty">No saved versions yet</div>
+            ) : (
+              savedVersions.map((version) => (
+                <button
+                  key={version.id}
+                  className={`version-option ${version.id === currentVersionId ? 'active' : ''}`}
+                  onClick={() => loadVersion(version)}
+                >
+                  <span className="version-id">v{version.id}</span>
+                  <span className="version-date">{formatVersionDisplay(version.timestamp)}</span>
+                </button>
+              ))
+            )}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+
   return (
     <div className="form-builder">
       <header className="form-builder-header">
         <h1>Template Builder</h1>
-        <div className="tab-buttons">
+        <div className="builder-mode-buttons" aria-label="Builder modes">
           <button
-            className={`tab-button ${activeTab === 'builder' ? 'active' : ''}`}
-            onClick={() => setActiveTab('builder')}
+            type="button"
+            className={`builder-mode-button ${activeProfile === 'basic' ? 'is-active' : ''}`}
+            onClick={() => setActiveProfile('basic')}
           >
-            ✏️ Builder
+            Basic
           </button>
           <button
-            className={`tab-button ${activeTab === 'split' ? 'active' : ''}`}
-            onClick={() => setActiveTab('split')}
+            type="button"
+            className={`builder-mode-button ${activeProfile === 'semantic' ? 'is-active' : ''}`}
+            onClick={() => setActiveProfile('semantic')}
           >
-            ⬛ Split
+            Semantic
           </button>
           <button
-            className={`tab-button ${activeTab === 'preview' ? 'active' : ''}`}
-            onClick={() => setActiveTab('preview')}
+            type="button"
+            className={`builder-mode-button ${activeProfile === 'modular' ? 'is-active' : ''}`}
+            onClick={() => setActiveProfile('modular')}
           >
-            👁️ Preview
+            Modular
           </button>
-        </div>
-        <div className="header-actions">
-          <div className="version-control">
-            <button className="save-button" onClick={saveVersion}>
-              💾 Save
-            </button>
-            <div className="version-dropdown-container">
-              <button
-                className="version-dropdown-trigger"
-                onClick={() => setIsVersionDropdownOpen(!isVersionDropdownOpen)}
-              >
-                {currentVersionId ? `v${currentVersionId}` : 'No saved versions'}
-                <span className="dropdown-arrow">{isVersionDropdownOpen ? '▲' : '▼'}</span>
-              </button>
-              {isVersionDropdownOpen && (
-                <div className="version-dropdown">
-                  {savedVersions.length === 0 ? (
-                    <div className="version-dropdown-empty">No saved versions yet</div>
-                  ) : (
-                    savedVersions.map((version) => (
-                      <button
-                        key={version.id}
-                        className={`version-option ${version.id === currentVersionId ? 'active' : ''}`}
-                        onClick={() => loadVersion(version)}
-                      >
-                        <span className="version-id">v{version.id}</span>
-                        <span className="version-date">{formatVersionDisplay(version.timestamp)}</span>
-                      </button>
-                    ))
-                  )}
-                </div>
-              )}
-            </div>
-          </div>
         </div>
       </header>
 
-      {activeTab === 'builder' && (
-        <div className="form-builder-with-panel">
-          <div className="library-panel">
-            <div className="library-panel-stack">
-              <div className="unified-search">
-                <div className="unified-search-bar">
-                  <span className="search-icon">🔍</span>
-                  <input
-                    type="text"
-                    placeholder="Search..."
-                    value={librarySearchQuery}
-                    onChange={(e) => setLibrarySearchQuery(e.target.value)}
-                  />
-                </div>
-                <div className="search-filters">
-                  <label className="search-filter-checkbox">
-                    <input
-                      type="checkbox"
-                      checked={searchTemplates}
-                      onChange={(e) => setSearchTemplates(e.target.checked)}
-                    />
-                    <span>Templates</span>
-                  </label>
-                  <label className="search-filter-checkbox">
-                    <input
-                      type="checkbox"
-                      checked={searchFields}
-                      onChange={(e) => setSearchFields(e.target.checked)}
-                    />
-                    <span>Fields</span>
-                  </label>
-                </div>
-              </div>
-              <TemplateLibraryBrowser
-                templates={templates}
-                templateLibraries={templateLibraries}
-                activeTemplateId={activeTemplate.id}
-                onSelectTemplate={onSelectTemplate}
-                onCreateTemplate={onCreateTemplate}
-                onCreateLibrary={(name, parentId) => {
-                  const newLibrary: TemplateLibrary = {
-                    id: generateId(),
-                    name,
-                    description: '',
-                    parentId,
-                  };
-                  onSaveTemplateLibrary(newLibrary);
-                }}
-                onDeleteTemplate={onDeleteTemplate}
-                onDeleteLibrary={onDeleteTemplateLibrary}
-                searchQuery={searchTemplates ? librarySearchQuery : ''}
-              />
-              <FieldLibraryBrowser
-              customFields={customFields}
-              fieldLibraries={fieldLibraries}
-              onAddField={(type, customFieldTypeId, libraryId) => {
-                addField(type, customFieldTypeId, libraryId);
-              }}
-              onCreateLibrary={(name, parentId) => {
-                const newLibrary: FieldLibrary = {
-                  id: generateId(),
-                  name,
-                  description: '',
-                  parentId,
-                };
-                onSaveLibrary(newLibrary);
-              }}
-              onCreateFieldType={(libraryId) => {
-                setCreateFieldForLibraryId(libraryId);
-                setEditingFieldType(null);
-                setIsCreateFieldModalOpen(true);
-              }}
-              onEditFieldType={(fieldType) => {
-                setEditingFieldType(fieldType);
-                setIsCreateFieldModalOpen(true);
-              }}
-              highlightedFieldType={focusedFieldId ? (() => {
-                const field = schema.fields.find(f => f.id === focusedFieldId);
-                if (!field) return null;
-                return {
-                  type: field.type,
-                  customFieldTypeId: field.customFieldTypeId,
-                  libraryId: field.libraryId,
-                };
-              })() : null}
-              searchQuery={searchFields ? librarySearchQuery : ''}
-            />
-            </div>
-          </div>
-          <div className="form-builder-main">
-          <main className="form-canvas">
-            <div className="form-meta">
-              <input
-                type="text"
-                className="form-title-input"
-                value={schema.title}
-                onChange={(e) => setSchema((prev) => ({ ...prev, title: e.target.value }))}
-                placeholder="Template Title"
-              />
-              <textarea
-                className="form-description-input"
-                value={schema.description}
-                onChange={(e) => setSchema((prev) => ({ ...prev, description: e.target.value }))}
-                placeholder="Add a description for your template (optional)"
-                rows={2}
-              />
-            </div>
-
-            <div className={`fields-list ${draggedFieldId ? 'dragging-mode' : ''}`}>
-              {schema.fields.length === 0 ? (
-                <div className="empty-state">
-                  <span className="empty-icon">📝</span>
-                  <h3>Start building your template</h3>
-                  <p>Select a field from the library to add it.</p>
-                </div>
-              ) : (
-                <>
-                  {schema.fields.map((field, index) => {
-                    const isDragging = draggedFieldId === field.id;
-                    const draggedIndex = schema.fields.findIndex(f => f.id === draggedFieldId);
-                    const showDropBefore = draggedFieldId && 
-                      dropTargetIndex === index &&
-                      index !== draggedIndex &&
-                      index !== draggedIndex + 1;
-
-                    return (
-                      <div key={field.id}>
-                        {showDropBefore && (
-                          <div className="drop-indicator">
-                            <span className="drop-indicator-line"></span>
-                          </div>
-                        )}
-                        <div
-                          className={`field-drag-wrapper ${isDragging ? 'is-dragging' : ''}`}
-                          draggable
-                          onDragStart={(e) => {
-                            e.dataTransfer.effectAllowed = 'move';
-                            handleDragStart(field.id);
-                          }}
-                          onDragEnd={handleDragEnd}
-                          onDragOver={(e) => handleDragOver(e, index)}
-                          onDrop={(e) => handleDrop(e, index)}
-                        >
-                          <FieldEditor
-                            field={field}
-                            onUpdate={updateField}
-                            onDelete={deleteField}
-                            isFocused={focusedFieldId === field.id}
-                            onFocus={() => setFocusedFieldId(field.id)}
-                            onBlur={() => setFocusedFieldId(null)}
-                            customFields={customFields}
-                            fieldLibraries={fieldLibraries}
-                            onEditFieldType={(fieldType) => {
-                              setEditingFieldType(fieldType);
-                              setIsCreateFieldModalOpen(true);
-                            }}
-                          />
-                        </div>
-                      </div>
-                    );
-                  })}
-                  {/* Drop zone at the end of the list */}
-                  {draggedFieldId && (
-                    <div
-                      className={`drop-zone-end ${dropTargetIndex === schema.fields.length ? 'active' : ''}`}
-                      onDragOver={(e) => handleDragOver(e, schema.fields.length)}
-                      onDragLeave={handleDragLeave}
-                      onDrop={(e) => handleDrop(e, schema.fields.length)}
-                    >
-                      {dropTargetIndex === schema.fields.length && (
-                        <div className="drop-indicator">
-                          <span className="drop-indicator-line"></span>
-                        </div>
-                      )}
-                    </div>
-                  )}
-                </>
-              )}
-            </div>
-          </main>
-          </div>
-        </div>
-      )}
-
-      {activeTab === 'preview' && (
-        <div className="preview-layout">
-          <FormPreview schema={schema} focusedFieldId={null} />
-        </div>
-      )}
-
-      {activeTab === 'split' && (
-        <div className="split-layout-with-browser">
+      <div className="split-layout-with-browser">
           <div className="split-library-panel">
             <div className="library-panel-stack">
               <div className="unified-search">
@@ -523,6 +402,9 @@ export function FormBuilder({
                 activeTemplateId={activeTemplate.id}
                 onSelectTemplate={onSelectTemplate}
                 onCreateTemplate={onCreateTemplate}
+                onMoveTemplate={onMoveTemplate}
+                onAddTemplateComponent={profileIncludes('modular') ? addTemplateComponent : undefined}
+                canAddTemplateComponent={canAddTemplateAsComponent}
                 onCreateLibrary={(name, parentId) => {
                   const newLibrary: TemplateLibrary = {
                     id: generateId(),
@@ -532,6 +414,7 @@ export function FormBuilder({
                   };
                   onSaveTemplateLibrary(newLibrary);
                 }}
+                onMoveLibrary={onMoveTemplateLibrary}
                 onDeleteTemplate={onDeleteTemplate}
                 onDeleteLibrary={onDeleteTemplateLibrary}
                 searchQuery={searchTemplates ? librarySearchQuery : ''}
@@ -556,6 +439,8 @@ export function FormBuilder({
                 setEditingFieldType(null);
                 setIsCreateFieldModalOpen(true);
               }}
+              onMoveFieldType={onMoveCustomField}
+              onMoveLibrary={onMoveFieldLibrary}
               onEditFieldType={(fieldType) => {
                 setEditingFieldType(fieldType);
                 setIsCreateFieldModalOpen(true);
@@ -574,7 +459,10 @@ export function FormBuilder({
             </div>
           </div>
           <div className="split-panel builder-panel">
-            <div className="split-panel-header">Builder</div>
+            <div className="split-panel-header builder-panel-header">
+              <span className="builder-panel-title">Builder</span>
+              {renderVersionControl()}
+            </div>
             <main className="form-canvas">
               <div className="form-meta">
                 <input
@@ -630,16 +518,19 @@ export function FormBuilder({
                           >
                             <FieldEditor
                               field={field}
+                              position={index + 1}
                               onUpdate={updateField}
                               onDelete={deleteField}
                               isFocused={focusedFieldId === field.id}
-                              onFocus={() => setFocusedFieldId(field.id)}
-                              onBlur={() => setFocusedFieldId(null)}
-                              customFields={customFields}
-                              fieldLibraries={fieldLibraries}
-                              onEditFieldType={(fieldType) => {
-                                setEditingFieldType(fieldType);
-                                setIsCreateFieldModalOpen(true);
+                            onFocus={() => setFocusedFieldId(field.id)}
+                            onBlur={() => setFocusedFieldId(null)}
+                            customFields={customFields}
+                            fieldLibraries={fieldLibraries}
+                            templates={templates}
+                            currentTemplateId={schema.id}
+                            onEditFieldType={(fieldType) => {
+                              setEditingFieldType(fieldType);
+                              setIsCreateFieldModalOpen(true);
                               }}
                             />
                           </div>
@@ -669,11 +560,10 @@ export function FormBuilder({
           <div className="split-panel preview-panel">
             <div className="split-panel-header">Preview</div>
             <div className="preview-layout">
-              <FormPreview schema={schema} focusedFieldId={focusedFieldId} />
+              <FormPreview schema={schema} focusedFieldId={focusedFieldId} templates={templates} />
             </div>
           </div>
         </div>
-      )}
 
       {deletedField && (
         <div className="undo-toast">

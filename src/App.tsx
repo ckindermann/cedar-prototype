@@ -1,13 +1,11 @@
 import { useState } from 'react'
 import { FormBuilder } from './components/FormBuilder'
-import { FieldDesigner } from './components/FieldDesigner'
 import type { CustomFieldType, FieldLibrary, FormSchema, TemplateLibrary } from './types'
 import './App.css'
 
 const generateId = () => Math.random().toString(36).substring(2, 11);
 
 function App() {
-  const [activeSection, setActiveSection] = useState<'forms' | 'fields'>('forms');
   const [customFields, setCustomFields] = useState<CustomFieldType[]>([]);
   const [fieldLibraries, setFieldLibraries] = useState<FieldLibrary[]>([]);
 
@@ -30,10 +28,6 @@ function App() {
     });
   };
 
-  const handleDeleteCustomField = (id: string) => {
-    setCustomFields(prev => prev.filter(f => f.id !== id));
-  };
-
   const handleSaveLibrary = (library: FieldLibrary) => {
     setFieldLibraries(prev => {
       const existingIndex = prev.findIndex(l => l.id === library.id);
@@ -46,17 +40,6 @@ function App() {
     });
   };
 
-  const handleDeleteLibrary = (id: string) => {
-    // Remove library and unassign any fields that were in it
-    setFieldLibraries(prev => prev.filter(l => l.id !== id));
-    setCustomFields(prev => prev.map(f => 
-      f.libraryIds?.includes(id) 
-        ? { ...f, libraryIds: f.libraryIds.filter(libId => libId !== id) } 
-        : f
-    ));
-  };
-
-  // Template management handlers
   const activeTemplate = templates.find(t => t.id === activeTemplateId) || templates[0];
 
   const handleUpdateTemplate = (schema: FormSchema) => {
@@ -97,6 +80,14 @@ function App() {
     });
   };
 
+  const handleMoveTemplate = (templateId: string, targetLibraryId?: string) => {
+    setTemplates(prev =>
+      prev.map(t =>
+        t.id === templateId ? { ...t, libraryId: targetLibraryId } : t
+      )
+    );
+  };
+
   const handleSaveTemplateLibrary = (library: TemplateLibrary) => {
     setTemplateLibraries(prev => {
       const existingIndex = prev.findIndex(l => l.id === library.id);
@@ -109,6 +100,14 @@ function App() {
     });
   };
 
+  const handleMoveTemplateLibrary = (libraryId: string, targetParentId?: string) => {
+    setTemplateLibraries(prev =>
+      prev.map(l =>
+        l.id === libraryId ? { ...l, parentId: targetParentId } : l
+      )
+    );
+  };
+
   const handleDeleteTemplateLibrary = (id: string) => {
     // Remove library and unassign any templates that were in it
     setTemplateLibraries(prev => prev.filter(l => l.id !== id));
@@ -117,49 +116,45 @@ function App() {
     ));
   };
 
+  const handleMoveCustomField = (fieldTypeId: string, targetLibraryId?: string) => {
+    setCustomFields(prev =>
+      prev.map(field =>
+        field.id === fieldTypeId
+          ? { ...field, libraryIds: targetLibraryId ? [targetLibraryId] : undefined }
+          : field
+      )
+    );
+  };
+
+  const handleMoveFieldLibrary = (libraryId: string, targetParentId?: string) => {
+    setFieldLibraries(prev =>
+      prev.map(l =>
+        l.id === libraryId ? { ...l, parentId: targetParentId } : l
+      )
+    );
+  };
+
   return (
     <div className="app-container">
-      <nav className="app-nav">
-        <button
-          className={`nav-button ${activeSection === 'forms' ? 'active' : ''}`}
-          onClick={() => setActiveSection('forms')}
-        >
-          📋 Template Builder
-        </button>
-        <button
-          className={`nav-button ${activeSection === 'fields' ? 'active' : ''}`}
-          onClick={() => setActiveSection('fields')}
-        >
-          🔧 Field Designer
-        </button>
-      </nav>
-
-      {activeSection === 'forms' ? (
-        <FormBuilder 
-          customFields={customFields} 
-          fieldLibraries={fieldLibraries}
-          onSaveCustomField={handleSaveCustomField}
-          onSaveLibrary={handleSaveLibrary}
-          templates={templates}
-          activeTemplate={activeTemplate}
-          templateLibraries={templateLibraries}
-          onUpdateTemplate={handleUpdateTemplate}
-          onSelectTemplate={(id) => setActiveTemplateId(id)}
-          onCreateTemplate={handleCreateTemplate}
-          onDeleteTemplate={handleDeleteTemplate}
-          onSaveTemplateLibrary={handleSaveTemplateLibrary}
-          onDeleteTemplateLibrary={handleDeleteTemplateLibrary}
-        />
-      ) : (
-        <FieldDesigner
-          customFields={customFields}
-          fieldLibraries={fieldLibraries}
-          onSaveField={handleSaveCustomField}
-          onDeleteField={handleDeleteCustomField}
-          onSaveLibrary={handleSaveLibrary}
-          onDeleteLibrary={handleDeleteLibrary}
-        />
-      )}
+      <FormBuilder 
+        customFields={customFields} 
+        fieldLibraries={fieldLibraries}
+        onSaveCustomField={handleSaveCustomField}
+        onSaveLibrary={handleSaveLibrary}
+        templates={templates}
+        activeTemplate={activeTemplate}
+        templateLibraries={templateLibraries}
+        onUpdateTemplate={handleUpdateTemplate}
+        onSelectTemplate={(id) => setActiveTemplateId(id)}
+        onCreateTemplate={handleCreateTemplate}
+        onDeleteTemplate={handleDeleteTemplate}
+        onMoveTemplate={handleMoveTemplate}
+        onSaveTemplateLibrary={handleSaveTemplateLibrary}
+        onMoveTemplateLibrary={handleMoveTemplateLibrary}
+        onDeleteTemplateLibrary={handleDeleteTemplateLibrary}
+        onMoveCustomField={handleMoveCustomField}
+        onMoveFieldLibrary={handleMoveFieldLibrary}
+      />
     </div>
   );
 }

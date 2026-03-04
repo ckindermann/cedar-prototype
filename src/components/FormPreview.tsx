@@ -4,50 +4,109 @@ import type { FormField, FormSchema } from '../types';
 interface FormPreviewProps {
   schema: FormSchema;
   focusedFieldId: string | null;
+  templates?: FormSchema[];
 }
 
-export function FormPreview({ schema, focusedFieldId }: FormPreviewProps) {
+export function FormPreview({ schema, focusedFieldId, templates = [] }: FormPreviewProps) {
   const [values, setValues] = useState<Record<string, string | string[]>>({});
 
-  const handleChange = (fieldId: string, value: string, index?: number) => {
+  const handleChange = (valueKey: string, value: string, isMultiple: boolean, index?: number) => {
     setValues((prev) => {
-      const field = schema.fields.find((f) => f.id === fieldId);
-      if (field?.multiple && typeof index === 'number') {
-        const currentValues = (prev[fieldId] as string[]) || [''];
+      if (isMultiple && typeof index === 'number') {
+        const currentValues = (prev[valueKey] as string[]) || [''];
         const newValues = [...currentValues];
         newValues[index] = value;
-        return { ...prev, [fieldId]: newValues };
+        return { ...prev, [valueKey]: newValues };
       }
-      return { ...prev, [fieldId]: value };
+      return { ...prev, [valueKey]: value };
     });
   };
 
-  const addValue = (fieldId: string) => {
+  const addValue = (valueKey: string) => {
     setValues((prev) => {
-      const currentValues = (prev[fieldId] as string[]) || [''];
-      return { ...prev, [fieldId]: [...currentValues, ''] };
+      const currentValues = (prev[valueKey] as string[]) || [''];
+      return { ...prev, [valueKey]: [...currentValues, ''] };
     });
   };
 
-  const removeValue = (fieldId: string, index: number) => {
+  const removeValue = (valueKey: string, index: number) => {
     setValues((prev) => {
-      const currentValues = (prev[fieldId] as string[]) || [''];
+      const currentValues = (prev[valueKey] as string[]) || [''];
       if (currentValues.length <= 1) return prev;
       const newValues = currentValues.filter((_, i) => i !== index);
-      return { ...prev, [fieldId]: newValues };
+      return { ...prev, [valueKey]: newValues };
     });
   };
 
-  const renderField = (field: FormField) => {
+  const renderField = (
+    field: FormField,
+    position: number,
+    valueKey: string,
+    ancestry: Set<string>,
+  ): React.ReactNode => {
+    const isFocused = focusedFieldId === field.id;
+
+    if (field.type === 'template') {
+      const nestedTemplateId = field.componentTemplateId;
+      const nestedTemplate = nestedTemplateId
+        ? templates.find((template) => template.id === nestedTemplateId)
+        : undefined;
+      const hasCycle = nestedTemplate ? ancestry.has(nestedTemplate.id) : false;
+      const nextAncestry = nestedTemplate
+        ? new Set([...Array.from(ancestry), nestedTemplate.id])
+        : ancestry;
+
+      return (
+        <div className={`preview-field nested-template-component ${isFocused ? 'is-focused' : ''}`} key={valueKey}>
+          <label>
+            <span className="preview-field-order">{position}.</span>
+            {field.label || 'Template Component'}
+          </label>
+          <div className="nested-template-preview">
+            {!nestedTemplateId && (
+              <div className="nested-template-empty">No template selected.</div>
+            )}
+            {nestedTemplateId && !nestedTemplate && (
+              <div className="nested-template-empty">Referenced template was not found.</div>
+            )}
+            {nestedTemplate && hasCycle && (
+              <div className="nested-template-empty">Circular template reference detected.</div>
+            )}
+            {nestedTemplate && !hasCycle && (
+              <>
+                <div className="nested-template-header">
+                  {nestedTemplate.title || 'Untitled Template'}
+                </div>
+                {nestedTemplate.fields.length === 0 ? (
+                  <div className="nested-template-empty">No fields in this template.</div>
+                ) : (
+                  <div className="nested-template-fields">
+                    {nestedTemplate.fields.map((nestedField, nestedIndex) =>
+                      renderField(
+                        nestedField,
+                        nestedIndex + 1,
+                        `${valueKey}.${nestedField.id}`,
+                        nextAncestry,
+                      ),
+                    )}
+                  </div>
+                )}
+              </>
+            )}
+          </div>
+        </div>
+      );
+    }
+
     const fieldValues = field.multiple
-      ? ((values[field.id] as string[]) || [''])
-      : values[field.id] || '';
+      ? ((values[valueKey] as string[]) || [''])
+      : values[valueKey] || '';
 
     const renderInput = (value: string, index?: number) => {
       const inputProps = {
         value,
         onChange: (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) =>
-          handleChange(field.id, e.target.value, index),
+          handleChange(valueKey, e.target.value, field.multiple, index),
         placeholder: field.placeholder,
         required: field.required,
       };
@@ -74,24 +133,29 @@ export function FormPreview({ schema, focusedFieldId }: FormPreviewProps) {
               <input
                 type="checkbox"
                 checked={value === 'true'}
-                onChange={(e) => handleChange(field.id, e.target.checked ? 'true' : 'false', index)}
+                onChange={(e) => handleChange(valueKey, e.target.checked ? 'true' : 'false', field.multiple, index)}
               />
               <span>{field.placeholder || 'Yes'}</span>
             </label>
           );
 
-        default:
+        case 'text':
+        case 'email':
+        case 'number':
+        case 'date':
           return <input type={field.type} {...inputProps} />;
+
+        default:
+          return <input type="text" {...inputProps} />;
       }
     };
-
-    const isFocused = focusedFieldId === field.id;
 
     if (field.multiple && field.type !== 'checkbox') {
       const valuesArray = Array.isArray(fieldValues) ? fieldValues : [fieldValues];
       return (
-        <div className={`preview-field ${isFocused ? 'is-focused' : ''}`} key={field.id}>
+        <div className={`preview-field ${isFocused ? 'is-focused' : ''}`} key={valueKey}>
           <label>
+            <span className="preview-field-order">{position}.</span>
             {field.label}
             {field.required && <span className="required-asterisk">*</span>}
           </label>
@@ -103,14 +167,14 @@ export function FormPreview({ schema, focusedFieldId }: FormPreviewProps) {
                   <button
                     type="button"
                     className="remove-value-btn"
-                    onClick={() => removeValue(field.id, idx)}
+                    onClick={() => removeValue(valueKey, idx)}
                   >
                     ×
                   </button>
                 )}
               </div>
             ))}
-            <button type="button" className="add-value-btn" onClick={() => addValue(field.id)}>
+            <button type="button" className="add-value-btn" onClick={() => addValue(valueKey)}>
               + Add Another
             </button>
           </div>
@@ -119,8 +183,9 @@ export function FormPreview({ schema, focusedFieldId }: FormPreviewProps) {
     }
 
     return (
-      <div className={`preview-field ${isFocused ? 'is-focused' : ''}`} key={field.id}>
+      <div className={`preview-field ${isFocused ? 'is-focused' : ''}`} key={valueKey}>
         <label>
+          <span className="preview-field-order">{position}.</span>
           {field.label}
           {field.required && <span className="required-asterisk">*</span>}
         </label>
@@ -148,7 +213,9 @@ export function FormPreview({ schema, focusedFieldId }: FormPreviewProps) {
         {schema.description && <p className="preview-description">{schema.description}</p>}
       </div>
       <form className="preview-form" onSubmit={(e) => e.preventDefault()}>
-        {schema.fields.map((field) => renderField(field))}
+        {schema.fields.map((field, index) =>
+          renderField(field, index + 1, field.id, new Set([schema.id])),
+        )}
         <div className="preview-actions">
           <button type="submit" className="submit-btn">
             Submit

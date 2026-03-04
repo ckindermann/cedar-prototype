@@ -1,4 +1,4 @@
-export type FieldType = 'text' | 'email' | 'number' | 'date' | 'textarea' | 'select' | 'checkbox';
+export type FieldType = 'text' | 'email' | 'number' | 'date' | 'textarea' | 'select' | 'checkbox' | 'template';
 
 export interface ValidationRule {
   type: 'regex' | 'min' | 'max' | 'minLength' | 'maxLength';
@@ -36,6 +36,7 @@ export interface FormField {
   type: FieldType;
   customFieldTypeId?: string; // Reference to custom field type
   libraryId?: string; // Which library this field was created from (null = standard fields)
+  componentTemplateId?: string; // For template component fields
   label: string;
   placeholder?: string;
   required: boolean;

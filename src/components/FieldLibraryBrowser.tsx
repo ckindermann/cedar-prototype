@@ -8,6 +8,8 @@ interface FieldLibraryBrowserProps {
   onAddField: (type: FieldType, customFieldTypeId?: string, libraryId?: string) => void;
   onCreateLibrary: (name: string, parentId?: string) => void;
   onCreateFieldType: (libraryId: string) => void;
+  onMoveFieldType: (fieldTypeId: string, targetLibraryId?: string) => void;
+  onMoveLibrary: (libraryId: string, targetParentId?: string) => void;
   onEditFieldType?: (fieldType: CustomFieldType) => void;
   highlightedFieldType?: { type: FieldType; customFieldTypeId?: string; libraryId?: string } | null;
   searchQuery: string;
@@ -19,17 +21,24 @@ interface LibraryNode {
   fields: CustomFieldType[];
 }
 
+type DraggedFieldItem =
+  | { type: 'field'; id: string }
+  | { type: 'library'; id: string };
+
 export function FieldLibraryBrowser({
   customFields,
   fieldLibraries,
   onAddField,
   onCreateLibrary,
   onCreateFieldType,
+  onMoveFieldType,
+  onMoveLibrary,
   onEditFieldType,
   highlightedFieldType,
   searchQuery,
 }: FieldLibraryBrowserProps) {
   const [expandedLibraries, setExpandedLibraries] = useState<Set<string>>(new Set());
+  const [isCollapsed, setIsCollapsed] = useState(false);
   const [selectedField, setSelectedField] = useState<{
     field: CustomFieldType | { type: FieldType; label: string; icon: string };
     libraryId: string | null;
@@ -38,6 +47,8 @@ export function FieldLibraryBrowser({
   const [isStandardExpanded, setIsStandardExpanded] = useState(true);
   const [isCreatingLibrary, setIsCreatingLibrary] = useState<string | null>(null); // null = not creating, 'root' = root level, libraryId = sub-library
   const [newLibraryName, setNewLibraryName] = useState('');
+  const [draggedItem, setDraggedItem] = useState<DraggedFieldItem | null>(null);
+  const [dragOverTarget, setDragOverTarget] = useState<string | null>(null);
 
   // Auto-expand library containing highlighted field
   useEffect(() => {
@@ -159,18 +170,18 @@ export function FieldLibraryBrowser({
     });
   };
 
-  const handleAddSelectedField = () => {
-    if (!selectedField) return;
-
-    if (selectedField.isStandard) {
-      const standardField = selectedField.field as { type: FieldType; label: string; icon: string };
+  const handleAddField = (
+    field: CustomFieldType | { type: FieldType; label: string; icon: string },
+    isStandard: boolean,
+    libraryId: string | null,
+  ) => {
+    if (isStandard) {
+      const standardField = field as { type: FieldType; label: string; icon: string };
       onAddField(standardField.type);
     } else {
-      const customField = selectedField.field as CustomFieldType;
-      onAddField(customField.baseType, customField.id, selectedField.libraryId || undefined);
+      const customField = field as CustomFieldType;
+      onAddField(customField.baseType, customField.id, libraryId || undefined);
     }
-
-    setSelectedField(null);
   };
 
   const handleStartCreateLibrary = (parentId: string | null) => {
@@ -199,15 +210,92 @@ export function FieldLibraryBrowser({
     setNewLibraryName('');
   };
 
+  const resetDragState = () => {
+    setDraggedItem(null);
+    setDragOverTarget(null);
+  };
+
+  const getParentId = (libraryId: string): string | undefined => {
+    return fieldLibraries.find(l => l.id === libraryId)?.parentId;
+  };
+
+  const isValidLibraryMove = (libraryId: string, targetParentId?: string): boolean => {
+    if (!targetParentId) return true;
+    if (libraryId === targetParentId) return false;
+
+    let currentParentId: string | undefined = targetParentId;
+    while (currentParentId) {
+      if (currentParentId === libraryId) {
+        return false;
+      }
+      currentParentId = getParentId(currentParentId);
+    }
+    return true;
+  };
+
+  const canDropOnLibrary = (targetLibraryId: string): boolean => {
+    if (!draggedItem) return false;
+    if (draggedItem.type === 'field') return true;
+    return isValidLibraryMove(draggedItem.id, targetLibraryId);
+  };
+
+  const handleDropOnLibrary = (targetLibraryId: string, e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (!draggedItem || !canDropOnLibrary(targetLibraryId)) return;
+
+    if (draggedItem.type === 'field') {
+      onMoveFieldType(draggedItem.id, targetLibraryId);
+    } else {
+      onMoveLibrary(draggedItem.id, targetLibraryId);
+    }
+    setExpandedLibraries(prev => new Set([...prev, targetLibraryId]));
+    resetDragState();
+  };
+
+  const handleDropOnRoot = (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (!draggedItem) return;
+
+    if (draggedItem.type === 'field') {
+      onMoveFieldType(draggedItem.id, undefined);
+    } else if (isValidLibraryMove(draggedItem.id, undefined)) {
+      onMoveLibrary(draggedItem.id, undefined);
+    }
+    resetDragState();
+  };
+
   const renderLibraryNode = (node: LibraryNode, depth: number = 0): React.ReactNode => {
     const isExpanded = expandedLibraries.has(node.library.id);
     const hasContent = node.fields.length > 0 || node.children.length > 0 || isCreatingLibrary === node.library.id;
+    const libraryDragKey = `library:${node.library.id}`;
+    const isDraggingLibrary = draggedItem?.type === 'library' && draggedItem.id === node.library.id;
 
     return (
-      <div key={node.library.id} className="library-node">
+      <div key={node.library.id} className={`library-node ${isDraggingLibrary ? 'is-dragging' : ''}`}>
         <div
-          className="library-header"
+          className={`library-header ${dragOverTarget === libraryDragKey ? 'drag-over' : ''}`}
           onClick={() => toggleLibrary(node.library.id)}
+          draggable
+          onDragStart={(e) => {
+            e.dataTransfer.effectAllowed = 'move';
+            e.dataTransfer.setData('text/plain', `library:${node.library.id}`);
+            setDraggedItem({ type: 'library', id: node.library.id });
+          }}
+          onDragEnd={resetDragState}
+          onDragOver={(e) => {
+            if (!canDropOnLibrary(node.library.id)) return;
+            e.preventDefault();
+            e.dataTransfer.dropEffect = 'move';
+            setDragOverTarget(libraryDragKey);
+          }}
+          onDragLeave={() => {
+            if (dragOverTarget === libraryDragKey) {
+              setDragOverTarget(null);
+            }
+          }}
+          onDrop={(e) => handleDropOnLibrary(node.library.id, e)}
         >
           <span className="library-toggle">{hasContent ? (isExpanded ? '▼' : '▶') : '•'}</span>
           <span className="library-icon">{isExpanded ? '📂' : '📁'}</span>
@@ -273,28 +361,50 @@ export function FieldLibraryBrowser({
                   (selectedField.field as CustomFieldType).id === field.id 
                     ? 'selected' 
                     : ''
-                } ${isHighlighted(field.baseType, field.id, false) ? 'highlighted' : ''}`}
+                } ${isHighlighted(field.baseType, field.id, false) ? 'highlighted' : ''} ${
+                  draggedItem?.type === 'field' && draggedItem.id === field.id ? 'is-dragging' : ''
+                }`}
                 onClick={() => setSelectedField({
                   field,
                   libraryId: node.library.id,
                   isStandard: false,
                 })}
+                draggable
+                onDragStart={(e) => {
+                  e.dataTransfer.effectAllowed = 'move';
+                  e.dataTransfer.setData('text/plain', `field:${field.id}`);
+                  setDraggedItem({ type: 'field', id: field.id });
+                }}
+                onDragEnd={resetDragState}
               >
                 <span className="field-item-icon">{field.icon}</span>
                 <span className="field-item-name">{field.name}</span>
                 <span className="field-item-type">{field.baseType}</span>
-                {onEditFieldType && (
+                <div className="field-item-actions">
+                  {onEditFieldType && (
+                    <button
+                      className="field-item-edit-btn"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        onEditFieldType(field);
+                      }}
+                      title="Edit field type"
+                    >
+                      ✏️
+                    </button>
+                  )}
                   <button
-                    className="field-item-edit-btn"
+                    className="field-item-add-btn"
                     onClick={(e) => {
                       e.stopPropagation();
-                      onEditFieldType(field);
+                      handleAddField(field, false, node.library.id);
                     }}
-                    title="Edit field type"
+                    title={`Add ${field.name}`}
+                    aria-label={`Add ${field.name}`}
                   >
-                    ✏️
+                    +
                   </button>
-                )}
+                </div>
               </div>
             ))}
 
@@ -310,21 +420,55 @@ export function FieldLibraryBrowser({
   };
 
   return (
-    <div className="library-browser">
-      <div className="library-browser-header">
+    <div className={`library-browser ${isCollapsed ? 'collapsed' : ''}`}>
+      <div
+        className={`library-browser-header ${dragOverTarget === 'root' ? 'drag-over' : ''}`}
+        onDragOver={(e) => {
+          if (!draggedItem) return;
+          if (draggedItem.type === 'library' && !isValidLibraryMove(draggedItem.id, undefined)) {
+            return;
+          }
+          e.preventDefault();
+          e.dataTransfer.dropEffect = 'move';
+          setDragOverTarget('root');
+        }}
+        onDragLeave={() => {
+          if (dragOverTarget === 'root') {
+            setDragOverTarget(null);
+          }
+        }}
+        onDrop={handleDropOnRoot}
+      >
         <div className="library-header-row">
-          <h3>Field Library</h3>
-          <button
-            className="new-library-btn"
-            onClick={() => handleStartCreateLibrary(null)}
-            title="Create new library"
+          <h3
+            className="library-title-toggle"
+            onClick={() => setIsCollapsed((prev) => !prev)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                setIsCollapsed((prev) => !prev);
+              }
+            }}
+            tabIndex={0}
+            role="button"
+            aria-expanded={!isCollapsed}
+            title={isCollapsed ? 'Expand field library' : 'Collapse field library'}
           >
-            + New
-          </button>
+            {isCollapsed ? '▶' : '▼'} Field Library
+          </h3>
+          <div className="library-header-controls">
+            <button
+              className="new-library-btn"
+              onClick={() => handleStartCreateLibrary(null)}
+              title="Create new field library"
+            >
+              + New Library
+            </button>
+          </div>
         </div>
       </div>
 
-      <div className="library-tree">
+      {!isCollapsed && <div className="library-tree">
         {filteredResults ? (
           // Search results view
           <div className="tree-section">
@@ -347,12 +491,27 @@ export function FieldLibraryBrowser({
                       (selectedField.field as CustomFieldType).id === (result.field as CustomFieldType).id))
                       ? 'selected'
                       : ''
+                  } ${
+                    !result.isStandard &&
+                    draggedItem?.type === 'field' &&
+                    draggedItem.id === (result.field as CustomFieldType).id
+                      ? 'is-dragging'
+                      : ''
                   }`}
                   onClick={() => setSelectedField({
                     field: result.field,
                     libraryId: result.libraryId,
                     isStandard: result.isStandard,
                   })}
+                  draggable={!result.isStandard}
+                  onDragStart={(e) => {
+                    if (result.isStandard) return;
+                    const field = result.field as CustomFieldType;
+                    e.dataTransfer.effectAllowed = 'move';
+                    e.dataTransfer.setData('text/plain', `field:${field.id}`);
+                    setDraggedItem({ type: 'field', id: field.id });
+                  }}
+                  onDragEnd={resetDragState}
                 >
                   <span className="field-item-icon">
                     {result.isStandard 
@@ -365,6 +524,27 @@ export function FieldLibraryBrowser({
                       : (result.field as CustomFieldType).name}
                   </span>
                   <span className="field-item-type">{result.libraryName}</span>
+                  <div className="field-item-actions">
+                    <button
+                      className="field-item-add-btn"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleAddField(result.field, result.isStandard, result.libraryId);
+                      }}
+                      title={`Add ${
+                        result.isStandard
+                          ? (result.field as { label: string }).label
+                          : (result.field as CustomFieldType).name
+                      }`}
+                      aria-label={`Add ${
+                        result.isStandard
+                          ? (result.field as { label: string }).label
+                          : (result.field as CustomFieldType).name
+                      }`}
+                    >
+                      +
+                    </button>
+                  </div>
                 </div>
               ))
             )}
@@ -405,6 +585,19 @@ export function FieldLibraryBrowser({
                         <span className="field-item-icon">{fieldType.icon}</span>
                         <span className="field-item-name">{fieldType.label}</span>
                         <span className="field-item-type">{fieldType.type}</span>
+                        <div className="field-item-actions">
+                          <button
+                            className="field-item-add-btn"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              handleAddField(fieldType, true, null);
+                            }}
+                            title={`Add ${fieldType.label}`}
+                            aria-label={`Add ${fieldType.label}`}
+                          >
+                            +
+                          </button>
+                        </div>
                       </div>
                     ))}
                   </div>
@@ -437,40 +630,10 @@ export function FieldLibraryBrowser({
               
               {libraryTree.map(node => renderLibraryNode(node))}
               
-              {libraryTree.length === 0 && isCreatingLibrary !== 'root' && (
-                <div className="empty-libraries-hint">
-                  <p>No custom libraries yet</p>
-                  <button 
-                    className="create-first-library-btn"
-                    onClick={() => handleStartCreateLibrary(null)}
-                  >
-                    + Create your first library
-                  </button>
-                </div>
-              )}
             </div>
           </>
         )}
-      </div>
-
-      {/* Footer with Add button */}
-      <div className="library-browser-footer">
-        <button
-          className="add-to-template-btn"
-          onClick={handleAddSelectedField}
-          disabled={!selectedField}
-        >
-          {selectedField ? (
-            <>
-              + Add "{selectedField.isStandard 
-                ? (selectedField.field as { label: string }).label
-                : (selectedField.field as CustomFieldType).name}"
-            </>
-          ) : (
-            'Select a field to add'
-          )}
-        </button>
-      </div>
+      </div>}
     </div>
   );
 }
