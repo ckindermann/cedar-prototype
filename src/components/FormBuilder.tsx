@@ -87,8 +87,9 @@ export function FormBuilder({
   };
 
   const [activeTab, setActiveTab] = useState<'builder' | 'preview' | 'split'>('split');
-  const [movingFieldId, setMovingFieldId] = useState<string | null>(null);
   const [focusedFieldId, setFocusedFieldId] = useState<string | null>(null);
+  const [draggedFieldId, setDraggedFieldId] = useState<string | null>(null);
+  const [dropTargetIndex, setDropTargetIndex] = useState<number | null>(null);
   const [deletedField, setDeletedField] = useState<DeletedFieldInfo | null>(null);
   const [savedVersions, setSavedVersions] = useState<SavedVersion[]>([]);
   const [currentVersionId, setCurrentVersionId] = useState<string | null>(null);
@@ -96,6 +97,9 @@ export function FormBuilder({
   const [isCreateFieldModalOpen, setIsCreateFieldModalOpen] = useState(false);
   const [editingFieldType, setEditingFieldType] = useState<CustomFieldType | null>(null);
   const [createFieldForLibraryId, setCreateFieldForLibraryId] = useState<string | null>(null);
+  const [librarySearchQuery, setLibrarySearchQuery] = useState('');
+  const [searchTemplates, setSearchTemplates] = useState(true);
+  const [searchFields, setSearchFields] = useState(true);
 
   // Auto-dismiss toast after 5 seconds
   useEffect(() => {
@@ -178,15 +182,37 @@ export function FormBuilder({
 
       return { ...prev, fields: newFields };
     });
-    setMovingFieldId(null);
   };
 
-  const handleMoveClick = (fieldId: string) => {
-    setMovingFieldId(movingFieldId === fieldId ? null : fieldId);
+  const handleDragStart = (fieldId: string) => {
+    setDraggedFieldId(fieldId);
   };
 
-  const cancelMove = () => {
-    setMovingFieldId(null);
+  const handleDragEnd = () => {
+    if (draggedFieldId && dropTargetIndex !== null) {
+      moveFieldToPosition(draggedFieldId, dropTargetIndex);
+    }
+    setDraggedFieldId(null);
+    setDropTargetIndex(null);
+  };
+
+  const handleDragOver = (e: React.DragEvent, index: number) => {
+    e.preventDefault();
+    e.dataTransfer.dropEffect = 'move';
+    setDropTargetIndex(index);
+  };
+
+  const handleDragLeave = () => {
+    setDropTargetIndex(null);
+  };
+
+  const handleDrop = (e: React.DragEvent, index: number) => {
+    e.preventDefault();
+    if (draggedFieldId) {
+      moveFieldToPosition(draggedFieldId, index);
+    }
+    setDraggedFieldId(null);
+    setDropTargetIndex(null);
   };
 
   const saveVersion = () => {
@@ -272,6 +298,35 @@ export function FormBuilder({
         <div className="form-builder-with-panel">
           <div className="library-panel">
             <div className="library-panel-stack">
+              <div className="unified-search">
+                <div className="unified-search-bar">
+                  <span className="search-icon">🔍</span>
+                  <input
+                    type="text"
+                    placeholder="Search..."
+                    value={librarySearchQuery}
+                    onChange={(e) => setLibrarySearchQuery(e.target.value)}
+                  />
+                </div>
+                <div className="search-filters">
+                  <label className="search-filter-checkbox">
+                    <input
+                      type="checkbox"
+                      checked={searchTemplates}
+                      onChange={(e) => setSearchTemplates(e.target.checked)}
+                    />
+                    <span>Templates</span>
+                  </label>
+                  <label className="search-filter-checkbox">
+                    <input
+                      type="checkbox"
+                      checked={searchFields}
+                      onChange={(e) => setSearchFields(e.target.checked)}
+                    />
+                    <span>Fields</span>
+                  </label>
+                </div>
+              </div>
               <TemplateLibraryBrowser
                 templates={templates}
                 templateLibraries={templateLibraries}
@@ -289,6 +344,7 @@ export function FormBuilder({
                 }}
                 onDeleteTemplate={onDeleteTemplate}
                 onDeleteLibrary={onDeleteTemplateLibrary}
+                searchQuery={searchTemplates ? librarySearchQuery : ''}
               />
               <FieldLibraryBrowser
               customFields={customFields}
@@ -323,6 +379,7 @@ export function FormBuilder({
                   libraryId: field.libraryId,
                 };
               })() : null}
+              searchQuery={searchFields ? librarySearchQuery : ''}
             />
             </div>
           </div>
@@ -345,7 +402,7 @@ export function FormBuilder({
               />
             </div>
 
-            <div className={`fields-list ${movingFieldId ? 'moving-mode' : ''}`}>
+            <div className={`fields-list ${draggedFieldId ? 'dragging-mode' : ''}`}>
               {schema.fields.length === 0 ? (
                 <div className="empty-state">
                   <span className="empty-icon">📝</span>
@@ -355,56 +412,63 @@ export function FormBuilder({
               ) : (
                 <>
                   {schema.fields.map((field, index) => {
-                    const isBeingMoved = movingFieldId === field.id;
-                    const currentMovingIndex = schema.fields.findIndex(f => f.id === movingFieldId);
-                    // Show insertion point before this field (but not adjacent to the moving field)
-                    const showInsertBefore = movingFieldId && 
-                      !isBeingMoved && 
-                      index !== currentMovingIndex + 1 &&
-                      index !== currentMovingIndex;
+                    const isDragging = draggedFieldId === field.id;
+                    const draggedIndex = schema.fields.findIndex(f => f.id === draggedFieldId);
+                    const showDropBefore = draggedFieldId && 
+                      dropTargetIndex === index &&
+                      index !== draggedIndex &&
+                      index !== draggedIndex + 1;
 
                     return (
                       <div key={field.id}>
-                        {showInsertBefore && (
-                          <button
-                            className="insertion-point"
-                            onClick={() => moveFieldToPosition(movingFieldId, index)}
-                          >
-                            <span className="insertion-line"></span>
-                            <span className="insertion-label">Move here</span>
-                            <span className="insertion-line"></span>
-                          </button>
+                        {showDropBefore && (
+                          <div className="drop-indicator">
+                            <span className="drop-indicator-line"></span>
+                          </div>
                         )}
-                        <FieldEditor
-                          field={field}
-                          onUpdate={updateField}
-                          onDelete={deleteField}
-                          onMoveClick={() => handleMoveClick(field.id)}
-                          isMoving={isBeingMoved}
-                          onCancelMove={cancelMove}
-                          isFocused={focusedFieldId === field.id}
-                          onFocus={() => setFocusedFieldId(field.id)}
-                          onBlur={() => setFocusedFieldId(null)}
-                          customFields={customFields}
-                          fieldLibraries={fieldLibraries}
-                          onEditFieldType={(fieldType) => {
-                            setEditingFieldType(fieldType);
-                            setIsCreateFieldModalOpen(true);
+                        <div
+                          className={`field-drag-wrapper ${isDragging ? 'is-dragging' : ''}`}
+                          draggable
+                          onDragStart={(e) => {
+                            e.dataTransfer.effectAllowed = 'move';
+                            handleDragStart(field.id);
                           }}
-                        />
+                          onDragEnd={handleDragEnd}
+                          onDragOver={(e) => handleDragOver(e, index)}
+                          onDrop={(e) => handleDrop(e, index)}
+                        >
+                          <FieldEditor
+                            field={field}
+                            onUpdate={updateField}
+                            onDelete={deleteField}
+                            isFocused={focusedFieldId === field.id}
+                            onFocus={() => setFocusedFieldId(field.id)}
+                            onBlur={() => setFocusedFieldId(null)}
+                            customFields={customFields}
+                            fieldLibraries={fieldLibraries}
+                            onEditFieldType={(fieldType) => {
+                              setEditingFieldType(fieldType);
+                              setIsCreateFieldModalOpen(true);
+                            }}
+                          />
+                        </div>
                       </div>
                     );
                   })}
-                  {/* Show insertion point at the end if moving and not already last */}
-                  {movingFieldId && schema.fields.findIndex(f => f.id === movingFieldId) !== schema.fields.length - 1 && (
-                    <button
-                      className="insertion-point"
-                      onClick={() => moveFieldToPosition(movingFieldId, schema.fields.length)}
+                  {/* Drop zone at the end of the list */}
+                  {draggedFieldId && (
+                    <div
+                      className={`drop-zone-end ${dropTargetIndex === schema.fields.length ? 'active' : ''}`}
+                      onDragOver={(e) => handleDragOver(e, schema.fields.length)}
+                      onDragLeave={handleDragLeave}
+                      onDrop={(e) => handleDrop(e, schema.fields.length)}
                     >
-                      <span className="insertion-line"></span>
-                      <span className="insertion-label">Move here</span>
-                      <span className="insertion-line"></span>
-                    </button>
+                      {dropTargetIndex === schema.fields.length && (
+                        <div className="drop-indicator">
+                          <span className="drop-indicator-line"></span>
+                        </div>
+                      )}
+                    </div>
                   )}
                 </>
               )}
@@ -424,6 +488,35 @@ export function FormBuilder({
         <div className="split-layout-with-browser">
           <div className="split-library-panel">
             <div className="library-panel-stack">
+              <div className="unified-search">
+                <div className="unified-search-bar">
+                  <span className="search-icon">🔍</span>
+                  <input
+                    type="text"
+                    placeholder="Search..."
+                    value={librarySearchQuery}
+                    onChange={(e) => setLibrarySearchQuery(e.target.value)}
+                  />
+                </div>
+                <div className="search-filters">
+                  <label className="search-filter-checkbox">
+                    <input
+                      type="checkbox"
+                      checked={searchTemplates}
+                      onChange={(e) => setSearchTemplates(e.target.checked)}
+                    />
+                    <span>Templates</span>
+                  </label>
+                  <label className="search-filter-checkbox">
+                    <input
+                      type="checkbox"
+                      checked={searchFields}
+                      onChange={(e) => setSearchFields(e.target.checked)}
+                    />
+                    <span>Fields</span>
+                  </label>
+                </div>
+              </div>
               <TemplateLibraryBrowser
                 templates={templates}
                 templateLibraries={templateLibraries}
@@ -441,6 +534,7 @@ export function FormBuilder({
                 }}
                 onDeleteTemplate={onDeleteTemplate}
                 onDeleteLibrary={onDeleteTemplateLibrary}
+                searchQuery={searchTemplates ? librarySearchQuery : ''}
               />
               <FieldLibraryBrowser
               customFields={customFields}
@@ -475,6 +569,7 @@ export function FormBuilder({
                   libraryId: field.libraryId,
                 };
               })() : null}
+              searchQuery={searchFields ? librarySearchQuery : ''}
             />
             </div>
           </div>
@@ -498,7 +593,7 @@ export function FormBuilder({
                 />
               </div>
 
-              <div className={`fields-list ${movingFieldId ? 'moving-mode' : ''}`}>
+              <div className={`fields-list ${draggedFieldId ? 'dragging-mode' : ''}`}>
                 {schema.fields.length === 0 ? (
                   <div className="empty-state">
                     <span className="empty-icon">📝</span>
@@ -508,54 +603,63 @@ export function FormBuilder({
                 ) : (
                   <>
                     {schema.fields.map((field, index) => {
-                      const isBeingMoved = movingFieldId === field.id;
-                      const currentMovingIndex = schema.fields.findIndex(f => f.id === movingFieldId);
-                      const showInsertBefore = movingFieldId && 
-                        !isBeingMoved && 
-                        index !== currentMovingIndex + 1 &&
-                        index !== currentMovingIndex;
+                      const isDragging = draggedFieldId === field.id;
+                      const draggedIndex = schema.fields.findIndex(f => f.id === draggedFieldId);
+                      const showDropBefore = draggedFieldId && 
+                        dropTargetIndex === index &&
+                        index !== draggedIndex &&
+                        index !== draggedIndex + 1;
 
                       return (
                         <div key={field.id}>
-                          {showInsertBefore && (
-                            <button
-                              className="insertion-point"
-                              onClick={() => moveFieldToPosition(movingFieldId, index)}
-                            >
-                              <span className="insertion-line"></span>
-                              <span className="insertion-label">Move here</span>
-                              <span className="insertion-line"></span>
-                            </button>
+                          {showDropBefore && (
+                            <div className="drop-indicator">
+                              <span className="drop-indicator-line"></span>
+                            </div>
                           )}
-                          <FieldEditor
-                            field={field}
-                            onUpdate={updateField}
-                            onDelete={deleteField}
-                            onMoveClick={() => handleMoveClick(field.id)}
-                            isMoving={isBeingMoved}
-                            onCancelMove={cancelMove}
-                            isFocused={focusedFieldId === field.id}
-                            onFocus={() => setFocusedFieldId(field.id)}
-                            onBlur={() => setFocusedFieldId(null)}
-                            customFields={customFields}
-                            fieldLibraries={fieldLibraries}
-                            onEditFieldType={(fieldType) => {
-                              setEditingFieldType(fieldType);
-                              setIsCreateFieldModalOpen(true);
+                          <div
+                            className={`field-drag-wrapper ${isDragging ? 'is-dragging' : ''}`}
+                            draggable
+                            onDragStart={(e) => {
+                              e.dataTransfer.effectAllowed = 'move';
+                              handleDragStart(field.id);
                             }}
-                          />
+                            onDragEnd={handleDragEnd}
+                            onDragOver={(e) => handleDragOver(e, index)}
+                            onDrop={(e) => handleDrop(e, index)}
+                          >
+                            <FieldEditor
+                              field={field}
+                              onUpdate={updateField}
+                              onDelete={deleteField}
+                              isFocused={focusedFieldId === field.id}
+                              onFocus={() => setFocusedFieldId(field.id)}
+                              onBlur={() => setFocusedFieldId(null)}
+                              customFields={customFields}
+                              fieldLibraries={fieldLibraries}
+                              onEditFieldType={(fieldType) => {
+                                setEditingFieldType(fieldType);
+                                setIsCreateFieldModalOpen(true);
+                              }}
+                            />
+                          </div>
                         </div>
                       );
                     })}
-                    {movingFieldId && schema.fields.findIndex(f => f.id === movingFieldId) !== schema.fields.length - 1 && (
-                      <button
-                        className="insertion-point"
-                        onClick={() => moveFieldToPosition(movingFieldId, schema.fields.length)}
+                    {/* Drop zone at the end of the list */}
+                    {draggedFieldId && (
+                      <div
+                        className={`drop-zone-end ${dropTargetIndex === schema.fields.length ? 'active' : ''}`}
+                        onDragOver={(e) => handleDragOver(e, schema.fields.length)}
+                        onDragLeave={handleDragLeave}
+                        onDrop={(e) => handleDrop(e, schema.fields.length)}
                       >
-                        <span className="insertion-line"></span>
-                        <span className="insertion-label">Move here</span>
-                        <span className="insertion-line"></span>
-                      </button>
+                        {dropTargetIndex === schema.fields.length && (
+                          <div className="drop-indicator">
+                            <span className="drop-indicator-line"></span>
+                          </div>
+                        )}
+                      </div>
                     )}
                   </>
                 )}

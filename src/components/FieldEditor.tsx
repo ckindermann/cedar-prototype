@@ -5,9 +5,6 @@ interface FieldEditorProps {
   field: FormField;
   onUpdate: (field: FormField) => void;
   onDelete: (id: string) => void;
-  onMoveClick: () => void;
-  isMoving: boolean;
-  onCancelMove: () => void;
   isFocused: boolean;
   onFocus: () => void;
   onBlur: () => void;
@@ -20,9 +17,6 @@ export function FieldEditor({
   field,
   onUpdate,
   onDelete,
-  onMoveClick,
-  isMoving,
-  onCancelMove,
   isFocused,
   onFocus,
   onBlur,
@@ -83,7 +77,7 @@ export function FieldEditor({
 
   return (
     <div 
-      className={`field-editor ${isMoving ? 'is-moving' : ''} ${isFocused ? 'is-focused' : ''}`}
+      className={`field-editor ${isFocused ? 'is-focused' : ''}`}
       onFocus={onFocus}
       onBlur={(e) => {
         // Only blur if focus is leaving the entire field-editor
@@ -141,21 +135,7 @@ export function FieldEditor({
           />
         </div>
         <div className="field-editor-actions">
-          {isMoving ? (
-            <button
-              className="action-button cancel"
-              onClick={(e) => { e.stopPropagation(); onCancelMove(); }}
-            >
-              Cancel
-            </button>
-          ) : (
-            <button
-              className="action-button move"
-              onClick={(e) => { e.stopPropagation(); onMoveClick(); }}
-            >
-              ↕ Move
-            </button>
-          )}
+          <span className="drag-handle" title="Drag to reorder">⠿</span>
           <button
             className="icon-button delete"
             onClick={(e) => { e.stopPropagation(); onDelete(field.id); }}

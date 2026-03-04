@@ -10,6 +10,7 @@ interface TemplateLibraryBrowserProps {
   onCreateLibrary: (name: string, parentId?: string) => void;
   onDeleteTemplate: (templateId: string) => void;
   onDeleteLibrary: (id: string) => void;
+  searchQuery: string;
 }
 
 interface LibraryNode {
@@ -27,8 +28,8 @@ export function TemplateLibraryBrowser({
   onCreateLibrary,
   onDeleteTemplate,
   onDeleteLibrary,
+  searchQuery,
 }: TemplateLibraryBrowserProps) {
-  const [searchQuery, setSearchQuery] = useState('');
   const [expandedLibraries, setExpandedLibraries] = useState<Set<string>>(new Set());
   const [isUnassignedExpanded, setIsUnassignedExpanded] = useState(true);
   const [isCreatingLibrary, setIsCreatingLibrary] = useState<string | null>(null);
@@ -251,15 +252,6 @@ export function TemplateLibraryBrowser({
           >
             + New
           </button>
-        </div>
-        <div className="library-search">
-          <span className="search-icon">🔍</span>
-          <input
-            type="text"
-            placeholder="Search templates..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
         </div>
       </div>
 

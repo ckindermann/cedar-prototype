@@ -10,6 +10,7 @@ interface FieldLibraryBrowserProps {
   onCreateFieldType: (libraryId: string) => void;
   onEditFieldType?: (fieldType: CustomFieldType) => void;
   highlightedFieldType?: { type: FieldType; customFieldTypeId?: string; libraryId?: string } | null;
+  searchQuery: string;
 }
 
 interface LibraryNode {
@@ -26,8 +27,8 @@ export function FieldLibraryBrowser({
   onCreateFieldType,
   onEditFieldType,
   highlightedFieldType,
+  searchQuery,
 }: FieldLibraryBrowserProps) {
-  const [searchQuery, setSearchQuery] = useState('');
   const [expandedLibraries, setExpandedLibraries] = useState<Set<string>>(new Set());
   const [selectedField, setSelectedField] = useState<{
     field: CustomFieldType | { type: FieldType; label: string; icon: string };
@@ -320,15 +321,6 @@ export function FieldLibraryBrowser({
           >
             + New
           </button>
-        </div>
-        <div className="library-search">
-          <span className="search-icon">🔍</span>
-          <input
-            type="text"
-            placeholder="Search fields..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
         </div>
       </div>
 
