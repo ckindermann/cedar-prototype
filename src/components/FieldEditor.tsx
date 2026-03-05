@@ -1,5 +1,15 @@
-import type { FormField, FieldType, CustomFieldType, FieldLibrary, FormSchema } from '../types';
+import type {
+  CustomFieldType,
+  CustomFieldVersion,
+  FieldLibrary,
+  FieldType,
+  FormField,
+  FormSchema,
+  TemplateVersion,
+} from '../types';
 import { FIELD_TYPES } from './FormBuilder';
+
+const deepClone = <T,>(value: T): T => JSON.parse(JSON.stringify(value));
 
 interface FieldEditorProps {
   field: FormField;
@@ -10,9 +20,12 @@ interface FieldEditorProps {
   onFocus: () => void;
   onBlur: () => void;
   customFields?: CustomFieldType[];
+  customFieldVersions?: Record<string, CustomFieldVersion[]>;
   fieldLibraries?: FieldLibrary[];
   templates?: FormSchema[];
+  templateVersions?: Record<string, TemplateVersion[]>;
   currentTemplateId?: string;
+  showSemanticFields?: boolean;
   onEditFieldType?: (fieldType: CustomFieldType) => void;
 }
 
@@ -25,9 +38,12 @@ export function FieldEditor({
   onFocus,
   onBlur,
   customFields = [],
+  customFieldVersions = {},
   fieldLibraries = [],
   templates = [],
+  templateVersions = {},
   currentTemplateId,
+  showSemanticFields = false,
   onEditFieldType,
 }: FieldEditorProps) {
 
@@ -50,6 +66,8 @@ export function FieldEditor({
           ...field,
           type: customField.baseType,
           customFieldTypeId: customField.id,
+          customFieldVersion: customField.version,
+          description: customField.description || '',
           options: customField.baseType === 'select' ? (field.options || ['Option 1', 'Option 2', 'Option 3']) : undefined,
           validationRules: customField.validationRules ? [...customField.validationRules] : undefined,
         };
@@ -62,6 +80,7 @@ export function FieldEditor({
         ...field,
         type: newType,
         customFieldTypeId: undefined,
+        customFieldVersion: undefined,
         options: newType === 'select' ? (field.options || ['Option 1', 'Option 2', 'Option 3']) : undefined,
       };
       onUpdate(updatedField);
@@ -77,6 +96,24 @@ export function FieldEditor({
   const currentCustomField = field.customFieldTypeId 
     ? customFields.find(cf => cf.id === field.customFieldTypeId)
     : null;
+  const customFieldVersionHistory = field.customFieldTypeId
+    ? (customFieldVersions[field.customFieldTypeId] || [])
+    : [];
+  const selectedCustomFieldVersion = field.customFieldVersion || currentCustomField?.version;
+  const selectedTemplate = field.componentTemplateId
+    ? templates.find((template) => template.id === field.componentTemplateId)
+    : null;
+  const componentTemplateVersionHistory = field.componentTemplateId
+    ? (templateVersions[field.componentTemplateId] || [])
+    : [];
+
+  const getLatestTemplateVersion = (templateId: string): number | undefined => {
+    const versions = templateVersions[templateId] || [];
+    if (versions.length > 0) {
+      return versions[versions.length - 1].version;
+    }
+    return templates.find((template) => template.id === templateId)?.version;
+  };
 
   // Get the library name for display
   const fieldLibrary = field.libraryId 
@@ -123,6 +160,35 @@ export function FieldEditor({
               )}
             </select>
           )}
+          {!!field.customFieldTypeId && customFieldVersionHistory.length > 0 && (
+            <select
+              className="field-type-select field-version-select"
+              value={selectedCustomFieldVersion || ''}
+              onChange={(e) => {
+                const version = Number(e.target.value);
+                const selectedVersion = customFieldVersionHistory.find((item) => item.version === version);
+                if (!selectedVersion) return;
+                const snapshot = selectedVersion.snapshot;
+                onUpdate({
+                  ...field,
+                  type: snapshot.baseType,
+                  customFieldVersion: selectedVersion.version,
+                  description: snapshot.description || '',
+                  options: snapshot.baseType === 'select' ? (field.options || ['Option 1', 'Option 2', 'Option 3']) : undefined,
+                  validationRules: deepClone(snapshot.validationRules),
+                });
+              }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              {[...customFieldVersionHistory]
+                .sort((a, b) => b.version - a.version)
+                .map((item) => (
+                  <option key={`${field.customFieldTypeId}-v${item.version}`} value={item.version}>
+                    v{item.version}
+                  </option>
+                ))}
+            </select>
+          )}
           {fieldLibrary && (
             <span className="field-library-badge" title={`From library: ${fieldLibrary.name}`}>
               📁 {fieldLibrary.name}
@@ -162,12 +228,31 @@ export function FieldEditor({
       </div>
 
       <div className="field-editor-body">
+          {showSemanticFields && (
+            <div className="form-group">
+              <label>Field Name IRI</label>
+              <input
+                type="text"
+                value={field.nameIri || ''}
+                onChange={(e) => onUpdate({ ...field, nameIri: e.target.value })}
+                placeholder="https://example.org/iri/field-name"
+              />
+              <span className="input-hint">Paste an IRI to semantically identify this field name.</span>
+            </div>
+          )}
           {isTemplateComponentField ? (
             <div className="form-group">
               <label>Referenced Template</label>
               <select
                 value={field.componentTemplateId || ''}
-                onChange={(e) => onUpdate({ ...field, componentTemplateId: e.target.value || undefined })}
+                onChange={(e) => {
+                  const templateId = e.target.value || undefined;
+                  onUpdate({
+                    ...field,
+                    componentTemplateId: templateId,
+                    componentTemplateVersion: templateId ? getLatestTemplateVersion(templateId) : undefined,
+                  });
+                }}
               >
                 <option value="">Select a template...</option>
                 {availableTemplates.map((template) => (
@@ -176,20 +261,53 @@ export function FieldEditor({
                   </option>
                 ))}
               </select>
+              {selectedTemplate && componentTemplateVersionHistory.length > 0 && (
+                <div className="form-group" style={{ marginTop: '10px', marginBottom: 0 }}>
+                  <label>Template Version</label>
+                  <select
+                    value={field.componentTemplateVersion || selectedTemplate.version}
+                    onChange={(e) =>
+                      onUpdate({
+                        ...field,
+                        componentTemplateVersion: Number(e.target.value),
+                      })
+                    }
+                  >
+                    {[...componentTemplateVersionHistory]
+                      .sort((a, b) => b.version - a.version)
+                      .map((item) => (
+                        <option key={`${selectedTemplate.id}-v${item.version}`} value={item.version}>
+                          v{item.version}
+                        </option>
+                      ))}
+                  </select>
+                </div>
+              )}
               {availableTemplates.length === 0 && (
                 <span className="input-hint">No other templates available to reference.</span>
               )}
             </div>
           ) : (
             <>
-          <div className="form-group">
-            <label>Placeholder Text</label>
-            <input
-              type="text"
-              value={field.placeholder || ''}
-              onChange={(e) => onUpdate({ ...field, placeholder: e.target.value })}
-              placeholder="Enter placeholder text..."
-            />
+          <div className="field-detail-row">
+            <div className="form-group">
+              <label>Placeholder Text</label>
+              <input
+                type="text"
+                value={field.placeholder || ''}
+                onChange={(e) => onUpdate({ ...field, placeholder: e.target.value })}
+                placeholder="Enter placeholder text..."
+              />
+            </div>
+            <div className="form-group">
+              <label>Field Description</label>
+              <input
+                type="text"
+                value={field.description || ''}
+                onChange={(e) => onUpdate({ ...field, description: e.target.value })}
+                placeholder="Short description for tooltip..."
+              />
+            </div>
           </div>
 
           {field.type === 'select' && (

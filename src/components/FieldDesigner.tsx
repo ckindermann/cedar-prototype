@@ -53,6 +53,7 @@ export function FieldDesigner({
       name: '',
       baseType: 'text',
       icon: '🔧',
+      version: 1,
       description: '',
       validationRules: [],
       defaultPlaceholder: '',

@@ -229,7 +229,9 @@ export function TemplateLibraryBrowser({
       >
         <span className="field-item-icon">📋</span>
         <span className="field-item-name">{template.title || 'Untitled Template'}</span>
-        <span className="field-item-type">{template.fields.length} field{template.fields.length !== 1 ? 's' : ''}</span>
+        <span className="field-item-type">
+          v{template.version} · {template.fields.length} field{template.fields.length !== 1 ? 's' : ''}
+        </span>
         <div className="field-item-actions">
           <button
             className="field-item-edit-btn"

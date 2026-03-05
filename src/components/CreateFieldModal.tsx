@@ -26,6 +26,7 @@ interface CreateFieldModalProps {
   onClose: () => void;
   onSave: (field: CustomFieldType) => void;
   fieldLibraries: FieldLibrary[];
+  enableSemanticFeatures?: boolean;
   preSelectedLibraryId?: string | null;
   editingField?: CustomFieldType | null; // If provided, modal is in edit mode
 }
@@ -35,6 +36,7 @@ export function CreateFieldModal({
   onClose,
   onSave,
   fieldLibraries,
+  enableSemanticFeatures = false,
   preSelectedLibraryId,
   editingField,
 }: CreateFieldModalProps) {
@@ -49,8 +51,10 @@ export function CreateFieldModal({
     return {
       id: generateId(),
       name: '',
+      nameIri: '',
       baseType: 'text',
       icon: '🔧',
+      version: 1,
       description: '',
       validationRules: [],
       defaultPlaceholder: '',
@@ -155,6 +159,17 @@ export function CreateFieldModal({
               autoFocus
             />
           </div>
+          {enableSemanticFeatures && (
+            <div className="form-group">
+              <label>Field Name IRI (optional)</label>
+              <input
+                type="text"
+                value={field.nameIri || ''}
+                onChange={(e) => updateField({ nameIri: e.target.value })}
+                placeholder="https://example.org/iri/field-name"
+              />
+            </div>
+          )}
 
           <div className="form-row">
             <div className="form-group">

@@ -1,5 +1,14 @@
 import { useState, useEffect } from 'react';
-import type { FormField, FormSchema, FieldType, CustomFieldType, FieldLibrary, TemplateLibrary } from '../types';
+import type {
+  CustomFieldType,
+  CustomFieldVersion,
+  FieldLibrary,
+  FieldType,
+  FormField,
+  FormSchema,
+  TemplateLibrary,
+  TemplateVersion,
+} from '../types';
 import { FieldEditor } from './FieldEditor';
 import { FormPreview } from './FormPreview';
 import { CreateFieldModal } from './CreateFieldModal';
@@ -13,21 +22,10 @@ interface DeletedFieldInfo {
   index: number;
 }
 
-interface SavedVersion {
-  id: string;
-  timestamp: Date;
-  schema: FormSchema;
-}
-
 type BuilderProfile = 'basic' | 'semantic' | 'modular';
 
-const formatVersionId = (date: Date): string => {
-  const pad = (n: number) => n.toString().padStart(2, '0');
-  return `${date.getFullYear()}${pad(date.getMonth() + 1)}${pad(date.getDate())}-${pad(date.getHours())}${pad(date.getMinutes())}${pad(date.getSeconds())}`;
-};
-
-const formatVersionDisplay = (date: Date): string => {
-  return date.toLocaleString('en-US', {
+const formatVersionDisplay = (timestamp: string): string => {
+  return new Date(timestamp).toLocaleString('en-US', {
     month: 'short',
     day: 'numeric',
     year: 'numeric',
@@ -49,13 +47,17 @@ export const FIELD_TYPES: { type: FieldType; label: string; icon: string }[] = [
 
 interface FormBuilderProps {
   customFields: CustomFieldType[];
+  customFieldVersions: Record<string, CustomFieldVersion[]>;
   fieldLibraries: FieldLibrary[];
   onSaveCustomField: (field: CustomFieldType) => void;
   onSaveLibrary: (library: FieldLibrary) => void;
   templates: FormSchema[];
+  templateVersions: Record<string, TemplateVersion[]>;
   activeTemplate: FormSchema;
   templateLibraries: TemplateLibrary[];
   onUpdateTemplate: (schema: FormSchema) => void;
+  onSaveTemplateVersion: (templateId: string) => void;
+  onLoadTemplateVersion: (templateId: string, version: number) => void;
   onSelectTemplate: (templateId: string) => void;
   onCreateTemplate: (libraryId?: string) => void;
   onDeleteTemplate: (templateId: string) => void;
@@ -69,13 +71,17 @@ interface FormBuilderProps {
 
 export function FormBuilder({
   customFields,
+  customFieldVersions,
   fieldLibraries,
   onSaveCustomField,
   onSaveLibrary,
   templates,
+  templateVersions,
   activeTemplate,
   templateLibraries,
   onUpdateTemplate,
+  onSaveTemplateVersion,
+  onLoadTemplateVersion,
   onSelectTemplate,
   onCreateTemplate,
   onDeleteTemplate,
@@ -100,8 +106,6 @@ export function FormBuilder({
   const [draggedFieldId, setDraggedFieldId] = useState<string | null>(null);
   const [dropTargetIndex, setDropTargetIndex] = useState<number | null>(null);
   const [deletedField, setDeletedField] = useState<DeletedFieldInfo | null>(null);
-  const [savedVersions, setSavedVersions] = useState<SavedVersion[]>([]);
-  const [currentVersionId, setCurrentVersionId] = useState<string | null>(null);
   const [isVersionDropdownOpen, setIsVersionDropdownOpen] = useState(false);
   const [isCreateFieldModalOpen, setIsCreateFieldModalOpen] = useState(false);
   const [editingFieldType, setEditingFieldType] = useState<CustomFieldType | null>(null);
@@ -129,6 +133,7 @@ export function FormBuilder({
     };
     return profileOrder[activeProfile] >= profileOrder[minimumProfile];
   };
+  const semanticEnabled = profileIncludes('semantic');
 
   const templateDependsOn = (
     sourceTemplateId: string,
@@ -154,15 +159,40 @@ export function FormBuilder({
     return !templateDependsOn(templateId, schema.id);
   };
 
-  const addField = (type: FieldType, customFieldTypeId?: string, libraryId?: string | null) => {
-    const customField = customFieldTypeId ? customFields.find(cf => cf.id === customFieldTypeId) : undefined;
+  const getCustomFieldVersion = (
+    customFieldTypeId: string,
+    version?: number,
+  ): CustomFieldType | undefined => {
+    const versions = customFieldVersions[customFieldTypeId] || [];
+    if (versions.length === 0) {
+      return customFields.find((fieldType) => fieldType.id === customFieldTypeId);
+    }
+    if (version) {
+      const exact = versions.find((item) => item.version === version);
+      if (exact) return exact.snapshot;
+    }
+    return versions[versions.length - 1]?.snapshot;
+  };
+
+  const addField = (
+    type: FieldType,
+    customFieldTypeId?: string,
+    libraryId?: string | null,
+    customFieldVersion?: number,
+  ) => {
+    const customField = customFieldTypeId
+      ? getCustomFieldVersion(customFieldTypeId, customFieldVersion)
+      : undefined;
     
     const newField: FormField = {
       id: generateId(),
       type: customField ? customField.baseType : type,
       customFieldTypeId,
+      customFieldVersion: customField?.version,
       libraryId: libraryId || undefined,
       label: '',
+      description: customField?.description || '',
+      nameIri: customField?.nameIri || '',
       placeholder: customField?.defaultPlaceholder || '',
       required: false,
       multiple: false,
@@ -188,7 +218,10 @@ export function FormBuilder({
       id: generateId(),
       type: 'template',
       componentTemplateId: templateId,
+      componentTemplateVersion: referencedTemplate?.version,
       label: componentName,
+      description: referencedTemplate?.description || '',
+      nameIri: '',
       required: false,
       multiple: false,
     };
@@ -282,21 +315,16 @@ export function FormBuilder({
   };
 
   const saveVersion = () => {
-    const now = new Date();
-    const versionId = formatVersionId(now);
-    const newVersion: SavedVersion = {
-      id: versionId,
-      timestamp: now,
-      schema: JSON.parse(JSON.stringify(schema)), // Deep copy
-    };
-    setSavedVersions((prev) => [newVersion, ...prev]);
-    setCurrentVersionId(versionId);
+    onSaveTemplateVersion(schema.id);
     setIsVersionDropdownOpen(false);
   };
 
-  const loadVersion = (version: SavedVersion) => {
-    setSchema(JSON.parse(JSON.stringify(version.schema))); // Deep copy
-    setCurrentVersionId(version.id);
+  const templateVersionHistory = (templateVersions[schema.id] || [])
+    .slice()
+    .sort((a, b) => b.version - a.version);
+
+  const loadVersion = (version: TemplateVersion) => {
+    onLoadTemplateVersion(schema.id, version.version);
     setIsVersionDropdownOpen(false);
   };
 
@@ -310,22 +338,22 @@ export function FormBuilder({
           className="version-dropdown-trigger"
           onClick={() => setIsVersionDropdownOpen(!isVersionDropdownOpen)}
         >
-          {currentVersionId ? `v${currentVersionId}` : 'No saved versions'}
+          {templateVersionHistory.length > 0 ? `v${schema.version}` : 'No saved versions'}
           <span className="dropdown-arrow">{isVersionDropdownOpen ? '▲' : '▼'}</span>
         </button>
         {isVersionDropdownOpen && (
           <div className="version-dropdown">
-            {savedVersions.length === 0 ? (
+            {templateVersionHistory.length === 0 ? (
               <div className="version-dropdown-empty">No saved versions yet</div>
             ) : (
-              savedVersions.map((version) => (
+              templateVersionHistory.map((version) => (
                 <button
-                  key={version.id}
-                  className={`version-option ${version.id === currentVersionId ? 'active' : ''}`}
+                  key={`${schema.id}-v${version.version}`}
+                  className={`version-option ${version.version === schema.version ? 'active' : ''}`}
                   onClick={() => loadVersion(version)}
                 >
-                  <span className="version-id">v{version.id}</span>
-                  <span className="version-date">{formatVersionDisplay(version.timestamp)}</span>
+                  <span className="version-id">v{version.version}</span>
+                  <span className="version-date">{formatVersionDisplay(version.savedAt)}</span>
                 </button>
               ))
             )}
@@ -421,9 +449,10 @@ export function FormBuilder({
               />
               <FieldLibraryBrowser
               customFields={customFields}
+              customFieldVersions={customFieldVersions}
               fieldLibraries={fieldLibraries}
-              onAddField={(type, customFieldTypeId, libraryId) => {
-                addField(type, customFieldTypeId, libraryId);
+              onAddField={(type, customFieldTypeId, libraryId, customFieldVersion) => {
+                addField(type, customFieldTypeId, libraryId, customFieldVersion);
               }}
               onCreateLibrary={(name, parentId) => {
                 const newLibrary: FieldLibrary = {
@@ -439,8 +468,8 @@ export function FormBuilder({
                 setEditingFieldType(null);
                 setIsCreateFieldModalOpen(true);
               }}
-              onMoveFieldType={onMoveCustomField}
-              onMoveLibrary={onMoveFieldLibrary}
+                onMoveFieldType={onMoveCustomField}
+                onMoveLibrary={onMoveFieldLibrary}
               onEditFieldType={(fieldType) => {
                 setEditingFieldType(fieldType);
                 setIsCreateFieldModalOpen(true);
@@ -472,6 +501,19 @@ export function FormBuilder({
                   onChange={(e) => setSchema((prev) => ({ ...prev, title: e.target.value }))}
                   placeholder="Template Title"
                 />
+                {semanticEnabled && (
+                  <div className="semantic-iri-row">
+                    <label htmlFor="template-name-iri-input">Template Name IRI</label>
+                    <input
+                      id="template-name-iri-input"
+                      type="text"
+                      className="semantic-iri-input"
+                      value={schema.nameIri || ''}
+                      onChange={(e) => setSchema((prev) => ({ ...prev, nameIri: e.target.value }))}
+                      placeholder="https://example.org/iri/template-name"
+                    />
+                  </div>
+                )}
                 <textarea
                   className="form-description-input"
                   value={schema.description}
@@ -525,9 +567,12 @@ export function FormBuilder({
                             onFocus={() => setFocusedFieldId(field.id)}
                             onBlur={() => setFocusedFieldId(null)}
                             customFields={customFields}
+                            customFieldVersions={customFieldVersions}
                             fieldLibraries={fieldLibraries}
                             templates={templates}
+                            templateVersions={templateVersions}
                             currentTemplateId={schema.id}
+                            showSemanticFields={semanticEnabled}
                             onEditFieldType={(fieldType) => {
                               setEditingFieldType(fieldType);
                               setIsCreateFieldModalOpen(true);
@@ -560,7 +605,12 @@ export function FormBuilder({
           <div className="split-panel preview-panel">
             <div className="split-panel-header">Preview</div>
             <div className="preview-layout">
-              <FormPreview schema={schema} focusedFieldId={focusedFieldId} templates={templates} />
+              <FormPreview
+                schema={schema}
+                focusedFieldId={focusedFieldId}
+                templates={templates}
+                templateVersions={templateVersions}
+              />
             </div>
           </div>
         </div>
@@ -586,6 +636,7 @@ export function FormBuilder({
         }}
         onSave={onSaveCustomField}
         fieldLibraries={fieldLibraries}
+        enableSemanticFeatures={semanticEnabled}
         preSelectedLibraryId={createFieldForLibraryId}
         editingField={editingFieldType}
       />

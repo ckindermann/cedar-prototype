@@ -1,11 +1,12 @@
 import { useState, useMemo, useEffect } from 'react';
-import type { CustomFieldType, FieldLibrary, FieldType } from '../types';
+import type { CustomFieldType, CustomFieldVersion, FieldLibrary, FieldType } from '../types';
 import { FIELD_TYPES } from './FormBuilder';
 
 interface FieldLibraryBrowserProps {
   customFields: CustomFieldType[];
+  customFieldVersions: Record<string, CustomFieldVersion[]>;
   fieldLibraries: FieldLibrary[];
-  onAddField: (type: FieldType, customFieldTypeId?: string, libraryId?: string) => void;
+  onAddField: (type: FieldType, customFieldTypeId?: string, libraryId?: string, customFieldVersion?: number) => void;
   onCreateLibrary: (name: string, parentId?: string) => void;
   onCreateFieldType: (libraryId: string) => void;
   onMoveFieldType: (fieldTypeId: string, targetLibraryId?: string) => void;
@@ -27,6 +28,7 @@ type DraggedFieldItem =
 
 export function FieldLibraryBrowser({
   customFields,
+  customFieldVersions,
   fieldLibraries,
   onAddField,
   onCreateLibrary,
@@ -49,6 +51,8 @@ export function FieldLibraryBrowser({
   const [newLibraryName, setNewLibraryName] = useState('');
   const [draggedItem, setDraggedItem] = useState<DraggedFieldItem | null>(null);
   const [dragOverTarget, setDragOverTarget] = useState<string | null>(null);
+  const [inspectorFieldId, setInspectorFieldId] = useState<string | null>(null);
+  const [inspectorVersion, setInspectorVersion] = useState<number | null>(null);
 
   // Auto-expand library containing highlighted field
   useEffect(() => {
@@ -180,7 +184,7 @@ export function FieldLibraryBrowser({
       onAddField(standardField.type);
     } else {
       const customField = field as CustomFieldType;
-      onAddField(customField.baseType, customField.id, libraryId || undefined);
+      onAddField(customField.baseType, customField.id, libraryId || undefined, customField.version);
     }
   };
 
@@ -209,6 +213,53 @@ export function FieldLibraryBrowser({
     setIsCreatingLibrary(null);
     setNewLibraryName('');
   };
+
+  const formatSavedAt = (savedAt: string): string => {
+    if (!savedAt) return 'Unknown date';
+    return new Date(savedAt).toLocaleString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+      hour12: true,
+    });
+  };
+
+  const getVersionHistory = (field: CustomFieldType): CustomFieldVersion[] => {
+    const history = customFieldVersions[field.id] || [];
+    if (history.length === 0) {
+      return [{
+        version: field.version,
+        savedAt: '',
+        snapshot: field,
+      }];
+    }
+    return [...history].sort((a, b) => b.version - a.version);
+  };
+
+  const openVersionInspector = (field: CustomFieldType) => {
+    const history = getVersionHistory(field);
+    setInspectorFieldId(field.id);
+    setInspectorVersion(history[0]?.version ?? field.version);
+  };
+
+  const closeVersionInspector = () => {
+    setInspectorFieldId(null);
+    setInspectorVersion(null);
+  };
+
+  const inspectorField = inspectorFieldId
+    ? customFields.find((field) => field.id === inspectorFieldId) || null
+    : null;
+  const inspectorHistory = inspectorField ? getVersionHistory(inspectorField) : [];
+  const selectedInspectorVersion = inspectorVersion
+    ? inspectorHistory.find((item) => item.version === inspectorVersion) || inspectorHistory[0]
+    : inspectorHistory[0];
+  const inspectorSnapshot = selectedInspectorVersion?.snapshot;
+  const inspectorLibraryNames = (inspectorSnapshot?.libraryIds || [])
+    .map((libraryId) => fieldLibraries.find((library) => library.id === libraryId)?.name)
+    .filter((name): name is string => Boolean(name));
 
   const resetDragState = () => {
     setDraggedItem(null);
@@ -379,8 +430,19 @@ export function FieldLibraryBrowser({
               >
                 <span className="field-item-icon">{field.icon}</span>
                 <span className="field-item-name">{field.name}</span>
-                <span className="field-item-type">{field.baseType}</span>
+                <span className="field-item-type">{field.baseType} · v{field.version}</span>
                 <div className="field-item-actions">
+                  <button
+                    className="field-item-inspect-btn"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      openVersionInspector(field);
+                    }}
+                    title="Inspect field versions"
+                    aria-label="Inspect field versions"
+                  >
+                    🕘
+                  </button>
                   {onEditFieldType && (
                     <button
                       className="field-item-edit-btn"
@@ -523,8 +585,25 @@ export function FieldLibraryBrowser({
                       ? (result.field as { label: string }).label 
                       : (result.field as CustomFieldType).name}
                   </span>
-                  <span className="field-item-type">{result.libraryName}</span>
+                  <span className="field-item-type">
+                    {result.isStandard
+                      ? result.libraryName
+                      : `${result.libraryName} · v${(result.field as CustomFieldType).version}`}
+                  </span>
                   <div className="field-item-actions">
+                    {!result.isStandard && (
+                      <button
+                        className="field-item-inspect-btn"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          openVersionInspector(result.field as CustomFieldType);
+                        }}
+                        title="Inspect field versions"
+                        aria-label="Inspect field versions"
+                      >
+                        🕘
+                      </button>
+                    )}
                     <button
                       className="field-item-add-btn"
                       onClick={(e) => {
@@ -634,6 +713,84 @@ export function FieldLibraryBrowser({
           </>
         )}
       </div>}
+
+      {inspectorField && inspectorSnapshot && (
+        <div className="modal-overlay" onClick={closeVersionInspector}>
+          <div className="modal-content field-version-inspector" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-header">
+              <h2>Field Version Inspector</h2>
+              <button className="modal-close" onClick={closeVersionInspector}>×</button>
+            </div>
+            <div className="modal-body">
+              <div className="form-group">
+                <label>Field</label>
+                <div className="version-inspector-name">
+                  {inspectorSnapshot.icon} {inspectorSnapshot.name}
+                </div>
+              </div>
+              <div className="form-group">
+                <label>Version</label>
+                <select
+                  value={selectedInspectorVersion?.version || inspectorSnapshot.version}
+                  onChange={(e) => setInspectorVersion(Number(e.target.value))}
+                >
+                  {inspectorHistory.map((item) => (
+                    <option key={`${inspectorField.id}-v${item.version}`} value={item.version}>
+                      v{item.version} · {formatSavedAt(item.savedAt)}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              <div className="version-inspector-grid">
+                <div className="version-inspector-row">
+                  <span className="version-inspector-label">Base Type</span>
+                  <span className="version-inspector-value">{inspectorSnapshot.baseType}</span>
+                </div>
+                <div className="version-inspector-row">
+                  <span className="version-inspector-label">Default Placeholder</span>
+                  <span className="version-inspector-value">
+                    {inspectorSnapshot.defaultPlaceholder || '—'}
+                  </span>
+                </div>
+                <div className="version-inspector-row">
+                  <span className="version-inspector-label">Description</span>
+                  <span className="version-inspector-value">
+                    {inspectorSnapshot.description || '—'}
+                  </span>
+                </div>
+                <div className="version-inspector-row">
+                  <span className="version-inspector-label">Name IRI</span>
+                  <span className="version-inspector-value">
+                    {inspectorSnapshot.nameIri || '—'}
+                  </span>
+                </div>
+                <div className="version-inspector-row">
+                  <span className="version-inspector-label">Libraries</span>
+                  <span className="version-inspector-value">
+                    {inspectorLibraryNames.length > 0 ? inspectorLibraryNames.join(', ') : 'Unassigned'}
+                  </span>
+                </div>
+              </div>
+              <div className="form-group">
+                <label>Validation Rules</label>
+                {inspectorSnapshot.validationRules.length === 0 ? (
+                  <span className="input-hint">No validation rules in this version.</span>
+                ) : (
+                  <ul className="version-rule-list">
+                    {inspectorSnapshot.validationRules.map((rule, index) => (
+                      <li key={`${rule.type}-${index}`} className="version-rule-item">
+                        <span className="version-rule-type">{rule.type}</span>
+                        <span className="version-rule-value">{String(rule.value)}</span>
+                        <span className="version-rule-message">{rule.message || 'No message'}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

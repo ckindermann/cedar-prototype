@@ -1,13 +1,19 @@
 import { useState } from 'react';
-import type { FormField, FormSchema } from '../types';
+import type { FormField, FormSchema, TemplateVersion } from '../types';
 
 interface FormPreviewProps {
   schema: FormSchema;
   focusedFieldId: string | null;
   templates?: FormSchema[];
+  templateVersions?: Record<string, TemplateVersion[]>;
 }
 
-export function FormPreview({ schema, focusedFieldId, templates = [] }: FormPreviewProps) {
+export function FormPreview({
+  schema,
+  focusedFieldId,
+  templates = [],
+  templateVersions = {},
+}: FormPreviewProps) {
   const [values, setValues] = useState<Record<string, string | string[]>>({});
 
   const handleChange = (valueKey: string, value: string, isMultiple: boolean, index?: number) => {
@@ -48,9 +54,18 @@ export function FormPreview({ schema, focusedFieldId, templates = [] }: FormPrev
 
     if (field.type === 'template') {
       const nestedTemplateId = field.componentTemplateId;
-      const nestedTemplate = nestedTemplateId
-        ? templates.find((template) => template.id === nestedTemplateId)
+      const versionHistory = nestedTemplateId ? (templateVersions[nestedTemplateId] || []) : [];
+      const requestedVersion = field.componentTemplateVersion;
+      const matchingVersion = requestedVersion
+        ? versionHistory.find((version) => version.version === requestedVersion)
         : undefined;
+      const latestVersion = versionHistory.length > 0 ? versionHistory[versionHistory.length - 1] : undefined;
+      const nestedTemplate = matchingVersion?.snapshot || latestVersion?.snapshot || (
+        nestedTemplateId
+          ? templates.find((template) => template.id === nestedTemplateId)
+          : undefined
+      );
+      const nestedTemplateVersion = matchingVersion?.version || latestVersion?.version || nestedTemplate?.version;
       const hasCycle = nestedTemplate ? ancestry.has(nestedTemplate.id) : false;
       const nextAncestry = nestedTemplate
         ? new Set([...Array.from(ancestry), nestedTemplate.id])
@@ -60,7 +75,12 @@ export function FormPreview({ schema, focusedFieldId, templates = [] }: FormPrev
         <div className={`preview-field nested-template-component ${isFocused ? 'is-focused' : ''}`} key={valueKey}>
           <label>
             <span className="preview-field-order">{position}.</span>
-            {field.label || 'Template Component'}
+            <span
+              className={field.description ? 'preview-name-with-tooltip' : undefined}
+              title={field.description || undefined}
+            >
+              {field.label || 'Template Component'}
+            </span>
           </label>
           <div className="nested-template-preview">
             {!nestedTemplateId && (
@@ -75,7 +95,15 @@ export function FormPreview({ schema, focusedFieldId, templates = [] }: FormPrev
             {nestedTemplate && !hasCycle && (
               <>
                 <div className="nested-template-header">
-                  {nestedTemplate.title || 'Untitled Template'}
+                  <span
+                    className={nestedTemplate.description ? 'preview-name-with-tooltip' : undefined}
+                    title={nestedTemplate.description || undefined}
+                  >
+                    {nestedTemplate.title || 'Untitled Template'}
+                  </span>
+                  {nestedTemplateVersion && (
+                    <span className="nested-template-version"> v{nestedTemplateVersion}</span>
+                  )}
                 </div>
                 {nestedTemplate.fields.length === 0 ? (
                   <div className="nested-template-empty">No fields in this template.</div>
@@ -156,7 +184,12 @@ export function FormPreview({ schema, focusedFieldId, templates = [] }: FormPrev
         <div className={`preview-field ${isFocused ? 'is-focused' : ''}`} key={valueKey}>
           <label>
             <span className="preview-field-order">{position}.</span>
-            {field.label}
+            <span
+              className={field.description ? 'preview-name-with-tooltip' : undefined}
+              title={field.description || undefined}
+            >
+              {field.label}
+            </span>
             {field.required && <span className="required-asterisk">*</span>}
           </label>
           <div className="multiple-values">
@@ -186,7 +219,12 @@ export function FormPreview({ schema, focusedFieldId, templates = [] }: FormPrev
       <div className={`preview-field ${isFocused ? 'is-focused' : ''}`} key={valueKey}>
         <label>
           <span className="preview-field-order">{position}.</span>
-          {field.label}
+          <span
+            className={field.description ? 'preview-name-with-tooltip' : undefined}
+            title={field.description || undefined}
+          >
+            {field.label}
+          </span>
           {field.required && <span className="required-asterisk">*</span>}
         </label>
         {renderInput(typeof fieldValues === 'string' ? fieldValues : fieldValues[0] || '')}
@@ -209,7 +247,12 @@ export function FormPreview({ schema, focusedFieldId, templates = [] }: FormPrev
   return (
     <div className="form-preview">
       <div className="preview-header">
-        <h2>{schema.title || 'Untitled Template'}</h2>
+        <h2
+          className={schema.description ? 'preview-name-with-tooltip' : undefined}
+          title={schema.description || undefined}
+        >
+          {schema.title || 'Untitled Template'}
+        </h2>
         {schema.description && <p className="preview-description">{schema.description}</p>}
       </div>
       <form className="preview-form" onSubmit={(e) => e.preventDefault()}>
