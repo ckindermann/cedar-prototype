@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003212",
+  "children": [
+    {
+      "iri": "obo:OBI_0003213",
+      "label": "phospholipid concentration assay",
+      "hasChildren": false,
+      "childrenKey": "4f318edceee5d998272cce98542799d7791566b1"
+    }
+  ]
+}

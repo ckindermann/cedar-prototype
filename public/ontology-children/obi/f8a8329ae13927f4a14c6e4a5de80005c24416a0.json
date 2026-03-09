@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003109",
+  "children": [
+    {
+      "iri": "obo:OBI_0003108",
+      "label": "single-nucleus chromatin accessibility and mRNA expression sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "eba234b75425105e751a23f7013f7130048a329d"
+    }
+  ]
+}

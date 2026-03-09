@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400106",
+  "children": [
+    {
+      "iri": "obo:OBI_0001100",
+      "label": "microcentrifuge",
+      "hasChildren": false,
+      "childrenKey": "5251eaa450fa517a9fb041adf0568465b7c7cbd2"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600005",
+  "children": [
+    {
+      "iri": "obo:OBI_0002650",
+      "label": "biopsy",
+      "hasChildren": true,
+      "childrenKey": "ace9ad32ce50950d0c36db1e0d3706905c441583"
+    },
+    {
+      "iri": "obo:OBI_0600044",
+      "label": "lavage",
+      "hasChildren": false,
+      "childrenKey": "d5fbb11bc9519e0149a7f5cba860b84d0f826655"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000025",
+  "children": [
+    {
+      "iri": "obo:OBI_0000129",
+      "label": "calibration substance role",
+      "hasChildren": false,
+      "childrenKey": "35b41d3207d018394a5e7b89871ab6caf5f8f7df"
+    },
+    {
+      "iri": "obo:OBI_0001142",
+      "label": "dye swap quality control role",
+      "hasChildren": false,
+      "childrenKey": "63762fd0cb8eb407b60b77576b4244a0fa18ba4c"
+    },
+    {
+      "iri": "obo:OBI_0000214",
+      "label": "negative reference substance role",
+      "hasChildren": true,
+      "childrenKey": "e8c560649f06269889f278e3797354deccd2a408"
+    },
+    {
+      "iri": "obo:OBI_0000409",
+      "label": "nucleic acid template role",
+      "hasChildren": false,
+      "childrenKey": "c0b685a7bab0727f4e5e5a2b402eb6c419d0d0fe"
+    },
+    {
+      "iri": "obo:OBI_0000064",
+      "label": "positive reference substance role",
+      "hasChildren": true,
+      "childrenKey": "bc06c71858ecb50664fedc9b555d99a59a5a521b"
+    },
+    {
+      "iri": "obo:OBI_0002477",
+      "label": "reference genome role",
+      "hasChildren": false,
+      "childrenKey": "d0938fc00542be911ad2bfeda8cbb740c3a03d54"
+    },
+    {
+      "iri": "obo:OBI_0001140",
+      "label": "spike-in quality control role",
+      "hasChildren": false,
+      "childrenKey": "cda801e3c73c220e57e1d2ec8b8c1ccda799f984"
+    }
+  ]
+}

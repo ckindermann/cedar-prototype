@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002806",
+  "children": [
+    {
+      "iri": "obo:OBI_0002807",
+      "label": "disposable footwear cover",
+      "hasChildren": false,
+      "childrenKey": "40c083fc388607d9a103228073267689108ae597"
+    },
+    {
+      "iri": "obo:OBI_0002808",
+      "label": "reusable footwear cover",
+      "hasChildren": false,
+      "childrenKey": "5b4a329276186746ca8bba4697b74f0ee979f9dc"
+    }
+  ]
+}

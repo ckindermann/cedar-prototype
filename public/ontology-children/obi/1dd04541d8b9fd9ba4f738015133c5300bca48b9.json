@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200137",
+  "children": [
+    {
+      "iri": "obo:OBI_0200145",
+      "label": "intra subgraph connectivity calculation",
+      "hasChildren": false,
+      "childrenKey": "7b58705b492c6d4eb0f062af6e79739a087127bf"
+    },
+    {
+      "iri": "obo:OBI_0200139",
+      "label": "quantitative subgraph degree calculation",
+      "hasChildren": false,
+      "childrenKey": "1f53a5d0f1ba8371951aeac5372d2f17ef254b1a"
+    },
+    {
+      "iri": "obo:OBI_0200138",
+      "label": "subgraph degree calculation",
+      "hasChildren": false,
+      "childrenKey": "295b9240259eefb457894eaabff3834e12e99b62"
+    },
+    {
+      "iri": "obo:OBI_0200143",
+      "label": "subgraph in-degree calculation",
+      "hasChildren": false,
+      "childrenKey": "619daa6e9367dc4a1e9af0b7873bd124b629910f"
+    },
+    {
+      "iri": "obo:OBI_0200146",
+      "label": "subgraph modularity calculation",
+      "hasChildren": false,
+      "childrenKey": "7676e0fb20523f1ec79360bce726a4ad62fa8360"
+    },
+    {
+      "iri": "obo:OBI_0200144",
+      "label": "subgraph out-degree calculation",
+      "hasChildren": false,
+      "childrenKey": "1546cc0742c35a320437d67a0cfc72a637c95ca3"
+    }
+  ]
+}

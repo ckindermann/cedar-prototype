@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003011",
+  "children": [
+    {
+      "iri": "obo:OBI_0003158",
+      "label": "iron concentration assay",
+      "hasChildren": false,
+      "childrenKey": "dc8100fb9bcd13194e1f30113a743fc91d0adc7a"
+    },
+    {
+      "iri": "obo:OBI_2100098",
+      "label": "venous blood iron assay",
+      "hasChildren": false,
+      "childrenKey": "c1223456328e9208dfc8037f65533efb9a0255b4"
+    }
+  ]
+}

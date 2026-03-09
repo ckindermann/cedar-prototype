@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100042",
+  "children": [
+    {
+      "iri": "obo:OBI_2100274",
+      "label": "ABL90 panel arterial blood lactic acid assay",
+      "hasChildren": false,
+      "childrenKey": "eeca136374c42968aa192622f5c5380bd0d34ebc"
+    },
+    {
+      "iri": "obo:OBI_2100292",
+      "label": "ABL90 panel venous blood lactic acid assay",
+      "hasChildren": false,
+      "childrenKey": "bfaf26bb4858c78c9feaa225ebfdd92ed36e0693"
+    },
+    {
+      "iri": "obo:OBI_2100202",
+      "label": "arterial blood lactic acid assay",
+      "hasChildren": false,
+      "childrenKey": "57a76fb193ccdc04532c7b66d57596ec1464564c"
+    },
+    {
+      "iri": "obo:OBI_2100197",
+      "label": "GEM premier blood gas venous blood lactic acid assay",
+      "hasChildren": false,
+      "childrenKey": "378979b4e25607a2a3a4f6b830c36b5a3fbbf97d"
+    },
+    {
+      "iri": "obo:OBI_2100372",
+      "label": "GEM4 arterial blood lactic acid assay",
+      "hasChildren": false,
+      "childrenKey": "1dbe3a22de9e889e94ffcc826dc2473bf3cf842d"
+    },
+    {
+      "iri": "obo:OBI_2100163",
+      "label": "venous blood lactic acid assay",
+      "hasChildren": false,
+      "childrenKey": "26aa6adfb99e119a16b2b3b9b7599edb561fb550"
+    }
+  ]
+}

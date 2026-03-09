@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002732",
+  "children": [
+    {
+      "iri": "obo:OBI_0002733",
+      "label": "blood meal by counter current immunoelectrophoresis assay",
+      "hasChildren": false,
+      "childrenKey": "9f00e835544401563be5b0b5e4e2d9716b1b93df"
+    },
+    {
+      "iri": "obo:OBI_0002734",
+      "label": "DNA based blood meal finger printing assay",
+      "hasChildren": false,
+      "childrenKey": "765df8225b209763b4c62af6af44ebab69afac1e"
+    }
+  ]
+}

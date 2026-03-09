@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003256",
+  "children": [
+    {
+      "iri": "obo:OBI_0003272",
+      "label": "bacteria in lung datum",
+      "hasChildren": false,
+      "childrenKey": "61378f9374bd320982788d1c521f2f613108d45a"
+    },
+    {
+      "iri": "obo:OBI_0003273",
+      "label": "eukaryota in lung datum",
+      "hasChildren": false,
+      "childrenKey": "5c8c4e3b91a28e4bdc2d1b56ac975df51f86f125"
+    },
+    {
+      "iri": "obo:OBI_0003274",
+      "label": "virus in lung datum",
+      "hasChildren": false,
+      "childrenKey": "85c10958a60e5faab9f4e2dc4245cb20be1257ac"
+    }
+  ]
+}

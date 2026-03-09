@@ -1,0 +1,54 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600043",
+  "children": [
+    {
+      "iri": "obo:OBI_0001150",
+      "label": "chromosomal substitution",
+      "hasChildren": false,
+      "childrenKey": "ba65a8fcb028d963fd8ef12a46f16c7e047a27f5"
+    },
+    {
+      "iri": "obo:OBI_0600059",
+      "label": "DNA transduction",
+      "hasChildren": false,
+      "childrenKey": "67b9979f85bdecf80ccc82bf6ef4d9f996a659f4"
+    },
+    {
+      "iri": "obo:OBI_0001149",
+      "label": "gene knock in",
+      "hasChildren": false,
+      "childrenKey": "a7c1042e6cc1a301cd66f7e99b571bb2146808a9"
+    },
+    {
+      "iri": "obo:OBI_0001148",
+      "label": "gene knock out",
+      "hasChildren": false,
+      "childrenKey": "d3745a623e6cea34c194c7dd06f3796ec7c77e30"
+    },
+    {
+      "iri": "obo:OBI_0002625",
+      "label": "gene knockdown",
+      "hasChildren": true,
+      "childrenKey": "09abf3be01f9db97d4366631741f45cdfb1fd01e"
+    },
+    {
+      "iri": "obo:OBI_0001907",
+      "label": "immortalizing cell line transformation",
+      "hasChildren": false,
+      "childrenKey": "8a5921b6cf810f2543b01ceb4d2d3daf03061be5"
+    },
+    {
+      "iri": "obo:OBI_0001154",
+      "label": "induced mutagenesis",
+      "hasChildren": true,
+      "childrenKey": "0ac92d4d80c8e247f4d77a0de723c8eec37066cc"
+    },
+    {
+      "iri": "obo:OBI_0001152",
+      "label": "transfection",
+      "hasChildren": true,
+      "childrenKey": "a85da9211ddb54068d2ede704d9ca18412bfe070"
+    }
+  ]
+}

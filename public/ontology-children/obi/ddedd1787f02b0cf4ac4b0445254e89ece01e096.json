@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002406",
+  "children": [
+    {
+      "iri": "obo:OBI_0002409",
+      "label": "cream delivery form for hormonal replacement therapy",
+      "hasChildren": false,
+      "childrenKey": "5f2e1acc30f11abc11265f16fa7e3c6877b85a35"
+    },
+    {
+      "iri": "obo:OBI_0002408",
+      "label": "patch delivery form for hormonal replacement therapy",
+      "hasChildren": false,
+      "childrenKey": "9a74a3465aff8a84045df8fb92c89dc1ce889660"
+    },
+    {
+      "iri": "obo:OBI_0002407",
+      "label": "pill delivery form for hormonal replacement therapy",
+      "hasChildren": false,
+      "childrenKey": "ea6b27d48d0d09a56904e2898d269ec84ff932c7"
+    }
+  ]
+}

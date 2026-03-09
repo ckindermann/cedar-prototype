@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002356",
+  "children": [
+    {
+      "iri": "obo:OBI_0002357",
+      "label": "Eastern Cooperative Oncology Group score value specification",
+      "hasChildren": false,
+      "childrenKey": "b8ac89986e613ae7c9d8ce29c094e4cf408e8cd2"
+    },
+    {
+      "iri": "obo:OBI_0002363",
+      "label": "Karnofsky score vaue specification",
+      "hasChildren": false,
+      "childrenKey": "201120fe8d26518301cd8e921078ea21a924ca1e"
+    }
+  ]
+}

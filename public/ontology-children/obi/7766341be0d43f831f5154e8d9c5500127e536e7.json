@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002991",
+  "children": [
+    {
+      "iri": "obo:OBI_0003598",
+      "label": "single cell B cell receptor repertoire sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "ca0d8cb30a794109584dd4bd5f5bf145dc169f33"
+    }
+  ]
+}

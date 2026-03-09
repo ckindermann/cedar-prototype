@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002410",
+  "children": [
+    {
+      "iri": "obo:OBI_0002411",
+      "label": "indeterminate menopausal status",
+      "hasChildren": false,
+      "childrenKey": "b72fb0eae252614bb46c014ffae2b3a9ff335e26"
+    },
+    {
+      "iri": "obo:OBI_0002413",
+      "label": "perimenopausal status",
+      "hasChildren": false,
+      "childrenKey": "4405988cfeb720a3d6ee42cf23dd60f4ee78e146"
+    },
+    {
+      "iri": "obo:OBI_0002414",
+      "label": "postmenopausal status",
+      "hasChildren": false,
+      "childrenKey": "52f5cb7ffc90b357e7704527fc763e738dd9f701"
+    },
+    {
+      "iri": "obo:OBI_0002412",
+      "label": "premenopausal status",
+      "hasChildren": false,
+      "childrenKey": "0240481612bbc33b7b811f6b4ba75fdf6a3df304"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110127",
+  "children": [
+    {
+      "iri": "obo:OBI_0001703",
+      "label": "assay measuring qualitative binding of a B cell epitope:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "75c92a437d1d4c1eb466fb453f4731ab670efa3e"
+    },
+    {
+      "iri": "obo:OBI_0003146",
+      "label": "assay measuring quantitative binding of an antigen:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "6367a6a74ef6cd8e0dd42f09ee80a593cdafbbcf"
+    },
+    {
+      "iri": "obo:OBI_0003323",
+      "label": "high throughput multiplexed assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "8a442fb58692fc7c7fb5798aaeac0368d838d9f6"
+    }
+  ]
+}

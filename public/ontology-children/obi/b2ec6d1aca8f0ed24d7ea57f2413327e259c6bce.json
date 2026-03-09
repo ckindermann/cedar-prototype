@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001456",
+  "children": [
+    {
+      "iri": "obo:OBI_0001781",
+      "label": "cytometric bead array assay measuring epitope specific macrophage inflammatory protein-1 gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "405eb38b27288e0db088a2f6b1cf1164d000187c"
+    },
+    {
+      "iri": "obo:OBI_0001782",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific macrophage inflammatory protein-1 gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "bb50a042b0bd36c064d69fd0c803e29288761a92"
+    },
+    {
+      "iri": "obo:OBI_0001438",
+      "label": "ELISA measuring epitope specific macrophage inflammatory protein-1 gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3188b922ea030a672ec71c95d4b18b9be66eadcb"
+    },
+    {
+      "iri": "obo:OBI_0001786",
+      "label": "ELISPOT assay measuring epitope specific macrophage inflammatory protein-1 gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3fe25290e3b671db5f2138fc002a6b0c6f900528"
+    },
+    {
+      "iri": "obo:OBI_0001785",
+      "label": "intracellular cytokine staining assay measuring epitope specific macrophage inflammatory protein-1 gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "706c6f8a130652b5e2e5c4a9f88362b6d2129794"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400113",
+  "children": [
+    {
+      "iri": "obo:OBI_0001056",
+      "label": "DNA synthesizer",
+      "hasChildren": false,
+      "childrenKey": "807e0e6326fb3b1fdc82de9340359be9704352de"
+    }
+  ]
+}

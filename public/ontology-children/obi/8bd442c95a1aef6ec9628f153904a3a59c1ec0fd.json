@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000471",
+  "children": [
+    {
+      "iri": "obo:OBI_0002621",
+      "label": "reconstitution assay",
+      "hasChildren": true,
+      "childrenKey": "bc27e3c4b256a89eb7ca6405e96ab45c9e337573"
+    }
+  ]
+}

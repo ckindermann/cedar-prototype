@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002654",
+  "children": [
+    {
+      "iri": "obo:OBI_0002656",
+      "label": "core needle biopsy",
+      "hasChildren": false,
+      "childrenKey": "8ca2f17ecfb6cf084f557ec75da5826cb99a4585"
+    },
+    {
+      "iri": "obo:OBI_0002655",
+      "label": "fine needle aspiration biopsy",
+      "hasChildren": false,
+      "childrenKey": "744039976a13fdd36257044155050cb42c74ffce"
+    },
+    {
+      "iri": "obo:OBI_0002651",
+      "label": "image guided biopsy",
+      "hasChildren": true,
+      "childrenKey": "75feb06357b708fe67b01022599bb8fc6cdd8858"
+    },
+    {
+      "iri": "obo:OBI_0002745",
+      "label": "vacuum-assisted biopsy",
+      "hasChildren": false,
+      "childrenKey": "86f0119ad1d2279807bbfebce7db215cf342e79d"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000208",
+  "children": [
+    {
+      "iri": "obo:OBI_0000134",
+      "label": "hardware testing objective",
+      "hasChildren": true,
+      "childrenKey": "1a78db31da1571c2c9d796dbbb4ce1ef05a5e7b6"
+    },
+    {
+      "iri": "obo:OBI_0000096",
+      "label": "protocol testing objective",
+      "hasChildren": true,
+      "childrenKey": "b4e7cfb31981296959f593c8b1d3a77ca14fc0c5"
+    },
+    {
+      "iri": "obo:OBI_0000242",
+      "label": "software testing objective",
+      "hasChildren": true,
+      "childrenKey": "2fcc58b2c3a819ed8554ac083701112888e277c2"
+    }
+  ]
+}

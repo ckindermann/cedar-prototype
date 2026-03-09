@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003459",
+  "children": [
+    {
+      "iri": "obo:OBI_0003469",
+      "label": "in vivo assay measuring B cell epitope specific survival after tumor challenge",
+      "hasChildren": true,
+      "childrenKey": "3a65d2d99e3faaf85cce88d3350df4d7c45301c3"
+    },
+    {
+      "iri": "obo:OBI_0003463",
+      "label": "in vivo assay measuring T cell epitope specific survival after tumor challenge",
+      "hasChildren": true,
+      "childrenKey": "8a7ea3beb1bab1942510db4b6ffde454c51bc0e5"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002939",
+  "children": [
+    {
+      "iri": "obo:OBI_0002921",
+      "label": "artificial pit shelter",
+      "hasChildren": false,
+      "childrenKey": "7c21534d05e9d0195b0dd86c11a1082275ad2b1e"
+    },
+    {
+      "iri": "obo:OBI_0002940",
+      "label": "resting box trap",
+      "hasChildren": false,
+      "childrenKey": "fefd3f65eb9477886a0bb39462e1faba64866e56"
+    },
+    {
+      "iri": "obo:OBI_0002941",
+      "label": "resting bucket",
+      "hasChildren": false,
+      "childrenKey": "eb631ef454b6905edf7e80446d1b80de93c0e6a7"
+    },
+    {
+      "iri": "obo:OBI_0003551",
+      "label": "resting clay pot trap",
+      "hasChildren": false,
+      "childrenKey": "4bb4deb65febe796ba039eaa6ca8eb848ba5de07"
+    },
+    {
+      "iri": "obo:OBI_0002943",
+      "label": "sticky resting bucket",
+      "hasChildren": false,
+      "childrenKey": "546c8399c478b895fbf150387884af0b4b0de1fb"
+    },
+    {
+      "iri": "obo:OBI_0002944",
+      "label": "sticky trap",
+      "hasChildren": false,
+      "childrenKey": "710e577ec86400491474b6410db0615391b2c88a"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002781",
+  "children": [
+    {
+      "iri": "obo:OBI_0002972",
+      "label": "endotracheal aspirate specimen",
+      "hasChildren": false,
+      "childrenKey": "00abd484b0f834f9b62196dc6c32c5fa2120cce3"
+    },
+    {
+      "iri": "obo:OBI_0002778",
+      "label": "tracheal aspirate specimen",
+      "hasChildren": false,
+      "childrenKey": "ffe4f8a970378e50fb837ee04c33a4646d98a0d3"
+    }
+  ]
+}

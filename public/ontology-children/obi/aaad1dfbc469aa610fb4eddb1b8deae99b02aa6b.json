@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600058",
+  "children": [
+    {
+      "iri": "obo:OBI_0600049",
+      "label": "DNA polymerase amplification",
+      "hasChildren": false,
+      "childrenKey": "d97593262b2dbd0b679d575b437a9a904929925e"
+    },
+    {
+      "iri": "obo:OBI_0600057",
+      "label": "enzymatic DNA replication",
+      "hasChildren": false,
+      "childrenKey": "722adcc6856c144042c16f3d9e852cf943734afe"
+    },
+    {
+      "iri": "obo:OBI_0001494",
+      "label": "linear amplification",
+      "hasChildren": true,
+      "childrenKey": "7c0664c2adbf52ee6839f27e8c27672f7baabd46"
+    },
+    {
+      "iri": "obo:OBI_0002688",
+      "label": "loop-mediated isothermal amplification",
+      "hasChildren": false,
+      "childrenKey": "c53bcd8b6c6979733232113860dd45d7e37601ab"
+    },
+    {
+      "iri": "obo:OBI_0000415",
+      "label": "polymerase chain reaction",
+      "hasChildren": true,
+      "childrenKey": "130d554be771a346051b0774555e2110a944108b"
+    },
+    {
+      "iri": "obo:OBI_0000552",
+      "label": "reverse transcribed polymerase chain reaction",
+      "hasChildren": true,
+      "childrenKey": "b49ff8a49208e2ea084976c79a5b989cd3ef7e44"
+    }
+  ]
+}

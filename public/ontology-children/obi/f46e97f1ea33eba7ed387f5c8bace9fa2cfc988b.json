@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000601",
+  "children": [
+    {
+      "iri": "obo:OBI_0000592",
+      "label": "chromatography detector filter",
+      "hasChildren": true,
+      "childrenKey": "c42f64343762d193862c50164900efc559504934"
+    },
+    {
+      "iri": "obo:OBI_0002816",
+      "label": "chromatography vial",
+      "hasChildren": false,
+      "childrenKey": "4ce2a238b040377d6d79df1cdeba3957c76e278e"
+    },
+    {
+      "iri": "obo:OBI_0000604",
+      "label": "detector lamp",
+      "hasChildren": false,
+      "childrenKey": "c40ab774f00351ec23de8dc68e19af3b81c61e3e"
+    },
+    {
+      "iri": "obo:OBI_0000511",
+      "label": "injector lubricant",
+      "hasChildren": false,
+      "childrenKey": "9e2b9878cd4f9c88429562d2d57c32841e9e57a3"
+    },
+    {
+      "iri": "obo:OBI_0000568",
+      "label": "piston-seal",
+      "hasChildren": false,
+      "childrenKey": "74ab7c0b62362d7abf5fac8839e3e453281fa3e6"
+    }
+  ]
+}

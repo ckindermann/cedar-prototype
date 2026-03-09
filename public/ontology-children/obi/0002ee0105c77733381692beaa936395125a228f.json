@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003684",
+  "children": [
+    {
+      "iri": "obo:OBI_0003606",
+      "label": "Illumina NextSeq 1000",
+      "hasChildren": false,
+      "childrenKey": "32312b8fe07d29436ae3577b78a232078e731ea9"
+    },
+    {
+      "iri": "obo:OBI_0002021",
+      "label": "Illumina NextSeq 500",
+      "hasChildren": false,
+      "childrenKey": "5dc485a729bb271742598544100601f72ed4d5f5"
+    },
+    {
+      "iri": "obo:OBI_0003387",
+      "label": "Illumina NextSeq 550",
+      "hasChildren": false,
+      "childrenKey": "5c44f40c184520ff6d81cd2f8e391857e937b3fc"
+    }
+  ]
+}

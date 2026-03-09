@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001390",
+  "children": [
+    {
+      "iri": "obo:OBI_0001356",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interferon-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "845fe27f0edce0f45777a85141d938d1c82cbc34"
+    },
+    {
+      "iri": "obo:OBI_0001751",
+      "label": "ELISA measuring epitope specific interferon-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "23b1d24cade17e5eb131ad7767619ba8a53f7805"
+    },
+    {
+      "iri": "obo:OBI_0001748",
+      "label": "ELISPOT assay measuring epitope specific interferon-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7f1d967e07a9f4480a6f82c8d7071c4b12e5eef1"
+    },
+    {
+      "iri": "obo:OBI_0001749",
+      "label": "intracellular cytokine staining assay measuring epitope specific interferon-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "c6de6db5a8ccb0a75aeed1bbe6cf1e9093e6f8d6"
+    }
+  ]
+}

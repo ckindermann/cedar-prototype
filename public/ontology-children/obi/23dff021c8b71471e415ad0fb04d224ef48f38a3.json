@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001700",
+  "children": [
+    {
+      "iri": "obo:OBI_0001956",
+      "label": "assay using chromatin immunoprecipitation",
+      "hasChildren": false,
+      "childrenKey": "ee843e2e68c39a1aab0755434a2c8bfde784600c"
+    },
+    {
+      "iri": "obo:OBI_0001653",
+      "label": "immunoprecipitation assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "5aab1658c5d3542905083fd5dcb77c23a2380141"
+    }
+  ]
+}

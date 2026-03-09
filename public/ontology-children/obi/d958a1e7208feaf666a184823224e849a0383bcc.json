@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002587",
+  "children": [
+    {
+      "iri": "obo:OBI_0002588",
+      "label": "supervised machine learning",
+      "hasChildren": false,
+      "childrenKey": "4caaddea4d8b2e3bedd7ab88cc7cd0e652b79c3e"
+    },
+    {
+      "iri": "obo:OBI_0002589",
+      "label": "unsupervised machine learning",
+      "hasChildren": false,
+      "childrenKey": "2bfe601fc0cd926c3bd46c3d661c2742e40ee9be"
+    }
+  ]
+}

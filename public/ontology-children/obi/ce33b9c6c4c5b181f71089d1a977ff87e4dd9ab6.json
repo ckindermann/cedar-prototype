@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003202",
+  "children": [
+    {
+      "iri": "obo:OBI_0003203",
+      "label": "leptin concentration assay",
+      "hasChildren": false,
+      "childrenKey": "b226314d6cb181eb0f27f567594920ac608da03c"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000427",
+  "children": [
+    {
+      "iri": "obo:OBI_0000419",
+      "label": "reverse transcriptase",
+      "hasChildren": false,
+      "childrenKey": "acbf01b71adb9ccc9a22f290ea01853a3d32fb9b"
+    }
+  ]
+}

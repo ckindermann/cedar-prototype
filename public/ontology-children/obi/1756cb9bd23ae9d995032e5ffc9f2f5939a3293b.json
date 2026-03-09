@@ -1,0 +1,108 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400148",
+  "children": [
+    {
+      "iri": "obo:OBI_0003399",
+      "label": "Affymetrix Clariom S Assay, Human",
+      "hasChildren": false,
+      "childrenKey": "4169a284fb2f102abee060cb1c1a1d5768fd48e7"
+    },
+    {
+      "iri": "obo:OBI_0003400",
+      "label": "Affymetrix Clariom S Assay, Mouse",
+      "hasChildren": false,
+      "childrenKey": "b8c07b53ede849b7d0764d4cf62aa83402c9e892"
+    },
+    {
+      "iri": "obo:OBI_0003404",
+      "label": "Affymetrix Human Exon Junction Array",
+      "hasChildren": false,
+      "childrenKey": "e66e8ae1c67594f32deeb05158354d93ba9e59a4"
+    },
+    {
+      "iri": "obo:OBI_0003398",
+      "label": "Affymetrix Human Gene 2.0 ST Array",
+      "hasChildren": false,
+      "childrenKey": "ef216e5a484d97f37462607fd0ee5a85cbe6d4f5"
+    },
+    {
+      "iri": "obo:OBI_0003397",
+      "label": "Affymetrix Human Genome U219 Array",
+      "hasChildren": false,
+      "childrenKey": "9d957b124746f7dc37a40ffecf5fe9fb15dcad27"
+    },
+    {
+      "iri": "obo:OBI_0003396",
+      "label": "Affymetrix Human Transcriptome Array 2.0",
+      "hasChildren": false,
+      "childrenKey": "972e742040bb87842161cf3ee3f74ff2e37fcedb"
+    },
+    {
+      "iri": "obo:OBI_0003403",
+      "label": "Affymetrix Mouse Exon Junction Array",
+      "hasChildren": false,
+      "childrenKey": "bbc0531816e1a088d65d33d7f4205ef52abdc403"
+    },
+    {
+      "iri": "obo:OBI_0003393",
+      "label": "Affymetrix Mouse Gene 1.0 ST Array",
+      "hasChildren": false,
+      "childrenKey": "9b0ef3b2d15c9c970d458a6a46efb99a96b503dc"
+    },
+    {
+      "iri": "obo:OBI_0003394",
+      "label": "Affymetrix Mouse Gene 2.1 ST Array",
+      "hasChildren": false,
+      "childrenKey": "6b6ffd42a7d64611293993ff6ae9eb2e47f8dc72"
+    },
+    {
+      "iri": "obo:OBI_0003391",
+      "label": "Affymetrix Mouse Genome 430 2.0 Array",
+      "hasChildren": false,
+      "childrenKey": "78a9a9d0fd81e06cb3b999f84280cc47fc5a78d0"
+    },
+    {
+      "iri": "obo:OBI_0003392",
+      "label": "Affymetrix Mouse Genome 430A 2.0 Array",
+      "hasChildren": false,
+      "childrenKey": "748ba7d3dd3155eb520d4c8d0c75320467e11625"
+    },
+    {
+      "iri": "obo:OBI_0003395",
+      "label": "Affymetrix Rhesus Macaque Genome Array",
+      "hasChildren": false,
+      "childrenKey": "ba60abead1555f7f4493f412767dd6c876698cda"
+    },
+    {
+      "iri": "obo:OBI_0003388",
+      "label": "Agilent-026655 Whole Mouse Genome Microarray 4x44K v2",
+      "hasChildren": false,
+      "childrenKey": "c3e35165090246615eaed3f5ad2f6427a945188f"
+    },
+    {
+      "iri": "obo:OBI_0003389",
+      "label": "Agilent-030493 SurePrint G3 Mouse Exon 4x180K Microarray",
+      "hasChildren": false,
+      "childrenKey": "0c6067c7ec709e4aab9413adce80f3bfbc2e925a"
+    },
+    {
+      "iri": "obo:OBI_0003390",
+      "label": "Agilent-074809 SurePrint G3 Mouse GE v2 8x60K Microarray",
+      "hasChildren": false,
+      "childrenKey": "2459576052bd966ff6fb441336b1a82ff39da07f"
+    },
+    {
+      "iri": "obo:OBI_0001204",
+      "label": "SNP microarray",
+      "hasChildren": false,
+      "childrenKey": "0f4670621310ee52b80e36e66aa85bb2db754268"
+    },
+    {
+      "iri": "obo:OBI_0001307",
+      "label": "tiling microarray",
+      "hasChildren": true,
+      "childrenKey": "87c72b1e2a595b19c48d8846ba7e6c780095e00d"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200106",
+  "children": [
+    {
+      "iri": "obo:OBI_0200100",
+      "label": "canonical variate analysis",
+      "hasChildren": false,
+      "childrenKey": "8f2fbb83651e8be49d0e42293281a38c955484d0"
+    },
+    {
+      "iri": "obo:OBI_0200099",
+      "label": "discriminant function analysis",
+      "hasChildren": false,
+      "childrenKey": "646bd5fff3e9f908b94cccfdefa21ce05094db4f"
+    },
+    {
+      "iri": "obo:OBI_0200101",
+      "label": "linear discriminant functional analysis",
+      "hasChildren": false,
+      "childrenKey": "8d0cb04602e3f4d1d4c17a0da5feaaa5eb0b4074"
+    },
+    {
+      "iri": "obo:OBI_0200107",
+      "label": "partial least square discriminant analysis",
+      "hasChildren": false,
+      "childrenKey": "8bfb79ce8bb0ab8c2cc4c9640ee2858fab13a22e"
+    }
+  ]
+}

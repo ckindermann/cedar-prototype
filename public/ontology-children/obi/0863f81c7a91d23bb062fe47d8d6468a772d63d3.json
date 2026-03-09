@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000479",
+  "children": [
+    {
+      "iri": "obo:OBI_0000564",
+      "label": "tecmag EAGLE probe",
+      "hasChildren": false,
+      "childrenKey": "0361f79daf30b2d3f4611b5732199f5e7d516dbf"
+    }
+  ]
+}

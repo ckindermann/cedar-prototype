@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002620",
+  "children": [
+    {
+      "iri": "obo:OBI_0003129",
+      "label": "chemical mutagenesis",
+      "hasChildren": false,
+      "childrenKey": "06c5a136fe3b165a56b9df241694fd62ff95b9fa"
+    },
+    {
+      "iri": "obo:OBI_0003130",
+      "label": "irradiation mutagenesis",
+      "hasChildren": false,
+      "childrenKey": "fc8d665efe3bce5b5835e74bc6cbeca3190d489a"
+    },
+    {
+      "iri": "obo:OBI_0003136",
+      "label": "transgenic mutagenesis",
+      "hasChildren": true,
+      "childrenKey": "1a72f132b596b71a34ad98fa7789071fb60b065e"
+    },
+    {
+      "iri": "obo:OBI_0003140",
+      "label": "transposon-induced mutagenesis",
+      "hasChildren": false,
+      "childrenKey": "7a43ac963c228c131120172fa60552690b75eaa2"
+    }
+  ]
+}

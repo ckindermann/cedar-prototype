@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001635",
+  "children": [
+    {
+      "iri": "obo:OBI_0001726",
+      "label": "quenching assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "6f1c990aab47c276163b33d173facac3c1d25166"
+    },
+    {
+      "iri": "obo:OBI_0001732",
+      "label": "quenching assay measuring the association constant [KA] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "2227428fcbc56247d7ed1a0849b0e88e2a1a1414"
+    },
+    {
+      "iri": "obo:OBI_0001729",
+      "label": "quenching assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "e0e186307c57a91ebb648f54d821294f16c68ecd"
+    },
+    {
+      "iri": "obo:OBI_0001740",
+      "label": "quenching assay measuring the off rate [koff] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "32b74208fe1be67d8fd18133bafab19b2ce8b8c1"
+    },
+    {
+      "iri": "obo:OBI_0001742",
+      "label": "quenching assay measuring the on rate [kon] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "e7b344c267bc0ddb24137824440fa93655ba5b09"
+    }
+  ]
+}

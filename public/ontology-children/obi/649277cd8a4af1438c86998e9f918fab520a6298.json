@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002438",
+  "children": [
+    {
+      "iri": "obo:OBI_0001848",
+      "label": "chromatin interaction analysis by paired-end tag sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "2d01d047593f9ca97d3a8bdf239c848f4bf419f9"
+    },
+    {
+      "iri": "obo:OBI_0002439",
+      "label": "chromosome conformation capture assay",
+      "hasChildren": true,
+      "childrenKey": "21b875eb58bcde296eada506ab93adb3c50c4c58"
+    },
+    {
+      "iri": "obo:OBI_0002458",
+      "label": "chromosome conformation capture-on-chip assay",
+      "hasChildren": true,
+      "childrenKey": "7de5c451fd21ca9a9b455a9264a1d73974ceb769"
+    },
+    {
+      "iri": "obo:OBI_0003314",
+      "label": "mapping RNA-genome interactions assay",
+      "hasChildren": false,
+      "childrenKey": "e5e1256254ebe2396afdae0d549d207fadeffa61"
+    }
+  ]
+}

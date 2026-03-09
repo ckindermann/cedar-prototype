@@ -1,0 +1,48 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000589",
+  "children": [
+    {
+      "iri": "obo:OBI_0000546",
+      "label": "capillary pump system",
+      "hasChildren": false,
+      "childrenKey": "96c0b0b11087af40878222567224b972b9e3637d"
+    },
+    {
+      "iri": "obo:OBI_0000557",
+      "label": "flash pump system",
+      "hasChildren": false,
+      "childrenKey": "7986d043cf7476749d8bac5572a01823aace1199"
+    },
+    {
+      "iri": "obo:OBI_0000573",
+      "label": "gradient pump system",
+      "hasChildren": false,
+      "childrenKey": "5851924ef3f1ba3bc000cd3cefd1f2e30fa1adab"
+    },
+    {
+      "iri": "obo:OBI_0000556",
+      "label": "isocratic pump system",
+      "hasChildren": false,
+      "childrenKey": "cef31dbbdcbea9fc96fb0fbf93a5518232aa885f"
+    },
+    {
+      "iri": "obo:OBI_0000474",
+      "label": "nano pump system",
+      "hasChildren": false,
+      "childrenKey": "440a03bf54c29fc2c0c6eb03deed7f72a78bac39"
+    },
+    {
+      "iri": "obo:OBI_0000627",
+      "label": "quaternary pump system",
+      "hasChildren": false,
+      "childrenKey": "dc0d90e8d88cbf395b526a445e8cfbfcf77fdaaa"
+    },
+    {
+      "iri": "obo:OBI_0000495",
+      "label": "vacuum degasser",
+      "hasChildren": false,
+      "childrenKey": "82fb4b4f5ef93f4cd1e9a770e319fa4e40d15f78"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000481",
+  "children": [
+    {
+      "iri": "obo:OBI_0000637",
+      "label": "gas chromatography detector",
+      "hasChildren": true,
+      "childrenKey": "09f34c6c8fae50af82f29ff192065f522d436606"
+    }
+  ]
+}

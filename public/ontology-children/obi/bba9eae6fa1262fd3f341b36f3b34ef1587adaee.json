@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001978",
+  "children": [
+    {
+      "iri": "obo:OBI_0001650",
+      "label": "immunoblot assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "71df4cc4f72f27a723496ee324f16d1f3dda3d83"
+    },
+    {
+      "iri": "obo:OBI_0000854",
+      "label": "western blot assay",
+      "hasChildren": true,
+      "childrenKey": "2090fd73c7df5667ebfb275d385ea1b6dd66aa4c"
+    }
+  ]
+}

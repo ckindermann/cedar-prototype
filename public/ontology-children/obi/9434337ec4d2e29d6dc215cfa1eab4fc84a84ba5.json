@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002401",
+  "children": [
+    {
+      "iri": "obo:OBI_0002403",
+      "label": "hormonal birth control current use history",
+      "hasChildren": false,
+      "childrenKey": "156ac501f6ada0999f4f36a302872c3cfcdf824e"
+    },
+    {
+      "iri": "obo:OBI_0002402",
+      "label": "hormonal birth control former use history",
+      "hasChildren": false,
+      "childrenKey": "9732d37c459970fe2cdf2f05ebd7f0c6c914dd3a"
+    },
+    {
+      "iri": "obo:OBI_0002404",
+      "label": "no hormonal birth control use history",
+      "hasChildren": false,
+      "childrenKey": "b3778b4045861f77f31adb6e2a66327f6c18cef0"
+    }
+  ]
+}

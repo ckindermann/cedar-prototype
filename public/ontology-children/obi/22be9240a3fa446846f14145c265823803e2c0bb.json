@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100016",
+  "children": [
+    {
+      "iri": "obo:OBI_2100248",
+      "label": "chem16 venous blood alanine aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "156597a76d4c5024fad603a71c4e988f7fbe1d44"
+    },
+    {
+      "iri": "obo:OBI_2100160",
+      "label": "comprehensive metabolic panel venous blood alanine aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "49c3c44cb17d04af231db8cc2c6fa857cc320d99"
+    },
+    {
+      "iri": "obo:OBI_2100214",
+      "label": "hepatic panel venous blood alanine aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "555fcedc7992f9a08a8fc6d5daaba767ab9c3510"
+    },
+    {
+      "iri": "obo:OBI_2100084",
+      "label": "liver evaluation venous blood alanine aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "bbc3fcdcfcfaf420a36d0129e4ea0c6988fa3c18"
+    },
+    {
+      "iri": "obo:OBI_2100339",
+      "label": "liver function venous blood alanine aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "4625942eac155deed36531e9b1c7d9bd58db84b4"
+    },
+    {
+      "iri": "obo:OBI_2100068",
+      "label": "liver injury venous blood alanine aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "6fac99aad8cda99ea53a60d1010f0f045d7f8432"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001352",
+  "children": [
+    {
+      "iri": "obo:OBI_0001369",
+      "label": "wild type allele information",
+      "hasChildren": false,
+      "childrenKey": "3b71c94c41de4bd7451e113724d80290e088bece"
+    }
+  ]
+}

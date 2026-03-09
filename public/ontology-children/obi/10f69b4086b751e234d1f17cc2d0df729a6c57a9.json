@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110037",
+  "children": [
+    {
+      "iri": "obo:OBI_1110124",
+      "label": "assay measuring qualitative binding of a T cell epitope:MHC:TCR complex",
+      "hasChildren": true,
+      "childrenKey": "59024d85fe8c82f0b8808a02de133478da6c1f1b"
+    },
+    {
+      "iri": "obo:OBI_0003147",
+      "label": "assay measuring quantitative binding of an epitope:MHC:TCR complex",
+      "hasChildren": true,
+      "childrenKey": "313b4869dc22d00765510fcfb051fd7f7dbff20c"
+    },
+    {
+      "iri": "obo:OBI_0003324",
+      "label": "high throughput multiplexed assay measuring binding of a T cell epitope:MHC:TCR complex",
+      "hasChildren": false,
+      "childrenKey": "2b75a28ad44920f09ef5010ebd6b426bc54941df"
+    }
+  ]
+}

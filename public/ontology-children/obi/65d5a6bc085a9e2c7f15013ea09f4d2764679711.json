@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000391",
+  "children": [
+    {
+      "iri": "obo:OBI_0000384",
+      "label": "electricity supply function",
+      "hasChildren": false,
+      "childrenKey": "9cdf3f31331b55c41cc7b0144d2181b6fdf17af3"
+    }
+  ]
+}

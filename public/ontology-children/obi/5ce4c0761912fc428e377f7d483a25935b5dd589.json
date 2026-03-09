@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001778",
+  "children": [
+    {
+      "iri": "obo:OBI_0001761",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific chemokine (C-X-C motif) ligand 16 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ecea9a73312891358f22a71643bf4cb037c9c0a7"
+    }
+  ]
+}

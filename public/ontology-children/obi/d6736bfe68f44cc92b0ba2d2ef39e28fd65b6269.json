@@ -1,0 +1,150 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200169",
+  "children": [
+    {
+      "iri": "obo:OBI_0200109",
+      "label": "b transformation",
+      "hasChildren": false,
+      "childrenKey": "50f31ceb35ebbc6b5c7b5f9ad97977f1d4e1cb8e"
+    },
+    {
+      "iri": "obo:OBI_0200006",
+      "label": "biexponential transformation",
+      "hasChildren": false,
+      "childrenKey": "cf4452812eab386ce691018ec02bcad8a2cae347"
+    },
+    {
+      "iri": "obo:OBI_0200007",
+      "label": "box-cox transformation",
+      "hasChildren": false,
+      "childrenKey": "6e29ad51ec9cf396cbf955fda623d9ef8b2eca32"
+    },
+    {
+      "iri": "obo:OBI_0200017",
+      "label": "cosine transformation",
+      "hasChildren": false,
+      "childrenKey": "7245c5c9dfd3debeecb03d593f4b586de62aaa0d"
+    },
+    {
+      "iri": "obo:OBI_0200108",
+      "label": "eh transformation",
+      "hasChildren": false,
+      "childrenKey": "fcef9f6ac523ee3b2e938e1db8ef4279662ba28e"
+    },
+    {
+      "iri": "obo:OBI_0200095",
+      "label": "exponential transformation",
+      "hasChildren": false,
+      "childrenKey": "38743e4b4dff43ba3b0d12f8605952367315fe8d"
+    },
+    {
+      "iri": "obo:OBI_0200008",
+      "label": "hyperlog transformation",
+      "hasChildren": false,
+      "childrenKey": "87babd574f67b06275ae2dff9407508264bf1333"
+    },
+    {
+      "iri": "obo:OBI_0200021",
+      "label": "linlog transformation",
+      "hasChildren": false,
+      "childrenKey": "fa4ff1b0db137146152c022ea549f5c878a1a399"
+    },
+    {
+      "iri": "obo:OBI_0200071",
+      "label": "loess transformation",
+      "hasChildren": true,
+      "childrenKey": "f7d0a3876d1ab5594f771506875c325d5bd76cee"
+    },
+    {
+      "iri": "obo:OBI_0200094",
+      "label": "logarithmic transformation",
+      "hasChildren": false,
+      "childrenKey": "ba4d78d84a593fb8783a54cc2d126543c5129445"
+    },
+    {
+      "iri": "obo:OBI_0200011",
+      "label": "logical transformation",
+      "hasChildren": false,
+      "childrenKey": "6c85b6c2c31684c71cc71916f39d571ad4bc9180"
+    },
+    {
+      "iri": "obo:OBI_0001477",
+      "label": "lowess transformation",
+      "hasChildren": true,
+      "childrenKey": "812fed137ae919123bf002858ce328b14c036f40"
+    },
+    {
+      "iri": "obo:OBI_0200029",
+      "label": "mean centering",
+      "hasChildren": false,
+      "childrenKey": "39c8440e78ed6f90de297be6482fba423de631ca"
+    },
+    {
+      "iri": "obo:OBI_0200030",
+      "label": "median centering",
+      "hasChildren": false,
+      "childrenKey": "e25cc55bc43dae2d51db3c49345db3ddd8bf8cae"
+    },
+    {
+      "iri": "obo:OBI_0200037",
+      "label": "pareto scaling",
+      "hasChildren": false,
+      "childrenKey": "fbff59a54ed7ce0457919b8032212fa227ff8665"
+    },
+    {
+      "iri": "obo:OBI_0200028",
+      "label": "quantile transformation",
+      "hasChildren": false,
+      "childrenKey": "a834eb97fb5aa006375f6a9fec2d75908a27aadd"
+    },
+    {
+      "iri": "obo:OBI_0200057",
+      "label": "replicate analysis",
+      "hasChildren": true,
+      "childrenKey": "97ec8855a7f42c0461b6e068bb8c6ad82705689e"
+    },
+    {
+      "iri": "obo:OBI_0200110",
+      "label": "s transformation",
+      "hasChildren": false,
+      "childrenKey": "ef14bf0241e2937e7a9a7a3ea31566a6c15b59c0"
+    },
+    {
+      "iri": "obo:OBI_0200016",
+      "label": "sine transformation",
+      "hasChildren": false,
+      "childrenKey": "7b56a0ffe50c8edaba9378ebfbfe6f0c8f3f4139"
+    },
+    {
+      "iri": "obo:OBI_0200098",
+      "label": "soft independent modeling of class analogy analysis",
+      "hasChildren": false,
+      "childrenKey": "9601a11e11eabcc897d63d8001f1b619ff9636d0"
+    },
+    {
+      "iri": "obo:OBI_0200027",
+      "label": "total intensity transformation paired",
+      "hasChildren": false,
+      "childrenKey": "969c457cd7d5e9def0f238ddf4fdb20dc9face90"
+    },
+    {
+      "iri": "obo:OBI_0200026",
+      "label": "total intensity transformation single",
+      "hasChildren": false,
+      "childrenKey": "0d5fa249b0cc3d28268b7c2a767474230277a602"
+    },
+    {
+      "iri": "obo:OBI_0200149",
+      "label": "unit-variance scaling",
+      "hasChildren": false,
+      "childrenKey": "d7f08e165c4d9d752d0163bcd42568351d86d014"
+    },
+    {
+      "iri": "obo:OBI_0200022",
+      "label": "variance stabilizing transformation",
+      "hasChildren": false,
+      "childrenKey": "4067a4648577d513bfa640ad392c73c92e7a8a19"
+    }
+  ]
+}

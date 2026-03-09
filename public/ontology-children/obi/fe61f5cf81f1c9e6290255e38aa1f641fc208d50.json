@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003165",
+  "children": [
+    {
+      "iri": "obo:OBI_2100207",
+      "label": "CBC with manual differential venous blood myelocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "5e65045aba47d64d3ecf0e6d68e2e7ad460c8769"
+    }
+  ]
+}

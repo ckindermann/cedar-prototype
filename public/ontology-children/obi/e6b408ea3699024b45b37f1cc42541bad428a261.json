@@ -1,0 +1,126 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003018",
+  "children": [
+    {
+      "iri": "obo:OBI_2100278",
+      "label": "ABL90 panel arterial blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "9dcb6e55eed501f4cee5515893008f8d18a50701"
+    },
+    {
+      "iri": "obo:OBI_2100288",
+      "label": "ABL90 panel venous blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "c7ee53a399a365fb548d0108dfeb83832b2c6003"
+    },
+    {
+      "iri": "obo:OBI_2100186",
+      "label": "arterial blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "8874a4f5727c778a8f183d8d217ea075e41aafed"
+    },
+    {
+      "iri": "obo:OBI_2100076",
+      "label": "CBC venous blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "9041791cb9eac1204200c82ca84cea9d53a2ecc9"
+    },
+    {
+      "iri": "obo:OBI_2100074",
+      "label": "CBC venous blood RBC count assay",
+      "hasChildren": false,
+      "childrenKey": "1098a3a46e030a53ffa5cad045a1ac33a6287519"
+    },
+    {
+      "iri": "obo:OBI_2100065",
+      "label": "CBC with automated differential venous blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "0ea4d030a1ad38ddb06877bd126db6b2a5668e1a"
+    },
+    {
+      "iri": "obo:OBI_2100306",
+      "label": "CBC with automated differential venous blood nucleated RBC count assay",
+      "hasChildren": false,
+      "childrenKey": "7b6e1d1bb80049027cc5aa46c3e15b8e028549da"
+    },
+    {
+      "iri": "obo:OBI_2100062",
+      "label": "CBC with automated differential venous blood RBC count assay",
+      "hasChildren": false,
+      "childrenKey": "e032cbc6de332e2242063f424733a1973a62c127"
+    },
+    {
+      "iri": "obo:OBI_2100103",
+      "label": "CBC with manual differential venous blood nucleated RBC count assay",
+      "hasChildren": false,
+      "childrenKey": "73615703620f5bed702b347d48ad6515ef919469"
+    },
+    {
+      "iri": "obo:OBI_0003190",
+      "label": "erythrocyte assay",
+      "hasChildren": true,
+      "childrenKey": "8088dc9426a525d800bb4f0980064a9254af24f6"
+    },
+    {
+      "iri": "obo:OBI_2100011",
+      "label": "erythrocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "8ca6c316f116b447c998d46e5a086be74946419b"
+    },
+    {
+      "iri": "obo:OBI_2100189",
+      "label": "GEM premier blood gas venous blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "1e75ceb78ef90b3668b77522e1f80767f60a9d9f"
+    },
+    {
+      "iri": "obo:OBI_2100379",
+      "label": "GEM4 arterial blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "31d8e4ab7c59dcfb5014b45333c209b0c801969a"
+    },
+    {
+      "iri": "obo:OBI_2100314",
+      "label": "GEM4000 ANLCOOX arterial blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "b1377db3cc8fb909648d66d652d59f9222539f61"
+    },
+    {
+      "iri": "obo:OBI_2100353",
+      "label": "hemoglobin and hematocrit venous blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "1d80a2527212cd1852cd838b30ea874c50c468db"
+    },
+    {
+      "iri": "obo:OBI_0003191",
+      "label": "manual hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "144e8e68b11e6b37282620f972521a740eb381f0"
+    },
+    {
+      "iri": "obo:OBI_2100026",
+      "label": "nucleate erythrocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "a4253226e7e911dd2f2f1b042f84cf6aac694cf0"
+    },
+    {
+      "iri": "obo:OBI_2100255",
+      "label": "POC chem8 arterial blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "da92547d0f5d75f7accb6c5c17762709f5adca7d"
+    },
+    {
+      "iri": "obo:OBI_2100164",
+      "label": "venous blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "bc54da64576ce1a1adcc2037252eb7252ed8104d"
+    },
+    {
+      "iri": "obo:OBI_2100366",
+      "label": "venous blood nucleated RBC count assay",
+      "hasChildren": false,
+      "childrenKey": "8243ad3fae8a810899f95067b2eb50fbca998e4c"
+    }
+  ]
+}

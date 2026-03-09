@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0302893",
+  "children": [
+    {
+      "iri": "obo:OBI_0001003",
+      "label": "agar stab storage",
+      "hasChildren": false,
+      "childrenKey": "934115c72b841d55de13dfc0bad9e8754d94af0d"
+    },
+    {
+      "iri": "obo:OBI_0000819",
+      "label": "anticoagulant tube storage of blood specimen",
+      "hasChildren": false,
+      "childrenKey": "f06f255811a02f33948dbbf0849b48a52a5fc9db"
+    },
+    {
+      "iri": "obo:OBI_0000915",
+      "label": "freezing storage",
+      "hasChildren": false,
+      "childrenKey": "10e82605ccb39d5c6edc9b78e0488068ad046fa3"
+    },
+    {
+      "iri": "obo:OBI_0000927",
+      "label": "lyophilization storage",
+      "hasChildren": false,
+      "childrenKey": "83e2d21654396cb82b20ece844af4618d49ce8cd"
+    },
+    {
+      "iri": "obo:OBI_0000977",
+      "label": "paraffin storage",
+      "hasChildren": false,
+      "childrenKey": "3f23347b327d5cb8bff15ee1b2b0b7355ee6e373"
+    }
+  ]
+}

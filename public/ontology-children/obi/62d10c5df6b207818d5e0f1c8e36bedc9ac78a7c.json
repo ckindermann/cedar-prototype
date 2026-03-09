@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000885",
+  "children": [
+    {
+      "iri": "obo:OBI_0000896",
+      "label": "secondary structure of RNA molecule",
+      "hasChildren": false,
+      "childrenKey": "a10c38750e511d3f109203b0852694693c26bb07"
+    }
+  ]
+}

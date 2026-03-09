@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002198",
+  "children": [
+    {
+      "iri": "obo:OBI_0001891",
+      "label": "sequencing facility organization",
+      "hasChildren": false,
+      "childrenKey": "610afd1baffc08d257338a6386b91c63e0a686b0"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001858",
+  "children": [
+    {
+      "iri": "obo:OBI_0002043",
+      "label": "individual-nucleotide resolution cross-linking and immunoprecipitation sequencing assay",
+      "hasChildren": true,
+      "childrenKey": "c1591491ab694637b174d418ec89f56af97c3882"
+    }
+  ]
+}

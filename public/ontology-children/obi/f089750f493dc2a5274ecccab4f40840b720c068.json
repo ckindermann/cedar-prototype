@@ -1,0 +1,54 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000435",
+  "children": [
+    {
+      "iri": "obo:OBI_0001393",
+      "label": "comparative genomic hybridization by array assay",
+      "hasChildren": false,
+      "childrenKey": "acda8d1f47e8d6f2808f1b4b4bb4a253706d47cc"
+    },
+    {
+      "iri": "obo:OBI_0002459",
+      "label": "genotype phasing by Hi-C assay",
+      "hasChildren": false,
+      "childrenKey": "bf86d5b8f5911f73c25b35cd5973a9e6ae32d4c7"
+    },
+    {
+      "iri": "obo:OBI_0001274",
+      "label": "genotyping by array assay",
+      "hasChildren": true,
+      "childrenKey": "7250720b98e10423bd8620580fcb59476c817b68"
+    },
+    {
+      "iri": "obo:OBI_0001247",
+      "label": "genotyping by high throughput sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "094b5016c58e9b514cf5ada4a29536365c0bfbd2"
+    },
+    {
+      "iri": "obo:OBI_0003032",
+      "label": "genotyping by PCR assay",
+      "hasChildren": false,
+      "childrenKey": "ed62d2b621dfcdc71723197e442d422b2322b31a"
+    },
+    {
+      "iri": "obo:OBI_0002121",
+      "label": "killer cell immunoglobulin-like receptor typing assay",
+      "hasChildren": false,
+      "childrenKey": "a0389bd7ee7f6d28a5713690721906282d3ae156"
+    },
+    {
+      "iri": "obo:OBI_0002122",
+      "label": "major histocompatibility typing assay",
+      "hasChildren": false,
+      "childrenKey": "f1e1999b097aaec99f35b00098a43dde92af035e"
+    },
+    {
+      "iri": "obo:OBI_0302737",
+      "label": "PCR-SSCP assay",
+      "hasChildren": false,
+      "childrenKey": "05816bc18a0d61f20f316719f9a5b241a6feb3d5"
+    }
+  ]
+}

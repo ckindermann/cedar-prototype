@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002523",
+  "children": [
+    {
+      "iri": "obo:OBI_0002604",
+      "label": "breast swab specimen",
+      "hasChildren": true,
+      "childrenKey": "121f55de84b1f404c9400812312b250a5c44070c"
+    }
+  ]
+}

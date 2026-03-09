@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002108",
+  "children": [
+    {
+      "iri": "obo:OBI_0002101",
+      "label": "small-angle scattering assay determining the 3D structure of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "5c4313cf025cba71e8c375029766180926c64621"
+    }
+  ]
+}

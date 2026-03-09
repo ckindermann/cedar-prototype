@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001253",
+  "children": [
+    {
+      "iri": "obo:OBI_0001532",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "5427c7dd26e5afc52bc43a540fb26f0d6a8db426"
+    },
+    {
+      "iri": "obo:OBI_0001799",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "0f05525356e93a0c2d4e75769cc80c9701fbce25"
+    },
+    {
+      "iri": "obo:OBI_0001238",
+      "label": "ELISA measuring epitope specific interleukin-9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "0e5b66bfceb5a00a82c1a5fe06fefd311ffdbc12"
+    },
+    {
+      "iri": "obo:OBI_0001797",
+      "label": "ELISPOT assay measuring epitope specific interleukin-9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "1cb0a104b0cf390eca45ad0ebbfd37f8028259d8"
+    },
+    {
+      "iri": "obo:OBI_0001798",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "c30510108ad8aa338f38f0e6d187a18bb2a5913d"
+    }
+  ]
+}

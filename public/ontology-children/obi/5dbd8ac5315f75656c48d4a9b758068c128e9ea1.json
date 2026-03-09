@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003331",
+  "children": [
+    {
+      "iri": "obo:OBI_0003354",
+      "label": "raw magnetic resonance image data set",
+      "hasChildren": false,
+      "childrenKey": "c3294a5f3e6d243943db1568313c982cee54c525"
+    }
+  ]
+}

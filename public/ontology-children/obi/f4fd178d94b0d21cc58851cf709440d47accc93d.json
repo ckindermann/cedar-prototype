@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001416",
+  "children": [
+    {
+      "iri": "obo:OBI_0001452",
+      "label": "cell culture analyte detection bioassay measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "69929ee93101e0f44ad87942cb77050e6f7f205e"
+    },
+    {
+      "iri": "obo:OBI_0001353",
+      "label": "cytometric bead array assay measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "bee19d7bf4c2678a5811b34683180acd30780a72"
+    },
+    {
+      "iri": "obo:OBI_0001242",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "358909df858d332969bf1ca71bf4d7c153b3a3ad"
+    },
+    {
+      "iri": "obo:OBI_1110155",
+      "label": "ELISA measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "cfa9f69b331ac8da36f5d12b7f5126229ca04bd1"
+    },
+    {
+      "iri": "obo:OBI_1110168",
+      "label": "ELISPOT assay measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3edf4d36f1c2c0755c681516afc5f6f576622c2c"
+    },
+    {
+      "iri": "obo:OBI_1110174",
+      "label": "intracellular cytokine staining assay measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "6c056d16c6e545d78f1e3ed5f625a9e523adcd44"
+    }
+  ]
+}

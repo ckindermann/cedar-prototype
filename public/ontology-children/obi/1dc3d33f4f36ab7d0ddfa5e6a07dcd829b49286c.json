@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003010",
+  "children": [
+    {
+      "iri": "obo:OBI_0003175",
+      "label": "fibrinogen concentration assay",
+      "hasChildren": false,
+      "childrenKey": "7b34d698fa7ac4db1692b8a79ed3b4c2cba56c39"
+    },
+    {
+      "iri": "obo:OBI_2100147",
+      "label": "venous blood fibrinogen assay",
+      "hasChildren": false,
+      "childrenKey": "cae7046be016b2cc03a52f715127db37c3a04465"
+    }
+  ]
+}

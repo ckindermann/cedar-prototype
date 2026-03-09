@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003564",
+  "children": [
+    {
+      "iri": "obo:OBI_0003568",
+      "label": "skin scarification administration",
+      "hasChildren": false,
+      "childrenKey": "7fd05e9dd4dec01f87b6c6f514cc4253f3623edb"
+    }
+  ]
+}

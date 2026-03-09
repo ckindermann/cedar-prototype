@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003565",
+  "children": [
+    {
+      "iri": "obo:OBI_0003566",
+      "label": "lymph node administration",
+      "hasChildren": false,
+      "childrenKey": "60519ce8f558ede24cc0a8f15d879c08c14d04a7"
+    }
+  ]
+}

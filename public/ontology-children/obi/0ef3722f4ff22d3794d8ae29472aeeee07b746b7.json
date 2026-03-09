@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001834",
+  "children": [
+    {
+      "iri": "obo:OBI_0001546",
+      "label": "comparative phenotypic assessment",
+      "hasChildren": false,
+      "childrenKey": "d5fde727212f1a09bdc8c12a33df97ca36edcf42"
+    }
+  ]
+}

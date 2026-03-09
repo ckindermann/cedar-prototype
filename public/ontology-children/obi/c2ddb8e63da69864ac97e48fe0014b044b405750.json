@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001403",
+  "children": [
+    {
+      "iri": "obo:OBI_0001417",
+      "label": "ChIP-chip by tiling array design",
+      "hasChildren": false,
+      "childrenKey": "2765ac37b5326f59ac0cd9db9a9b66400305cf68"
+    }
+  ]
+}

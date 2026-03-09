@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002918",
+  "children": [
+    {
+      "iri": "obo:OBI_0002917",
+      "label": "knockdown arthropod specimen collection by pyrethrum spray",
+      "hasChildren": false,
+      "childrenKey": "6e408d2632e5aa4b885a2efdcd58f81bfb49df11"
+    }
+  ]
+}

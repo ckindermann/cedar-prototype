@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002177",
+  "children": [
+    {
+      "iri": "obo:OBI_0002179",
+      "label": "cell-attached patch clamp assay",
+      "hasChildren": false,
+      "childrenKey": "8c6030d733d3870c8195f50f7d67f5ec7cfe7e63"
+    },
+    {
+      "iri": "obo:OBI_0002180",
+      "label": "inside-out patch clamp assay",
+      "hasChildren": false,
+      "childrenKey": "609136dfa8842f15a32b4f901cd1e7f9e6f104c8"
+    },
+    {
+      "iri": "obo:OBI_0002181",
+      "label": "outside-out patch clamp assay",
+      "hasChildren": false,
+      "childrenKey": "80ec4818f01cb04c064c6504ea05fa6443747a53"
+    },
+    {
+      "iri": "obo:OBI_0002178",
+      "label": "whole-cell patch clamp assay",
+      "hasChildren": false,
+      "childrenKey": "900a459d1849f8e94be386022bdd9b5dbc38d62d"
+    }
+  ]
+}

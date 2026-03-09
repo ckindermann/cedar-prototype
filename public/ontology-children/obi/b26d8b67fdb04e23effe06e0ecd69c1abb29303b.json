@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003333",
+  "children": [
+    {
+      "iri": "obo:OBI_0003357",
+      "label": "brain region atlas image data set",
+      "hasChildren": true,
+      "childrenKey": "88b4678c2806f3dd6f65448f6ce842c7df4c6588"
+    },
+    {
+      "iri": "obo:OBI_0003360",
+      "label": "image segmentation map",
+      "hasChildren": true,
+      "childrenKey": "28ef0e4fc9e6e5c6bba8d4b65114d0a88e569748"
+    },
+    {
+      "iri": "obo:OBI_0003334",
+      "label": "reconstructed magnetic resonance image data set",
+      "hasChildren": true,
+      "childrenKey": "9d015b0c0be86d1e122fbe32786b5eade1c0769e"
+    }
+  ]
+}

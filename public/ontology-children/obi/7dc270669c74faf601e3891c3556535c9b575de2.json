@@ -1,0 +1,126 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000038",
+  "children": [
+    {
+      "iri": "obo:OBI_0000533",
+      "label": "affinity column",
+      "hasChildren": false,
+      "childrenKey": "083f6f18436e0e30d50eb9e96ac4648ce534390d"
+    },
+    {
+      "iri": "obo:OBI_0000496",
+      "label": "capillary column",
+      "hasChildren": false,
+      "childrenKey": "95274899a3f5c336342d1dbbaef64d1e45f0f6cd"
+    },
+    {
+      "iri": "obo:OBI_0000628",
+      "label": "carbon nanotube column",
+      "hasChildren": false,
+      "childrenKey": "24cf087de3592da857eec52a1b7fd9e67aa56d88"
+    },
+    {
+      "iri": "obo:OBI_0000515",
+      "label": "chromatofocusing column",
+      "hasChildren": false,
+      "childrenKey": "6e96df0db0a47e44eb217da4d41b1e581c94dc05"
+    },
+    {
+      "iri": "obo:OBI_0000621",
+      "label": "custom made column",
+      "hasChildren": false,
+      "childrenKey": "0ba3a7d9773b157dd6764addb044280a24313b3f"
+    },
+    {
+      "iri": "obo:OBI_0000622",
+      "label": "gel permeation column",
+      "hasChildren": false,
+      "childrenKey": "efa204751a14b9afe936919c9a7ece3b5758ac80"
+    },
+    {
+      "iri": "obo:OBI_0000609",
+      "label": "glass column",
+      "hasChildren": false,
+      "childrenKey": "bca105f4dd9bbcac084973d0999ee167eb1c9c32"
+    },
+    {
+      "iri": "obo:OBI_0000574",
+      "label": "high temperature column",
+      "hasChildren": false,
+      "childrenKey": "5fc2fdaa6d5c30bb90acc84f5a00e8605d52fc8c"
+    },
+    {
+      "iri": "obo:OBI_0000560",
+      "label": "ion exchange column",
+      "hasChildren": true,
+      "childrenKey": "20638adc3e6078a1db0a1ba2fcf753013381fb80"
+    },
+    {
+      "iri": "obo:OBI_0000603",
+      "label": "liquid chromatography column",
+      "hasChildren": false,
+      "childrenKey": "9c8d70b93f1df96d4489472f415998cd6e23e1b3"
+    },
+    {
+      "iri": "obo:OBI_0000482",
+      "label": "normal phase column",
+      "hasChildren": false,
+      "childrenKey": "710bf9dc5381fa6a692d1ce6ebf86e4ee8a83eb0"
+    },
+    {
+      "iri": "obo:OBI_0000606",
+      "label": "open tubular column",
+      "hasChildren": false,
+      "childrenKey": "f25b47e0880aa46dd8d8b9025151cfa464c3c37a"
+    },
+    {
+      "iri": "obo:OBI_0000465",
+      "label": "organic acid column",
+      "hasChildren": false,
+      "childrenKey": "41e83bf58104716ddcc1821afd4dbb02f71364f8"
+    },
+    {
+      "iri": "obo:OBI_0000448",
+      "label": "packed column",
+      "hasChildren": false,
+      "childrenKey": "176d65ed55da81db273105e03f655ae080d4c0dc"
+    },
+    {
+      "iri": "obo:OBI_0000586",
+      "label": "plunger column",
+      "hasChildren": false,
+      "childrenKey": "1ffa37110f5fb2892cb7d6fa6e06c7af9459f7c7"
+    },
+    {
+      "iri": "obo:OBI_0000468",
+      "label": "protein column",
+      "hasChildren": false,
+      "childrenKey": "60bc3a6506f49ef8036250a00d2638a7c56a91af"
+    },
+    {
+      "iri": "obo:OBI_0000510",
+      "label": "reversed phase column",
+      "hasChildren": false,
+      "childrenKey": "073d87e9a07931c0e5c7f1758a61d3adf7c0ca8d"
+    },
+    {
+      "iri": "obo:OBI_0000618",
+      "label": "size exclusion column",
+      "hasChildren": true,
+      "childrenKey": "1907aaf21fa9e1c072cf324f99aecf8608ee13b3"
+    },
+    {
+      "iri": "obo:OBI_0000570",
+      "label": "spin column",
+      "hasChildren": false,
+      "childrenKey": "45ac4f95982478cc95e8ee7d9081d7171e6354a3"
+    },
+    {
+      "iri": "obo:OBI_0000518",
+      "label": "trap column",
+      "hasChildren": true,
+      "childrenKey": "d7e86ff47682bd5f30b30aca7b5b376b39fb36aa"
+    }
+  ]
+}

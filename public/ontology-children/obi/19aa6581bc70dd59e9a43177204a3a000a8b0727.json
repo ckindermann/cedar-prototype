@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200042",
+  "children": [
+    {
+      "iri": "obo:OBI_0200154",
+      "label": "agglomerative hierarchical clustering",
+      "hasChildren": true,
+      "childrenKey": "13ed2354acfb020116f260c24f856305e5f6bd50"
+    },
+    {
+      "iri": "obo:OBI_0200155",
+      "label": "divisive hierarchical clustering",
+      "hasChildren": false,
+      "childrenKey": "3150b422e35343d04a53dc859a91deda7a0882b4"
+    }
+  ]
+}

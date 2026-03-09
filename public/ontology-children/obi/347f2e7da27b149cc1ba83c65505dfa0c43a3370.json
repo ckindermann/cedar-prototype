@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000827",
+  "children": [
+    {
+      "iri": "obo:OBI_0000821",
+      "label": "filled capsule",
+      "hasChildren": false,
+      "childrenKey": "e00daaf3ea50e321d5186c5fb83fd8d78742765b"
+    }
+  ]
+}

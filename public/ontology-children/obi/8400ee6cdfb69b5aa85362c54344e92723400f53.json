@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002415",
+  "children": [
+    {
+      "iri": "obo:OBI_0002416",
+      "label": "exposure to arsenic history",
+      "hasChildren": false,
+      "childrenKey": "403f80b44c5c480c44257af57cf85f967a53663c"
+    },
+    {
+      "iri": "obo:OBI_0002417",
+      "label": "exposure to asbestos history",
+      "hasChildren": false,
+      "childrenKey": "81611540d9b25972dbc41b424401afda852fd380"
+    },
+    {
+      "iri": "obo:OBI_0002419",
+      "label": "exposure to chromium history",
+      "hasChildren": false,
+      "childrenKey": "47b5ea4c6ac60a2b77e9183604b1cbc06d900106"
+    },
+    {
+      "iri": "obo:OBI_0002418",
+      "label": "exposure to diesel exhaust history",
+      "hasChildren": false,
+      "childrenKey": "b6717816ae1948be9bc960d915e94c403754b6cd"
+    },
+    {
+      "iri": "obo:OBI_0002420",
+      "label": "exposure to silica history",
+      "hasChildren": false,
+      "childrenKey": "576822c981227212bc0ffdffd5d86f11ed5cd255"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003636",
+  "children": [
+    {
+      "iri": "obo:OBI_0003637",
+      "label": "antibody purification of cattle MHC class II protein complex",
+      "hasChildren": false,
+      "childrenKey": "e951a5326c5448c32083e04c6117fd2337f892e5"
+    },
+    {
+      "iri": "obo:OBI_0003638",
+      "label": "antibody purification of human MHC class II protein complex",
+      "hasChildren": true,
+      "childrenKey": "41c7f507adf48b3ccfd38111bf4436f5684b5e9b"
+    },
+    {
+      "iri": "obo:OBI_0003642",
+      "label": "antibody purification of mouse MHC class II protein complex",
+      "hasChildren": true,
+      "childrenKey": "7a69e7e0a792fb9cc0cd29a4bb2499ca0eb79635"
+    },
+    {
+      "iri": "obo:OBI_0003646",
+      "label": "antibody purification of mouse MHC class II protein complex and/or rat MHC class II protein complex with RT1-A haplotype",
+      "hasChildren": true,
+      "childrenKey": "6d7fd2430666b62cb39b97459b410b8ba607f946"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001468",
+  "children": [
+    {
+      "iri": "obo:OBI_2000016",
+      "label": "erythrocyte specimen",
+      "hasChildren": false,
+      "childrenKey": "6b7034f7e69fbfc2cb3be3d57fc3844a86083b22"
+    },
+    {
+      "iri": "obo:OBI_2000018",
+      "label": "leukocyte specimen",
+      "hasChildren": false,
+      "childrenKey": "d1a37b6e1274bc18bee5ce166956586738368f3a"
+    },
+    {
+      "iri": "obo:OBI_1110041",
+      "label": "lymph node cell specimen",
+      "hasChildren": false,
+      "childrenKey": "9a2d2a67ac79462f33c21442a7c20087e51d907d"
+    },
+    {
+      "iri": "obo:OBI_2000017",
+      "label": "reticulocyte specimen",
+      "hasChildren": false,
+      "childrenKey": "a84634733bd5494ec2ef918111d190069453aaa6"
+    },
+    {
+      "iri": "obo:OBI_0002127",
+      "label": "single cell specimen",
+      "hasChildren": false,
+      "childrenKey": "48c4b9ccdf37efb4fc5348a405be57f3de75fd2b"
+    },
+    {
+      "iri": "obo:OBI_1110116",
+      "label": "splenocyte specimen",
+      "hasChildren": false,
+      "childrenKey": "0c3256868a163b356e6aeebb9c977f800b0be56b"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001506",
+  "children": [
+    {
+      "iri": "obo:OBI_0000902",
+      "label": "post mortem specimen",
+      "hasChildren": false,
+      "childrenKey": "162c1afeb4afaefeee9bce97d69a76905a94747f"
+    },
+    {
+      "iri": "obo:OBI_0000873",
+      "label": "pre-mortem specimen",
+      "hasChildren": false,
+      "childrenKey": "a74e6a80404adaef6d7fa77e023c659cf7dcef58"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000272",
+  "children": [
+    {
+      "iri": "obo:OBI_0000715",
+      "label": "animal care protocol",
+      "hasChildren": true,
+      "childrenKey": "e1361a719064e0a3dcd1923f1e3ab1f642704ec1"
+    },
+    {
+      "iri": "obo:OBI_0003332",
+      "label": "magnetic resonance pulse sequence protocol",
+      "hasChildren": false,
+      "childrenKey": "1c3ec0bfd1fcd42f3c1a39eaeb6fbf7e3f6e9fd6"
+    },
+    {
+      "iri": "obo:OBI_0003069",
+      "label": "sequencing protocol",
+      "hasChildren": false,
+      "childrenKey": "7d57120abc4228c88283c874287e7cd86e8d83a7"
+    },
+    {
+      "iri": "obo:OBI_0003070",
+      "label": "specimen collection protocol",
+      "hasChildren": false,
+      "childrenKey": "d2d0801922e0e1e343ee25b7395f1475972125d4"
+    }
+  ]
+}

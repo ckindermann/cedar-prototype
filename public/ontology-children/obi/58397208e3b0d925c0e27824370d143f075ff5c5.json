@@ -1,0 +1,120 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003501",
+  "children": [
+    {
+      "iri": "obo:OBI_0003528",
+      "label": "bulbar assessment",
+      "hasChildren": false,
+      "childrenKey": "c51ea5fe061fc27c7749aa929fd06c072e08a6f8"
+    },
+    {
+      "iri": "obo:OBI_0003517",
+      "label": "deep tendon reflex assessment",
+      "hasChildren": true,
+      "childrenKey": "035f961ea23fb266eed2c6604fa15423278cada0"
+    },
+    {
+      "iri": "obo:OBI_0003508",
+      "label": "dysmetria assessment",
+      "hasChildren": false,
+      "childrenKey": "d7303540bbf923cdb1ffc678f71c834d321eb069"
+    },
+    {
+      "iri": "obo:OBI_0003510",
+      "label": "finger taps assessment",
+      "hasChildren": false,
+      "childrenKey": "7393f8e3f60de7496ea24304942302604edbd4cf"
+    },
+    {
+      "iri": "obo:OBI_0003506",
+      "label": "finger to finger assessment",
+      "hasChildren": false,
+      "childrenKey": "13642d88514100f61f1fd5cb3d1cf2a4c136b2de"
+    },
+    {
+      "iri": "obo:OBI_0003504",
+      "label": "forced cough assessment",
+      "hasChildren": false,
+      "childrenKey": "8b32587a071ea6c77cd41e2ae2b7c97829c53bda"
+    },
+    {
+      "iri": "obo:OBI_0003511",
+      "label": "heel along shin assessment",
+      "hasChildren": false,
+      "childrenKey": "3e0b4dad3e71d0e28584d21b524f707d8defb732"
+    },
+    {
+      "iri": "obo:OBI_0003512",
+      "label": "heel to shin assessment",
+      "hasChildren": false,
+      "childrenKey": "eeb619c89a9c16eb2b8549f6b306ad6cc9d9f8b5"
+    },
+    {
+      "iri": "obo:OBI_0003530",
+      "label": "limb coordination assessment",
+      "hasChildren": true,
+      "childrenKey": "54b63d742927283292ecb18e07eb8dc15d3f2746"
+    },
+    {
+      "iri": "obo:OBI_0003518",
+      "label": "limits of stability assessment",
+      "hasChildren": true,
+      "childrenKey": "ab24fcda2af6cf8194544f698b3bbfacc7e774f7"
+    },
+    {
+      "iri": "obo:OBI_0003514",
+      "label": "muscle weakness assessment",
+      "hasChildren": false,
+      "childrenKey": "80e4b33de9ac0795e6076a1627f61e6500f00d0d"
+    },
+    {
+      "iri": "obo:OBI_0003533",
+      "label": "nervous system functionality assessment",
+      "hasChildren": false,
+      "childrenKey": "a0617eab83c8e36e6140d386645703418e98530b"
+    },
+    {
+      "iri": "obo:OBI_0003507",
+      "label": "nose to finger assessment",
+      "hasChildren": false,
+      "childrenKey": "34007cb5b92693514cc2c841e5816eeba67e982b"
+    },
+    {
+      "iri": "obo:OBI_0003516",
+      "label": "position sense assessment",
+      "hasChildren": false,
+      "childrenKey": "1c23a8301632e9dd9186791560e26f267475db86"
+    },
+    {
+      "iri": "obo:OBI_0003509",
+      "label": "rapid alternating hands assessment",
+      "hasChildren": false,
+      "childrenKey": "44af27313a7e00ea624760e781662b16ec84cfae"
+    },
+    {
+      "iri": "obo:OBI_0003505",
+      "label": "speech test assessment",
+      "hasChildren": false,
+      "childrenKey": "71d79abe458ea5b2c0277cf93c985ac9f77e79da"
+    },
+    {
+      "iri": "obo:OBI_0003529",
+      "label": "spontaneous speech assessment",
+      "hasChildren": false,
+      "childrenKey": "3a16eee67697beaa003656ad493b5004adf98b29"
+    },
+    {
+      "iri": "obo:OBI_0003534",
+      "label": "upright stability assessment",
+      "hasChildren": false,
+      "childrenKey": "c432384e9514e3c1a1ec3c94ac2aef3658328444"
+    },
+    {
+      "iri": "obo:OBI_0003515",
+      "label": "vibratory sense assessment",
+      "hasChildren": false,
+      "childrenKey": "68f011be99da8b3559f0e6197f81ce621010be61"
+    }
+  ]
+}

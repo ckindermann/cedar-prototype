@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100033",
+  "children": [
+    {
+      "iri": "obo:OBI_0003172",
+      "label": "thyroid stimulating hormone concentration assay",
+      "hasChildren": false,
+      "childrenKey": "9f2562495f2b2a3330f96952e9c5fd5e50768ae9"
+    },
+    {
+      "iri": "obo:OBI_2100348",
+      "label": "TSH reflex Free T4 venous blood thyroid stimulating hormone assay",
+      "hasChildren": false,
+      "childrenKey": "811d1d80c59aba3d1cc231d0a9ba20570e31913e"
+    },
+    {
+      "iri": "obo:OBI_2100119",
+      "label": "venous blood thyroid stimulating hormone assay",
+      "hasChildren": false,
+      "childrenKey": "f27ffa6f3ec1c67762892a6689d2a5802dddf3a1"
+    }
+  ]
+}

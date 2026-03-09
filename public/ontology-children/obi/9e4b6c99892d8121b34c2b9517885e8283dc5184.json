@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001706",
+  "children": [
+    {
+      "iri": "obo:OBI_0001698",
+      "label": "assay measuring B cell epitope specific in vivo activity",
+      "hasChildren": true,
+      "childrenKey": "8944582b9b6fe165d534130050458d362bb23c04"
+    },
+    {
+      "iri": "obo:OBI_0001704",
+      "label": "assay measuring epitope specific activation of additional immune response in vitro",
+      "hasChildren": true,
+      "childrenKey": "1760dbe5f002f34900f71be767ac009c2f4766be"
+    },
+    {
+      "iri": "obo:OBI_0001705",
+      "label": "assay measuring epitope specific antigen inhibition of antibody activity",
+      "hasChildren": false,
+      "childrenKey": "51d9b4210ce11b6a7971a656b8f391f79d2096fc"
+    },
+    {
+      "iri": "obo:OBI_0001640",
+      "label": "assay measuring epitope specific immunoglobulin-mediated antigen activation",
+      "hasChildren": false,
+      "childrenKey": "2968f088f59b18239524f324e713980cc3825b82"
+    },
+    {
+      "iri": "obo:OBI_0001643",
+      "label": "assay measuring epitope specific immunoglobulin-mediated neutralization",
+      "hasChildren": false,
+      "childrenKey": "24ff1c25109132848ca11c713d0a2da49b19614f"
+    }
+  ]
+}

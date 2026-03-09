@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001292",
+  "children": [
+    {
+      "iri": "obo:OBI_0002664",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-15 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "0effd5ec946994e17cce2c4dc470c5943a0c7445"
+    },
+    {
+      "iri": "obo:OBI_0001843",
+      "label": "detection of specific nucleic acids with complementary probes measuring epitope specific interleukin-15 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "15b50e352633f9fd24dc76cca9212dc631db0967"
+    },
+    {
+      "iri": "obo:OBI_0001283",
+      "label": "ELISA measuring epitope specific interleukin-15 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "c42589dff8ec0bc7e32f540bc089900cc46d839c"
+    },
+    {
+      "iri": "obo:OBI_0001846",
+      "label": "ELISPOT assay measuring epitope specific interleukin-15 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "5a85ff99da4318dcf01348059e328230d294d308"
+    },
+    {
+      "iri": "obo:OBI_0001845",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-15 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "0cf0ffd30ae70bb5b0b8e8f507701cea801bb3fa"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001633",
+  "children": [
+    {
+      "iri": "obo:OBI_0001485",
+      "label": "purified MHC molecule preparation",
+      "hasChildren": false,
+      "childrenKey": "0f020730d9c7479f527baa027e5a25d4a9668c55"
+    }
+  ]
+}

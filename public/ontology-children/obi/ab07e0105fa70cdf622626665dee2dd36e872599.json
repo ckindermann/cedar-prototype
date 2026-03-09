@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003208",
+  "children": [
+    {
+      "iri": "obo:OBI_0003209",
+      "label": "luteinizing hormone concentration assay",
+      "hasChildren": false,
+      "childrenKey": "a0b6680bcec1cc7837a953c5d821a4c931ae5c13"
+    }
+  ]
+}

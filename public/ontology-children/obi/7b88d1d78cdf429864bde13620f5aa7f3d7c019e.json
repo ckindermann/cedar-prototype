@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001269",
+  "children": [
+    {
+      "iri": "obo:OBI_0001810",
+      "label": "assay measuring epitope specific granulysin release by T cells",
+      "hasChildren": true,
+      "childrenKey": "be5eb2760eb0e0aa1682f67ce6217938bdd0bfa4"
+    },
+    {
+      "iri": "obo:OBI_0001809",
+      "label": "assay measuring epitope specific granzyme A release by T cells",
+      "hasChildren": true,
+      "childrenKey": "089ab234e011a99581ef7271024e5f758bd13007"
+    },
+    {
+      "iri": "obo:OBI_0001436",
+      "label": "assay measuring epitope specific granzyme B release by T cells",
+      "hasChildren": true,
+      "childrenKey": "2d2552bb89aa3825ebb4e810afc964524f278d87"
+    },
+    {
+      "iri": "obo:OBI_0001497",
+      "label": "assay measuring epitope specific perforin release by T cells",
+      "hasChildren": true,
+      "childrenKey": "9ea00356e36d0f0a1c89d7a697ad956f1860aadd"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003483",
+  "children": [
+    {
+      "iri": "obo:OBI_0002533",
+      "label": "colon specimen",
+      "hasChildren": false,
+      "childrenKey": "042f87921c180e6d6d08a4def20187dc8fdd85c1"
+    },
+    {
+      "iri": "obo:OBI_0002544",
+      "label": "esophagogastric junction specimen",
+      "hasChildren": false,
+      "childrenKey": "e34535407a323ff5e7bb48fae09b5beacf4aa1be"
+    },
+    {
+      "iri": "obo:OBI_0002532",
+      "label": "esophagus mucosa specimen",
+      "hasChildren": false,
+      "childrenKey": "3967906dd2dd0a0aaa1c09cd162c118545c3aeb1"
+    },
+    {
+      "iri": "obo:OBI_0002535",
+      "label": "esophagus muscularis mucosa specimen",
+      "hasChildren": false,
+      "childrenKey": "e6452796f1fd115f292b490dca9ace71faac0c8e"
+    },
+    {
+      "iri": "obo:OBI_0002545",
+      "label": "ileum specimen",
+      "hasChildren": false,
+      "childrenKey": "fa767878bb6095d1611d714fab74af30b7793d9e"
+    },
+    {
+      "iri": "obo:OBI_0002609",
+      "label": "rectal swab specimen",
+      "hasChildren": false,
+      "childrenKey": "1ca742996443ac2f700e4dc25578c928b1ec4294"
+    },
+    {
+      "iri": "obo:OBI_0002550",
+      "label": "sigmoid colon specimen",
+      "hasChildren": false,
+      "childrenKey": "b9037b38d0a6a12fdbce9506bb3d7ca86b073817"
+    },
+    {
+      "iri": "obo:OBI_0002528",
+      "label": "stomach specimen",
+      "hasChildren": false,
+      "childrenKey": "9a025c07293449787ba6b6f5f6d6c211766eef30"
+    }
+  ]
+}

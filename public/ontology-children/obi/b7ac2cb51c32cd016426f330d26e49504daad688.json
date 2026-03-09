@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003633",
+  "children": [
+    {
+      "iri": "obo:OBI_0003629",
+      "label": "antibody purification of H2-Db protein complex",
+      "hasChildren": false,
+      "childrenKey": "9df6d0e24452e249bcdb04cf8c5dbbe03380f901"
+    }
+  ]
+}

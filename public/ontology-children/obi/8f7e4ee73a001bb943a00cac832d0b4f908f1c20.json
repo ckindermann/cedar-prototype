@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001592",
+  "children": [
+    {
+      "iri": "obo:OBI_0001543",
+      "label": "fluorescence detection assay measuring equilibrium dissociation constant [KD] to determine direct binding of a purified-MHC:ligand complex approximated by EC50",
+      "hasChildren": false,
+      "childrenKey": "a554b33f132551804da9cb4e3999750a418b6dd0"
+    }
+  ]
+}

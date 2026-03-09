@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200135",
+  "children": [
+    {
+      "iri": "obo:OBI_0200136",
+      "label": "edge betweenness calculation",
+      "hasChildren": false,
+      "childrenKey": "cfda0d370bc0f7a6ccbf71c00d2925468049a719"
+    }
+  ]
+}

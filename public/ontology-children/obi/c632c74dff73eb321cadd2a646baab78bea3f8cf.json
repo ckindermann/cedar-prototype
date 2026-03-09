@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001616",
+  "children": [
+    {
+      "iri": "obo:OBI_0001901",
+      "label": "specimen identifier assigned by sequencing facility",
+      "hasChildren": false,
+      "childrenKey": "674288dfb83e4e9e7aeb4b782a5eddd01c2b5be9"
+    },
+    {
+      "iri": "obo:OBI_0001900",
+      "label": "specimen identifier assigned by specimen repository",
+      "hasChildren": false,
+      "childrenKey": "7cb33dd39caca02946e2b45b3cafacf695b7a60f"
+    }
+  ]
+}

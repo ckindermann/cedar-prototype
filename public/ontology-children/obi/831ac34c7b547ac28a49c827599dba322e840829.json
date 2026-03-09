@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000708",
+  "children": [
+    {
+      "iri": "obo:OBI_0000728",
+      "label": "rodent care",
+      "hasChildren": false,
+      "childrenKey": "8a41342299ca21e1be0559b774b9830094d1c8c3"
+    }
+  ]
+}

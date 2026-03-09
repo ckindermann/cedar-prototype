@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000951",
+  "children": [
+    {
+      "iri": "obo:OBI_0001418",
+      "label": "dose response design",
+      "hasChildren": false,
+      "childrenKey": "98b2be8ef06957c70f11ad18209e6bf98c285998"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000516",
+  "children": [
+    {
+      "iri": "obo:OBI_0000561",
+      "label": "Bruker NMR probe",
+      "hasChildren": true,
+      "childrenKey": "5e73dfca094891cfc3b49d2c3548514d48def94d"
+    },
+    {
+      "iri": "obo:OBI_0000491",
+      "label": "direct detection NMR probe",
+      "hasChildren": false,
+      "childrenKey": "650696af4aa325bd7f5d586788252409c7108aea"
+    },
+    {
+      "iri": "obo:OBI_0000519",
+      "label": "flow probe",
+      "hasChildren": false,
+      "childrenKey": "3b3db48d4557673a71ee5359c72472df7cf171f4"
+    },
+    {
+      "iri": "obo:OBI_0000539",
+      "label": "imaging NMR probe",
+      "hasChildren": false,
+      "childrenKey": "800fc576318b431f015b91f3ae0d435990550de2"
+    },
+    {
+      "iri": "obo:OBI_0000640",
+      "label": "indirect detection probe",
+      "hasChildren": false,
+      "childrenKey": "9af055aecf9102aca80f966ddfee7cb0c744e67f"
+    },
+    {
+      "iri": "obo:OBI_0000529",
+      "label": "JEOL NMR probe",
+      "hasChildren": true,
+      "childrenKey": "b4b36516f1d5d2428595d8a6cf01d83a6626784e"
+    },
+    {
+      "iri": "obo:OBI_0000559",
+      "label": "liquid NMR probe",
+      "hasChildren": false,
+      "childrenKey": "ace8892d989bd9f5837973a13b3b69267f3f5a72"
+    },
+    {
+      "iri": "obo:OBI_0000479",
+      "label": "solid NMR probe",
+      "hasChildren": true,
+      "childrenKey": "0863f81c7a91d23bb062fe47d8d6468a772d63d3"
+    }
+  ]
+}

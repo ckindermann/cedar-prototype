@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002478",
+  "children": [
+    {
+      "iri": "obo:OBI_0002484",
+      "label": "star algorithm",
+      "hasChildren": false,
+      "childrenKey": "f2168eedda95f5daa137bf0e4c0c0131fe36f953"
+    }
+  ]
+}

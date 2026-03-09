@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003016",
+  "children": [
+    {
+      "iri": "obo:OBI_0003165",
+      "label": "myelocyte count assay",
+      "hasChildren": true,
+      "childrenKey": "fe61f5cf81f1c9e6290255e38aa1f641fc208d50"
+    }
+  ]
+}

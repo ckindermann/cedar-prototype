@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003310",
+  "children": [
+    {
+      "iri": "obo:OBI_0003311",
+      "label": "DNA split-pool recognition of interactions and tag extension assay",
+      "hasChildren": false,
+      "childrenKey": "804df8e08b3bb23d6874e6d7ef60349fc1a7f211"
+    },
+    {
+      "iri": "obo:OBI_0003312",
+      "label": "RNA-DNA split-pool recognition of interactions and tag extension assay",
+      "hasChildren": false,
+      "childrenKey": "8a18f88d9d63b39d88a6e49ef6362c175aece78f"
+    }
+  ]
+}

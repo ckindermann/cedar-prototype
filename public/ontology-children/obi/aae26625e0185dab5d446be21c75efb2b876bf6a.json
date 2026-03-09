@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000049",
+  "children": [
+    {
+      "iri": "obo:OBI_0001088",
+      "label": "tandem mass spectrometer",
+      "hasChildren": false,
+      "childrenKey": "09102cb3633245a345d82914d79bf614db88d138"
+    }
+  ]
+}

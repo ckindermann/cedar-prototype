@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002090",
+  "children": [
+    {
+      "iri": "obo:OBI_0002092",
+      "label": "3' rapid amplification of cDNA ends",
+      "hasChildren": false,
+      "childrenKey": "904d7fdfd7a12995a8f25cedeec396b43abf5de2"
+    },
+    {
+      "iri": "obo:OBI_0002091",
+      "label": "5' rapid amplification of cDNA ends",
+      "hasChildren": true,
+      "childrenKey": "7468933d88498babc1084635bbe7877e6898d80e"
+    }
+  ]
+}

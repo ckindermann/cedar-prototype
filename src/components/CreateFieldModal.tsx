@@ -162,12 +162,25 @@ export function CreateFieldModal({
           {enableSemanticFeatures && (
             <div className="form-group">
               <label>Field Name IRI (optional)</label>
-              <input
-                type="text"
-                value={field.nameIri || ''}
-                onChange={(e) => updateField({ nameIri: e.target.value })}
-                placeholder="https://example.org/iri/field-name"
-              />
+              <div className="iri-inline-row">
+                <input
+                  type="text"
+                  value={field.nameIri || ''}
+                  onChange={(e) => {
+                    const nextIri = e.target.value;
+                    updateField({
+                      nameIri: nextIri,
+                      nameIriLabel: nextIri === field.nameIri ? field.nameIriLabel : '',
+                    });
+                  }}
+                  placeholder="https://example.org/iri/field-name"
+                />
+                {field.nameIri && field.nameIriLabel && (
+                  <span className="iri-label-chip" title={field.nameIri}>
+                    {field.nameIriLabel}
+                  </span>
+                )}
+              </div>
             </div>
           )}
 

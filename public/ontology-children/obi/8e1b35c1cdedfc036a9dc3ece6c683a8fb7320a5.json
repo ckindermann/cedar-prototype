@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100037",
+  "children": [
+    {
+      "iri": "obo:OBI_2100131",
+      "label": "venous blood folic acid assay",
+      "hasChildren": false,
+      "childrenKey": "da94e6381c43910505a155aee1ef71388c0ba044"
+    },
+    {
+      "iri": "obo:OBI_2100344",
+      "label": "vitamin B12 and Folate venous blood folic acid assay",
+      "hasChildren": false,
+      "childrenKey": "9afdb91c23ec76fdb5db405aa6782f2afd5d832b"
+    }
+  ]
+}

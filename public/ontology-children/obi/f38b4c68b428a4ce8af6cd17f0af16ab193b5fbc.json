@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002707",
+  "children": [
+    {
+      "iri": "obo:OBI_0002710",
+      "label": "Centre for Disease Control and Prevention bottle bioassay",
+      "hasChildren": false,
+      "childrenKey": "deabd6c7da7bd95bea6cdc053ddd453410ed6831"
+    },
+    {
+      "iri": "obo:OBI_0002711",
+      "label": "WHO cone kit diagnostic assay",
+      "hasChildren": false,
+      "childrenKey": "0648374dfd3fdc85a5726ddf19fd93aba9ada949"
+    },
+    {
+      "iri": "obo:OBI_0002713",
+      "label": "WHO larvicide diagnostic assay",
+      "hasChildren": false,
+      "childrenKey": "714673c0075606f744a4c53768306fc02fbff064"
+    },
+    {
+      "iri": "obo:OBI_0002712",
+      "label": "WHO paper kit diagnostic assay",
+      "hasChildren": false,
+      "childrenKey": "a8ad1e33e6c6cb04ad0a700aaf6e384226342547"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003648",
+  "children": [
+    {
+      "iri": "obo:OBI_0003649",
+      "label": "liquid chromatography-tandem mass spectrometry analysis",
+      "hasChildren": false,
+      "childrenKey": "be3a7f14efcb1e109157012eca09c7157addbaa2"
+    }
+  ]
+}

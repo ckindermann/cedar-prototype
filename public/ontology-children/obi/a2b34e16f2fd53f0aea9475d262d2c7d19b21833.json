@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001591",
+  "children": [
+    {
+      "iri": "obo:OBI_0002172",
+      "label": "Northwestern blot assay",
+      "hasChildren": false,
+      "childrenKey": "799bf2466188c558ff386106d32eea99d0875ff6"
+    },
+    {
+      "iri": "obo:OBI_0002173",
+      "label": "Southwestern blot assay",
+      "hasChildren": false,
+      "childrenKey": "5e8363d03755fd7494ae95a71d4b524163dcdd1a"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000973",
+  "children": [
+    {
+      "iri": "obo:OBI_0002578",
+      "label": "adapter sequence data",
+      "hasChildren": false,
+      "childrenKey": "7d845071b7d14bb8090b5ecba47a7a981cf08ab1"
+    },
+    {
+      "iri": "obo:OBI_0002579",
+      "label": "adapter-trimmed sequence data",
+      "hasChildren": false,
+      "childrenKey": "11d123ab5ea9fc3fb21b897289ceded472a04cb9"
+    },
+    {
+      "iri": "obo:OBI_0002580",
+      "label": "aligned sequence data",
+      "hasChildren": false,
+      "childrenKey": "56d74d619113c84afbbd2f272ed84e64d3725389"
+    },
+    {
+      "iri": "obo:OBI_0002601",
+      "label": "demultiplexed sequence data",
+      "hasChildren": false,
+      "childrenKey": "1251dc344a2feacf539d87a046ed791775b42df7"
+    },
+    {
+      "iri": "obo:OBI_0002583",
+      "label": "DNA methylation profiling data",
+      "hasChildren": false,
+      "childrenKey": "3fec75e92d0bfe58f94a808821a39e577bd4250f"
+    },
+    {
+      "iri": "obo:OBI_0001573",
+      "label": "DNA sequence data",
+      "hasChildren": false,
+      "childrenKey": "392130cf36e3f913a06995e17bae04abf7280de7"
+    },
+    {
+      "iri": "obo:OBI_0002977",
+      "label": "input gene sequence start site",
+      "hasChildren": false,
+      "childrenKey": "ac8f9f9349bc2b4e306dd7e9d8462ff29c46cd93"
+    },
+    {
+      "iri": "obo:OBI_0002978",
+      "label": "input gene sequence stop site",
+      "hasChildren": false,
+      "childrenKey": "25e2ebdab40b87d74e2d3f157c5857d979dc2192"
+    },
+    {
+      "iri": "obo:OBI_0002975",
+      "label": "input protein sequence start site",
+      "hasChildren": false,
+      "childrenKey": "fcf4f32ca6e1b02669f98e427bd072c078f888bd"
+    },
+    {
+      "iri": "obo:OBI_0002976",
+      "label": "input protein sequence stop site",
+      "hasChildren": false,
+      "childrenKey": "e00f7beea50d41e9725433a1166787cb3faec918"
+    },
+    {
+      "iri": "obo:OBI_0002581",
+      "label": "merged aligned sequence data",
+      "hasChildren": false,
+      "childrenKey": "82ea7e60efec97fa54b1bbb1acb4aefad7a32753"
+    },
+    {
+      "iri": "obo:OBI_0002602",
+      "label": "multiplexed sequence data",
+      "hasChildren": false,
+      "childrenKey": "ac78e2ee7b3f5d1fec08baedbdb1211c63c0d117"
+    },
+    {
+      "iri": "obo:OBI_0003056",
+      "label": "proportion mapped reads",
+      "hasChildren": false,
+      "childrenKey": "1f6cf519a1f1b680acc7d6e86c54bd4ffec3e8e7"
+    },
+    {
+      "iri": "obo:OBI_0002981",
+      "label": "reference gene sequence start site",
+      "hasChildren": false,
+      "childrenKey": "1efbe35fb081dd29cf53f3efe07d50c589b17f8f"
+    },
+    {
+      "iri": "obo:OBI_0002982",
+      "label": "reference gene sequence stop site",
+      "hasChildren": false,
+      "childrenKey": "14009ce9acc0f447dd9ffc353038037005579ccb"
+    },
+    {
+      "iri": "obo:OBI_0002979",
+      "label": "reference protein sequence start site",
+      "hasChildren": false,
+      "childrenKey": "29f0091c7336de07efd01d898f873da3312273e6"
+    },
+    {
+      "iri": "obo:OBI_0002980",
+      "label": "reference protein sequence stop site",
+      "hasChildren": false,
+      "childrenKey": "ce6236e70118931c4909641e68b45ba9f36139b3"
+    },
+    {
+      "iri": "obo:OBI_0002569",
+      "label": "trimmed sequence data",
+      "hasChildren": false,
+      "childrenKey": "12360ce64a4eb5c48a52fb4c4e44f556bf6db26b"
+    }
+  ]
+}

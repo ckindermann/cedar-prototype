@@ -1,0 +1,60 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003024",
+  "children": [
+    {
+      "iri": "obo:OBI_2100059",
+      "label": "automated differential venous blood lymphocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "080858b441efbd1b7435208955fe7d2105f7f8b4"
+    },
+    {
+      "iri": "obo:OBI_2100102",
+      "label": "CBC with manual differential venous blood lymphocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "59eda836e02a2c7881ceeda7e98db282326952f3"
+    },
+    {
+      "iri": "obo:OBI_2100384",
+      "label": "CBC with manual differential venous blood plasma cell count assay",
+      "hasChildren": false,
+      "childrenKey": "61d08d94096853d98a0e7f4582cad77096838ca1"
+    },
+    {
+      "iri": "obo:OBI_2100390",
+      "label": "cerebrospinal fluid lymphocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "cc45fa93fb6611f9aa151fea0917d621fc7a014a"
+    },
+    {
+      "iri": "obo:OBI_2100008",
+      "label": "lymphocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "9778cd8bd5da284d5cefedbd28e94b6bb4cb398d"
+    },
+    {
+      "iri": "obo:OBI_0003160",
+      "label": "lymphocyte percentage assay",
+      "hasChildren": false,
+      "childrenKey": "16dc3a700cea0f81f234f2e951c1ba2a1450f9f8"
+    },
+    {
+      "iri": "obo:OBI_2100334",
+      "label": "manual differential bodily fluid lymphocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "678a4b1792d9a7812c2120d1da35b29ad2396712"
+    },
+    {
+      "iri": "obo:OBI_0003226",
+      "label": "total lymphocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "b570810b81a4133d33bce2845d52eeb415b0010d"
+    },
+    {
+      "iri": "obo:OBI_0003227",
+      "label": "total lymphocyte percentage assay",
+      "hasChildren": false,
+      "childrenKey": "63688346955564390a5845bc72a5c9fd26c43dd5"
+    }
+  ]
+}

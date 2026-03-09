@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003615",
+  "children": [
+    {
+      "iri": "obo:OBI_0003616",
+      "label": "antibody purification of MHC class I protein complex",
+      "hasChildren": true,
+      "childrenKey": "790b471c5a6a712007bed0f00b339bc9ead418cb"
+    },
+    {
+      "iri": "obo:OBI_0003636",
+      "label": "antibody purification of MHC class II protein complex",
+      "hasChildren": true,
+      "childrenKey": "76c0759886518bea24ecdc82a3b600ee77193290"
+    }
+  ]
+}

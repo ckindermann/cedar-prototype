@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000014",
+  "children": [
+    {
+      "iri": "obo:OBI_0000154",
+      "label": "role of Institutional Review Board",
+      "hasChildren": false,
+      "childrenKey": "f047a54c8350e1c69e87302e5e3214d9bba5d5b2"
+    },
+    {
+      "iri": "obo:OBI_0000089",
+      "label": "role of regulator of chemical manufacturer",
+      "hasChildren": false,
+      "childrenKey": "921ccbc41fb83af7f270dbbef71ab2982ed2fbf7"
+    },
+    {
+      "iri": "obo:OBI_0000273",
+      "label": "role of regulator of consumables and medical devices",
+      "hasChildren": true,
+      "childrenKey": "746dc202cb221872796a14aced58fc92f0178ad0"
+    }
+  ]
+}

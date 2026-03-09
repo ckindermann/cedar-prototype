@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200147",
+  "children": [
+    {
+      "iri": "obo:OBI_0200054",
+      "label": "global modularity calculation",
+      "hasChildren": false,
+      "childrenKey": "4135f1d0bf581d50f4b16a025e3be1a8a96c1bb8"
+    }
+  ]
+}

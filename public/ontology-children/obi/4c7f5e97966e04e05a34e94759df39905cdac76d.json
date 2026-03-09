@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002962",
+  "children": [
+    {
+      "iri": "obo:OBI_0002964",
+      "label": "KiNativ assay",
+      "hasChildren": false,
+      "childrenKey": "b2b383cdd66a9af628f2166651396cbf1a67962f"
+    },
+    {
+      "iri": "obo:OBI_0002963",
+      "label": "KINOMEscan assay",
+      "hasChildren": false,
+      "childrenKey": "4f20dc5297dbc29bc93aa78f077cf5081757e2d5"
+    }
+  ]
+}

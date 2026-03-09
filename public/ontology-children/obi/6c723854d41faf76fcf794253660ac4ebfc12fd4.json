@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000066",
+  "children": [
+    {
+      "iri": "obo:OBI_0000355",
+      "label": "hypothesis driven investigation",
+      "hasChildren": false,
+      "childrenKey": "a6a16592e83e26d9d54f9793e7464cd22524b39f"
+    },
+    {
+      "iri": "obo:OBI_0000356",
+      "label": "hypothesis generating investigation",
+      "hasChildren": false,
+      "childrenKey": "17143c9b3abbeb4a4d317e177b051af436a7a5dc"
+    },
+    {
+      "iri": "obo:OBI_0002897",
+      "label": "surveillance process",
+      "hasChildren": false,
+      "childrenKey": "4e8f5ec10b155bd7bca811c9b0770059bcdb5d93"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000904",
+  "children": [
+    {
+      "iri": "obo:OBI_0001341",
+      "label": "cell culture analyte detection bioassay measuring epitope specific granulocyte macrophage colony-stimulating factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7fd4fb624308e166ed7dc91c84735021372b9202"
+    },
+    {
+      "iri": "obo:OBI_0001319",
+      "label": "cell culture analyte detection bioassay measuring epitope specific interferon-gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e13c4ee19c7b01f9b3685abcb2a217cc3c556268"
+    },
+    {
+      "iri": "obo:OBI_0001220",
+      "label": "cell culture analyte detection bioassay measuring epitope specific interleukin-10 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "405f1285b0d880e93746f08da87c1db6b373553a"
+    },
+    {
+      "iri": "obo:OBI_0001301",
+      "label": "cell culture analyte detection bioassay measuring epitope specific interleukin-16 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "98a040c2f8760019ccf90e01887813b901b94d1d"
+    },
+    {
+      "iri": "obo:OBI_0001216",
+      "label": "cell culture analyte detection bioassay measuring epitope specific interleukin-2 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "2fea8628e2a284b01fe86375a44bf2f7dff58d6f"
+    },
+    {
+      "iri": "obo:OBI_0001384",
+      "label": "cell culture analyte detection bioassay measuring epitope specific interleukin-3 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "16677186f5b72fc73abb16da4453d9b8cc6157bc"
+    },
+    {
+      "iri": "obo:OBI_0001241",
+      "label": "cell culture analyte detection bioassay measuring epitope specific interleukin-4 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "82392a033383216364fd2cb88a121aa9f4a1fc76"
+    },
+    {
+      "iri": "obo:OBI_0001273",
+      "label": "cell culture analyte detection bioassay measuring epitope specific interleukin-5 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "bb1699abf6f1f7882dfc38d89df192d070b74663"
+    },
+    {
+      "iri": "obo:OBI_0001413",
+      "label": "cell culture analyte detection bioassay measuring epitope specific interleukin-6 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "a32f3856ff5db01a4c6e2ddca49c3d9321efb8aa"
+    },
+    {
+      "iri": "obo:OBI_0001270",
+      "label": "cell culture analyte detection bioassay measuring epitope specific transforming growth factor-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b982860299bc58be97b5b92d86f39af97ea40ab6"
+    },
+    {
+      "iri": "obo:OBI_0001452",
+      "label": "cell culture analyte detection bioassay measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "69929ee93101e0f44ad87942cb77050e6f7f205e"
+    },
+    {
+      "iri": "obo:OBI_0003488",
+      "label": "cell culture analyte detection bioassay measuring epitope specific tumor necrosis factor superfamily cytokine production by T cells",
+      "hasChildren": true,
+      "childrenKey": "0e9c4ac0e1732c9b19c755b028326c06509a2f22"
+    }
+  ]
+}

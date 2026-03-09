@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100021",
+  "children": [
+    {
+      "iri": "obo:OBI_2100231",
+      "label": "chem11 venous blood magnesium assay",
+      "hasChildren": false,
+      "childrenKey": "70c62d1f1f0e78d63c432f86cb8842c7af0072c3"
+    },
+    {
+      "iri": "obo:OBI_2100237",
+      "label": "chem16 venous blood magnesium assay",
+      "hasChildren": false,
+      "childrenKey": "73e97cf07dc5519d7b0818ccebd683d7a3f26de4"
+    },
+    {
+      "iri": "obo:OBI_2100073",
+      "label": "venous blood magnesium assay",
+      "hasChildren": false,
+      "childrenKey": "a1d62088690707cc1dad893eb4c41e6bcfc7460d"
+    }
+  ]
+}

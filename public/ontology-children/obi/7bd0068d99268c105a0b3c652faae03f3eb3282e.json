@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003251",
+  "children": [
+    {
+      "iri": "obo:OBI_0003268",
+      "label": "bacteria in induced sputum datum",
+      "hasChildren": false,
+      "childrenKey": "bc1a0312f535849fbc04e0378d2122bf0dac9b8f"
+    },
+    {
+      "iri": "obo:OBI_0003269",
+      "label": "eukaryota in induced sputum datum",
+      "hasChildren": false,
+      "childrenKey": "9ee8090e9a5dd1007448c0fb09615b8e1c246a50"
+    },
+    {
+      "iri": "obo:OBI_0003270",
+      "label": "virus in induced sputum datum",
+      "hasChildren": false,
+      "childrenKey": "3e91d301e80fa61a1a195d0561341c86a3e585f0"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001607",
+  "children": [
+    {
+      "iri": "obo:OBI_0001552",
+      "label": "intracellular cytokine staining assay measuring epitope specific tumor necrosis factor (ligand) superfamily member 11 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "76857988e63988c8ee8f21d00830f493c4b8652b"
+    }
+  ]
+}

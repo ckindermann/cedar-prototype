@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400147",
+  "children": [
+    {
+      "iri": "obo:OBI_0400148",
+      "label": "DNA microarray",
+      "hasChildren": true,
+      "childrenKey": "1756cb9bd23ae9d995032e5ffc9f2f5939a3293b"
+    },
+    {
+      "iri": "obo:OBI_0400149",
+      "label": "protein microarray",
+      "hasChildren": false,
+      "childrenKey": "8b1a4a07fa4b5323e7c37c6fc40ab5b1da74cc8b"
+    }
+  ]
+}

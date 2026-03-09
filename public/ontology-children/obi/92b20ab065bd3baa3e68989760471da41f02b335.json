@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000185",
+  "children": [
+    {
+      "iri": "obo:OBI_0002986",
+      "label": "computed tomography imaging assay",
+      "hasChildren": false,
+      "childrenKey": "a97f0ea46db18756f41d968b0374b625b6053acc"
+    },
+    {
+      "iri": "obo:OBI_0001631",
+      "label": "electron microscopy imaging assay",
+      "hasChildren": true,
+      "childrenKey": "4375a66bc33a1bf2fc9842840c9bf9051114fe36"
+    },
+    {
+      "iri": "obo:OBI_0002985",
+      "label": "magnetic resonance imaging assay",
+      "hasChildren": false,
+      "childrenKey": "9325ebdd9086f1993f7ed79f8c42daae7acda432"
+    },
+    {
+      "iri": "obo:OBI_0002119",
+      "label": "microscopy assay",
+      "hasChildren": true,
+      "childrenKey": "d3d1577b1150d45153383a88ee6cd2af63b26560"
+    },
+    {
+      "iri": "obo:OBI_0003091",
+      "label": "multiplexed fluorescent antibody imaging assay",
+      "hasChildren": true,
+      "childrenKey": "e71258ca3214b7b3e99ed644016abac7f3422ae4"
+    },
+    {
+      "iri": "obo:OBI_0002987",
+      "label": "positron emission tomography imaging assay",
+      "hasChildren": false,
+      "childrenKey": "f20896d28b79f2886d2b9479248ad1600ddc5214"
+    }
+  ]
+}

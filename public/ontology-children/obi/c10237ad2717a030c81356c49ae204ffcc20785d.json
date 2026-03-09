@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000875",
+  "children": [
+    {
+      "iri": "obo:OBI_0001724",
+      "label": "viral hemagglutination inhibition assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "ac6dcc218fc5ab60d3f4e710d554236b7571aea0"
+    }
+  ]
+}

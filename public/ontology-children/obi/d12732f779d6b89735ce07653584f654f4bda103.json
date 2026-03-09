@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000857",
+  "children": [
+    {
+      "iri": "obo:OBI_0000405",
+      "label": "primer role",
+      "hasChildren": false,
+      "childrenKey": "bda5ac8f26f20937665de5c81dac21b5ebcbdce5"
+    }
+  ]
+}

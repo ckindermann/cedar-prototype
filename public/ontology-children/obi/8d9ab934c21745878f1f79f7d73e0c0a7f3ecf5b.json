@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003142",
+  "children": [
+    {
+      "iri": "obo:OBI_0001566",
+      "label": "50% dissociation of binding temperature (Tm)",
+      "hasChildren": false,
+      "childrenKey": "df6515eb1788afa13db23da1f0415a0a59661fd5"
+    },
+    {
+      "iri": "obo:OBI_0001144",
+      "label": "binding constant",
+      "hasChildren": true,
+      "childrenKey": "64fba378701d3067ae1464c8467a9254566ff1fb"
+    },
+    {
+      "iri": "obo:OBI_0003143",
+      "label": "EC50 binding datum",
+      "hasChildren": true,
+      "childrenKey": "21bfeb9dc1081be0bfafb401d3b7d62515d92e94"
+    },
+    {
+      "iri": "obo:OBI_0003144",
+      "label": "IC50 binding datum",
+      "hasChildren": true,
+      "childrenKey": "7643951cc6c7615bf8ad13afd7cc13d2f324a8c3"
+    }
+  ]
+}

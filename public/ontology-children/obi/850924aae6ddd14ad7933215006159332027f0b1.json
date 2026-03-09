@@ -1,0 +1,228 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000011",
+  "children": [
+    {
+      "iri": "obo:OBI_0000694",
+      "label": "animal feeding",
+      "hasChildren": false,
+      "childrenKey": "81034f91ad070b191b35673d79298c593c8de91a"
+    },
+    {
+      "iri": "obo:OBI_0000070",
+      "label": "assay",
+      "hasChildren": true,
+      "childrenKey": "8b46acfce21c4f53eb31189241bb59c800287d17"
+    },
+    {
+      "iri": "obo:OBI_0000818",
+      "label": "calibration",
+      "hasChildren": false,
+      "childrenKey": "11376883243ecd76cfd034546133d99a701ac626"
+    },
+    {
+      "iri": "obo:OBI_0001932",
+      "label": "comparing prediction to measurement",
+      "hasChildren": false,
+      "childrenKey": "4a173a32c704348057ba362632a9fc49dbc08cf3"
+    },
+    {
+      "iri": "obo:OBI_0200000",
+      "label": "data transformation",
+      "hasChildren": true,
+      "childrenKey": "085ac12b6380dc2049e35ffc9956fce3b6d38c35"
+    },
+    {
+      "iri": "obo:OBI_0200111",
+      "label": "data visualization",
+      "hasChildren": true,
+      "childrenKey": "9d2ce57e5ba093b8b899ef02c0ca13a98d96bda0"
+    },
+    {
+      "iri": "obo:OBI_0002201",
+      "label": "determination if assay will provide reliable results",
+      "hasChildren": false,
+      "childrenKey": "0bf691c664eebc20eac4485e5fc991d84391ac82"
+    },
+    {
+      "iri": "obo:OBI_0302908",
+      "label": "document editing",
+      "hasChildren": false,
+      "childrenKey": "fdb036448c73aaa39b819515739359a78b5fee10"
+    },
+    {
+      "iri": "obo:OBI_0001834",
+      "label": "drawing a conclusion",
+      "hasChildren": true,
+      "childrenKey": "0ef3722f4ff22d3794d8ae29472aeeee07b746b7"
+    },
+    {
+      "iri": "obo:OBI_0000338",
+      "label": "drawing a conclusion based on data",
+      "hasChildren": true,
+      "childrenKey": "29f83246b1f104fb92e4be099613989abede388f"
+    },
+    {
+      "iri": "obo:OBI_0600009",
+      "label": "exposure of material to environment",
+      "hasChildren": true,
+      "childrenKey": "e4e60f477042311bca8a7d5059a75782b9601159"
+    },
+    {
+      "iri": "obo:OBI_0003653",
+      "label": "fasting",
+      "hasChildren": true,
+      "childrenKey": "02e3daceb7667312c4edfac6709c0064c54db88c"
+    },
+    {
+      "iri": "obo:OBI_0001953",
+      "label": "freezing",
+      "hasChildren": true,
+      "childrenKey": "b3c2ef2b8cca6197c0156683069431eddd453753"
+    },
+    {
+      "iri": "obo:OBI_0600015",
+      "label": "group assignment",
+      "hasChildren": true,
+      "childrenKey": "a40c0aab3a86dc4ac443bb9f682be37ac0a2b6bd"
+    },
+    {
+      "iri": "obo:OBI_0001007",
+      "label": "image creation",
+      "hasChildren": true,
+      "childrenKey": "2894caeb9aa268fce5f761178c2fba2b525b631e"
+    },
+    {
+      "iri": "obo:OBI_0000810",
+      "label": "informed consent process",
+      "hasChildren": false,
+      "childrenKey": "0af3607a622ab104f8e9655988e5bb91b435c008"
+    },
+    {
+      "iri": "obo:OBI_0000804",
+      "label": "informing investigator of subject study arm",
+      "hasChildren": false,
+      "childrenKey": "0af55a987781f8044f14576c6a641229fdcbbbae"
+    },
+    {
+      "iri": "obo:OBI_0000842",
+      "label": "informing subject of study arm",
+      "hasChildren": false,
+      "childrenKey": "9ddec74fb26607dbc9f8edf20f111e3adb66d710"
+    },
+    {
+      "iri": "obo:OBI_0000066",
+      "label": "investigation",
+      "hasChildren": true,
+      "childrenKey": "6c723854d41faf76fcf794253660ac4ebfc12fd4"
+    },
+    {
+      "iri": "obo:OBI_0000708",
+      "label": "laboratory animal care",
+      "hasChildren": true,
+      "childrenKey": "831ac34c7b547ac28a49c827599dba322e840829"
+    },
+    {
+      "iri": "obo:OBI_0002587",
+      "label": "machine learning",
+      "hasChildren": true,
+      "childrenKey": "d958a1e7208feaf666a184823224e849a0383bcc"
+    },
+    {
+      "iri": "obo:OBI_0000838",
+      "label": "material maintenance",
+      "hasChildren": true,
+      "childrenKey": "594b0898364a4d7cd4e12821ac62b98cc6217aaa"
+    },
+    {
+      "iri": "obo:OBI_0000094",
+      "label": "material processing",
+      "hasChildren": true,
+      "childrenKey": "2ed3754d4f19d193972e169c2043cf98c02a29cc"
+    },
+    {
+      "iri": "obo:OBI_0302910",
+      "label": "prediction",
+      "hasChildren": false,
+      "childrenKey": "8b87e45def21d760d92180299915409f0c0b4b65"
+    },
+    {
+      "iri": "obo:OBI_0000807",
+      "label": "presentation of stimulus",
+      "hasChildren": false,
+      "childrenKey": "02d7b4c0633fa0fca8f574011014a4ebae25046b"
+    },
+    {
+      "iri": "obo:OBI_0001928",
+      "label": "selection",
+      "hasChildren": true,
+      "childrenKey": "fe98de7da67812c31be453f3e62fa6bd29f6e57a"
+    },
+    {
+      "iri": "obo:OBI_0001944",
+      "label": "sequence annotation",
+      "hasChildren": false,
+      "childrenKey": "e24a2ca6d71e12faf9ab1035d3aa258bb0ca0e1a"
+    },
+    {
+      "iri": "obo:OBI_0001173",
+      "label": "service",
+      "hasChildren": true,
+      "childrenKey": "8ce2824198f1d589ec8d29992c8b492f905a6e58"
+    },
+    {
+      "iri": "obo:OBI_0000659",
+      "label": "specimen collection process",
+      "hasChildren": true,
+      "childrenKey": "f03ad46eaf4158ea084f0b50b69ff5a520119db1"
+    },
+    {
+      "iri": "obo:OBI_0000471",
+      "label": "study design execution",
+      "hasChildren": true,
+      "childrenKey": "8bd442c95a1aef6ec9628f153904a3a59c1ec0fd"
+    },
+    {
+      "iri": "obo:OBI_0000931",
+      "label": "study intervention",
+      "hasChildren": false,
+      "childrenKey": "9e64be73446cbb10831c1249d8d9d2096b6587d2"
+    },
+    {
+      "iri": "obo:OBI_0000841",
+      "label": "subject agrees they understand informed consent document",
+      "hasChildren": false,
+      "childrenKey": "1fdace48781f810decce132aab65680369f35ee9"
+    },
+    {
+      "iri": "obo:OBI_0000907",
+      "label": "supplying",
+      "hasChildren": false,
+      "childrenKey": "c8c078368e0d192f04c6af7892e073ca2e864ec8"
+    },
+    {
+      "iri": "obo:OBI_0000939",
+      "label": "training process",
+      "hasChildren": false,
+      "childrenKey": "53a04ee7496132dd5d733a1947f8cabf5904fbd9"
+    },
+    {
+      "iri": "obo:OBI_0000826",
+      "label": "treatment portion of study execution",
+      "hasChildren": true,
+      "childrenKey": "e20c5d48bb4452206ad53f4f0e1195e0e7277f97"
+    },
+    {
+      "iri": "obo:OBI_0000840",
+      "label": "unblinding process",
+      "hasChildren": false,
+      "childrenKey": "559af996f1fcccf0171047e9b77d3414d41d15a5"
+    },
+    {
+      "iri": "obo:OBI_0302911",
+      "label": "validation",
+      "hasChildren": false,
+      "childrenKey": "a093a2f8bb2010624d555aea4612cede33705158"
+    }
+  ]
+}

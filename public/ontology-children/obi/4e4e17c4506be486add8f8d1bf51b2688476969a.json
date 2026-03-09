@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000507",
+  "children": [
+    {
+      "iri": "obo:OBI_0000608",
+      "label": "hydrogen generator",
+      "hasChildren": false,
+      "childrenKey": "0440309431000a05a8a7dd4478f363152df5fbb3"
+    },
+    {
+      "iri": "obo:OBI_0000550",
+      "label": "nitrogen generator",
+      "hasChildren": false,
+      "childrenKey": "fa0776fcd23cd45514b99bfa2ea273de056b8a3c"
+    }
+  ]
+}

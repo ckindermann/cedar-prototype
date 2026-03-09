@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001467",
+  "children": [
+    {
+      "iri": "obo:OBI_0002678",
+      "label": "in vivo assay measuring T cell epitope specific disease exacerbation resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "c5381912d1aef2a5dbb0a13d739265b611c50719"
+    }
+  ]
+}

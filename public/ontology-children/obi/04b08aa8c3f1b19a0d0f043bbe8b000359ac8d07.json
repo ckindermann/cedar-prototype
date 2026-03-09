@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000870",
+  "children": [
+    {
+      "iri": "obo:OBI_0001017",
+      "label": "single-nucleotide-resolution nucleic acid structure mapping assay using chemical probing",
+      "hasChildren": true,
+      "childrenKey": "418c11436e437c0a0dd284c26d724f008f7a4d2e"
+    },
+    {
+      "iri": "obo:OBI_0001014",
+      "label": "single-nucleotide-resolution nucleic acid structure mapping assay using enzymatic probing",
+      "hasChildren": true,
+      "childrenKey": "39fd84cfe93faf95ead827c809ac2b839165f3bc"
+    }
+  ]
+}

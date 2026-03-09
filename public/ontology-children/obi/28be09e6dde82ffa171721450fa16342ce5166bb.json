@@ -1,0 +1,270 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001479",
+  "children": [
+    {
+      "iri": "obo:OBI_0002530",
+      "label": "adipose tissue specimen",
+      "hasChildren": false,
+      "childrenKey": "25db6329967e33e0903194eaae996100acd12899"
+    },
+    {
+      "iri": "obo:OBI_0002522",
+      "label": "adrenal gland specimen",
+      "hasChildren": false,
+      "childrenKey": "f4bf9a08d7ccb0fd5fc16851707b81b2769a62d1"
+    },
+    {
+      "iri": "obo:OBI_0002542",
+      "label": "aorta specimen",
+      "hasChildren": false,
+      "childrenKey": "d8f5afa8e3204a31cfb41b95785856f07a1ed1dc"
+    },
+    {
+      "iri": "obo:OBI_0002543",
+      "label": "atrial appendage specimen",
+      "hasChildren": false,
+      "childrenKey": "adac1e7edc2eca5090d6885c9bb3f4b323df1a17"
+    },
+    {
+      "iri": "obo:OBI_2000009",
+      "label": "bodily fluid specimen",
+      "hasChildren": true,
+      "childrenKey": "ba9d6359eada9e8840850405c08a2115d9f399ab"
+    },
+    {
+      "iri": "obo:OBI_0002512",
+      "label": "bone marrow specimen",
+      "hasChildren": false,
+      "childrenKey": "cb9dfa6f36d6b7b31aaa0e37e2804b1c10474eec"
+    },
+    {
+      "iri": "obo:OBI_0002516",
+      "label": "brain specimen",
+      "hasChildren": true,
+      "childrenKey": "f4a46a1f22cf4c9a105d4e9a482150355304ea74"
+    },
+    {
+      "iri": "obo:OBI_0002523",
+      "label": "breast specimen",
+      "hasChildren": true,
+      "childrenKey": "eeda804d5d41aa89b33e546f8dfae97e9c1e05fb"
+    },
+    {
+      "iri": "obo:OBI_0001468",
+      "label": "cell specimen",
+      "hasChildren": true,
+      "childrenKey": "2a7cfec841a12888a81b58f724974a17b6acc973"
+    },
+    {
+      "iri": "obo:OBI_2000002",
+      "label": "cervical mucus specimen",
+      "hasChildren": false,
+      "childrenKey": "f48d3ac297386338961df11e649eb1fc896dd686"
+    },
+    {
+      "iri": "obo:OBI_0000909",
+      "label": "cloacal specimen",
+      "hasChildren": false,
+      "childrenKey": "8481712a897414e4cce7638eeabeb6270e3d8808"
+    },
+    {
+      "iri": "obo:OBI_0002540",
+      "label": "coronary artery specimen",
+      "hasChildren": false,
+      "childrenKey": "304f1abb84145be759cc49f309e9de5c74ab1356"
+    },
+    {
+      "iri": "obo:OBI_0002531",
+      "label": "cortex of kidney specimen",
+      "hasChildren": false,
+      "childrenKey": "65b7f186e33bb604f8caba491109800749165cf5"
+    },
+    {
+      "iri": "obo:OBI_0003483",
+      "label": "digestive tract specimen",
+      "hasChildren": true,
+      "childrenKey": "e231ee62d6b342212b2dfad7db65910f3305dd93"
+    },
+    {
+      "iri": "obo:OBI_2000004",
+      "label": "eye specimen",
+      "hasChildren": true,
+      "childrenKey": "7a27f4159d43ed8ec4cc15f855bb181283c03cb0"
+    },
+    {
+      "iri": "obo:OBI_0002503",
+      "label": "feces specimen",
+      "hasChildren": true,
+      "childrenKey": "00096c8343391adf4f5db4aa4f20edbfee78afa4"
+    },
+    {
+      "iri": "obo:OBI_0002517",
+      "label": "hair specimen",
+      "hasChildren": false,
+      "childrenKey": "43ed3068d7fb9b1190676ac5162cbf36db508aae"
+    },
+    {
+      "iri": "obo:OBI_0002520",
+      "label": "heart specimen",
+      "hasChildren": false,
+      "childrenKey": "d2239ffe31efd7b90c6e911907333ea3e5526fae"
+    },
+    {
+      "iri": "obo:OBI_0003666",
+      "label": "lavage fluid specimen",
+      "hasChildren": true,
+      "childrenKey": "6d99654367680322e91d3350c8314b1317d829f9"
+    },
+    {
+      "iri": "obo:OBI_0002546",
+      "label": "liver specimen",
+      "hasChildren": false,
+      "childrenKey": "89a6cfa7fe7ce0934dcc7515ada9550db0a74983"
+    },
+    {
+      "iri": "obo:OBI_0002547",
+      "label": "minor salivary gland specimen",
+      "hasChildren": false,
+      "childrenKey": "4d0bbc8436ff1441852b649a728a0ac773008a04"
+    },
+    {
+      "iri": "obo:OBI_0002548",
+      "label": "omentum specimen",
+      "hasChildren": false,
+      "childrenKey": "8b97856ea0011fb4ac0aeee2822ac1ac72183cbf"
+    },
+    {
+      "iri": "obo:OBI_0002607",
+      "label": "oral swab specimen",
+      "hasChildren": true,
+      "childrenKey": "7be14c993ef7a0c7f3c464d0ecba349934faf5ca"
+    },
+    {
+      "iri": "obo:OBI_0002549",
+      "label": "ovary specimen",
+      "hasChildren": false,
+      "childrenKey": "4ba678ba80794305c292c3a8db2b16061def30ce"
+    },
+    {
+      "iri": "obo:OBI_0002527",
+      "label": "pancreas specimen",
+      "hasChildren": false,
+      "childrenKey": "b2b5dca47f48e51a2850c12d26fe956646521b24"
+    },
+    {
+      "iri": "obo:OBI_0002529",
+      "label": "pituitary gland specimen",
+      "hasChildren": false,
+      "childrenKey": "8827210e68e443330c9adb1d0418258172cb85d0"
+    },
+    {
+      "iri": "obo:OBI_0002513",
+      "label": "placenta specimen",
+      "hasChildren": true,
+      "childrenKey": "61bfa6088e89eae03ec76cba8c91fe6570a523d9"
+    },
+    {
+      "iri": "obo:OBI_0002518",
+      "label": "prostate gland specimen",
+      "hasChildren": false,
+      "childrenKey": "85a834415f7d58836445f21a83aa7d789bde3410"
+    },
+    {
+      "iri": "obo:OBI_0002521",
+      "label": "renal medulla specimen",
+      "hasChildren": false,
+      "childrenKey": "c8441e87d22b840c384dc3ae77a867ca38717920"
+    },
+    {
+      "iri": "obo:OBI_2000005",
+      "label": "respiratory system specimen",
+      "hasChildren": true,
+      "childrenKey": "5cc08b3328567c3bef9ad111b930ee870bb3bd06"
+    },
+    {
+      "iri": "obo:OBI_0000671",
+      "label": "sample from organism",
+      "hasChildren": false,
+      "childrenKey": "d888bbc23fabe203b027abfff1f7684bddecd384"
+    },
+    {
+      "iri": "obo:OBI_0002519",
+      "label": "skeletal muscle tissue specimen",
+      "hasChildren": false,
+      "childrenKey": "3e8f26ec596d934e526f9aa1b740b9ec56c0519f"
+    },
+    {
+      "iri": "obo:OBI_0002526",
+      "label": "skin of body specimen",
+      "hasChildren": true,
+      "childrenKey": "61078790310fcce63f769fe43a71045162d985c9"
+    },
+    {
+      "iri": "obo:OBI_0001506",
+      "label": "specimen with pre- or post-mortem status",
+      "hasChildren": true,
+      "childrenKey": "c5f64bb3c0a3216f798e8f9718d8c64e6009f3cb"
+    },
+    {
+      "iri": "obo:OBI_0002541",
+      "label": "spleen specimen",
+      "hasChildren": false,
+      "childrenKey": "2440a3f7353b68f96243c2d29abd46e1fded9ca7"
+    },
+    {
+      "iri": "obo:OBI_0002552",
+      "label": "testis specimen",
+      "hasChildren": false,
+      "childrenKey": "7ba44509a61d491959d01e9f6bc7efeea0abdab7"
+    },
+    {
+      "iri": "obo:OBI_2000003",
+      "label": "throat specimen",
+      "hasChildren": false,
+      "childrenKey": "26d76faca388f6622bc56cddef9a6047d6bd5ae5"
+    },
+    {
+      "iri": "obo:OBI_0002537",
+      "label": "thyroid gland specimen",
+      "hasChildren": false,
+      "childrenKey": "3da2530e332b270f632868fc44431595204e943d"
+    },
+    {
+      "iri": "obo:OBI_0002525",
+      "label": "tibial artery specimen",
+      "hasChildren": false,
+      "childrenKey": "7dea0c4cfc36ee4950af47bce31bb429da774b0b"
+    },
+    {
+      "iri": "obo:OBI_0002539",
+      "label": "tibial nerve specimen",
+      "hasChildren": false,
+      "childrenKey": "3a4a9efc51956f3547bb5b49953b729aae7578e3"
+    },
+    {
+      "iri": "obo:OBI_2000001",
+      "label": "urethra specimen",
+      "hasChildren": false,
+      "childrenKey": "9b5dcdd6919599a60d8b8382656778af19e60027"
+    },
+    {
+      "iri": "obo:OBI_0002524",
+      "label": "urinary bladder specimen",
+      "hasChildren": false,
+      "childrenKey": "b215eceffd8bad2a32e6e8ee780bda89af107814"
+    },
+    {
+      "iri": "obo:OBI_0002553",
+      "label": "uterus specimen",
+      "hasChildren": true,
+      "childrenKey": "7d6901159235e1c22bd68f0c38285baf545fa22c"
+    },
+    {
+      "iri": "obo:OBI_0002554",
+      "label": "vagina specimen",
+      "hasChildren": true,
+      "childrenKey": "95f366080dc76e3ecbced65471e180162b65c2a5"
+    }
+  ]
+}

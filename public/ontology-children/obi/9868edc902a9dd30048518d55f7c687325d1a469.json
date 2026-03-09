@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110130",
+  "children": [
+    {
+      "iri": "obo:OBI_0002062",
+      "label": "in vitro assay measuring epitope specific T cell killing",
+      "hasChildren": true,
+      "childrenKey": "21f6ae21b657c589433883fe8cfdd9fe12dda4ae"
+    },
+    {
+      "iri": "obo:OBI_0001392",
+      "label": "in vivo assay measuring epitope specific T cell killing",
+      "hasChildren": true,
+      "childrenKey": "54e872f8b4701bdafa1da2e09744137df9301bab"
+    }
+  ]
+}

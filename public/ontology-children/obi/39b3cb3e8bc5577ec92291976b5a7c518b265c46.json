@@ -1,0 +1,54 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000015",
+  "children": [
+    {
+      "iri": "obo:OBI_0001969",
+      "label": "biodiversity assessment objective",
+      "hasChildren": false,
+      "childrenKey": "73c36692ddcf8e602e66a1af5351f44b18ac4847"
+    },
+    {
+      "iri": "obo:OBI_0000219",
+      "label": "cellular feature identification objective",
+      "hasChildren": false,
+      "childrenKey": "ed9067845042d05d8472831f7d3b2a47400f67c6"
+    },
+    {
+      "iri": "obo:OBI_0001691",
+      "label": "cellular structure feature identification objective",
+      "hasChildren": false,
+      "childrenKey": "a22974b8bfdd9b741925670a638b8da79c64444e"
+    },
+    {
+      "iri": "obo:OBI_0000131",
+      "label": "molecular feature identification objective",
+      "hasChildren": true,
+      "childrenKey": "9a161f3823f193ee34f280cca7623f3ca60d9370"
+    },
+    {
+      "iri": "obo:OBI_0001690",
+      "label": "molecular function identification objective",
+      "hasChildren": false,
+      "childrenKey": "a67ef9967f31514c9651eee22fc9d88913677fb2"
+    },
+    {
+      "iri": "obo:OBI_0000268",
+      "label": "organism feature identification objective",
+      "hasChildren": true,
+      "childrenKey": "3ebf641ed0cc75d724c9f8cc206ea8ddddf1d146"
+    },
+    {
+      "iri": "obo:OBI_0001623",
+      "label": "organism species detection objective",
+      "hasChildren": false,
+      "childrenKey": "5adbef0e395052c5542607a05b6aa8d2726c7e02"
+    },
+    {
+      "iri": "obo:OBI_0000113",
+      "label": "sequence feature identification objective",
+      "hasChildren": true,
+      "childrenKey": "87716ebea31dd0225901f36300690f32b3224144"
+    }
+  ]
+}

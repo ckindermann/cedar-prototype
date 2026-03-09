@@ -1,0 +1,60 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000116",
+  "children": [
+    {
+      "iri": "obo:OBI_0000032",
+      "label": "clinical research coordinator role",
+      "hasChildren": false,
+      "childrenKey": "5fcffaed99f0c396fbab6428218ac1c45219eb92"
+    },
+    {
+      "iri": "obo:OBI_0000020",
+      "label": "contract research organization role",
+      "hasChildren": false,
+      "childrenKey": "210e68496901c734f5729689b247972f601883e2"
+    },
+    {
+      "iri": "obo:OBI_0002473",
+      "label": "material amplification role",
+      "hasChildren": false,
+      "childrenKey": "83ec0a01bbfb2f0f4e4a15edd655388038383e6c"
+    },
+    {
+      "iri": "obo:OBI_0002474",
+      "label": "material sequencing library preparation role",
+      "hasChildren": false,
+      "childrenKey": "cfdd114168c0e3daefc23b873319e9d04a466b5b"
+    },
+    {
+      "iri": "obo:OBI_0000145",
+      "label": "pathologist role",
+      "hasChildren": false,
+      "childrenKey": "5f0c23bfa21f3dae4c1fb6d3ff497b2ac4a680b1"
+    },
+    {
+      "iri": "obo:OBI_0000211",
+      "label": "proxy respondent role",
+      "hasChildren": false,
+      "childrenKey": "780b77c4bd5ea82d6c42aa4dc9394d0da8609509"
+    },
+    {
+      "iri": "obo:OBI_0000188",
+      "label": "role of pathology review board",
+      "hasChildren": false,
+      "childrenKey": "e49f846663461f0cec3053844ebac4bdcdf3aaf0"
+    },
+    {
+      "iri": "obo:OBI_0000224",
+      "label": "sub-investigator role",
+      "hasChildren": false,
+      "childrenKey": "503db691d178ef8462ffd42750ebd36d474b1d5d"
+    },
+    {
+      "iri": "obo:OBI_0000234",
+      "label": "trial statistician role",
+      "hasChildren": false,
+      "childrenKey": "5ae1cfa1846be1fe0cd94b24687241e143c9f19d"
+    }
+  ]
+}

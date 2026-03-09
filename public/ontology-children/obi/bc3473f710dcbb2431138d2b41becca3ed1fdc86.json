@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002161",
+  "children": [
+    {
+      "iri": "obo:OBI_0002170",
+      "label": "genomic SELEX",
+      "hasChildren": false,
+      "childrenKey": "77985f243e0d1def6a22615b01ff1c4ad72bad02"
+    }
+  ]
+}

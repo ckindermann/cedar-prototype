@@ -1,0 +1,120 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100024",
+  "children": [
+    {
+      "iri": "obo:OBI_2100305",
+      "label": "ABG/electrolytes arterial blood ionized calcium assay",
+      "hasChildren": false,
+      "childrenKey": "b7bff9b5d290801b2f49b2ce6df63856c8034ed0"
+    },
+    {
+      "iri": "obo:OBI_2100279",
+      "label": "ABL90 panel arterial blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "69973de074db74e0d3580f06977ba1116e18e454"
+    },
+    {
+      "iri": "obo:OBI_2100286",
+      "label": "ABL90 panel venous blood ionized calcium assay",
+      "hasChildren": false,
+      "childrenKey": "0763de1cd17838b3bd71fc8b14c063636de9c608"
+    },
+    {
+      "iri": "obo:OBI_2100092",
+      "label": "basic metabolic panel venous blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "69b63c19f453a5d2f1ced52b449a2e56e09859e2"
+    },
+    {
+      "iri": "obo:OBI_2100299",
+      "label": "bone profile venous blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "240090f11ac4c481f14edfdde85159c0ed7b7753"
+    },
+    {
+      "iri": "obo:OBI_0003150",
+      "label": "calcium cation concentration assay",
+      "hasChildren": false,
+      "childrenKey": "4ee28fc8d51abdd694f18942cf1608f2a9a6bc14"
+    },
+    {
+      "iri": "obo:OBI_2100226",
+      "label": "chem11 venous blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "60c9fb2fc7c9c594fba4b73d564ea3e376e8a284"
+    },
+    {
+      "iri": "obo:OBI_2100240",
+      "label": "chem16 venous blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "5f14eae5c6e77ebd040929241b41730861cc6039"
+    },
+    {
+      "iri": "obo:OBI_2100149",
+      "label": "comprehensive metabolic panel venous blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "b9af7aa0205a210c452d6fa7cd41d23e1590eb7a"
+    },
+    {
+      "iri": "obo:OBI_2100190",
+      "label": "GEM premier blood gas venous blood ionized calcium assay",
+      "hasChildren": false,
+      "childrenKey": "c665406795f22a8dccc93db4f1e16d7a2181fafe"
+    },
+    {
+      "iri": "obo:OBI_2100380",
+      "label": "GEM4 arterial blood ionized calcium assay",
+      "hasChildren": false,
+      "childrenKey": "5f5d8c60006d1cb6158b9d3b8ccf06a432477a63"
+    },
+    {
+      "iri": "obo:OBI_2100319",
+      "label": "GEM4000 ANLCOOX arterial blood ionized calcium assay",
+      "hasChildren": false,
+      "childrenKey": "388822d7a643371c014cf9f37240282334329cf3"
+    },
+    {
+      "iri": "obo:OBI_2100182",
+      "label": "ionized arterial blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "d2a09fdcab1f16abc128125d906b1102aa6e3f94"
+    },
+    {
+      "iri": "obo:OBI_2100322",
+      "label": "ionized venous blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "56dbe602dc29009fbe2f286d4cdfda73f34b146d"
+    },
+    {
+      "iri": "obo:OBI_2100167",
+      "label": "ionized venous blood ionized calcium assay",
+      "hasChildren": false,
+      "childrenKey": "eb9b212d991ff70f6d8ab79def99a4f639b31dd5"
+    },
+    {
+      "iri": "obo:OBI_2100251",
+      "label": "POC chem8 arterial blood ionized calcium assay",
+      "hasChildren": false,
+      "childrenKey": "c877b5b69cf13f94ee2008529be1c36b25ce8713"
+    },
+    {
+      "iri": "obo:OBI_2100097",
+      "label": "total venous blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "478df86e14dc315523078d73fab4574086d2f24d"
+    },
+    {
+      "iri": "obo:OBI_2100095",
+      "label": "venous blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "dc4a7df7204441cf42df3e09f6fcb235a9034728"
+    },
+    {
+      "iri": "obo:OBI_2100355",
+      "label": "venous blood ionized calcium assay",
+      "hasChildren": false,
+      "childrenKey": "35e7537b78ce364d107a47508268bcf3be608e13"
+    }
+  ]
+}

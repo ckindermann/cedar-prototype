@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000634",
+  "children": [
+    {
+      "iri": "obo:OBI_0001685",
+      "label": "amplification of intermethylated sites assay",
+      "hasChildren": false,
+      "childrenKey": "05bb47aede4aa46ecaf1d955aa665028b9c41431"
+    },
+    {
+      "iri": "obo:OBI_0000748",
+      "label": "bisulfite sequencing assay",
+      "hasChildren": true,
+      "childrenKey": "207304141c270e1bc035fb174b8280f53dd11074"
+    },
+    {
+      "iri": "obo:OBI_0001332",
+      "label": "DNA methylation profiling by array assay",
+      "hasChildren": false,
+      "childrenKey": "e82c213f4558763d84b2b3b956e0ec5d00d31c9c"
+    },
+    {
+      "iri": "obo:OBI_0001266",
+      "label": "DNA methylation profiling by high throughput sequencing assay",
+      "hasChildren": true,
+      "childrenKey": "84f295a2a449657146b914a65b009e9600c8ebbe"
+    },
+    {
+      "iri": "obo:OBI_0000693",
+      "label": "MeDIP-seq assay",
+      "hasChildren": false,
+      "childrenKey": "f0e4a33180dd3c5683db79e8935d1c47286be8f0"
+    }
+  ]
+}

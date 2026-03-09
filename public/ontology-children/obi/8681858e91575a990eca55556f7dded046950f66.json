@@ -1,0 +1,150 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200166",
+  "children": [
+    {
+      "iri": "obo:OBI_0000425",
+      "label": "averaging objective",
+      "hasChildren": false,
+      "childrenKey": "eb3656a7990cf2e88eb6efb99e3648350b15b083"
+    },
+    {
+      "iri": "obo:OBI_0200177",
+      "label": "center calculation objective",
+      "hasChildren": false,
+      "childrenKey": "475b5fdb9f97ef2fe6f527fb23459bcdeb352ef4"
+    },
+    {
+      "iri": "obo:OBI_0200178",
+      "label": "class discovery objective",
+      "hasChildren": false,
+      "childrenKey": "67e4371f156b2aab7ba3920da984a542512a1635"
+    },
+    {
+      "iri": "obo:OBI_0200179",
+      "label": "class prediction objective",
+      "hasChildren": false,
+      "childrenKey": "e18aa6d4b8a59a7de09f7f4b11874d674a262122"
+    },
+    {
+      "iri": "obo:OBI_0200168",
+      "label": "correction objective",
+      "hasChildren": true,
+      "childrenKey": "f1e0027be61a2413a3393102e275068abf8508dd"
+    },
+    {
+      "iri": "obo:OBI_0200196",
+      "label": "correlation study objective",
+      "hasChildren": false,
+      "childrenKey": "cde70c3964bd1d483281cb3157168e98ea604a24"
+    },
+    {
+      "iri": "obo:OBI_0200174",
+      "label": "curve fitting objective",
+      "hasChildren": false,
+      "childrenKey": "fb5059b9e631ebe35bb70a2915e25416e4a125dd"
+    },
+    {
+      "iri": "obo:OBI_0200167",
+      "label": "data normalization objective",
+      "hasChildren": false,
+      "childrenKey": "0d8291a402f746744799649df4d9ebf337ce3870"
+    },
+    {
+      "iri": "obo:OBI_0200157",
+      "label": "data vector reduction objective",
+      "hasChildren": false,
+      "childrenKey": "66816a20a5100a63928bcbbb820f3b8361a6805d"
+    },
+    {
+      "iri": "obo:OBI_0000704",
+      "label": "decision tree induction objective",
+      "hasChildren": false,
+      "childrenKey": "f5f0e3eba40e581e37690c52b1cdf827ca4f7953"
+    },
+    {
+      "iri": "obo:OBI_0200078",
+      "label": "descriptive statistical calculation objective",
+      "hasChildren": false,
+      "childrenKey": "d47111bcdec731344a382644a3ee1d3bba541dda"
+    },
+    {
+      "iri": "obo:OBI_0200031",
+      "label": "differential expression analysis objective",
+      "hasChildren": false,
+      "childrenKey": "25a8badcbb3eb349d316dc2b93b169724771a7e9"
+    },
+    {
+      "iri": "obo:OBI_0200005",
+      "label": "feature extraction objective",
+      "hasChildren": false,
+      "childrenKey": "afd51f9bb25b0cac6f9517be4a388437d8f8c2f3"
+    },
+    {
+      "iri": "obo:OBI_0000653",
+      "label": "fuzzy clustering objective",
+      "hasChildren": false,
+      "childrenKey": "e1661d956c95d772b624cfde1a3ef27be76fc9ab"
+    },
+    {
+      "iri": "obo:OBI_0200091",
+      "label": "inter-rater reliability objective",
+      "hasChildren": false,
+      "childrenKey": "6fc5a7f6b893d116a1384c4ed7442096a4747604"
+    },
+    {
+      "iri": "obo:OBI_0200189",
+      "label": "merging objective",
+      "hasChildren": false,
+      "childrenKey": "b8f78483ca8d1b1caba52101b31d56f27fbc7101"
+    },
+    {
+      "iri": "obo:OBI_0200172",
+      "label": "partitioning objective",
+      "hasChildren": true,
+      "childrenKey": "a447f5126d7de1317a4d169951c8383721c0332c"
+    },
+    {
+      "iri": "obo:OBI_0000868",
+      "label": "pattern matching objective",
+      "hasChildren": false,
+      "childrenKey": "8cfc7300c28e93f924ede05bca1e05a6d9897772"
+    },
+    {
+      "iri": "obo:OBI_0200183",
+      "label": "scaling objective",
+      "hasChildren": false,
+      "childrenKey": "4ed1bbf491a4bdb439cca4504d5092e2e4c4ec3a"
+    },
+    {
+      "iri": "obo:OBI_0200081",
+      "label": "sequence analysis objective",
+      "hasChildren": false,
+      "childrenKey": "c5c22bde3e9ab2c9ecfe9b8f82c50272b3a977a2"
+    },
+    {
+      "iri": "obo:OBI_0200197",
+      "label": "spectrum analysis objective",
+      "hasChildren": false,
+      "childrenKey": "d300d49fdf5af2a98092adcb5e6729680cc57f58"
+    },
+    {
+      "iri": "obo:OBI_0200180",
+      "label": "spread calculation objective",
+      "hasChildren": false,
+      "childrenKey": "1bde9e3428ca8b31d9aa82454eb398b288af6fdd"
+    },
+    {
+      "iri": "obo:OBI_0000675",
+      "label": "statistical hypothesis test objective",
+      "hasChildren": false,
+      "childrenKey": "f322e740e98f4093d1927865f8170049a645d5e3"
+    },
+    {
+      "iri": "obo:OBI_0200083",
+      "label": "survival analysis objective",
+      "hasChildren": false,
+      "childrenKey": "a46705274f325f0cb53325b5f1b03fed79bf14f8"
+    }
+  ]
+}

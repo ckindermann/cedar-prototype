@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000073",
+  "children": [
+    {
+      "iri": "obo:OBI_0001902",
+      "label": "sample preparation for sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "e790ef97f12d441fc0d3c42eba2d7d78f8fe3ebd"
+    }
+  ]
+}

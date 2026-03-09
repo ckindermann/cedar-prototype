@@ -1,0 +1,204 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600007",
+  "children": [
+    {
+      "iri": "obo:OBI_0003413",
+      "label": "administering substance in vivo to cause disease",
+      "hasChildren": false,
+      "childrenKey": "3056fbcd25201d751e70b83894e6e6f69bd18a4d"
+    },
+    {
+      "iri": "obo:OBI_0003414",
+      "label": "administering substance in vivo to reduce or prevent disease",
+      "hasChildren": false,
+      "childrenKey": "02cbfd2bf3391927f6b3926bb10535f140b9bc7f"
+    },
+    {
+      "iri": "obo:OBI_1110007",
+      "label": "administration in vivo with infectious agent",
+      "hasChildren": false,
+      "childrenKey": "d9cfb92cde5a0f64396bbd8803f63b7e07e6c209"
+    },
+    {
+      "iri": "obo:OBI_0003057",
+      "label": "antibiotic administration process",
+      "hasChildren": false,
+      "childrenKey": "f6e399a7a55f960fc084c7cfd9a2d3a43712e497"
+    },
+    {
+      "iri": "obo:OBI_0003557",
+      "label": "cervical administration",
+      "hasChildren": false,
+      "childrenKey": "7097d53834e3ae95b081a973380c615e505da861"
+    },
+    {
+      "iri": "obo:OBI_0003558",
+      "label": "conjunctival administration",
+      "hasChildren": false,
+      "childrenKey": "fafcf49386982a63fd8888935572924abcf65c1e"
+    },
+    {
+      "iri": "obo:OBI_0003456",
+      "label": "in vivo challenge",
+      "hasChildren": true,
+      "childrenKey": "19efeabea40a0ad9bb1b1e3685657b49f33fb572"
+    },
+    {
+      "iri": "obo:OBI_0003560",
+      "label": "intra-amniotic administration",
+      "hasChildren": false,
+      "childrenKey": "9e10af83a48f0e452dd80a5bbe00dafeb5020a4b"
+    },
+    {
+      "iri": "obo:OBI_0003561",
+      "label": "intra-arterial administration",
+      "hasChildren": true,
+      "childrenKey": "8f1e27d9901f941fcf73e37acaafadd3faaf9bb0"
+    },
+    {
+      "iri": "obo:OBI_0003562",
+      "label": "intracerebral administration",
+      "hasChildren": false,
+      "childrenKey": "b15466d4db53659ab715ac965cb285a8207902fa"
+    },
+    {
+      "iri": "obo:OBI_0003554",
+      "label": "intracolonic administration",
+      "hasChildren": false,
+      "childrenKey": "7e754537ff531fd22ac0358676e874c4819b8414"
+    },
+    {
+      "iri": "obo:OBI_0003563",
+      "label": "intracranial administration",
+      "hasChildren": false,
+      "childrenKey": "d236410cdf7993f23b08c3f5f33f673ebabc0257"
+    },
+    {
+      "iri": "obo:OBI_0000942",
+      "label": "intradermal injection",
+      "hasChildren": false,
+      "childrenKey": "22920440e1ba2e6b20a72a1c7d7e3b6c1f4b068b"
+    },
+    {
+      "iri": "obo:OBI_0003564",
+      "label": "intraepidermal administration",
+      "hasChildren": true,
+      "childrenKey": "1533be39d4141a46962f829a57267b4b9303e9c8"
+    },
+    {
+      "iri": "obo:OBI_0003553",
+      "label": "intragastric administration",
+      "hasChildren": false,
+      "childrenKey": "ba48fa60245d84b394a7dcb43334f14da2a3460c"
+    },
+    {
+      "iri": "obo:OBI_0003565",
+      "label": "intralymphatic administration",
+      "hasChildren": true,
+      "childrenKey": "1f83e3b428adc90c54b19818dd90565c23dc9106"
+    },
+    {
+      "iri": "obo:OBI_0000934",
+      "label": "intramuscular injection",
+      "hasChildren": false,
+      "childrenKey": "3beb0f58b5809cf491ab2cf830499a70df8ddeac"
+    },
+    {
+      "iri": "obo:OBI_0000983",
+      "label": "intranasal mucosal administration",
+      "hasChildren": false,
+      "childrenKey": "04af0ece940e428a6ed285e540d7cc88c8bd19dd"
+    },
+    {
+      "iri": "obo:OBI_0003571",
+      "label": "intraocular administration",
+      "hasChildren": false,
+      "childrenKey": "bd829afa0a678813f4a3766d7cab685d5941552a"
+    },
+    {
+      "iri": "obo:OBI_0000429",
+      "label": "intraperitoneal administration",
+      "hasChildren": true,
+      "childrenKey": "18e11fe7905ceca0209902e805be5fba944c71cf"
+    },
+    {
+      "iri": "obo:OBI_0003572",
+      "label": "intraplacental administration",
+      "hasChildren": false,
+      "childrenKey": "10ca3abbf8dcdf14fcd313cf162de67a664f0523"
+    },
+    {
+      "iri": "obo:OBI_0003573",
+      "label": "intrarectal administration",
+      "hasChildren": false,
+      "childrenKey": "4a4015c7a94f00aa3200094c1150f0e6d6a6f6db"
+    },
+    {
+      "iri": "obo:OBI_0003574",
+      "label": "intrasplenic administration",
+      "hasChildren": false,
+      "childrenKey": "ad22c9b73dd1ade00174504f794408180fe3629b"
+    },
+    {
+      "iri": "obo:OBI_0003559",
+      "label": "intratracheal administration",
+      "hasChildren": false,
+      "childrenKey": "154761e636717775a18750de84a3eddf9092b543"
+    },
+    {
+      "iri": "obo:OBI_0003603",
+      "label": "intratumoral administration",
+      "hasChildren": false,
+      "childrenKey": "708a5e11596906ec7216f2bc7446f88bccde716b"
+    },
+    {
+      "iri": "obo:OBI_0003569",
+      "label": "intrauteral administration",
+      "hasChildren": false,
+      "childrenKey": "61f6edf792f8ec753e901db926949c3f6ac8fc59"
+    },
+    {
+      "iri": "obo:OBI_0000994",
+      "label": "intravenous injection",
+      "hasChildren": false,
+      "childrenKey": "27ab5fb70786c027afc2c512dd534b313612776f"
+    },
+    {
+      "iri": "obo:OBI_0000952",
+      "label": "oral administration",
+      "hasChildren": true,
+      "childrenKey": "94f82a212399e2a72b3246b278ecf2b0b8892ba4"
+    },
+    {
+      "iri": "obo:OBI_0001174",
+      "label": "passive immunization",
+      "hasChildren": true,
+      "childrenKey": "e5747d15cb18d54123dc66d31548ef6ff65e629e"
+    },
+    {
+      "iri": "obo:OBI_0000954",
+      "label": "subcutaneous injection",
+      "hasChildren": false,
+      "childrenKey": "6793817cec63c7af83f77147d2ac96dc529fc269"
+    },
+    {
+      "iri": "obo:OBI_0003556",
+      "label": "topical administration",
+      "hasChildren": false,
+      "childrenKey": "58a9237b19143c5591811604ecc7c1f497cd82e3"
+    },
+    {
+      "iri": "obo:OBI_0003567",
+      "label": "urethral administration",
+      "hasChildren": false,
+      "childrenKey": "a1dcfc70fa89b6eca75d621098f10e5818ec6df6"
+    },
+    {
+      "iri": "obo:OBI_0003555",
+      "label": "vaginal administration",
+      "hasChildren": false,
+      "childrenKey": "5b7c658b84b7dee3bfa0f2219c5e57f8eb578615"
+    }
+  ]
+}

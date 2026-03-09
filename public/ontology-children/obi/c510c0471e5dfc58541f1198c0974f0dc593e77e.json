@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400143",
+  "children": [
+    {
+      "iri": "obo:OBI_0001120",
+      "label": "portable fluorometer",
+      "hasChildren": false,
+      "childrenKey": "9522b683e72f9c41f9ddb05229072c5d37d45ac3"
+    }
+  ]
+}

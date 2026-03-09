@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000529",
+  "children": [
+    {
+      "iri": "obo:OBI_0000635",
+      "label": "JEOL CapNMR probe",
+      "hasChildren": false,
+      "childrenKey": "fcd9e6e1ff09573a9c6e74185ae4386cc3f355c1"
+    }
+  ]
+}

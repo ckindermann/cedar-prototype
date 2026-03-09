@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000952",
+  "children": [
+    {
+      "iri": "obo:OBI_0000837",
+      "label": "oral ingestion of pill",
+      "hasChildren": false,
+      "childrenKey": "30b60fa47738f39f303f245b6c29ae4394b92351"
+    }
+  ]
+}

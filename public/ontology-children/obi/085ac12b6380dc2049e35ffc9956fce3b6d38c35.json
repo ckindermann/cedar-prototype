@@ -1,0 +1,240 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200000",
+  "children": [
+    {
+      "iri": "obo:OBI_0200170",
+      "label": "averaging data transformation",
+      "hasChildren": true,
+      "childrenKey": "235d217c152a58cbd7af7ff964b43864fb4e43ec"
+    },
+    {
+      "iri": "obo:OBI_0000666",
+      "label": "background correction data transformation",
+      "hasChildren": false,
+      "childrenKey": "c4845dc2b4c2ec1ea2ea3223601cf86697e48511"
+    },
+    {
+      "iri": "obo:OBI_0200181",
+      "label": "center calculation data transformation",
+      "hasChildren": true,
+      "childrenKey": "9a71c82dcc1706a4de8f508f050c93041de81a98"
+    },
+    {
+      "iri": "obo:OBI_0200175",
+      "label": "class discovery data transformation",
+      "hasChildren": true,
+      "childrenKey": "8d989d23e75b49b1a7fb7b06e1c5cef0431cae33"
+    },
+    {
+      "iri": "obo:OBI_0000663",
+      "label": "class prediction data transformation",
+      "hasChildren": true,
+      "childrenKey": "f0959f9711072eae4888959f5fc269f189e97b2d"
+    },
+    {
+      "iri": "obo:OBI_0200072",
+      "label": "curve fitting data transformation",
+      "hasChildren": true,
+      "childrenKey": "7a08901a5139fa8229f3773013c659e0cf03fa38"
+    },
+    {
+      "iri": "obo:OBI_0200125",
+      "label": "data combination",
+      "hasChildren": false,
+      "childrenKey": "ef4c7b23c81910ded87a75644d4f83f687c5d3a2"
+    },
+    {
+      "iri": "obo:OBI_0200061",
+      "label": "data imputation",
+      "hasChildren": false,
+      "childrenKey": "b49538f59ac28b5bda96c7f257ab0f07630de69c"
+    },
+    {
+      "iri": "obo:OBI_0200156",
+      "label": "data partitioning",
+      "hasChildren": false,
+      "childrenKey": "1ef76725d2cb1f317ef67d110a6cce67c86cc67a"
+    },
+    {
+      "iri": "obo:OBI_0000707",
+      "label": "decision tree building data transformation",
+      "hasChildren": true,
+      "childrenKey": "de68e20377d00b14410b5da02c5bbbae2f024814"
+    },
+    {
+      "iri": "obo:OBI_0200184",
+      "label": "descriptive statistical calculation data transformation",
+      "hasChildren": true,
+      "childrenKey": "14a2066e23dc8af525610d22ab0635b17e697c25"
+    },
+    {
+      "iri": "obo:OBI_0000650",
+      "label": "differential expression analysis data transformation",
+      "hasChildren": false,
+      "childrenKey": "bfe854a2972e0cab0e41283e6c4db763a10a34a3"
+    },
+    {
+      "iri": "obo:OBI_0200106",
+      "label": "discriminant analysis",
+      "hasChildren": true,
+      "childrenKey": "cc72e3935b8e64d0a8b242318496b47007d45295"
+    },
+    {
+      "iri": "obo:OBI_0000668",
+      "label": "error correction data transformation",
+      "hasChildren": true,
+      "childrenKey": "43d318ee8e6b1b4f3b4e37287371b67b4e34d2bc"
+    },
+    {
+      "iri": "obo:OBI_0001028",
+      "label": "feature extraction",
+      "hasChildren": false,
+      "childrenKey": "ddc52cd16db3f2550bcd989cd82b11d3245f43ba"
+    },
+    {
+      "iri": "obo:OBI_0002566",
+      "label": "file merge",
+      "hasChildren": false,
+      "childrenKey": "e10ebc06b0bf29c00a174eecf731e32902dc893e"
+    },
+    {
+      "iri": "obo:OBI_0003355",
+      "label": "image data set analysis",
+      "hasChildren": true,
+      "childrenKey": "bc92af5229ce8d46c6625ef1c226b5826b61f9e1"
+    },
+    {
+      "iri": "obo:OBI_0000861",
+      "label": "Likelihood-ratio test",
+      "hasChildren": false,
+      "childrenKey": "1391dfc0aac825964d2976d4b314be06fb12b0f1"
+    },
+    {
+      "iri": "obo:OBI_0200082",
+      "label": "longitudinal data analysis",
+      "hasChildren": false,
+      "childrenKey": "07a4140ef6bcf1ddde507bfe39f9eb907b4d71ab"
+    },
+    {
+      "iri": "obo:OBI_0200150",
+      "label": "MA transformation",
+      "hasChildren": false,
+      "childrenKey": "ba6d0b97855c968ad3d40a586938be632c6987b8"
+    },
+    {
+      "iri": "obo:OBI_0200085",
+      "label": "mass spectrometry analysis",
+      "hasChildren": true,
+      "childrenKey": "e4e1a97b3697aea6049eb3d05265cb0e65f4b291"
+    },
+    {
+      "iri": "obo:OBI_0200140",
+      "label": "mathematical feature",
+      "hasChildren": true,
+      "childrenKey": "df240e8f9de845a028bfb14cf83a8a30ceb0758e"
+    },
+    {
+      "iri": "obo:OBI_0200080",
+      "label": "network analysis",
+      "hasChildren": true,
+      "childrenKey": "f0317b036d081a1cc2d57db64128dffe59f1b27e"
+    },
+    {
+      "iri": "obo:OBI_0200097",
+      "label": "non-negative matrix factorization",
+      "hasChildren": false,
+      "childrenKey": "824cb171067d9bced3a1d248787deb24ef67b469"
+    },
+    {
+      "iri": "obo:OBI_0200169",
+      "label": "normalization data transformation",
+      "hasChildren": true,
+      "childrenKey": "d6736bfe68f44cc92b0ba2d2ef39e28fd65b6269"
+    },
+    {
+      "iri": "obo:OBI_0200171",
+      "label": "partitioning data transformation",
+      "hasChildren": true,
+      "childrenKey": "e0a969f13e1eb80417051e4ab79efabb4f4eaa4b"
+    },
+    {
+      "iri": "obo:OBI_0000726",
+      "label": "peak matching",
+      "hasChildren": false,
+      "childrenKey": "0d56fbf62d55f6c627a75c03ac32a31327fc1934"
+    },
+    {
+      "iri": "obo:OBI_0200093",
+      "label": "polynomial transformation",
+      "hasChildren": true,
+      "childrenKey": "b6b6227206eb0dad07bd9285095e45cba73af930"
+    },
+    {
+      "iri": "obo:OBI_0200052",
+      "label": "probabilistic algorithm",
+      "hasChildren": true,
+      "childrenKey": "de4c92a73439242206cb3b627894291a54f6c47f"
+    },
+    {
+      "iri": "obo:OBI_0200102",
+      "label": "regression analysis method",
+      "hasChildren": true,
+      "childrenKey": "019111528ba4ec9e45a868721e65c05f8765eff9"
+    },
+    {
+      "iri": "obo:OBI_0002136",
+      "label": "RNA Integrity Number calculation",
+      "hasChildren": false,
+      "childrenKey": "d14228dc9f339d2c80bd337624276349ed4fb141"
+    },
+    {
+      "iri": "obo:OBI_0200185",
+      "label": "scaling data transformation",
+      "hasChildren": true,
+      "childrenKey": "7a0cb97811a7664155e9db33f9afc5881c25132f"
+    },
+    {
+      "iri": "obo:OBI_0200187",
+      "label": "sequence analysis data transformation",
+      "hasChildren": true,
+      "childrenKey": "75531b82b9b94bd126d6ad2364f3b2c13b94c06f"
+    },
+    {
+      "iri": "obo:OBI_0001872",
+      "label": "sequence assembly process",
+      "hasChildren": false,
+      "childrenKey": "44d023ac45cec5828efc8b319aeb1a01e4a3c0f3"
+    },
+    {
+      "iri": "obo:OBI_0002585",
+      "label": "sequence trimming",
+      "hasChildren": true,
+      "childrenKey": "845828cd9cb1165135abf6ad8b5ef8c571a5a376"
+    },
+    {
+      "iri": "obo:OBI_0200014",
+      "label": "split-scale transformation",
+      "hasChildren": false,
+      "childrenKey": "1c3d9ea70542be7723f0c4c9f0fe9f26619f4a96"
+    },
+    {
+      "iri": "obo:OBI_0200086",
+      "label": "spread calculation data transformation",
+      "hasChildren": true,
+      "childrenKey": "971b8c8ee752ed89dba525721bda55361ec48842"
+    },
+    {
+      "iri": "obo:OBI_0000673",
+      "label": "statistical hypothesis test",
+      "hasChildren": true,
+      "childrenKey": "a7ba9df9aa10d3c87467a92fc745cc1c5c0f7786"
+    },
+    {
+      "iri": "obo:OBI_0200194",
+      "label": "survival analysis data transformation",
+      "hasChildren": true,
+      "childrenKey": "b7350cde5ef724e9b549fc27d05f629fedecc1d7"
+    }
+  ]
+}

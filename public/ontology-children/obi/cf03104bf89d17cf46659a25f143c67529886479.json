@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003009",
+  "children": [
+    {
+      "iri": "obo:OBI_2100096",
+      "label": "venous blood ferritin assay",
+      "hasChildren": false,
+      "childrenKey": "25c5d62603131c72ceb0a3d009cca47661b93377"
+    }
+  ]
+}

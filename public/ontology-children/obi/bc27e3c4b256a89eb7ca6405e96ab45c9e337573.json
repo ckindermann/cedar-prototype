@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002621",
+  "children": [
+    {
+      "iri": "obo:OBI_0002622",
+      "label": "in vitro transcription reconstitution assay",
+      "hasChildren": false,
+      "childrenKey": "8e66c6c81621e0787d362e08f44da9b2ef9935b9"
+    }
+  ]
+}

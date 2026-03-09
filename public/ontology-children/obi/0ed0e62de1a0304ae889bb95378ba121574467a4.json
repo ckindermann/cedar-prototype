@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001121",
+  "children": [
+    {
+      "iri": "obo:OBI_0001134",
+      "label": "agarose gel electrophoresis system",
+      "hasChildren": false,
+      "childrenKey": "3222c21cf105662a8e36d069fceb360782d16217"
+    },
+    {
+      "iri": "obo:OBI_0001106",
+      "label": "pulsed-field gel electrophoresis system",
+      "hasChildren": false,
+      "childrenKey": "f2ee32580290bb09e545608a8d5fb592160fa2d8"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001404",
+  "children": [
+    {
+      "iri": "obo:OBI_0001364",
+      "label": "genetic alteration information",
+      "hasChildren": true,
+      "childrenKey": "63b302ac8ab17caa5f44babbe8cac9c37d02be7a"
+    },
+    {
+      "iri": "obo:OBI_0001225",
+      "label": "genetic population background information",
+      "hasChildren": false,
+      "childrenKey": "03d3e0a33a6968e2e1d25d875ca555d7f4168dd6"
+    },
+    {
+      "iri": "obo:OBI_0001305",
+      "label": "genotype information",
+      "hasChildren": true,
+      "childrenKey": "5e6337ee48d31f9437d2ffd5d0736381b3fbc761"
+    },
+    {
+      "iri": "obo:OBI_0003594",
+      "label": "human leukocyte antigen mismatch count",
+      "hasChildren": false,
+      "childrenKey": "ffa7411981c6720a9ce631d774165339ed514006"
+    },
+    {
+      "iri": "obo:OBI_0002769",
+      "label": "karyotype information",
+      "hasChildren": true,
+      "childrenKey": "c9dc89127f186dbf22552755f729bd34f1bb0283"
+    }
+  ]
+}

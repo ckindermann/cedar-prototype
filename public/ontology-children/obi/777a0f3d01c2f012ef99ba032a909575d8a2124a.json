@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002681",
+  "children": [
+    {
+      "iri": "obo:OBI_0002682",
+      "label": "glass bottle coated with insecticides",
+      "hasChildren": false,
+      "childrenKey": "36b05b3fed41faef0c4abe77869aa836833fb3cb"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001058",
+  "children": [
+    {
+      "iri": "obo:OBI_0001059",
+      "label": "ELISA microplate reader",
+      "hasChildren": false,
+      "childrenKey": "3300d7600dbd36f4f8cbec44b6a6270eb1c674dc"
+    },
+    {
+      "iri": "obo:OBI_0001090",
+      "label": "multimode microplate reader",
+      "hasChildren": false,
+      "childrenKey": "dcc0dd5ff73f9d3513a67e7aa6874bb088f8ca6c"
+    }
+  ]
+}

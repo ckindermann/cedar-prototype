@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000970",
+  "children": [
+    {
+      "iri": "obo:OBI_0000991",
+      "label": "Edinburgh score",
+      "hasChildren": false,
+      "childrenKey": "1160837ca7ec653519fcb27fc7945e0a70aecfcc"
+    }
+  ]
+}

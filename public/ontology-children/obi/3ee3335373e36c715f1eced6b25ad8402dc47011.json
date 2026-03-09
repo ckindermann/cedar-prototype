@@ -1,0 +1,48 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001414",
+  "children": [
+    {
+      "iri": "obo:OBI_0001319",
+      "label": "cell culture analyte detection bioassay measuring epitope specific interferon-gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e13c4ee19c7b01f9b3685abcb2a217cc3c556268"
+    },
+    {
+      "iri": "obo:OBI_0001379",
+      "label": "cytometric bead array assay measuring epitope specific interferon-gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "f7ceb047efc04116617963a8bd191c5c7a26eabe"
+    },
+    {
+      "iri": "obo:OBI_0001350",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interferon-gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "61ecc1606dc49612cd4179a2f19e11c8d5e457e5"
+    },
+    {
+      "iri": "obo:OBI_1110151",
+      "label": "ELISA measuring epitope specific interferon-gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "a2e075150076add378af165559cb04ba2be7e828"
+    },
+    {
+      "iri": "obo:OBI_1110059",
+      "label": "ELISPOT assay measuring epitope specific interferon-gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "6aadb65fe7d39f01aeb966d22c25d9a803b83dc4"
+    },
+    {
+      "iri": "obo:OBI_1110172",
+      "label": "intracellular cytokine staining assay measuring epitope specific interferon-gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "c33967ef0c933eee5f6c0e920bfd32963f56d14d"
+    },
+    {
+      "iri": "obo:OBI_0001433",
+      "label": "radio immuno assay measuring epitope specific interferon-gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b23da4b30c33612814d64ffcce99e9bcc30f8027"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003021",
+  "children": [
+    {
+      "iri": "obo:OBI_2100056",
+      "label": "automated differential venous blood basophil count assay",
+      "hasChildren": false,
+      "childrenKey": "1ff8935b66509e41b4b3eb4b57fbfcb26109fdf8"
+    },
+    {
+      "iri": "obo:OBI_2100005",
+      "label": "basophil count assay",
+      "hasChildren": false,
+      "childrenKey": "0179e3f3613a95fa18be051cd840ff4a40664abb"
+    },
+    {
+      "iri": "obo:OBI_0003149",
+      "label": "basophil percentage assay",
+      "hasChildren": false,
+      "childrenKey": "aab6373f1d05fd3dc5e353e7bbef0feaa537b1c1"
+    },
+    {
+      "iri": "obo:OBI_2100106",
+      "label": "CBC with manual differential venous blood basophil count assay",
+      "hasChildren": false,
+      "childrenKey": "7098e6308138dfbd3284a0b0ce477caf8de93aac"
+    },
+    {
+      "iri": "obo:OBI_2100394",
+      "label": "cerebrospinal fluid basophil count assay",
+      "hasChildren": false,
+      "childrenKey": "de2dbc5ac844d9d5881213ad77b00c6bc76d3f18"
+    },
+    {
+      "iri": "obo:OBI_2100336",
+      "label": "manual differential bodily fluid basophil count assay",
+      "hasChildren": false,
+      "childrenKey": "5c4d4214664103beffeadabc04412db2ced57f8e"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200085",
+  "children": [
+    {
+      "iri": "obo:OBI_0200064",
+      "label": "centroid mass spectrum analysis",
+      "hasChildren": false,
+      "childrenKey": "b57d0d7a6a757b36d24002750109b0f44a5f1f3f"
+    },
+    {
+      "iri": "obo:OBI_0200063",
+      "label": "characteristic path length calculation",
+      "hasChildren": false,
+      "childrenKey": "f7b6cf96474ec9b9db1a3086887224e64defd976"
+    },
+    {
+      "iri": "obo:OBI_0200062",
+      "label": "continuum mass spectrum analysis",
+      "hasChildren": false,
+      "childrenKey": "d770a0bc613311306206d6549850c2d53e9138aa"
+    },
+    {
+      "iri": "obo:OBI_0200199",
+      "label": "gas chromatography mass spectrometry",
+      "hasChildren": false,
+      "childrenKey": "61c9086147f568fdb147b3d6127270e1f4d9a327"
+    },
+    {
+      "iri": "obo:OBI_0003649",
+      "label": "liquid chromatography-tandem mass spectrometry analysis",
+      "hasChildren": false,
+      "childrenKey": "be3a7f14efcb1e109157012eca09c7157addbaa2"
+    },
+    {
+      "iri": "obo:OBI_0003648",
+      "label": "liquid chromatrography mass spectrometry analysis",
+      "hasChildren": true,
+      "childrenKey": "297609e3fc83508dba4ae3670b9396881be25393"
+    },
+    {
+      "iri": "obo:OBI_0003647",
+      "label": "tandem mass spectrometry analysis",
+      "hasChildren": true,
+      "childrenKey": "2d9c436ae317023e339d3c37f487c4298476d4db"
+    }
+  ]
+}

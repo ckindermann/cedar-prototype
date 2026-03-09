@@ -1,0 +1,2689 @@
+{
+  "generatedAt": "2026-03-09T18:15:00.572Z",
+  "ontologies": [
+    {
+      "id": "obi",
+      "name": "OBI",
+      "sourceDb": "obi.db",
+      "classPrefix": "obo:OBI_",
+      "roots": [
+        {
+          "iri": "obo:OBI_1110028",
+          "label": "293-T cell line",
+          "hasChildren": false,
+          "childrenKey": "0bbf6937ac55f50a13341b27c499fd334d652332"
+        },
+        {
+          "iri": "obo:OBI_0001155",
+          "label": "3D structural organization datum",
+          "hasChildren": true,
+          "childrenKey": "f3ee46ba90dcebf191013cafe7fe1e98f5f63f3b"
+        },
+        {
+          "iri": "obo:OBI_0000949",
+          "label": "accessed material role",
+          "hasChildren": false,
+          "childrenKey": "b08a2cfe9b0c3f2ff284123d800a792289bf1afa"
+        },
+        {
+          "iri": "obo:OBI_1110016",
+          "label": "adaptive immune effector function",
+          "hasChildren": true,
+          "childrenKey": "52a6cca4d9ae1dd9e2ec7b9efc4eca9cb1cf472d"
+        },
+        {
+          "iri": "obo:OBI_1110022",
+          "label": "adaptive immune receptor",
+          "hasChildren": false,
+          "childrenKey": "e9a17411b6f2312d4752f55ef685687c750e6db8"
+        },
+        {
+          "iri": "obo:OBI_1110092",
+          "label": "adjuvant role",
+          "hasChildren": true,
+          "childrenKey": "bc41b31d70bcaea2de1fb252630e1fa108638e33"
+        },
+        {
+          "iri": "obo:OBI_0000310",
+          "label": "adverse event trigger",
+          "hasChildren": false,
+          "childrenKey": "648c8f0d4c5ea2219d64f01184bbf8c31a8e06de"
+        },
+        {
+          "iri": "obo:OBI_0001167",
+          "label": "age measurement datum",
+          "hasChildren": true,
+          "childrenKey": "3acaf98b06361c68337188c172112c4b7a8740e8"
+        },
+        {
+          "iri": "obo:OBI_0002466",
+          "label": "alignment counting algorithm",
+          "hasChildren": true,
+          "childrenKey": "7d48b62dff520197a627050fd93853bcd9e3d03f"
+        },
+        {
+          "iri": "obo:OBI_0002467",
+          "label": "alignment counting application",
+          "hasChildren": false,
+          "childrenKey": "0047bf1fdbed18197e305c6639f23048fcbb963c"
+        },
+        {
+          "iri": "obo:OBI_1110201",
+          "label": "allergen",
+          "hasChildren": false,
+          "childrenKey": "778c7a67a3c7b314ab2a383d8f4764b129dae8c0"
+        },
+        {
+          "iri": "obo:OBI_1110049",
+          "label": "allergy",
+          "hasChildren": false,
+          "childrenKey": "8098bc3b967c5b718241e6ba9f896212f59d4fb1"
+        },
+        {
+          "iri": "obo:OBI_0002983",
+          "label": "altitude measurement datum",
+          "hasChildren": false,
+          "childrenKey": "aa15a0596e78eb67147421e7b6c7cde40e7e0ad1"
+        },
+        {
+          "iri": "obo:OBI_0000210",
+          "label": "analytical cytology data file",
+          "hasChildren": false,
+          "childrenKey": "c003f128c1f78d981930310c7ce7958190e2eb2e"
+        },
+        {
+          "iri": "obo:OBI_1110034",
+          "label": "antigen",
+          "hasChildren": false,
+          "childrenKey": "335b70b12a6f02058e1c8517a07e75ed224b1567"
+        },
+        {
+          "iri": "obo:OBI_1110085",
+          "label": "antigen presentation function",
+          "hasChildren": false,
+          "childrenKey": "e7224e9795b78c636cb203406977d2df285427a7"
+        },
+        {
+          "iri": "obo:OBI_0000237",
+          "label": "antigen role",
+          "hasChildren": true,
+          "childrenKey": "fc322fce151c447e72263d845f993491a301c54a"
+        },
+        {
+          "iri": "obo:OBI_0003417",
+          "label": "antigen specific antibodies assay datum",
+          "hasChildren": true,
+          "childrenKey": "95705a7072cfa06a84aa8b02d7b10c7a07bc1f60"
+        },
+        {
+          "iri": "obo:OBI_0003119",
+          "label": "antigen:antibody complex",
+          "hasChildren": false,
+          "childrenKey": "ad6398835d797535d9604f7534876883586a8a03"
+        },
+        {
+          "iri": "obo:OBI_0002997",
+          "label": "arthropod attractor role",
+          "hasChildren": false,
+          "childrenKey": "e70d50ae1ff20b321e70144d33c9459e4d257d12"
+        },
+        {
+          "iri": "obo:OBI_0000441",
+          "label": "assay objective",
+          "hasChildren": true,
+          "childrenKey": "d3c59123dbaa07ac02e5e6591d5aed474d59999e"
+        },
+        {
+          "iri": "obo:OBI_0001160",
+          "label": "assay validation objective",
+          "hasChildren": false,
+          "childrenKey": "ed38599e758bc6b7c598ed9922dfddd416465a7a"
+        },
+        {
+          "iri": "obo:OBI_1110054",
+          "label": "autoimmune disease",
+          "hasChildren": false,
+          "childrenKey": "5970051ec6511311c2c13d685309e9eb494b9eaa"
+        },
+        {
+          "iri": "obo:OBI_0000679",
+          "label": "average value",
+          "hasChildren": true,
+          "childrenKey": "a287b0232ee51d5da6d2afb88627a43dc244b77e"
+        },
+        {
+          "iri": "obo:OBI_0001717",
+          "label": "B cell epitope specific antibody-dependent cellular cytotoxicity",
+          "hasChildren": false,
+          "childrenKey": "bb617c1769450f18baa0990ea7340c4275d857a5"
+        },
+        {
+          "iri": "obo:OBI_0001716",
+          "label": "B cell epitope specific complement-dependent cytotoxicity",
+          "hasChildren": false,
+          "childrenKey": "7e27e73a4176b53fd25b06ad82c1ef4bff095147"
+        },
+        {
+          "iri": "obo:OBI_0001725",
+          "label": "B cell epitope specific histamine secretion mediated by immunoglobulin",
+          "hasChildren": false,
+          "childrenKey": "606ea152d52a99ddd18983e7e872b377ac8a5c42"
+        },
+        {
+          "iri": "obo:OBI_0001722",
+          "label": "B cell epitope specific hypersensitivity",
+          "hasChildren": false,
+          "childrenKey": "8c764e363d410cbcc80e120a832226822d1b3280"
+        },
+        {
+          "iri": "obo:OBI_0001714",
+          "label": "B cell epitope specific immunoglobulin-mediated neutralization",
+          "hasChildren": false,
+          "childrenKey": "dfc1c8c74b7f617746f40f9431eed882bc73ca49"
+        },
+        {
+          "iri": "obo:OBI_0001713",
+          "label": "B cell epitope specific opsonization",
+          "hasChildren": false,
+          "childrenKey": "ff1534024208bc3c56a26f195f897734aab79cc9"
+        },
+        {
+          "iri": "obo:OBI_0000660",
+          "label": "background corrected data set",
+          "hasChildren": false,
+          "childrenKey": "f575bee384d0000cf2a639d3f56048cdcd8dfce9"
+        },
+        {
+          "iri": "obo:OBI_0002468",
+          "label": "base calling algorithm",
+          "hasChildren": false,
+          "childrenKey": "790b28d5cdb72e47e2c574cc8eda6c048457a695"
+        },
+        {
+          "iri": "obo:OBI_0002469",
+          "label": "base calling application",
+          "hasChildren": true,
+          "childrenKey": "73eb37e067606e4f6919ddbd064eea740eb159ad"
+        },
+        {
+          "iri": "obo:OBI_0002461",
+          "label": "BCL format",
+          "hasChildren": false,
+          "childrenKey": "c7c284e56c78ef0db0ecab2abe0b9d611b16239a"
+        },
+        {
+          "iri": "obo:OBI_0001588",
+          "label": "binding",
+          "hasChildren": true,
+          "childrenKey": "039572810cd39675f33f5266231bbffc62ad5414"
+        },
+        {
+          "iri": "obo:OBI_0001181",
+          "label": "binding datum",
+          "hasChildren": true,
+          "childrenKey": "10f801a356bffee2d609ab58a49912453c0d0860"
+        },
+        {
+          "iri": "obo:OBI_0001883",
+          "label": "Bioinformatics Resource Center contact person",
+          "hasChildren": false,
+          "childrenKey": "3fb3fbfda214a73b78cceb8899f9bc1860e07c64"
+        },
+        {
+          "iri": "obo:OBI_0000015",
+          "label": "biological feature identification objective",
+          "hasChildren": true,
+          "childrenKey": "39b3cb3e8bc5577ec92291976b5a7c518b265c46"
+        },
+        {
+          "iri": "obo:OBI_0003243",
+          "label": "blood assay datum",
+          "hasChildren": true,
+          "childrenKey": "791f16f4156957d186b228063dbbf1075e4ad3f5"
+        },
+        {
+          "iri": "obo:OBI_0002996",
+          "label": "blood meal source role",
+          "hasChildren": false,
+          "childrenKey": "d5890f6402e97fa2b99f846b57985fb2d1cec8cd"
+        },
+        {
+          "iri": "obo:OBI_0302731",
+          "label": "buffer role",
+          "hasChildren": false,
+          "childrenKey": "10d80fc44dedd5c5895315690478b5cdda95b293"
+        },
+        {
+          "iri": "obo:OBI_1110029",
+          "label": "C1R cell line",
+          "hasChildren": false,
+          "childrenKey": "d2514803766c0808b80762a19c179d83e0d9f015"
+        },
+        {
+          "iri": "obo:OBI_1110053",
+          "label": "cancer",
+          "hasChildren": false,
+          "childrenKey": "7fa54f67025b7b51538babcb644cde6462c07a08"
+        },
+        {
+          "iri": "obo:OBI_0001906",
+          "label": "cancer cell line",
+          "hasChildren": false,
+          "childrenKey": "291b0af5981c4c4343f8397c324e3cb0061b56b9"
+        },
+        {
+          "iri": "obo:OBI_0000798",
+          "label": "capsule shell",
+          "hasChildren": false,
+          "childrenKey": "6b9039735404eed94d2bbab822d9c68905089c9a"
+        },
+        {
+          "iri": "obo:OBI_0000963",
+          "label": "categorical label",
+          "hasChildren": false,
+          "childrenKey": "4d13b1bc9a6e8eb58e3c18da60a74f5f4c19154e"
+        },
+        {
+          "iri": "obo:OBI_0000938",
+          "label": "categorical measurement datum",
+          "hasChildren": true,
+          "childrenKey": "0b96971ac9534ce9a03cbe93798a4ecd939623f8"
+        },
+        {
+          "iri": "obo:OBI_0000674",
+          "label": "center value",
+          "hasChildren": false,
+          "childrenKey": "999af81ea9f05bb12218893220b12519ee8c8cb6"
+        },
+        {
+          "iri": "obo:OBI_0000029",
+          "label": "centrifuge pellet role",
+          "hasChildren": false,
+          "childrenKey": "5ae30cb3061e20d3c02ed95d0f6ee01e1589b58b"
+        },
+        {
+          "iri": "obo:OBI_0003252",
+          "label": "cerebrospinal fluid assay datum",
+          "hasChildren": true,
+          "childrenKey": "4b14c4476be248bd55efa96e12e9c44488e7a3fe"
+        },
+        {
+          "iri": "obo:OBI_0302729",
+          "label": "chemical solution",
+          "hasChildren": true,
+          "childrenKey": "ff953dc66ec55d9997e2ec112ddd3336fe33bfa7"
+        },
+        {
+          "iri": "obo:OBI_0003591",
+          "label": "chronic allograft damage index score",
+          "hasChildren": false,
+          "childrenKey": "69b744d46bf16b0bae864b4d5b690fd47bb78a0e"
+        },
+        {
+          "iri": "obo:OBI_0000023",
+          "label": "classified data set",
+          "hasChildren": false,
+          "childrenKey": "4b4a28aaed3efa4ad2067c867b790cd7dcc4f967"
+        },
+        {
+          "iri": "obo:OBI_0002369",
+          "label": "clinical history devoid of cancer",
+          "hasChildren": false,
+          "childrenKey": "d1cacc1a2fb0c605dfa0a251f9ce146ad64842ec"
+        },
+        {
+          "iri": "obo:OBI_0002368",
+          "label": "clinical history of cancer",
+          "hasChildren": false,
+          "childrenKey": "12848ac44701006e5481305b54fe1b62d0b12b8b"
+        },
+        {
+          "iri": "obo:OBI_0002389",
+          "label": "clinical history of repeated HIV assays",
+          "hasChildren": false,
+          "childrenKey": "b473eb87a647b16f81885f88336ea672723e1a4c"
+        },
+        {
+          "iri": "obo:OBI_0000416",
+          "label": "cloning insert role",
+          "hasChildren": false,
+          "childrenKey": "915ba8f7aad5d0268eac36ab3294b291e98d0671"
+        },
+        {
+          "iri": "obo:OBI_0000251",
+          "label": "cluster",
+          "hasChildren": false,
+          "childrenKey": "78386b280a39fab641e6b35728f157bd0057b1c4"
+        },
+        {
+          "iri": "obo:OBI_0000648",
+          "label": "clustered data set",
+          "hasChildren": true,
+          "childrenKey": "30dc3df4d1620d73748c2e67222d3eca63a23cb8"
+        },
+        {
+          "iri": "obo:OBI_0002076",
+          "label": "collection of specimens",
+          "hasChildren": true,
+          "childrenKey": "a85a274def012c1cc06b6f4a635c00ed9cefd8ec"
+        },
+        {
+          "iri": "obo:OBI_0001898",
+          "label": "comment on investigation",
+          "hasChildren": true,
+          "childrenKey": "f2fb5586881772ce212ed22803fad6a06c46e2a5"
+        },
+        {
+          "iri": "obo:OBI_0003074",
+          "label": "common name of organism",
+          "hasChildren": false,
+          "childrenKey": "c62765581733c02bc260f1b99ad26f1387ac8a04"
+        },
+        {
+          "iri": "obo:OBI_0000857",
+          "label": "complementary nucleotide probe role",
+          "hasChildren": true,
+          "childrenKey": "d12732f779d6b89735ce07653584f654f4bda103"
+        },
+        {
+          "iri": "obo:OBI_0500023",
+          "label": "compliance rule",
+          "hasChildren": true,
+          "childrenKey": "90e4f29267d56cecda31b4090d7035f57cddf83a"
+        },
+        {
+          "iri": "obo:OBI_0001913",
+          "label": "computation run time",
+          "hasChildren": false,
+          "childrenKey": "0fc03e5f2b6f0f8160cf275bbd1e795fc24879b6"
+        },
+        {
+          "iri": "obo:OBI_0001909",
+          "label": "conclusion based on data",
+          "hasChildren": true,
+          "childrenKey": "4070d3d6ca3b2d945a70b6c5638632cd585ce1eb"
+        },
+        {
+          "iri": "obo:OBI_0000388",
+          "label": "connection function",
+          "hasChildren": false,
+          "childrenKey": "0d9d59c8c567ac8359d15680db313dd9a6a9b23d"
+        },
+        {
+          "iri": "obo:OBI_0000455",
+          "label": "consume data function",
+          "hasChildren": false,
+          "childrenKey": "b0d0816d0aed7521dcce7363671a3beb11079057"
+        },
+        {
+          "iri": "obo:OBI_0001687",
+          "label": "contact representative role",
+          "hasChildren": false,
+          "childrenKey": "117df0dcd0efc2631ecd77d04fec78a862ab86c7"
+        },
+        {
+          "iri": "obo:OBI_0000370",
+          "label": "contain function",
+          "hasChildren": true,
+          "childrenKey": "e4df49f726f4f66a5877715604ab8097e2f486a5"
+        },
+        {
+          "iri": "obo:OBI_0000387",
+          "label": "cool function",
+          "hasChildren": false,
+          "childrenKey": "b6a84a8610501df24dc779211861e9659c2e046b"
+        },
+        {
+          "iri": "obo:OBI_0001627",
+          "label": "country name",
+          "hasChildren": false,
+          "childrenKey": "dfda1d28026e30405bde6ca3eb21f4181ec32a36"
+        },
+        {
+          "iri": "obo:OBI_0002191",
+          "label": "courier tracking number",
+          "hasChildren": false,
+          "childrenKey": "0e6660fe588b8e41c444eb31729a9fa4713fcd0e"
+        },
+        {
+          "iri": "obo:OBI_0302840",
+          "label": "curated information",
+          "hasChildren": false,
+          "childrenKey": "9a48b7b126a596f1fd2bf0895f639d9de982e58e"
+        },
+        {
+          "iri": "obo:OBI_0001040",
+          "label": "current amplification function",
+          "hasChildren": false,
+          "childrenKey": "e73628f1ef0a98c90b29d8771d721504bee38891"
+        },
+        {
+          "iri": "obo:OBI_0000227",
+          "label": "data encoding",
+          "hasChildren": false,
+          "childrenKey": "d5ff3fe80cee59882eeb98ae61e3760831f12d35"
+        },
+        {
+          "iri": "obo:OBI_0000658",
+          "label": "data representational model",
+          "hasChildren": false,
+          "childrenKey": "c7a0f87f7d02901ef323f17ad53f06fecadb5c4d"
+        },
+        {
+          "iri": "obo:OBI_0000649",
+          "label": "data set of features",
+          "hasChildren": false,
+          "childrenKey": "d62fff2f36b519fcadfd569389ce8d6299ef5979"
+        },
+        {
+          "iri": "obo:OBI_0000656",
+          "label": "data set of predicted values according to fitted curve",
+          "hasChildren": false,
+          "childrenKey": "ddfee34f629cdf6d23b29377f43ba9c0625bbf5d"
+        },
+        {
+          "iri": "obo:OBI_0200166",
+          "label": "data transformation objective",
+          "hasChildren": true,
+          "childrenKey": "8681858e91575a990eca55556f7dded046950f66"
+        },
+        {
+          "iri": "obo:OBI_0002471",
+          "label": "date process started",
+          "hasChildren": false,
+          "childrenKey": "3ea70f29c1be572deed43a3e4d2c9f3fd8fbe7bc"
+        },
+        {
+          "iri": "obo:OBI_0002472",
+          "label": "dbGaP study identifier",
+          "hasChildren": false,
+          "childrenKey": "e76859e16aa97ccaa9c66ed0d8ce45395de4a4cb"
+        },
+        {
+          "iri": "obo:OBI_0001964",
+          "label": "decision-theoretic analysis objective",
+          "hasChildren": false,
+          "childrenKey": "c330b22d013f49eb079e23ac9ebe559f0f1cc6e0"
+        },
+        {
+          "iri": "obo:OBI_0000091",
+          "label": "detector reagent role",
+          "hasChildren": false,
+          "childrenKey": "0bfadb9e2e41b11a4cb5a584a5126c6be0d75997"
+        },
+        {
+          "iri": "obo:OBI_0000654",
+          "label": "device setting",
+          "hasChildren": false,
+          "childrenKey": "f307041c0fe9305a315605218a978cf0ac64db7d"
+        },
+        {
+          "iri": "obo:OBI_0002371",
+          "label": "diagnosis of cancer",
+          "hasChildren": false,
+          "childrenKey": "2c0f79c39a6216b57dd98f8329b0aa0380963966"
+        },
+        {
+          "iri": "obo:OBI_0002385",
+          "label": "diagnosis of infectious disease",
+          "hasChildren": true,
+          "childrenKey": "b7913d06b9ad1c6110c125541a59385ab17df055"
+        },
+        {
+          "iri": "obo:OBI_0000075",
+          "label": "diagnosis textual entity",
+          "hasChildren": false,
+          "childrenKey": "f6a898a903830dd8c7772d43c54c2eddb6a709bd"
+        },
+        {
+          "iri": "obo:OBI_0002584",
+          "label": "differential expression analysis data",
+          "hasChildren": false,
+          "childrenKey": "7f8893cb727a0d67ac759276df59d66131646042"
+        },
+        {
+          "iri": "obo:OBI_0302914",
+          "label": "digital curation",
+          "hasChildren": false,
+          "childrenKey": "63be19d2fb6de4c23410af720034cfbde46e3f75"
+        },
+        {
+          "iri": "obo:OBI_0002110",
+          "label": "digital object identifier",
+          "hasChildren": false,
+          "childrenKey": "62d33dec5bde5ab056f526231ff114673415d4e1"
+        },
+        {
+          "iri": "obo:OBI_1110300",
+          "label": "direct submission to IEDB",
+          "hasChildren": false,
+          "childrenKey": "423115de216b811602879e5ac888d7c4385529e8"
+        },
+        {
+          "iri": "obo:OBI_0003607",
+          "label": "disease causation objective",
+          "hasChildren": false,
+          "childrenKey": "a26596acf750c634f03f6d7c090ce6f2c2d7a0aa"
+        },
+        {
+          "iri": "obo:OBI_0003614",
+          "label": "disease prevalence reduction objective",
+          "hasChildren": false,
+          "childrenKey": "1280e09a4065d0dbcc73061a7040354bfbda21e2"
+        },
+        {
+          "iri": "obo:OBI_0003609",
+          "label": "disease prevention objective",
+          "hasChildren": false,
+          "childrenKey": "ee6f60861cfe4f477582cd8c7b46e282f1a2972a"
+        },
+        {
+          "iri": "obo:OBI_0003608",
+          "label": "disease severity reduction objective",
+          "hasChildren": false,
+          "childrenKey": "a73d22d66277eb120a0e10f6a93bee189d1a0dda"
+        },
+        {
+          "iri": "obo:OBI_0000278",
+          "label": "disease stage",
+          "hasChildren": false,
+          "childrenKey": "4e014941f773117abb3c6e04595b0a0d0f5a3134"
+        },
+        {
+          "iri": "obo:OBI_0001511",
+          "label": "disposition to be a product of antigen processing and presentation",
+          "hasChildren": false,
+          "childrenKey": "f5ac56db6c6b2d305a85946646109ca733d626f3"
+        },
+        {
+          "iri": "obo:OBI_1110045",
+          "label": "disposition to be bound by an adaptive immune receptor",
+          "hasChildren": false,
+          "childrenKey": "b938f978fc70be4e9b5f508c6746bf59a80fa9cd"
+        },
+        {
+          "iri": "obo:OBI_0001486",
+          "label": "disposition to be bound by an MHC protein complex",
+          "hasChildren": false,
+          "childrenKey": "2a843d21c5dd7e3360c9190dcf4807dd55dfe2d8"
+        },
+        {
+          "iri": "obo:OBI_1110010",
+          "label": "disposition to cause an allergic reaction",
+          "hasChildren": false,
+          "childrenKey": "d60b5c587cd24866712ef4dd5516768095c650af"
+        },
+        {
+          "iri": "obo:OBI_1110093",
+          "label": "disposition to infect an organism",
+          "hasChildren": false,
+          "childrenKey": "a17c3044092fb197d5e86ab870de668cc93a28ce"
+        },
+        {
+          "iri": "obo:OBI_0000831",
+          "label": "DNA residue methylation",
+          "hasChildren": false,
+          "childrenKey": "2a37fe37f3347ff95be2128f1416b3700a6e6b4f"
+        },
+        {
+          "iri": "obo:OBI_1110087",
+          "label": "donor role",
+          "hasChildren": false,
+          "childrenKey": "fffcf2b32f5d267cfbab388dc14cd7633d7b7960"
+        },
+        {
+          "iri": "obo:OBI_0000984",
+          "label": "dose",
+          "hasChildren": false,
+          "childrenKey": "212fa8c6090461622eaae6760440fec2a7df737d"
+        },
+        {
+          "iri": "obo:OBI_0001172",
+          "label": "dose response curve",
+          "hasChildren": false,
+          "childrenKey": "b5ff1faa4e5b6de6491b72ba1fa57230343a38d2"
+        },
+        {
+          "iri": "obo:OBI_0000969",
+          "label": "dose specification",
+          "hasChildren": false,
+          "childrenKey": "e21311cdf897fb3043bbf2db4ce1be39c7fd3ff4"
+        },
+        {
+          "iri": "obo:OBI_0000040",
+          "label": "drug role",
+          "hasChildren": false,
+          "childrenKey": "c84c87e961bd5ec273ad80bc84d9d2a9c6e05442"
+        },
+        {
+          "iri": "obo:OBI_0003066",
+          "label": "easting coordinate measurement datum",
+          "hasChildren": false,
+          "childrenKey": "48aa125b97c201cf65118d717de44a217389182a"
+        },
+        {
+          "iri": "obo:OBI_0302874",
+          "label": "edited document",
+          "hasChildren": false,
+          "childrenKey": "37b9d2c8bcbbd2f46edf6e78146f4165c2f03d4f"
+        },
+        {
+          "iri": "obo:OBI_1110031",
+          "label": "EL-4 cell line",
+          "hasChildren": false,
+          "childrenKey": "2a548f1330c42c5cbd8c78e031c6229c96de2702"
+        },
+        {
+          "iri": "obo:OBI_0000167",
+          "label": "electronic case report form",
+          "hasChildren": false,
+          "childrenKey": "82605802d047154b84808bd482c57ec9d6a0bd7a"
+        },
+        {
+          "iri": "obo:OBI_0000083",
+          "label": "electronic case report tabulation",
+          "hasChildren": false,
+          "childrenKey": "4139771d581a4db1d85d0677569fd3ac7ddb47d0"
+        },
+        {
+          "iri": "obo:OBI_0001887",
+          "label": "email address of Bioinformatics Resource Center contact person",
+          "hasChildren": false,
+          "childrenKey": "6f96d706ad73348d7429881af95b949fab44cec1"
+        },
+        {
+          "iri": "obo:OBI_0001894",
+          "label": "email address of sequencing facility contact person",
+          "hasChildren": false,
+          "childrenKey": "fe8b8d8ca581ccb36b1d5105b3c9b82f3e4c2cdb"
+        },
+        {
+          "iri": "obo:OBI_0001890",
+          "label": "email address of specimen collector",
+          "hasChildren": false,
+          "childrenKey": "c32628392ce663396ca07303f8594a74fb258083"
+        },
+        {
+          "iri": "obo:OBI_0001903",
+          "label": "email address of specimen provider principal investigator",
+          "hasChildren": false,
+          "childrenKey": "d94ee901d8af8c693ff210d5c9cdcab028e1beab"
+        },
+        {
+          "iri": "obo:OBI_0000078",
+          "label": "eMedical record",
+          "hasChildren": false,
+          "childrenKey": "151c49f3922b776317d59a40866e8574f30e0df5"
+        },
+        {
+          "iri": "obo:OBI_0003254",
+          "label": "endotracheal aspirate assay datum",
+          "hasChildren": true,
+          "childrenKey": "61b12485473cee7ff944eaf2cc8bc2fe14a6e1ee"
+        },
+        {
+          "iri": "obo:OBI_0000391",
+          "label": "energy supply function",
+          "hasChildren": true,
+          "childrenKey": "65d5a6bc085a9e2c7f15013ea09f4d2764679711"
+        },
+        {
+          "iri": "obo:OBI_0003077",
+          "label": "entomological data item",
+          "hasChildren": false,
+          "childrenKey": "e881159ee50ff748dad55f3fd2eba4134b344b8d"
+        },
+        {
+          "iri": "obo:OBI_0000401",
+          "label": "environment control function",
+          "hasChildren": false,
+          "childrenKey": "08e8aada4e5e25aef5d38ac33affba5ba85379c7"
+        },
+        {
+          "iri": "obo:OBI_1110024",
+          "label": "environmental exposure to infectious agent",
+          "hasChildren": false,
+          "childrenKey": "ff341f16bea48f231bece8f391761bf380d9ec59"
+        },
+        {
+          "iri": "obo:OBI_1110111",
+          "label": "environmental proximity to infectious agent",
+          "hasChildren": true,
+          "childrenKey": "e6f14ac7d8b51b4035586a27a9c2e14618a01caf"
+        },
+        {
+          "iri": "obo:OBI_0000427",
+          "label": "enzyme",
+          "hasChildren": true,
+          "childrenKey": "f4ba398e25d0af11dbd66beec6e95e20e87c2208"
+        },
+        {
+          "iri": "obo:OBI_1110001",
+          "label": "epitope",
+          "hasChildren": false,
+          "childrenKey": "dadd5323545208c4511a3ddd5e182f35fca1913d"
+        },
+        {
+          "iri": "obo:OBI_1110014",
+          "label": "epitope binding by adaptive immune receptor",
+          "hasChildren": true,
+          "childrenKey": "cca96646efbd65d22c03ffaa230a5ee80bb20e01"
+        },
+        {
+          "iri": "obo:OBI_0001193",
+          "label": "epitope specific cytokine production by T cells",
+          "hasChildren": true,
+          "childrenKey": "2dc66cba66f512103aaa9ccc52a3955567c30b38"
+        },
+        {
+          "iri": "obo:OBI_0001394",
+          "label": "epitope specific cytotoxic T cell degranulation",
+          "hasChildren": false,
+          "childrenKey": "f885711efc22ea4721d3d709c99e10eb16e6717e"
+        },
+        {
+          "iri": "obo:OBI_0001677",
+          "label": "epitope specific granulysin production by T cells",
+          "hasChildren": false,
+          "childrenKey": "5af4dbb20f97252947ef5e0ac2e2bf33d30da5fb"
+        },
+        {
+          "iri": "obo:OBI_0001678",
+          "label": "epitope specific granzyme A production by T cells",
+          "hasChildren": false,
+          "childrenKey": "d112b1a3d1cc56486aa16c4eea9c6805e81c78df"
+        },
+        {
+          "iri": "obo:OBI_0001371",
+          "label": "epitope specific granzyme B production by T cells",
+          "hasChildren": false,
+          "childrenKey": "75c6c04d9f7898d8c6950d39a316dc0f8fea9dc3"
+        },
+        {
+          "iri": "obo:OBI_0001420",
+          "label": "epitope specific helper T cell enhancement of T cell mediated immune response",
+          "hasChildren": false,
+          "childrenKey": "1fd4613723887c4ff8b654130aa209a6ae0b9b68"
+        },
+        {
+          "iri": "obo:OBI_1110204",
+          "label": "epitope specific killing by T cells",
+          "hasChildren": false,
+          "childrenKey": "7fa23eb6fec33b4bdd2856c0e85d16b10ab7e89f"
+        },
+        {
+          "iri": "obo:OBI_0001502",
+          "label": "epitope specific perforin production by T cells",
+          "hasChildren": false,
+          "childrenKey": "bd0dd9041d47b0108b0d8b1018361986e3b1a571"
+        },
+        {
+          "iri": "obo:OBI_0001208",
+          "label": "epitope specific T cell activation",
+          "hasChildren": false,
+          "childrenKey": "862aa10743afcac130b7a2b7b5f6497ac140c4b3"
+        },
+        {
+          "iri": "obo:OBI_0001314",
+          "label": "epitope specific T cell enhancement of B cell mediated immune response",
+          "hasChildren": false,
+          "childrenKey": "804dc3ac8e6ea78a7bdc9be45bebce6b59c2b1df"
+        },
+        {
+          "iri": "obo:OBI_1110182",
+          "label": "epitope specific T cell proliferation",
+          "hasChildren": false,
+          "childrenKey": "4e6ae9f92304ce7384c26e4057dcbad6cf1154f3"
+        },
+        {
+          "iri": "obo:OBI_0001201",
+          "label": "epitope specific tolerance induction by T cells",
+          "hasChildren": true,
+          "childrenKey": "f8151eacbf58149b99e175b159c189d8f571cb39"
+        },
+        {
+          "iri": "obo:OBI_0001212",
+          "label": "epitope specific type IV hypersensitivity by T cells",
+          "hasChildren": false,
+          "childrenKey": "3f43974cee833af531fc93babcfa03dd73efa19b"
+        },
+        {
+          "iri": "obo:OBI_0003120",
+          "label": "epitope:MHC:TCR complex",
+          "hasChildren": false,
+          "childrenKey": "863b141cc4314e3dace01066a3187b1e94f9ca9a"
+        },
+        {
+          "iri": "obo:OBI_0000662",
+          "label": "error corrected data set",
+          "hasChildren": false,
+          "childrenKey": "67c117178c830cdb530e097a7115d95eae8c5c6d"
+        },
+        {
+          "iri": "obo:OBI_0000158",
+          "label": "eSource document",
+          "hasChildren": false,
+          "childrenKey": "3623f65734450d2b522187f7588800f1b0979b51"
+        },
+        {
+          "iri": "obo:OBI_0000067",
+          "label": "evaluant role",
+          "hasChildren": true,
+          "childrenKey": "87cdbbbf565639c37f7cdeab7c18672960b48c93"
+        },
+        {
+          "iri": "obo:OBI_0000374",
+          "label": "excitation function",
+          "hasChildren": true,
+          "childrenKey": "15b9943f6b59c47135c3d3afaf6bb495f154796e"
+        },
+        {
+          "iri": "obo:OBI_1110061",
+          "label": "exposure resulting in immune reactivity",
+          "hasChildren": false,
+          "childrenKey": "f9d39d7746fee5e0941969f103e8a7160f0b9e83"
+        },
+        {
+          "iri": "obo:OBI_0002415",
+          "label": "exposure to environmental and workplace carcinogens history",
+          "hasChildren": true,
+          "childrenKey": "8400ee6cdfb69b5aa85362c54344e92723400f53"
+        },
+        {
+          "iri": "obo:OBI_0002390",
+          "label": "exposure to second hand smoke",
+          "hasChildren": true,
+          "childrenKey": "9fe072ad6b504e91b12adcb69d6f7fa36e3cedfb"
+        },
+        {
+          "iri": "obo:OBI_0003081",
+          "label": "extraction date",
+          "hasChildren": false,
+          "childrenKey": "d04f9d0446e43737b9f1c0aa035c190a4fbcb8b8"
+        },
+        {
+          "iri": "obo:OBI_0003082",
+          "label": "extraction duration time",
+          "hasChildren": false,
+          "childrenKey": "e2d420a5e210f80b68a43d5d12aeeb43f5e2d919"
+        },
+        {
+          "iri": "obo:OBI_0002372",
+          "label": "family clinical history of cancer",
+          "hasChildren": true,
+          "childrenKey": "4badf1531b1cb719004b6cbc33bd1c304d2278f9"
+        },
+        {
+          "iri": "obo:OBI_0003655",
+          "label": "fasted",
+          "hasChildren": false,
+          "childrenKey": "49a20816c927e428d9f94c575b021bdef2ee3ea3"
+        },
+        {
+          "iri": "obo:OBI_0003245",
+          "label": "feces assay datum",
+          "hasChildren": true,
+          "childrenKey": "2c326e1e51a3971c334bd12b9606af68519faa80"
+        },
+        {
+          "iri": "obo:OBI_0000213",
+          "label": "fluorescence compensation matrix",
+          "hasChildren": false,
+          "childrenKey": "0c533789d17e4b2844ddc19738dac1ece7c1e15c"
+        },
+        {
+          "iri": "obo:OBI_0000010",
+          "label": "fluorescent reporter intensity",
+          "hasChildren": false,
+          "childrenKey": "3dfe2ed4c17018d1ec1bf3a028bb45344636bf88"
+        },
+        {
+          "iri": "obo:OBI_0000375",
+          "label": "freeze function",
+          "hasChildren": false,
+          "childrenKey": "24a5047853c130498fa8d9602624f7fabe37a081"
+        },
+        {
+          "iri": "obo:OBI_0000817",
+          "label": "fucoidan",
+          "hasChildren": false,
+          "childrenKey": "baf18835c6d2533293d6bd53a88e3e502db09c68"
+        },
+        {
+          "iri": "obo:OBI_0001614",
+          "label": "GenBank ID",
+          "hasChildren": false,
+          "childrenKey": "ac861f0dafd9c482a4d7cdb3317ea122f282ace2"
+        },
+        {
+          "iri": "obo:OBI_0000118",
+          "label": "gene list",
+          "hasChildren": false,
+          "childrenKey": "a2364eb7957598bb9703ab8406429a86b4538302"
+        },
+        {
+          "iri": "obo:OBI_0002616",
+          "label": "genealogical record",
+          "hasChildren": false,
+          "childrenKey": "e904deaa2663114629ccfbb6722292578e980486"
+        },
+        {
+          "iri": "obo:OBI_0000713",
+          "label": "GenePattern software",
+          "hasChildren": false,
+          "childrenKey": "9b71de003e1e02bbc54e2b660cedda34bd5e745e"
+        },
+        {
+          "iri": "obo:OBI_0001404",
+          "label": "genetic characteristics information",
+          "hasChildren": true,
+          "childrenKey": "fd5654fbe0a7958ad381ef7bdb9329f73208d067"
+        },
+        {
+          "iri": "obo:OBI_0001868",
+          "label": "genetic material",
+          "hasChildren": false,
+          "childrenKey": "911d9d0c6d198748d133303cc886cfc2ec4f029e"
+        },
+        {
+          "iri": "obo:OBI_0001939",
+          "label": "genome coverage",
+          "hasChildren": false,
+          "childrenKey": "7f12d57ba3a36df2bb94355350f1e24593ef0ac6"
+        },
+        {
+          "iri": "obo:OBI_0100086",
+          "label": "glucose in solution",
+          "hasChildren": false,
+          "childrenKey": "46c9a02d7c524b979836b4be9ebd8490806c2044"
+        },
+        {
+          "iri": "obo:OBI_0001636",
+          "label": "grant",
+          "hasChildren": false,
+          "childrenKey": "4e9ca1471e0d02f3b480a86ba3afc0780f1f1965"
+        },
+        {
+          "iri": "obo:OBI_0001629",
+          "label": "grant identifier",
+          "hasChildren": false,
+          "childrenKey": "64d4beac199e82c04b34b0878c3d8e44555c057b"
+        },
+        {
+          "iri": "obo:OBI_0003320",
+          "label": "granulysin release during T cell degranulation",
+          "hasChildren": false,
+          "childrenKey": "90ed306cd217ee7ac36a615ee8a415cfe2d3937a"
+        },
+        {
+          "iri": "obo:OBI_0003318",
+          "label": "granzyme A release during T cell degranulation",
+          "hasChildren": false,
+          "childrenKey": "0c89ae34b1e88750b0a684d8a45ec3fa600351a9"
+        },
+        {
+          "iri": "obo:OBI_0003319",
+          "label": "granzyme B release during T cell degranulation",
+          "hasChildren": false,
+          "childrenKey": "7e3537288e73ac0fa79428101c36eb342625399f"
+        },
+        {
+          "iri": "obo:OBI_0000714",
+          "label": "graph of vertices",
+          "hasChildren": false,
+          "childrenKey": "021615f3a2dd7924aea0f7afca41e5293e09985b"
+        },
+        {
+          "iri": "obo:OBI_0000997",
+          "label": "growth environment",
+          "hasChildren": true,
+          "childrenKey": "1826b4e6151524b42755e52fb176f77693490c47"
+        },
+        {
+          "iri": "obo:OBI_0000814",
+          "label": "guar gum",
+          "hasChildren": false,
+          "childrenKey": "f2266d389fd444bdca577de5923e014001dc2082"
+        },
+        {
+          "iri": "obo:OBI_0002397",
+          "label": "gynecologic surgery history",
+          "hasChildren": true,
+          "childrenKey": "1a5a2fdc565d5d256ec43ce40cf0e23ef4fe167e"
+        },
+        {
+          "iri": "obo:OBI_0002125",
+          "label": "H&E-stained fixed tissue slide specimen",
+          "hasChildren": false,
+          "childrenKey": "5d63fbd79f8dbe642f588d1dea5dd868a7f72a02"
+        },
+        {
+          "iri": "obo:OBI_0001171",
+          "label": "half life datum (t 1/2)",
+          "hasChildren": true,
+          "childrenKey": "39dfe3b652bbdf526b64afcc429673d25c955fdb"
+        },
+        {
+          "iri": "obo:OBI_0001180",
+          "label": "half maximal effective concentration (EC50)",
+          "hasChildren": true,
+          "childrenKey": "82bf097bb9e7183444fa5f7a718220bbc58a75fe"
+        },
+        {
+          "iri": "obo:OBI_0001191",
+          "label": "half maximal inhibitory concentration (IC50)",
+          "hasChildren": true,
+          "childrenKey": "22464f2c79cc16c52887f60414b6aa1fc472bf1b"
+        },
+        {
+          "iri": "obo:OBI_0000371",
+          "label": "heat function",
+          "hasChildren": false,
+          "childrenKey": "88dabcc5b81e4a68579f36d1e2a767b0a8cf329c"
+        },
+        {
+          "iri": "obo:OBI_1110032",
+          "label": "HeLa cell line",
+          "hasChildren": false,
+          "childrenKey": "2fe10c6793c41d114c84864e1db21b84e5add7e4"
+        },
+        {
+          "iri": "obo:OBI_0002401",
+          "label": "hormonal birth control use history",
+          "hasChildren": true,
+          "childrenKey": "9434337ec4d2e29d6dc215cfa1eab4fc84a84ba5"
+        },
+        {
+          "iri": "obo:OBI_0002405",
+          "label": "hormonal replacement therapy history",
+          "hasChildren": false,
+          "childrenKey": "a81911b322323a3bb35ce056f263534c74549b30"
+        },
+        {
+          "iri": "obo:OBI_1110003",
+          "label": "host exposure to infectious agent",
+          "hasChildren": false,
+          "childrenKey": "685c298087883cf93507c7e1d95e76b72a2f6170"
+        },
+        {
+          "iri": "obo:OBI_1110083",
+          "label": "host of immune response role",
+          "hasChildren": false,
+          "childrenKey": "16d06f63ba2561d78034ec23cd99feb03b998d34"
+        },
+        {
+          "iri": "obo:OBI_0000725",
+          "label": "host role",
+          "hasChildren": false,
+          "childrenKey": "8d15b316c8145323b5665491d1f65dcf5bd5958b"
+        },
+        {
+          "iri": "obo:OBI_0002126",
+          "label": "IHC-stained fixed tissue slide specimen",
+          "hasChildren": false,
+          "childrenKey": "e049bebe2fd461fe5bb4e8218220eaf1a3cb754a"
+        },
+        {
+          "iri": "obo:OBI_0003327",
+          "label": "image data set",
+          "hasChildren": true,
+          "childrenKey": "c153f23b1bf84f05de3b77edbc2b613f18020d52"
+        },
+        {
+          "iri": "obo:OBI_1110091",
+          "label": "immune epitope carrier role",
+          "hasChildren": false,
+          "childrenKey": "9211f1cdeaa0393956805656b737fe559fc7ef1e"
+        },
+        {
+          "iri": "obo:OBI_1110094",
+          "label": "immunization",
+          "hasChildren": true,
+          "childrenKey": "6134fc2260a63333e58cea926b9fe79237e21950"
+        },
+        {
+          "iri": "obo:OBI_1110023",
+          "label": "immunogen",
+          "hasChildren": false,
+          "childrenKey": "d914f68a62e0b6be9de16cfff41425fd2b0eae9c"
+        },
+        {
+          "iri": "obo:OBI_1110082",
+          "label": "immunogen role",
+          "hasChildren": false,
+          "childrenKey": "16a7fa2e93129cac619ee0f555e219be0ecd3e4f"
+        },
+        {
+          "iri": "obo:OBI_0001707",
+          "label": "immunoglobulin mediated histamine release",
+          "hasChildren": false,
+          "childrenKey": "4afaba4c40e911cea47584c374af83ccf1d08e92"
+        },
+        {
+          "iri": "obo:OBI_0002422",
+          "label": "indicator of whether all inclusion criteria were met",
+          "hasChildren": false,
+          "childrenKey": "9eae1f89dda62ed2eeb9871c313e7dac4c2b85e1"
+        },
+        {
+          "iri": "obo:OBI_0002421",
+          "label": "indicator of whether an inclusion criterion was met",
+          "hasChildren": false,
+          "childrenKey": "39153cff92bf8d66b12385911597b06c8f7dd230"
+        },
+        {
+          "iri": "obo:OBI_0001141",
+          "label": "individual organism identifier",
+          "hasChildren": false,
+          "childrenKey": "a147263abe3f74065332c80102df843b7acdbbcd"
+        },
+        {
+          "iri": "obo:OBI_0003249",
+          "label": "induced sputum assay datum",
+          "hasChildren": true,
+          "childrenKey": "244a2bc88e72351926af2d499a458c1135228835"
+        },
+        {
+          "iri": "obo:OBI_1110040",
+          "label": "infectious disease",
+          "hasChildren": false,
+          "childrenKey": "c3e77884d8408e688a0d6766c19c41182700d260"
+        },
+        {
+          "iri": "obo:OBI_0000392",
+          "label": "information processor function",
+          "hasChildren": true,
+          "childrenKey": "6d3356661bfe4173c10ad7f77c0328ef905e3fad"
+        },
+        {
+          "iri": "obo:OBI_0005246",
+          "label": "injection function",
+          "hasChildren": false,
+          "childrenKey": "86a47129236a2f43efe07d1400daad7222220a11"
+        },
+        {
+          "iri": "obo:OBI_0003063",
+          "label": "insecticide resistance datum",
+          "hasChildren": false,
+          "childrenKey": "677b93dd3adc4fd8c1ab2c4ca6dd9c9a33d1578a"
+        },
+        {
+          "iri": "obo:OBI_0400059",
+          "label": "interrogation_point",
+          "hasChildren": false,
+          "childrenKey": "e85be4c3dd254e960eb2bd566715003ae266f93f"
+        },
+        {
+          "iri": "obo:OBI_0000202",
+          "label": "investigation agent role",
+          "hasChildren": true,
+          "childrenKey": "5c272c2097ec82892c9e5c37d8a17ee8dcb93b6f"
+        },
+        {
+          "iri": "obo:OBI_0001896",
+          "label": "investigation assay specification",
+          "hasChildren": false,
+          "childrenKey": "09ebb552b54b7d44d22d5d28886ed441c2f187dd"
+        },
+        {
+          "iri": "obo:OBI_0001628",
+          "label": "investigation identifier",
+          "hasChildren": false,
+          "childrenKey": "48a1c1414815e1ad065387ee6643d7036aa82fea"
+        },
+        {
+          "iri": "obo:OBI_0000218",
+          "label": "investigation results report",
+          "hasChildren": false,
+          "childrenKey": "ddc2cbc86ae82b9ba9dfb4e41b7f18214f8d307e"
+        },
+        {
+          "iri": "obo:OBI_0000385",
+          "label": "ionization function",
+          "hasChildren": false,
+          "childrenKey": "abf7ac617a27db71e33c665032f3cbc054029344"
+        },
+        {
+          "iri": "obo:OBI_1110033",
+          "label": "JAWS II cell line",
+          "hasChildren": false,
+          "childrenKey": "96d964b974ef02dadffc440328ca11a0a368db85"
+        },
+        {
+          "iri": "obo:OBI_0400061",
+          "label": "jet_in_air_flow_chamber",
+          "hasChildren": false,
+          "childrenKey": "8b8b210a39e5e7023e10e15b8215d1a79dfd1f31"
+        },
+        {
+          "iri": "obo:OBI_1110035",
+          "label": "Jurkat cell line",
+          "hasChildren": false,
+          "childrenKey": "25146a8896c3d1ae07e693d99465d563cb28008b"
+        },
+        {
+          "iri": "obo:OBI_1110036",
+          "label": "JY cell line",
+          "hasChildren": false,
+          "childrenKey": "faa799cafb2793ce60762bbc90ae9e32f917e4ab"
+        },
+        {
+          "iri": "obo:OBI_1110099",
+          "label": "L cell line",
+          "hasChildren": false,
+          "childrenKey": "61efc49bbb703de1bd159534d608c0f4b67db393"
+        },
+        {
+          "iri": "obo:OBI_0003085",
+          "label": "laboratory postal address",
+          "hasChildren": false,
+          "childrenKey": "6c77a65b0df3562b42bcd1f727eb9e16adc76787"
+        },
+        {
+          "iri": "obo:OBI_0001620",
+          "label": "latitude coordinate measurement datum",
+          "hasChildren": false,
+          "childrenKey": "f3fd04ce87a0f2968058555051e8411ae117c838"
+        },
+        {
+          "iri": "obo:OBI_0003098",
+          "label": "lightsheet fluorescence microscopy assay",
+          "hasChildren": false,
+          "childrenKey": "d0866c6ac64a9ca1e9c0bffe2ed2e5949b2e6c85"
+        },
+        {
+          "iri": "obo:OBI_0000021",
+          "label": "list-mode data file",
+          "hasChildren": false,
+          "childrenKey": "092e8a4be3313e2ac1c9fcd114ba97fc40afdcd2"
+        },
+        {
+          "iri": "obo:OBI_0001621",
+          "label": "longitude coordinate measurement datum",
+          "hasChildren": false,
+          "childrenKey": "7df50402a2c564ccbbcd150111b33a08c12f2207"
+        },
+        {
+          "iri": "obo:OBI_0003329",
+          "label": "magnetic resonance imaging participant",
+          "hasChildren": false,
+          "childrenKey": "a5667ddb2f1b0b28a77924bd58c1e6f7857b87f9"
+        },
+        {
+          "iri": "obo:OBI_0000369",
+          "label": "magnify function",
+          "hasChildren": false,
+          "childrenKey": "68059a5d626a75193635c08ec0957e7cd0ac22d9"
+        },
+        {
+          "iri": "obo:OBI_0000835",
+          "label": "manufacturer",
+          "hasChildren": false,
+          "childrenKey": "6d5c8129398cf8139f596a8832611c853a7377e8"
+        },
+        {
+          "iri": "obo:OBI_0000571",
+          "label": "manufacturer role",
+          "hasChildren": true,
+          "childrenKey": "67ba3217a88d915fa9399a5db4e9e8d86efbe539"
+        },
+        {
+          "iri": "obo:OBI_0000928",
+          "label": "material combination function",
+          "hasChildren": false,
+          "childrenKey": "1d1a802b0207662b0f6d4b82bcabad79294325a5"
+        },
+        {
+          "iri": "obo:OBI_0000806",
+          "label": "material maintenance objective",
+          "hasChildren": false,
+          "childrenKey": "9c4b6d8978213c15d04f9ef72ae33424465f2a16"
+        },
+        {
+          "iri": "obo:OBI_0000372",
+          "label": "material separation function",
+          "hasChildren": true,
+          "childrenKey": "92ba7a2ec61cdcfb1a2bb2c3dcf8eebfe2677ec2"
+        },
+        {
+          "iri": "obo:OBI_0002989",
+          "label": "material supplier",
+          "hasChildren": false,
+          "childrenKey": "6a05a5a812577a5ce7228a8b736c710932f56f15"
+        },
+        {
+          "iri": "obo:OBI_1110108",
+          "label": "material to be added",
+          "hasChildren": true,
+          "childrenKey": "e225155dfba4c5aba5fe43a862d908607559fef1"
+        },
+        {
+          "iri": "obo:OBI_0000319",
+          "label": "material to be added role",
+          "hasChildren": true,
+          "childrenKey": "1f78de2f30718a2d7350a25b796fd52ec11aa909"
+        },
+        {
+          "iri": "obo:OBI_0000456",
+          "label": "material transformation objective",
+          "hasChildren": true,
+          "childrenKey": "1c4874bb49ccc4f3d11eb249535b1e4d4d5c9bc3"
+        },
+        {
+          "iri": "obo:OBI_0002444",
+          "label": "measurand role",
+          "hasChildren": true,
+          "childrenKey": "af0776ca4d01d92acf1f7868783b402b9acf1c81"
+        },
+        {
+          "iri": "obo:OBI_0000453",
+          "label": "measure function",
+          "hasChildren": true,
+          "childrenKey": "64c182f866ed59d318cbec921e3df92a0df3159c"
+        },
+        {
+          "iri": "obo:OBI_0000101",
+          "label": "measured expression level",
+          "hasChildren": false,
+          "childrenKey": "00244acbc3af6e418982468b9e1142918fb47028"
+        },
+        {
+          "iri": "obo:OBI_0000379",
+          "label": "mechanical function",
+          "hasChildren": false,
+          "childrenKey": "f2a902a370046df9c596dee58b921da60132e2be"
+        },
+        {
+          "iri": "obo:OBI_0002410",
+          "label": "menopausal status",
+          "hasChildren": true,
+          "childrenKey": "dc43bb83233f3844d25533a4ae2b8522cb8c0457"
+        },
+        {
+          "iri": "obo:OBI_0000208",
+          "label": "methodology testing objective",
+          "hasChildren": true,
+          "childrenKey": "eaf36741bfd3c0aaeb27579e3c878f4f62a2d312"
+        },
+        {
+          "iri": "obo:OBI_0003121",
+          "label": "MHC:ligand complex",
+          "hasChildren": false,
+          "childrenKey": "c9b8430f13242b7799167439deb1caa4c3684cfb"
+        },
+        {
+          "iri": "obo:OBI_0003416",
+          "label": "mid-upper arm circumference datum",
+          "hasChildren": false,
+          "childrenKey": "0d8d869a47848fabe3520fd61735e4773e9a40a7"
+        },
+        {
+          "iri": "obo:OBI_0003365",
+          "label": "milk assay datum",
+          "hasChildren": true,
+          "childrenKey": "24f13da9adae33a775c3260c263626ddf7f8f6be"
+        },
+        {
+          "iri": "obo:OBI_0001514",
+          "label": "minimal inhibitory concentration",
+          "hasChildren": false,
+          "childrenKey": "6b42d3aabc3221215ce17a053dfd48ead6ee465c"
+        },
+        {
+          "iri": "obo:OBI_0003657",
+          "label": "minimum resolved unit of measurement",
+          "hasChildren": false,
+          "childrenKey": "b308d02bcd9d2fa9ea3d781cb39bfd131cbb686b"
+        },
+        {
+          "iri": "obo:OBI_0003651",
+          "label": "multidimensional fatigue inventory score",
+          "hasChildren": false,
+          "childrenKey": "8068546968471d28d2ed9a261c75f980c5568ffb"
+        },
+        {
+          "iri": "obo:OBI_0001967",
+          "label": "multiplexing sequence identifier",
+          "hasChildren": false,
+          "childrenKey": "990627945f981232ef9316969fbeceea37f8487b"
+        },
+        {
+          "iri": "obo:OBI_0001940",
+          "label": "N50",
+          "hasChildren": true,
+          "childrenKey": "9ffbf18a4ed0234f070f11b7650ee03d9535d624"
+        },
+        {
+          "iri": "obo:OBI_0002617",
+          "label": "national registry",
+          "hasChildren": true,
+          "childrenKey": "8fb7d38dfd4d83cc2670f4e11e8de1e0b9f93ea0"
+        },
+        {
+          "iri": "obo:OBI_0000451",
+          "label": "normalized data set",
+          "hasChildren": true,
+          "childrenKey": "98160ed13c04f7f1f790fcc446b27a98204ac131"
+        },
+        {
+          "iri": "obo:OBI_0003067",
+          "label": "northing coordinate measurement datum",
+          "hasChildren": false,
+          "childrenKey": "c718fa96d68fbba958779e3f017131f08f987680"
+        },
+        {
+          "iri": "obo:OBI_0002395",
+          "label": "number of live births",
+          "hasChildren": false,
+          "childrenKey": "66166f59f2a09517320478f0cc0ac7a679c9977d"
+        },
+        {
+          "iri": "obo:OBI_0000269",
+          "label": "number of lost events computer",
+          "hasChildren": false,
+          "childrenKey": "dccdd08e681843163f50d4aea1f94d34cf8ab550"
+        },
+        {
+          "iri": "obo:OBI_0000125",
+          "label": "number of lost events electronic",
+          "hasChildren": false,
+          "childrenKey": "19cdb0c1fa20f6b6ecbc0d4e2618999559e8cb53"
+        },
+        {
+          "iri": "obo:OBI_0000119",
+          "label": "number of particles in subset",
+          "hasChildren": false,
+          "childrenKey": "6f5fa75c06cab68ef77399554c495a1a9113be4b"
+        },
+        {
+          "iri": "obo:OBI_0002475",
+          "label": "number of PCR cycles during library construction",
+          "hasChildren": false,
+          "childrenKey": "487cbb42b0867f9abeb8a339a90c2ff0a588e75d"
+        },
+        {
+          "iri": "obo:OBI_0002394",
+          "label": "number of pregnancies",
+          "hasChildren": false,
+          "childrenKey": "37ccd8ff94c8c8f58c991bfd9414f1182c852255"
+        },
+        {
+          "iri": "obo:OBI_0002476",
+          "label": "number of rounds of amplification",
+          "hasChildren": false,
+          "childrenKey": "24560b836ad746effce30d0baa046042c1340460"
+        },
+        {
+          "iri": "obo:OBI_0000204",
+          "label": "nutrient role",
+          "hasChildren": true,
+          "childrenKey": "0d283215ee56b84fb709083aa9c8fe7a43832823"
+        },
+        {
+          "iri": "obo:OBI_0001715",
+          "label": "obsolete B cell epitope competitive binding assay",
+          "hasChildren": false,
+          "childrenKey": "abfe2a60d8392a5c467cbd33e765df9ad5a87f27"
+        },
+        {
+          "iri": "obo:OBI_0001712",
+          "label": "obsolete B cell epitope direct binding assay",
+          "hasChildren": false,
+          "childrenKey": "cb4a3012641eb1a49c17505b977081f13c5c8bbd"
+        },
+        {
+          "iri": "obo:OBI_0001737",
+          "label": "obsolete B cell epitope specific X-ray crystallography assay",
+          "hasChildren": false,
+          "childrenKey": "57d9fbd4858b2703866805d3d05d2c351707cdf7"
+        },
+        {
+          "iri": "obo:OBI_0000109",
+          "label": "obsolete biological vector role",
+          "hasChildren": false,
+          "childrenKey": "3c9bd2715b42d74602349f1fdf7be2eb1fc2ba0c"
+        },
+        {
+          "iri": "obo:OBI_1110132",
+          "label": "obsolete CD8 receptor",
+          "hasChildren": false,
+          "childrenKey": "6f829cb7f9f225a33809227f98096511dea536fa"
+        },
+        {
+          "iri": "obo:OBI_0001572",
+          "label": "obsolete cell bound MHC binding constant determination assay",
+          "hasChildren": false,
+          "childrenKey": "9fef6ac61b1dffca16781cddd1d4472862e8451d"
+        },
+        {
+          "iri": "obo:OBI_0001582",
+          "label": "obsolete cell bound MHC direct binding assay",
+          "hasChildren": false,
+          "childrenKey": "c174a3fa9e8cbe82f02f532608b629dac54e0599"
+        },
+        {
+          "iri": "obo:OBI_0001560",
+          "label": "obsolete cell lysate MHC binding constant determination assay",
+          "hasChildren": false,
+          "childrenKey": "6f59e7c84cd019314faa4b1c7b11c4ec95e97cbc"
+        },
+        {
+          "iri": "obo:OBI_0001574",
+          "label": "obsolete cell lysate MHC competitive binding assay using radioactivity detection",
+          "hasChildren": false,
+          "childrenKey": "cb3b09fff4a246e3e4bd2dd9f8b02a11a1ec4a76"
+        },
+        {
+          "iri": "obo:OBI_0000207",
+          "label": "obsolete health care provider role",
+          "hasChildren": false,
+          "childrenKey": "541e06fb768162232dd115003c61b8b0f6e63dbb"
+        },
+        {
+          "iri": "obo:OBI_0000844",
+          "label": "obsolete hospital",
+          "hasChildren": false,
+          "childrenKey": "16f20c3275b11536c222de61e76c7fe6ab50fe27"
+        },
+        {
+          "iri": "obo:OBI_0000665",
+          "label": "obsolete intracellular cytokine staining assay",
+          "hasChildren": false,
+          "childrenKey": "55f13a3b4480c5c7cc640028bb6e7ae4c9a9a6f0"
+        },
+        {
+          "iri": "obo:OBI_0000856",
+          "label": "obsolete intracellular material detection by flow cytometry assay",
+          "hasChildren": false,
+          "childrenKey": "2e86a212f746e131c40ac4558f9fa3d74833e3dd"
+        },
+        {
+          "iri": "obo:OBI_0001250",
+          "label": "obsolete intracellular material detection by flow cytometry assay  of epitope specific cytotoxic T cell degranulation",
+          "hasChildren": false,
+          "childrenKey": "02af659ea2dc07cbd750a99dd04a6ccf33f01cf4"
+        },
+        {
+          "iri": "obo:OBI_0000667",
+          "label": "obsolete MHC multimer staining assay",
+          "hasChildren": false,
+          "childrenKey": "1914d1be5597c0130bb05288b2c4d740b71a0e4a"
+        },
+        {
+          "iri": "obo:OBI_0600003",
+          "label": "obsolete performing a clinical assessment",
+          "hasChildren": false,
+          "childrenKey": "e4d349c10596e2404c1b3dfce44dde2d8f36155b"
+        },
+        {
+          "iri": "obo:OBI_0000988",
+          "label": "obsolete performing a diagnosis",
+          "hasChildren": false,
+          "childrenKey": "0cebc7eaeba0766a972a511b0d52556f86a5dc27"
+        },
+        {
+          "iri": "obo:OBI_0001576",
+          "label": "obsolete purified MHC binding constant determination assay",
+          "hasChildren": false,
+          "childrenKey": "cba1319c4f59e52148ac03f132bc795b7567faff"
+        },
+        {
+          "iri": "obo:OBI_0001611",
+          "label": "obsolete purified MHC direct binding assay",
+          "hasChildren": false,
+          "childrenKey": "1e426ffa2e65dd30f2b1a5620f0809ac00d25efb"
+        },
+        {
+          "iri": "obo:OBI_0001540",
+          "label": "obsolete T cell recognition of eluted MHC ligand assay",
+          "hasChildren": false,
+          "childrenKey": "0ae530c3a3ee95c3e3dadc5814a79f86d0b962f2"
+        },
+        {
+          "iri": "obo:OBI_0200198",
+          "label": "obsolete tandem mass spectrometry",
+          "hasChildren": false,
+          "childrenKey": "fba333562113dce9ceccdf950643b9c59bdafcaf"
+        },
+        {
+          "iri": "obo:OBI_0000794",
+          "label": "obsolete transcription factor binding site",
+          "hasChildren": false,
+          "childrenKey": "7b88f0606fb42c54f85d8d3d8f2a61dcec504955"
+        },
+        {
+          "iri": "obo:OBI_0302901",
+          "label": "obsolete_activation",
+          "hasChildren": false,
+          "childrenKey": "1928dc596e4ab333d8f9aae5a1658a571845a755"
+        },
+        {
+          "iri": "obo:OBI_0302745",
+          "label": "obsolete_adipose tissue",
+          "hasChildren": false,
+          "childrenKey": "bba41bb65eae4317d085c8eb0ddad7104fb9570b"
+        },
+        {
+          "iri": "obo:OBI_0000926",
+          "label": "obsolete_ambidexterious handedness",
+          "hasChildren": false,
+          "childrenKey": "1a4d79cfae7a4d043550aa93cbebae0ac2ce1453"
+        },
+        {
+          "iri": "obo:OBI_0100015",
+          "label": "obsolete_anatomical entity",
+          "hasChildren": false,
+          "childrenKey": "42144bfc5af183ec6d3166e90fb02e5f4bbb455e"
+        },
+        {
+          "iri": "obo:OBI_0000223",
+          "label": "obsolete_blinded medication role",
+          "hasChildren": false,
+          "childrenKey": "afe0083bed85ef6def52d822bf13bb5e707f2092"
+        },
+        {
+          "iri": "obo:OBI_0100062",
+          "label": "obsolete_cell line",
+          "hasChildren": false,
+          "childrenKey": "f3effcb7de0a5a768ef854552cb228a77c5be58d"
+        },
+        {
+          "iri": "obo:OBI_0100055",
+          "label": "obsolete_cell line cell",
+          "hasChildren": false,
+          "childrenKey": "6ac4542200b3c4b17ab287d407fde8de40728d16"
+        },
+        {
+          "iri": "obo:OBI_0302714",
+          "label": "obsolete_collection (of entities of organismal origin)",
+          "hasChildren": false,
+          "childrenKey": "cef6c09e778664a5cf9039282e42e239d8b04625"
+        },
+        {
+          "iri": "obo:OBI_0600065",
+          "label": "obsolete_defined processes",
+          "hasChildren": false,
+          "childrenKey": "e7c41fc30c592782783810423e96d20182c2ddf6"
+        },
+        {
+          "iri": "obo:OBI_0000233",
+          "label": "obsolete_defined_material",
+          "hasChildren": false,
+          "childrenKey": "2dc696a435c35571d1708fe1b4a0a577b4ddaae8"
+        },
+        {
+          "iri": "obo:OBI_0000449",
+          "label": "obsolete_defined_output",
+          "hasChildren": false,
+          "childrenKey": "f0da38f89038a0b5d671739abc7800956936088b"
+        },
+        {
+          "iri": "obo:OBI_0000851",
+          "label": "obsolete_diethyl pyrocarbonate",
+          "hasChildren": false,
+          "childrenKey": "9ca378611445f46b186da13ddde3e1d22a6d876e"
+        },
+        {
+          "iri": "obo:OBI_1110055",
+          "label": "obsolete_disease",
+          "hasChildren": false,
+          "childrenKey": "45598a015febd3700f656325d5c0ae2836602d9f"
+        },
+        {
+          "iri": "obo:OBI_0000698",
+          "label": "obsolete_DNA ligase",
+          "hasChildren": false,
+          "childrenKey": "49133aa7e9fa15ab977bb1c4d8ede25db0021f38"
+        },
+        {
+          "iri": "obo:OBI_0000986",
+          "label": "obsolete_DNA sequencing training service",
+          "hasChildren": false,
+          "childrenKey": "40bcfe2f5dd123bd60851feb08569d6b5e4a704f"
+        },
+        {
+          "iri": "obo:OBI_0000340",
+          "label": "obsolete_documenting",
+          "hasChildren": false,
+          "childrenKey": "13ef58ba6a24a9aabb56f8bee65ccc79dfef1df7"
+        },
+        {
+          "iri": "obo:OBI_0000205",
+          "label": "obsolete_dropout role",
+          "hasChildren": false,
+          "childrenKey": "5b395dfa91c4798e771f58b2e62e1462a8c384e3"
+        },
+        {
+          "iri": "obo:OBI_0000972",
+          "label": "obsolete_electrically powered device",
+          "hasChildren": false,
+          "childrenKey": "c5d5f42122c4375e07e09a6c4dcc8674d1a49a4b"
+        },
+        {
+          "iri": "obo:OBI_0000296",
+          "label": "obsolete_enrollment",
+          "hasChildren": false,
+          "childrenKey": "97f2334f4ee4e89d43865c22814043a5e99f0a38"
+        },
+        {
+          "iri": "obo:OBI_0100039",
+          "label": "obsolete_fragment derived from protein",
+          "hasChildren": false,
+          "childrenKey": "99d817690b6ddb2c57ddd7d5c263f606307808fe"
+        },
+        {
+          "iri": "obo:OBI_0000987",
+          "label": "obsolete_general scalar measurement datum",
+          "hasChildren": false,
+          "childrenKey": "971ca759d16261ca67befd34136f69cc37b91d32"
+        },
+        {
+          "iri": "obo:OBI_0000956",
+          "label": "obsolete_handedness",
+          "hasChildren": false,
+          "childrenKey": "ba488d6ff669e9a37e38e242d6a6f9f7bc759de7"
+        },
+        {
+          "iri": "obo:OBI_0000442",
+          "label": "obsolete_heart",
+          "hasChildren": false,
+          "childrenKey": "3d8309c54da45866a49b792971e940d0b9b88e6c"
+        },
+        {
+          "iri": "obo:OBI_0000446",
+          "label": "obsolete_identification",
+          "hasChildren": false,
+          "childrenKey": "a1fc7281bdf77f55901cf63fa716310a21a173c5"
+        },
+        {
+          "iri": "obo:OBI_0100035",
+          "label": "obsolete_immortal cell",
+          "hasChildren": false,
+          "childrenKey": "63d6566aa50b3bba385dcb1350ed4627cb97bc3e"
+        },
+        {
+          "iri": "obo:OBI_0100056",
+          "label": "obsolete_immortal cell line culture",
+          "hasChildren": false,
+          "childrenKey": "e070dd018bd16bc871217cf821d2439b2fbffc3a"
+        },
+        {
+          "iri": "obo:OBI_0000140",
+          "label": "obsolete_label role",
+          "hasChildren": false,
+          "childrenKey": "daab9db5bdca6a8142aeee6b96b9b56ef1748424"
+        },
+        {
+          "iri": "obo:OBI_0000937",
+          "label": "obsolete_left handedness",
+          "hasChildren": false,
+          "childrenKey": "222f1a3391e7a92c33deafb2903d8c4106176de4"
+        },
+        {
+          "iri": "obo:OBI_0302743",
+          "label": "obsolete_liver",
+          "hasChildren": false,
+          "childrenKey": "635082b93e2b16bcf876d7a07a7b23af7fd64d44"
+        },
+        {
+          "iri": "obo:OBI_0000936",
+          "label": "obsolete_material access provider role",
+          "hasChildren": false,
+          "childrenKey": "84a4be4c9e0243aad03215a67f4e69f6b78abc40"
+        },
+        {
+          "iri": "obo:OBI_0000577",
+          "label": "obsolete_molecular concentration",
+          "hasChildren": false,
+          "childrenKey": "db6c052a42d224a6404addd0fe28959f8b031a74"
+        },
+        {
+          "iri": "obo:OBI_1110002",
+          "label": "obsolete_occurrence of disease",
+          "hasChildren": false,
+          "childrenKey": "717b65adcc9e5a10b92b57b4ec12d9472d0b3fc8"
+        },
+        {
+          "iri": "obo:OBI_0000323",
+          "label": "obsolete_peritoneum",
+          "hasChildren": false,
+          "childrenKey": "2f8c9f89b5955379cc86b8e15bd05712db03b6d4"
+        },
+        {
+          "iri": "obo:OBI_0000050",
+          "label": "obsolete_platform",
+          "hasChildren": false,
+          "childrenKey": "a6aba9eda0a419ded64cca4eef41f8bc6083452b"
+        },
+        {
+          "iri": "obo:OBI_0100069",
+          "label": "obsolete_polymer",
+          "hasChildren": false,
+          "childrenKey": "ca41e89d448934f8608b17f772bc48708a6fc98e"
+        },
+        {
+          "iri": "obo:OBI_0000797",
+          "label": "obsolete_primary structure of protein",
+          "hasChildren": false,
+          "childrenKey": "a8e8299c967d8782aa517567348d146903d3f6d4"
+        },
+        {
+          "iri": "obo:OBI_0000830",
+          "label": "obsolete_primary structure of sequence macromolecule",
+          "hasChildren": false,
+          "childrenKey": "a051c6152587f21d48a9dcd546e4b58aee843f67"
+        },
+        {
+          "iri": "obo:OBI_0000980",
+          "label": "obsolete_protocol service provider role",
+          "hasChildren": false,
+          "childrenKey": "2747888eb18cafbd34b3a0534304852e99788e75"
+        },
+        {
+          "iri": "obo:OBI_0001009",
+          "label": "obsolete_qualitative binding detection assay",
+          "hasChildren": false,
+          "childrenKey": "022459a4c15faf7b77792a6dcd89a106b1d4d2ae"
+        },
+        {
+          "iri": "obo:OBI_0000974",
+          "label": "obsolete_right handedness",
+          "hasChildren": false,
+          "childrenKey": "79f7f383392919d37a3f28cf40ef480c9fb6b963"
+        },
+        {
+          "iri": "obo:OBI_0000100",
+          "label": "obsolete_role of being first subject treated",
+          "hasChildren": false,
+          "childrenKey": "493e9d57bc8822a5f9e7597f1a17a32b379e9363"
+        },
+        {
+          "iri": "obo:OBI_0000264",
+          "label": "obsolete_sample population",
+          "hasChildren": false,
+          "childrenKey": "6b7995a3606bfe5bd1e2c196786967dd28642007"
+        },
+        {
+          "iri": "obo:OBI_0001037",
+          "label": "obsolete_specimen fixation function",
+          "hasChildren": false,
+          "childrenKey": "e5667a0fe992e7b7c5ee65d35f6422d31fe265aa"
+        },
+        {
+          "iri": "obo:OBI_0000682",
+          "label": "obsolete_study result",
+          "hasChildren": false,
+          "childrenKey": "e5ae386c9b1516dfede3a31a9967f15d0f340a84"
+        },
+        {
+          "iri": "obo:OBI_0000929",
+          "label": "obsolete_training service provider role",
+          "hasChildren": false,
+          "childrenKey": "829eae861970b74c5eec12c63b1e4e3cb6ee62db"
+        },
+        {
+          "iri": "obo:OBI_0000420",
+          "label": "obsolete_trypsinized material",
+          "hasChildren": false,
+          "childrenKey": "cc4aa8b1b3a3ab7be492717abf068085f7c7b692"
+        },
+        {
+          "iri": "obo:OBI_0002782",
+          "label": "obsolete_upper respiratory specimen",
+          "hasChildren": false,
+          "childrenKey": "471ccf9712b2db1f9011a4b03f4eceb644018a1f"
+        },
+        {
+          "iri": "obo:OBI_1110012",
+          "label": "occurrence of allergy",
+          "hasChildren": false,
+          "childrenKey": "5633cfc61317bb716b6880ba8399c31da88e1e5b"
+        },
+        {
+          "iri": "obo:OBI_1110008",
+          "label": "occurrence of infectious disease",
+          "hasChildren": false,
+          "childrenKey": "6f3f87065d22fa9af32cada595bf74ac1ec3d70e"
+        },
+        {
+          "iri": "obo:OBI_0001968",
+          "label": "operational taxonomic unit matrix",
+          "hasChildren": false,
+          "childrenKey": "fcacf7306bf6807302346d0d2f5279e5c68166eb"
+        },
+        {
+          "iri": "obo:OBI_0100026",
+          "label": "organism",
+          "hasChildren": true,
+          "childrenKey": "aefd51b9a565d79860e23a902aa793ba51919b41"
+        },
+        {
+          "iri": "obo:OBI_0003064",
+          "label": "organism detection datum",
+          "hasChildren": true,
+          "childrenKey": "153b4b0d77d968c2a835f23b8cc7639d13bb8aac"
+        },
+        {
+          "iri": "obo:OBI_0000245",
+          "label": "organization",
+          "hasChildren": true,
+          "childrenKey": "340b5dad6ec23ef733d72a14527280a2f2005d68"
+        },
+        {
+          "iri": "obo:OBI_1110118",
+          "label": "P815 cell line",
+          "hasChildren": false,
+          "childrenKey": "89bf8a10f608f36c45ba2de1a11dbc6e6b865f6c"
+        },
+        {
+          "iri": "obo:OBI_0000172",
+          "label": "parameter threshold",
+          "hasChildren": false,
+          "childrenKey": "0e424dce6b4d4de6d09c17ecdb4c0f7e2ef7ca21"
+        },
+        {
+          "iri": "obo:OBI_0003071",
+          "label": "participant identifier",
+          "hasChildren": false,
+          "childrenKey": "5200753c781bce84de3737949c7c583986e3ea70"
+        },
+        {
+          "iri": "obo:OBI_0000097",
+          "label": "participant under investigation role",
+          "hasChildren": true,
+          "childrenKey": "c54ccb81e474d2bbd5131e7c0fa0a9f3931e3828"
+        },
+        {
+          "iri": "obo:OBI_0002748",
+          "label": "passage history record",
+          "hasChildren": false,
+          "childrenKey": "ccc8206cf0b652f18e81f7fd1460cac5b5fe51d7"
+        },
+        {
+          "iri": "obo:OBI_0000718",
+          "label": "pathogen role",
+          "hasChildren": false,
+          "childrenKey": "9c564f1c25e9de64a3f2e3b3fa39e26de2875add"
+        },
+        {
+          "iri": "obo:OBI_1110122",
+          "label": "pathologic process",
+          "hasChildren": true,
+          "childrenKey": "cca936f1ae14d8126971d4a890cfa05f9ca43447"
+        },
+        {
+          "iri": "obo:OBI_0000093",
+          "label": "patient role",
+          "hasChildren": false,
+          "childrenKey": "4c4c0d59a2bc0b7129c5d37360ed07384f08e8ca"
+        },
+        {
+          "iri": "obo:OBI_0001961",
+          "label": "PCR program",
+          "hasChildren": false,
+          "childrenKey": "d411df55368205684705f0fe4b6d8dda43486a74"
+        },
+        {
+          "iri": "obo:OBI_0003317",
+          "label": "perforin release during T cell degranulation",
+          "hasChildren": false,
+          "childrenKey": "7a61b371e7569d06393f1cdb9be1a1dbab8f5ad0"
+        },
+        {
+          "iri": "obo:OBI_0000377",
+          "label": "perturb function",
+          "hasChildren": false,
+          "childrenKey": "92085a9db2d1f3db20a4161e482c732b5559ade4"
+        },
+        {
+          "iri": "obo:OBI_0003593",
+          "label": "physician's global assessment of disease activity",
+          "hasChildren": false,
+          "childrenKey": "20cdfea94dc6e52fb0200fb0a84baafc13acdb36"
+        },
+        {
+          "iri": "obo:OBI_0000260",
+          "label": "plan",
+          "hasChildren": false,
+          "childrenKey": "1736c5864c0ed2926dff7a6b49d272bd81c271e8"
+        },
+        {
+          "iri": "obo:OBI_0000011",
+          "label": "planned process",
+          "hasChildren": true,
+          "childrenKey": "850924aae6ddd14ad7933215006159332027f0b1"
+        },
+        {
+          "iri": "obo:OBI_0000339",
+          "label": "planning",
+          "hasChildren": false,
+          "childrenKey": "9110a455477eacc1a113e651279c1d2d676f9d8c"
+        },
+        {
+          "iri": "obo:OBI_0000430",
+          "label": "plasmid",
+          "hasChildren": true,
+          "childrenKey": "f361865355620fb67fa7ec7aabf4957233c269cd"
+        },
+        {
+          "iri": "obo:OBI_0000065",
+          "label": "polyethylene glycol p-(1,1,3,3-tetramethylbutyl)-phenyl ether",
+          "hasChildren": false,
+          "childrenKey": "993250f1b001035b7ff1dd097a52f222f0713b65"
+        },
+        {
+          "iri": "obo:OBI_0000181",
+          "label": "population",
+          "hasChildren": true,
+          "childrenKey": "43b60f8b373f32cc3f2b95f717c1577387c468d7"
+        },
+        {
+          "iri": "obo:OBI_0302867",
+          "label": "predicted data item",
+          "hasChildren": false,
+          "childrenKey": "f3de1b0ba1f7f4063436ff4dbbf4fcf9516329ce"
+        },
+        {
+          "iri": "obo:OBI_0001934",
+          "label": "predicted value",
+          "hasChildren": true,
+          "childrenKey": "b79b57657df58bd8bf54b2ab1502369b9f5ea282"
+        },
+        {
+          "iri": "obo:OBI_0002393",
+          "label": "pregnancy history",
+          "hasChildren": false,
+          "childrenKey": "20a7ea6d051432235df225a4b9cdf709fb4ac913"
+        },
+        {
+          "iri": "obo:OBI_0002994",
+          "label": "presence of blood from host organism in blood meal specimen",
+          "hasChildren": false,
+          "childrenKey": "f4961f55b126061104174a65ef4b4a9ed60b7803"
+        },
+        {
+          "iri": "obo:OBI_0002993",
+          "label": "prevalence of blood meal specimens from a host organism",
+          "hasChildren": false,
+          "childrenKey": "da6b74af3a548d20d79dad71c7b02251abdaf8da"
+        },
+        {
+          "iri": "obo:OBI_0002992",
+          "label": "prevalence of pathogen in specimens",
+          "hasChildren": false,
+          "childrenKey": "079bf9163fcb3665872b3e21f3602bb7714613d2"
+        },
+        {
+          "iri": "obo:OBI_0000811",
+          "label": "primary structure of DNA macromolecule",
+          "hasChildren": false,
+          "childrenKey": "8222913fc8d68f46da66008d7ac8f53f984b90a3"
+        },
+        {
+          "iri": "obo:OBI_0000845",
+          "label": "primary structure of RNA molecule",
+          "hasChildren": false,
+          "childrenKey": "fb29d66d9cd421b354ba86f6339e2363e72e9c6d"
+        },
+        {
+          "iri": "obo:OBI_0000047",
+          "label": "processed material",
+          "hasChildren": true,
+          "childrenKey": "4d41550f7e545a98d8940120eaa6f0d0fb1b7ee5"
+        },
+        {
+          "iri": "obo:OBI_0000272",
+          "label": "protocol",
+          "hasChildren": true,
+          "childrenKey": "71a2c7559662c14f21caec853338e2ef70004446"
+        },
+        {
+          "iri": "obo:OBI_0001617",
+          "label": "PubMed ID",
+          "hasChildren": false,
+          "childrenKey": "44c2aed805da86ffbe5deecb484ca1460c414a97"
+        },
+        {
+          "iri": "obo:OBI_0000071",
+          "label": "quantitative confidence value",
+          "hasChildren": true,
+          "childrenKey": "9c8aea772bca5e9906799c567a93e70cfe570709"
+        },
+        {
+          "iri": "obo:OBI_0001000",
+          "label": "questionnaire",
+          "hasChildren": false,
+          "childrenKey": "4c9968d10509acb95019024a5d08d70a63f11a6a"
+        },
+        {
+          "iri": "obo:OBI_0001877",
+          "label": "random access memory",
+          "hasChildren": false,
+          "childrenKey": "5952cafd186c3dfce410fcb89076e3e5633e972f"
+        },
+        {
+          "iri": "obo:OBI_0001874",
+          "label": "random access memory size",
+          "hasChildren": false,
+          "childrenKey": "f0386261d42bc7e34f5e4b70f7cd1eca3209c4e3"
+        },
+        {
+          "iri": "obo:OBI_0302846",
+          "label": "randomized group participant role",
+          "hasChildren": false,
+          "childrenKey": "5cf41fc7bad03b2b8221cbe289e75fd901a6ded2"
+        },
+        {
+          "iri": "obo:OBI_0001554",
+          "label": "rate measurement datum",
+          "hasChildren": true,
+          "childrenKey": "d9adfbca1c1d6b62fd4a4ab07ddd4f44b354b62d"
+        },
+        {
+          "iri": "obo:OBI_0000054",
+          "label": "ratio of collected to emitted light",
+          "hasChildren": false,
+          "childrenKey": "be201e1602274d213d78c2eddb1e68518898257d"
+        },
+        {
+          "iri": "obo:OBI_0003610",
+          "label": "reactant role",
+          "hasChildren": true,
+          "childrenKey": "f6424094c93ae1ec3b5206bb7a07917a2ade9a98"
+        },
+        {
+          "iri": "obo:OBI_0000960",
+          "label": "reagent application function",
+          "hasChildren": true,
+          "childrenKey": "edf5676d093ac4171585be5144cc64006c1051d0"
+        },
+        {
+          "iri": "obo:OBI_0002199",
+          "label": "reason for lack of data item",
+          "hasChildren": true,
+          "childrenKey": "8fceb00071cad4dc592acde4d5cf3262aef73e9b"
+        },
+        {
+          "iri": "obo:OBI_0000368",
+          "label": "record function",
+          "hasChildren": false,
+          "childrenKey": "fbcaa6b63e80274e7f46a2f946952c5d831c3735"
+        },
+        {
+          "iri": "obo:OBI_0000852",
+          "label": "record of missing knowledge",
+          "hasChildren": true,
+          "childrenKey": "75fbadf1ed60ff6cac83a9770e36ba936cbc51b2"
+        },
+        {
+          "iri": "obo:OBI_0000676",
+          "label": "reduced dimension data set",
+          "hasChildren": false,
+          "childrenKey": "951741707064a5f45e7cf46478d83aaa40335fb7"
+        },
+        {
+          "iri": "obo:OBI_0002478",
+          "label": "reference genome-transcriptome alignment algorithm",
+          "hasChildren": true,
+          "childrenKey": "41131cc7f0564019008bfb4a2c234e6e39f0caae"
+        },
+        {
+          "iri": "obo:OBI_0000025",
+          "label": "reference substance role",
+          "hasChildren": true,
+          "childrenKey": "096ab1302e4d5b37825e4830f2deb8c64aabde8c"
+        },
+        {
+          "iri": "obo:OBI_0000017",
+          "label": "regulatory role",
+          "hasChildren": true,
+          "childrenKey": "e1b8c48beb99ee7407f7e01d4d9939db0230060d"
+        },
+        {
+          "iri": "obo:OBI_1110086",
+          "label": "restricting MHC role",
+          "hasChildren": false,
+          "childrenKey": "20c0887182548b3a521ac85910b475a96e228b7b"
+        },
+        {
+          "iri": "obo:OBI_0000732",
+          "label": "restriction enzyme",
+          "hasChildren": false,
+          "childrenKey": "c117ddad0059873f03432d11d0e8905650be28ae"
+        },
+        {
+          "iri": "obo:OBI_1110038",
+          "label": "RMA cell line",
+          "hasChildren": false,
+          "childrenKey": "bbf3826bfdd8a9795b69ba640c3646be7ccb19d3"
+        },
+        {
+          "iri": "obo:OBI_0001508",
+          "label": "sampling time measurement datum",
+          "hasChildren": false,
+          "childrenKey": "c4a816a38dbc1a39afd10505c49317d45fe62652"
+        },
+        {
+          "iri": "obo:OBI_0000970",
+          "label": "scalar score from composite inputs",
+          "hasChildren": true,
+          "childrenKey": "1f6597d5626588db354a18d38cc3dd05892cf1ad"
+        },
+        {
+          "iri": "obo:OBI_0000576",
+          "label": "scattered molecular aggregate",
+          "hasChildren": true,
+          "childrenKey": "04e85e136ce2221664c0656e0c5e10bf9143635b"
+        },
+        {
+          "iri": "obo:OBI_0003575",
+          "label": "scratching",
+          "hasChildren": false,
+          "childrenKey": "b6d1f8e77b8bd23d5322b10b77ff29fc61705845"
+        },
+        {
+          "iri": "obo:OBI_0001866",
+          "label": "secondary cultured cell",
+          "hasChildren": false,
+          "childrenKey": "e5422f808c886b3bc4425cf63faf21a94eaa598b"
+        },
+        {
+          "iri": "obo:OBI_0000885",
+          "label": "secondary structure of sequence macromolecule",
+          "hasChildren": true,
+          "childrenKey": "62d10c5df6b207818d5e0f1c8e36bedc9ac78a7c"
+        },
+        {
+          "iri": "obo:OBI_0001755",
+          "label": "selection criterion",
+          "hasChildren": true,
+          "childrenKey": "34e26799425f878e1ff509597dbfcdafb0091ef9"
+        },
+        {
+          "iri": "obo:OBI_0001175",
+          "label": "selective organism creation objective",
+          "hasChildren": false,
+          "childrenKey": "87425544d8255a4ab6807e9ab9812b5aadfa6365"
+        },
+        {
+          "iri": "obo:OBI_0001625",
+          "label": "sequence annotation algorithm",
+          "hasChildren": false,
+          "childrenKey": "2c88e01a2d256a6da4b68815c42f53f489200557"
+        },
+        {
+          "iri": "obo:OBI_0001947",
+          "label": "sequence annotation provider",
+          "hasChildren": false,
+          "childrenKey": "a32588ad4ce028f6bb3cc0b2f8960d668f7e1c68"
+        },
+        {
+          "iri": "obo:OBI_0001522",
+          "label": "sequence assembly algorithm",
+          "hasChildren": false,
+          "childrenKey": "2d30f331d423d65182aead8bd03188c64ed5b93c"
+        },
+        {
+          "iri": "obo:OBI_0001948",
+          "label": "sequence assembly name",
+          "hasChildren": false,
+          "childrenKey": "202a34283760137d89439d6eafa14917d5a785ca"
+        },
+        {
+          "iri": "obo:OBI_0000973",
+          "label": "sequence data",
+          "hasChildren": true,
+          "childrenKey": "541f29e7b0d497fb9526eb1722dae716ccb1de4e"
+        },
+        {
+          "iri": "obo:OBI_0000905",
+          "label": "sequence feature annotation",
+          "hasChildren": false,
+          "childrenKey": "19a26db35e1db1f49e48f147951f761f7d00c8d7"
+        },
+        {
+          "iri": "obo:OBI_0002582",
+          "label": "sequence library feature count data",
+          "hasChildren": false,
+          "childrenKey": "0c39244ce22aa22a4a07cd84683a357612ce87e9"
+        },
+        {
+          "iri": "obo:OBI_0002479",
+          "label": "sequence read length measurement datum",
+          "hasChildren": false,
+          "childrenKey": "a8e3c9ef3a9a6490caaa0a6c7cd7fa2fa9af358d"
+        },
+        {
+          "iri": "obo:OBI_0001888",
+          "label": "sequencing facility contact person",
+          "hasChildren": false,
+          "childrenKey": "d90cb83176852f011c9ebfd0fc8732d3f83b6b75"
+        },
+        {
+          "iri": "obo:OBI_0002480",
+          "label": "sequencing library input quantity measurement datum",
+          "hasChildren": false,
+          "childrenKey": "6de1875de49af06c979914d1abb3540f85ae1b5f"
+        },
+        {
+          "iri": "obo:OBI_0003592",
+          "label": "sequential organ failure assessment score",
+          "hasChildren": false,
+          "childrenKey": "7b4b2415c8ed3404b2ef331e3565038a9ce092bc"
+        },
+        {
+          "iri": "obo:OBI_0000941",
+          "label": "service consumer role",
+          "hasChildren": false,
+          "childrenKey": "457e43f60447c4fb4a5faca66c7877f1cfeee08e"
+        },
+        {
+          "iri": "obo:OBI_0000947",
+          "label": "service provider role",
+          "hasChildren": true,
+          "childrenKey": "8e257d9874d29241d55d022ad0ba98b7f00a60d2"
+        },
+        {
+          "iri": "obo:OBI_0000993",
+          "label": "service provision objective",
+          "hasChildren": false,
+          "childrenKey": "37e26371564e4e9db6c97e7821e65c2c16bcf7c5"
+        },
+        {
+          "iri": "obo:OBI_0001943",
+          "label": "software pipeline",
+          "hasChildren": false,
+          "childrenKey": "f8905b8a4444c64fcbc35c1efaf758925e595ea9"
+        },
+        {
+          "iri": "obo:OBI_0000399",
+          "label": "solid support function",
+          "hasChildren": false,
+          "childrenKey": "876cc7de7b950f433a33ed75aacccee4ee0b8bb9"
+        },
+        {
+          "iri": "obo:OBI_0302733",
+          "label": "solute role",
+          "hasChildren": false,
+          "childrenKey": "845f1b9f295ac54f6ccf5b19616a4b292d927cf2"
+        },
+        {
+          "iri": "obo:OBI_0001892",
+          "label": "specification of data to be generated in an investigation",
+          "hasChildren": false,
+          "childrenKey": "bced576328e1dd5e54339a3435c4741c995de4f2"
+        },
+        {
+          "iri": "obo:OBI_0100051",
+          "label": "specimen",
+          "hasChildren": true,
+          "childrenKey": "f730b3a4d5fd1bff17a397e2ddf39bed0b62ee0f"
+        },
+        {
+          "iri": "obo:OBI_0002988",
+          "label": "specimen collection duration",
+          "hasChildren": false,
+          "childrenKey": "7f61156328240777ce5fd7c5606227075c405803"
+        },
+        {
+          "iri": "obo:OBI_0000684",
+          "label": "specimen collection objective",
+          "hasChildren": false,
+          "childrenKey": "59e8653f3b29f3852f29d95f0f6ffea010936e4c"
+        },
+        {
+          "iri": "obo:OBI_0001619",
+          "label": "specimen collection time measurement datum",
+          "hasChildren": true,
+          "childrenKey": "fa55851c5a7b4a650d6155a92906d71957dfd5ed"
+        },
+        {
+          "iri": "obo:OBI_0001895",
+          "label": "specimen collector",
+          "hasChildren": false,
+          "childrenKey": "e1f8c01d8d3634395e2bf0d15c86994e23e055ac"
+        },
+        {
+          "iri": "obo:OBI_0001036",
+          "label": "specimen fixation function",
+          "hasChildren": false,
+          "childrenKey": "97b1142e2c8b35f6f18ce93b244bab94e9930062"
+        },
+        {
+          "iri": "obo:OBI_0002482",
+          "label": "specimen harvest quantity",
+          "hasChildren": false,
+          "childrenKey": "de87ed42154de8a119ecb260f787af5bb82ab70b"
+        },
+        {
+          "iri": "obo:OBI_0001616",
+          "label": "specimen identifier",
+          "hasChildren": true,
+          "childrenKey": "c632c74dff73eb321cadd2a646baab78bea3f8cf"
+        },
+        {
+          "iri": "obo:OBI_0001889",
+          "label": "specimen provider principal investigator",
+          "hasChildren": false,
+          "childrenKey": "fbfb5716eb1a76a0a8fac872dda07ba457ae4492"
+        },
+        {
+          "iri": "obo:OBI_0000112",
+          "label": "specimen role",
+          "hasChildren": true,
+          "childrenKey": "9bb3e6dc502659151e1e3ad109ba49104ec11196"
+        },
+        {
+          "iri": "obo:OBI_0001884",
+          "label": "specimen-based scope of investigation specification",
+          "hasChildren": false,
+          "childrenKey": "7dfbc41f2bc391e6a94769564cbe98b496506bda"
+        },
+        {
+          "iri": "obo:OBI_0000801",
+          "label": "spike train datum",
+          "hasChildren": false,
+          "childrenKey": "9d37fcc108a51ffbb6e0b053643b0733a2a68efa"
+        },
+        {
+          "iri": "obo:OBI_0002483",
+          "label": "spike-in dilution factor",
+          "hasChildren": false,
+          "childrenKey": "9b987a46ef0fd40254db8f7a6d82a23eb0baaee0"
+        },
+        {
+          "iri": "obo:OBI_0002464",
+          "label": "SRS identifier",
+          "hasChildren": false,
+          "childrenKey": "087a46d3204f8976912a6bc14dd7e12ea75fca0d"
+        },
+        {
+          "iri": "obo:OBI_0001041",
+          "label": "stabilization function",
+          "hasChildren": false,
+          "childrenKey": "76c2194b340a80bacbcf2ccae611ce0e40855b6a"
+        },
+        {
+          "iri": "obo:OBI_0000946",
+          "label": "sterilization function",
+          "hasChildren": false,
+          "childrenKey": "072a4454507a6417644f6a87eb9ff6d49375d906"
+        },
+        {
+          "iri": "obo:OBI_0500022",
+          "label": "stopping rule",
+          "hasChildren": false,
+          "childrenKey": "87056877d6b4a443a8697f229bff434504277a37"
+        },
+        {
+          "iri": "obo:OBI_0500000",
+          "label": "study design",
+          "hasChildren": true,
+          "childrenKey": "8954d17afd9a4c08b90388ede3c1021696fc400c"
+        },
+        {
+          "iri": "obo:OBI_0000785",
+          "label": "study design controlled variable",
+          "hasChildren": false,
+          "childrenKey": "b72e4bf3a3a81404d9b8aa7b66e2ed2da4004cc8"
+        },
+        {
+          "iri": "obo:OBI_0000751",
+          "label": "study design dependent variable",
+          "hasChildren": false,
+          "childrenKey": "bad8b3ee3d91d83caee07730408017650b39ec70"
+        },
+        {
+          "iri": "obo:OBI_0000750",
+          "label": "study design independent variable",
+          "hasChildren": false,
+          "childrenKey": "fec483cf26a400e8beb699695d17e7f418278c71"
+        },
+        {
+          "iri": "obo:OBI_0000174",
+          "label": "study group role",
+          "hasChildren": true,
+          "childrenKey": "4ddc79acccdd6468bc48954cb365cb453257bf41"
+        },
+        {
+          "iri": "obo:OBI_0000034",
+          "label": "supernatant role",
+          "hasChildren": false,
+          "childrenKey": "802cc9b43a6bdf5fca2a45542450e3b67efe58a3"
+        },
+        {
+          "iri": "obo:OBI_0000889",
+          "label": "survival curve",
+          "hasChildren": false,
+          "childrenKey": "c08a216ad472fc073beb1e9eda0516b6c5c00f8c"
+        },
+        {
+          "iri": "obo:OBI_0000789",
+          "label": "survival rate",
+          "hasChildren": false,
+          "childrenKey": "1a8133b23f3ab248d775978da118f4b81fdb93d1"
+        },
+        {
+          "iri": "obo:OBI_0000376",
+          "label": "synthesizing function",
+          "hasChildren": false,
+          "childrenKey": "dcb3f1aedbf5c44a97f0d633aa555c0b490e9386"
+        },
+        {
+          "iri": "obo:OBI_1110039",
+          "label": "T2 cell line",
+          "hasChildren": false,
+          "childrenKey": "14175f65ecc0ce8ce19ecbd4bf26656ac03edec2"
+        },
+        {
+          "iri": "obo:OBI_0001899",
+          "label": "target capture specification",
+          "hasChildren": false,
+          "childrenKey": "67a01a9ba7956eab7f2b39dd06bba2be8a74087f"
+        },
+        {
+          "iri": "obo:OBI_0001962",
+          "label": "target gene specification",
+          "hasChildren": false,
+          "childrenKey": "d1182806ec93417fdce87d50eca00dedd6180443"
+        },
+        {
+          "iri": "obo:OBI_0001882",
+          "label": "target material in specimen specification",
+          "hasChildren": false,
+          "childrenKey": "871b3e2a98f94be7bc13be0c99d7f9751b78a0b3"
+        },
+        {
+          "iri": "obo:OBI_1110109",
+          "label": "target of material addition",
+          "hasChildren": false,
+          "childrenKey": "3f806e2bfff6434fae0fbbcfee4c46bd9fc1cefe"
+        },
+        {
+          "iri": "obo:OBI_0000444",
+          "label": "target of material addition role",
+          "hasChildren": false,
+          "childrenKey": "0c5c4e33adc3ca48f7ad5320e75d26962710c252"
+        },
+        {
+          "iri": "obo:OBI_0001963",
+          "label": "target subfragment specification",
+          "hasChildren": false,
+          "childrenKey": "977ee0635ba668e5970a3863444ee6d323e82484"
+        },
+        {
+          "iri": "obo:OBI_0003079",
+          "label": "temperature measurement datum",
+          "hasChildren": true,
+          "childrenKey": "6b579aa1a5521ae04d4f0f4161246a289a536ef3"
+        },
+        {
+          "iri": "obo:OBI_0000847",
+          "label": "test substance role",
+          "hasChildren": false,
+          "childrenKey": "35593cbac504ed38f9cf2891fb91ffb047ce5cee"
+        },
+        {
+          "iri": "obo:OBI_0001908",
+          "label": "testable hypothesis",
+          "hasChildren": false,
+          "childrenKey": "46b674d17be9cc97dadd5bcbf5745a774a59662c"
+        },
+        {
+          "iri": "obo:OBI_0002197",
+          "label": "tissue section thickness",
+          "hasChildren": false,
+          "childrenKey": "2f63ed2f5197914562a35cb0856b2e95bf7f652e"
+        },
+        {
+          "iri": "obo:OBI_0000962",
+          "label": "training objective",
+          "hasChildren": false,
+          "childrenKey": "304c4bb7866c8727ce80787ffc9746a2f0f0f689"
+        },
+        {
+          "iri": "obo:OBI_0000383",
+          "label": "transfer function",
+          "hasChildren": true,
+          "childrenKey": "00529b0bc5d47412bd76ee8d5ec7264f2d0f8c9f"
+        },
+        {
+          "iri": "obo:OBI_0002370",
+          "label": "unknown clinical history of cancer",
+          "hasChildren": false,
+          "childrenKey": "d71575056ab46a759823b0aad13f691b6d02d000"
+        },
+        {
+          "iri": "obo:OBI_0000076",
+          "label": "unplanned occurrence effecting an investigation",
+          "hasChildren": false,
+          "childrenKey": "4373193ebd5871c6cd7e32210e7052ab877daf18"
+        },
+        {
+          "iri": "obo:OBI_0003247",
+          "label": "urine assay datum",
+          "hasChildren": true,
+          "childrenKey": "c26642b78e7f6b6d7c8d4e27e02f98940fae5740"
+        },
+        {
+          "iri": "obo:OBI_0302838",
+          "label": "validated information",
+          "hasChildren": false,
+          "childrenKey": "295a14a038f4fdd48773d354aa81201ddc28ed0b"
+        },
+        {
+          "iri": "obo:OBI_0001933",
+          "label": "value specification",
+          "hasChildren": true,
+          "childrenKey": "00de83efe316fe507ea1babdd09504262ea46667"
+        },
+        {
+          "iri": "obo:OBI_0002437",
+          "label": "widefield microscopy assay",
+          "hasChildren": false,
+          "childrenKey": "e008670f6895a5d5fb3bbd9f9f6ab49ea15b7552"
+        }
+      ]
+    }
+  ]
+}

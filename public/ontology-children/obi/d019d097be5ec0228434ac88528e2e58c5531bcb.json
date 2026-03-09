@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001272",
+  "children": [
+    {
+      "iri": "obo:OBI_0001791",
+      "label": "ELISPOT assay measuring epitope specific lymphotoxin A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "404898bf00f5ce7d1b056a6402c4cc4c13bb27af"
+    },
+    {
+      "iri": "obo:OBI_1110168",
+      "label": "ELISPOT assay measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3edf4d36f1c2c0755c681516afc5f6f576622c2c"
+    }
+  ]
+}

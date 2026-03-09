@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002162",
+  "children": [
+    {
+      "iri": "obo:OBI_0002163",
+      "label": "DNAse footprinting assay",
+      "hasChildren": false,
+      "childrenKey": "d9cec0e26f1678e245b5c1315c60eb630f7a3251"
+    },
+    {
+      "iri": "obo:OBI_0002449",
+      "label": "footprinting assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "cce9ee799d9e7ceccc39e471ec579120261184b6"
+    },
+    {
+      "iri": "obo:OBI_0001976",
+      "label": "hydrogen/deuterium exchange footprinting assay",
+      "hasChildren": true,
+      "childrenKey": "ee489a0848398b5d029a22b876ee4e4851ddd556"
+    },
+    {
+      "iri": "obo:OBI_0002442",
+      "label": "hydroxyl-radical footprinting assay",
+      "hasChildren": true,
+      "childrenKey": "43cb637b90b62b1bf4bff62eb5cbc458e6f993ee"
+    },
+    {
+      "iri": "obo:OBI_0002443",
+      "label": "methidiumpropyl-EDTA-iron(II) footprinting assay",
+      "hasChildren": false,
+      "childrenKey": "cc750740bb9403b563614c55faf01c82f090a551"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001307",
+  "children": [
+    {
+      "iri": "obo:OBI_0002011",
+      "label": "Human 2.1M Whole-Genome CGH Tiling Array v2.0",
+      "hasChildren": false,
+      "childrenKey": "3712bc5e8bf3749f6017847a2690afbe4ae89788"
+    },
+    {
+      "iri": "obo:OBI_0002010",
+      "label": "Human 3x720K Whole Genome CGH Tiling Array",
+      "hasChildren": false,
+      "childrenKey": "6ddf6da25de659d52ecc13f2c06d389af0143d67"
+    },
+    {
+      "iri": "obo:OBI_0002109",
+      "label": "Human 6x630K CGH Whole Genome Tiling Array",
+      "hasChildren": false,
+      "childrenKey": "331e7c5afd1259ff6a6634fc3df20abf21872147"
+    },
+    {
+      "iri": "obo:OBI_0002025",
+      "label": "Human Exon 1.0 ST tilling array",
+      "hasChildren": false,
+      "childrenKey": "9b53f4c40f224afa10900e29ef55c0982936fbe2"
+    },
+    {
+      "iri": "obo:OBI_0002023",
+      "label": "Human Genome U133 Plus 2.0 tiling array",
+      "hasChildren": false,
+      "childrenKey": "3945ca00bca6cef983185e4bc1154813443a0257"
+    },
+    {
+      "iri": "obo:OBI_0002026",
+      "label": "Human Genome U133 tiling array",
+      "hasChildren": false,
+      "childrenKey": "6435d674246cba5d6f99d4b05f1505002c2a37ae"
+    },
+    {
+      "iri": "obo:OBI_0002008",
+      "label": "Mouse 385K Whole Genome CGH Tiling Array",
+      "hasChildren": false,
+      "childrenKey": "be1ff67a1ad9a638007c0de71f79baa7f797e760"
+    },
+    {
+      "iri": "obo:OBI_0002009",
+      "label": "Mouse 3x720K Whole Genome CGH Tiling Array",
+      "hasChildren": false,
+      "childrenKey": "8a0a40823feae2f1d4c382d3ed5f20b4127d64e5"
+    }
+  ]
+}

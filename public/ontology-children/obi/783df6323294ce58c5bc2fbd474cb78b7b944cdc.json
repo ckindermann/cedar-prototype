@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000917",
+  "children": [
+    {
+      "iri": "obo:OBI_0002784",
+      "label": "anterior nasal swab specimen",
+      "hasChildren": false,
+      "childrenKey": "3686c3f223aac0e136ddd08336ab882ad199933a"
+    },
+    {
+      "iri": "obo:OBI_0002779",
+      "label": "mid-turbinate nasal swab specimen",
+      "hasChildren": false,
+      "childrenKey": "da04dad8e6763e9695beffd1b6a78a47c6437d22"
+    }
+  ]
+}

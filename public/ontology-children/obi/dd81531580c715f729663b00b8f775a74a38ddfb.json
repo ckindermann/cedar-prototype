@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003620",
+  "children": [
+    {
+      "iri": "obo:OBI_0003618",
+      "label": "antibody purification of HLA protein complex with A2 serotype",
+      "hasChildren": false,
+      "childrenKey": "9f22079877fc02f814d8d81e6f36664da364c5d5"
+    }
+  ]
+}

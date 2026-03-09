@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0500014",
+  "children": [
+    {
+      "iri": "obo:OBI_0500015",
+      "label": "2x2 factorial design",
+      "hasChildren": false,
+      "childrenKey": "1cbae3840664db626917841820143c012bb14425"
+    },
+    {
+      "iri": "obo:OBI_0500008",
+      "label": "balanced incomplete block design",
+      "hasChildren": false,
+      "childrenKey": "bf182469e11958c58cef924ce3f1ea787345d4c9"
+    },
+    {
+      "iri": "obo:OBI_0500016",
+      "label": "fractional factorial design",
+      "hasChildren": false,
+      "childrenKey": "836ae7026f39f024d475270027d4f4561fcce402"
+    }
+  ]
+}

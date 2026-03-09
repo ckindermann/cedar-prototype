@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001709",
+  "children": [
+    {
+      "iri": "obo:OBI_0001719",
+      "label": "assay measuring the association constant [KA] of a B cell epitope:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "c82fc810d4f85de3ef8fd4893ab6052a03b02f93"
+    },
+    {
+      "iri": "obo:OBI_0001708",
+      "label": "assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "de6ce1757443250d32f9b22675b28660b226278c"
+    },
+    {
+      "iri": "obo:OBI_0001723",
+      "label": "assay measuring the off rate [koff] of a B cell epitope:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "eb111ee0316c9e831b1954541f37f606bc965fc1"
+    },
+    {
+      "iri": "obo:OBI_0001718",
+      "label": "assay measuring the on rate [kon] of a B cell epitope:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "e563d2805afa39d9941b5b352c8a05ffda54952d"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001276",
+  "children": [
+    {
+      "iri": "obo:OBI_0001828",
+      "label": "cytometric bead array assay measuring epitope specific chemokine (C-C motif) ligand 1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "844de903f8ca6c3ccf853f7219cb32469c804276"
+    },
+    {
+      "iri": "obo:OBI_0001827",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific chemokine (C-C motif) ligand 1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "29a0b4b61cb65c30fd9e9c6a9e3ff7be36066ca5"
+    },
+    {
+      "iri": "obo:OBI_0001315",
+      "label": "ELISA measuring epitope specific chemokine (C-C motif) ligand 1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ad791622195ad42fc3348bf7145524e01641aba5"
+    },
+    {
+      "iri": "obo:OBI_0001829",
+      "label": "ELISPOT assay measuring epitope specific chemokine (C-C motif) ligand 1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3172f72d405e6230b860a683c71548d137ef2bf7"
+    },
+    {
+      "iri": "obo:OBI_0001768",
+      "label": "intracellular cytokine staining assay measuring epitope specific chemokine (C-C motif) ligand 1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "a84ddf5cab1998f8ccd34ca6aa6d787376f232be"
+    }
+  ]
+}

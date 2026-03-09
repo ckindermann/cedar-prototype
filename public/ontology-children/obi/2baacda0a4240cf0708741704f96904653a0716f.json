@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001694",
+  "children": [
+    {
+      "iri": "obo:OBI_0002666",
+      "label": "in vivo assay measuring B cell epitope specific induction of hypersensitivity resulting from the adoptive transfer of epitope specific antibodies or B cells",
+      "hasChildren": false,
+      "childrenKey": "f9efe268072d4d1add609b7b45d3522380e22438"
+    }
+  ]
+}

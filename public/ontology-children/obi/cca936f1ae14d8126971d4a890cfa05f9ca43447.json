@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110122",
+  "children": [
+    {
+      "iri": "obo:OBI_1110011",
+      "label": "allergic reaction",
+      "hasChildren": false,
+      "childrenKey": "d1cfad0e1a8351c4c406cdad26c85db3f1e40349"
+    },
+    {
+      "iri": "obo:OBI_1110021",
+      "label": "infection process",
+      "hasChildren": false,
+      "childrenKey": "8cb214c4a507f9b46bb80530a68be665a83d7915"
+    }
+  ]
+}

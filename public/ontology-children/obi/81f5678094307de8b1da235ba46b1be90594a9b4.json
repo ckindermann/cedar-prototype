@@ -1,0 +1,306 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110129",
+  "children": [
+    {
+      "iri": "obo:OBI_0003315",
+      "label": "assay measuring epitope specific amphiregulin production by T cells",
+      "hasChildren": true,
+      "childrenKey": "eef1c39b4e08bc01d754255329a70d74c3e31158"
+    },
+    {
+      "iri": "obo:OBI_0001276",
+      "label": "assay measuring epitope specific chemokine (C-C motif) ligand 1 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "718f9f3f3d70fdadf9d0aeb1a814af73bd2c296c"
+    },
+    {
+      "iri": "obo:OBI_0002056",
+      "label": "assay measuring epitope specific chemokine (C-C motif) ligand 17 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "64533d7903b7036343dea2d98d4e0f1db78cc898"
+    },
+    {
+      "iri": "obo:OBI_0001775",
+      "label": "assay measuring epitope specific chemokine (C-C motif) ligand 19 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "d4705c963517db6f4da324cda5edb6b0aa743cbe"
+    },
+    {
+      "iri": "obo:OBI_0002134",
+      "label": "assay measuring epitope specific chemokine (C-C motif) ligand 20 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "6466d3775f1f3868fca113cb3036d924dd7b8cdc"
+    },
+    {
+      "iri": "obo:OBI_0001774",
+      "label": "assay measuring epitope specific chemokine (C-C motif) ligand 21 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "995a92d07af1a1f811f441bd3e6eb44c6c180402"
+    },
+    {
+      "iri": "obo:OBI_0001777",
+      "label": "assay measuring epitope specific chemokine (C-C motif) ligand 22 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "70453b304a3c4ca8096cd255c33960041f62a8b9"
+    },
+    {
+      "iri": "obo:OBI_0001345",
+      "label": "assay measuring epitope specific chemokine (C-C motif) ligand 4 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "0d38894c9e1af53297bf001108700e9a97b6808e"
+    },
+    {
+      "iri": "obo:OBI_0001776",
+      "label": "assay measuring epitope specific chemokine (C-X-C motif) ligand 12 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "79cfad82b0bd3d0ca103ceec8c708301b7a8e19e"
+    },
+    {
+      "iri": "obo:OBI_0001779",
+      "label": "assay measuring epitope specific chemokine (C-X-C motif) ligand 13 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "976dd1460a9fce95d67feeb3d93c7ab1d6a52bc9"
+    },
+    {
+      "iri": "obo:OBI_0001778",
+      "label": "assay measuring epitope specific chemokine (C-X-C motif) ligand 16 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "5ce4c0761912fc428e377f7d483a25935b5dd589"
+    },
+    {
+      "iri": "obo:OBI_0001459",
+      "label": "assay measuring epitope specific chemokine (C-X-C motif) ligand 9 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "25f429bc37a6f2096aaddec58fcd0d3dc73b14f1"
+    },
+    {
+      "iri": "obo:OBI_0001600",
+      "label": "assay measuring epitope specific granulocyte colony stimulating factor production by T cells",
+      "hasChildren": true,
+      "childrenKey": "4d64824e7964418da478fc4ccab7d3a40c7bcee8"
+    },
+    {
+      "iri": "obo:OBI_0001233",
+      "label": "assay measuring epitope specific granulocyte macrophage colony stimulating factor production by T cells",
+      "hasChildren": true,
+      "childrenKey": "f4aed80f3e7cb09f7ed1778cdca8c408c3f93677"
+    },
+    {
+      "iri": "obo:OBI_0002452",
+      "label": "assay measuring epitope specific interferon-alpha production by T cells",
+      "hasChildren": true,
+      "childrenKey": "87c3812bd0a5d383d31fe4a976c5cf52f4370ef1"
+    },
+    {
+      "iri": "obo:OBI_0001390",
+      "label": "assay measuring epitope specific interferon-beta production by T cells",
+      "hasChildren": true,
+      "childrenKey": "2c7828ff0581cacbc016c160da79e909a1e79c18"
+    },
+    {
+      "iri": "obo:OBI_0001414",
+      "label": "assay measuring epitope specific interferon-gamma production by T cells",
+      "hasChildren": true,
+      "childrenKey": "3ee3335373e36c715f1eced6b25ad8402dc47011"
+    },
+    {
+      "iri": "obo:OBI_0001388",
+      "label": "assay measuring epitope specific interleukin-1 alpha production by T cells",
+      "hasChildren": true,
+      "childrenKey": "2ca9165f1be381cc2d36a1e6de50be4cf37ea047"
+    },
+    {
+      "iri": "obo:OBI_0001449",
+      "label": "assay measuring epitope specific interleukin-1 beta production by T cells",
+      "hasChildren": true,
+      "childrenKey": "605c748278297877d518281c4f06033038a246be"
+    },
+    {
+      "iri": "obo:OBI_0001209",
+      "label": "assay measuring epitope specific interleukin-10 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "856d3f30dfe7dbaf9fd74b33567dc685c6194674"
+    },
+    {
+      "iri": "obo:OBI_0001391",
+      "label": "assay measuring epitope specific interleukin-12 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "cb82ab1bde969725a1af66172acfd58b4f1bdfa1"
+    },
+    {
+      "iri": "obo:OBI_0001251",
+      "label": "assay measuring epitope specific interleukin-13 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "e58778ade969eeba826be55b408950480d8b6472"
+    },
+    {
+      "iri": "obo:OBI_0001292",
+      "label": "assay measuring epitope specific interleukin-15 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "f24d514b05092d60474c58553699aefde12e713f"
+    },
+    {
+      "iri": "obo:OBI_0001280",
+      "label": "assay measuring epitope specific interleukin-16 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "4077e155b18bd20287c9b4a5ea94320de757bed5"
+    },
+    {
+      "iri": "obo:OBI_0001295",
+      "label": "assay measuring epitope specific interleukin-17 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "cfb4c390ecc3f45405231cb4fef053e01d8ce888"
+    },
+    {
+      "iri": "obo:OBI_0001380",
+      "label": "assay measuring epitope specific interleukin-18 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "285bce1fe7f5a9159773ba50eebd216d72cc6044"
+    },
+    {
+      "iri": "obo:OBI_0001445",
+      "label": "assay measuring epitope specific interleukin-2 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "1fb1194c7fc59ee235d62fd14c5b8848b4610bb2"
+    },
+    {
+      "iri": "obo:OBI_0001237",
+      "label": "assay measuring epitope specific interleukin-21 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "94c115b71a41df68d3567c20b8ef2307982aac06"
+    },
+    {
+      "iri": "obo:OBI_0001217",
+      "label": "assay measuring epitope specific interleukin-22 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "2b0c5737c1a2ffd0e21e0278f7f3a70ffb53254a"
+    },
+    {
+      "iri": "obo:OBI_0001363",
+      "label": "assay measuring epitope specific interleukin-23 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "508e553c324c099b0cd4e865721f8f8eec972121"
+    },
+    {
+      "iri": "obo:OBI_0003484",
+      "label": "assay measuring epitope specific interleukin-25 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "009bef3cebbc2372fce9bce3c2c5dfa28f14ab40"
+    },
+    {
+      "iri": "obo:OBI_0001198",
+      "label": "assay measuring epitope specific interleukin-27 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "ba6b39b872805ad5109f587a3b1b64abccd947ce"
+    },
+    {
+      "iri": "obo:OBI_0001406",
+      "label": "assay measuring epitope specific interleukin-3 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "319802359b5c84f35bc1ab6e10d8112b3295f2ef"
+    },
+    {
+      "iri": "obo:OBI_0001450",
+      "label": "assay measuring epitope specific interleukin-4 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "e0dc7ab0ba94b206dd5eb117e2ab6647d4159405"
+    },
+    {
+      "iri": "obo:OBI_0001230",
+      "label": "assay measuring epitope specific interleukin-5 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "9021f29f584ea75476e2dc4640e227618035e76f"
+    },
+    {
+      "iri": "obo:OBI_0001451",
+      "label": "assay measuring epitope specific interleukin-6 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "506e5c79193b5625ed80c360ecc36ca28078d9d7"
+    },
+    {
+      "iri": "obo:OBI_0001587",
+      "label": "assay measuring epitope specific interleukin-7 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "0023cf2f8f522c576e12e27f2fa7025f7f7a05ec"
+    },
+    {
+      "iri": "obo:OBI_0001218",
+      "label": "assay measuring epitope specific interleukin-8 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "d215bbb2d22e5aef8597aa598406879532957a05"
+    },
+    {
+      "iri": "obo:OBI_0001308",
+      "label": "assay measuring epitope specific IP-10 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "c9080fac959b1edb8b92009470724e3bc497b59c"
+    },
+    {
+      "iri": "obo:OBI_0003372",
+      "label": "assay measuring epitope specific lymphotactin production by T cells",
+      "hasChildren": true,
+      "childrenKey": "f55f17c937f077ba9155d32a491eaaaf45c4a730"
+    },
+    {
+      "iri": "obo:OBI_0001333",
+      "label": "assay measuring epitope specific macrophage inflammatory protein-1 alpha production by T cells",
+      "hasChildren": true,
+      "childrenKey": "9769aa53e9590601bdd5ff2a3ca676e612996154"
+    },
+    {
+      "iri": "obo:OBI_0001456",
+      "label": "assay measuring epitope specific macrophage inflammatory protein-1 gamma production by T cells",
+      "hasChildren": true,
+      "childrenKey": "b2ec6d1aca8f0ed24d7ea57f2413327e259c6bce"
+    },
+    {
+      "iri": "obo:OBI_0002057",
+      "label": "assay measuring epitope specific macrophage migration inhibitory factor (MIF) production by T cells",
+      "hasChildren": true,
+      "childrenKey": "5753e8ba23d8957acdf9d3cc2a3a691734583ab3"
+    },
+    {
+      "iri": "obo:OBI_0001465",
+      "label": "assay measuring epitope specific monocyte chemotactic protein-1 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "3eb26452db1c4344b09a2f7b46527638a0ad6afd"
+    },
+    {
+      "iri": "obo:OBI_0002058",
+      "label": "assay measuring epitope specific oncostatin M production by T cells",
+      "hasChildren": true,
+      "childrenKey": "19b180aa4db81928d9405663371fb25a98d6af11"
+    },
+    {
+      "iri": "obo:OBI_0001232",
+      "label": "assay measuring epitope specific RANTES production by T cells",
+      "hasChildren": true,
+      "childrenKey": "c8280f7da279ac2a7d1c219aca4ece8f788fb8d5"
+    },
+    {
+      "iri": "obo:OBI_0001264",
+      "label": "assay measuring epitope specific transforming growth factor-beta production by T cells",
+      "hasChildren": true,
+      "childrenKey": "8598fb7d132706a696dadf593ccc3a26367a3b5b"
+    },
+    {
+      "iri": "obo:OBI_0001400",
+      "label": "assay measuring epitope specific tumor necrosis factor superfamily cytokine production by T cells",
+      "hasChildren": true,
+      "childrenKey": "9c7d8664b5094d853a50237ac5371d98f6a25780"
+    },
+    {
+      "iri": "obo:OBI_0001570",
+      "label": "assay measuring epitope specific vascular endothelial growth factor production by T cells",
+      "hasChildren": true,
+      "childrenKey": "c3ed1efe8fa04a3f6efc34cfd6eb2040d99d212c"
+    },
+    {
+      "iri": "obo:OBI_0001253",
+      "label": "assay measuring interleukin-9 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "da949b8c07f835253482fa2fec928d497e9f6c65"
+    }
+  ]
+}

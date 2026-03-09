@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002905",
+  "children": [
+    {
+      "iri": "obo:OBI_0002906",
+      "label": "animal-biting outdoor arthropod specimen collection by aspiration",
+      "hasChildren": false,
+      "childrenKey": "e0409c5b5da8c13f02b12d95f14789a531209c37"
+    },
+    {
+      "iri": "obo:OBI_0002911",
+      "label": "arthropod resting outdoors specimen collection by aspiration",
+      "hasChildren": true,
+      "childrenKey": "105e8463a3e6530faab074962e65338eba283839"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600000",
+  "children": [
+    {
+      "iri": "obo:OBI_1110030",
+      "label": "experimental infection of cell culture",
+      "hasChildren": false,
+      "childrenKey": "2354a8466deba917ce41ab302aa74534aeb9c8b4"
+    }
+  ]
+}

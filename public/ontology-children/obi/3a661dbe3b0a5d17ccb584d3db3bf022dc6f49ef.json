@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400047",
+  "children": [
+    {
+      "iri": "obo:OBI_0400060",
+      "label": "ion laser",
+      "hasChildren": true,
+      "childrenKey": "3430fa20d1a367d3978cff5d19036599a41fc53f"
+    },
+    {
+      "iri": "obo:OBI_0400073",
+      "label": "metal vapor laser",
+      "hasChildren": true,
+      "childrenKey": "70be8b0b3112959d7bfd0a7d8e1bcc100b792b9c"
+    }
+  ]
+}

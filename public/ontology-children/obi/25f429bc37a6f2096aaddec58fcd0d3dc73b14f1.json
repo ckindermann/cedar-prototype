@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001459",
+  "children": [
+    {
+      "iri": "obo:OBI_0001754",
+      "label": "cytometric bead array assay measuring epitope specific chemokine (C-X-C motif) ligand 9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "d567b195aaf2ef386018a6632fc8eb483d5e6cd5"
+    },
+    {
+      "iri": "obo:OBI_0001757",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific chemokine (C-X-C motif) ligand 9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7317bb6e2f00903fcda8ce3f634047f58005d610"
+    },
+    {
+      "iri": "obo:OBI_0001330",
+      "label": "ELISA measuring epitope specific chemokine (C-X-C motif) ligand 9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "bbc8af312409806e48922a2b611e5a89bbee7103"
+    },
+    {
+      "iri": "obo:OBI_0001756",
+      "label": "ELISPOT assay measuring epitope specific chemokine (C-X-C motif) ligand 9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "112902fd1e1615604daf5ba75176192f530a47c2"
+    },
+    {
+      "iri": "obo:OBI_0001437",
+      "label": "intracellular cytokine staining assay measuring epitope specific chemokine (C-X-C motif) ligand 9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "95f676b671fc39497931342b513d21135a22a45a"
+    }
+  ]
+}

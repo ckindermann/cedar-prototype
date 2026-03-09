@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002728",
+  "children": [
+    {
+      "iri": "obo:OBI_0002731",
+      "label": "pathogen detection by loop-mediated isothermal amplification assay",
+      "hasChildren": false,
+      "childrenKey": "1bb6ebe96b881d80399c331e294cdbb9cac16616"
+    },
+    {
+      "iri": "obo:OBI_0002730",
+      "label": "pathogen detection by Rapid Analyte Measurement Platform assay",
+      "hasChildren": false,
+      "childrenKey": "d9f4e4d228361ae35c132f17fa8d639c9ece6274"
+    },
+    {
+      "iri": "obo:OBI_0002729",
+      "label": "VectorTest assay",
+      "hasChildren": false,
+      "childrenKey": "3a9a82d27b88d3420a718b2ca95e3b861957ca99"
+    }
+  ]
+}

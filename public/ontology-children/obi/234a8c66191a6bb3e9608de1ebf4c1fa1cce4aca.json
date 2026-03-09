@@ -1,0 +1,54 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001985",
+  "children": [
+    {
+      "iri": "obo:OBI_0001393",
+      "label": "comparative genomic hybridization by array assay",
+      "hasChildren": false,
+      "childrenKey": "acda8d1f47e8d6f2808f1b4b4bb4a253706d47cc"
+    },
+    {
+      "iri": "obo:OBI_0001274",
+      "label": "genotyping by array assay",
+      "hasChildren": true,
+      "childrenKey": "7250720b98e10423bd8620580fcb59476c817b68"
+    },
+    {
+      "iri": "obo:OBI_0002053",
+      "label": "microarray assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "3fa181e47f68fee117adb45a780dd03b02855a78"
+    },
+    {
+      "iri": "obo:OBI_0003542",
+      "label": "microarray assay measuring Dengue IgM antibody",
+      "hasChildren": false,
+      "childrenKey": "05f5a61de3e5fba544b6cdc53e857cc9d733a657"
+    },
+    {
+      "iri": "obo:OBI_0003543",
+      "label": "microarray assay measuring NS1",
+      "hasChildren": false,
+      "childrenKey": "a088cd16b97df85e3c395c80cb42c9b7bc8987c2"
+    },
+    {
+      "iri": "obo:OBI_0001318",
+      "label": "proteomic profiling by array assay",
+      "hasChildren": true,
+      "childrenKey": "23b30ddcca6deb90eefa19dcd6030af5720bcee9"
+    },
+    {
+      "iri": "obo:OBI_0001918",
+      "label": "RNA-binding protein immunoprecipitation array profiling assay",
+      "hasChildren": true,
+      "childrenKey": "ba811e6235b389b3595739a73b2c1f1012d28331"
+    },
+    {
+      "iri": "obo:OBI_0001304",
+      "label": "RNAi profiling by array assay",
+      "hasChildren": false,
+      "childrenKey": "2df004135418cfc96b468164c07d2de4b5b6e7b5"
+    }
+  ]
+}

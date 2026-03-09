@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002790",
+  "children": [
+    {
+      "iri": "obo:OBI_0002809",
+      "label": "surgical N95 respirator",
+      "hasChildren": false,
+      "childrenKey": "c49fb3f0b37afefdd26f2ae655b1ec4402f0afdc"
+    }
+  ]
+}

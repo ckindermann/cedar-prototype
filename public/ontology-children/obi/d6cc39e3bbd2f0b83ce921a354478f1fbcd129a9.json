@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001179",
+  "children": [
+    {
+      "iri": "obo:OBI_0001186",
+      "label": "epitope protection from infectious challenge experiment based on pathogen burden",
+      "hasChildren": true,
+      "childrenKey": "1af22520164329902d27818ff577c408f971493f"
+    },
+    {
+      "iri": "obo:OBI_0003457",
+      "label": "epitope protection from infectious challenge experiment based on survival",
+      "hasChildren": true,
+      "childrenKey": "938395ed08e4008624ab9bc0538354659aed8a62"
+    },
+    {
+      "iri": "obo:OBI_0003465",
+      "label": "in vivo assay measuring B cell epitope specific protection from pathogen challenge",
+      "hasChildren": true,
+      "childrenKey": "18a7a21134fcdea535a1492b02649734a12a31ee"
+    },
+    {
+      "iri": "obo:OBI_0003475",
+      "label": "in vivo assay measuring B cell epitope specific protection from pathogen challenge resulting from the adoptive transfer of epitope specific antibodies or B cells",
+      "hasChildren": true,
+      "childrenKey": "0478ebc5e10a47ebd386cfb915f7de4f72b489c4"
+    },
+    {
+      "iri": "obo:OBI_0003460",
+      "label": "in vivo assay measuring T cell epitope specific protection from pathogen challenge",
+      "hasChildren": true,
+      "childrenKey": "6724e696b92ab92a868dd2888707fd1da6780f73"
+    },
+    {
+      "iri": "obo:OBI_0003470",
+      "label": "in vivo assay measuring T cell epitope specific protection from pathogen challenge resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": true,
+      "childrenKey": "478bc93efe575db44185a92f3c7fe741a8b58528"
+    }
+  ]
+}

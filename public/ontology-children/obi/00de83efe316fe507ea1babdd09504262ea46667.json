@@ -1,0 +1,66 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001933",
+  "children": [
+    {
+      "iri": "obo:OBI_0001930",
+      "label": "categorical value specification",
+      "hasChildren": true,
+      "childrenKey": "b02b682dbf9ca2078b304b42025e5f82bc15d13f"
+    },
+    {
+      "iri": "obo:OBI_0003549",
+      "label": "lower limit of detection",
+      "hasChildren": false,
+      "childrenKey": "d7f67e4a017cfdd16e3b68791ecd105ca1c70788"
+    },
+    {
+      "iri": "obo:OBI_0002557",
+      "label": "maximum age value specification",
+      "hasChildren": false,
+      "childrenKey": "8a093c46596278e82b36d8119f6eb2ba069523c2"
+    },
+    {
+      "iri": "obo:OBI_0002556",
+      "label": "minimum age value specification",
+      "hasChildren": false,
+      "childrenKey": "3bb2fe37fbeb745b4e90fbdff705409416b690a3"
+    },
+    {
+      "iri": "obo:OBI_0001873",
+      "label": "number of errors",
+      "hasChildren": false,
+      "childrenKey": "5fac47e22346d0478f6d4439fb3a92e6081f73ad"
+    },
+    {
+      "iri": "obo:OBI_0002137",
+      "label": "RNA Integrity Number value specification",
+      "hasChildren": false,
+      "childrenKey": "6e7428f80072031161f78c884c21ab551abe6e80"
+    },
+    {
+      "iri": "obo:OBI_0001931",
+      "label": "scalar value specification",
+      "hasChildren": true,
+      "childrenKey": "3f5a7e68d639ad95e335e8de54ac55332257e04a"
+    },
+    {
+      "iri": "obo:OBI_0002138",
+      "label": "temperature value specification",
+      "hasChildren": false,
+      "childrenKey": "1a25e897cb599683423ef3fe8d6c559509e41780"
+    },
+    {
+      "iri": "obo:OBI_0003548",
+      "label": "upper limit of detection",
+      "hasChildren": false,
+      "childrenKey": "7b485756cdde426322f2b246be5599f80826ad0b"
+    },
+    {
+      "iri": "obo:OBI_0002139",
+      "label": "volume value specification",
+      "hasChildren": false,
+      "childrenKey": "72b38782cca286e86455d39d40f618ca617268be"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002820",
+  "children": [
+    {
+      "iri": "obo:OBI_0002823",
+      "label": "pre-moistened swab stick",
+      "hasChildren": false,
+      "childrenKey": "43817c5bb7aff8b7511545f5e36463553ffda14b"
+    }
+  ]
+}

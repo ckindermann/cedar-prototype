@@ -1,0 +1,84 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003043",
+  "children": [
+    {
+      "iri": "obo:OBI_2100121",
+      "label": "24 hour total urine volume assay",
+      "hasChildren": false,
+      "childrenKey": "a8ae94df9880ed296d03086481a46b84bc4821d6"
+    },
+    {
+      "iri": "obo:OBI_2100258",
+      "label": "24 hour urine creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "f1b67f9ca248259ff631ede6055b94b418c73ae8"
+    },
+    {
+      "iri": "obo:OBI_2100262",
+      "label": "24 hour urine protein assay",
+      "hasChildren": false,
+      "childrenKey": "5f329be6ce264d57d6c17d119484245af658bcd5"
+    },
+    {
+      "iri": "obo:OBI_2100363",
+      "label": "creatinine clearance urine creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "1df4b8f8be9756371c5102e9e3b304f0f4c601d2"
+    },
+    {
+      "iri": "obo:OBI_2100145",
+      "label": "electrolytes urine potassium assay",
+      "hasChildren": false,
+      "childrenKey": "6ff895f36a684f6e61052a544149499453916854"
+    },
+    {
+      "iri": "obo:OBI_2100144",
+      "label": "electrolytes urine sodium assay",
+      "hasChildren": false,
+      "childrenKey": "b6b91d2902d432a481f48432a67bb13bf93eb770"
+    },
+    {
+      "iri": "obo:OBI_2100138",
+      "label": "random electrolytes urine potassium assay",
+      "hasChildren": false,
+      "childrenKey": "c207c93e18e2786e44bfdf75f7db7c0713cca542"
+    },
+    {
+      "iri": "obo:OBI_2100137",
+      "label": "random electrolytes urine sodium assay",
+      "hasChildren": false,
+      "childrenKey": "cfd2a360ffdb65a66eaafe31a79c548c21f6aa9a"
+    },
+    {
+      "iri": "obo:OBI_2100139",
+      "label": "urine creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "ad5f4866ad512824916aef4f24c1476e391316b5"
+    },
+    {
+      "iri": "obo:OBI_0003286",
+      "label": "urine microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "a9ade8702f35bda5892948bac7a295e2783e3310"
+    },
+    {
+      "iri": "obo:OBI_2100140",
+      "label": "urine osmolality assay",
+      "hasChildren": false,
+      "childrenKey": "265aee580dd6830c69f76607105501756ace142f"
+    },
+    {
+      "iri": "obo:OBI_2100205",
+      "label": "urine protein assay",
+      "hasChildren": false,
+      "childrenKey": "6da77ecbbeb4d4ce946e7696f180fd5d600af51e"
+    },
+    {
+      "iri": "obo:OBI_2100297",
+      "label": "urine sodium assay",
+      "hasChildren": false,
+      "childrenKey": "721349e9c42c1de1135c9d8725fc8c955c55005e"
+    }
+  ]
+}

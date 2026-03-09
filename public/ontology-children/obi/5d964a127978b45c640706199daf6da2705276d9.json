@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110128",
+  "children": [
+    {
+      "iri": "obo:OBI_0003127",
+      "label": "B cell epitope assay",
+      "hasChildren": true,
+      "childrenKey": "f1444f284023af55c072b0455b15ac6657f03cdb"
+    },
+    {
+      "iri": "obo:OBI_0002075",
+      "label": "MHC ligand assay",
+      "hasChildren": true,
+      "childrenKey": "cb496c31842a6cc5ad24b70007cdcc888e24309f"
+    },
+    {
+      "iri": "obo:OBI_0003128",
+      "label": "T cell epitope assay",
+      "hasChildren": true,
+      "childrenKey": "f7e390877c8e2a7235601e06021ed0fbd0221653"
+    }
+  ]
+}

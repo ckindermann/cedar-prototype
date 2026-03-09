@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400169",
+  "children": [
+    {
+      "iri": "obo:OBI_0001079",
+      "label": "confocal microscope",
+      "hasChildren": true,
+      "childrenKey": "52b26aa17b2363022866a21bf9b6e54815c5ac04"
+    },
+    {
+      "iri": "obo:OBI_0001126",
+      "label": "digital microscope",
+      "hasChildren": false,
+      "childrenKey": "a59509dc41f12ef4f6cdeb1060d7675ad35ed36e"
+    },
+    {
+      "iri": "obo:OBI_0000990",
+      "label": "electron microscope",
+      "hasChildren": false,
+      "childrenKey": "07965f0e639bd8c8eedd4b630bc397f43fb7eda9"
+    },
+    {
+      "iri": "obo:OBI_0001096",
+      "label": "laser capture microdissection microscope",
+      "hasChildren": false,
+      "childrenKey": "14ad8dde70d68b686cf366e1a8a5d3bd43aec4f0"
+    },
+    {
+      "iri": "obo:OBI_0000940",
+      "label": "optical microscope",
+      "hasChildren": true,
+      "childrenKey": "ddc2f62fe34074a7fc661db20860daef318d91b2"
+    },
+    {
+      "iri": "obo:OBI_0001105",
+      "label": "scanning force microscope",
+      "hasChildren": false,
+      "childrenKey": "9a84800ba2e9eb76381608444acfea63b8a15fb4"
+    }
+  ]
+}

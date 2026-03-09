@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200181",
+  "children": [
+    {
+      "iri": "obo:OBI_0200079",
+      "label": "arithmetic mean calculation",
+      "hasChildren": false,
+      "childrenKey": "b3f9a9c8eb22c3a532472c2ba4651ee25a305b95"
+    },
+    {
+      "iri": "obo:OBI_0200001",
+      "label": "geometric mean calculation",
+      "hasChildren": false,
+      "childrenKey": "83b12bc573eef1a2ed5de4972d83d0f996bd86d0"
+    },
+    {
+      "iri": "obo:OBI_0200119",
+      "label": "median calculation",
+      "hasChildren": false,
+      "childrenKey": "431269e012c5bf7a7f72bbb06118a6b6f9559787"
+    },
+    {
+      "iri": "obo:OBI_0200117",
+      "label": "mode calculation",
+      "hasChildren": false,
+      "childrenKey": "bf0d851f898214d09850eb6d2e5350a05cc61751"
+    },
+    {
+      "iri": "obo:OBI_0200028",
+      "label": "quantile transformation",
+      "hasChildren": false,
+      "childrenKey": "a834eb97fb5aa006375f6a9fec2d75908a27aadd"
+    },
+    {
+      "iri": "obo:OBI_0200123",
+      "label": "skewness calculation",
+      "hasChildren": false,
+      "childrenKey": "d0aa477f7e3e8814ed7b17626fd86a4ca8699da5"
+    }
+  ]
+}

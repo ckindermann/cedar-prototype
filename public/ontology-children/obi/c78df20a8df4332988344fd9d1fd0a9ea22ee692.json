@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000836",
+  "children": [
+    {
+      "iri": "obo:OBI_0000784",
+      "label": "anticoagulant-containing test tube",
+      "hasChildren": false,
+      "childrenKey": "9f43944162ff87d1db46289b95b89c1557ba147c"
+    },
+    {
+      "iri": "obo:OBI_0400020",
+      "label": "cell sorter collection tube",
+      "hasChildren": false,
+      "childrenKey": "9ec50f37fccdbf2bdddbdc301e3bf54bb0931f16"
+    },
+    {
+      "iri": "obo:OBI_0400091",
+      "label": "cytometer sample tube",
+      "hasChildren": false,
+      "childrenKey": "81b2a730a3ed97a416845e0594a254f2c4f545fe"
+    },
+    {
+      "iri": "obo:OBI_0000578",
+      "label": "NMR sample tube",
+      "hasChildren": false,
+      "childrenKey": "a90c4755628333b2c6a80ba217cdd9ddd1fe67b2"
+    },
+    {
+      "iri": "obo:OBI_0000084",
+      "label": "polystyrene tube",
+      "hasChildren": false,
+      "childrenKey": "2b302ce75902cc2c0ccb8466860b4673c405ee77"
+    }
+  ]
+}

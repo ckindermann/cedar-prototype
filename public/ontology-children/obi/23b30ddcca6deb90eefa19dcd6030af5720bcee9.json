@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001318",
+  "children": [
+    {
+      "iri": "obo:OBI_0003229",
+      "label": "plasma proteomics assay",
+      "hasChildren": false,
+      "childrenKey": "366fbd4a6ca0f0b5af4507213b5bf24711457cbb"
+    }
+  ]
+}

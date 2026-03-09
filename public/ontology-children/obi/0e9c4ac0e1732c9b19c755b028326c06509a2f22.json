@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003488",
+  "children": [
+    {
+      "iri": "obo:OBI_0001452",
+      "label": "cell culture analyte detection bioassay measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "69929ee93101e0f44ad87942cb77050e6f7f205e"
+    }
+  ]
+}

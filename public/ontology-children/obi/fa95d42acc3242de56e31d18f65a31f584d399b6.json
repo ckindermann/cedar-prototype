@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2000013",
+  "children": [
+    {
+      "iri": "obo:OBI_2000012",
+      "label": "umbilical cord blood specimen",
+      "hasChildren": false,
+      "childrenKey": "9c36e404c4c7f397f0b07ce38a2f83d8e9401d39"
+    }
+  ]
+}

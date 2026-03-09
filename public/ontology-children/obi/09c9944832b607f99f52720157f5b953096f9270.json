@@ -1,0 +1,90 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0500027",
+  "children": [
+    {
+      "iri": "obo:OBI_0002555",
+      "label": "age group inclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "72bc2f102bec1a3d1c048a4d846684e3cb2b8016"
+    },
+    {
+      "iri": "obo:OBI_0002423",
+      "label": "age of majority inclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "253bf42851a8b32f8bee7c017ffa1f52a7050693"
+    },
+    {
+      "iri": "obo:OBI_0002428",
+      "label": "BMI range inclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "efd8fc04e508efd8975e0e8418a1f7796c38f84e"
+    },
+    {
+      "iri": "obo:OBI_0002455",
+      "label": "clinically relevant exposure inclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "8665bc8386144d8ca2533eb13b7a708bba582ed4"
+    },
+    {
+      "iri": "obo:OBI_0002454",
+      "label": "clinically relevant lifestyle inclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "14bc2e4083b06ab776bbd71ac5167f5431b7182f"
+    },
+    {
+      "iri": "obo:OBI_0002562",
+      "label": "country of residence inclusion criteria",
+      "hasChildren": false,
+      "childrenKey": "b956fede35456e2617f5d5c343b64c0bc4a7939b"
+    },
+    {
+      "iri": "obo:OBI_0002460",
+      "label": "defined population inclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "f735d1ee7f6010b1d79f271d40887fe342bada1a"
+    },
+    {
+      "iri": "obo:OBI_0002563",
+      "label": "ethnicity inclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "b1d53f2445c6501adbe1acdabb911ee9109caf95"
+    },
+    {
+      "iri": "obo:OBI_0002560",
+      "label": "family status inclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "4df91a7aeae92eadb3b22abd8894aea155365df8"
+    },
+    {
+      "iri": "obo:OBI_0002456",
+      "label": "gravidity inclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "5966de6efc0df0c5b0a1a1209c48f015940584f7"
+    },
+    {
+      "iri": "obo:OBI_0002453",
+      "label": "health status inclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "f58e2a4e0e7d1126366ac03aeb576ded77765440"
+    },
+    {
+      "iri": "obo:OBI_0002559",
+      "label": "hospital patient inclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "3d68afcd96b80b933f317e13cb74fab1530ae8ed"
+    },
+    {
+      "iri": "obo:OBI_0002561",
+      "label": "sex inclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "ecb68211448eb63dde6e391d121921f811fc4022"
+    },
+    {
+      "iri": "obo:OBI_0002558",
+      "label": "use of medication inclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "ccc3dfbdbf6dede454aa7417fa2467aecb02432a"
+    }
+  ]
+}

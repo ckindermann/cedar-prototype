@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000611",
+  "children": [
+    {
+      "iri": "obo:OBI_0000477",
+      "label": "Varian GEMINI spectrometer",
+      "hasChildren": false,
+      "childrenKey": "a864de6a04a6c7fd187e2b40c4a02776f9e27325"
+    },
+    {
+      "iri": "obo:OBI_0000631",
+      "label": "Varian MERCURY spectrometer",
+      "hasChildren": false,
+      "childrenKey": "4e3688f2ae391890699d077f2e66226e12dd49e8"
+    },
+    {
+      "iri": "obo:OBI_0000558",
+      "label": "Varian UNITY INOVA spectrometer",
+      "hasChildren": false,
+      "childrenKey": "6632e22587c9a2b33f4d465603e2b21614e78a35"
+    },
+    {
+      "iri": "obo:OBI_0000579",
+      "label": "Varian UNITY spectrometer",
+      "hasChildren": false,
+      "childrenKey": "8ea0454cf926949d4a2b202a41d5b3904da64291"
+    },
+    {
+      "iri": "obo:OBI_0000524",
+      "label": "Varian VXR spectrometer",
+      "hasChildren": false,
+      "childrenKey": "8e1bf4453abc27418f191c3130ed9e2fab94e58e"
+    }
+  ]
+}

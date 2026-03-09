@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001898",
+  "children": [
+    {
+      "iri": "obo:OBI_0001615",
+      "label": "investigation description",
+      "hasChildren": false,
+      "childrenKey": "7bf8caa65a5c76f7e043c5db9473faaf23ba1b3e"
+    },
+    {
+      "iri": "obo:OBI_0001622",
+      "label": "investigation title",
+      "hasChildren": false,
+      "childrenKey": "9b229fefc10279d705990679984eda033d406b20"
+    }
+  ]
+}

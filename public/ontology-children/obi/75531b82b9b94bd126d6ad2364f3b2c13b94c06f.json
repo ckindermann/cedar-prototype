@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200187",
+  "children": [
+    {
+      "iri": "obo:OBI_0200058",
+      "label": "b cell epitope prediction",
+      "hasChildren": false,
+      "childrenKey": "bc241b9c0c34aac38479a87cfe791d0cfe04ae12"
+    },
+    {
+      "iri": "obo:OBI_0200059",
+      "label": "mhc binding prediction",
+      "hasChildren": false,
+      "childrenKey": "39445400e0162a06714c66f74856b05c2aae3732"
+    },
+    {
+      "iri": "obo:OBI_0002567",
+      "label": "sequence alignment",
+      "hasChildren": false,
+      "childrenKey": "181c8244a7cf215f6e71f95802c6b8e334b51793"
+    },
+    {
+      "iri": "obo:OBI_0002568",
+      "label": "sequence data feature count tabulation",
+      "hasChildren": false,
+      "childrenKey": "81aa4ced324261a1902617eb7771d16d834a2b9b"
+    },
+    {
+      "iri": "obo:OBI_0001966",
+      "label": "sequence library data demultiplexing",
+      "hasChildren": false,
+      "childrenKey": "9b22959b2889c3c6e0dd4b4eb3e6542b17e95d64"
+    },
+    {
+      "iri": "obo:OBI_0200060",
+      "label": "t cell epitope prediction",
+      "hasChildren": false,
+      "childrenKey": "9c3896a46b4407559c5285b882a2724455258189"
+    }
+  ]
+}

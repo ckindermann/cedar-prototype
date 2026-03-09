@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110111",
+  "children": [
+    {
+      "iri": "obo:OBI_1110114",
+      "label": "contact to pathogen carrying biological vector",
+      "hasChildren": false,
+      "childrenKey": "bac6e304e27d1ee766a1584d1567adef128879ae"
+    },
+    {
+      "iri": "obo:OBI_1110018",
+      "label": "living in endemic area",
+      "hasChildren": false,
+      "childrenKey": "b90e77e596c1df359a01f6abee97f3f6924a60d8"
+    },
+    {
+      "iri": "obo:OBI_1110017",
+      "label": "living with infected household contact",
+      "hasChildren": false,
+      "childrenKey": "91c8ca7f51d93408bceabf1fdb204f88e6da54df"
+    },
+    {
+      "iri": "obo:OBI_1110019",
+      "label": "pathogen release in laboratory accident",
+      "hasChildren": false,
+      "childrenKey": "ddc4847bcf1273bbb51cba644945e6b37483abb4"
+    }
+  ]
+}

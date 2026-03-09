@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001777",
+  "children": [
+    {
+      "iri": "obo:OBI_0002061",
+      "label": "cytometric bead array assay measuring epitope specific chemokine (C-C motif) ligand 22 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "2fca8425c38747965591bc3046ac90c95f55bb20"
+    },
+    {
+      "iri": "obo:OBI_0001763",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific chemokine (C-C motif) ligand 22 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "545ee1a8ee2bed1546648f25f36c28c17865bde1"
+    }
+  ]
+}

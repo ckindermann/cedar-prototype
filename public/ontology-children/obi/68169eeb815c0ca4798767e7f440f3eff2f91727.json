@@ -1,0 +1,60 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002676",
+  "children": [
+    {
+      "iri": "obo:OBI_0002669",
+      "label": "assay measuring epitope specific helper T cell enhancement of a B cell mediated immune response resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "2d5de05014371d77f9f90a9cfcf429cd2e17e0dd"
+    },
+    {
+      "iri": "obo:OBI_0002670",
+      "label": "assay measuring epitope specific helper T cell enhancement of a T cell mediated immune response resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "ebc00610812ad2781533915b9474cd97a6aaf1cb"
+    },
+    {
+      "iri": "obo:OBI_0002668",
+      "label": "in vivo assay measuring epitope specific proliferation of T cells resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "5ee5330b01afa580c8e8b89b5679b5251a020495"
+    },
+    {
+      "iri": "obo:OBI_0002671",
+      "label": "in vivo assay measuring epitope specific T cell killing resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "121d2c6fdf061219c605886de98fd066b05bee01"
+    },
+    {
+      "iri": "obo:OBI_0002678",
+      "label": "in vivo assay measuring T cell epitope specific disease exacerbation resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "c5381912d1aef2a5dbb0a13d739265b611c50719"
+    },
+    {
+      "iri": "obo:OBI_0002635",
+      "label": "in vivo assay measuring T cell epitope specific disease reduction resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "8530e51d50447effdcd57ed5388be0b6b412bc62"
+    },
+    {
+      "iri": "obo:OBI_0002637",
+      "label": "in vivo assay measuring T cell epitope specific protection from challenge resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": true,
+      "childrenKey": "4969b0900a506fb3b339a31ac1035da22b281132"
+    },
+    {
+      "iri": "obo:OBI_0002645",
+      "label": "in vivo assay measuring T cell epitope specific tolerance induction resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "40a92088d8b3123ad4bec519b707b5af3b706790"
+    },
+    {
+      "iri": "obo:OBI_0002667",
+      "label": "in vivo skin test assay measuring T cell epitope specific type IV hypersensitivity resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "5aef7e43f1951164db51e6e65c128fe8d6d8e210"
+    }
+  ]
+}

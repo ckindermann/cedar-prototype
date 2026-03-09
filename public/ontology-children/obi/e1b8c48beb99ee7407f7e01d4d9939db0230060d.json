@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000017",
+  "children": [
+    {
+      "iri": "obo:OBI_0000016",
+      "label": "regulation-assigned role",
+      "hasChildren": true,
+      "childrenKey": "a18a3d50abcedc666b3a9ed336048ed92e2b1f82"
+    },
+    {
+      "iri": "obo:OBI_0000014",
+      "label": "regulator role",
+      "hasChildren": true,
+      "childrenKey": "b1439b889e4c1228ba010cdf0abe6d1921357c05"
+    }
+  ]
+}

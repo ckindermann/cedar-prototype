@@ -1,0 +1,54 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000659",
+  "children": [
+    {
+      "iri": "obo:OBI_0002913",
+      "label": "arthropod specimen collection process",
+      "hasChildren": true,
+      "childrenKey": "4ade979bdfaa7ad38650cdf4fa147e255680daec"
+    },
+    {
+      "iri": "obo:OBI_0002785",
+      "label": "aspiration specimen collection",
+      "hasChildren": false,
+      "childrenKey": "d8e491544d10a7a2bb80eaca13753c77b29224b4"
+    },
+    {
+      "iri": "obo:OBI_0600005",
+      "label": "collecting specimen from organism",
+      "hasChildren": true,
+      "childrenKey": "8d46aaf50ad1f143af2094e19ee68dab930a3ac3"
+    },
+    {
+      "iri": "obo:OBI_0002600",
+      "label": "collecting specimen with swab",
+      "hasChildren": false,
+      "childrenKey": "c6cef1b50e8cbf0b245fe5478dc5c0d44cbfac13"
+    },
+    {
+      "iri": "obo:OBI_0600012",
+      "label": "environmental material collection process",
+      "hasChildren": false,
+      "childrenKey": "7c4eb867e65fe230381b8b1f2ecf1677dea27fc1"
+    },
+    {
+      "iri": "obo:OBI_0000341",
+      "label": "histological sample preparation",
+      "hasChildren": false,
+      "childrenKey": "4dd668db5aeee66a2a3d68c04982a7d5ebb45a51"
+    },
+    {
+      "iri": "obo:OBI_0000744",
+      "label": "material sampling process",
+      "hasChildren": false,
+      "childrenKey": "f6b041409959f41e64fdeeef0b63e4b7fa4ccd26"
+    },
+    {
+      "iri": "obo:OBI_0002078",
+      "label": "specimen set collection process",
+      "hasChildren": false,
+      "childrenKey": "e26c059d2bd8bf80248e99f9f12a0b4e4be60a00"
+    }
+  ]
+}

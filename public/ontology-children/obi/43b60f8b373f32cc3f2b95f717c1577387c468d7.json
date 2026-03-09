@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000181",
+  "children": [
+    {
+      "iri": "obo:OBI_0003086",
+      "label": "laboratory-based population",
+      "hasChildren": false,
+      "childrenKey": "8167468d647ddbf1fe8936ac085d527aa52fb449"
+    }
+  ]
+}

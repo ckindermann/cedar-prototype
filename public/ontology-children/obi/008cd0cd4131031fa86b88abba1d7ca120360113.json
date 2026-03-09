@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000787",
+  "children": [
+    {
+      "iri": "obo:OBI_0000805",
+      "label": "antithrombin-III berichrome assay",
+      "hasChildren": false,
+      "childrenKey": "792675ebf9b5946ac445bc7ce25865196bee4af0"
+    }
+  ]
+}

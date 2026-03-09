@@ -1,0 +1,150 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002692",
+  "children": [
+    {
+      "iri": "obo:OBI_0001674",
+      "label": "cap analysis of gene expression assay",
+      "hasChildren": false,
+      "childrenKey": "631c77c46ec4269a355a72bec6266a1ab13b0002"
+    },
+    {
+      "iri": "obo:OBI_0001919",
+      "label": "Carbon-copy chromosome conformation capture assay",
+      "hasChildren": true,
+      "childrenKey": "b9be8839601e02421673b65c3fa05f1227934fc7"
+    },
+    {
+      "iri": "obo:OBI_0002169",
+      "label": "ChIP-qPCR assay",
+      "hasChildren": false,
+      "childrenKey": "cd7bd2e4bb3a186df33d167cfa81a254ca1ba2fe"
+    },
+    {
+      "iri": "obo:OBI_0002458",
+      "label": "chromosome conformation capture-on-chip assay",
+      "hasChildren": true,
+      "childrenKey": "7de5c451fd21ca9a9b455a9264a1d73974ceb769"
+    },
+    {
+      "iri": "obo:OBI_0001915",
+      "label": "DNA replication timing by array assay",
+      "hasChildren": false,
+      "childrenKey": "aec41860734bde169b8bf4500644a578e2643c68"
+    },
+    {
+      "iri": "obo:OBI_0003031",
+      "label": "fluorogenic PCR assay",
+      "hasChildren": false,
+      "childrenKey": "34c77afc95a631baf996fc35108daa049d7fff82"
+    },
+    {
+      "iri": "obo:OBI_0003032",
+      "label": "genotyping by PCR assay",
+      "hasChildren": false,
+      "childrenKey": "ed62d2b621dfcdc71723197e442d422b2322b31a"
+    },
+    {
+      "iri": "obo:OBI_0002719",
+      "label": "insecticide resistance by amplification refractory mutation system assay",
+      "hasChildren": false,
+      "childrenKey": "87565a92d1638e7056098dd935a48a7615548054"
+    },
+    {
+      "iri": "obo:OBI_0002725",
+      "label": "insecticide resistance by fluorogenic PCR assay",
+      "hasChildren": false,
+      "childrenKey": "a5dd37f0e557d98aa9e937c8b7e24ac9f0d6f4e8"
+    },
+    {
+      "iri": "obo:OBI_0002721",
+      "label": "insecticide resistance by nested polymerase chain reaction assay",
+      "hasChildren": false,
+      "childrenKey": "a2c9cb281245add7ec72e92cec14ff8aa690da32"
+    },
+    {
+      "iri": "obo:OBI_0002724",
+      "label": "insecticide resistance by PCR amplification of specific alleles assay",
+      "hasChildren": false,
+      "childrenKey": "f7f8421a03eca26d291f6809a46ac8bbc712ad5b"
+    },
+    {
+      "iri": "obo:OBI_0002726",
+      "label": "insecticide resistance by PCR-RFLP assay",
+      "hasChildren": false,
+      "childrenKey": "c42811b5b6bed063513316b46943165387a4a941"
+    },
+    {
+      "iri": "obo:OBI_0002720",
+      "label": "insecticide resistance by primer introduced restriction analysis PCR assay",
+      "hasChildren": false,
+      "childrenKey": "0480f188a020bba2684314b17661a785dcc9b00b"
+    },
+    {
+      "iri": "obo:OBI_0002727",
+      "label": "insecticide resistance by short interspersed elements PCR assay",
+      "hasChildren": false,
+      "childrenKey": "cb7cba6d819cef510d234456901be80bda76bd00"
+    },
+    {
+      "iri": "obo:OBI_0002740",
+      "label": "organism detection by PCR assay",
+      "hasChildren": false,
+      "childrenKey": "7b6816fb474564c17d2e20b7c713086a741f4d8e"
+    },
+    {
+      "iri": "obo:OBI_0003045",
+      "label": "parasite detection by PCR assay",
+      "hasChildren": true,
+      "childrenKey": "09237f9d3c38d766414e560a010937afb4472796"
+    },
+    {
+      "iri": "obo:OBI_0302737",
+      "label": "PCR-SSCP assay",
+      "hasChildren": false,
+      "childrenKey": "05816bc18a0d61f20f316719f9a5b241a6feb3d5"
+    },
+    {
+      "iri": "obo:OBI_0002457",
+      "label": "precision nuclear run-on sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "97fa25dd58cb37eaff5b8ff72d532ce07456718b"
+    },
+    {
+      "iri": "obo:OBI_0002753",
+      "label": "PRO-cap",
+      "hasChildren": false,
+      "childrenKey": "4b3670b2514f23430985961d89bd7503ad27f1da"
+    },
+    {
+      "iri": "obo:OBI_0003113",
+      "label": "proximity extension assay",
+      "hasChildren": true,
+      "childrenKey": "d7eb07754886c204c3fc4e73fe012213adb884ba"
+    },
+    {
+      "iri": "obo:OBI_0000893",
+      "label": "real time polymerase chain reaction assay",
+      "hasChildren": true,
+      "childrenKey": "e7fdda6f02d738c917388afbbc3bb0ed71c7dfad"
+    },
+    {
+      "iri": "obo:OBI_0000911",
+      "label": "real time reverse-transcription polymerase chain reaction assay",
+      "hasChildren": true,
+      "childrenKey": "609912a084ea40a81d73b39fc64a3e7fdbb54d6d"
+    },
+    {
+      "iri": "obo:OBI_0001170",
+      "label": "reverse transcription polymerase chain reaction assay",
+      "hasChildren": false,
+      "childrenKey": "d1dd769a49ae66352a317fca24d4922a1a556be6"
+    },
+    {
+      "iri": "obo:OBI_0001361",
+      "label": "transcription profiling by RT-PCR assay",
+      "hasChildren": false,
+      "childrenKey": "24921496df5f87a632b0124732cb57937df9153a"
+    }
+  ]
+}

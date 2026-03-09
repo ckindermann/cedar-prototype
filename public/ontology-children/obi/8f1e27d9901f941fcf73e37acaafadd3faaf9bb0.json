@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003561",
+  "children": [
+    {
+      "iri": "obo:OBI_0003570",
+      "label": "intracarotid administration",
+      "hasChildren": false,
+      "childrenKey": "9f537df23989bb7f6d3d80440547cfa66f572ea3"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000880",
+  "children": [
+    {
+      "iri": "obo:OBI_0000876",
+      "label": "cytoplasmic RNA extract",
+      "hasChildren": false,
+      "childrenKey": "cbcd097d993a60af7f685f47bbe696cd1c6372c2"
+    },
+    {
+      "iri": "obo:OBI_0000862",
+      "label": "nuclear RNA extract",
+      "hasChildren": false,
+      "childrenKey": "671516462d59ba30064b45bed8076b62e93bd314"
+    },
+    {
+      "iri": "obo:OBI_0000899",
+      "label": "organellar RNA extract",
+      "hasChildren": false,
+      "childrenKey": "45041f306a2a996318292291d2b57b2c54826885"
+    },
+    {
+      "iri": "obo:OBI_0002573",
+      "label": "polyA depleted RNA extract",
+      "hasChildren": false,
+      "childrenKey": "068fb3d8988029223919ecf6581fc21144cfe53a"
+    },
+    {
+      "iri": "obo:OBI_0000869",
+      "label": "polyA RNA extract",
+      "hasChildren": false,
+      "childrenKey": "1911fa780f291d9afd9f64964c4487850c627445"
+    },
+    {
+      "iri": "obo:OBI_0002627",
+      "label": "ribosomal RNA-depleted RNA extract",
+      "hasChildren": false,
+      "childrenKey": "64acd3421345fd0218eda800d2dfa75224ca871a"
+    },
+    {
+      "iri": "obo:OBI_0000895",
+      "label": "total RNA extract",
+      "hasChildren": false,
+      "childrenKey": "f2a6835e4334c22494ce8944efbb223bfae15434"
+    }
+  ]
+}

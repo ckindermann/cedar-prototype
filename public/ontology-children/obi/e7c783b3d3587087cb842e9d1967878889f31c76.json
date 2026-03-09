@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110131",
+  "children": [
+    {
+      "iri": "obo:OBI_0002071",
+      "label": "in vitro assay measuring epitope specific proliferation of T cells",
+      "hasChildren": true,
+      "childrenKey": "7f8b7430823758811128226c2ba8f51c9566aa4c"
+    },
+    {
+      "iri": "obo:OBI_0002070",
+      "label": "in vivo assay measuring epitope specific proliferation of T cells",
+      "hasChildren": true,
+      "childrenKey": "3d0eddcaf6b14c1cadff5414ed9ddbc3a481c006"
+    }
+  ]
+}

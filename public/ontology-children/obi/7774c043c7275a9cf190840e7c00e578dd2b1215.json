@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000872",
+  "children": [
+    {
+      "iri": "obo:OBI_0000865",
+      "label": "96-well neutralization assay",
+      "hasChildren": false,
+      "childrenKey": "9603c8e4e5a6d62e2f9b8befd8f5561f09031c72"
+    }
+  ]
+}

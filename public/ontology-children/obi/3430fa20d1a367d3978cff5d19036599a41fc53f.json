@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400060",
+  "children": [
+    {
+      "iri": "obo:OBI_0400010",
+      "label": "argon ion laser",
+      "hasChildren": false,
+      "childrenKey": "8174ed9754a15134cf48b4124b65836c25092d40"
+    },
+    {
+      "iri": "obo:OBI_0400053",
+      "label": "helium neon ion laser",
+      "hasChildren": false,
+      "childrenKey": "12e572129fba3d56d9a455792cc3ce3f32570481"
+    },
+    {
+      "iri": "obo:OBI_0400062",
+      "label": "krypton ion laser",
+      "hasChildren": false,
+      "childrenKey": "f350340983c309cbb1a2a068579dca8ce8b39a97"
+    },
+    {
+      "iri": "obo:OBI_0400074",
+      "label": "mixed argon-krypton gas laser",
+      "hasChildren": false,
+      "childrenKey": "251fefb3433b6f4390f606abf6e3c5ef7848f287"
+    }
+  ]
+}

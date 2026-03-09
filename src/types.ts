@@ -1,5 +1,26 @@
-export type FieldType = 'text' | 'email' | 'number' | 'date' | 'textarea' | 'select' | 'checkbox' | 'template';
+export type FieldType =
+  | 'text'
+  | 'email'
+  | 'number'
+  | 'date'
+  | 'textarea'
+  | 'select'
+  | 'ontology-select'
+  | 'checkbox'
+  | 'template';
 export type BuilderProfile = 'basic' | 'semantic' | 'modular';
+
+export interface OntologyClassOption {
+  iri: string;
+  label: string;
+}
+
+export interface OntologyOptionSource {
+  mode: 'single' | 'children' | 'branch';
+  iri: string;
+  label: string;
+  options: OntologyClassOption[];
+}
 
 export interface ValidationRule {
   type: 'regex' | 'min' | 'max' | 'minLength' | 'maxLength';
@@ -25,12 +46,15 @@ export interface CustomFieldType {
   id: string;
   name: string;
   nameIri?: string; // Semantic identifier for field name
+  nameIriLabel?: string; // Human-readable label for the configured IRI
   baseType: FieldType;
   icon: string;
   version: number;
   description?: string;
   validationRules: ValidationRule[];
   defaultPlaceholder?: string;
+  ontologyOptions?: OntologyClassOption[]; // For ontology-backed dropdown behavior
+  ontologyOptionSources?: OntologyOptionSource[]; // Explicit ontology option configuration sources
   libraryIds?: string[]; // Which libraries this field belongs to (empty = unassigned)
 }
 
@@ -45,10 +69,13 @@ export interface FormField {
   label: string;
   description?: string; // Optional field description shown in preview tooltip
   nameIri?: string; // Semantic identifier for field label
+  nameIriLabel?: string; // Human-readable label for the configured IRI
   placeholder?: string;
   required: boolean;
   multiple: boolean;
   options?: string[]; // For select fields
+  ontologyOptions?: OntologyClassOption[]; // For ontology-select fields
+  ontologyOptionSources?: OntologyOptionSource[]; // Explicit ontology option configuration sources
   validationRules?: ValidationRule[]; // Inherited from custom field or custom per-field
 }
 
@@ -56,6 +83,7 @@ export interface FormSchema {
   id: string;
   title: string;
   nameIri?: string; // Semantic identifier for template name
+  nameIriLabel?: string; // Human-readable label for the configured IRI
   version: number;
   description?: string;
   fields: FormField[];

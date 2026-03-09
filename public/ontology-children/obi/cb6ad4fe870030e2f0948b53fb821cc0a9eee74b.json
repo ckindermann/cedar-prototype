@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002919",
+  "children": [
+    {
+      "iri": "obo:OBI_0002904",
+      "label": "adult arthropod specimen collection process",
+      "hasChildren": true,
+      "childrenKey": "763ec10b0814742e5c483e0d7175b74d4f25bf97"
+    },
+    {
+      "iri": "obo:OBI_0002918",
+      "label": "knockdown arthropod specimen collection process",
+      "hasChildren": true,
+      "childrenKey": "074c0da8c32553dd6fb9fa34007a80cd6112e196"
+    }
+  ]
+}

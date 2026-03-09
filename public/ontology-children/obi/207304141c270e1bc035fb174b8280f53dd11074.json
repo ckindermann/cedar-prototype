@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000748",
+  "children": [
+    {
+      "iri": "obo:OBI_0002094",
+      "label": "MethylC-Capture sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "cf367b371688e586fd79bd264dc92ff8b68d612d"
+    },
+    {
+      "iri": "obo:OBI_0001862",
+      "label": "reduced representation bisulfite sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "ff006351ebd4c522ed6ae223d12ed47c1b664e6b"
+    },
+    {
+      "iri": "obo:OBI_0001863",
+      "label": "shotgun bisulfite-seq assay",
+      "hasChildren": false,
+      "childrenKey": "1d7232a6f3f2cc047ad71476bc5e6770e05e2260"
+    },
+    {
+      "iri": "obo:OBI_0002086",
+      "label": "Tet-assisted bisulfite sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "1b13e1b4b5366d0b4047b818cc0ffa84750decb7"
+    }
+  ]
+}

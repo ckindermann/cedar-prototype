@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001327",
+  "children": [
+    {
+      "iri": "obo:OBI_0001793",
+      "label": "cytometric bead array assay measuring epitope specific lymphotoxin A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "72beb4c60d9c50510525da468c04d583d53c7162"
+    },
+    {
+      "iri": "obo:OBI_0001794",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific lymphotoxin A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "1fd37a930572c697a7f2318690835a76724c62ea"
+    },
+    {
+      "iri": "obo:OBI_0001288",
+      "label": "ELISA measuring epitope specific lymphotoxin A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e32e71e3e85d5c25010f9170cc8ef8fdc27b4f34"
+    },
+    {
+      "iri": "obo:OBI_0001791",
+      "label": "ELISPOT assay measuring epitope specific lymphotoxin A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "404898bf00f5ce7d1b056a6402c4cc4c13bb27af"
+    },
+    {
+      "iri": "obo:OBI_0001453",
+      "label": "intracellular cytokine staining assay measuring epitope specific lymphotoxin A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "f7dcbc335feeb52a4ac595aa7694d7c5e3f9de00"
+    }
+  ]
+}

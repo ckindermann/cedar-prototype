@@ -1,0 +1,102 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003422",
+  "children": [
+    {
+      "iri": "obo:OBI_0003423",
+      "label": "5'-nucleotidase activity level assay",
+      "hasChildren": false,
+      "childrenKey": "b54cde7b7946b840bfb81be997c488d7ea26137c"
+    },
+    {
+      "iri": "obo:OBI_0003435",
+      "label": "acyl-CoA oxidase activity level assay",
+      "hasChildren": false,
+      "childrenKey": "c4549438194c925c17af2532a01f5946090e5bcf"
+    },
+    {
+      "iri": "obo:OBI_0003424",
+      "label": "alanine aminotransferase activity level assay",
+      "hasChildren": false,
+      "childrenKey": "b9b8fec60cd9d73e0df031d0acc49515be4502ad"
+    },
+    {
+      "iri": "obo:OBI_0003425",
+      "label": "alkaline phosphatase activity level assay",
+      "hasChildren": false,
+      "childrenKey": "e293912dba73e5f6df04b5e73f1b0d4bec336d11"
+    },
+    {
+      "iri": "obo:OBI_0003426",
+      "label": "amylase activity level assay",
+      "hasChildren": false,
+      "childrenKey": "6f0e5568446f5d45f5476465891336fca58c078b"
+    },
+    {
+      "iri": "obo:OBI_0003427",
+      "label": "aspartate aminotransferase activity level assay",
+      "hasChildren": false,
+      "childrenKey": "687ac9fa1b3724b965ae7f55fcdedc4b14962f0b"
+    },
+    {
+      "iri": "obo:OBI_0003428",
+      "label": "cholinesterase activity level assay",
+      "hasChildren": false,
+      "childrenKey": "48372aab1a36bc75ab6d0ec20b1c57d3420ba723"
+    },
+    {
+      "iri": "obo:OBI_0003429",
+      "label": "creatine kinase activity level assay",
+      "hasChildren": false,
+      "childrenKey": "61d80dd9a849fcf1ef531b822a40a13389eccd99"
+    },
+    {
+      "iri": "obo:OBI_0003438",
+      "label": "galactosidase activity level assay",
+      "hasChildren": false,
+      "childrenKey": "90aa1f26d13f293a6830ab566df8194caeb6fbf6"
+    },
+    {
+      "iri": "obo:OBI_0003430",
+      "label": "gamma-glutamyltransferase activity level assay",
+      "hasChildren": false,
+      "childrenKey": "203b3621812eac087ae0297330ed0b9fb11ed90f"
+    },
+    {
+      "iri": "obo:OBI_0003431",
+      "label": "glutamate dehydrogenase activity level assay",
+      "hasChildren": false,
+      "childrenKey": "43ea7087df7bfb4c6a26bb3a65b74e7ef2a821ce"
+    },
+    {
+      "iri": "obo:OBI_0003432",
+      "label": "isocitrate dehydrogenase activity level assay",
+      "hasChildren": false,
+      "childrenKey": "de436c6237d188878bcd7a1ad6242b7aaede57e0"
+    },
+    {
+      "iri": "obo:OBI_0003433",
+      "label": "lactate dehydrogenase activity level assay",
+      "hasChildren": false,
+      "childrenKey": "51f23b7b30fc420e2d1a13a19b7eafa3f4a44c03"
+    },
+    {
+      "iri": "obo:OBI_0003436",
+      "label": "N-acetyl-beta-glucosaminidase activity level assay",
+      "hasChildren": false,
+      "childrenKey": "c2ca8e78cb265211c89586b379f215885498b1b0"
+    },
+    {
+      "iri": "obo:OBI_0003437",
+      "label": "ribonuclease activity level assay",
+      "hasChildren": false,
+      "childrenKey": "dc743f9a354c6945e817a5add9deb925dba114d3"
+    },
+    {
+      "iri": "obo:OBI_0003434",
+      "label": "sorbitol dehydrogenase activity level assay",
+      "hasChildren": false,
+      "childrenKey": "2c89f0ebdeb1fc4fdd1fc341d80d4c5b1af6127e"
+    }
+  ]
+}

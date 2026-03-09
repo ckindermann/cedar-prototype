@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002914",
+  "children": [
+    {
+      "iri": "obo:OBI_0002915",
+      "label": "human-biting indoor arthropod specimen collection by aspiration",
+      "hasChildren": false,
+      "childrenKey": "8f664f779a415071872282cc9952d93180c9028b"
+    },
+    {
+      "iri": "obo:OBI_0002916",
+      "label": "human-biting outdoor arthropod specimen collection by aspiration",
+      "hasChildren": false,
+      "childrenKey": "c868979a26eada3748d2c98ceb7dcfacbdebe95f"
+    }
+  ]
+}

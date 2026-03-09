@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000378",
+  "children": [
+    {
+      "iri": "obo:OBI_0000380",
+      "label": "gas filter function",
+      "hasChildren": false,
+      "childrenKey": "26fd075c81c0046e375d17265173bb545f2b04da"
+    },
+    {
+      "iri": "obo:OBI_0000381",
+      "label": "liquid filter function",
+      "hasChildren": false,
+      "childrenKey": "e07e8fd650f8ed1159f1372f8ef98d70a4a579c4"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003222",
+  "children": [
+    {
+      "iri": "obo:OBI_0003223",
+      "label": "insulin concentration assay",
+      "hasChildren": false,
+      "childrenKey": "394edf4aa5a2229f4141cab525c45e25fdaf1eb1"
+    }
+  ]
+}

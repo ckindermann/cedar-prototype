@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001385",
+  "children": [
+    {
+      "iri": "obo:OBI_0001453",
+      "label": "intracellular cytokine staining assay measuring epitope specific lymphotoxin A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "f7dcbc335feeb52a4ac595aa7694d7c5e3f9de00"
+    },
+    {
+      "iri": "obo:OBI_0001552",
+      "label": "intracellular cytokine staining assay measuring epitope specific tumor necrosis factor (ligand) superfamily member 11 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "76857988e63988c8ee8f21d00830f493c4b8652b"
+    },
+    {
+      "iri": "obo:OBI_1110174",
+      "label": "intracellular cytokine staining assay measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "6c056d16c6e545d78f1e3ed5f625a9e523adcd44"
+    }
+  ]
+}

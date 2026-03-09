@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000071",
+  "children": [
+    {
+      "iri": "obo:OBI_0001265",
+      "label": "FWER adjusted p-value",
+      "hasChildren": false,
+      "childrenKey": "7af75af918d013fc8b82ddc41237617675e5d0ca"
+    },
+    {
+      "iri": "obo:OBI_0000175",
+      "label": "p-value",
+      "hasChildren": false,
+      "childrenKey": "b10a4f039c2ea6994c357c2d7f21d9605c35c783"
+    },
+    {
+      "iri": "obo:OBI_0001442",
+      "label": "q-value",
+      "hasChildren": false,
+      "childrenKey": "02151eaa9e7fde8a5a83ecab13e6539e70cc0672"
+    },
+    {
+      "iri": "obo:OBI_0000235",
+      "label": "standard error",
+      "hasChildren": false,
+      "childrenKey": "d7de3922481f8eebf3cbb86489f2b2a367658a9c"
+    }
+  ]
+}

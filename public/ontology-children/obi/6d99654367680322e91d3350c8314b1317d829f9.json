@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003666",
+  "children": [
+    {
+      "iri": "obo:OBI_0100067",
+      "label": "bronchial alveolar lavage",
+      "hasChildren": false,
+      "childrenKey": "ce65330a220c0a731482ed116294eef86f0c2e9b"
+    },
+    {
+      "iri": "obo:OBI_0003595",
+      "label": "nasal lavage fluid",
+      "hasChildren": false,
+      "childrenKey": "82348fe4374d08da5a7f7bf74a764ee7518bc4fb"
+    },
+    {
+      "iri": "obo:OBI_0003667",
+      "label": "oral lavage fluid",
+      "hasChildren": false,
+      "childrenKey": "b3f533010c503103f096826f7e4c8d94a4d522a8"
+    }
+  ]
+}

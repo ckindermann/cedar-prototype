@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001266",
+  "children": [
+    {
+      "iri": "obo:OBI_0001861",
+      "label": "methylation-sensitive restriction enzyme sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "d2a244145938f65c8ff5efa52550572063164acf"
+    },
+    {
+      "iri": "obo:OBI_0003662",
+      "label": "single-nucleus methylcytosine and transcriptome sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "119d1df9d81a6f7803c4c6f600d78ae605cd8a01"
+    }
+  ]
+}

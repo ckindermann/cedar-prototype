@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100019",
+  "children": [
+    {
+      "iri": "obo:OBI_2100235",
+      "label": "chem16 venous blood human aspartate aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "3b468effef2a12b881dffef6fe9d403f70244776"
+    },
+    {
+      "iri": "obo:OBI_2100157",
+      "label": "comprehensive metabolic panel venous blood human aspartate aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "a985730471ae93249a9f26e345b1aa78a8352691"
+    },
+    {
+      "iri": "obo:OBI_2100215",
+      "label": "hepatic panel venous blood human aspartate aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "1482c8731f7345ad16600ccbe5e1268e4aa848c7"
+    },
+    {
+      "iri": "obo:OBI_2100083",
+      "label": "liver evaluation venous blood human aspartate aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "69fffcfb36593879f8ac0d202dcfed6833ec4905"
+    },
+    {
+      "iri": "obo:OBI_2100340",
+      "label": "liver function venous blood human aspartate aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "0e46981d752d0efd58b7c15fbc81a604a1d6c2c7"
+    },
+    {
+      "iri": "obo:OBI_2100071",
+      "label": "liver injury venous blood human aspartate aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "2bed4a6bb67b8486efd7da82421ad232453a03ef"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003017",
+  "children": [
+    {
+      "iri": "obo:OBI_2100201",
+      "label": "CBC with manual differential venous blood metamyelocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "5a76d49fecca94ae15daa67b79f9ab742e99bfff"
+    },
+    {
+      "iri": "obo:OBI_0003161",
+      "label": "metamyelocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "7c555b6b2495074d74a4b89255988f4c9b5337f3"
+    },
+    {
+      "iri": "obo:OBI_0003162",
+      "label": "metamyelocyte percentage assay",
+      "hasChildren": false,
+      "childrenKey": "f0a9cda97b84a82c10a1fbbbaa6b02c1e1614b11"
+    }
+  ]
+}

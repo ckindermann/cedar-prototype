@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000113",
+  "children": [
+    {
+      "iri": "obo:OBI_0001398",
+      "label": "protein and DNA interaction identification objective",
+      "hasChildren": false,
+      "childrenKey": "ba298f7324ae32a7072af5134b337d47fe6ad29d"
+    },
+    {
+      "iri": "obo:OBI_0001854",
+      "label": "protein and RNA interaction identification objective",
+      "hasChildren": false,
+      "childrenKey": "bfb112389753e1dcdf8d40cc4b40160573ca2f35"
+    }
+  ]
+}

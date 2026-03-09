@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600046",
+  "children": [
+    {
+      "iri": "obo:OBI_0003547",
+      "label": "liquid chromatography",
+      "hasChildren": false,
+      "childrenKey": "7545052e46699f53171f5b806ae9a436848fd61b"
+    }
+  ]
+}

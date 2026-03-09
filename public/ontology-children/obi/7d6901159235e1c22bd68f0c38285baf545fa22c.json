@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002553",
+  "children": [
+    {
+      "iri": "obo:OBI_2000000",
+      "label": "uterine cervix specimen",
+      "hasChildren": false,
+      "childrenKey": "775f2e42caac157419811679f4aa391408de7e40"
+    }
+  ]
+}

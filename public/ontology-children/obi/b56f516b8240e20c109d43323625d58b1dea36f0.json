@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002097",
+  "children": [
+    {
+      "iri": "obo:OBI_0001229",
+      "label": "plasmon resonance assay measuring the dissociation constant [KD] of a T cell epitope:MHC:TCR complex",
+      "hasChildren": false,
+      "childrenKey": "923a95ae7bb4d691f7f3e2f3a35bd54e172bc43c"
+    }
+  ]
+}

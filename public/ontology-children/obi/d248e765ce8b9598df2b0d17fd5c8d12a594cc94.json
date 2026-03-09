@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002072",
+  "children": [
+    {
+      "iri": "obo:OBI_0001550",
+      "label": "assay measuring binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "66e834a54427d0ded7f303f3a822a4b0e924ac4d"
+    },
+    {
+      "iri": "obo:OBI_0001579",
+      "label": "assay measuring binding of a cell-lysate-MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "e018e6a9d6c406d0b701705194e84b1f44a93656"
+    },
+    {
+      "iri": "obo:OBI_0001555",
+      "label": "assay measuring binding of a purified-MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "28ac70fd76170ec153d17fe335011c6d1f6d3a96"
+    }
+  ]
+}

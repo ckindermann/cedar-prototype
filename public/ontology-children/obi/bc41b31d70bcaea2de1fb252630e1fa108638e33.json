@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110092",
+  "children": [
+    {
+      "iri": "obo:OBI_0000720",
+      "label": "immunologic adjuvant role",
+      "hasChildren": false,
+      "childrenKey": "b49cf9ef0b43502b3d326d92cd6acabf66e73831"
+    }
+  ]
+}

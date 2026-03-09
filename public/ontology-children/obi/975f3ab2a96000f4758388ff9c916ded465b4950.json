@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000555",
+  "children": [
+    {
+      "iri": "obo:OBI_0000464",
+      "label": "Bruker autosampler",
+      "hasChildren": true,
+      "childrenKey": "c849ba86a8369f09d092bb878720de65526e09e4"
+    }
+  ]
+}

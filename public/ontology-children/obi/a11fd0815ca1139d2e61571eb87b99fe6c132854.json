@@ -1,0 +1,48 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002055",
+  "children": [
+    {
+      "iri": "obo:OBI_1110129",
+      "label": "assay measuring epitope specific cytokine production by T cells",
+      "hasChildren": true,
+      "childrenKey": "81f5678094307de8b1da235ba46b1be90594a9b4"
+    },
+    {
+      "iri": "obo:OBI_0001269",
+      "label": "assay measuring epitope specific cytotoxic T cell degranulation",
+      "hasChildren": true,
+      "childrenKey": "7b88d1d78cdf429864bde13620f5aa7f3d7c019e"
+    },
+    {
+      "iri": "obo:OBI_1110131",
+      "label": "assay measuring epitope specific proliferation of T cells",
+      "hasChildren": true,
+      "childrenKey": "e7c783b3d3587087cb842e9d1967878889f31c76"
+    },
+    {
+      "iri": "obo:OBI_0001407",
+      "label": "assay measuring epitope specific T cell activation",
+      "hasChildren": false,
+      "childrenKey": "2e4eb49958b28f0cac5418c2b450c8c13a2f67f3"
+    },
+    {
+      "iri": "obo:OBI_1110130",
+      "label": "assay measuring epitope specific T cell killing",
+      "hasChildren": true,
+      "childrenKey": "9868edc902a9dd30048518d55f7c687325d1a469"
+    },
+    {
+      "iri": "obo:OBI_0001484",
+      "label": "assay measuring T cell epitope specific in vivo activity",
+      "hasChildren": true,
+      "childrenKey": "a0935e5ffddef43d3ba65de71d0e911f946d5bcb"
+    },
+    {
+      "iri": "obo:OBI_0002074",
+      "label": "assay measuring T cell epitope specific suppression in vitro",
+      "hasChildren": false,
+      "childrenKey": "1fc43e56e4d84e4663176728a8c3c2edaca33293"
+    }
+  ]
+}

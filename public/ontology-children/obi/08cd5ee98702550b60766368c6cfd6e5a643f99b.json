@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003601",
+  "children": [
+    {
+      "iri": "obo:OBI_0003602",
+      "label": "quartz crystal microbalance assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "8fa6e20a0d4511b9e06f47389615790589198dfc"
+    }
+  ]
+}

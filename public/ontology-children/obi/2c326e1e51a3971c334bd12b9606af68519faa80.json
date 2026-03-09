@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003245",
+  "children": [
+    {
+      "iri": "obo:OBI_0003246",
+      "label": "feces microbiology datum",
+      "hasChildren": true,
+      "childrenKey": "638c56602e50d2fc556d6cb15d8edaf95644fba8"
+    }
+  ]
+}

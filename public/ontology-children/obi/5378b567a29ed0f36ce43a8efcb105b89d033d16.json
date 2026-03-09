@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600056",
+  "children": [
+    {
+      "iri": "obo:OBI_0302891",
+      "label": "trypsination",
+      "hasChildren": false,
+      "childrenKey": "d61bb9f0a57f07d068b1070d8235ede9e5b413b1"
+    }
+  ]
+}

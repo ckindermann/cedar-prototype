@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003653",
+  "children": [
+    {
+      "iri": "obo:OBI_0003654",
+      "label": "overnight fasting",
+      "hasChildren": false,
+      "childrenKey": "8fcd86b8f4f47ad35e565a2172ef4e084bdc6ed6"
+    }
+  ]
+}

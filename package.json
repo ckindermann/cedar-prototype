@@ -4,6 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "generate:ontology": "node scripts/generate-ontology-index.mjs",
+    "predev": "npm run generate:ontology",
+    "prebuild": "npm run generate:ontology",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",

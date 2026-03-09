@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000250",
+  "children": [
+    {
+      "iri": "obo:OBI_0000026",
+      "label": "cytological stain role",
+      "hasChildren": false,
+      "childrenKey": "a51155af329f8be8a4aba8c1fab8388331cb75f7"
+    },
+    {
+      "iri": "obo:OBI_0000110",
+      "label": "pH indicator dye role",
+      "hasChildren": false,
+      "childrenKey": "e52a8227a4f893b08e68b71e574978d71dadf2f0"
+    },
+    {
+      "iri": "obo:OBI_0000221",
+      "label": "vital dye role",
+      "hasChildren": false,
+      "childrenKey": "a110cb8194b8a18fc90d9736cddc2c837f31b01d"
+    }
+  ]
+}

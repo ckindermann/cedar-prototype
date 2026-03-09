@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2000005",
+  "children": [
+    {
+      "iri": "obo:OBI_0002783",
+      "label": "lower respiratory tract specimen",
+      "hasChildren": true,
+      "childrenKey": "486ee7830eaa7aff425f40d38b486e58bcabefe4"
+    },
+    {
+      "iri": "obo:OBI_2000006",
+      "label": "upper respiratory tract specimen",
+      "hasChildren": true,
+      "childrenKey": "fc67f98536f3717375d42b103cd706acd25704da"
+    }
+  ]
+}

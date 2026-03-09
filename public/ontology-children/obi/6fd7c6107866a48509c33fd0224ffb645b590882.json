@@ -1,0 +1,72 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001184",
+  "children": [
+    {
+      "iri": "obo:OBI_0001189",
+      "label": "epitope protection experiment based on survival",
+      "hasChildren": true,
+      "childrenKey": "bbcf721740806e5c21c0e92fbf62023f216be6bb"
+    },
+    {
+      "iri": "obo:OBI_0001179",
+      "label": "epitope protection from infectious challenge experiment",
+      "hasChildren": true,
+      "childrenKey": "d6cc39e3bbd2f0b83ce921a354478f1fbcd129a9"
+    },
+    {
+      "iri": "obo:OBI_0001183",
+      "label": "epitope protection from tumor challenge experiment",
+      "hasChildren": true,
+      "childrenKey": "7067b100ef658dedb4593f219e7a0bf9a849c74a"
+    },
+    {
+      "iri": "obo:OBI_0001710",
+      "label": "in vivo assay measuring B cell epitope specific protection from challenge",
+      "hasChildren": true,
+      "childrenKey": "59619fe473e6c738c36e9d531d045fc858228402"
+    },
+    {
+      "iri": "obo:OBI_0002638",
+      "label": "in vivo assay measuring B cell epitope specific protection from challenge resulting from adoptive transfer of epitope specific antibodies or B cells",
+      "hasChildren": true,
+      "childrenKey": "fd30871bffbabcacc48dc6b79f1293623819bab2"
+    },
+    {
+      "iri": "obo:OBI_0003467",
+      "label": "in vivo assay measuring B cell epitope specific protection from other challenge",
+      "hasChildren": true,
+      "childrenKey": "b3bc22528bec3708118ad4236b1cf42959b7e370"
+    },
+    {
+      "iri": "obo:OBI_0003479",
+      "label": "in vivo assay measuring B cell epitope specific protection from other challenge resulting from the adoptive transfer of epitope specific antibodies or B cells",
+      "hasChildren": true,
+      "childrenKey": "275a4600cb48a1f77b10b18175159a6e05aec3ff"
+    },
+    {
+      "iri": "obo:OBI_0002073",
+      "label": "in vivo assay measuring T cell epitope specific protection from challenge",
+      "hasChildren": true,
+      "childrenKey": "3406bef9bfaf153328ae00fc89d7546e59b1873f"
+    },
+    {
+      "iri": "obo:OBI_0002637",
+      "label": "in vivo assay measuring T cell epitope specific protection from challenge resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": true,
+      "childrenKey": "4969b0900a506fb3b339a31ac1035da22b281132"
+    },
+    {
+      "iri": "obo:OBI_0003462",
+      "label": "in vivo assay measuring T cell epitope specific protection from other challenge",
+      "hasChildren": true,
+      "childrenKey": "5bc4ea860996dfe13dd7ff7a31d02aaa2fedaf92"
+    },
+    {
+      "iri": "obo:OBI_0003474",
+      "label": "in vivo assay measuring T cell epitope specific protection from other challenge resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": true,
+      "childrenKey": "d5c9c25a952fb199153634d8e9deff23fdc0ad76"
+    }
+  ]
+}

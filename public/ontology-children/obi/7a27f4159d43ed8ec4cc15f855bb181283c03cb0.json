@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2000004",
+  "children": [
+    {
+      "iri": "obo:OBI_0002511",
+      "label": "vitreous humor specimen",
+      "hasChildren": false,
+      "childrenKey": "8ee73344f6943d932759ec0bc2603050f58629eb"
+    }
+  ]
+}

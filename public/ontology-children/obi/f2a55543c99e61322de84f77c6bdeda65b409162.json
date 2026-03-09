@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000454",
+  "children": [
+    {
+      "iri": "obo:OBI_0002186",
+      "label": "electroencephalography",
+      "hasChildren": false,
+      "childrenKey": "0b5344895bf8f0e83545b6d1483c8099dfd8530c"
+    },
+    {
+      "iri": "obo:OBI_0002189",
+      "label": "local field potential recording",
+      "hasChildren": false,
+      "childrenKey": "4a44af2cb2fde591bbf672ec9eb9e371838bbb71"
+    },
+    {
+      "iri": "obo:OBI_0000812",
+      "label": "measuring neural activity in the caudate nucleus assay",
+      "hasChildren": false,
+      "childrenKey": "a953d66a978db716933e3124f1a51f752520ec88"
+    },
+    {
+      "iri": "obo:OBI_0002188",
+      "label": "multi-unit recording",
+      "hasChildren": false,
+      "childrenKey": "74ba61ba0d09b281298b7831f1c78f2e1c138bfd"
+    },
+    {
+      "iri": "obo:OBI_0002187",
+      "label": "single-unit recording",
+      "hasChildren": false,
+      "childrenKey": "6d17b362bb67188fb71064a5cd305740f3cdf05a"
+    }
+  ]
+}

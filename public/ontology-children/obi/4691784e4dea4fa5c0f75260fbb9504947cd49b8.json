@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400107",
+  "children": [
+    {
+      "iri": "obo:OBI_0000636",
+      "label": "acquisition computer",
+      "hasChildren": false,
+      "childrenKey": "49197515fb2cfd32f38856cce42cd71fbd32bf30"
+    },
+    {
+      "iri": "obo:OBI_0001092",
+      "label": "computer cluster",
+      "hasChildren": false,
+      "childrenKey": "7b3b018e6632ff4d55740300cd1f99bbac8f9d9c"
+    }
+  ]
+}

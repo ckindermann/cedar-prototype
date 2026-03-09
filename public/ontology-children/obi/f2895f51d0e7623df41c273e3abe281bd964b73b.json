@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001351",
+  "children": [
+    {
+      "iri": "obo:OBI_0001256",
+      "label": "epitope specific lymphotoxin A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "68a5317d2a0cd5d7af89998a257ba2bee4d68a07"
+    },
+    {
+      "iri": "obo:OBI_1110206",
+      "label": "epitope specific TNF release by T cells",
+      "hasChildren": false,
+      "childrenKey": "ccb05676d3939c338799f3d3717e8bda07d9c3f8"
+    },
+    {
+      "iri": "obo:OBI_0001518",
+      "label": "epitope specific tumor necrosis factor (ligand) superfamily member 11 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "8e32c831d334a6fa42dc6cdc1fce44655e573269"
+    }
+  ]
+}

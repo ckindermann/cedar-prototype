@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000370",
+  "children": [
+    {
+      "iri": "obo:OBI_0002087",
+      "label": "containing a specimen function",
+      "hasChildren": false,
+      "childrenKey": "68b4ec5569f73f7525ea3debc8fbc57b1f8d0bb3"
+    }
+  ]
+}

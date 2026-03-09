@@ -1,0 +1,48 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003627",
+  "children": [
+    {
+      "iri": "obo:OBI_0003629",
+      "label": "antibody purification of H2-Db protein complex",
+      "hasChildren": false,
+      "childrenKey": "9df6d0e24452e249bcdb04cf8c5dbbe03380f901"
+    },
+    {
+      "iri": "obo:OBI_0003628",
+      "label": "antibody purification of H2-Dd protein complex",
+      "hasChildren": false,
+      "childrenKey": "cd373aa75d3f7941a6928c81b952d26a195746f6"
+    },
+    {
+      "iri": "obo:OBI_0003632",
+      "label": "antibody purification of H2-Dd protein complex and/or H2-Kd protein complex",
+      "hasChildren": true,
+      "childrenKey": "4c3458c2de14f36aea699f02b81c62f5061fa5fe"
+    },
+    {
+      "iri": "obo:OBI_0003634",
+      "label": "antibody purification of H2-Kb protein complex, H2-Ks protein complex, and/or H2-Kq protein complex",
+      "hasChildren": false,
+      "childrenKey": "f761ac50b2557c3103f6c5e7e440a67826e6099b"
+    },
+    {
+      "iri": "obo:OBI_0003630",
+      "label": "antibody purification of H2-Kd protein complex",
+      "hasChildren": false,
+      "childrenKey": "48d380bf69819258dbf04d5f65db614e05ded685"
+    },
+    {
+      "iri": "obo:OBI_0003631",
+      "label": "antibody purification of H2-Ld protein complex, H2-Db protein complex, and/or H2-Dq protein complex",
+      "hasChildren": true,
+      "childrenKey": "6ddaea7b3deca9f8cb9b210ffa7bf0b0e331ba28"
+    },
+    {
+      "iri": "obo:OBI_0003633",
+      "label": "antibody purification of mouse MHC class I protein complex with H2-b haplotype and/or mouse MHC protein complex with H2-p haplotype",
+      "hasChildren": true,
+      "childrenKey": "b7ac2cb51c32cd016426f330d26e49504daad688"
+    }
+  ]
+}

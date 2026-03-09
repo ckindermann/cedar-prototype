@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002076",
+  "children": [
+    {
+      "iri": "obo:OBI_0002079",
+      "label": "specimens collected in one encounter",
+      "hasChildren": true,
+      "childrenKey": "94230240c1834c8b2df68eb150af2920841f3b3a"
+    },
+    {
+      "iri": "obo:OBI_0002081",
+      "label": "specimens collected longitudinally",
+      "hasChildren": false,
+      "childrenKey": "663218d68f6f5ed69fe0d4322fa888b7f76dd712"
+    },
+    {
+      "iri": "obo:OBI_0002077",
+      "label": "specimens derived from shared ancestor",
+      "hasChildren": false,
+      "childrenKey": "0aabafbb1491cf674819dc95351bf3a6270a6300"
+    }
+  ]
+}

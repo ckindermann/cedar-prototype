@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003015",
+  "children": [
+    {
+      "iri": "obo:OBI_0003155",
+      "label": "globulin concentration assay",
+      "hasChildren": false,
+      "childrenKey": "d2fceb4517d723c87ef715a5e39c393796c85326"
+    },
+    {
+      "iri": "obo:OBI_2100081",
+      "label": "liver evaluation venous blood globulin assay",
+      "hasChildren": false,
+      "childrenKey": "61c5dcfe73a3ecf4534427d4c6192aa93842ee38"
+    }
+  ]
+}

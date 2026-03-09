@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000696",
+  "children": [
+    {
+      "iri": "obo:OBI_0002007",
+      "label": "SOLiD 3 Plus System",
+      "hasChildren": false,
+      "childrenKey": "26b7094d41dd0825b57d6fa183ad0d36d67e1a3b"
+    },
+    {
+      "iri": "obo:OBI_0002024",
+      "label": "SOLiD 4 System",
+      "hasChildren": false,
+      "childrenKey": "cd2788cd07448bebc1a853d791b650302cca5b85"
+    }
+  ]
+}

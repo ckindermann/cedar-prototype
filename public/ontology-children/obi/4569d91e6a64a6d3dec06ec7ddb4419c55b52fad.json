@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001632",
+  "children": [
+    {
+      "iri": "obo:OBI_0001652",
+      "label": "immuno staining assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "6aca7a3a1d0ab25698f52807f61f18c30761a51f"
+    },
+    {
+      "iri": "obo:OBI_0002174",
+      "label": "immunocytochemistry",
+      "hasChildren": false,
+      "childrenKey": "6f0c9b19e4bb06a64634e0d768a53d187dc7465e"
+    },
+    {
+      "iri": "obo:OBI_0001986",
+      "label": "immunohistochemistry",
+      "hasChildren": true,
+      "childrenKey": "49479c084afb7caf0e51e8a5ddd0a90938f3e03b"
+    }
+  ]
+}

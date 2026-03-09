@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003341",
+  "children": [
+    {
+      "iri": "obo:OBI_0003342",
+      "label": "post-Gd T1 weighted magnetic resonance image data set",
+      "hasChildren": false,
+      "childrenKey": "1cbcdc4162a101485c29c2b60677da200b073843"
+    },
+    {
+      "iri": "obo:OBI_0003343",
+      "label": "T1 weighted GRE magnetic resonance image data set",
+      "hasChildren": true,
+      "childrenKey": "481df99d5bcfc09175d4e28cba4df9acf4f7a76a"
+    },
+    {
+      "iri": "obo:OBI_0003347",
+      "label": "T1 weighted SE magnetic resonance image data set",
+      "hasChildren": false,
+      "childrenKey": "f91fa678639fbab6e4e645ab040efff001dfb022"
+    }
+  ]
+}

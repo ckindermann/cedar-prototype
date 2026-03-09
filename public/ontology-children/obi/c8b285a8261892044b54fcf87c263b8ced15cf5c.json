@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002441",
+  "children": [
+    {
+      "iri": "obo:OBI_0003035",
+      "label": "coma severity assay",
+      "hasChildren": false,
+      "childrenKey": "9055faa49e600f88ab8af2b7f82b1d413f2c0fef"
+    },
+    {
+      "iri": "obo:OBI_0003501",
+      "label": "functional assessment of individual",
+      "hasChildren": true,
+      "childrenKey": "58397208e3b0d925c0e27824370d143f075ff5c5"
+    },
+    {
+      "iri": "obo:OBI_0003536",
+      "label": "observational assessment of individual",
+      "hasChildren": true,
+      "childrenKey": "ed967255cb156c909a2091c424dcfb9b35fde7f2"
+    }
+  ]
+}

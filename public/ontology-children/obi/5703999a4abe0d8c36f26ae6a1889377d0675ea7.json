@@ -1,0 +1,324 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000661",
+  "children": [
+    {
+      "iri": "obo:OBI_0001657",
+      "label": "ELISA measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "df2be9ea978c68ebd9f3daba24cc028f17063b15"
+    },
+    {
+      "iri": "obo:OBI_0003545",
+      "label": "ELISA measuring Chikungunya IgM antibody",
+      "hasChildren": false,
+      "childrenKey": "0a13d4f90d5fd3f075dc077fa461cfe3856ee67a"
+    },
+    {
+      "iri": "obo:OBI_0003316",
+      "label": "ELISA measuring epitope specific amphiregulin production by T cells",
+      "hasChildren": false,
+      "childrenKey": "d060dfe8c0518c8a1579f13a465ccbc31ad288af"
+    },
+    {
+      "iri": "obo:OBI_0001315",
+      "label": "ELISA measuring epitope specific chemokine (C-C motif) ligand 1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ad791622195ad42fc3348bf7145524e01641aba5"
+    },
+    {
+      "iri": "obo:OBI_0001378",
+      "label": "ELISA measuring epitope specific chemokine (C-C motif) ligand 4 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "1264b7cdc7a9880007670ef379b1cfe09a9798d8"
+    },
+    {
+      "iri": "obo:OBI_0001330",
+      "label": "ELISA measuring epitope specific chemokine (C-X-C motif) ligand 9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "bbc8af312409806e48922a2b611e5a89bbee7103"
+    },
+    {
+      "iri": "obo:OBI_0001521",
+      "label": "ELISA measuring epitope specific granulocyte colony stimulating factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "192426e4d5e03d5e64572170543ae2b716fbd09c"
+    },
+    {
+      "iri": "obo:OBI_1110157",
+      "label": "ELISA measuring epitope specific granulocyte macrophage colony-stimulating factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b930205b6fffe23d76965db029d682375b849e20"
+    },
+    {
+      "iri": "obo:OBI_0001663",
+      "label": "ELISA measuring epitope specific granulysin release by T cells",
+      "hasChildren": false,
+      "childrenKey": "7c4a7a4b3e315be7c6701f25d41455caef3d48fa"
+    },
+    {
+      "iri": "obo:OBI_0001461",
+      "label": "ELISA measuring epitope specific granzyme B release by T cells",
+      "hasChildren": false,
+      "childrenKey": "ed2cafc49249dbb383ac9ba99ab35ea9ab97f52a"
+    },
+    {
+      "iri": "obo:OBI_0002451",
+      "label": "ELISA measuring epitope specific interferon-alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b0c53419749276d0a721f63513cd3442c648fbcd"
+    },
+    {
+      "iri": "obo:OBI_0001751",
+      "label": "ELISA measuring epitope specific interferon-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "23b1d24cade17e5eb131ad7767619ba8a53f7805"
+    },
+    {
+      "iri": "obo:OBI_1110151",
+      "label": "ELISA measuring epitope specific interferon-gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "a2e075150076add378af165559cb04ba2be7e828"
+    },
+    {
+      "iri": "obo:OBI_0001261",
+      "label": "ELISA measuring epitope specific interleukin-1 alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b84e3ccebe4ded3d0aca7f8dbd773eb68f5a81c7"
+    },
+    {
+      "iri": "obo:OBI_1110161",
+      "label": "ELISA measuring epitope specific interleukin-1 beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "239ca42d2278be6c484b284d956563d3d66e4978"
+    },
+    {
+      "iri": "obo:OBI_1110156",
+      "label": "ELISA measuring epitope specific interleukin-10 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "a4d866dec9fa7fb79ef9cf3fe55b4b7ed25417ea"
+    },
+    {
+      "iri": "obo:OBI_1110160",
+      "label": "ELISA measuring epitope specific interleukin-12 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "8ad466aab15b1f1d7b8ae35872920624199c0648"
+    },
+    {
+      "iri": "obo:OBI_1110159",
+      "label": "ELISA measuring epitope specific interleukin-13 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "79d10b4af49f551f6c0a3dd994db623216750166"
+    },
+    {
+      "iri": "obo:OBI_0001283",
+      "label": "ELISA measuring epitope specific interleukin-15 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "c42589dff8ec0bc7e32f540bc089900cc46d839c"
+    },
+    {
+      "iri": "obo:OBI_0001837",
+      "label": "ELISA measuring epitope specific interleukin-16 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "94cb7df4de031e04dda5385233a44dfc2bad7b0d"
+    },
+    {
+      "iri": "obo:OBI_1110162",
+      "label": "ELISA measuring epitope specific interleukin-17 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "c4afb4f8b99d2ea04d36df331ca773be3ec11b0f"
+    },
+    {
+      "iri": "obo:OBI_0001675",
+      "label": "ELISA measuring epitope specific interleukin-17A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7b4136e11f037d261c3b553bdbfeb3d7e44befed"
+    },
+    {
+      "iri": "obo:OBI_0001831",
+      "label": "ELISA measuring epitope specific interleukin-17F production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e720bd2400f23c02acc8158bf99e808558de1abe"
+    },
+    {
+      "iri": "obo:OBI_1110163",
+      "label": "ELISA measuring epitope specific interleukin-18 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "152f86c388b119531e63d6d96d06a5661a7fba03"
+    },
+    {
+      "iri": "obo:OBI_1110152",
+      "label": "ELISA measuring epitope specific interleukin-2 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "d2b975ea67c6dec543ba2c69506393da1d77e677"
+    },
+    {
+      "iri": "obo:OBI_0001346",
+      "label": "ELISA measuring epitope specific interleukin-21 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "85c66383ee3b485cbdd9e95610d637efde9632da"
+    },
+    {
+      "iri": "obo:OBI_0001236",
+      "label": "ELISA measuring epitope specific interleukin-22 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "95cc51d097a0fde9dc95fb99ae5cba4212c1a1e6"
+    },
+    {
+      "iri": "obo:OBI_0001244",
+      "label": "ELISA measuring epitope specific interleukin-23 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "302badf4d8df4ff02b06c23078bd418f7842d1a7"
+    },
+    {
+      "iri": "obo:OBI_0003487",
+      "label": "ELISA measuring epitope specific interleukin-25 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "926bf3533122161c225fb20ca8a645cd626bb66f"
+    },
+    {
+      "iri": "obo:OBI_0001814",
+      "label": "ELISA measuring epitope specific interleukin-27 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "f730ee24516fe02f821472c273c286594947305b"
+    },
+    {
+      "iri": "obo:OBI_0001260",
+      "label": "ELISA measuring epitope specific interleukin-3 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "53c09821fda98de8f5d44ff934b0a28295f7eb4c"
+    },
+    {
+      "iri": "obo:OBI_1110153",
+      "label": "ELISA measuring epitope specific interleukin-4 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "1738de4e2a304a0c1b16395fdb8510da0f7e90fe"
+    },
+    {
+      "iri": "obo:OBI_1110154",
+      "label": "ELISA measuring epitope specific interleukin-5 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "eab261d3440c1ced86bd4abbdd8c596c303db253"
+    },
+    {
+      "iri": "obo:OBI_1110158",
+      "label": "ELISA measuring epitope specific interleukin-6 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b13f72eae878804076a513cc382f3985bdb65185"
+    },
+    {
+      "iri": "obo:OBI_0001803",
+      "label": "ELISA measuring epitope specific interleukin-7 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "d12d248b4a9956d0f90f8b4cb56fe1e2fbe81da6"
+    },
+    {
+      "iri": "obo:OBI_0001359",
+      "label": "ELISA measuring epitope specific interleukin-8 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "49417bfab616d5e7571550ea1249383214bfe8bb"
+    },
+    {
+      "iri": "obo:OBI_0001238",
+      "label": "ELISA measuring epitope specific interleukin-9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "0e5b66bfceb5a00a82c1a5fe06fefd311ffdbc12"
+    },
+    {
+      "iri": "obo:OBI_0001281",
+      "label": "ELISA measuring epitope specific IP-10 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ee40e09d824b3ecb03e0e691329d454c3a9a56bf"
+    },
+    {
+      "iri": "obo:OBI_0003373",
+      "label": "ELISA measuring epitope specific lymphotactin production by T cells",
+      "hasChildren": false,
+      "childrenKey": "c9509d61ceb2ec7b8e2d17eba4ce8e63e7c5bf99"
+    },
+    {
+      "iri": "obo:OBI_0001288",
+      "label": "ELISA measuring epitope specific lymphotoxin A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e32e71e3e85d5c25010f9170cc8ef8fdc27b4f34"
+    },
+    {
+      "iri": "obo:OBI_0001302",
+      "label": "ELISA measuring epitope specific macrophage inflammatory protein-1 alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "451dc83766b5999c5b00ed2c7edcef9f32ec31ed"
+    },
+    {
+      "iri": "obo:OBI_0001438",
+      "label": "ELISA measuring epitope specific macrophage inflammatory protein-1 gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3188b922ea030a672ec71c95d4b18b9be66eadcb"
+    },
+    {
+      "iri": "obo:OBI_0001344",
+      "label": "ELISA measuring epitope specific monocyte chemotactic protein-1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7a3e462144bb7f12764a05e67a32beea0f66d511"
+    },
+    {
+      "iri": "obo:OBI_0002672",
+      "label": "ELISA measuring epitope specific perforin release by T cells",
+      "hasChildren": false,
+      "childrenKey": "037e2d0b69cc78dbd8d6b76cb33daec576bf9170"
+    },
+    {
+      "iri": "obo:OBI_0001222",
+      "label": "ELISA measuring epitope specific RANTES production by T cells",
+      "hasChildren": false,
+      "childrenKey": "fdd8664555ba38bcd1fe375818d19093db81f561"
+    },
+    {
+      "iri": "obo:OBI_0001231",
+      "label": "ELISA measuring epitope specific transforming growth factor-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "5175833f1f0534796f1f2362c0a326aaf0129f8a"
+    },
+    {
+      "iri": "obo:OBI_1110155",
+      "label": "ELISA measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "cfa9f69b331ac8da36f5d12b7f5126229ca04bd1"
+    },
+    {
+      "iri": "obo:OBI_0001246",
+      "label": "ELISA measuring epitope specific tumor necrosis factor superfamily cytokine production by T cells",
+      "hasChildren": true,
+      "childrenKey": "6923bc8c5699f7a40972b5713a8d4a6716021773"
+    },
+    {
+      "iri": "obo:OBI_0001578",
+      "label": "ELISA measuring epitope specific vascular endothelial growth factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "eab7273ebe673282bf6160ddd7544091460292de"
+    },
+    {
+      "iri": "obo:OBI_0003541",
+      "label": "ELISA measuring Orientia tsutsugamushi IgM antibody",
+      "hasChildren": false,
+      "childrenKey": "68bfcc22ceff66a43d94fc4a078b11b8a5cd1d91"
+    },
+    {
+      "iri": "obo:OBI_0001735",
+      "label": "ELISA measuring the association constant [KA] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "fcee52564d23421462009b3511146635b9addb27"
+    },
+    {
+      "iri": "obo:OBI_0001728",
+      "label": "ELISA measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "4efa22968aa07d14fccaf051e30870eed318d863"
+    },
+    {
+      "iri": "obo:OBI_0003546",
+      "label": "microarray ELISA measuring Chikungunya IgM antibody",
+      "hasChildren": false,
+      "childrenKey": "2111f77780ae88681e611f7cdf53b2511d1e1cff"
+    }
+  ]
+}

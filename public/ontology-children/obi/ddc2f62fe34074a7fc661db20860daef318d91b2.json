@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000940",
+  "children": [
+    {
+      "iri": "obo:OBI_0001065",
+      "label": "stereo microscope",
+      "hasChildren": false,
+      "childrenKey": "62d34d970c93c7b3db604f47c7ab0496c1996ff0"
+    }
+  ]
+}

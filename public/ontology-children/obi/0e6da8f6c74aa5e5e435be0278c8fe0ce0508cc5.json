@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400096",
+  "children": [
+    {
+      "iri": "obo:OBI_0400077",
+      "label": "neodymium-YAG laser",
+      "hasChildren": false,
+      "childrenKey": "68a9fa3139e00e31f599a3a4dbd473f159dabb79"
+    }
+  ]
+}

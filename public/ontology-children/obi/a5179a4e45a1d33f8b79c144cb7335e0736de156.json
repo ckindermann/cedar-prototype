@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003234",
+  "children": [
+    {
+      "iri": "obo:OBI_0003242",
+      "label": "induced sputum microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "8a465ba66ccac3f8dbfa8baade4205583a891f5d"
+    }
+  ]
+}

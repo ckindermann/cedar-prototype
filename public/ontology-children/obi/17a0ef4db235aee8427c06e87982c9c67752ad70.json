@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003235",
+  "children": [
+    {
+      "iri": "obo:OBI_0003282",
+      "label": "lung microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "636b41c530d086c2d067a46b0acff18f171ec013"
+    }
+  ]
+}

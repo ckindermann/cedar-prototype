@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002195",
+  "children": [
+    {
+      "iri": "obo:OBI_0002196",
+      "label": "Sakura Low profile Accu-Edge microtome blade",
+      "hasChildren": false,
+      "childrenKey": "e2bb11d58281fb73de046dfe7d9fb90a4c057dd7"
+    }
+  ]
+}

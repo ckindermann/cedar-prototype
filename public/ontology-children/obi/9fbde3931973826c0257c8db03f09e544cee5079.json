@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000517",
+  "children": [
+    {
+      "iri": "obo:OBI_0000597",
+      "label": "Bruker NMR magnet",
+      "hasChildren": true,
+      "childrenKey": "3d38a346a51c4375838d0762dda5e9f634dfbf5c"
+    }
+  ]
+}

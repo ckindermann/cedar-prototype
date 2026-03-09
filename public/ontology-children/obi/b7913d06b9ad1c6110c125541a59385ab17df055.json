@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002385",
+  "children": [
+    {
+      "iri": "obo:OBI_0002386",
+      "label": "diagnosis of hepatitis B",
+      "hasChildren": false,
+      "childrenKey": "5c757afed7afd77711a25f4be90dc7e11b2cf68d"
+    },
+    {
+      "iri": "obo:OBI_0002387",
+      "label": "diagnosis of hepatitis C",
+      "hasChildren": false,
+      "childrenKey": "92ea431d4403cb83e266a2ce6e11604842811fdd"
+    },
+    {
+      "iri": "obo:OBI_0002388",
+      "label": "diagnosis of HIV",
+      "hasChildren": false,
+      "childrenKey": "01534ebe0c735ac49b9302722fa9d572f3541ca5"
+    }
+  ]
+}

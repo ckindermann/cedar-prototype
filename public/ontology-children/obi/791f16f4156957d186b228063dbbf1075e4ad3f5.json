@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003243",
+  "children": [
+    {
+      "iri": "obo:OBI_0003420",
+      "label": "antigen specific antibodies in blood assay datum",
+      "hasChildren": false,
+      "childrenKey": "988e6541dc1652ecd0b3aaf3d78d1cc0721e38fd"
+    },
+    {
+      "iri": "obo:OBI_0003244",
+      "label": "blood microbiology datum",
+      "hasChildren": true,
+      "childrenKey": "42730b1b5c8348a7bdd46763086b5cb70f6ae639"
+    },
+    {
+      "iri": "obo:OBI_0003259",
+      "label": "umbilical cord blood assay datum",
+      "hasChildren": true,
+      "childrenKey": "20148cd86b1672fa626eeab3e40387d631bf3136"
+    }
+  ]
+}

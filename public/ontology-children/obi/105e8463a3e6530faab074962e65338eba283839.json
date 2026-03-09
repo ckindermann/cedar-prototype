@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002911",
+  "children": [
+    {
+      "iri": "obo:OBI_0002909",
+      "label": "arthropod resting outdoors on artificial support specimen collection by aspiration",
+      "hasChildren": false,
+      "childrenKey": "d8324319a345eb8af5f618c23858cc156f174219"
+    },
+    {
+      "iri": "obo:OBI_0002910",
+      "label": "arthropod resting outdoors on natural support specimen collection by aspiration",
+      "hasChildren": false,
+      "childrenKey": "d9eb75556eecc9937950e8fd8bd8be01c2f2992c"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003248",
+  "children": [
+    {
+      "iri": "obo:OBI_0003267",
+      "label": "eukaryota in urine datum",
+      "hasChildren": false,
+      "childrenKey": "c8cbcb7957eeb07ed346268377dec8d9f830d9a7"
+    }
+  ]
+}

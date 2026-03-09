@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000910",
+  "children": [
+    {
+      "iri": "obo:OBI_0001433",
+      "label": "radio immuno assay measuring epitope specific interferon-gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b23da4b30c33612814d64ffcce99e9bcc30f8027"
+    },
+    {
+      "iri": "obo:OBI_0001649",
+      "label": "RIA measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "09036f2a2d9c617de7d1e2f045414bb1d3f6192e"
+    },
+    {
+      "iri": "obo:OBI_0001736",
+      "label": "RIA measuring the association constant [KA] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "e65536499c5ce1319f04463e982a1069946442a8"
+    },
+    {
+      "iri": "obo:OBI_0001727",
+      "label": "RIA measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "ddcff1c868f5c2347cc39cc3cee0329b0952be73"
+    }
+  ]
+}

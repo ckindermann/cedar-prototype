@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003214",
+  "children": [
+    {
+      "iri": "obo:OBI_0003215",
+      "label": "progesterone concentration assay",
+      "hasChildren": false,
+      "childrenKey": "7c67a45f59a66572cc78f54450b1a1c1893dad89"
+    }
+  ]
+}

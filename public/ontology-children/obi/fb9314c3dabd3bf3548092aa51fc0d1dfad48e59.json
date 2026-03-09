@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002508",
+  "children": [
+    {
+      "iri": "obo:OBI_0002746",
+      "label": "induced sputum specimen",
+      "hasChildren": false,
+      "childrenKey": "fdebe77b14b0e18864fbcd31b1a0204efbce8a30"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100017",
+  "children": [
+    {
+      "iri": "obo:OBI_2100300",
+      "label": "bone profile venous blood human alkaline phosphatase assay",
+      "hasChildren": false,
+      "childrenKey": "733ccc2e0de161b47a1103ec7901d8350ab6a59d"
+    },
+    {
+      "iri": "obo:OBI_2100244",
+      "label": "chem16 venous blood human alkaline phosphatase assay",
+      "hasChildren": false,
+      "childrenKey": "5b30d39a63ece20f58d66e1332b7b27bf2d4b431"
+    },
+    {
+      "iri": "obo:OBI_2100154",
+      "label": "comprehensive metabolic panel venous blood human alkaline phosphatase assay",
+      "hasChildren": false,
+      "childrenKey": "1c9eabf808f90a5df978aca52e885e665c535eee"
+    },
+    {
+      "iri": "obo:OBI_2100217",
+      "label": "hepatic panel venous blood human alkaline phosphatase assay",
+      "hasChildren": false,
+      "childrenKey": "88a1327d0e42cf813ad096f069053630ba0eec6a"
+    },
+    {
+      "iri": "obo:OBI_2100085",
+      "label": "liver evaluation venous blood human alkaline phosphatase assay",
+      "hasChildren": false,
+      "childrenKey": "d548c1f1bc7aef4e4589fa0af4f2f82baf931014"
+    },
+    {
+      "iri": "obo:OBI_2100343",
+      "label": "liver function venous blood human alkaline phosphatase assay",
+      "hasChildren": false,
+      "childrenKey": "f2db6cd62bb7501bca4e4721452073919298ed16"
+    },
+    {
+      "iri": "obo:OBI_2100069",
+      "label": "liver injury venous blood human alkaline phosphatase assay",
+      "hasChildren": false,
+      "childrenKey": "1f1c6702138e20c825c27f666f610da2ef47758b"
+    }
+  ]
+}

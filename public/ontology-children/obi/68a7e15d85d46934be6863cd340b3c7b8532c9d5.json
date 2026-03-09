@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001501",
+  "children": [
+    {
+      "iri": "obo:OBI_0003087",
+      "label": "autofluorescence assay",
+      "hasChildren": true,
+      "childrenKey": "2186dfed557787220172d6d10028edec5b9ee134"
+    },
+    {
+      "iri": "obo:OBI_0302736",
+      "label": "comet assay",
+      "hasChildren": false,
+      "childrenKey": "227cf4431bf246266be58cc2245e350f0b71d6ed"
+    },
+    {
+      "iri": "obo:OBI_1110179",
+      "label": "MHC tetramer/multimer assay measuring binding of a T cell epitope:MHC:TCR complex",
+      "hasChildren": false,
+      "childrenKey": "f257a69dd55d101e62d547d2b4c44ecc0d35fdda"
+    }
+  ]
+}

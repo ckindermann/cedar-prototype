@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003484",
+  "children": [
+    {
+      "iri": "obo:OBI_0003485",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-25 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3d15f77228035f7189f7c1fd0e95115e7dff4223"
+    },
+    {
+      "iri": "obo:OBI_0003487",
+      "label": "ELISA measuring epitope specific interleukin-25 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "926bf3533122161c225fb20ca8a645cd626bb66f"
+    },
+    {
+      "iri": "obo:OBI_0003486",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-25 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ca6b6bf69f46fc503bbe46028f3efd0a0174f696"
+    }
+  ]
+}

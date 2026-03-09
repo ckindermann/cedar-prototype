@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002140",
+  "children": [
+    {
+      "iri": "obo:OBI_0003080",
+      "label": "organismal body temperature measurement assay",
+      "hasChildren": false,
+      "childrenKey": "9ce0d3c6c666c8b72adb0ca9afa33469bb294fd2"
+    }
+  ]
+}

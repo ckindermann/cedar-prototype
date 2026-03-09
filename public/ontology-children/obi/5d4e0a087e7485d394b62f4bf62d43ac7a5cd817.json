@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600017",
+  "children": [
+    {
+      "iri": "obo:OBI_0001632",
+      "label": "immuno staining assay",
+      "hasChildren": true,
+      "childrenKey": "4569d91e6a64a6d3dec06ec7ddb4419c55b52fad"
+    }
+  ]
+}

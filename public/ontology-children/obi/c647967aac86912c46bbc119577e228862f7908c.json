@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000737",
+  "children": [
+    {
+      "iri": "obo:OBI_0000729",
+      "label": "cloning plasmid",
+      "hasChildren": false,
+      "childrenKey": "9704be87eaebf143907852eed5adf3d020294efe"
+    },
+    {
+      "iri": "obo:OBI_0000709",
+      "label": "yeast artificial chromosome vector",
+      "hasChildren": false,
+      "childrenKey": "d2aa05bd7b18b2cad6775158c13dda6e03fe46f5"
+    }
+  ]
+}

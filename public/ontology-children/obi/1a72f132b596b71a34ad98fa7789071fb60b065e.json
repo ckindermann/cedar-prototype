@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003136",
+  "children": [
+    {
+      "iri": "obo:OBI_0003138",
+      "label": "enhancer-trap mutagenesis",
+      "hasChildren": false,
+      "childrenKey": "8cfd42c74811874c35119183f978f5334f2c3f56"
+    },
+    {
+      "iri": "obo:OBI_0003137",
+      "label": "gene-trap mutagenesis",
+      "hasChildren": false,
+      "childrenKey": "45466ace924bdffa79932f96a4277d2cad9ba3cb"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000716",
+  "children": [
+    {
+      "iri": "obo:OBI_0001925",
+      "label": "chromatin immunoprecipitation with exonuclease sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "9ca251d73e81deda4572681a9a6dbf008274b304"
+    },
+    {
+      "iri": "obo:OBI_0002017",
+      "label": "histone modification identification by ChIP-Seq assay",
+      "hasChildren": false,
+      "childrenKey": "5f938eb0db3fd907d77edece91030f245c3d1c54"
+    },
+    {
+      "iri": "obo:OBI_0002160",
+      "label": "multiplexed indexed T7 ChIP-seq assay",
+      "hasChildren": false,
+      "childrenKey": "7334de5284452442c82c819400ea66a61ba353fc"
+    },
+    {
+      "iri": "obo:OBI_0002084",
+      "label": "transcription cofactor activity region identification by ChIP-Seq assay",
+      "hasChildren": false,
+      "childrenKey": "d7f004e5d82e3ee891f1ad088cd01b1596627d93"
+    },
+    {
+      "iri": "obo:OBI_0002019",
+      "label": "transcription factor binding site identification by ChIP-Seq assay",
+      "hasChildren": false,
+      "childrenKey": "4b0ffcbf72a555fb0ad3548f2feb0852bdff7e21"
+    }
+  ]
+}

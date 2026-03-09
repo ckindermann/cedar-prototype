@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200086",
+  "children": [
+    {
+      "iri": "obo:OBI_0200122",
+      "label": "interquartile-range calculation",
+      "hasChildren": false,
+      "childrenKey": "2c5537b5c5d4d064f970171ea460ba0733263a3e"
+    },
+    {
+      "iri": "obo:OBI_0200124",
+      "label": "kurtosis calculation",
+      "hasChildren": false,
+      "childrenKey": "46a44debf005e0a69d49ffea7eb1b2a897b578b0"
+    },
+    {
+      "iri": "obo:OBI_0200121",
+      "label": "standard deviation calculation",
+      "hasChildren": false,
+      "childrenKey": "5f030ed048fe0e719c52bdaeaa353d0ccb54a682"
+    },
+    {
+      "iri": "obo:OBI_0200120",
+      "label": "variance calculation",
+      "hasChildren": false,
+      "childrenKey": "72945eb21e24cf245dd9ac80814a03877258ec1c"
+    }
+  ]
+}

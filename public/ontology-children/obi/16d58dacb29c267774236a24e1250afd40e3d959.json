@@ -1,0 +1,48 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000485",
+  "children": [
+    {
+      "iri": "obo:OBI_0000481",
+      "label": "chromatography detector",
+      "hasChildren": true,
+      "childrenKey": "f5361769b46a9a24ac53feca8c2a7175f1a89b76"
+    },
+    {
+      "iri": "obo:OBI_0000589",
+      "label": "chromatography pump system",
+      "hasChildren": true,
+      "childrenKey": "0d7a47b8fba3cae58b6d330011938d8ed852093c"
+    },
+    {
+      "iri": "obo:OBI_0000549",
+      "label": "column cartridger",
+      "hasChildren": false,
+      "childrenKey": "1fdf6432059430a351ff5f038e0836757bded9be"
+    },
+    {
+      "iri": "obo:OBI_0000633",
+      "label": "column heater",
+      "hasChildren": false,
+      "childrenKey": "93a6abe7faa2912e8054be79adae00e90e599973"
+    },
+    {
+      "iri": "obo:OBI_0000536",
+      "label": "fraction collector",
+      "hasChildren": false,
+      "childrenKey": "4810b356c43d1f71ec875b91cb7542530eb3a951"
+    },
+    {
+      "iri": "obo:OBI_0000494",
+      "label": "liquid chromatography autosampler",
+      "hasChildren": true,
+      "childrenKey": "b9d99d945ac291f8d55afb1131eac57d17c6cf49"
+    },
+    {
+      "iri": "obo:OBI_0000469",
+      "label": "solvent mixer",
+      "hasChildren": false,
+      "childrenKey": "61bfb890ae913ba2e797f8068619e34c3d8aa819"
+    }
+  ]
+}

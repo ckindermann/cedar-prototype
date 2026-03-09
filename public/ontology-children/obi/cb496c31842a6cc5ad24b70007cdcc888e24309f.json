@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002075",
+  "children": [
+    {
+      "iri": "obo:OBI_0002050",
+      "label": "3D molecular structure determination assay of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "02f7a251f4ebe6f812824814b973e72ff782857f"
+    },
+    {
+      "iri": "obo:OBI_1110126",
+      "label": "assay measuring binding of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "a4c21f4bf78408bfa1f4e7f523ce2e674c416258"
+    },
+    {
+      "iri": "obo:OBI_1110125",
+      "label": "assay measuring MHC ligand processing and presentation",
+      "hasChildren": true,
+      "childrenKey": "c50de0462c6317a35f57e8ae1eab6e2cd752ab55"
+    }
+  ]
+}

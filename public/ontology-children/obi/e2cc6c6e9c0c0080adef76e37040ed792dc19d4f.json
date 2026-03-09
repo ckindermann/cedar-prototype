@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200024",
+  "children": [
+    {
+      "iri": "obo:OBI_0200018",
+      "label": "loess group transformation one-channel",
+      "hasChildren": false,
+      "childrenKey": "eecaa06f252cb1554918ee262b1e7779f00fe332"
+    },
+    {
+      "iri": "obo:OBI_0200019",
+      "label": "loess group transformation two-channel",
+      "hasChildren": false,
+      "childrenKey": "8441f072baf438bc991cd205b7f5fdd9f1c109f0"
+    }
+  ]
+}

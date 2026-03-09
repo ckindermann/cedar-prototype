@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002695",
+  "children": [
+    {
+      "iri": "obo:OBI_0002698",
+      "label": "insecticide resistance bioassay",
+      "hasChildren": true,
+      "childrenKey": "9b4917f7d962300019c3034b1751d1ae77e0979c"
+    },
+    {
+      "iri": "obo:OBI_0002697",
+      "label": "insecticide resistance by detecting enzyme activity assay",
+      "hasChildren": true,
+      "childrenKey": "f383e3879f54bc15334aa5183e9988bb391b9049"
+    },
+    {
+      "iri": "obo:OBI_0002696",
+      "label": "insecticide resistance by monitoring known mutations assay",
+      "hasChildren": true,
+      "childrenKey": "7f76ff677d981ce5ecf24cd6b4cd37f76c14cfe1"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002953",
+  "children": [
+    {
+      "iri": "obo:OBI_0002954",
+      "label": "fluorescence imaging-based protein phosphorylation state assay",
+      "hasChildren": false,
+      "childrenKey": "4dcbc53ad23765ed67ffb003538f35a76f39c085"
+    },
+    {
+      "iri": "obo:OBI_0002955",
+      "label": "mass spectrometry-based protein state assay",
+      "hasChildren": true,
+      "childrenKey": "95ad180129fc6573e6beaa99b8bbc707011f90ca"
+    },
+    {
+      "iri": "obo:OBI_0002970",
+      "label": "multiplex bead-based protein state immunoassay",
+      "hasChildren": false,
+      "childrenKey": "b3ff9b08372771576965a4fc0ac3a948d3341024"
+    },
+    {
+      "iri": "obo:OBI_0002957",
+      "label": "reverse phase protein array profiling assay",
+      "hasChildren": false,
+      "childrenKey": "cc1c05cd3417a8b74cc2b3c82fb3219044e0b2ba"
+    }
+  ]
+}

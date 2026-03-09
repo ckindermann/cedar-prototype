@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002050",
+  "children": [
+    {
+      "iri": "obo:OBI_0003613",
+      "label": "electron microscopy assay determining the 3D structure of a MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "56ff830b9c6b57a69352ae79ebd86b38b0d485ed"
+    },
+    {
+      "iri": "obo:OBI_0001595",
+      "label": "X-ray crystallography assay determining the 3D structure of a MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "d498981e6eb8e1b89a665a5f409887891e9197c3"
+    }
+  ]
+}

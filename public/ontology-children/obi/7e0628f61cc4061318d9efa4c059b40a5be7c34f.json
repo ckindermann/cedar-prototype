@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001954",
+  "children": [
+    {
+      "iri": "obo:OBI_0001248",
+      "label": "ChIP-chip assay",
+      "hasChildren": true,
+      "childrenKey": "e361727916c4b77d465acbf79b88fb09eb4365eb"
+    },
+    {
+      "iri": "obo:OBI_0002169",
+      "label": "ChIP-qPCR assay",
+      "hasChildren": false,
+      "childrenKey": "cd7bd2e4bb3a186df33d167cfa81a254ca1ba2fe"
+    },
+    {
+      "iri": "obo:OBI_0000716",
+      "label": "ChIP-seq assay",
+      "hasChildren": true,
+      "childrenKey": "eb9a5c69efc00d45561a2dd915f154cf7366e70f"
+    },
+    {
+      "iri": "obo:OBI_0000693",
+      "label": "MeDIP-seq assay",
+      "hasChildren": false,
+      "childrenKey": "f0e4a33180dd3c5683db79e8935d1c47286be8f0"
+    }
+  ]
+}

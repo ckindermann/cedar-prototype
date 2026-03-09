@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001721",
+  "children": [
+    {
+      "iri": "obo:OBI_0001646",
+      "label": "electron microscopy assay determining the 3D structure of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "8f2cb0539fd5b06edbaa9692b5c8f3c09768955f"
+    },
+    {
+      "iri": "obo:OBI_0001647",
+      "label": "NMR assay determining the 3D structure of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "943d9745f6053c8e0f6c64b1176b597aff5ce4b1"
+    },
+    {
+      "iri": "obo:OBI_0002101",
+      "label": "small-angle scattering assay determining the 3D structure of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "5c4313cf025cba71e8c375029766180926c64621"
+    },
+    {
+      "iri": "obo:OBI_0001738",
+      "label": "X-ray crystallography assay determining the 3D structure of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "0e155d73bc0dfc79e896e0f98eb096c483792796"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000920",
+  "children": [
+    {
+      "iri": "obo:OBI_0003116",
+      "label": "antibody detection by cytometric bead array assay",
+      "hasChildren": false,
+      "childrenKey": "990a7b12ec92f3feabeffe2bc03183985894306d"
+    },
+    {
+      "iri": "obo:OBI_0003115",
+      "label": "antigen detection by cytometric bead array assay",
+      "hasChildren": true,
+      "childrenKey": "b6f7598ea9e78f81c17cc93a291b318a01ebe5da"
+    }
+  ]
+}

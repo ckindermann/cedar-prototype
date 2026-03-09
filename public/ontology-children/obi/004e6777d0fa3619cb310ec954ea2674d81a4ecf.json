@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100045",
+  "children": [
+    {
+      "iri": "obo:OBI_2100257",
+      "label": "peak venous blood tobramycin assay",
+      "hasChildren": false,
+      "childrenKey": "f555cd5f2df4174c2f04bd299ac50a2a5b2e6aa7"
+    },
+    {
+      "iri": "obo:OBI_2100200",
+      "label": "random venous blood tobramycin assay",
+      "hasChildren": false,
+      "childrenKey": "1e8d18c2c498b716f6fa2ba41b50d29f5fa17751"
+    },
+    {
+      "iri": "obo:OBI_2100199",
+      "label": "trough venous blood tobramycin assay",
+      "hasChildren": false,
+      "childrenKey": "41c082f6b6bfbfd27bdcc29a66bf85e8eb98e4f5"
+    },
+    {
+      "iri": "obo:OBI_2100206",
+      "label": "venous blood tobramycin assay",
+      "hasChildren": false,
+      "childrenKey": "d68798dea37735546dc9b7116b9b09604f33fbc4"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002799",
+  "children": [
+    {
+      "iri": "obo:OBI_0002803",
+      "label": "medical glove",
+      "hasChildren": false,
+      "childrenKey": "99c23a0db531fea40f49c157cd3aef7236fcf1a6"
+    },
+    {
+      "iri": "obo:OBI_0002804",
+      "label": "nitrile glove",
+      "hasChildren": false,
+      "childrenKey": "ea88de31282f4db1606972a4164a4cd3efb7f866"
+    }
+  ]
+}

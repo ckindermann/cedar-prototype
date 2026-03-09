@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400073",
+  "children": [
+    {
+      "iri": "obo:OBI_0400052",
+      "label": "helium cadmium ion laser",
+      "hasChildren": false,
+      "childrenKey": "c5c7efc30b1caf9487c721f261e9b78f9fbb4579"
+    }
+  ]
+}

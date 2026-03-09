@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001600",
+  "children": [
+    {
+      "iri": "obo:OBI_0001397",
+      "label": "cytometric bead array assay measuring epitope specific granulocyte colony stimulating factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "32f5e3d8c13556ecfc21c04d7c9e648506247e70"
+    },
+    {
+      "iri": "obo:OBI_0001752",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific granulocyte colony stimulating factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "9eb73440ec42106d21d63b8ab5843f6b0a6cc7c2"
+    },
+    {
+      "iri": "obo:OBI_0001521",
+      "label": "ELISA measuring epitope specific granulocyte colony stimulating factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "192426e4d5e03d5e64572170543ae2b716fbd09c"
+    },
+    {
+      "iri": "obo:OBI_0001753",
+      "label": "ELISPOT assay measuring epitope specific granulocyte colony stimulating factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "975a89b4449a1309fdd38717b5c581a3d99123f7"
+    },
+    {
+      "iri": "obo:OBI_0001750",
+      "label": "intracellular cytokine staining assay measuring epitope specific granulocyte colony stimulating factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b210220498899cedbe739f7474bac8c9cbf6ecb9"
+    }
+  ]
+}

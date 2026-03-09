@@ -1,0 +1,66 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100010",
+  "children": [
+    {
+      "iri": "obo:OBI_2100276",
+      "label": "ABL90 panel arterial blood chloride assay",
+      "hasChildren": false,
+      "childrenKey": "9de2788ac4018acce8012925f60be2a8b00ce02d"
+    },
+    {
+      "iri": "obo:OBI_2100293",
+      "label": "ABL90 panel venous blood chloride assay",
+      "hasChildren": false,
+      "childrenKey": "36399a56e7de21a833c892e137c0e70fcd089307"
+    },
+    {
+      "iri": "obo:OBI_2100187",
+      "label": "arterial blood chloride assay",
+      "hasChildren": false,
+      "childrenKey": "928714208685a386583d21d45114fd91d0e0875f"
+    },
+    {
+      "iri": "obo:OBI_2100087",
+      "label": "basic metabolic panel venous blood chloride assay",
+      "hasChildren": false,
+      "childrenKey": "17d0b9f6308a51e4ed0c07852a06de05339f3ab1"
+    },
+    {
+      "iri": "obo:OBI_2100233",
+      "label": "chem11 venous blood chloride assay",
+      "hasChildren": false,
+      "childrenKey": "a3cc5b315549e01ae11595a50d5008126a3d63ef"
+    },
+    {
+      "iri": "obo:OBI_2100247",
+      "label": "chem16 venous blood chloride assay",
+      "hasChildren": false,
+      "childrenKey": "e528965206a54b39d7791dd35f7865dc6e160541"
+    },
+    {
+      "iri": "obo:OBI_0003151",
+      "label": "chloride concentration assay",
+      "hasChildren": false,
+      "childrenKey": "12269e06c61e140db555b78841a987f1e3b4a5d7"
+    },
+    {
+      "iri": "obo:OBI_2100156",
+      "label": "comprehensive metabolic panel venous blood chloride assay",
+      "hasChildren": false,
+      "childrenKey": "d478c953a4a3744cbe28e3da5938d048a87c2ef3"
+    },
+    {
+      "iri": "obo:OBI_2100256",
+      "label": "POC chem8 arterial blood chloride assay",
+      "hasChildren": false,
+      "childrenKey": "6bea973376cc84aa89c0e3effc8ad8f205cc4579"
+    },
+    {
+      "iri": "obo:OBI_2100061",
+      "label": "venous blood chloride assay",
+      "hasChildren": false,
+      "childrenKey": "ae0d441373cc52b718d93473bfeacd94a40fa0b7"
+    }
+  ]
+}

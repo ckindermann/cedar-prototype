@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000112",
+  "children": [
+    {
+      "iri": "obo:OBI_0000740",
+      "label": "material sample role",
+      "hasChildren": false,
+      "childrenKey": "7d4a30a4058553b677365961b8f1ca99480387f1"
+    }
+  ]
+}

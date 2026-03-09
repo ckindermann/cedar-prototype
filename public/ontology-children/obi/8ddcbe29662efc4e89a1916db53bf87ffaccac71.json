@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003686",
+  "children": [
+    {
+      "iri": "obo:OBI_0002039",
+      "label": "assay for transposase-accessible chromatin using sequencing",
+      "hasChildren": true,
+      "childrenKey": "2751145853790057bcef636eac871e53ecfc0aba"
+    },
+    {
+      "iri": "obo:OBI_0003687",
+      "label": "m6A-MTase sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "e641eb5babee585b41d560c899658fbe0fdcc960"
+    }
+  ]
+}

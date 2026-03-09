@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003131",
+  "children": [
+    {
+      "iri": "obo:OBI_0003132",
+      "label": "endonuclease mediated mutagenesis",
+      "hasChildren": true,
+      "childrenKey": "abe02cbf29eaee5cd7560333d3f04c8fee09e5ff"
+    },
+    {
+      "iri": "obo:OBI_0003139",
+      "label": "targeted mutagenesis",
+      "hasChildren": false,
+      "childrenKey": "f57138cf915e100e863f60b64088548dfd8f8abd"
+    }
+  ]
+}

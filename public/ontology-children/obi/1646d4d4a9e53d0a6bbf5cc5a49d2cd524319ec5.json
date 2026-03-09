@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600008",
+  "children": [
+    {
+      "iri": "obo:OBI_0600013",
+      "label": "information acquisition",
+      "hasChildren": false,
+      "childrenKey": "4f4cb0ff29a1e781e536a13d36266631a3c42315"
+    },
+    {
+      "iri": "obo:OBI_0600010",
+      "label": "material acquisition",
+      "hasChildren": false,
+      "childrenKey": "5a953b140186c256d4dd20c520cc57d4fa903fae"
+    }
+  ]
+}

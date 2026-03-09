@@ -1,0 +1,318 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000874",
+  "children": [
+    {
+      "iri": "obo:OBI_0002040",
+      "label": "chromatin isolation by RNA purification sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "93e191681821fabf6c71cc3dc019f751c9eaf983"
+    },
+    {
+      "iri": "obo:OBI_0001827",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific chemokine (C-C motif) ligand 1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "29a0b4b61cb65c30fd9e9c6a9e3ff7be36066ca5"
+    },
+    {
+      "iri": "obo:OBI_0002060",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific chemokine (C-C motif) ligand 17 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "cf153cc0114be6de6803f1aa5bf0b1994ec7e982"
+    },
+    {
+      "iri": "obo:OBI_0001767",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific chemokine (C-C motif) ligand 19 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e66bcd003d968fabc842638d6760ea48aa4bcaff"
+    },
+    {
+      "iri": "obo:OBI_0001762",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific chemokine (C-C motif) ligand 21 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "eff7bf62624d34fb98bafbceba48e67048e7c396"
+    },
+    {
+      "iri": "obo:OBI_0001763",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific chemokine (C-C motif) ligand 22 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "545ee1a8ee2bed1546648f25f36c28c17865bde1"
+    },
+    {
+      "iri": "obo:OBI_0001765",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific chemokine (C-C motif) ligand 4 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "f6d980e7828222f0b012533f7329fe9101658271"
+    },
+    {
+      "iri": "obo:OBI_0001759",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific chemokine (C-X-C motif) ligand 12 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "bdf965c5e606423d7d522d828c0a127672a725b7"
+    },
+    {
+      "iri": "obo:OBI_0001760",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific chemokine (C-X-C motif) ligand 13 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "d7bb8bbfcc665431b2877d662a1eb52dfe460054"
+    },
+    {
+      "iri": "obo:OBI_0001761",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific chemokine (C-X-C motif) ligand 16 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ecea9a73312891358f22a71643bf4cb037c9c0a7"
+    },
+    {
+      "iri": "obo:OBI_0001757",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific chemokine (C-X-C motif) ligand 9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7317bb6e2f00903fcda8ce3f634047f58005d610"
+    },
+    {
+      "iri": "obo:OBI_0001752",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific granulocyte colony stimulating factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "9eb73440ec42106d21d63b8ab5843f6b0a6cc7c2"
+    },
+    {
+      "iri": "obo:OBI_0001357",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific granulocyte macrophage colony-stimulating factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "c9b805bb2d4f5bbcf1ef593d4a09de73ba5f5ace"
+    },
+    {
+      "iri": "obo:OBI_0002064",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific granzyme A release by T cells",
+      "hasChildren": false,
+      "childrenKey": "fda4a47fd872e99babd0e58fa97b26104bf7754c"
+    },
+    {
+      "iri": "obo:OBI_0002066",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific granzyme B release by T cells",
+      "hasChildren": false,
+      "childrenKey": "0319ef56d978a513a23959d7005c2f59f622fc92"
+    },
+    {
+      "iri": "obo:OBI_0001356",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interferon-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "845fe27f0edce0f45777a85141d938d1c82cbc34"
+    },
+    {
+      "iri": "obo:OBI_0001350",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interferon-gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "61ecc1606dc49612cd4179a2f19e11c8d5e457e5"
+    },
+    {
+      "iri": "obo:OBI_0001746",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-1 alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "19bb88b45bb126dd98c1c498634847865a3d595f"
+    },
+    {
+      "iri": "obo:OBI_0001743",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-1 beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b5a842ae622e10ed49f673f27bc5287177ed35f7"
+    },
+    {
+      "iri": "obo:OBI_0001367",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-10 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "734f46391d4f3cf53808fce48df6d88fbed533c0"
+    },
+    {
+      "iri": "obo:OBI_0001268",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-12 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "d0445c7bf76f3869cb734ed84e94c62e1508ef5a"
+    },
+    {
+      "iri": "obo:OBI_0001542",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-13 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "653ece5c3315af9c88a3dc594dc0126a1a20e00f"
+    },
+    {
+      "iri": "obo:OBI_0001836",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-16 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "89744b94e0273a856bea342891ef50c9fc31822e"
+    },
+    {
+      "iri": "obo:OBI_0001291",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-17 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "5ffd509ea82327633e0642b6e6e681697baff41b"
+    },
+    {
+      "iri": "obo:OBI_0001840",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-17A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "2fa72e069db45e1a3a88628b37efff3d391de21d"
+    },
+    {
+      "iri": "obo:OBI_0001832",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-17F production by T cells",
+      "hasChildren": false,
+      "childrenKey": "46a479e17b7c5844eecb9aa40f08e81a80acff82"
+    },
+    {
+      "iri": "obo:OBI_0001815",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-18 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "cf6628d51c7b486ce40b94f41251eb44b6db0a09"
+    },
+    {
+      "iri": "obo:OBI_0001277",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-2 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ed5f92bddd9865c4887ee892511cd69744f909ea"
+    },
+    {
+      "iri": "obo:OBI_0001298",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-21 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "a8efea22ec32c2de3801aee5cebfb186b5e24fb9"
+    },
+    {
+      "iri": "obo:OBI_0001279",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-22 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3cc44f3d89d9b3e9f1de54761f8085e85a936728"
+    },
+    {
+      "iri": "obo:OBI_0001395",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-23 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ccc4c5585a6c25697e401933ff946a5897e13f1e"
+    },
+    {
+      "iri": "obo:OBI_0003485",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-25 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3d15f77228035f7189f7c1fd0e95115e7dff4223"
+    },
+    {
+      "iri": "obo:OBI_0001382",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-27 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "801e87a207747b4fe20eba909071bbe3dbf4409d"
+    },
+    {
+      "iri": "obo:OBI_0001808",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-3 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "87602da20cdb454c12b60dbb208db7f620170b64"
+    },
+    {
+      "iri": "obo:OBI_0001339",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-4 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b6661522f544beb67d1ce5114e0060c6983005c7"
+    },
+    {
+      "iri": "obo:OBI_0001255",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-5 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ed0d998c3fe235d4244aaafaad97edf32b5f73c0"
+    },
+    {
+      "iri": "obo:OBI_0001389",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-6 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "720c6783c5e892ed8944614d8bff1cdda1ed9e67"
+    },
+    {
+      "iri": "obo:OBI_0001676",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-7 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "8220596078cf08e9f8f0454ad3682aec9ec29b76"
+    },
+    {
+      "iri": "obo:OBI_0001801",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-8 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "97018b0a1ea1d94988feb8d4a6ba5f8e647dc943"
+    },
+    {
+      "iri": "obo:OBI_0001799",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "0f05525356e93a0c2d4e75769cc80c9701fbce25"
+    },
+    {
+      "iri": "obo:OBI_0001383",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific IP-10 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "140bc178d4d9214c30d2c9d8c16224d64d247157"
+    },
+    {
+      "iri": "obo:OBI_0001794",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific lymphotoxin A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "1fd37a930572c697a7f2318690835a76724c62ea"
+    },
+    {
+      "iri": "obo:OBI_0001792",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific macrophage inflammatory protein-1 alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "24ca6b354d89ce21a0939a1d426555ff43ce063c"
+    },
+    {
+      "iri": "obo:OBI_0001782",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific macrophage inflammatory protein-1 gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "bb50a042b0bd36c064d69fd0c803e29288761a92"
+    },
+    {
+      "iri": "obo:OBI_0001343",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific monocyte chemotactic protein-1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "db9c4f4223ac90089f7ef7120d12f66a9c985c97"
+    },
+    {
+      "iri": "obo:OBI_0001245",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific perforin release",
+      "hasChildren": false,
+      "childrenKey": "b71f578d481c91f2062720ee75f14adbbed7e60d"
+    },
+    {
+      "iri": "obo:OBI_0001325",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific RANTES production by T cells",
+      "hasChildren": false,
+      "childrenKey": "cf036bbb7c973d5032bb23c4012778f4f8f27b8b"
+    },
+    {
+      "iri": "obo:OBI_0001203",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific transforming growth factor-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "32124752f0cc7e6e54f44bc15aa006422c5f23a6"
+    },
+    {
+      "iri": "obo:OBI_0001242",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "358909df858d332969bf1ca71bf4d7c153b3a3ad"
+    },
+    {
+      "iri": "obo:OBI_0001788",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific tumor necrosis factor superfamily cytokine production by T cells",
+      "hasChildren": true,
+      "childrenKey": "0b3592548405bf40a73c29d0d3e46063ae13fc93"
+    },
+    {
+      "iri": "obo:OBI_0001766",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific vascular endothelial growth factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "2c631c693925ee792aa283841ed0620c50f7dcc3"
+    },
+    {
+      "iri": "obo:OBI_0001843",
+      "label": "detection of specific nucleic acids with complementary probes measuring epitope specific interleukin-15 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "15b50e352633f9fd24dc76cca9212dc631db0967"
+    }
+  ]
+}

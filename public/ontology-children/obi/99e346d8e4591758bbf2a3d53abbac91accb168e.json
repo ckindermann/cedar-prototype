@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003218",
+  "children": [
+    {
+      "iri": "obo:OBI_0003219",
+      "label": "bile salt concentration assay",
+      "hasChildren": false,
+      "childrenKey": "7b6e1af54ca612d02c3548bfd6c042dea6d6ef4e"
+    }
+  ]
+}

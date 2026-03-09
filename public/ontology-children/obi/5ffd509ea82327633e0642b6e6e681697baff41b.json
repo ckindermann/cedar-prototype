@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001291",
+  "children": [
+    {
+      "iri": "obo:OBI_0001840",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-17A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "2fa72e069db45e1a3a88628b37efff3d391de21d"
+    },
+    {
+      "iri": "obo:OBI_0001832",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-17F production by T cells",
+      "hasChildren": false,
+      "childrenKey": "46a479e17b7c5844eecb9aa40f08e81a80acff82"
+    }
+  ]
+}

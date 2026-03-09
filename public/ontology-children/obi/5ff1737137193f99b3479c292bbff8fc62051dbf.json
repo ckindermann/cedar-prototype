@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001051",
+  "children": [
+    {
+      "iri": "obo:OBI_0000834",
+      "label": "high molecular weight DNA extract",
+      "hasChildren": false,
+      "childrenKey": "62c1b4b457fba481548a634ae0c3f3c302cd8a1a"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100039",
+  "children": [
+    {
+      "iri": "obo:OBI_2100140",
+      "label": "urine osmolality assay",
+      "hasChildren": false,
+      "childrenKey": "265aee580dd6830c69f76607105501756ace142f"
+    },
+    {
+      "iri": "obo:OBI_2100359",
+      "label": "venous blood osmolality assay",
+      "hasChildren": false,
+      "childrenKey": "61b3f659505170aa8903eb15e08f9ed1d3300f47"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000115",
+  "children": [
+    {
+      "iri": "obo:OBI_0000951",
+      "label": "compound treatment design",
+      "hasChildren": true,
+      "childrenKey": "e67e1dd27d25e69d105cc86841c92fa9ea480ad5"
+    },
+    {
+      "iri": "obo:OBI_0001460",
+      "label": "genetic modification design",
+      "hasChildren": false,
+      "childrenKey": "8a7ccd1212b1696d86b8b3ab55b36b707530c8cb"
+    },
+    {
+      "iri": "obo:OBI_0000985",
+      "label": "growth condition intervention design",
+      "hasChildren": false,
+      "childrenKey": "bee174f09f4a31535793e59e2c50890aba869727"
+    },
+    {
+      "iri": "obo:OBI_0001358",
+      "label": "post-transcriptional modification design",
+      "hasChildren": false,
+      "childrenKey": "a32921fd5d9768ae63cc79636ee81976e4ddb2ed"
+    },
+    {
+      "iri": "obo:OBI_0500007",
+      "label": "randomized complete block design",
+      "hasChildren": true,
+      "childrenKey": "c4d2b78000009aa504674a24a6dc752ec8c7ef6b"
+    },
+    {
+      "iri": "obo:OBI_0500002",
+      "label": "repeated measure design",
+      "hasChildren": true,
+      "childrenKey": "fffd9041a81dfa6430cf28361cbdaebb296fed70"
+    },
+    {
+      "iri": "obo:OBI_0300310",
+      "label": "sequential design",
+      "hasChildren": false,
+      "childrenKey": "7d09d5cc2e16a15cd42abce419b81fe8e7e82a25"
+    },
+    {
+      "iri": "obo:OBI_0001396",
+      "label": "stimulus or stress design",
+      "hasChildren": false,
+      "childrenKey": "5c663eabf6f79420a54a77566aa3be31673071be"
+    }
+  ]
+}

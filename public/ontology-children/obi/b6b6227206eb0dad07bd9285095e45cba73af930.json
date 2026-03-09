@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200093",
+  "children": [
+    {
+      "iri": "obo:OBI_0200020",
+      "label": "homogeneous polynomial transformation",
+      "hasChildren": false,
+      "childrenKey": "d0d2d2a587df0cd033c8ce1131362c9fe14777e0"
+    }
+  ]
+}

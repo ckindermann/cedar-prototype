@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002119",
+  "children": [
+    {
+      "iri": "obo:OBI_0002969",
+      "label": "cyclic immunofluoroescence assay",
+      "hasChildren": false,
+      "childrenKey": "127d97ecf196f0e293fe355aaa01b4582c0d7428"
+    },
+    {
+      "iri": "obo:OBI_0001631",
+      "label": "electron microscopy imaging assay",
+      "hasChildren": true,
+      "childrenKey": "4375a66bc33a1bf2fc9842840c9bf9051114fe36"
+    },
+    {
+      "iri": "obo:OBI_0003294",
+      "label": "modified acid-fast stain microscopy assay",
+      "hasChildren": false,
+      "childrenKey": "fc5fa4928837c014b3e9c512340aa66d4ba4aa16"
+    }
+  ]
+}

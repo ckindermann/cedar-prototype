@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001979",
+  "children": [
+    {
+      "iri": "obo:OBI_0001635",
+      "label": "antibody binding detection by fluorescence quenching",
+      "hasChildren": true,
+      "childrenKey": "1af715d0ecfe43375b3e9c881dfd69c841b34d50"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002554",
+  "children": [
+    {
+      "iri": "obo:OBI_0002611",
+      "label": "vagina swab specimen",
+      "hasChildren": false,
+      "childrenKey": "00b6767959f2ea172c0f3a87d2847f37d913c469"
+    }
+  ]
+}

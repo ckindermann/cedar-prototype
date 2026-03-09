@@ -1,0 +1,96 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100003",
+  "children": [
+    {
+      "iri": "obo:OBI_2100258",
+      "label": "24 hour urine creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "f1b67f9ca248259ff631ede6055b94b418c73ae8"
+    },
+    {
+      "iri": "obo:OBI_2100170",
+      "label": "arterial blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "52d7ce883ec837be577f8fb395d0f3127975433f"
+    },
+    {
+      "iri": "obo:OBI_2100090",
+      "label": "basic metabolic panel venous blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "3363f420949456f8dbeae74a4aa8807fffa2913d"
+    },
+    {
+      "iri": "obo:OBI_2100232",
+      "label": "chem11 venous blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "583ebba14406327e96a4c6762b264d2e931dd17f"
+    },
+    {
+      "iri": "obo:OBI_2100236",
+      "label": "chem16 venous blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "0243ed0e1e42b54f79400c339a32ebcdff7341fd"
+    },
+    {
+      "iri": "obo:OBI_2100159",
+      "label": "comprehensive metabolic panel venous blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "a644f07835eb5e7db0174f4e7bb7d3fa85d06813"
+    },
+    {
+      "iri": "obo:OBI_2100363",
+      "label": "creatinine clearance urine creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "1df4b8f8be9756371c5102e9e3b304f0f4c601d2"
+    },
+    {
+      "iri": "obo:OBI_0003153",
+      "label": "creatinine concentration assay",
+      "hasChildren": false,
+      "childrenKey": "81949db31338cfba0db8809300e0dda908486df8"
+    },
+    {
+      "iri": "obo:OBI_2100219",
+      "label": "DT60 venous blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "175cea54e82ce74fcd01b26f49e9d3204105be4b"
+    },
+    {
+      "iri": "obo:OBI_2100128",
+      "label": "inpatient profile venous blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "c1970a2047b2960e9362b70404917860b3abc9ac"
+    },
+    {
+      "iri": "obo:OBI_2100054",
+      "label": "panel5 venous blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "53634269c9f14f6637399fa1f1d6a7b29f09f726"
+    },
+    {
+      "iri": "obo:OBI_2100311",
+      "label": "POC arterial blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "657957ed1d3baea9518e020adb5306ba2ff4fad2"
+    },
+    {
+      "iri": "obo:OBI_2100254",
+      "label": "POC chem8 arterial blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "bb31cf56eb445b0ee9f1d376ebf3b6ec3a677a69"
+    },
+    {
+      "iri": "obo:OBI_2100139",
+      "label": "urine creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "ad5f4866ad512824916aef4f24c1476e391316b5"
+    },
+    {
+      "iri": "obo:OBI_2100165",
+      "label": "venous blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "d1f6e970ae89b8193746d965827392800e515659"
+    }
+  ]
+}

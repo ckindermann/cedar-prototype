@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001530",
+  "children": [
+    {
+      "iri": "obo:OBI_0001529",
+      "label": "data analysis service",
+      "hasChildren": false,
+      "childrenKey": "26c066afeaf853d3bf2f31ad04c2e66a062e6aa9"
+    },
+    {
+      "iri": "obo:OBI_0001598",
+      "label": "data maintenance service",
+      "hasChildren": false,
+      "childrenKey": "9a7fcc43115eebe3ddef3387ea74f60a3ae5ff02"
+    },
+    {
+      "iri": "obo:OBI_0001533",
+      "label": "data storage service",
+      "hasChildren": false,
+      "childrenKey": "478009ceb5f5aeb0121f400aae0ec73057379082"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001363",
+  "children": [
+    {
+      "iri": "obo:OBI_0001610",
+      "label": "cytometric bead array assay measuring epitope specific intracellular cytokine staining (ICS) IL-23 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7771983729596856f338398b643a2b96a5963557"
+    },
+    {
+      "iri": "obo:OBI_0001395",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-23 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ccc4c5585a6c25697e401933ff946a5897e13f1e"
+    },
+    {
+      "iri": "obo:OBI_0001244",
+      "label": "ELISA measuring epitope specific interleukin-23 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "302badf4d8df4ff02b06c23078bd418f7842d1a7"
+    },
+    {
+      "iri": "obo:OBI_0001822",
+      "label": "ELISPOT assay measuring epitope specific interleukin-23 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "668951f4a5afe18aa80ac6c2f4cc59b804e3d2a6"
+    },
+    {
+      "iri": "obo:OBI_0001812",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-23 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "0eeb59edc4779b9dc33015a660ea1a47c03a8340"
+    }
+  ]
+}

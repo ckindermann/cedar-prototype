@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001114",
+  "children": [
+    {
+      "iri": "obo:OBI_0001117",
+      "label": "DNA extraction/purification instrument",
+      "hasChildren": false,
+      "childrenKey": "7dce4ecb935ed8dcd0d9e0d85f90e1758a73c719"
+    },
+    {
+      "iri": "obo:OBI_0001050",
+      "label": "RNA extraction/purification instrument",
+      "hasChildren": false,
+      "childrenKey": "2900fa10fb4b6252f88379191237ab66855b9146"
+    }
+  ]
+}

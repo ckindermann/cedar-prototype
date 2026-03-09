@@ -1,0 +1,264 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600031",
+  "children": [
+    {
+      "iri": "obo:OBI_0001658",
+      "label": "ELISPOT assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "50d29aa37584dd4962bc9370ae1b53a81bbe9a23"
+    },
+    {
+      "iri": "obo:OBI_0001829",
+      "label": "ELISPOT assay measuring epitope specific chemokine (C-C motif) ligand 1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3172f72d405e6230b860a683c71548d137ef2bf7"
+    },
+    {
+      "iri": "obo:OBI_0001758",
+      "label": "ELISPOT assay measuring epitope specific chemokine (C-C motif) ligand 4 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "d6655ab11d079e13e51c94355420e3bd089e65c2"
+    },
+    {
+      "iri": "obo:OBI_0001756",
+      "label": "ELISPOT assay measuring epitope specific chemokine (C-X-C motif) ligand 9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "112902fd1e1615604daf5ba75176192f530a47c2"
+    },
+    {
+      "iri": "obo:OBI_0001753",
+      "label": "ELISPOT assay measuring epitope specific granulocyte colony stimulating factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "975a89b4449a1309fdd38717b5c581a3d99123f7"
+    },
+    {
+      "iri": "obo:OBI_0001206",
+      "label": "ELISPOT assay measuring epitope specific granulocyte macrophage colony-stimulating factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "f48d060b96ba55ac9a4ef0e2053dbdb456ae93f6"
+    },
+    {
+      "iri": "obo:OBI_0001322",
+      "label": "ELISPOT assay measuring epitope specific granzyme B release by T cells",
+      "hasChildren": false,
+      "childrenKey": "e899eb937a45170a9ced47f69359b048cfd39cb4"
+    },
+    {
+      "iri": "obo:OBI_0001748",
+      "label": "ELISPOT assay measuring epitope specific interferon-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7f1d967e07a9f4480a6f82c8d7071c4b12e5eef1"
+    },
+    {
+      "iri": "obo:OBI_1110059",
+      "label": "ELISPOT assay measuring epitope specific interferon-gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "6aadb65fe7d39f01aeb966d22c25d9a803b83dc4"
+    },
+    {
+      "iri": "obo:OBI_0001745",
+      "label": "ELISPOT assay measuring epitope specific interleukin-1 alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "17ffa147ec97e9386ee6654be16de1d28a4a94f9"
+    },
+    {
+      "iri": "obo:OBI_0001842",
+      "label": "ELISPOT assay measuring epitope specific interleukin-1 beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "41243e4ec1872960ef736401df38b9f6b29bc467"
+    },
+    {
+      "iri": "obo:OBI_1110170",
+      "label": "ELISPOT assay measuring epitope specific interleukin-10 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "2e2bc61f0b4e9f7d714013c2ba9a4876e403bdd3"
+    },
+    {
+      "iri": "obo:OBI_0001844",
+      "label": "ELISPOT assay measuring epitope specific interleukin-12 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "c7fe6bd873d36456d32dd963b7eaea6b15d45af0"
+    },
+    {
+      "iri": "obo:OBI_1110171",
+      "label": "ELISPOT assay measuring epitope specific interleukin-13 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "11d5a80f6e9216b6e21090ac71bf37827c1d30c4"
+    },
+    {
+      "iri": "obo:OBI_0001846",
+      "label": "ELISPOT assay measuring epitope specific interleukin-15 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "5a85ff99da4318dcf01348059e328230d294d308"
+    },
+    {
+      "iri": "obo:OBI_0001838",
+      "label": "ELISPOT assay measuring epitope specific interleukin-16 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e250c661ea73cdc2d28807ed23adadd059b2223c"
+    },
+    {
+      "iri": "obo:OBI_0001354",
+      "label": "ELISPOT assay measuring epitope specific interleukin-17 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "76c0ec7bcf6aaae37929d3aca46007baf4beb42e"
+    },
+    {
+      "iri": "obo:OBI_0001833",
+      "label": "ELISPOT assay measuring epitope specific interleukin-17A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "6b786bf35670a19939d592b1f7064fbe2d4929b0"
+    },
+    {
+      "iri": "obo:OBI_0001830",
+      "label": "ELISPOT assay measuring epitope specific interleukin-17F production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3736a0b90e4b0713933d35211c4214bd26fd95d3"
+    },
+    {
+      "iri": "obo:OBI_0001817",
+      "label": "ELISPOT assay measuring epitope specific interleukin-18 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e3eb545c484aee4d3725756bf11d31addd0fe2ca"
+    },
+    {
+      "iri": "obo:OBI_1110013",
+      "label": "ELISPOT assay measuring epitope specific interleukin-2 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "85c1c715e970f632c1dc17b2888bfbf6ad3f455f"
+    },
+    {
+      "iri": "obo:OBI_0001826",
+      "label": "ELISPOT assay measuring epitope specific interleukin-21 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "1f4438ad1488013ec7f4362885ce2dabe9f431c4"
+    },
+    {
+      "iri": "obo:OBI_0001821",
+      "label": "ELISPOT assay measuring epitope specific interleukin-22 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "d712d9b2b7f00554fe5d7e3d0580408c7a825055"
+    },
+    {
+      "iri": "obo:OBI_0001822",
+      "label": "ELISPOT assay measuring epitope specific interleukin-23 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "668951f4a5afe18aa80ac6c2f4cc59b804e3d2a6"
+    },
+    {
+      "iri": "obo:OBI_0001813",
+      "label": "ELISPOT assay measuring epitope specific interleukin-27 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "c0eaf0e7224f37892b09bfd97bc2c1c7197cf37c"
+    },
+    {
+      "iri": "obo:OBI_0001802",
+      "label": "ELISPOT assay measuring epitope specific interleukin-3 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7194c4ae96756595c7b31bb54aeafd0678d892ed"
+    },
+    {
+      "iri": "obo:OBI_1110167",
+      "label": "ELISPOT assay measuring epitope specific interleukin-4 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "f41beaf60e689c456a404588d3dbbb11923a1a8d"
+    },
+    {
+      "iri": "obo:OBI_0001455",
+      "label": "ELISPOT assay measuring epitope specific interleukin-5 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ee03067c52922da592adba5718f8ce4ee04b4d41"
+    },
+    {
+      "iri": "obo:OBI_0001227",
+      "label": "ELISPOT assay measuring epitope specific interleukin-6 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b2eda56d3fb0e863ea3a731a839b6662153c5941"
+    },
+    {
+      "iri": "obo:OBI_0001804",
+      "label": "ELISPOT assay measuring epitope specific interleukin-7 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "662fa8bd93b8f8f4e6d5bdb82ca243b1b925db3c"
+    },
+    {
+      "iri": "obo:OBI_0001800",
+      "label": "ELISPOT assay measuring epitope specific interleukin-8 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7c64e0251ff47eb4a248db22c025110ba81813f1"
+    },
+    {
+      "iri": "obo:OBI_0001797",
+      "label": "ELISPOT assay measuring epitope specific interleukin-9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "1cb0a104b0cf390eca45ad0ebbfd37f8028259d8"
+    },
+    {
+      "iri": "obo:OBI_0001795",
+      "label": "ELISPOT assay measuring epitope specific IP-10 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "0ebb35247ba6e0c7e0a820646c26b06e9295272d"
+    },
+    {
+      "iri": "obo:OBI_0001791",
+      "label": "ELISPOT assay measuring epitope specific lymphotoxin A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "404898bf00f5ce7d1b056a6402c4cc4c13bb27af"
+    },
+    {
+      "iri": "obo:OBI_0001780",
+      "label": "ELISPOT assay measuring epitope specific macrophage inflammatory protein-1 alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "83db6e325cf08ab974619846aa3a525dd9f29d95"
+    },
+    {
+      "iri": "obo:OBI_0001786",
+      "label": "ELISPOT assay measuring epitope specific macrophage inflammatory protein-1 gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3fe25290e3b671db5f2138fc002a6b0c6f900528"
+    },
+    {
+      "iri": "obo:OBI_0001784",
+      "label": "ELISPOT assay measuring epitope specific monocyte chemotactic protein-1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ecd4b8b8c7a3cc1f276cf1d3d53caa0254e7d85b"
+    },
+    {
+      "iri": "obo:OBI_0002069",
+      "label": "ELISPOT assay measuring epitope specific perforin release by T cells",
+      "hasChildren": false,
+      "childrenKey": "4fc58a745aae0de122c15f625dfbbdc205608641"
+    },
+    {
+      "iri": "obo:OBI_0001790",
+      "label": "ELISPOT assay measuring epitope specific RANTES production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e9e7e2b6caf725b3f69b3aca4d2a5fb05751c412"
+    },
+    {
+      "iri": "obo:OBI_0001194",
+      "label": "ELISPOT assay measuring epitope specific transforming growth factor-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "89cfbf50a1794d0f7f0319ef8599d469796b0d5e"
+    },
+    {
+      "iri": "obo:OBI_1110168",
+      "label": "ELISPOT assay measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3edf4d36f1c2c0755c681516afc5f6f576622c2c"
+    },
+    {
+      "iri": "obo:OBI_0001272",
+      "label": "ELISPOT assay measuring epitope specific tumor necrosis factor superfamily cytokine production by T cells",
+      "hasChildren": true,
+      "childrenKey": "d019d097be5ec0228434ac88528e2e58c5531bcb"
+    },
+    {
+      "iri": "obo:OBI_0001771",
+      "label": "ELISPOT assay measuring epitope specific vascular endothelial growth factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "2ef32c31a7701f3c0397ac9fd1aa1b35b545ac83"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000512",
+  "children": [
+    {
+      "iri": "obo:OBI_0000540",
+      "label": "isolation of adherent cells",
+      "hasChildren": false,
+      "childrenKey": "9794dfac95a45e5fd137ce34c4c9bf1f67c89419"
+    },
+    {
+      "iri": "obo:OBI_0000548",
+      "label": "isolation of PBMCs",
+      "hasChildren": false,
+      "childrenKey": "7877ecb3921873ac0867888ee6c33dac0de4e02f"
+    }
+  ]
+}

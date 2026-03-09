@@ -1,15 +1,174 @@
+import { useMemo, useState } from 'react';
 import type {
   CustomFieldType,
   CustomFieldVersion,
   FieldLibrary,
   FieldType,
   FormField,
+  OntologyClassOption,
+  OntologyOptionSource,
   FormSchema,
   TemplateVersion,
 } from '../types';
 import { FIELD_TYPES } from './FormBuilder';
+import { OntologyIriPickerModal } from './OntologyIriPickerModal';
 
 const deepClone = <T,>(value: T): T => JSON.parse(JSON.stringify(value));
+const basePath = import.meta.env.BASE_URL || '/';
+
+interface OntologyPickerSelection {
+  iri: string;
+  label: string;
+  hasChildren?: boolean;
+  childrenKey?: string;
+  ontologyId?: string;
+}
+
+const normalizePath = (path: string): string => path.replace(/^\/+/, '');
+const normalizeBasePath = (path: string): string =>
+  path.endsWith('/') ? path : `${path}/`;
+
+const toAssetUrls = (path: string): string[] => {
+  const normalizedPath = normalizePath(path);
+  const normalizedBasePath = normalizeBasePath(basePath);
+  return Array.from(new Set([
+    `${normalizedBasePath}${normalizedPath}`,
+    `/${normalizedPath}`,
+    `./${normalizedPath}`,
+    normalizedPath,
+  ]));
+};
+
+const toSha1Hex = async (input: string): Promise<string | null> => {
+  if (!globalThis.crypto?.subtle) return null;
+  const encoded = new TextEncoder().encode(input);
+  const digest = await globalThis.crypto.subtle.digest('SHA-1', encoded);
+  return Array.from(new Uint8Array(digest))
+    .map((byte) => byte.toString(16).padStart(2, '0'))
+    .join('');
+};
+
+const cloneOntologyOptions = (options: OntologyClassOption[]): OntologyClassOption[] =>
+  options.map((option) => ({ ...option }));
+
+const cloneOntologySources = (sources: OntologyOptionSource[]): OntologyOptionSource[] =>
+  sources.map((source) => ({
+    ...source,
+    options: cloneOntologyOptions(source.options || []),
+  }));
+
+const sourcesFromOptions = (options?: OntologyClassOption[]): OntologyOptionSource[] =>
+  (options || []).map((option) => ({
+    mode: 'single',
+    iri: option.iri,
+    label: option.label,
+    options: [{ ...option }],
+  }));
+
+const flattenOntologySources = (sources: OntologyOptionSource[]): OntologyClassOption[] => {
+  const byIri = new Map<string, OntologyClassOption>();
+  sources.forEach((source) => {
+    source.options.forEach((option) => {
+      if (!byIri.has(option.iri)) {
+        byIri.set(option.iri, { ...option });
+      }
+    });
+  });
+  return Array.from(byIri.values());
+};
+
+const fetchOntologyChildNodes = async (
+  selection: OntologyPickerSelection,
+): Promise<OntologyPickerSelection[]> => {
+  const iri = selection.iri;
+  const ontologyIds = Array.from(new Set([
+    selection.ontologyId,
+    selection.ontologyId?.toLowerCase(),
+    selection.ontologyId?.toUpperCase(),
+    'obi',
+    'OBI',
+  ].filter((value): value is string => Boolean(value && value.trim()))));
+  const keyCandidates = new Set<string>();
+  if (selection.childrenKey && selection.childrenKey.trim()) {
+    keyCandidates.add(selection.childrenKey);
+  }
+  const sha1Key = await toSha1Hex(iri);
+  if (sha1Key) {
+    keyCandidates.add(sha1Key);
+  }
+
+  for (const ontologyId of ontologyIds) {
+    for (const key of keyCandidates) {
+      const candidateUrls = toAssetUrls(`ontology-children/${ontologyId}/${key}.json`);
+      for (const url of candidateUrls) {
+        try {
+          const response = await fetch(url, { cache: 'no-cache' });
+          if (response.status === 404) {
+            continue;
+          }
+          if (!response.ok) {
+            continue;
+          }
+          const payload = (await response.json()) as {
+            children?: Array<{
+              iri?: string;
+              label?: string;
+              hasChildren?: boolean;
+              childrenKey?: string;
+            }>;
+          };
+          return (payload.children || [])
+            .filter((child) => child.iri)
+            .map((child) => ({
+              iri: child.iri!,
+              label: child.label?.trim() || child.iri!,
+              hasChildren: child.hasChildren,
+              childrenKey: child.childrenKey,
+              ontologyId,
+            }));
+        } catch {
+          // Continue trying fallback URLs.
+        }
+      }
+    }
+  }
+
+  return [];
+};
+
+const fetchImmediateChildren = async (
+  selection: OntologyPickerSelection,
+): Promise<OntologyClassOption[]> => {
+  const childNodes = await fetchOntologyChildNodes(selection);
+  return childNodes.map((child) => ({ iri: child.iri, label: child.label }));
+};
+
+const fetchBranchChildren = async (
+  selection: OntologyPickerSelection,
+): Promise<OntologyClassOption[]> => {
+  const byIri = new Map<string, OntologyClassOption>();
+  const visitedParents = new Set<string>();
+  const queue: OntologyPickerSelection[] = [selection];
+
+  while (queue.length > 0) {
+    const current = queue.shift();
+    if (!current) continue;
+    if (visitedParents.has(current.iri)) continue;
+    visitedParents.add(current.iri);
+
+    const children = await fetchOntologyChildNodes(current);
+    children.forEach((child) => {
+      if (!byIri.has(child.iri)) {
+        byIri.set(child.iri, { iri: child.iri, label: child.label });
+      }
+      if (child.hasChildren !== false && !visitedParents.has(child.iri)) {
+        queue.push(child);
+      }
+    });
+  }
+
+  return Array.from(byIri.values()).sort((a, b) => a.label.localeCompare(b.label));
+};
 
 interface FieldEditorProps {
   field: FormField;
@@ -48,6 +207,11 @@ export function FieldEditor({
   showVersionControls = false,
   onEditFieldType,
 }: FieldEditorProps) {
+  const [isOntologyPickerOpen, setIsOntologyPickerOpen] = useState(false);
+  const [isOntologyOptionPickerOpen, setIsOntologyOptionPickerOpen] = useState(false);
+  const [ontologyOptionSelectionMode, setOntologyOptionSelectionMode] = useState<'single' | 'children' | 'branch'>('single');
+  const [ontologyOptionStatus, setOntologyOptionStatus] = useState<string | null>(null);
+  const [isLoadingOntologyOptionSource, setIsLoadingOntologyOptionSource] = useState(false);
 
   // Get library fields based on the field's own libraryId (not the global selection)
   const fieldLibraryId = field.libraryId;
@@ -58,12 +222,32 @@ export function FieldEditor({
   const isLibraryField = fieldLibraryId && libraryFields.length > 0;
   const isTemplateComponentField = field.type === 'template';
   const availableTemplates = templates.filter((template) => template.id !== currentTemplateId);
+  const availableStandardFieldTypes = useMemo(
+    () => {
+      if (showSemanticFields) return FIELD_TYPES;
+
+      const basicTypes = FIELD_TYPES.filter((fieldType) => fieldType.type !== 'ontology-select');
+      if (field.type === 'ontology-select') {
+        const ontologyType = FIELD_TYPES.find((fieldType) => fieldType.type === 'ontology-select');
+        return ontologyType ? [...basicTypes, ontologyType] : basicTypes;
+      }
+      return basicTypes;
+    },
+    [showSemanticFields, field.type],
+  );
 
   const handleTypeChange = (value: string) => {
     if (isLibraryField) {
       // Value is a custom field ID
       const customField = customFields.find(cf => cf.id === value);
       if (customField) {
+        const ontologySources = customField.baseType === 'ontology-select'
+          ? cloneOntologySources(
+            customField.ontologyOptionSources && customField.ontologyOptionSources.length > 0
+              ? customField.ontologyOptionSources
+              : sourcesFromOptions(customField.ontologyOptions || field.ontologyOptions),
+          )
+          : [];
         const updatedField: FormField = {
           ...field,
           type: customField.baseType,
@@ -71,6 +255,8 @@ export function FieldEditor({
           customFieldVersion: customField.version,
           description: customField.description || '',
           options: customField.baseType === 'select' ? (field.options || ['Option 1', 'Option 2', 'Option 3']) : undefined,
+          ontologyOptions: customField.baseType === 'ontology-select' ? flattenOntologySources(ontologySources) : undefined,
+          ontologyOptionSources: customField.baseType === 'ontology-select' ? ontologySources : undefined,
           validationRules: customField.validationRules ? [...customField.validationRules] : undefined,
         };
         onUpdate(updatedField);
@@ -78,12 +264,17 @@ export function FieldEditor({
     } else {
       // Value is a standard field type
       const newType = value as FieldType;
+      const ontologySources = newType === 'ontology-select'
+        ? cloneOntologySources(effectiveOntologyOptionSources)
+        : [];
       const updatedField: FormField = {
         ...field,
         type: newType,
         customFieldTypeId: undefined,
         customFieldVersion: undefined,
         options: newType === 'select' ? (field.options || ['Option 1', 'Option 2', 'Option 3']) : undefined,
+        ontologyOptions: newType === 'ontology-select' ? flattenOntologySources(ontologySources) : undefined,
+        ontologyOptionSources: newType === 'ontology-select' ? ontologySources : undefined,
       };
       onUpdate(updatedField);
     }
@@ -121,6 +312,13 @@ export function FieldEditor({
   const fieldLibrary = field.libraryId 
     ? fieldLibraries.find(l => l.id === field.libraryId)
     : null;
+  const effectiveOntologyOptionSources = useMemo(
+    () =>
+      field.ontologyOptionSources && field.ontologyOptionSources.length > 0
+        ? cloneOntologySources(field.ontologyOptionSources)
+        : sourcesFromOptions(field.ontologyOptions),
+    [field.ontologyOptionSources, field.ontologyOptions],
+  );
 
   return (
     <div 
@@ -154,7 +352,7 @@ export function FieldEditor({
                   </option>
                 ))
               ) : (
-                FIELD_TYPES.map(({ type, label, icon }) => (
+                availableStandardFieldTypes.map(({ type, label, icon }) => (
                   <option key={type} value={type}>
                     {icon} {label}
                   </option>
@@ -171,12 +369,21 @@ export function FieldEditor({
                 const selectedVersion = customFieldVersionHistory.find((item) => item.version === version);
                 if (!selectedVersion) return;
                 const snapshot = selectedVersion.snapshot;
+                const ontologySources = snapshot.baseType === 'ontology-select'
+                  ? cloneOntologySources(
+                    snapshot.ontologyOptionSources && snapshot.ontologyOptionSources.length > 0
+                      ? snapshot.ontologyOptionSources
+                      : sourcesFromOptions(snapshot.ontologyOptions || field.ontologyOptions),
+                  )
+                  : [];
                 onUpdate({
                   ...field,
                   type: snapshot.baseType,
                   customFieldVersion: selectedVersion.version,
                   description: snapshot.description || '',
                   options: snapshot.baseType === 'select' ? (field.options || ['Option 1', 'Option 2', 'Option 3']) : undefined,
+                  ontologyOptions: snapshot.baseType === 'ontology-select' ? flattenOntologySources(ontologySources) : undefined,
+                  ontologyOptionSources: snapshot.baseType === 'ontology-select' ? ontologySources : undefined,
                   validationRules: deepClone(snapshot.validationRules),
                 });
               }}
@@ -233,12 +440,36 @@ export function FieldEditor({
           {showSemanticFields && (
             <div className="form-group">
               <label>Field Name IRI</label>
-              <input
-                type="text"
-                value={field.nameIri || ''}
-                onChange={(e) => onUpdate({ ...field, nameIri: e.target.value })}
-                placeholder="https://example.org/iri/field-name"
-              />
+              <div className="iri-input-row">
+                <input
+                  type="text"
+                  value={field.nameIri || ''}
+                  onChange={(e) => {
+                    const nextIri = e.target.value;
+                    onUpdate({
+                      ...field,
+                      nameIri: nextIri,
+                      nameIriLabel: nextIri === field.nameIri ? field.nameIriLabel : '',
+                    });
+                  }}
+                  placeholder="https://example.org/iri/field-name"
+                />
+                {field.nameIri && field.nameIriLabel && (
+                  <span className="iri-label-chip" title={field.nameIri}>
+                    {field.nameIriLabel}
+                  </span>
+                )}
+                <button
+                  type="button"
+                  className="iri-picker-button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setIsOntologyPickerOpen(true);
+                  }}
+                >
+                  Pick from Ontology
+                </button>
+              </div>
               <span className="input-hint">Paste an IRI to semantically identify this field name.</span>
             </div>
           )}
@@ -328,6 +559,99 @@ export function FieldEditor({
               />
             </div>
           )}
+          {field.type === 'ontology-select' && (
+            <div className="form-group">
+              <label>Ontology Option Sources</label>
+              <div className="ontology-options-toolbar">
+                <button
+                  type="button"
+                  className="iri-picker-button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setOntologyOptionSelectionMode('single');
+                    setIsOntologyOptionPickerOpen(true);
+                  }}
+                >
+                  Add Ontology Class
+                </button>
+                <button
+                  type="button"
+                  className="iri-picker-button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setOntologyOptionSelectionMode('children');
+                    setIsOntologyOptionPickerOpen(true);
+                  }}
+                >
+                  Add Immediate Children
+                </button>
+                <button
+                  type="button"
+                  className="iri-picker-button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setOntologyOptionSelectionMode('branch');
+                    setIsOntologyOptionPickerOpen(true);
+                  }}
+                >
+                  Add Branch
+                </button>
+              </div>
+              {isLoadingOntologyOptionSource && (
+                <span className="input-hint">
+                  {ontologyOptionSelectionMode === 'branch'
+                    ? 'Loading branch descendants...'
+                    : 'Loading immediate children...'}
+                </span>
+              )}
+              {ontologyOptionStatus && (
+                <span className="input-hint">{ontologyOptionStatus}</span>
+              )}
+              {effectiveOntologyOptionSources.length === 0 ? (
+                <span className="input-hint">No ontology option source configured yet.</span>
+              ) : (
+                <div className="ontology-option-list">
+                  {effectiveOntologyOptionSources.map((source) => (
+                    <div key={`${source.mode}:${source.iri}`} className="ontology-option-item">
+                      <div className="ontology-option-text">
+                        <span className="ontology-option-label">
+                          {source.mode === 'children'
+                            ? `All immediate children of ${source.label}`
+                            : source.mode === 'branch'
+                              ? `Branch (all descendants) of ${source.label}`
+                              : source.label}
+                        </span>
+                        <span className="ontology-option-iri">{source.iri}</span>
+                        {(source.mode === 'children' || source.mode === 'branch') && (
+                          <span className="input-hint">
+                            {source.options.length} {source.mode === 'branch' ? 'descendant' : 'direct child'} option{source.options.length === 1 ? '' : 's'}.
+                          </span>
+                        )}
+                      </div>
+                      <button
+                        type="button"
+                        className="ontology-option-remove"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          const nextSources = effectiveOntologyOptionSources.filter(
+                            (item) => !(item.mode === source.mode && item.iri === source.iri),
+                          );
+                          onUpdate({
+                            ...field,
+                            ontologyOptionSources: nextSources,
+                            ontologyOptions: flattenOntologySources(nextSources),
+                          });
+                        }}
+                        title={`Remove ${source.label}`}
+                      >
+                        ×
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
 
           <div className="form-group-row">
             <label className="checkbox-label">
@@ -351,6 +675,84 @@ export function FieldEditor({
             </>
           )}
         </div>
+      <OntologyIriPickerModal
+        isOpen={isOntologyPickerOpen}
+        onClose={() => setIsOntologyPickerOpen(false)}
+        onSelectIri={({ iri, label }) => onUpdate({ ...field, nameIri: iri, nameIriLabel: label })}
+      />
+      <OntologyIriPickerModal
+        isOpen={isOntologyOptionPickerOpen}
+        onClose={() => setIsOntologyOptionPickerOpen(false)}
+        onSelectIri={async (selection: OntologyPickerSelection) => {
+          setOntologyOptionStatus(null);
+
+          if (ontologyOptionSelectionMode === 'children' || ontologyOptionSelectionMode === 'branch') {
+            setIsLoadingOntologyOptionSource(true);
+            const sourceOptions = ontologyOptionSelectionMode === 'branch'
+              ? await fetchBranchChildren(selection)
+              : await fetchImmediateChildren(selection);
+            setIsLoadingOntologyOptionSource(false);
+
+            const source: OntologyOptionSource = {
+              mode: ontologyOptionSelectionMode,
+              iri: selection.iri,
+              label: selection.label,
+              options: sourceOptions,
+            };
+
+            if (
+              effectiveOntologyOptionSources.some(
+                (existingSource) =>
+                  existingSource.mode === ontologyOptionSelectionMode &&
+                  existingSource.iri === selection.iri,
+              )
+            ) {
+              setOntologyOptionStatus(
+                ontologyOptionSelectionMode === 'branch'
+                  ? `Branch of ${selection.label} is already configured.`
+                  : `Immediate children of ${selection.label} are already configured.`,
+              );
+              return;
+            }
+
+            const nextSources = [...effectiveOntologyOptionSources, source];
+            onUpdate({
+              ...field,
+              ontologyOptionSources: nextSources,
+              ontologyOptions: flattenOntologySources(nextSources),
+            });
+            setOntologyOptionStatus(
+              sourceOptions.length > 0
+                ? ontologyOptionSelectionMode === 'branch'
+                  ? `Configured full branch (all descendants) of ${selection.label}.`
+                  : `Configured all immediate children of ${selection.label}.`
+                : ontologyOptionSelectionMode === 'branch'
+                  ? `${selection.label} has no descendants.`
+                  : `${selection.label} has no immediate children.`,
+            );
+            return;
+          }
+
+          const singleSource: OntologyOptionSource = {
+            mode: 'single',
+            iri: selection.iri,
+            label: selection.label,
+            options: [{ iri: selection.iri, label: selection.label }],
+          };
+
+          if (effectiveOntologyOptionSources.some((source) => source.mode === 'single' && source.iri === selection.iri)) {
+            setOntologyOptionStatus(`${selection.label} is already configured.`);
+            return;
+          }
+
+          const nextSources = [...effectiveOntologyOptionSources, singleSource];
+          onUpdate({
+            ...field,
+            ontologyOptionSources: nextSources,
+            ontologyOptions: flattenOntologySources(nextSources),
+          });
+        }}
+      />
     </div>
   );
 }

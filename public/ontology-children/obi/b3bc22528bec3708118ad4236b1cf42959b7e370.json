@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003467",
+  "children": [
+    {
+      "iri": "obo:OBI_0001696",
+      "label": "in vivo assay measuring B cell epitope specific protection based on survival",
+      "hasChildren": true,
+      "childrenKey": "b4956509d5821647f9e4e88639563de91aeb197e"
+    }
+  ]
+}

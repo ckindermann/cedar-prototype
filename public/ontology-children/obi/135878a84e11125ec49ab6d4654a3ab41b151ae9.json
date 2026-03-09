@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002082",
+  "children": [
+    {
+      "iri": "obo:OBI_0002083",
+      "label": "enhancer activity detection by reporter gene assay",
+      "hasChildren": false,
+      "childrenKey": "1f49dda0ac16b6887d338863fcb2abb107c943cc"
+    },
+    {
+      "iri": "obo:OBI_0002960",
+      "label": "fluorescence imaging-based reporter gene assay",
+      "hasChildren": false,
+      "childrenKey": "5b87eb3707f71d934f3422e49a76633e76da7bd2"
+    },
+    {
+      "iri": "obo:OBI_0002675",
+      "label": "massively parallel reporter assay",
+      "hasChildren": false,
+      "childrenKey": "4700a4932d322f90801628c7c6657a9aae5ea313"
+    }
+  ]
+}

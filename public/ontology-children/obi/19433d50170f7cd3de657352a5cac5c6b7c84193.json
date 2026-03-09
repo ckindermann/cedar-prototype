@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000423",
+  "children": [
+    {
+      "iri": "obo:OBI_0000894",
+      "label": "protein extract",
+      "hasChildren": false,
+      "childrenKey": "0ba34957d46e8a7b45ef157470706e90d57bce8a"
+    }
+  ]
+}

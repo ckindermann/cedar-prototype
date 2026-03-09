@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001992",
+  "children": [
+    {
+      "iri": "obo:OBI_0001597",
+      "label": "cell bound MHC competitive binding assay measuring half maximal inhibitory concentration [IC50] of a MHC:ligand complex using T cell epitope recognition",
+      "hasChildren": false,
+      "childrenKey": "355c0887b84ab9fe1ff9b005e0185623012aeecd"
+    },
+    {
+      "iri": "obo:OBI_0001520",
+      "label": "fluorescence detection assay measuring half maximal inhibitory concentration [IC50] to determine competitive binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "7e7996f03af9ea22c31a888bd9e7baa2327a921f"
+    },
+    {
+      "iri": "obo:OBI_0001613",
+      "label": "fluorescence detection assay measuring half maximal inhibitory concentration [IC50] to determine competitive binding of a purified-MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "8edfdd236304dfafb5bb7df199665b45a4010c92"
+    },
+    {
+      "iri": "obo:OBI_0001517",
+      "label": "radioactivity detection assay measuring half maximal inhibitory concentration [IC50] to determine competitive binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "d714ed087bffdb1822a73587c088d3833f23b4d4"
+    },
+    {
+      "iri": "obo:OBI_0001568",
+      "label": "radioactivity detection assay measuring half maximal inhibitory concentration [IC50] to determine competitive binding of a purified-MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "06992e68dfe8b61d724becdcdc583da4b97a1a9b"
+    }
+  ]
+}

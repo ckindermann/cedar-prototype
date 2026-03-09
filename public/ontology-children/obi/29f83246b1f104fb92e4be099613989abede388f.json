@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000338",
+  "children": [
+    {
+      "iri": "obo:OBI_0001575",
+      "label": "assigning gene property based on phenotypic assessment",
+      "hasChildren": false,
+      "childrenKey": "d0f20e015c876eb5f83d041a4b115fc486ca5db9"
+    },
+    {
+      "iri": "obo:OBI_0001546",
+      "label": "comparative phenotypic assessment",
+      "hasChildren": false,
+      "childrenKey": "d5fde727212f1a09bdc8c12a33df97ca36edcf42"
+    },
+    {
+      "iri": "obo:OBI_0000343",
+      "label": "inductive reasoning",
+      "hasChildren": false,
+      "childrenKey": "62b4eef031caa7ed9e632e471d9d8295132fe03f"
+    },
+    {
+      "iri": "obo:OBI_0003366",
+      "label": "organism diagnostic process",
+      "hasChildren": true,
+      "childrenKey": "e86a49472a4f1bbc309970c5893dceb63180efc8"
+    }
+  ]
+}

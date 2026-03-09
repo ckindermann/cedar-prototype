@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001237",
+  "children": [
+    {
+      "iri": "obo:OBI_0001601",
+      "label": "cytometric bead array assay measuring epitope specific intracellular cytokine staining (ICS) IL-21 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "f9aa37eb8bc1ffadb8b1fdc2ceceb83f5243d46e"
+    },
+    {
+      "iri": "obo:OBI_0001298",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-21 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "a8efea22ec32c2de3801aee5cebfb186b5e24fb9"
+    },
+    {
+      "iri": "obo:OBI_0001346",
+      "label": "ELISA measuring epitope specific interleukin-21 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "85c66383ee3b485cbdd9e95610d637efde9632da"
+    },
+    {
+      "iri": "obo:OBI_0001826",
+      "label": "ELISPOT assay measuring epitope specific interleukin-21 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "1f4438ad1488013ec7f4362885ce2dabe9f431c4"
+    },
+    {
+      "iri": "obo:OBI_0001342",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-21 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3fb3d8e6bc70a0b7855e189b21df77f9e0d9b14e"
+    }
+  ]
+}

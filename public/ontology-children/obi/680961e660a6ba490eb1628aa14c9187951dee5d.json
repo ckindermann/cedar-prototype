@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001113",
+  "children": [
+    {
+      "iri": "obo:OBI_0001115",
+      "label": "ELISA microplate washer",
+      "hasChildren": false,
+      "childrenKey": "376336b7ab65065b8b635c5afac2a7cff8ccec9b"
+    }
+  ]
+}

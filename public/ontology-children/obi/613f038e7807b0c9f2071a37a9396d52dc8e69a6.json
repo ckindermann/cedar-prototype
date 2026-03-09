@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002631",
+  "children": [
+    {
+      "iri": "obo:OBI_0003105",
+      "label": "single-cell combinatorial indexing RNA sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "f9f2717d82bcd024b38283fbec92e8f66e03e7b2"
+    }
+  ]
+}

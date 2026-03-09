@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001444",
+  "children": [
+    {
+      "iri": "obo:OBI_0001387",
+      "label": "genotyping by array design",
+      "hasChildren": false,
+      "childrenKey": "deaa5f56fca074c52f90d7ec54ecf13b63a0bd1f"
+    },
+    {
+      "iri": "obo:OBI_0001200",
+      "label": "genotyping by high throughput sequencing design",
+      "hasChildren": false,
+      "childrenKey": "c091957edc44216b69ccc34db453512c8a49775a"
+    }
+  ]
+}

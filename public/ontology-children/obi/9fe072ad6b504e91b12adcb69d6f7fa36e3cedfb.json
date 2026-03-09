@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002390",
+  "children": [
+    {
+      "iri": "obo:OBI_0002392",
+      "label": "exposure to second hand smoke in current household",
+      "hasChildren": false,
+      "childrenKey": "1402d9988cdf7448efe5f8cd183e5a9952b7b5d4"
+    },
+    {
+      "iri": "obo:OBI_0002391",
+      "label": "exposure to second hand smoke in household during childhood",
+      "hasChildren": false,
+      "childrenKey": "71ed2fa372c0bfecb20ff98e9564d12fd8f61672"
+    }
+  ]
+}

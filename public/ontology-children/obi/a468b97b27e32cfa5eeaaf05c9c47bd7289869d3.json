@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000703",
+  "children": [
+    {
+      "iri": "obo:OBI_0002027",
+      "label": "Illumina Genome Analyzer IIe",
+      "hasChildren": false,
+      "childrenKey": "8266eae05f8e544fd87fc9db497b475fe074cd38"
+    },
+    {
+      "iri": "obo:OBI_0002000",
+      "label": "Illumina Genome Analyzer IIx",
+      "hasChildren": false,
+      "childrenKey": "409ed5398ef5b0e5d3282ca2f0f7fcb8ab37366c"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003643",
+  "children": [
+    {
+      "iri": "obo:OBI_0003645",
+      "label": "antibody purification of H2-IAd protein complex",
+      "hasChildren": false,
+      "childrenKey": "2c0e0ba08cd9d94b1e1e59b131fd5281f29e8438"
+    },
+    {
+      "iri": "obo:OBI_0003644",
+      "label": "antibody purification of H2-IAg7 protein complex",
+      "hasChildren": false,
+      "childrenKey": "801e7a64b0703c22ace5afb8ff351fe1716f251e"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001960",
+  "children": [
+    {
+      "iri": "obo:OBI_0002763",
+      "label": "16s ribosomal gene sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "e2ee03d174524f48809849783cd1142794260d97"
+    }
+  ]
+}

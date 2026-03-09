@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001368",
+  "children": [
+    {
+      "iri": "obo:OBI_0001793",
+      "label": "cytometric bead array assay measuring epitope specific lymphotoxin A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "72beb4c60d9c50510525da468c04d583d53c7162"
+    },
+    {
+      "iri": "obo:OBI_0001353",
+      "label": "cytometric bead array assay measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "bee19d7bf4c2678a5811b34683180acd30780a72"
+    }
+  ]
+}

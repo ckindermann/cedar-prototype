@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001976",
+  "children": [
+    {
+      "iri": "obo:OBI_0001997",
+      "label": "hydrogen/deuterium exchange footprinting assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "1065c6920b928f5e44387e72450e86da9b158422"
+    }
+  ]
+}

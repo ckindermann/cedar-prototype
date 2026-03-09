@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100025",
+  "children": [
+    {
+      "iri": "obo:OBI_2100108",
+      "label": "cardiac enzymes venous blood creatine kinase assay",
+      "hasChildren": false,
+      "childrenKey": "1cec313566b464da0b8c013ea169ed8d44087f0c"
+    },
+    {
+      "iri": "obo:OBI_2100094",
+      "label": "venous blood creatine kinase assay",
+      "hasChildren": false,
+      "childrenKey": "3c551af37fa9f10629431fbc78a28f2524812031"
+    }
+  ]
+}

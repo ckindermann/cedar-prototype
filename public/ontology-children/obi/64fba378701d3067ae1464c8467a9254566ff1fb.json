@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001144",
+  "children": [
+    {
+      "iri": "obo:OBI_0001603",
+      "label": "binding off rate measurement datum (koff)",
+      "hasChildren": false,
+      "childrenKey": "6a9c3690ce8cbd5ece0ae85a6e94aefc9698992a"
+    },
+    {
+      "iri": "obo:OBI_0001605",
+      "label": "binding on rate measurement datum (kon)",
+      "hasChildren": false,
+      "childrenKey": "8ff818cbee4c80ddc7b4c6e6cf130701133d6e7f"
+    },
+    {
+      "iri": "obo:OBI_0001548",
+      "label": "equilibrium association constant (KA)",
+      "hasChildren": false,
+      "childrenKey": "8ab1ce8263afed4770dfcb5c9ca32e73d0a6c644"
+    },
+    {
+      "iri": "obo:OBI_0001536",
+      "label": "equilibrium dissociation constant (KD)",
+      "hasChildren": true,
+      "childrenKey": "291db945c1e02e971e61d6789eb389f29a18a41b"
+    },
+    {
+      "iri": "obo:OBI_0001583",
+      "label": "half life of binding datum",
+      "hasChildren": false,
+      "childrenKey": "47c168d570ff6e3812d6d44aaa60ae0f579b7a68"
+    }
+  ]
+}

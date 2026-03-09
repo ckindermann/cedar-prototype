@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001936",
+  "children": [
+    {
+      "iri": "obo:OBI_0000788",
+      "label": "fluorescently labeled MHC multimer",
+      "hasChildren": false,
+      "childrenKey": "c29a645c885c66c4bdf13939831982b36be17a18"
+    },
+    {
+      "iri": "obo:OBI_0000839",
+      "label": "labeled oligonucleotide",
+      "hasChildren": false,
+      "childrenKey": "7f3f3857b16a5acb9fa7cb0f89d5971391927c02"
+    },
+    {
+      "iri": "obo:OBI_0000924",
+      "label": "labeled specimen",
+      "hasChildren": true,
+      "childrenKey": "3f974fea0d28cd1862ea70c823e8195b9912a697"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000576",
+  "children": [
+    {
+      "iri": "obo:OBI_0302876",
+      "label": "dissolved material entity",
+      "hasChildren": false,
+      "childrenKey": "518e929988d1e7b3c007dfd860f4989c9335da56"
+    }
+  ]
+}

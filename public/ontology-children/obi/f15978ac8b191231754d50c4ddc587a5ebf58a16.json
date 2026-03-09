@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000436",
+  "children": [
+    {
+      "iri": "obo:OBI_0002679",
+      "label": "vacuum-assisted biopsy needle",
+      "hasChildren": false,
+      "childrenKey": "15f3562486022d2b88a8a936889cd92d2cae17a2"
+    }
+  ]
+}

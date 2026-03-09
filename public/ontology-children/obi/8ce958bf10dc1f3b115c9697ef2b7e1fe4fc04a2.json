@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600045",
+  "children": [
+    {
+      "iri": "obo:OBI_0003122",
+      "label": "3D cell structure determination assay",
+      "hasChildren": true,
+      "childrenKey": "15bc7fee35723d43383d98e58e42e4b1219c341a"
+    },
+    {
+      "iri": "obo:OBI_0003117",
+      "label": "3D molecular structure determination assay",
+      "hasChildren": true,
+      "childrenKey": "3ef2fc87cf248aca7761009e6ad14d6a89133fd2"
+    }
+  ]
+}

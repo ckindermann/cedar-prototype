@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000253",
+  "children": [
+    {
+      "iri": "obo:OBI_0002448",
+      "label": "differential screening hybridization",
+      "hasChildren": false,
+      "childrenKey": "f328789caf4f4388481f4aae868bf5946fc34fd6"
+    },
+    {
+      "iri": "obo:OBI_0002447",
+      "label": "suppression subtractive hybridization",
+      "hasChildren": false,
+      "childrenKey": "9b4a8d5ebdc06d4bda0205fbea70780bb6a9b567"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001931",
+  "children": [
+    {
+      "iri": "obo:OBI_0001929",
+      "label": "mass value specification",
+      "hasChildren": false,
+      "childrenKey": "138f3e3743a64bf30da26499a54ae115f417e958"
+    },
+    {
+      "iri": "obo:OBI_0002491",
+      "label": "medication dose value specification",
+      "hasChildren": false,
+      "childrenKey": "36b6370750a08967a6e7b3eae5f290976b593f45"
+    },
+    {
+      "iri": "obo:OBI_0002490",
+      "label": "medication time value specification",
+      "hasChildren": false,
+      "childrenKey": "7d44678e8e26d9acc3d24c17a215d7beab81d9de"
+    }
+  ]
+}

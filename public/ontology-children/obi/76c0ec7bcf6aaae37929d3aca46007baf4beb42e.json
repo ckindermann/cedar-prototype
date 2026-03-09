@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001354",
+  "children": [
+    {
+      "iri": "obo:OBI_0001833",
+      "label": "ELISPOT assay measuring epitope specific interleukin-17A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "6b786bf35670a19939d592b1f7064fbe2d4929b0"
+    },
+    {
+      "iri": "obo:OBI_0001830",
+      "label": "ELISPOT assay measuring epitope specific interleukin-17F production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3736a0b90e4b0713933d35211c4214bd26fd95d3"
+    }
+  ]
+}

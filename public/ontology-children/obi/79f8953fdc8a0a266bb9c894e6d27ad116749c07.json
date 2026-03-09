@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003216",
+  "children": [
+    {
+      "iri": "obo:OBI_0003217",
+      "label": "testosterone concentration assay",
+      "hasChildren": false,
+      "childrenKey": "104aa955b077b421ddfdc2a246b3d6d227f698f4"
+    }
+  ]
+}

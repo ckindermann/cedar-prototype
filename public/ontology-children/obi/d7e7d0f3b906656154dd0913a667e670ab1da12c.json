@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003361",
+  "children": [
+    {
+      "iri": "obo:OBI_0003362",
+      "label": "T1 lesion mask",
+      "hasChildren": false,
+      "childrenKey": "062a68d7573618bb9228cee6b847c452713f1e9d"
+    },
+    {
+      "iri": "obo:OBI_0003363",
+      "label": "T2 FLAIR lesion mask",
+      "hasChildren": false,
+      "childrenKey": "b62bc927d3f76f520148d3be65e5711b9c437204"
+    }
+  ]
+}

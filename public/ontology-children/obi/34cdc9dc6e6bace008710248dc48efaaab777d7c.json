@@ -1,0 +1,156 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003498",
+  "children": [
+    {
+      "iri": "obo:OBI_0002649",
+      "label": "blood microbiology assay",
+      "hasChildren": true,
+      "childrenKey": "ac8e40acdafc2c9134e71cc016adbbb2ce2928a5"
+    },
+    {
+      "iri": "obo:OBI_0003578",
+      "label": "bone marrow microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "8e8ddf96afc9dc8ba54fe7355abd8bee4e47dba6"
+    },
+    {
+      "iri": "obo:OBI_0003240",
+      "label": "cerebrospinal fluid microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "f7deebe6f5bb7fbf63572f3beba8a0951cd99bdb"
+    },
+    {
+      "iri": "obo:OBI_0002489",
+      "label": "differential medium assay",
+      "hasChildren": false,
+      "childrenKey": "97f0dee1b03abe8a780bfaaff8c86ff5c74d1cec"
+    },
+    {
+      "iri": "obo:OBI_0003241",
+      "label": "endotracheal tube aspirate microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "e1a36ee07521bd3662286c86d0a06f8f48f9a8ef"
+    },
+    {
+      "iri": "obo:OBI_0003039",
+      "label": "feces microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "98c582b643936837a1854f3b08b5aa4fa4ad65ba"
+    },
+    {
+      "iri": "obo:OBI_0003480",
+      "label": "Gram stain assay",
+      "hasChildren": false,
+      "childrenKey": "f64352904d99b6e267d2987ef39cac33ed5f2ede"
+    },
+    {
+      "iri": "obo:OBI_0003242",
+      "label": "induced sputum microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "8a465ba66ccac3f8dbfa8baade4205583a891f5d"
+    },
+    {
+      "iri": "obo:OBI_0003282",
+      "label": "lung microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "636b41c530d086c2d067a46b0acff18f171ec013"
+    },
+    {
+      "iri": "obo:OBI_0003580",
+      "label": "nasal aspirate microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "7477993a2985ff2e646c5079a8928898a1b72664"
+    },
+    {
+      "iri": "obo:OBI_0003285",
+      "label": "nasopharyngeal or oropharyngeal swab microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "646b88ae5f20668330d17537b00205f158bb748d"
+    },
+    {
+      "iri": "obo:OBI_0002736",
+      "label": "organism detection by cross mating assay",
+      "hasChildren": false,
+      "childrenKey": "64e033005fed933841a35a07235c6d0ceae4dea5"
+    },
+    {
+      "iri": "obo:OBI_0002737",
+      "label": "organism detection by cytological chromosome examination assay",
+      "hasChildren": false,
+      "childrenKey": "600b6b0e59c1f3a04d44775ec62b44470b26f1fc"
+    },
+    {
+      "iri": "obo:OBI_0002738",
+      "label": "organism detection by isoenzyme electrophoresis assay",
+      "hasChildren": false,
+      "childrenKey": "ef93c5e9a5090e267c05d90bc15331f9bbc64073"
+    },
+    {
+      "iri": "obo:OBI_0002739",
+      "label": "organism detection by morphological examination assay",
+      "hasChildren": false,
+      "childrenKey": "64399b88d76aca2cad0236742052265995afbec5"
+    },
+    {
+      "iri": "obo:OBI_0002740",
+      "label": "organism detection by PCR assay",
+      "hasChildren": false,
+      "childrenKey": "7b6816fb474564c17d2e20b7c713086a741f4d8e"
+    },
+    {
+      "iri": "obo:OBI_0002742",
+      "label": "organism detection by salinity tolerance assay",
+      "hasChildren": false,
+      "childrenKey": "d4504f7b424c14a8ab8b08bfecb5a3257df6b58f"
+    },
+    {
+      "iri": "obo:OBI_0002735",
+      "label": "organism detection by size assay",
+      "hasChildren": false,
+      "childrenKey": "f56cdbcb94ea023b1059d664af82166fb9fd73ad"
+    },
+    {
+      "iri": "obo:OBI_0002741",
+      "label": "organism detection by specific DNA hybridization assay",
+      "hasChildren": false,
+      "childrenKey": "3f97356717863155c8afb1b383bfb5934cf51689"
+    },
+    {
+      "iri": "obo:OBI_0001624",
+      "label": "organism species detection assay",
+      "hasChildren": false,
+      "childrenKey": "cfecce6e525f8a49493a41729d09e4fa8582e44e"
+    },
+    {
+      "iri": "obo:OBI_0003038",
+      "label": "parasite detection assay",
+      "hasChildren": true,
+      "childrenKey": "479c9985d3cc94bc06f9119b06c57d7a56b0cf1b"
+    },
+    {
+      "iri": "obo:OBI_0002728",
+      "label": "pathogen detection assay",
+      "hasChildren": true,
+      "childrenKey": "12dc1499488eecca7b064394252e0512b332727e"
+    },
+    {
+      "iri": "obo:OBI_0003283",
+      "label": "pleural fluid microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "766db4518b13d8f47d85b92ae7fe8a2f034a6bc9"
+    },
+    {
+      "iri": "obo:OBI_0003576",
+      "label": "skin of body microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "b043ea2da97669e88c720524b37c587e6da1215d"
+    },
+    {
+      "iri": "obo:OBI_0003286",
+      "label": "urine microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "a9ade8702f35bda5892948bac7a295e2783e3310"
+    }
+  ]
+}

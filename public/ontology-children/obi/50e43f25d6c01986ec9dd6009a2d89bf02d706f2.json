@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002215",
+  "children": [
+    {
+      "iri": "obo:OBI_0002216",
+      "label": "histologic grade for ovarian tumor according to a two-tier grading system",
+      "hasChildren": false,
+      "childrenKey": "173900e04db06776baabd39e073d879013519d20"
+    },
+    {
+      "iri": "obo:OBI_0002219",
+      "label": "histologic grade for ovarian tumor according to the World Health Organization",
+      "hasChildren": false,
+      "childrenKey": "66a17a84a1d70b26bfe8510a1be17256f229d056"
+    }
+  ]
+}

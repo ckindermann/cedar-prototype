@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001154",
+  "children": [
+    {
+      "iri": "obo:OBI_0003131",
+      "label": "directed mutagenesis",
+      "hasChildren": true,
+      "childrenKey": "1428439908154685a93469250a4fe35c3ae261d5"
+    },
+    {
+      "iri": "obo:OBI_0002620",
+      "label": "random mutagenesis",
+      "hasChildren": true,
+      "childrenKey": "73251cf66f0af525c3daa6c33d1776bed0f5c86e"
+    },
+    {
+      "iri": "obo:OBI_0002619",
+      "label": "site-directed mutagenesis",
+      "hasChildren": false,
+      "childrenKey": "7da91b78f89499ed39b9e2a4323e286b648bc5b3"
+    }
+  ]
+}

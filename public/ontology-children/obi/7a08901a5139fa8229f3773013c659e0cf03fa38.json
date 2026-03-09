@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200072",
+  "children": [
+    {
+      "iri": "obo:OBI_0200006",
+      "label": "biexponential transformation",
+      "hasChildren": false,
+      "childrenKey": "cf4452812eab386ce691018ec02bcad8a2cae347"
+    },
+    {
+      "iri": "obo:OBI_0200116",
+      "label": "loess fitting",
+      "hasChildren": false,
+      "childrenKey": "f086ffe4465f180adffe917124336e0980e00b84"
+    },
+    {
+      "iri": "obo:OBI_0200004",
+      "label": "log-log curve fitting",
+      "hasChildren": false,
+      "childrenKey": "d4a26fa71f5aea11b853628a49ea867f6014467e"
+    },
+    {
+      "iri": "obo:OBI_0200002",
+      "label": "logistic-log curve fitting",
+      "hasChildren": false,
+      "childrenKey": "ff33bc107f83f47aad5ff0b51bc910c68df055b5"
+    },
+    {
+      "iri": "obo:OBI_0200003",
+      "label": "logit-log curve fitting",
+      "hasChildren": false,
+      "childrenKey": "7edd440732d9aeefe031aee53c8aba837e29fcaa"
+    }
+  ]
+}

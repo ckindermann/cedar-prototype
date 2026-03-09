@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003334",
+  "children": [
+    {
+      "iri": "obo:OBI_0003335",
+      "label": "diffusion weighted magnetic resonance image data set",
+      "hasChildren": false,
+      "childrenKey": "5b7b4647edfde963b12cab339df6f73fbe384afe"
+    },
+    {
+      "iri": "obo:OBI_0003336",
+      "label": "functional magnetic resonance image data set",
+      "hasChildren": true,
+      "childrenKey": "a909c5965264ecbd4342de55d2ba99dfbedd2a09"
+    },
+    {
+      "iri": "obo:OBI_0003339",
+      "label": "perfusion weighted magnetic resonance image data set",
+      "hasChildren": false,
+      "childrenKey": "95cbed360cb795038e75c94c926963520a64a80f"
+    },
+    {
+      "iri": "obo:OBI_0003340",
+      "label": "proton density magnetic resonance image data set",
+      "hasChildren": false,
+      "childrenKey": "7260d3ce34132f2f799e10c4d7d5567dd80b8b0d"
+    },
+    {
+      "iri": "obo:OBI_0003341",
+      "label": "T1 weighted magnetic resonance image data set",
+      "hasChildren": true,
+      "childrenKey": "e0aae25f18139c82fc2aec61c8ef178ea2e068b5"
+    },
+    {
+      "iri": "obo:OBI_0003348",
+      "label": "T2 weighted magnetic resonance image data set",
+      "hasChildren": true,
+      "childrenKey": "5c7a0b959a2f7a69a9c215c72d7fb511f315aa81"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003587",
+  "children": [
+    {
+      "iri": "obo:OBI_0600031",
+      "label": "enzyme-linked immunospot assay",
+      "hasChildren": true,
+      "childrenKey": "536271fd2663fde1ef74bca17bbebd29da781847"
+    },
+    {
+      "iri": "obo:OBI_0001672",
+      "label": "gene knock-down assay",
+      "hasChildren": true,
+      "childrenKey": "aa52c9f7ad2dd64e698fb52ea3380a17752413bb"
+    },
+    {
+      "iri": "obo:OBI_0000903",
+      "label": "in vitro cell killing assay",
+      "hasChildren": true,
+      "childrenKey": "803ced933c6bb4da24b0971556c6d94ca2764a1a"
+    },
+    {
+      "iri": "obo:OBI_0000904",
+      "label": "reporter cell line analyte detection bioassay",
+      "hasChildren": true,
+      "childrenKey": "e8c974242c3c62fd48d88f7cc46144126ebd9af3"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2000006",
+  "children": [
+    {
+      "iri": "obo:OBI_0002780",
+      "label": "nasal aspirate specimen",
+      "hasChildren": false,
+      "childrenKey": "ff866388aefdfe75da6e366c21862f11f16597e2"
+    },
+    {
+      "iri": "obo:OBI_0000917",
+      "label": "nasal swab specimen",
+      "hasChildren": true,
+      "childrenKey": "783df6323294ce58c5bc2fbd474cb78b7b944cdc"
+    },
+    {
+      "iri": "obo:OBI_2000007",
+      "label": "nasopharynx specimen",
+      "hasChildren": true,
+      "childrenKey": "aa5d8dc44077487763147db29deb2e1136b4e91d"
+    },
+    {
+      "iri": "obo:OBI_0002608",
+      "label": "oropharyngeal swab specimen",
+      "hasChildren": false,
+      "childrenKey": "b3b35bf991ec5cb13260e56a6b1e293cbf340c48"
+    }
+  ]
+}

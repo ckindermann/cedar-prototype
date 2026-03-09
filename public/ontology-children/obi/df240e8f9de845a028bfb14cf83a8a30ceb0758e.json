@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200140",
+  "children": [
+    {
+      "iri": "obo:OBI_0200151",
+      "label": "exponential base",
+      "hasChildren": false,
+      "childrenKey": "1673978a814ca21d843391fe80a83f35a727c2c3"
+    },
+    {
+      "iri": "obo:OBI_0200141",
+      "label": "log base",
+      "hasChildren": false,
+      "childrenKey": "c1dc663e14141f79b41bc4bfe2283601e62f4248"
+    },
+    {
+      "iri": "obo:OBI_0200153",
+      "label": "number of variables",
+      "hasChildren": false,
+      "childrenKey": "c27de7be5b84cb6f461f3a1534b745ce144b05d7"
+    },
+    {
+      "iri": "obo:OBI_0200152",
+      "label": "polynomial degree",
+      "hasChildren": false,
+      "childrenKey": "f403c50ed06a15d1b33b63089d89d1a47a7c9737"
+    }
+  ]
+}

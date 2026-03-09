@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003045",
+  "children": [
+    {
+      "iri": "obo:OBI_0003044",
+      "label": "parasite species identification by PCR assay",
+      "hasChildren": false,
+      "childrenKey": "90768c114492f22e3efce118e08e3e7d428fe5d5"
+    }
+  ]
+}

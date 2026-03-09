@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000600",
+  "children": [
+    {
+      "iri": "obo:OBI_0000641",
+      "label": "JEOL ECA NMR spectrometer",
+      "hasChildren": false,
+      "childrenKey": "f9e05dc19faf63f4783f1d8c5befeaa35e5f96d9"
+    },
+    {
+      "iri": "obo:OBI_0000625",
+      "label": "JEOL ECX NMR spectrometer",
+      "hasChildren": false,
+      "childrenKey": "6657e43661019c4ea9cada7ed31a6603d3b21d8e"
+    }
+  ]
+}

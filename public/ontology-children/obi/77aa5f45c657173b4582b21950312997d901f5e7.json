@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001994",
+  "children": [
+    {
+      "iri": "obo:OBI_0001666",
+      "label": "fluorescence detection assay measuring binding on rate [kon] to determine direct binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "d33ef7e3e1e7aef3c5157eb3fd27cbef3b694073"
+    },
+    {
+      "iri": "obo:OBI_0001541",
+      "label": "fluorescence detection assay measuring binding on rate [kon] to determine direct binding of a purified-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "19d71cf9e3343d6754e2f3252fd9796ae7ef68b0"
+    }
+  ]
+}

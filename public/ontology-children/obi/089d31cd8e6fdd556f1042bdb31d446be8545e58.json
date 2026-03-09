@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001064",
+  "children": [
+    {
+      "iri": "obo:OBI_0002192",
+      "label": "Leica Peloris rapid tissue processor",
+      "hasChildren": false,
+      "childrenKey": "81cf9138443271d6f63e1d20e73ea1d754f651fe"
+    }
+  ]
+}

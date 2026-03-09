@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002705",
+  "children": [
+    {
+      "iri": "obo:OBI_0002707",
+      "label": "direct insecticide resistance diagnostic assay",
+      "hasChildren": true,
+      "childrenKey": "f38b4c68b428a4ce8af6cd17f0af16ab193b5fbc"
+    },
+    {
+      "iri": "obo:OBI_0002708",
+      "label": "insecticide resistance dose response assay",
+      "hasChildren": true,
+      "childrenKey": "b29af809e9d645e3c42b6b742c03f8630c803b11"
+    },
+    {
+      "iri": "obo:OBI_0002709",
+      "label": "insecticide resistance time response assay",
+      "hasChildren": true,
+      "childrenKey": "88eabeea409eeec0aa97bc2ca820a2136e2e4c2e"
+    }
+  ]
+}

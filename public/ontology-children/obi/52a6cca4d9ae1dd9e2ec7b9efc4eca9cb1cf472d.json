@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110016",
+  "children": [
+    {
+      "iri": "obo:OBI_1110084",
+      "label": "effector T cell function",
+      "hasChildren": false,
+      "childrenKey": "a0518ce408147b7d759714c22a0bc4fa952586a7"
+    }
+  ]
+}

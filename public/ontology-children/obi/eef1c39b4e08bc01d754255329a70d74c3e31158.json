@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003315",
+  "children": [
+    {
+      "iri": "obo:OBI_0003316",
+      "label": "ELISA measuring epitope specific amphiregulin production by T cells",
+      "hasChildren": false,
+      "childrenKey": "d060dfe8c0518c8a1579f13a465ccbc31ad288af"
+    }
+  ]
+}

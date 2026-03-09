@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001171",
+  "children": [
+    {
+      "iri": "obo:OBI_0001583",
+      "label": "half life of binding datum",
+      "hasChildren": false,
+      "childrenKey": "47c168d570ff6e3812d6d44aaa60ae0f579b7a68"
+    }
+  ]
+}

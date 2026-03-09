@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001568",
+  "children": [
+    {
+      "iri": "obo:OBI_0001564",
+      "label": "radioactivity detection assay measuring equilibrium dissociation constant [KD] to determine competitive binding of a purified-MHC:ligand complex approximated by IC50",
+      "hasChildren": false,
+      "childrenKey": "16074802805210a7bb079841242e47bae8cec63d"
+    }
+  ]
+}

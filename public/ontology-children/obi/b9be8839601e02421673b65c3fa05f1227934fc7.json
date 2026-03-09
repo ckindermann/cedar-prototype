@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001919",
+  "children": [
+    {
+      "iri": "obo:OBI_0002042",
+      "label": "carbon-copy chromosome conformation capture assay followed by sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "1a7da73faa0b66f5ce982c989f01d5bf4a3b5952"
+    }
+  ]
+}

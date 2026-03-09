@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002912",
+  "children": [
+    {
+      "iri": "obo:OBI_0002905",
+      "label": "animal-biting arthropod specimen collection by aspiration",
+      "hasChildren": true,
+      "childrenKey": "aab22542bd65e2cdb02ac55ebda4e62715bcf5d4"
+    },
+    {
+      "iri": "obo:OBI_0002908",
+      "label": "arthropod resting in animal house specimen collection by aspiration",
+      "hasChildren": false,
+      "childrenKey": "1feb8cd1e5aca874afcb25bff71b3d180d95fe0d"
+    },
+    {
+      "iri": "obo:OBI_0003002",
+      "label": "arthropod resting in human house specimen collection by aspiration",
+      "hasChildren": false,
+      "childrenKey": "bca18a11174d732aaf66e876ff03fd0e49117577"
+    },
+    {
+      "iri": "obo:OBI_0003001",
+      "label": "daytime arthropod specimen collection by aspiration",
+      "hasChildren": false,
+      "childrenKey": "fcd97503dfa989fe2c7b4783b2d77637119dc02c"
+    },
+    {
+      "iri": "obo:OBI_0002914",
+      "label": "human-biting arthropod specimen collection by aspiration",
+      "hasChildren": true,
+      "childrenKey": "d2cd74d26d95836e4c8e68d93ea5087448e805a7"
+    }
+  ]
+}

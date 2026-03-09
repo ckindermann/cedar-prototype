@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002469",
+  "children": [
+    {
+      "iri": "obo:OBI_0002470",
+      "label": "bcl2fastq software application",
+      "hasChildren": false,
+      "childrenKey": "b2d8e77a8fb858756a97ed6071fdb531f536600a"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003232",
+  "children": [
+    {
+      "iri": "obo:OBI_2100394",
+      "label": "cerebrospinal fluid basophil count assay",
+      "hasChildren": false,
+      "childrenKey": "de2dbc5ac844d9d5881213ad77b00c6bc76d3f18"
+    },
+    {
+      "iri": "obo:OBI_2100396",
+      "label": "cerebrospinal fluid eosinophil count assay",
+      "hasChildren": false,
+      "childrenKey": "3af3581650cf9686787cd6fb46feb5bf5fc3c088"
+    },
+    {
+      "iri": "obo:OBI_2100267",
+      "label": "cerebrospinal fluid glucose assay",
+      "hasChildren": false,
+      "childrenKey": "5fc0696edd78265c1c68ab8bd7183deea292bcaa"
+    },
+    {
+      "iri": "obo:OBI_2100390",
+      "label": "cerebrospinal fluid lymphocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "cc45fa93fb6611f9aa151fea0917d621fc7a014a"
+    },
+    {
+      "iri": "obo:OBI_2100393",
+      "label": "cerebrospinal fluid macrophage count assay",
+      "hasChildren": false,
+      "childrenKey": "2db075193b5ded3ea160b84e4d117b2200c088ec"
+    },
+    {
+      "iri": "obo:OBI_2100392",
+      "label": "cerebrospinal fluid mesothelial cell count assay",
+      "hasChildren": false,
+      "childrenKey": "a8937373eef39419f865642bee47b5174bf1350f"
+    },
+    {
+      "iri": "obo:OBI_0003240",
+      "label": "cerebrospinal fluid microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "f7deebe6f5bb7fbf63572f3beba8a0951cd99bdb"
+    },
+    {
+      "iri": "obo:OBI_2100395",
+      "label": "cerebrospinal fluid monocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "8f1960519f49a74d77b6bdd47b9fd6b11d60136f"
+    },
+    {
+      "iri": "obo:OBI_2100266",
+      "label": "cerebrospinal fluid protein assay",
+      "hasChildren": false,
+      "childrenKey": "4bcd275491f0587af84d47a7d99eafca20f39b9a"
+    },
+    {
+      "iri": "obo:OBI_2100391",
+      "label": "cerebrospinal fluid segmented neutrophil count assay",
+      "hasChildren": false,
+      "childrenKey": "30190dcc3d23b241ad076c69c88b177bd3b73f38"
+    },
+    {
+      "iri": "obo:OBI_2100268",
+      "label": "tube 1 count cerebrospinal fluid cell count assay",
+      "hasChildren": false,
+      "childrenKey": "eef5ff2b66f4359f55ae9e466944b6828e7a5881"
+    },
+    {
+      "iri": "obo:OBI_2100265",
+      "label": "tube 4 count cerebrospinal fluid cell count assay",
+      "hasChildren": false,
+      "childrenKey": "ca357f6490133e1f6b520d6b8cc736bb91727d12"
+    }
+  ]
+}

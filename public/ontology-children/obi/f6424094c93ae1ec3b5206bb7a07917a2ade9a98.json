@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003610",
+  "children": [
+    {
+      "iri": "obo:OBI_0003611",
+      "label": "precursor role",
+      "hasChildren": false,
+      "childrenKey": "1248f0ed49911ed0655e876702c6eb525b957aa4"
+    },
+    {
+      "iri": "obo:OBI_0000086",
+      "label": "reagent role",
+      "hasChildren": true,
+      "childrenKey": "207826c5f34bb9ccab8494649407686babae08d5"
+    },
+    {
+      "iri": "obo:OBI_0302732",
+      "label": "solvent role",
+      "hasChildren": false,
+      "childrenKey": "77d8fa84af1444bf7f22329af6be3306ebe6de56"
+    }
+  ]
+}

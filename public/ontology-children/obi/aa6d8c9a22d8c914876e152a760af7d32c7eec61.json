@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200077",
+  "children": [
+    {
+      "iri": "obo:OBI_0002776",
+      "label": "cytometry analysis by automated gating",
+      "hasChildren": false,
+      "childrenKey": "d970b6c28d9deaf22d81dde2b9a043f76a887d3b"
+    },
+    {
+      "iri": "obo:OBI_0002777",
+      "label": "cytometry analysis by manual gating",
+      "hasChildren": false,
+      "childrenKey": "d8e1c8c8d427702602f2df78324423e9279990c4"
+    }
+  ]
+}

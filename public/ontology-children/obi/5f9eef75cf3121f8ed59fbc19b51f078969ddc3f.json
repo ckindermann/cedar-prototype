@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001926",
+  "children": [
+    {
+      "iri": "obo:OBI_0001335",
+      "label": "microRNA profiling by array assay",
+      "hasChildren": false,
+      "childrenKey": "8ff6958c980365f0307277ca715d4cd652ee5c36"
+    },
+    {
+      "iri": "obo:OBI_0001922",
+      "label": "microRNA profiling by high throughput sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "d5a4949c3e3d57b79e3c0f3446bcc77962e6d719"
+    },
+    {
+      "iri": "obo:OBI_0002142",
+      "label": "Nanostring nCounter miRNA expression assay",
+      "hasChildren": false,
+      "childrenKey": "60060ee72d2902a2893d6b8300e5eefcc7e9c2b8"
+    }
+  ]
+}

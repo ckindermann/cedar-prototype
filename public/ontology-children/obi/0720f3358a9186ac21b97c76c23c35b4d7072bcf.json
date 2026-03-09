@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001865",
+  "children": [
+    {
+      "iri": "obo:OBI_0001869",
+      "label": "Illumina BeadChip",
+      "hasChildren": true,
+      "childrenKey": "2373cd8d198a597b7a24bc1d25cbe03caa250665"
+    },
+    {
+      "iri": "obo:OBI_0400147",
+      "label": "microarray",
+      "hasChildren": true,
+      "childrenKey": "f631d2a54c94a758f8bfefdd4334569b890661bf"
+    },
+    {
+      "iri": "obo:OBI_0002013",
+      "label": "nCounter Human miRNA Expression array",
+      "hasChildren": false,
+      "childrenKey": "0b8ec1dd20e0a127ffbed0424fc5a01a10cb325f"
+    },
+    {
+      "iri": "obo:OBI_0002570",
+      "label": "nCounter Mouse miRNA Expression array",
+      "hasChildren": false,
+      "childrenKey": "1dd2fc66015ea7955e8a1bec7c36bc7064599fea"
+    }
+  ]
+}

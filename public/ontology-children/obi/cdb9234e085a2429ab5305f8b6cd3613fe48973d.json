@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002694",
+  "children": [
+    {
+      "iri": "obo:OBI_0002734",
+      "label": "DNA based blood meal finger printing assay",
+      "hasChildren": false,
+      "childrenKey": "765df8225b209763b4c62af6af44ebab69afac1e"
+    }
+  ]
+}

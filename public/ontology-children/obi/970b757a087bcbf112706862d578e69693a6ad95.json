@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001192",
+  "children": [
+    {
+      "iri": "obo:OBI_0001487",
+      "label": "B cell epitope specific immune intervention",
+      "hasChildren": false,
+      "childrenKey": "3bbaab0b7cf5d4eb71539d677c006d63a4b16770"
+    },
+    {
+      "iri": "obo:OBI_0001471",
+      "label": "T cell epitope specific immune intervention",
+      "hasChildren": false,
+      "childrenKey": "1c354132bcb1a78ab1a06261931d487671090061"
+    }
+  ]
+}

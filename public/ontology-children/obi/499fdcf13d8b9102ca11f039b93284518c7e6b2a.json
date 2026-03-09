@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001553",
+  "children": [
+    {
+      "iri": "obo:OBI_0001987",
+      "label": "assay measuring the association constant [KA] of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "d247d8f1e13fd432995ad0886d0edf8294e7a576"
+    },
+    {
+      "iri": "obo:OBI_0001988",
+      "label": "assay measuring the dissociation constant [KD] of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "8f0ed612e2776c3b427fbff593a9f7af471185d2"
+    },
+    {
+      "iri": "obo:OBI_0001990",
+      "label": "assay measuring the half life of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "fd898c34f63be3bb8e77527dab94349a4be25fa8"
+    },
+    {
+      "iri": "obo:OBI_0001994",
+      "label": "assay measuring the MHC ligand binding on rate [kon] of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "77aa5f45c657173b4582b21950312997d901f5e7"
+    },
+    {
+      "iri": "obo:OBI_0001993",
+      "label": "assay measuring the off rate measurement [koff] of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "cd10e7e9c6b1f16af425b440751caa21f5563e39"
+    }
+  ]
+}

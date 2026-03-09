@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002604",
+  "children": [
+    {
+      "iri": "obo:OBI_0002603",
+      "label": "areolar swab specimen",
+      "hasChildren": false,
+      "childrenKey": "d316590cb0448c55a2fdcd7b35dc0ac584e6c308"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002513",
+  "children": [
+    {
+      "iri": "obo:OBI_2000010",
+      "label": "chorionic villus specimen",
+      "hasChildren": false,
+      "childrenKey": "020f29091de4ea4f84d339e616adafd2689c12c0"
+    }
+  ]
+}

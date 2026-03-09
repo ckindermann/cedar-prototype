@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002058",
+  "children": [
+    {
+      "iri": "obo:OBI_0002068",
+      "label": "cytometric bead array assay measuring epitope specific oncostatin M production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b55d658e52da074ae32e38c5a2e2bd3127c5cce9"
+    }
+  ]
+}

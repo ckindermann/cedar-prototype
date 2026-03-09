@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001128",
+  "children": [
+    {
+      "iri": "obo:OBI_0001101",
+      "label": "electronic repeater pipette",
+      "hasChildren": false,
+      "childrenKey": "4f0a5fac6b1c54a7ab0dd7e630dfafacc7f16558"
+    }
+  ]
+}

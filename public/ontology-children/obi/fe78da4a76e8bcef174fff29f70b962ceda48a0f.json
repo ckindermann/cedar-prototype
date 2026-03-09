@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001177",
+  "children": [
+    {
+      "iri": "obo:OBI_0002629",
+      "label": "direct RNA sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "87f85502f0fd0d5c0f50cdf5642e832710127a34"
+    },
+    {
+      "iri": "obo:OBI_0002753",
+      "label": "PRO-cap",
+      "hasChildren": false,
+      "childrenKey": "4b3670b2514f23430985961d89bd7503ad27f1da"
+    },
+    {
+      "iri": "obo:OBI_0001271",
+      "label": "RNA-seq assay",
+      "hasChildren": true,
+      "childrenKey": "ef616de3e7ffc65ffe70faa59a142a8658886099"
+    },
+    {
+      "iri": "obo:OBI_0003662",
+      "label": "single-nucleus methylcytosine and transcriptome sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "119d1df9d81a6f7803c4c6f600d78ae605cd8a01"
+    }
+  ]
+}

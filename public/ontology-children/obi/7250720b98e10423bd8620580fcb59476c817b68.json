@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001274",
+  "children": [
+    {
+      "iri": "obo:OBI_0002031",
+      "label": "genotyping by SNP array assay",
+      "hasChildren": false,
+      "childrenKey": "4ea52b7a5c038b518ee1cd31c22b62d5d030a0e4"
+    },
+    {
+      "iri": "obo:OBI_0002030",
+      "label": "genotyping by tiling array assay",
+      "hasChildren": false,
+      "childrenKey": "27e28eb6098ba6024396a6efdeb2cd656aa2878b"
+    }
+  ]
+}

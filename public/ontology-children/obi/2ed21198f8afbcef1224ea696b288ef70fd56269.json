@@ -1,0 +1,96 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100014",
+  "children": [
+    {
+      "iri": "obo:OBI_2100275",
+      "label": "ABL90 panel arterial blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "5d68c6d4abf3524dd891a6131a16be3e936f028d"
+    },
+    {
+      "iri": "obo:OBI_2100285",
+      "label": "ABL90 panel venous blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "03e52d32a09e16df4e3340345c156b7e4678fa62"
+    },
+    {
+      "iri": "obo:OBI_2100188",
+      "label": "arterial blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "0337288a279a998af09d99752c3bd257f0102fdc"
+    },
+    {
+      "iri": "obo:OBI_2100078",
+      "label": "CBC venous blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "ec5df9440a80c21574c5df8402fe3cadc6d4bd9f"
+    },
+    {
+      "iri": "obo:OBI_2100066",
+      "label": "CBC with automated differential venous blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "abd09364e10980ae3d11ee998962004fab20990e"
+    },
+    {
+      "iri": "obo:OBI_2100142",
+      "label": "cooximitery arterial blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "789e322db230469d473abc56f9a10bccd76c9fe7"
+    },
+    {
+      "iri": "obo:OBI_2100193",
+      "label": "GEM premier blood gas venous blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "7858f58d2f0998b4861da087d1f7f1901f49c055"
+    },
+    {
+      "iri": "obo:OBI_2100373",
+      "label": "GEM4 arterial blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "45a1ada823171ebbdca8f140c236c89263766929"
+    },
+    {
+      "iri": "obo:OBI_2100316",
+      "label": "GEM4000 ANLCOOX arterial blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "d59381bd73e91b6a8349b4df69e8a65e133d96f1"
+    },
+    {
+      "iri": "obo:OBI_2100354",
+      "label": "hemoglobin and hematocrit venous blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "705fd89d33a796862f56e97cfbc51bf8081fc323"
+    },
+    {
+      "iri": "obo:OBI_0003156",
+      "label": "hemoglobin concentration assay",
+      "hasChildren": false,
+      "childrenKey": "a5a19030de9adc526e2c23039d9988cb9bc2095b"
+    },
+    {
+      "iri": "obo:OBI_2100126",
+      "label": "hemoglobin oxygen saturation arterial blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "4653e18debc74f838dd8068d8c61c34511ea9a5b"
+    },
+    {
+      "iri": "obo:OBI_0003183",
+      "label": "mean cell hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "6a189857f72379382e7aff13ac0393afd5298279"
+    },
+    {
+      "iri": "obo:OBI_0003184",
+      "label": "mean cell hemoglobin concentration assay",
+      "hasChildren": false,
+      "childrenKey": "2ee577769dd1d891fb81fe707b37d6dda95fa8c2"
+    },
+    {
+      "iri": "obo:OBI_2100323",
+      "label": "venous blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "00f65c362a92a4b589c59827dc96fb4c9043ee8a"
+    }
+  ]
+}

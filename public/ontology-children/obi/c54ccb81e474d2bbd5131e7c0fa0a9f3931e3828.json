@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000097",
+  "children": [
+    {
+      "iri": "obo:OBI_0002492",
+      "label": "case role in case-control study",
+      "hasChildren": false,
+      "childrenKey": "79eee30f93b07d132f35c9c7ec65f98712eabe27"
+    },
+    {
+      "iri": "obo:OBI_0002493",
+      "label": "control role in case-control study",
+      "hasChildren": false,
+      "childrenKey": "b712761d4ca41553c0e3ebde69641483f1fae5d1"
+    },
+    {
+      "iri": "obo:OBI_0000220",
+      "label": "reference subject role",
+      "hasChildren": true,
+      "childrenKey": "1d966a732ce5ca9b504c0a27ba39f07f00414dc6"
+    },
+    {
+      "iri": "obo:OBI_0000813",
+      "label": "to be treated with active ingredient role",
+      "hasChildren": false,
+      "childrenKey": "2adfc88654639183fddf37820db9ef1c945bdc9b"
+    },
+    {
+      "iri": "obo:OBI_0000825",
+      "label": "to be treated with placebo role",
+      "hasChildren": false,
+      "childrenKey": "a1e8ce29aca877c4df25ecea482bc4db5cbde91e"
+    }
+  ]
+}

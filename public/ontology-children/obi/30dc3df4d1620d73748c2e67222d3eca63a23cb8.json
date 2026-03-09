@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000648",
+  "children": [
+    {
+      "iri": "obo:OBI_0000741",
+      "label": "topologically preserved clustered data set",
+      "hasChildren": false,
+      "childrenKey": "88d2decae5e46575e87edd580c9575b5759166bb"
+    }
+  ]
+}

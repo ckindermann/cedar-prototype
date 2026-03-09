@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002796",
+  "children": [
+    {
+      "iri": "obo:OBI_0002798",
+      "label": "surgical gown",
+      "hasChildren": false,
+      "childrenKey": "c665d127a9933537eef0f5aa8ea0e937f6c63d5e"
+    }
+  ]
+}

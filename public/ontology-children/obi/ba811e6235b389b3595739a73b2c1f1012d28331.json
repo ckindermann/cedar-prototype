@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001918",
+  "children": [
+    {
+      "iri": "obo:OBI_0001921",
+      "label": "RNA-binding protein immunoprecipitation tiling array profiling assay",
+      "hasChildren": false,
+      "childrenKey": "e5f88754cd523e98a3eb365e7ca87d5f9d4dc49c"
+    }
+  ]
+}

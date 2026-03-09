@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000383",
+  "children": [
+    {
+      "iri": "obo:OBI_0001043",
+      "label": "cell transfer function",
+      "hasChildren": false,
+      "childrenKey": "e0aa206790d5926ca1f25e8d483bc996267fe23c"
+    },
+    {
+      "iri": "obo:OBI_0001042",
+      "label": "pump function",
+      "hasChildren": false,
+      "childrenKey": "657569e15f1642c17de8011a771c287bf87c8f2e"
+    }
+  ]
+}

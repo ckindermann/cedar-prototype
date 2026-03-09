@@ -1,0 +1,126 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600047",
+  "children": [
+    {
+      "iri": "obo:OBI_0002767",
+      "label": "amplicon sequencing assay",
+      "hasChildren": true,
+      "childrenKey": "5eabb26efb84934dcf0a4799514757dd23495ae6"
+    },
+    {
+      "iri": "obo:OBI_0002991",
+      "label": "B cell receptor repertoire sequencing assay",
+      "hasChildren": true,
+      "childrenKey": "7766341be0d43f831f5154e8d9c5500127e536e7"
+    },
+    {
+      "iri": "obo:OBI_0001674",
+      "label": "cap analysis of gene expression assay",
+      "hasChildren": false,
+      "childrenKey": "631c77c46ec4269a355a72bec6266a1ab13b0002"
+    },
+    {
+      "iri": "obo:OBI_0001848",
+      "label": "chromatin interaction analysis by paired-end tag sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "2d01d047593f9ca97d3a8bdf239c848f4bf419f9"
+    },
+    {
+      "iri": "obo:OBI_0002597",
+      "label": "chromosome conformation capture sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "cf0fe4c09ca1ed9ae1fa67b4d557416515efb284"
+    },
+    {
+      "iri": "obo:OBI_0001858",
+      "label": "cross-linking immunoprecipitation high-throughput sequencing assay",
+      "hasChildren": true,
+      "childrenKey": "3bfc757f1d391cc60235fcba333ab9f5eefa7fcf"
+    },
+    {
+      "iri": "obo:OBI_0001920",
+      "label": "DNA replication timing by sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "a442189fb7319d406ba7517840542f28db5e9d17"
+    },
+    {
+      "iri": "obo:OBI_0000626",
+      "label": "DNA sequencing assay",
+      "hasChildren": true,
+      "childrenKey": "f541ab2dc609b813c97d0a0fb4593a9a6e9178e9"
+    },
+    {
+      "iri": "obo:OBI_0000705",
+      "label": "Edman degradation",
+      "hasChildren": false,
+      "childrenKey": "6249f4bac853cb64400bcc34ce60ecf3d25e2f3f"
+    },
+    {
+      "iri": "obo:OBI_0001859",
+      "label": "formaldehyde-assisted isolation of regulatory elements assay",
+      "hasChildren": false,
+      "childrenKey": "c97da98afd6019b18b8fc9922fd34dcf49a13fef"
+    },
+    {
+      "iri": "obo:OBI_0000693",
+      "label": "MeDIP-seq assay",
+      "hasChildren": false,
+      "childrenKey": "f0e4a33180dd3c5683db79e8935d1c47286be8f0"
+    },
+    {
+      "iri": "obo:OBI_0001923",
+      "label": "protein sequencing by tandem mass spectrometry assay",
+      "hasChildren": false,
+      "childrenKey": "8d702b4bab72891da6c668a78d57e60edd5d2316"
+    },
+    {
+      "iri": "obo:OBI_0001864",
+      "label": "RNA Annotation and Mapping of Promoters for the Analysis of Gene Expression assay",
+      "hasChildren": false,
+      "childrenKey": "c443a6c2bcce12cb10af59735c7233c2052c158c"
+    },
+    {
+      "iri": "obo:OBI_0001177",
+      "label": "RNA sequencing assay",
+      "hasChildren": true,
+      "childrenKey": "fe78da4a76e8bcef174fff29f70b962ceda48a0f"
+    },
+    {
+      "iri": "obo:OBI_0001857",
+      "label": "RNP (ribonuclear particle) immunoprecipitation high- throughput sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "aa78f6ffcc533f329308500b6fabc0f590ed58b6"
+    },
+    {
+      "iri": "obo:OBI_0003310",
+      "label": "split-pool recognition of interactions and tag extension assay",
+      "hasChildren": true,
+      "childrenKey": "9d67de124c57bedc041f183642d54714fac4eec3"
+    },
+    {
+      "iri": "obo:OBI_0002990",
+      "label": "T cell receptor repertoire sequencing assay",
+      "hasChildren": true,
+      "childrenKey": "94391fe9a38e442f377828c6b91d6421415b6de8"
+    },
+    {
+      "iri": "obo:OBI_0001960",
+      "label": "taxonomic diversity assessment by targeted gene survey",
+      "hasChildren": true,
+      "childrenKey": "5e254827b32f4de2dff45863abd55e331ed8ad92"
+    },
+    {
+      "iri": "obo:OBI_0001850",
+      "label": "transcript analysis by paired-end tag sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "417920626e5661a2b705e8be4c78248625fb3280"
+    },
+    {
+      "iri": "obo:OBI_0002485",
+      "label": "transcript analysis by single-end sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "b9daa7907a95ea5ea07c47bca2d5be0b0a111f85"
+    }
+  ]
+}

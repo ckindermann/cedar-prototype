@@ -1,0 +1,78 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400099",
+  "children": [
+    {
+      "iri": "obo:OBI_0400014",
+      "label": "BioSorter1000",
+      "hasChildren": false,
+      "childrenKey": "241c99b90991eeeae50eaad7f2bcf0edb18f9b84"
+    },
+    {
+      "iri": "obo:OBI_0400015",
+      "label": "BioSorter2000",
+      "hasChildren": false,
+      "childrenKey": "545378a1b47395fce3cbc52d999dee14f451b99f"
+    },
+    {
+      "iri": "obo:OBI_0400016",
+      "label": "BioSorter250",
+      "hasChildren": false,
+      "childrenKey": "d0e77a7743e07567752864cd67717106de2acedb"
+    },
+    {
+      "iri": "obo:OBI_0400017",
+      "label": "BioSorter500",
+      "hasChildren": false,
+      "childrenKey": "e079d8602986419a15d6e1d7643c6cef1c1af792"
+    },
+    {
+      "iri": "obo:OBI_0400026",
+      "label": "CyFlow Space",
+      "hasChildren": false,
+      "childrenKey": "696fbc39e24604042367b559565632d647d2016a"
+    },
+    {
+      "iri": "obo:OBI_0400036",
+      "label": "FACS Calibur",
+      "hasChildren": false,
+      "childrenKey": "3b579be3cdb236f866986ba7a6906f53e38e4200"
+    },
+    {
+      "iri": "obo:OBI_0400040",
+      "label": "FACSAria",
+      "hasChildren": false,
+      "childrenKey": "94bbdc387e86150a474e2a1244dbab2b32d3c51d"
+    },
+    {
+      "iri": "obo:OBI_0400041",
+      "label": "FACSvantage",
+      "hasChildren": false,
+      "childrenKey": "ff93e38d222e5cafaf89626ca9a99d1328f02d00"
+    },
+    {
+      "iri": "obo:OBI_0400056",
+      "label": "Influx Cell Sorter",
+      "hasChildren": false,
+      "childrenKey": "997a24d3d856015dffbbd5589a7ec3aca63f32db"
+    },
+    {
+      "iri": "obo:OBI_0400068",
+      "label": "LSR2",
+      "hasChildren": false,
+      "childrenKey": "1f416f2e8e830300a9a8ff4c8265afd10940fc8a"
+    },
+    {
+      "iri": "obo:OBI_0400075",
+      "label": "MoFlo",
+      "hasChildren": false,
+      "childrenKey": "684bb80dab10e344507becc097062da39736f02b"
+    },
+    {
+      "iri": "obo:OBI_0400089",
+      "label": "Reflection",
+      "hasChildren": false,
+      "childrenKey": "add01b6ff73a460687cc6671a8352ed47962ba08"
+    }
+  ]
+}

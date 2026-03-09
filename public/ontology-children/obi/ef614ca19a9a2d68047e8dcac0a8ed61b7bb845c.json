@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100051",
+  "children": [
+    {
+      "iri": "obo:OBI_2100383",
+      "label": "venous blood beta hydroxybutric acid assay",
+      "hasChildren": false,
+      "childrenKey": "888466dced78f183e17b5990447c3226acb9939e"
+    },
+    {
+      "iri": "obo:OBI_2100364",
+      "label": "venous blood beta hydroxybutryic acid assay",
+      "hasChildren": false,
+      "childrenKey": "65e9de639b61f6da155c498a5c3ac242f6a41963"
+    }
+  ]
+}

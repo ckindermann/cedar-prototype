@@ -1,0 +1,54 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000596",
+  "children": [
+    {
+      "iri": "obo:OBI_0000580",
+      "label": "AVANCE II spectrometer",
+      "hasChildren": false,
+      "childrenKey": "0fb717debf3b93e797a60fe79aa4c2011f19fc9b"
+    },
+    {
+      "iri": "obo:OBI_0000541",
+      "label": "Bruker AC series NMR instrument",
+      "hasChildren": false,
+      "childrenKey": "b5b99ed158cb33d8e31072d83af5632b1e6e24dd"
+    },
+    {
+      "iri": "obo:OBI_0000514",
+      "label": "Bruker AMX series NMR instrument",
+      "hasChildren": false,
+      "childrenKey": "50f8993d064b2ba9100f6e5c8b290de6e02f9376"
+    },
+    {
+      "iri": "obo:OBI_0000553",
+      "label": "Bruker Capillary LC-NMR platform",
+      "hasChildren": false,
+      "childrenKey": "7cb19bd8e16e09c2a30e8f150329a6683b98d7b7"
+    },
+    {
+      "iri": "obo:OBI_0000503",
+      "label": "Bruker LC-NMR platform",
+      "hasChildren": false,
+      "childrenKey": "5434d5b7ec5f8290441e080c91ceeb535930fafe"
+    },
+    {
+      "iri": "obo:OBI_0000582",
+      "label": "Bruker LC-NMR/MS platform",
+      "hasChildren": false,
+      "childrenKey": "0a07bef42105d53d9c499b842e4d32e5ca060dda"
+    },
+    {
+      "iri": "obo:OBI_0000632",
+      "label": "Bruker Metabolic Profiler",
+      "hasChildren": false,
+      "childrenKey": "02ef93eda25640680698eb918aa738a6619b7671"
+    },
+    {
+      "iri": "obo:OBI_0000613",
+      "label": "Bruker SPE-NMR platform",
+      "hasChildren": false,
+      "childrenKey": "e140d3a09b91029871900ddf3dc3d62fb861908a"
+    }
+  ]
+}

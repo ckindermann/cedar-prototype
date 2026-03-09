@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003087",
+  "children": [
+    {
+      "iri": "obo:OBI_0003088",
+      "label": "autofluorescence microscopy assay",
+      "hasChildren": false,
+      "childrenKey": "6fe34cfed77b51bfd9effa3745befa98fdace68c"
+    }
+  ]
+}

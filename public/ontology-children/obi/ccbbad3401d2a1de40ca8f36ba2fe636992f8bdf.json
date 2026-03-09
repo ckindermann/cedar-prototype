@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002930",
+  "children": [
+    {
+      "iri": "obo:OBI_0002926",
+      "label": "Centers for Disease Control and Prevention light trap",
+      "hasChildren": true,
+      "childrenKey": "bb61502b82acfdb8758d850519ef7b51827634f8"
+    },
+    {
+      "iri": "obo:OBI_0002928",
+      "label": "encephalitis virus surveillance trap",
+      "hasChildren": false,
+      "childrenKey": "58c14806af4c2d38e7e49a476d67ee109a5fa66d"
+    },
+    {
+      "iri": "obo:OBI_0002931",
+      "label": "light trap for indoor use",
+      "hasChildren": false,
+      "childrenKey": "52e129868b1b0fd4e718cae20a1b10e2e667131c"
+    },
+    {
+      "iri": "obo:OBI_0002932",
+      "label": "light trap for outdoor use",
+      "hasChildren": false,
+      "childrenKey": "3f748e6d1a7bfafcc6b7a08b30796ce50f70d7c1"
+    },
+    {
+      "iri": "obo:OBI_0002935",
+      "label": "New Jersey light trap",
+      "hasChildren": false,
+      "childrenKey": "c704ae02ccac07674047659136c8e1b4dab5a597"
+    }
+  ]
+}

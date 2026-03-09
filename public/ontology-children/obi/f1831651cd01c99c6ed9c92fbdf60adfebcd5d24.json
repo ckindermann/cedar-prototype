@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100041",
+  "children": [
+    {
+      "iri": "obo:OBI_2100146",
+      "label": "Biosite cardiac panel arterial blood creatine kinase MB assay",
+      "hasChildren": false,
+      "childrenKey": "32288c798688f6a46503c09a540bd2ab946b1cef"
+    },
+    {
+      "iri": "obo:OBI_2100162",
+      "label": "venous blood creatine kinase MB assay",
+      "hasChildren": false,
+      "childrenKey": "b282fe9d0a9dd062be596064194f352c4b4fe665"
+    }
+  ]
+}

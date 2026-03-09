@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001201",
+  "children": [
+    {
+      "iri": "obo:OBI_0001249",
+      "label": "epitope specific T cell tolerance induction",
+      "hasChildren": false,
+      "childrenKey": "81376bfe4a10b409ae4378f2d135e752e3af12a9"
+    }
+  ]
+}

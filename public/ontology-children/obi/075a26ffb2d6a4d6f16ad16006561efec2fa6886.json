@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200126",
+  "children": [
+    {
+      "iri": "obo:OBI_0200128",
+      "label": "directed network graph construction",
+      "hasChildren": false,
+      "childrenKey": "e95fba87e79fa44c0561dce54e383dec59cc95b5"
+    },
+    {
+      "iri": "obo:OBI_0200127",
+      "label": "weighted network graph construction",
+      "hasChildren": false,
+      "childrenKey": "2aee9a8d24d69e2f5d095ee22c3ca1d27b488f19"
+    }
+  ]
+}

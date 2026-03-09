@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001380",
+  "children": [
+    {
+      "iri": "obo:OBI_0001835",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-18 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "1ca313f16e00b5f2eadcf0ec2ad2c4aaeb8a6218"
+    },
+    {
+      "iri": "obo:OBI_0001815",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-18 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "cf6628d51c7b486ce40b94f41251eb44b6db0a09"
+    },
+    {
+      "iri": "obo:OBI_1110163",
+      "label": "ELISA measuring epitope specific interleukin-18 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "152f86c388b119531e63d6d96d06a5661a7fba03"
+    },
+    {
+      "iri": "obo:OBI_0001817",
+      "label": "ELISPOT assay measuring epitope specific interleukin-18 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e3eb545c484aee4d3725756bf11d31addd0fe2ca"
+    },
+    {
+      "iri": "obo:OBI_0001824",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-18 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7f4f41fb1c7a2ee2b4da54194508a700148ec67c"
+    }
+  ]
+}

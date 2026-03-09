@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003244",
+  "children": [
+    {
+      "iri": "obo:OBI_0003261",
+      "label": "bacteria in blood datum",
+      "hasChildren": false,
+      "childrenKey": "31a4f2e7036b5207cea20f9ef490b69c8498e409"
+    },
+    {
+      "iri": "obo:OBI_0003263",
+      "label": "eukaryota in blood datum",
+      "hasChildren": true,
+      "childrenKey": "0066bd15ab2f445283571ec0773e66e1e0673e50"
+    },
+    {
+      "iri": "obo:OBI_0003382",
+      "label": "placental blood microbiology datum",
+      "hasChildren": true,
+      "childrenKey": "78cf3910ed78fc8d45e500b1e91d06afbb284a00"
+    },
+    {
+      "iri": "obo:OBI_0003260",
+      "label": "umbilical cord blood microbiology datum",
+      "hasChildren": true,
+      "childrenKey": "e43cc24b2ffd57c38bb9c8a267926edc222bfb47"
+    },
+    {
+      "iri": "obo:OBI_0003262",
+      "label": "virus in blood datum",
+      "hasChildren": false,
+      "childrenKey": "d9e396d6cf9ec224168ac6c797d44bdbf889b827"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002091",
+  "children": [
+    {
+      "iri": "obo:OBI_0002093",
+      "label": "5' RNA ligase mediated rapid amplification of cDNA ends",
+      "hasChildren": false,
+      "childrenKey": "04673782dac7c3f22abacb79c5d711203a3b1969"
+    }
+  ]
+}

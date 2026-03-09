@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002458",
+  "children": [
+    {
+      "iri": "obo:OBI_0002597",
+      "label": "chromosome conformation capture sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "cf0fe4c09ca1ed9ae1fa67b4d557416515efb284"
+    }
+  ]
+}

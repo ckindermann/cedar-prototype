@@ -1,0 +1,108 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000048",
+  "children": [
+    {
+      "iri": "obo:OBI_0000605",
+      "label": "chart recorder",
+      "hasChildren": false,
+      "childrenKey": "167de0e4f98ed1f8f584b6c1225ab18ecc45d5e0"
+    },
+    {
+      "iri": "obo:OBI_0000601",
+      "label": "chromatography consumable",
+      "hasChildren": true,
+      "childrenKey": "f46e97f1ea33eba7ed387f5c8bace9fa2cfc988b"
+    },
+    {
+      "iri": "obo:OBI_0000619",
+      "label": "chromatography splitter",
+      "hasChildren": false,
+      "childrenKey": "1e0e3ab2266131aacb0aa5572ea8d3ea37dbcb3a"
+    },
+    {
+      "iri": "obo:OBI_0000594",
+      "label": "column adapter",
+      "hasChildren": false,
+      "childrenKey": "d160e6fd341e10aa1250ea8c7616d5482e447443"
+    },
+    {
+      "iri": "obo:OBI_0000532",
+      "label": "column cartridge",
+      "hasChildren": false,
+      "childrenKey": "c032415b7aab24c5c63c7aa11b71c362def2849c"
+    },
+    {
+      "iri": "obo:OBI_0000545",
+      "label": "column compartment",
+      "hasChildren": false,
+      "childrenKey": "29b132eb1e4c7af5146d6f09186e54ebfd72f95e"
+    },
+    {
+      "iri": "obo:OBI_0000478",
+      "label": "column connector",
+      "hasChildren": true,
+      "childrenKey": "f965e8e3bdde20ff0dceba57b1a6e852c2ad965a"
+    },
+    {
+      "iri": "obo:OBI_0000602",
+      "label": "column frit",
+      "hasChildren": false,
+      "childrenKey": "1509c6a510a6523c1254168e86fbac37b4c1eb02"
+    },
+    {
+      "iri": "obo:OBI_0000508",
+      "label": "column jacket",
+      "hasChildren": false,
+      "childrenKey": "416c410d5c74e42f9058b59488954df40b8d31a8"
+    },
+    {
+      "iri": "obo:OBI_0000542",
+      "label": "gas chromatography equipment",
+      "hasChildren": true,
+      "childrenKey": "d49857f4c6de5b19ce6ae122938489083d114982"
+    },
+    {
+      "iri": "obo:OBI_0000614",
+      "label": "guard column",
+      "hasChildren": false,
+      "childrenKey": "db8d52dd9cca8716cbce197460ede12ca825fdce"
+    },
+    {
+      "iri": "obo:OBI_0001139",
+      "label": "liquid chromatography instrument",
+      "hasChildren": true,
+      "childrenKey": "09b5888eae47681d91e526c56b47f8114457f8ff"
+    },
+    {
+      "iri": "obo:OBI_0000528",
+      "label": "liquid chromatography valve",
+      "hasChildren": false,
+      "childrenKey": "ed654ccabda095842bb26dbedb6096eb047d5a50"
+    },
+    {
+      "iri": "obo:OBI_0000551",
+      "label": "needle assembly",
+      "hasChildren": false,
+      "childrenKey": "8f1ed24bc05fe8adf395359d30f664f60f865b09"
+    },
+    {
+      "iri": "obo:OBI_0000504",
+      "label": "sample injection system",
+      "hasChildren": true,
+      "childrenKey": "4ab61f3e0fab5c810034b3770bc0583f1cb748b6"
+    },
+    {
+      "iri": "obo:OBI_0000497",
+      "label": "sample inlet",
+      "hasChildren": false,
+      "childrenKey": "685b8774113450e8014ed379bad4b58fb6e3bd1f"
+    },
+    {
+      "iri": "obo:OBI_0000572",
+      "label": "transfer line",
+      "hasChildren": false,
+      "childrenKey": "ddaf50927ae43c129a5d000c648d65b07d22dbf5"
+    }
+  ]
+}

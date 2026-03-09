@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003252",
+  "children": [
+    {
+      "iri": "obo:OBI_0003253",
+      "label": "cerebrospinal fluid microbiology datum",
+      "hasChildren": false,
+      "childrenKey": "76e37230a428cb22ec6305e36522b2900fc2364e"
+    }
+  ]
+}

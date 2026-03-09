@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002199",
+  "children": [
+    {
+      "iri": "obo:OBI_0002200",
+      "label": "cannot be assessed determination",
+      "hasChildren": true,
+      "childrenKey": "e5833843ae8d1406d663de5a2a0289bd382b5af1"
+    }
+  ]
+}

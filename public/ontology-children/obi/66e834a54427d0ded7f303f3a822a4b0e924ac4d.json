@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001550",
+  "children": [
+    {
+      "iri": "obo:OBI_0001493",
+      "label": "cell bound MHC competitive binding assay of a MHC:ligand complex using T cell epitope recognition",
+      "hasChildren": false,
+      "childrenKey": "d862d01ad5c23ee9e46ac161da272692218f3091"
+    },
+    {
+      "iri": "obo:OBI_0001594",
+      "label": "fluorescence detection assay measuring competitive binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "bf026ef8679c32809e20ff6b366a478a640348dc"
+    },
+    {
+      "iri": "obo:OBI_0001606",
+      "label": "fluorescence detection assay measuring direct binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "8aba236e35fdede1411d66c5df7d46f23e540832"
+    },
+    {
+      "iri": "obo:OBI_0001599",
+      "label": "radioactivity detection assay measuring competitive binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "916b714f8c92df2f86852dc602e0457f6b451afe"
+    },
+    {
+      "iri": "obo:OBI_0001602",
+      "label": "radioactivity detection assay measuring direct binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "4348002996ca6cadf9bc24ec1cf744df3cd6a16b"
+    }
+  ]
+}

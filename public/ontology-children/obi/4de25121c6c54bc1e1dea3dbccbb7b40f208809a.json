@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003094",
+  "children": [
+    {
+      "iri": "obo:OBI_0003095",
+      "label": "decoding amplified targeted transcripts with fluorescence in situ hybridization assay",
+      "hasChildren": false,
+      "childrenKey": "2248c0ba060ad7cf51a10ef5a9a2489bfb517921"
+    },
+    {
+      "iri": "obo:OBI_0003604",
+      "label": "multiplexed error-robust fluorescence in situ hybridization assay",
+      "hasChildren": false,
+      "childrenKey": "d428ed4221b8b80ddcb78529f3e25c44e8939d7a"
+    },
+    {
+      "iri": "obo:OBI_0003106",
+      "label": "sequential fluorescence in-situ hybridization assay",
+      "hasChildren": false,
+      "childrenKey": "2791c52a4b7c71f157c26029b33c9b195dd8fa6d"
+    },
+    {
+      "iri": "obo:OBI_0003605",
+      "label": "single molecule fluorescence in situ hybridization",
+      "hasChildren": false,
+      "childrenKey": "c554ef75cd23beccb6a44acb6a5646b8b5bb75a0"
+    }
+  ]
+}

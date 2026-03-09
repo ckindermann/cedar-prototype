@@ -1,0 +1,78 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002372",
+  "children": [
+    {
+      "iri": "obo:OBI_0002373",
+      "label": "aunt clinical history of cancer",
+      "hasChildren": false,
+      "childrenKey": "c02ad1bc843d1f4cb0547d3c9d6335cbf2829e89"
+    },
+    {
+      "iri": "obo:OBI_0002374",
+      "label": "brother clinical history of cancer",
+      "hasChildren": false,
+      "childrenKey": "b7d96a62d8cc2ae1d34649ce449fad03e6bb1f4e"
+    },
+    {
+      "iri": "obo:OBI_0002375",
+      "label": "daughter clinical history of cancer",
+      "hasChildren": false,
+      "childrenKey": "fb4213ca6e35a5e066db9facab5c12d0737e9d75"
+    },
+    {
+      "iri": "obo:OBI_0002376",
+      "label": "father clinical history of cancer",
+      "hasChildren": false,
+      "childrenKey": "88483af8f20d28ea165a6faf6bc41f0ca1625f04"
+    },
+    {
+      "iri": "obo:OBI_0002382",
+      "label": "grandfather clinical history of cancer",
+      "hasChildren": false,
+      "childrenKey": "b15cb6907eee38fe5df7fe2538201018f12aa6a6"
+    },
+    {
+      "iri": "obo:OBI_0002381",
+      "label": "grandmother clinical history of cancer",
+      "hasChildren": false,
+      "childrenKey": "b9758aa416a2f1bed148b6981ffbe3dffadb905c"
+    },
+    {
+      "iri": "obo:OBI_0002377",
+      "label": "mother clinical history of cancer",
+      "hasChildren": false,
+      "childrenKey": "827cff32846a9e9950b74f15013e1bb3b61618a5"
+    },
+    {
+      "iri": "obo:OBI_0002383",
+      "label": "nephew clinical history of cancer",
+      "hasChildren": false,
+      "childrenKey": "dadbc0b2751d06740a3c0b5398fa6bdf98dbfa6d"
+    },
+    {
+      "iri": "obo:OBI_0002384",
+      "label": "niece clinical history of cancer",
+      "hasChildren": false,
+      "childrenKey": "4b0f9f813da5d62481886366804c78a547bdcf34"
+    },
+    {
+      "iri": "obo:OBI_0002378",
+      "label": "sister clinical history of cancer",
+      "hasChildren": false,
+      "childrenKey": "5bd77fcbb23f8f7b5de5bd70f0c6f0ca8978de9c"
+    },
+    {
+      "iri": "obo:OBI_0002379",
+      "label": "son clinical history of cancer",
+      "hasChildren": false,
+      "childrenKey": "873c07b733395e1b6b001f9556f132f348d87e68"
+    },
+    {
+      "iri": "obo:OBI_0002380",
+      "label": "uncle clinical history of cancer",
+      "hasChildren": false,
+      "childrenKey": "b6da431ec40735a864ec659abb35beae542c62a2"
+    }
+  ]
+}

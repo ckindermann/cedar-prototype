@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002617",
+  "children": [
+    {
+      "iri": "obo:OBI_0002618",
+      "label": "national biomedical registry",
+      "hasChildren": false,
+      "childrenKey": "2fa605626bdcd5ae3eaa7d255c86f7f4e31e9590"
+    }
+  ]
+}

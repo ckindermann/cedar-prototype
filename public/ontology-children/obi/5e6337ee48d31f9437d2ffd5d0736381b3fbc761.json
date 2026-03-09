@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001305",
+  "children": [
+    {
+      "iri": "obo:OBI_0001294",
+      "label": "wild type organism genotype information",
+      "hasChildren": false,
+      "childrenKey": "0c6ab7958a60f841ec4080242c5365ed4b3da8a9"
+    }
+  ]
+}

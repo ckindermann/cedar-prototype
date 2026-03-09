@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000273",
+  "children": [
+    {
+      "iri": "obo:OBI_0000056",
+      "label": "notified body role",
+      "hasChildren": false,
+      "childrenKey": "2a5ae205f2612b6ace430a490f6835208ba99be4"
+    },
+    {
+      "iri": "obo:OBI_0000006",
+      "label": "role of being consumer safety officer",
+      "hasChildren": false,
+      "childrenKey": "0da47993ec8f825d703bd9345216cc78c8cc599d"
+    }
+  ]
+}

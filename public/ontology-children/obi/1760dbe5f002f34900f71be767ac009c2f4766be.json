@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001704",
+  "children": [
+    {
+      "iri": "obo:OBI_0001642",
+      "label": "assay measuring epitope specific antibody-dependent cellular cytotoxicity",
+      "hasChildren": false,
+      "childrenKey": "a364f3c61134285ab4d464337eda7adbe6cf3569"
+    },
+    {
+      "iri": "obo:OBI_0001641",
+      "label": "assay measuring epitope specific complement-dependent cytotoxicity",
+      "hasChildren": false,
+      "childrenKey": "9ed3f3b274552f181f36d3911e90ed56601f2465"
+    },
+    {
+      "iri": "obo:OBI_0001639",
+      "label": "assay measuring epitope specific Ig-mediated histamine release",
+      "hasChildren": false,
+      "childrenKey": "a882df8d5b5870051a203a3157a73b5bc925fffd"
+    },
+    {
+      "iri": "obo:OBI_0001695",
+      "label": "assay measuring epitope specific immune complex formation",
+      "hasChildren": false,
+      "childrenKey": "79510ad72bdc19f5196a0b84a1255c31ec4afd51"
+    },
+    {
+      "iri": "obo:OBI_0001644",
+      "label": "assay measuring epitope specific opsonization",
+      "hasChildren": false,
+      "childrenKey": "84372a591fbf43aaaa01d8a3e227fb2cf01e25c3"
+    }
+  ]
+}

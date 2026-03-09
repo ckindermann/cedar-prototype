@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003145",
+  "children": [
+    {
+      "iri": "obo:OBI_0001553",
+      "label": "assay measuring a binding constant of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "499fdcf13d8b9102ca11f039b93284518c7e6b2a"
+    },
+    {
+      "iri": "obo:OBI_0001991",
+      "label": "assay measuring the half maximal effective concentration [EC50] of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "07065d984b3837f45b02aaeeef706c5b461735b2"
+    },
+    {
+      "iri": "obo:OBI_0001992",
+      "label": "assay measuring the half maximal inhibitory concentration [IC50] of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "063abf41c2bab23f4d0fa853bb9ecbac405ba70d"
+    },
+    {
+      "iri": "obo:OBI_0001604",
+      "label": "fluorescence detection assay measuring 50% dissociation of binding temperature [Tm] of a purified-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "56279feda7a4151562f9b20b3258bdfbe254c539"
+    }
+  ]
+}

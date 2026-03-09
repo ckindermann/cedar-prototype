@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003091",
+  "children": [
+    {
+      "iri": "obo:OBI_0003092",
+      "label": "Cell DIVE multiplexed imaging assay",
+      "hasChildren": false,
+      "childrenKey": "974e57ebd19d5d2a9c30841dcd6d91e0ce86616b"
+    },
+    {
+      "iri": "obo:OBI_0003093",
+      "label": "co-detection by indexing assay",
+      "hasChildren": false,
+      "childrenKey": "5968fb66510f1e220ce9722b85d43bf22f9ecd73"
+    }
+  ]
+}

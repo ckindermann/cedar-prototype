@@ -1,0 +1,60 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200175",
+  "children": [
+    {
+      "iri": "obo:OBI_0200050",
+      "label": "dimensionality reduction",
+      "hasChildren": true,
+      "childrenKey": "cb0f85e957a285c2a9566d795f8bc0e22f0ee947"
+    },
+    {
+      "iri": "obo:OBI_0200099",
+      "label": "discriminant function analysis",
+      "hasChildren": false,
+      "childrenKey": "646bd5fff3e9f908b94cccfdefa21ce05094db4f"
+    },
+    {
+      "iri": "obo:OBI_0200042",
+      "label": "hierarchical clustering",
+      "hasChildren": true,
+      "childrenKey": "19aa6581bc70dd59e9a43177204a3a000a8b0727"
+    },
+    {
+      "iri": "obo:OBI_0200041",
+      "label": "k-means clustering",
+      "hasChildren": false,
+      "childrenKey": "40881de7b491e21fbdeb168bffec502ebd4b83e0"
+    },
+    {
+      "iri": "obo:OBI_0000727",
+      "label": "k-nearest neighbors",
+      "hasChildren": false,
+      "childrenKey": "a0499b1c6c3207752660418c67546f0f9a26c91a"
+    },
+    {
+      "iri": "obo:OBI_0200101",
+      "label": "linear discriminant functional analysis",
+      "hasChildren": false,
+      "childrenKey": "8d0cb04602e3f4d1d4c17a0da5feaaa5eb0b4074"
+    },
+    {
+      "iri": "obo:OBI_0200104",
+      "label": "principal component regression",
+      "hasChildren": false,
+      "childrenKey": "13dd813bcd92c9d57b15cb81aa90e237b1d2cfe8"
+    },
+    {
+      "iri": "obo:OBI_0000701",
+      "label": "self-organizing map",
+      "hasChildren": false,
+      "childrenKey": "08d35af47aeda10f105f946e6b42f03cb4342e32"
+    },
+    {
+      "iri": "obo:OBI_0200113",
+      "label": "similarity calculation",
+      "hasChildren": true,
+      "childrenKey": "b19e7b4680a65c7e7026ab92e8fb105b980b0f34"
+    }
+  ]
+}

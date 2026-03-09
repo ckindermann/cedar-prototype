@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002516",
+  "children": [
+    {
+      "iri": "obo:OBI_0002538",
+      "label": "cerebellum specimen",
+      "hasChildren": false,
+      "childrenKey": "87e48f4608cdc33274916b5dede3961fb634c27b"
+    },
+    {
+      "iri": "obo:OBI_0002536",
+      "label": "cerebral cortex specimen",
+      "hasChildren": false,
+      "childrenKey": "a6135f1c35828dd3f79ec0e0f172f779ecb4afa9"
+    }
+  ]
+}

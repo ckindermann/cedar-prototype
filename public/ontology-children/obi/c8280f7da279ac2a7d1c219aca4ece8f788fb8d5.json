@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001232",
+  "children": [
+    {
+      "iri": "obo:OBI_0001412",
+      "label": "cytometric bead array assay measuring epitope specific RANTES production by T cells",
+      "hasChildren": false,
+      "childrenKey": "506f4fa84bc2987f0f6efe7d885530100fd02275"
+    },
+    {
+      "iri": "obo:OBI_0001325",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific RANTES production by T cells",
+      "hasChildren": false,
+      "childrenKey": "cf036bbb7c973d5032bb23c4012778f4f8f27b8b"
+    },
+    {
+      "iri": "obo:OBI_0001222",
+      "label": "ELISA measuring epitope specific RANTES production by T cells",
+      "hasChildren": false,
+      "childrenKey": "fdd8664555ba38bcd1fe375818d19093db81f561"
+    },
+    {
+      "iri": "obo:OBI_0001790",
+      "label": "ELISPOT assay measuring epitope specific RANTES production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e9e7e2b6caf725b3f69b3aca4d2a5fb05751c412"
+    },
+    {
+      "iri": "obo:OBI_0001789",
+      "label": "intracellular cytokine staining assay measuring epitope specific RANTES production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7598b9fae28df552fa7dcd838db920905c7c85ef"
+    }
+  ]
+}

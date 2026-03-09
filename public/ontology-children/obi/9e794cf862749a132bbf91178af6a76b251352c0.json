@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002792",
+  "children": [
+    {
+      "iri": "obo:OBI_0002795",
+      "label": "disposable patient gown",
+      "hasChildren": false,
+      "childrenKey": "e81d7745c37d9d05982a37ffbe9df3f67a71b8e8"
+    },
+    {
+      "iri": "obo:OBI_0002794",
+      "label": "reusable patient gown",
+      "hasChildren": false,
+      "childrenKey": "c7bbfd8f589c8afcfaa1295b8068e8eb2448971d"
+    }
+  ]
+}

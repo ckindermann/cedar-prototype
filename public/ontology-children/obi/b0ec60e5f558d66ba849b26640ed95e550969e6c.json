@@ -1,0 +1,546 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000443",
+  "children": [
+    {
+      "iri": "obo:OBI_2100051",
+      "label": "3-hydroxybutyric acid assay",
+      "hasChildren": true,
+      "childrenKey": "ef614ca19a9a2d68047e8dcac0a8ed61b7bb845c"
+    },
+    {
+      "iri": "obo:OBI_2100046",
+      "label": "3,3',5'-triiodothyronine assay",
+      "hasChildren": true,
+      "childrenKey": "90f7a03f708f272f84c396f116a4f40d663893e5"
+    },
+    {
+      "iri": "obo:OBI_2100016",
+      "label": "alanine aminotransferase assay",
+      "hasChildren": true,
+      "childrenKey": "22be9240a3fa446846f14145c265823803e2c0bb"
+    },
+    {
+      "iri": "obo:OBI_2100022",
+      "label": "albumin assay",
+      "hasChildren": true,
+      "childrenKey": "2f45965dd63ad11c325ca8c3ed3e58d05b05d848"
+    },
+    {
+      "iri": "obo:OBI_2100017",
+      "label": "alkaline phosphatase (human) assay",
+      "hasChildren": true,
+      "childrenKey": "d4cd79fa3df50692739f34129cdbc892af2e6f55"
+    },
+    {
+      "iri": "obo:OBI_0001630",
+      "label": "analytical chromatography",
+      "hasChildren": true,
+      "childrenKey": "a7aef14a4e1f3617cdca7de90fd2cd26ab6c268e"
+    },
+    {
+      "iri": "obo:OBI_0002145",
+      "label": "antigen specific antibodies assay",
+      "hasChildren": true,
+      "childrenKey": "03eec4bd93e86020870070af97ecc13ee53c6701"
+    },
+    {
+      "iri": "obo:OBI_2100019",
+      "label": "aspartate aminotransferase (human) assay",
+      "hasChildren": true,
+      "childrenKey": "0f9724b92ca68ec4c5da85c480628deee348b2e1"
+    },
+    {
+      "iri": "obo:OBI_0002175",
+      "label": "ATP bioluminescence assay",
+      "hasChildren": false,
+      "childrenKey": "a2e83fd8fdbdb1bf4bfe77a1b70332bca8df4a30"
+    },
+    {
+      "iri": "obo:OBI_0003218",
+      "label": "bile salt assay",
+      "hasChildren": true,
+      "childrenKey": "99e346d8e4591758bbf2a3d53abbac91accb168e"
+    },
+    {
+      "iri": "obo:OBI_2100018",
+      "label": "bilirubin IXalpha assay",
+      "hasChildren": true,
+      "childrenKey": "d717a09f72d1cd61f90d48dc17d22de568c8464b"
+    },
+    {
+      "iri": "obo:OBI_2100047",
+      "label": "C-reactive protein assay",
+      "hasChildren": true,
+      "childrenKey": "f955da7d564b5a5090a4ff713ffcd8289eb0adf5"
+    },
+    {
+      "iri": "obo:OBI_2100024",
+      "label": "calcium cation assay",
+      "hasChildren": true,
+      "childrenKey": "47214dc47fd9bd8aa4a3b0c2f091533fd62b26ab"
+    },
+    {
+      "iri": "obo:OBI_2100001",
+      "label": "carbon dioxide assay",
+      "hasChildren": true,
+      "childrenKey": "326d3b0344f6ce62af479c63786c030f95a32454"
+    },
+    {
+      "iri": "obo:OBI_2100010",
+      "label": "chloride assay",
+      "hasChildren": true,
+      "childrenKey": "1c3ec772f91dc2710abaed4427fcd10a5547f412"
+    },
+    {
+      "iri": "obo:OBI_2100031",
+      "label": "cholesterol assay",
+      "hasChildren": true,
+      "childrenKey": "e73b15ba7c3240885bc73e42fb16fb3b8fd1f326"
+    },
+    {
+      "iri": "obo:OBI_0000520",
+      "label": "clinical chemistry assay",
+      "hasChildren": false,
+      "childrenKey": "ea189f1fe524192048b7a2641fd7f4952b87024f"
+    },
+    {
+      "iri": "obo:OBI_0003194",
+      "label": "creatine assay",
+      "hasChildren": true,
+      "childrenKey": "07c8227837ff202cb0e7a4c6d2240715f99d67a4"
+    },
+    {
+      "iri": "obo:OBI_2100025",
+      "label": "creatine kinase assay",
+      "hasChildren": true,
+      "childrenKey": "a30e47ba2416707199fd7c804b5149a15592927f"
+    },
+    {
+      "iri": "obo:OBI_2100003",
+      "label": "creatinine assay",
+      "hasChildren": true,
+      "childrenKey": "a64c5e0524c60a405436de2ec6575b7521d41f48"
+    },
+    {
+      "iri": "obo:OBI_0001858",
+      "label": "cross-linking immunoprecipitation high-throughput sequencing assay",
+      "hasChildren": true,
+      "childrenKey": "3bfc757f1d391cc60235fcba333ab9f5eefa7fcf"
+    },
+    {
+      "iri": "obo:OBI_0002766",
+      "label": "cytokine assay",
+      "hasChildren": false,
+      "childrenKey": "ac389a6265a4895cf198a223410181e19144bf66"
+    },
+    {
+      "iri": "obo:OBI_0000920",
+      "label": "cytometric bead array assay",
+      "hasChildren": true,
+      "childrenKey": "491c46c62cabc0b5205f494d9914d788f1e63717"
+    },
+    {
+      "iri": "obo:OBI_0000874",
+      "label": "detection of specific nucleic acid polymers with complementary probes",
+      "hasChildren": true,
+      "childrenKey": "f8b03a4e896da2e5acd1f06c937736925c3d0e53"
+    },
+    {
+      "iri": "obo:OBI_0002171",
+      "label": "dot blot assay",
+      "hasChildren": false,
+      "childrenKey": "e36ae2b7946d56d8422ea7122157a66f3fa28efa"
+    },
+    {
+      "iri": "obo:OBI_2100036",
+      "label": "elemental oxygen assay",
+      "hasChildren": true,
+      "childrenKey": "5b02ee7fd268b2bb37bca4778f481a3b1224adfb"
+    },
+    {
+      "iri": "obo:OBI_0000661",
+      "label": "enzyme-linked immunosorbent assay",
+      "hasChildren": true,
+      "childrenKey": "5703999a4abe0d8c36f26ae6a1889377d0675ea7"
+    },
+    {
+      "iri": "obo:OBI_0003196",
+      "label": "estradiol assay",
+      "hasChildren": true,
+      "childrenKey": "97097161ca6e4cfec8443346717b00f14b2e6f38"
+    },
+    {
+      "iri": "obo:OBI_0003220",
+      "label": "fatty acid assay",
+      "hasChildren": true,
+      "childrenKey": "2289ae61e9541ef01813298e9c7f269a82d79f97"
+    },
+    {
+      "iri": "obo:OBI_2100037",
+      "label": "folic acids assay",
+      "hasChildren": true,
+      "childrenKey": "8e1b35c1cdedfc036a9dc3ece6c683a8fb7320a5"
+    },
+    {
+      "iri": "obo:OBI_0003224",
+      "label": "follicle stimulating hormone assay",
+      "hasChildren": true,
+      "childrenKey": "70e1a17740d926b7295e88cc7ff7f3c1096fce02"
+    },
+    {
+      "iri": "obo:OBI_0000435",
+      "label": "genotyping assay",
+      "hasChildren": true,
+      "childrenKey": "f089750f493dc2a5274ecccab4f40840b720c068"
+    },
+    {
+      "iri": "obo:OBI_0003015",
+      "label": "globulin assay",
+      "hasChildren": true,
+      "childrenKey": "a2f7afefd48d6b9f2a5297569fb6746897d01b4d"
+    },
+    {
+      "iri": "obo:OBI_2100020",
+      "label": "glucose assay",
+      "hasChildren": true,
+      "childrenKey": "da929b99e979f6d1bf05091c7ac6838a28c9a3aa"
+    },
+    {
+      "iri": "obo:OBI_0002157",
+      "label": "HBV surface antigen assay",
+      "hasChildren": false,
+      "childrenKey": "79e646c229fb5d9d650d06549905c40aa8fd6b02"
+    },
+    {
+      "iri": "obo:OBI_0002159",
+      "label": "HCV nucleic acid testing",
+      "hasChildren": false,
+      "childrenKey": "dc19c86f415ca01846ff7920ca6908a8b4ec96b6"
+    },
+    {
+      "iri": "obo:OBI_2100014",
+      "label": "hemoglobin assay",
+      "hasChildren": true,
+      "childrenKey": "2ed21198f8afbcef1224ea696b288ef70fd56269"
+    },
+    {
+      "iri": "obo:OBI_2100030",
+      "label": "high-density lipoprotein cholesterol assay",
+      "hasChildren": true,
+      "childrenKey": "5d2c54c8b7a1fa6238ae144cfe9be625d3bc3fd8"
+    },
+    {
+      "iri": "obo:OBI_0002158",
+      "label": "HIV-1 nucleic acid testing",
+      "hasChildren": false,
+      "childrenKey": "222aefa6ad0784713e2629d10e95d8dcee3948aa"
+    },
+    {
+      "iri": "obo:OBI_0000787",
+      "label": "human antithrombin-III in blood assay",
+      "hasChildren": true,
+      "childrenKey": "008cd0cd4131031fa86b88abba1d7ca120360113"
+    },
+    {
+      "iri": "obo:OBI_2100043",
+      "label": "hydrogencarbonate assay",
+      "hasChildren": true,
+      "childrenKey": "75e62bc40364f5763525a638fbf482c01bd1d93a"
+    },
+    {
+      "iri": "obo:OBI_0001978",
+      "label": "immunoblot assay",
+      "hasChildren": true,
+      "childrenKey": "bba9eae6fa1262fd3f341b36f3b34ef1587adaee"
+    },
+    {
+      "iri": "obo:OBI_0001700",
+      "label": "immunoprecipitation assay",
+      "hasChildren": true,
+      "childrenKey": "23dff021c8b71471e415ad0fb04d224ef48f38a3"
+    },
+    {
+      "iri": "obo:OBI_0003222",
+      "label": "insulin assay",
+      "hasChildren": true,
+      "childrenKey": "b8e3f52c40ede3efedb9bbf85daf2b1871413b9d"
+    },
+    {
+      "iri": "obo:OBI_0003012",
+      "label": "ionized calcium assay",
+      "hasChildren": true,
+      "childrenKey": "564ec2907c186e2f85edf446c7b865fd9dea14a9"
+    },
+    {
+      "iri": "obo:OBI_0003011",
+      "label": "iron assay",
+      "hasChildren": true,
+      "childrenKey": "c7b7917de6c466021129abd8809231ffe710d57d"
+    },
+    {
+      "iri": "obo:OBI_0002761",
+      "label": "lipid profiling assay",
+      "hasChildren": false,
+      "childrenKey": "5872e967f7ad375d599e3dd57de9b545ce69815b"
+    },
+    {
+      "iri": "obo:OBI_0003204",
+      "label": "lipoprotein concentration assay",
+      "hasChildren": true,
+      "childrenKey": "c96ac297acdd8a0b00fa8041a0ab64e75f789c11"
+    },
+    {
+      "iri": "obo:OBI_2100032",
+      "label": "low-density lipoprotein cholesterol assay",
+      "hasChildren": true,
+      "childrenKey": "a55e7c5420250eed9125da1aaec46e7eaf6609a3"
+    },
+    {
+      "iri": "obo:OBI_0003208",
+      "label": "luteinizing hormone assay",
+      "hasChildren": true,
+      "childrenKey": "ab07e0105fa70cdf622626665dee2dd36e872599"
+    },
+    {
+      "iri": "obo:OBI_2100021",
+      "label": "magnesium cation assay",
+      "hasChildren": true,
+      "childrenKey": "930e4160cacd5af0c9566bf73cc5edcb49250e77"
+    },
+    {
+      "iri": "obo:OBI_2100040",
+      "label": "methemoglobin assay",
+      "hasChildren": true,
+      "childrenKey": "a69128d54cf4cf901c876d1b04a38322d43f02c5"
+    },
+    {
+      "iri": "obo:OBI_0001985",
+      "label": "microarray assay",
+      "hasChildren": true,
+      "childrenKey": "234a8c66191a6bb3e9608de1ebf4c1fa1cce4aca"
+    },
+    {
+      "iri": "obo:OBI_0003210",
+      "label": "nitrite assay",
+      "hasChildren": true,
+      "childrenKey": "3621b96fc0ee2eae2e18c11258b121253f7c7404"
+    },
+    {
+      "iri": "obo:OBI_0000860",
+      "label": "northern blot assay",
+      "hasChildren": false,
+      "childrenKey": "e8c8c1cc04b34cbc3917bc9ac39d281b92efedcc"
+    },
+    {
+      "iri": "obo:OBI_2100015",
+      "label": "phosphate ion assay",
+      "hasChildren": true,
+      "childrenKey": "1cf18f9c4129baa0f286823051511307fb15c0c1"
+    },
+    {
+      "iri": "obo:OBI_0003212",
+      "label": "phospholipid assay",
+      "hasChildren": true,
+      "childrenKey": "7edfbf57d1250d68db3842c5cdfd3d4a57394149"
+    },
+    {
+      "iri": "obo:OBI_2100004",
+      "label": "potassium(1+) assay",
+      "hasChildren": true,
+      "childrenKey": "13bae362e264b2dd7d7e4c2a713b13b9f02aaad6"
+    },
+    {
+      "iri": "obo:OBI_0003214",
+      "label": "progesterone assay",
+      "hasChildren": true,
+      "childrenKey": "5ff46fbc10cf83b0ad939c40007e3e98b1a0373f"
+    },
+    {
+      "iri": "obo:OBI_2100034",
+      "label": "prostate-specific antigen assay",
+      "hasChildren": true,
+      "childrenKey": "3297c1201ba86fc246165163db72fa0266a903b6"
+    },
+    {
+      "iri": "obo:OBI_2100023",
+      "label": "protein assay",
+      "hasChildren": true,
+      "childrenKey": "942986e0f308dd7be01e76d37183d5dbd6400a63"
+    },
+    {
+      "iri": "obo:OBI_0003113",
+      "label": "proximity extension assay",
+      "hasChildren": true,
+      "childrenKey": "d7eb07754886c204c3fc4e73fe012213adb884ba"
+    },
+    {
+      "iri": "obo:OBI_2100221",
+      "label": "random venous blood amikacin assay",
+      "hasChildren": false,
+      "childrenKey": "cb253d475c4eb31a0fae035d9a53831559b737c9"
+    },
+    {
+      "iri": "obo:OBI_0002156",
+      "label": "rapid plasma reagin test",
+      "hasChildren": false,
+      "childrenKey": "9a04462ae5ff5f4135c5fe664d5c777cc6a5db32"
+    },
+    {
+      "iri": "obo:OBI_0000904",
+      "label": "reporter cell line analyte detection bioassay",
+      "hasChildren": true,
+      "childrenKey": "e8c974242c3c62fd48d88f7cc46144126ebd9af3"
+    },
+    {
+      "iri": "obo:OBI_0001857",
+      "label": "RNP (ribonuclear particle) immunoprecipitation high- throughput sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "aa78f6ffcc533f329308500b6fabc0f590ed58b6"
+    },
+    {
+      "iri": "obo:OBI_0000872",
+      "label": "serum neutralization of viral infectivity assay",
+      "hasChildren": true,
+      "childrenKey": "7774c043c7275a9cf190840e7c00e578dd2b1215"
+    },
+    {
+      "iri": "obo:OBI_2100002",
+      "label": "sodium(1+) assay",
+      "hasChildren": true,
+      "childrenKey": "105c7d7ee174075e5cc532c27add966d36c6ee9c"
+    },
+    {
+      "iri": "obo:OBI_0003111",
+      "label": "SOMAscan assay",
+      "hasChildren": false,
+      "childrenKey": "e6f778db9e7e0ba03ac35c95a0c1b06c394f26d2"
+    },
+    {
+      "iri": "obo:OBI_0000892",
+      "label": "Southern blot assay",
+      "hasChildren": false,
+      "childrenKey": "fa089a7a391f0b72e43edc46635602a73d78eec6"
+    },
+    {
+      "iri": "obo:OBI_0003216",
+      "label": "testosterone assay",
+      "hasChildren": true,
+      "childrenKey": "79f8953fdc8a0a266bb9c894e6d27ad116749c07"
+    },
+    {
+      "iri": "obo:OBI_2100033",
+      "label": "thyroid stimulating hormone assay",
+      "hasChildren": true,
+      "childrenKey": "b0298b14454cf9b0aa93b1744e23dea729cf8200"
+    },
+    {
+      "iri": "obo:OBI_2100035",
+      "label": "thyroxine assay",
+      "hasChildren": true,
+      "childrenKey": "7c7bde14364d79dcdc5e97361fa7a42efc86fae9"
+    },
+    {
+      "iri": "obo:OBI_2100045",
+      "label": "tobramycin assay",
+      "hasChildren": true,
+      "childrenKey": "004e6777d0fa3619cb310ec954ea2674d81a4ecf"
+    },
+    {
+      "iri": "obo:OBI_2100369",
+      "label": "total venous blood homocysteine assay",
+      "hasChildren": false,
+      "childrenKey": "fa44f8d9bfc7da4d57816152f0b9523ec7cc83c5"
+    },
+    {
+      "iri": "obo:OBI_0003013",
+      "label": "transferrin assay",
+      "hasChildren": true,
+      "childrenKey": "d9eb5ad548190bdd951c9787235fb8037ff10b40"
+    },
+    {
+      "iri": "obo:OBI_0001282",
+      "label": "translation profiling assay",
+      "hasChildren": false,
+      "childrenKey": "648ff0cc51cbe3884d1e0ff206d77a89aecbd2b5"
+    },
+    {
+      "iri": "obo:OBI_2100029",
+      "label": "triglyceride assay",
+      "hasChildren": true,
+      "childrenKey": "4e140f4cda7a3903b235b29db25991800484eb4d"
+    },
+    {
+      "iri": "obo:OBI_0003014",
+      "label": "uric acid assay",
+      "hasChildren": true,
+      "childrenKey": "6e3e2b64a502f96ce754ee704ffcec3c46f5ac7d"
+    },
+    {
+      "iri": "obo:OBI_2100044",
+      "label": "vancomycin assay",
+      "hasChildren": true,
+      "childrenKey": "d95beefe8234e2ccf04d8e426fe2c55d09b2dd44"
+    },
+    {
+      "iri": "obo:OBI_0002155",
+      "label": "venereal disease research laboratory test",
+      "hasChildren": false,
+      "childrenKey": "fb908987f8c63906d3b1fad93af2e4f4a0a3d54a"
+    },
+    {
+      "iri": "obo:OBI_2100203",
+      "label": "venous blood 25-hydroxyvitamin D2 assay",
+      "hasChildren": false,
+      "childrenKey": "90ffac37f362bfdb4ff41bb7ed49bf5acd13cf03"
+    },
+    {
+      "iri": "obo:OBI_2100222",
+      "label": "venous blood ammonia assay",
+      "hasChildren": false,
+      "childrenKey": "31c55647787927e24f1aae9a3d5b04e1651db94c"
+    },
+    {
+      "iri": "obo:OBI_2100270",
+      "label": "venous blood cortisol assay",
+      "hasChildren": false,
+      "childrenKey": "523cd686afc65b5446c3d31f74bf34dbfca9b4fc"
+    },
+    {
+      "iri": "obo:OBI_2100269",
+      "label": "venous blood dehydroepiandrosterone assay",
+      "hasChildren": false,
+      "childrenKey": "95a9ecf94d4963b2a5baa6a7f9ba22a8f11d64ac"
+    },
+    {
+      "iri": "obo:OBI_2100204",
+      "label": "venous blood digoxin assay",
+      "hasChildren": false,
+      "childrenKey": "88d7f8c9027dc9f7fc0490bec50d06ae86962530"
+    },
+    {
+      "iri": "obo:OBI_2100173",
+      "label": "venous blood mycophenolic acid assay",
+      "hasChildren": false,
+      "childrenKey": "49206ae10e34a0665acaf97e24c7d0e8f370eafd"
+    },
+    {
+      "iri": "obo:OBI_2100171",
+      "label": "venous blood tacrolimus assay",
+      "hasChildren": false,
+      "childrenKey": "ce4f17dae30a49ee2d8bf5eac1d228683c7f9a77"
+    },
+    {
+      "iri": "obo:OBI_2100309",
+      "label": "venous blood valproic acid assay",
+      "hasChildren": false,
+      "childrenKey": "c6df5588add9e01c25d0669f0cd397b9b73d1cf6"
+    },
+    {
+      "iri": "obo:OBI_0000871",
+      "label": "viral hemagglutination assay",
+      "hasChildren": false,
+      "childrenKey": "5ae44ec06ffb7698f29dd924f39c13231e83324f"
+    }
+  ]
+}

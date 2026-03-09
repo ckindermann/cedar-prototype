@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000068",
+  "children": [
+    {
+      "iri": "obo:OBI_0001949",
+      "label": "sequence annotation reporting role",
+      "hasChildren": false,
+      "childrenKey": "abda72228b17fc218f47053c33cc9db7734452d3"
+    }
+  ]
+}

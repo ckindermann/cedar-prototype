@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001188",
+  "children": [
+    {
+      "iri": "obo:OBI_0001711",
+      "label": "in vivo assay measuring B cell epitope specific disease exacerbation",
+      "hasChildren": true,
+      "childrenKey": "562cd8f240a935ea6a44c3673fa579ed6aa6ef5d"
+    },
+    {
+      "iri": "obo:OBI_0002634",
+      "label": "in vivo assay measuring B cell epitope specific disease exacerbation resulting from the adoptive transfer of epitope specific antibodies or B cells",
+      "hasChildren": false,
+      "childrenKey": "74b561f38c8939ce6336fc17e3a686c2841ab378"
+    },
+    {
+      "iri": "obo:OBI_0001467",
+      "label": "in vivo assay measuring T cell epitope specific disease exacerbation",
+      "hasChildren": true,
+      "childrenKey": "a2638a7f0f349c192047233c812f2a16f1036ffb"
+    },
+    {
+      "iri": "obo:OBI_0002678",
+      "label": "in vivo assay measuring T cell epitope specific disease exacerbation resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "c5381912d1aef2a5dbb0a13d739265b611c50719"
+    }
+  ]
+}

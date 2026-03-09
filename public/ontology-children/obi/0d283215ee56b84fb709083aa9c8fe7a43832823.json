@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000204",
+  "children": [
+    {
+      "iri": "obo:OBI_0000162",
+      "label": "complete nutrient role",
+      "hasChildren": true,
+      "childrenKey": "0d4aefb7640fd3bb3ec92109d9162a10724dd0a1"
+    }
+  ]
+}

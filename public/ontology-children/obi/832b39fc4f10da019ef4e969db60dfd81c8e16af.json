@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001472",
+  "children": [
+    {
+      "iri": "obo:OBI_0000981",
+      "label": "agar stab specimen",
+      "hasChildren": false,
+      "childrenKey": "7a06f0966daea480b8ff4799303d33ed23ecd70f"
+    },
+    {
+      "iri": "obo:OBI_0000971",
+      "label": "fresh specimen",
+      "hasChildren": false,
+      "childrenKey": "b6bb3c24cf35266838bacfe040058fa1994639c9"
+    },
+    {
+      "iri": "obo:OBI_0000922",
+      "label": "frozen specimen",
+      "hasChildren": false,
+      "childrenKey": "0b7a382278629bf65919557cf08f513e74290072"
+    },
+    {
+      "iri": "obo:OBI_0000965",
+      "label": "lyophilized specimen",
+      "hasChildren": false,
+      "childrenKey": "cbb204e2f3a008d55413fc3cf8e96313b42da285"
+    },
+    {
+      "iri": "obo:OBI_0000950",
+      "label": "paraffin specimen",
+      "hasChildren": true,
+      "childrenKey": "0e11828ff6dc41862f4878bdc87a5a92d1bc55de"
+    }
+  ]
+}

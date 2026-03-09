@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002182",
+  "children": [
+    {
+      "iri": "obo:OBI_0002184",
+      "label": "cut open oocyte voltage clamp assay",
+      "hasChildren": false,
+      "childrenKey": "89927b4ea64ec0455eb1962249d5387e3e5de356"
+    },
+    {
+      "iri": "obo:OBI_0002183",
+      "label": "two electrode voltage clamp assay",
+      "hasChildren": false,
+      "childrenKey": "0d01c1d5b98a5e600776dc45cac1d98388bca150"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000947",
+  "children": [
+    {
+      "iri": "obo:OBI_0000018",
+      "label": "material supplier role",
+      "hasChildren": false,
+      "childrenKey": "f22da2f456238731be1d4230d18a0c6d98042cb7"
+    }
+  ]
+}

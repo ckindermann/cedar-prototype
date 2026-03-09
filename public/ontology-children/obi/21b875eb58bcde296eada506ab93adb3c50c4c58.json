@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002439",
+  "children": [
+    {
+      "iri": "obo:OBI_0002440",
+      "label": "Hi-C assay",
+      "hasChildren": true,
+      "childrenKey": "3b6ddd77b71102c7061252e18b90687f6d2090c8"
+    },
+    {
+      "iri": "obo:OBI_0003552",
+      "label": "proximity ligation-assisted ChIP-seq",
+      "hasChildren": false,
+      "childrenKey": "ddf20b0621a9382defc28a3f99c0022f6ef4ab84"
+    }
+  ]
+}

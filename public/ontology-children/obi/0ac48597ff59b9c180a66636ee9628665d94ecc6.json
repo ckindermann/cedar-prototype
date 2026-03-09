@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0500026",
+  "children": [
+    {
+      "iri": "obo:OBI_0500028",
+      "label": "exclusion criterion",
+      "hasChildren": true,
+      "childrenKey": "63b61f8ef11f571c30c10aff929129b867d88b74"
+    },
+    {
+      "iri": "obo:OBI_0500027",
+      "label": "inclusion criterion",
+      "hasChildren": true,
+      "childrenKey": "09c9944832b607f99f52720157f5b953096f9270"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003617",
+  "children": [
+    {
+      "iri": "obo:OBI_0003618",
+      "label": "antibody purification of HLA protein complex with A2 serotype",
+      "hasChildren": false,
+      "childrenKey": "9f22079877fc02f814d8d81e6f36664da364c5d5"
+    },
+    {
+      "iri": "obo:OBI_0003620",
+      "label": "antibody purification of HLA protein complex with A2 serotype and/or HLA protein complex with A28 serotype",
+      "hasChildren": true,
+      "childrenKey": "dd81531580c715f729663b00b8f775a74a38ddfb"
+    },
+    {
+      "iri": "obo:OBI_0003619",
+      "label": "antibody purification of HLA protein complex with A24 serotype",
+      "hasChildren": false,
+      "childrenKey": "e23351e7f3c824d38ef2958ff2f87fffa191d043"
+    },
+    {
+      "iri": "obo:OBI_0003621",
+      "label": "antibody purification of HLA protein complex with A29 serotype",
+      "hasChildren": false,
+      "childrenKey": "fc0476a9ba10f72329b5a337281eeb7b5167d1bf"
+    },
+    {
+      "iri": "obo:OBI_0003622",
+      "label": "antibody purification of HLA protein complex with B27 serotype",
+      "hasChildren": false,
+      "childrenKey": "f6c40579d69954f71735c45d86c0ec60eba69d01"
+    },
+    {
+      "iri": "obo:OBI_0003623",
+      "label": "antibody purification of HLA-C protein complex",
+      "hasChildren": false,
+      "childrenKey": "399a4d8b965a0a007cfe822669fa74322900b6e7"
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000832",
+  "children": [
+    {
+      "iri": "obo:OBI_0001044",
+      "label": "angiograph",
+      "hasChildren": false,
+      "childrenKey": "871613d232b52dd6b225f0b91afa813a4b2d1923"
+    },
+    {
+      "iri": "obo:OBI_0001135",
+      "label": "balance",
+      "hasChildren": true,
+      "childrenKey": "755766a4f1e56f022c66e99bed879dd3d62d935d"
+    },
+    {
+      "iri": "obo:OBI_0000930",
+      "label": "calorimeter",
+      "hasChildren": false,
+      "childrenKey": "5c1d337a71ede7d51af2481c6a7045c5af318512"
+    },
+    {
+      "iri": "obo:OBI_0400106",
+      "label": "centrifuge",
+      "hasChildren": true,
+      "childrenKey": "d3f54a5f3e004692a0f909510b8528f6d9c19882"
+    },
+    {
+      "iri": "obo:OBI_0000048",
+      "label": "chromatography device",
+      "hasChildren": true,
+      "childrenKey": "b84472ccc82dc51e6fbafbe6b35581d36c63278e"
+    },
+    {
+      "iri": "obo:OBI_0001095",
+      "label": "coagulation analyzer",
+      "hasChildren": false,
+      "childrenKey": "0eff0cc31f388548d36a9d6e63d857ac84b2d804"
+    },
+    {
+      "iri": "obo:OBI_0000463",
+      "label": "column chromatography detector",
+      "hasChildren": false,
+      "childrenKey": "ed6133ebecbfedc4152d2f3cdfe044d84d12b4a1"
+    },
+    {
+      "iri": "obo:OBI_0400137",
+      "label": "cytometer",
+      "hasChildren": true,
+      "childrenKey": "b3bb2ab2a5d132bf32e4d450cceade7c41b85e7a"
+    },
+    {
+      "iri": "obo:OBI_0001062",
+      "label": "densitometer",
+      "hasChildren": false,
+      "childrenKey": "7b110fa75dd97d52e5c7ba1adc687e2645517e83"
+    },
+    {
+      "iri": "obo:OBI_0400032",
+      "label": "differential pressure gauge",
+      "hasChildren": false,
+      "childrenKey": "212557887478c73ec699b7feea9f54ade6935583"
+    },
+    {
+      "iri": "obo:OBI_0001122",
+      "label": "diffractometer",
+      "hasChildren": false,
+      "childrenKey": "6ef20906d139c957261a9764e733482e94adea6f"
+    },
+    {
+      "iri": "obo:OBI_0400103",
+      "label": "DNA sequencer",
+      "hasChildren": true,
+      "childrenKey": "f3886e4ded62aa999415487e3bcb298324301f37"
+    },
+    {
+      "iri": "obo:OBI_0000565",
+      "label": "electrical conductivity detector",
+      "hasChildren": false,
+      "childrenKey": "5dc013908ab99972fde3d3e4092efa9a701d5a4c"
+    },
+    {
+      "iri": "obo:OBI_0000547",
+      "label": "evaporative light scattering detector",
+      "hasChildren": false,
+      "childrenKey": "ccb8648770f7c72676d3a6fdabfed81b0c69b80b"
+    },
+    {
+      "iri": "obo:OBI_0400045",
+      "label": "fluid pressure regulator",
+      "hasChildren": false,
+      "childrenKey": "b9619d3fe84fc833b7513a72861add62eed82cd0"
+    },
+    {
+      "iri": "obo:OBI_0000563",
+      "label": "fluorescene detector",
+      "hasChildren": false,
+      "childrenKey": "1d5e13b8295aeee25ba229103edcb25daaa5340a"
+    },
+    {
+      "iri": "obo:OBI_0000059",
+      "label": "gamma counter",
+      "hasChildren": false,
+      "childrenKey": "8c1e7cd9ef85c4cbcfdf3f41474daad3f6771d2b"
+    },
+    {
+      "iri": "obo:OBI_0000795",
+      "label": "glucometer",
+      "hasChildren": false,
+      "childrenKey": "6196d1ca3cd2c34002094bc5d79fea84fe6076b6"
+    },
+    {
+      "iri": "obo:OBI_0000398",
+      "label": "image creation device",
+      "hasChildren": true,
+      "childrenKey": "f2ea4e0a5a24ac2386bc1e7ffe5aeb4cbb0effb2"
+    },
+    {
+      "iri": "obo:OBI_0000364",
+      "label": "ion detector",
+      "hasChildren": true,
+      "childrenKey": "8674568f07459a96c2b493de6cc62bf78524abe7"
+    },
+    {
+      "iri": "obo:OBI_0000051",
+      "label": "liquid chromatography mass spectrometry platform",
+      "hasChildren": false,
+      "childrenKey": "1bdb18b05ffcc2c7d539d5388829d272a2b6feb5"
+    },
+    {
+      "iri": "obo:OBI_0000345",
+      "label": "mass analyzer",
+      "hasChildren": false,
+      "childrenKey": "cfa50a44665d71d451c813c649bdeb1261f5802b"
+    },
+    {
+      "iri": "obo:OBI_0000049",
+      "label": "mass spectrometer",
+      "hasChildren": true,
+      "childrenKey": "aae26625e0185dab5d446be21c75efb2b876bf6a"
+    },
+    {
+      "iri": "obo:OBI_0000816",
+      "label": "micro electrode",
+      "hasChildren": false,
+      "childrenKey": "a3333ffc333aa4ed76f13a18c12f113f0de12e9b"
+    },
+    {
+      "iri": "obo:OBI_0001089",
+      "label": "microhardness tester",
+      "hasChildren": false,
+      "childrenKey": "c983b7af4379c095217b788cbcfffcbd650d27a3"
+    },
+    {
+      "iri": "obo:OBI_0001128",
+      "label": "micropipette",
+      "hasChildren": true,
+      "childrenKey": "8f7b507d8b88b5fddea6ffafe9de5845f406b6b2"
+    },
+    {
+      "iri": "obo:OBI_0001058",
+      "label": "microplate reader",
+      "hasChildren": true,
+      "childrenKey": "62cd5772f0e2cd7fb4ff060f8881daa9d21ac409"
+    },
+    {
+      "iri": "obo:OBI_0001118",
+      "label": "multichannel pipette",
+      "hasChildren": true,
+      "childrenKey": "6a01762fbb95bd449eecfaff9a98f931be2eeea7"
+    },
+    {
+      "iri": "obo:OBI_0000505",
+      "label": "multiple wavelength detector",
+      "hasChildren": false,
+      "childrenKey": "665e77fe4bb70fe2a0af9e40287aa85ff07ec9d2"
+    },
+    {
+      "iri": "obo:OBI_0000566",
+      "label": "NMR instrument",
+      "hasChildren": true,
+      "childrenKey": "c6fbc12566f4cfa7416b22b13cc4c7865b4670e6"
+    },
+    {
+      "iri": "obo:OBI_0000516",
+      "label": "NMR probe",
+      "hasChildren": true,
+      "childrenKey": "0f8a6d64517131488c69461ce15a81fe5165ac6e"
+    },
+    {
+      "iri": "obo:OBI_0001108",
+      "label": "nucleic acid sequencer",
+      "hasChildren": false,
+      "childrenKey": "57d4e0940f7ca4cd5831b7cf88835d156666befa"
+    },
+    {
+      "iri": "obo:OBI_0000948",
+      "label": "oscilloscope",
+      "hasChildren": false,
+      "childrenKey": "973190601c4a80f8ff5bc4341658cd9031391e05"
+    },
+    {
+      "iri": "obo:OBI_0001080",
+      "label": "patch clamp device",
+      "hasChildren": false,
+      "childrenKey": "dea64436963f5ed16fa30b33807bbcbed268a293"
+    },
+    {
+      "iri": "obo:OBI_0001047",
+      "label": "pH meter",
+      "hasChildren": false,
+      "childrenKey": "e060de1a8151705aec4af9312491ca96426d6c14"
+    },
+    {
+      "iri": "obo:OBI_0400082",
+      "label": "photodetector",
+      "hasChildren": true,
+      "childrenKey": "701d2babea90a81d8593296ee7557e1d10f6729b"
+    },
+    {
+      "iri": "obo:OBI_0400084",
+      "label": "photomultiplier tube",
+      "hasChildren": false,
+      "childrenKey": "270118fc3941a34b92c1be3045cbf50a13460687"
+    },
+    {
+      "iri": "obo:OBI_0001137",
+      "label": "protein sequencer",
+      "hasChildren": false,
+      "childrenKey": "07da97d01f6971f78bb096a258b2ac38d5df0ade"
+    },
+    {
+      "iri": "obo:OBI_0000595",
+      "label": "pulsed amperometric detector",
+      "hasChildren": false,
+      "childrenKey": "91e5db4623dc4c491c90c0e931dffb0c54369c46"
+    },
+    {
+      "iri": "obo:OBI_0001086",
+      "label": "radiation measurement device",
+      "hasChildren": false,
+      "childrenKey": "980af1f4f1f40a4e0a541a6716ea639aa3fcaabc"
+    },
+    {
+      "iri": "obo:OBI_0000583",
+      "label": "refractive index detector",
+      "hasChildren": false,
+      "childrenKey": "75741e9bf003213a9099fac76e3e5d216b6f8155"
+    },
+    {
+      "iri": "obo:OBI_0001070",
+      "label": "scintillation counter",
+      "hasChildren": false,
+      "childrenKey": "cbacc848bee7963599995c849b5e87d95af60d6e"
+    },
+    {
+      "iri": "obo:OBI_0400115",
+      "label": "spectrophotometer",
+      "hasChildren": true,
+      "childrenKey": "3bdcca52a68b98ce5b1885473a74a74bee411201"
+    },
+    {
+      "iri": "obo:OBI_0001136",
+      "label": "surface plasmon resonance instrument",
+      "hasChildren": false,
+      "childrenKey": "7ddb400432281ddef2139f9c701bf886a16c7a3e"
+    },
+    {
+      "iri": "obo:OBI_0000843",
+      "label": "Sysmex CA-6000 Coagulation Analyzer",
+      "hasChildren": false,
+      "childrenKey": "4f7a55f21bcd171bba1607438db87c3306a77688"
+    },
+    {
+      "iri": "obo:OBI_0000501",
+      "label": "variable wavelength detector",
+      "hasChildren": false,
+      "childrenKey": "726b296687aa339d32521ecc6fbf103d55391274"
+    },
+    {
+      "iri": "obo:OBI_0001129",
+      "label": "voltage clamp device",
+      "hasChildren": false,
+      "childrenKey": "928805eab387f22bf8b82198102994d50028231b"
+    }
+  ]
+}

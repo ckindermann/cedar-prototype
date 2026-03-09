@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001425",
+  "children": [
+    {
+      "iri": "obo:OBI_0001403",
+      "label": "ChIP-chip design",
+      "hasChildren": true,
+      "childrenKey": "c2ddb8e63da69864ac97e48fe0014b044b405750"
+    },
+    {
+      "iri": "obo:OBI_0001258",
+      "label": "ChIP-seq design",
+      "hasChildren": false,
+      "childrenKey": "da52184270321d198dc5f2169183e356d4fa95e4"
+    }
+  ]
+}

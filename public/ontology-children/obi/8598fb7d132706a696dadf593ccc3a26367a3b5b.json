@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001264",
+  "children": [
+    {
+      "iri": "obo:OBI_0001270",
+      "label": "cell culture analyte detection bioassay measuring epitope specific transforming growth factor-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b982860299bc58be97b5b92d86f39af97ea40ab6"
+    },
+    {
+      "iri": "obo:OBI_0001210",
+      "label": "cytometric bead array assay measuring epitope specific transforming growth factor-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "03d342ae61ccdb3d49634e2e37fbc27e088b6ccd"
+    },
+    {
+      "iri": "obo:OBI_0001203",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific transforming growth factor-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "32124752f0cc7e6e54f44bc15aa006422c5f23a6"
+    },
+    {
+      "iri": "obo:OBI_0001231",
+      "label": "ELISA measuring epitope specific transforming growth factor-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "5175833f1f0534796f1f2362c0a326aaf0129f8a"
+    },
+    {
+      "iri": "obo:OBI_0001194",
+      "label": "ELISPOT assay measuring epitope specific transforming growth factor-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "89cfbf50a1794d0f7f0319ef8599d469796b0d5e"
+    },
+    {
+      "iri": "obo:OBI_0001482",
+      "label": "intracellular cytokine staining assay measuring epitope specific transforming growth factor-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "69b3736df701cf05bd37c079944a11be076aba50"
+    }
+  ]
+}

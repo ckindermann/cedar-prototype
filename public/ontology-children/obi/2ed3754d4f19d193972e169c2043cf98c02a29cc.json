@@ -1,0 +1,288 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000094",
+  "children": [
+    {
+      "iri": "obo:OBI_0600038",
+      "label": "addition of molecular label",
+      "hasChildren": true,
+      "childrenKey": "803c9d69f5ff531c33fa217b3dcdd7c7f2f1cb67"
+    },
+    {
+      "iri": "obo:OBI_0600027",
+      "label": "artificially induced cell membrane lysis",
+      "hasChildren": false,
+      "childrenKey": "7cc0ac1c1c2a5b27fde86850e08d8f5d7ef4eb4d"
+    },
+    {
+      "iri": "obo:OBI_0600032",
+      "label": "artificially induced DNA repair",
+      "hasChildren": false,
+      "childrenKey": "cca2eefdb42419655e00fe5c92fe9dbd1f392999"
+    },
+    {
+      "iri": "obo:OBI_0600039",
+      "label": "artificially induced methylation",
+      "hasChildren": false,
+      "childrenKey": "a8112aaabab073c265002cd10833a5bb67a50419"
+    },
+    {
+      "iri": "obo:OBI_0000253",
+      "label": "artificially induced nucleic acid hybridization",
+      "hasChildren": true,
+      "childrenKey": "e958db12af20e4cc9565946306c95013e10679c0"
+    },
+    {
+      "iri": "obo:OBI_0600028",
+      "label": "artificially induced reverse transcription",
+      "hasChildren": false,
+      "childrenKey": "4273318b805ed45e86160afa748c781f29881753"
+    },
+    {
+      "iri": "obo:OBI_0000153",
+      "label": "cell co-culturing",
+      "hasChildren": false,
+      "childrenKey": "c98d2b36f4ffef12418016f9ebfbde1e7d37f4f4"
+    },
+    {
+      "iri": "obo:OBI_0001147",
+      "label": "cell culture expansion",
+      "hasChildren": false,
+      "childrenKey": "865743b4862f78055ccfe6ec696197909f13832f"
+    },
+    {
+      "iri": "obo:OBI_0000413",
+      "label": "cell cycle synchronization",
+      "hasChildren": false,
+      "childrenKey": "a2e54544f8a01790ce4b6c972837190e09fd3043"
+    },
+    {
+      "iri": "obo:OBI_0600021",
+      "label": "cell fixation",
+      "hasChildren": false,
+      "childrenKey": "d4d92950c85271947c43a9b367efa223a19b617b"
+    },
+    {
+      "iri": "obo:OBI_0600033",
+      "label": "cell permeabilization",
+      "hasChildren": true,
+      "childrenKey": "bf7a24b233f5b5ad6731700a5391095211067401"
+    },
+    {
+      "iri": "obo:OBI_0000943",
+      "label": "chemical cleavage",
+      "hasChildren": false,
+      "childrenKey": "82ab2407a9dfadde33adb0a6039f2ef8dda78369"
+    },
+    {
+      "iri": "obo:OBI_0000800",
+      "label": "cross linking",
+      "hasChildren": false,
+      "childrenKey": "88877e2ed280ed6f0a1dfbf09ea6c43a163c9c92"
+    },
+    {
+      "iri": "obo:OBI_0000803",
+      "label": "denaturing",
+      "hasChildren": false,
+      "childrenKey": "581fd10ddf05587daa04f75d47d3fa8e39182da3"
+    },
+    {
+      "iri": "obo:OBI_0001504",
+      "label": "dissection",
+      "hasChildren": false,
+      "childrenKey": "b2825c3f023199a16da6d19e7f1d3e9da1f17c58"
+    },
+    {
+      "iri": "obo:OBI_0302905",
+      "label": "elution",
+      "hasChildren": false,
+      "childrenKey": "7ce9e37541ab2ae0fd7659756151a7c5cbc5800c"
+    },
+    {
+      "iri": "obo:OBI_0600058",
+      "label": "enzymatic amplification",
+      "hasChildren": true,
+      "childrenKey": "aaad1dfbc469aa610fb4eddb1b8deae99b02aa6b"
+    },
+    {
+      "iri": "obo:OBI_0000231",
+      "label": "enzymatic cleavage",
+      "hasChildren": true,
+      "childrenKey": "61f558175f0c4b623c9af09ec00821ba89016f12"
+    },
+    {
+      "iri": "obo:OBI_0302892",
+      "label": "enzymatic ligation",
+      "hasChildren": false,
+      "childrenKey": "231fc041cd8ea6d793b24043e04f53de4fc4cbe4"
+    },
+    {
+      "iri": "obo:OBI_0600036",
+      "label": "establishing cell culture",
+      "hasChildren": true,
+      "childrenKey": "59af362ce873afb8287ec17ecebf539249a93de4"
+    },
+    {
+      "iri": "obo:OBI_0600030",
+      "label": "experimental disease induction",
+      "hasChildren": false,
+      "childrenKey": "67865d5490ba5915682e405e74b088ba78d2dd54"
+    },
+    {
+      "iri": "obo:OBI_0600043",
+      "label": "genetic transformation",
+      "hasChildren": true,
+      "childrenKey": "8fa8b221f3e4db0a2f257aa4acffdc030f28003e"
+    },
+    {
+      "iri": "obo:OBI_0000341",
+      "label": "histological sample preparation",
+      "hasChildren": false,
+      "childrenKey": "4dd668db5aeee66a2a3d68c04982a7d5ebb45a51"
+    },
+    {
+      "iri": "obo:OBI_0302902",
+      "label": "immobilization",
+      "hasChildren": false,
+      "childrenKey": "55fe4fcdeb84202d2a27ab3edbce62d4898179a8"
+    },
+    {
+      "iri": "obo:OBI_1110020",
+      "label": "Immunization in vitro",
+      "hasChildren": false,
+      "childrenKey": "6fc432f717c2fbcc150efa8be3ba23db7aee7d61"
+    },
+    {
+      "iri": "obo:OBI_0000906",
+      "label": "induced hemagglutination",
+      "hasChildren": false,
+      "childrenKey": "f53e92a74e612753b700dded1055f119a50f172e"
+    },
+    {
+      "iri": "obo:OBI_0000373",
+      "label": "ionize process",
+      "hasChildren": false,
+      "childrenKey": "dd5ffba4036555d3b7cd0d5cb6601a87dccf838e"
+    },
+    {
+      "iri": "obo:OBI_0600006",
+      "label": "killing",
+      "hasChildren": true,
+      "childrenKey": "78cfc9f5a4c888d27e1bf1fce52e8a3d6ae81f04"
+    },
+    {
+      "iri": "obo:OBI_0000711",
+      "label": "library preparation",
+      "hasChildren": true,
+      "childrenKey": "ce7cab9550531ba243087f9f21672e73f8ab1ff7"
+    },
+    {
+      "iri": "obo:OBI_0000457",
+      "label": "manufacturing",
+      "hasChildren": false,
+      "childrenKey": "b175bf635f7ad559b8480e23dc0afb5c3817ba33"
+    },
+    {
+      "iri": "obo:OBI_0000652",
+      "label": "material combination",
+      "hasChildren": true,
+      "childrenKey": "66629388e5bf65667c4c499035449d8c949729f5"
+    },
+    {
+      "iri": "obo:OBI_0600014",
+      "label": "material component separation",
+      "hasChildren": true,
+      "childrenKey": "0f98e8ddfb6965955ab01a439b0ecd1ae3f5ddb9"
+    },
+    {
+      "iri": "obo:OBI_0001959",
+      "label": "multiplexed nucleotide library sequencing",
+      "hasChildren": false,
+      "childrenKey": "b2c63129f22e4aa4dd8433f28928506d9166f433"
+    },
+    {
+      "iri": "obo:OBI_0302903",
+      "label": "nucleic acid hybridization",
+      "hasChildren": false,
+      "childrenKey": "d4532fae658bd744b69bbffbbb84ee21c3319444"
+    },
+    {
+      "iri": "obo:OBI_0002747",
+      "label": "passage process",
+      "hasChildren": false,
+      "childrenKey": "db1a4c41bcfe14cac348f5455261d2052cbd9917"
+    },
+    {
+      "iri": "obo:OBI_0001480",
+      "label": "phage display library panning",
+      "hasChildren": false,
+      "childrenKey": "97e54ec6e98c489862cecc4a4323149cb0984aa2"
+    },
+    {
+      "iri": "obo:OBI_0302889",
+      "label": "planned irradiation",
+      "hasChildren": false,
+      "childrenKey": "75fe489e517b322eb8c5143e57e9ae30930449eb"
+    },
+    {
+      "iri": "obo:OBI_0302890",
+      "label": "polymerization",
+      "hasChildren": false,
+      "childrenKey": "b8358a1bc974b09a83d7edc6ed476751f5274d94"
+    },
+    {
+      "iri": "obo:OBI_0600064",
+      "label": "recombinant vector cloning",
+      "hasChildren": true,
+      "childrenKey": "03a588ba7f1f44e0a26a5a93360959498e1d286f"
+    },
+    {
+      "iri": "obo:OBI_0000073",
+      "label": "sample preparation for assay",
+      "hasChildren": true,
+      "childrenKey": "eacbed60cadbc4ff832d2c1063684cf48a7e8818"
+    },
+    {
+      "iri": "obo:OBI_0600054",
+      "label": "selection by survival",
+      "hasChildren": false,
+      "childrenKey": "32974ff6a5539c234c25cf80c599c2beb459ea9d"
+    },
+    {
+      "iri": "obo:OBI_0002095",
+      "label": "specimen family creation",
+      "hasChildren": false,
+      "childrenKey": "fdd6a012c46fa6989e043b65c0a2556f7a4124bc"
+    },
+    {
+      "iri": "obo:OBI_0302887",
+      "label": "staining",
+      "hasChildren": true,
+      "childrenKey": "43019fdda153fe89fe03637abc879f1e6adca035"
+    },
+    {
+      "iri": "obo:OBI_0600040",
+      "label": "synthesis",
+      "hasChildren": false,
+      "childrenKey": "7e18e3d0326f81e3e373e58239a6370e7a1fec14"
+    },
+    {
+      "iri": "obo:OBI_0000105",
+      "label": "transplantation",
+      "hasChildren": true,
+      "childrenKey": "dc8bc22109a3f44a16a4c2db361c7367d9368f67"
+    },
+    {
+      "iri": "obo:OBI_0000719",
+      "label": "vaccine production",
+      "hasChildren": false,
+      "childrenKey": "54e7131596596e93b7a50fdd73868ed0bc88f8ce"
+    },
+    {
+      "iri": "obo:OBI_0302888",
+      "label": "washing",
+      "hasChildren": false,
+      "childrenKey": "ee226c72d9c2fde3a58637bbe87b51b61724b04a"
+    }
+  ]
+}

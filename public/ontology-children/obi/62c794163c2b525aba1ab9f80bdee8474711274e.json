@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110193",
+  "children": [
+    {
+      "iri": "obo:OBI_0001526",
+      "label": "epitope specific interleukin-17A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "cd54e441267b48af89c06d734f0b06f65497495d"
+    },
+    {
+      "iri": "obo:OBI_0001470",
+      "label": "epitope specific interleukin-17F production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3f6bd96ef669235af758a4104535ca07a9596887"
+    }
+  ]
+}

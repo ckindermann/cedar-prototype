@@ -1,0 +1,66 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100043",
+  "children": [
+    {
+      "iri": "obo:OBI_2100281",
+      "label": "ABL90 panel arterial blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "7268bb133051d7917412e155c5a9d3a98363b76b"
+    },
+    {
+      "iri": "obo:OBI_2100291",
+      "label": "ABL90 panel venous blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "c6f55c2babd97356622bfd8e02bc2dbfbf01d930"
+    },
+    {
+      "iri": "obo:OBI_2100387",
+      "label": "blood gas arterial blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "36d999f26ac5be04f91d0a15bfd18f079996674c"
+    },
+    {
+      "iri": "obo:OBI_2100169",
+      "label": "blood gas venous blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "3fbc65491c09de819ef799bc48c9b33dd0b2d73c"
+    },
+    {
+      "iri": "obo:OBI_2100194",
+      "label": "GEM premier blood gas venous blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "48d2449fa0ea702463c8cda760448d5fb18b187e"
+    },
+    {
+      "iri": "obo:OBI_2100371",
+      "label": "GEM4 arterial blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "b07075e650cf955f1a0ab3c3e152d4405756e029"
+    },
+    {
+      "iri": "obo:OBI_2100312",
+      "label": "GEM4000 ANLCOOX arterial blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "554ff781ec5b76f55cfd3e8279f7d713700ea432"
+    },
+    {
+      "iri": "obo:OBI_2100176",
+      "label": "non-vented blood gas arterial blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "3488a46dd6a8486161f7da13729217f9fa80c95c"
+    },
+    {
+      "iri": "obo:OBI_2100357",
+      "label": "venous blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "543248eb3a441897b30e81a324640d95a2456829"
+    },
+    {
+      "iri": "obo:OBI_2100183",
+      "label": "vented blood gas arterial blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "f8747d2f321f3e0c71b1e4e53839ffad48f2e453"
+    }
+  ]
+}

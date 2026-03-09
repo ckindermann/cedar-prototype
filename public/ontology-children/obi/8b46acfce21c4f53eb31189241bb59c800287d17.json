@@ -1,0 +1,1302 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000070",
+  "children": [
+    {
+      "iri": "obo:OBI_0002050",
+      "label": "3D molecular structure determination assay of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "02f7a251f4ebe6f812824814b973e72ff782857f"
+    },
+    {
+      "iri": "obo:OBI_0001999",
+      "label": "3D molecular structure determination assay of a T cell epitope:MHC:TCR complex",
+      "hasChildren": true,
+      "childrenKey": "1741092237b70a43053390c5fe220ee1e44642bf"
+    },
+    {
+      "iri": "obo:OBI_0001721",
+      "label": "3D molecular structure determination assay of an antigen:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "9ca66593260d23261b3d17e011ebfa316fa6f062"
+    },
+    {
+      "iri": "obo:OBI_0600045",
+      "label": "3D structure determination assay",
+      "hasChildren": true,
+      "childrenKey": "8ce958bf10dc1f3b115c9697ef2b7e1fe4fc04a2"
+    },
+    {
+      "iri": "obo:OBI_0001158",
+      "label": "age determination assay",
+      "hasChildren": false,
+      "childrenKey": "ecf0ce419d3a963a3a6dc8f49361a906f86736c6"
+    },
+    {
+      "iri": "obo:OBI_0000443",
+      "label": "analyte assay",
+      "hasChildren": true,
+      "childrenKey": "b0ec60e5f558d66ba849b26640ed95e550969e6c"
+    },
+    {
+      "iri": "obo:OBI_0002036",
+      "label": "array based nucleic acid structure mapping assay",
+      "hasChildren": true,
+      "childrenKey": "4a97a17bd785c5bc5d4821afb379b6135edfc018"
+    },
+    {
+      "iri": "obo:OBI_0600017",
+      "label": "assay detecting a molecular label",
+      "hasChildren": true,
+      "childrenKey": "5d4e0a087e7485d394b62f4bf62d43ac7a5cd817"
+    },
+    {
+      "iri": "obo:OBI_1110207",
+      "label": "assay detecting IFN-gamma production",
+      "hasChildren": false,
+      "childrenKey": "916b322e9801319289428c07b21ca0edd20429f3"
+    },
+    {
+      "iri": "obo:OBI_0001709",
+      "label": "assay measuring a binding constant of a B cell epitope:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "03f32ea8ae3ac8e3b5ef9e9b5cd65a734f8d63d0"
+    },
+    {
+      "iri": "obo:OBI_0001553",
+      "label": "assay measuring a binding constant of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "499fdcf13d8b9102ca11f039b93284518c7e6b2a"
+    },
+    {
+      "iri": "obo:OBI_0002059",
+      "label": "assay measuring a binding constant of a T cell epitope:MHC:TCR complex",
+      "hasChildren": true,
+      "childrenKey": "d296dceee79aafa0c28780e9d8c10eec33e7b69c"
+    },
+    {
+      "iri": "obo:OBI_0001698",
+      "label": "assay measuring B cell epitope specific in vivo activity",
+      "hasChildren": true,
+      "childrenKey": "8944582b9b6fe165d534130050458d362bb23c04"
+    },
+    {
+      "iri": "obo:OBI_1110127",
+      "label": "assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "6d9d5de980715825254d38862ee94a947704193d"
+    },
+    {
+      "iri": "obo:OBI_0001550",
+      "label": "assay measuring binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "66e834a54427d0ded7f303f3a822a4b0e924ac4d"
+    },
+    {
+      "iri": "obo:OBI_0001579",
+      "label": "assay measuring binding of a cell-lysate-MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "e018e6a9d6c406d0b701705194e84b1f44a93656"
+    },
+    {
+      "iri": "obo:OBI_1110126",
+      "label": "assay measuring binding of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "a4c21f4bf78408bfa1f4e7f523ce2e674c416258"
+    },
+    {
+      "iri": "obo:OBI_0001555",
+      "label": "assay measuring binding of a purified-MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "28ac70fd76170ec153d17fe335011c6d1f6d3a96"
+    },
+    {
+      "iri": "obo:OBI_1110037",
+      "label": "assay measuring binding of a T cell epitope:MHC:TCR complex",
+      "hasChildren": true,
+      "childrenKey": "10f69b4086b751e234d1f17cc2d0df729a6c57a9"
+    },
+    {
+      "iri": "obo:OBI_0001706",
+      "label": "assay measuring biological activity resulting from B cell epitope:antibody binding",
+      "hasChildren": true,
+      "childrenKey": "9e4b6c99892d8121b34c2b9517885e8283dc5184"
+    },
+    {
+      "iri": "obo:OBI_0002055",
+      "label": "assay measuring biological activity resulting from T cell epitope:MHC:TCR binding",
+      "hasChildren": true,
+      "childrenKey": "a11fd0815ca1139d2e61571eb87b99fe6c132854"
+    },
+    {
+      "iri": "obo:OBI_0001704",
+      "label": "assay measuring epitope specific activation of additional immune response in vitro",
+      "hasChildren": true,
+      "childrenKey": "1760dbe5f002f34900f71be767ac009c2f4766be"
+    },
+    {
+      "iri": "obo:OBI_0003315",
+      "label": "assay measuring epitope specific amphiregulin production by T cells",
+      "hasChildren": true,
+      "childrenKey": "eef1c39b4e08bc01d754255329a70d74c3e31158"
+    },
+    {
+      "iri": "obo:OBI_0001642",
+      "label": "assay measuring epitope specific antibody-dependent cellular cytotoxicity",
+      "hasChildren": false,
+      "childrenKey": "a364f3c61134285ab4d464337eda7adbe6cf3569"
+    },
+    {
+      "iri": "obo:OBI_0001276",
+      "label": "assay measuring epitope specific chemokine (C-C motif) ligand 1 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "718f9f3f3d70fdadf9d0aeb1a814af73bd2c296c"
+    },
+    {
+      "iri": "obo:OBI_0002056",
+      "label": "assay measuring epitope specific chemokine (C-C motif) ligand 17 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "64533d7903b7036343dea2d98d4e0f1db78cc898"
+    },
+    {
+      "iri": "obo:OBI_0001775",
+      "label": "assay measuring epitope specific chemokine (C-C motif) ligand 19 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "d4705c963517db6f4da324cda5edb6b0aa743cbe"
+    },
+    {
+      "iri": "obo:OBI_0002134",
+      "label": "assay measuring epitope specific chemokine (C-C motif) ligand 20 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "6466d3775f1f3868fca113cb3036d924dd7b8cdc"
+    },
+    {
+      "iri": "obo:OBI_0001774",
+      "label": "assay measuring epitope specific chemokine (C-C motif) ligand 21 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "995a92d07af1a1f811f441bd3e6eb44c6c180402"
+    },
+    {
+      "iri": "obo:OBI_0001777",
+      "label": "assay measuring epitope specific chemokine (C-C motif) ligand 22 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "70453b304a3c4ca8096cd255c33960041f62a8b9"
+    },
+    {
+      "iri": "obo:OBI_0001345",
+      "label": "assay measuring epitope specific chemokine (C-C motif) ligand 4 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "0d38894c9e1af53297bf001108700e9a97b6808e"
+    },
+    {
+      "iri": "obo:OBI_0001776",
+      "label": "assay measuring epitope specific chemokine (C-X-C motif) ligand 12 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "79cfad82b0bd3d0ca103ceec8c708301b7a8e19e"
+    },
+    {
+      "iri": "obo:OBI_0001779",
+      "label": "assay measuring epitope specific chemokine (C-X-C motif) ligand 13 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "976dd1460a9fce95d67feeb3d93c7ab1d6a52bc9"
+    },
+    {
+      "iri": "obo:OBI_0001778",
+      "label": "assay measuring epitope specific chemokine (C-X-C motif) ligand 16 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "5ce4c0761912fc428e377f7d483a25935b5dd589"
+    },
+    {
+      "iri": "obo:OBI_0001459",
+      "label": "assay measuring epitope specific chemokine (C-X-C motif) ligand 9 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "25f429bc37a6f2096aaddec58fcd0d3dc73b14f1"
+    },
+    {
+      "iri": "obo:OBI_0001641",
+      "label": "assay measuring epitope specific complement-dependent cytotoxicity",
+      "hasChildren": false,
+      "childrenKey": "9ed3f3b274552f181f36d3911e90ed56601f2465"
+    },
+    {
+      "iri": "obo:OBI_1110129",
+      "label": "assay measuring epitope specific cytokine production by T cells",
+      "hasChildren": true,
+      "childrenKey": "81f5678094307de8b1da235ba46b1be90594a9b4"
+    },
+    {
+      "iri": "obo:OBI_0001269",
+      "label": "assay measuring epitope specific cytotoxic T cell degranulation",
+      "hasChildren": true,
+      "childrenKey": "7b88d1d78cdf429864bde13620f5aa7f3d7c019e"
+    },
+    {
+      "iri": "obo:OBI_0001600",
+      "label": "assay measuring epitope specific granulocyte colony stimulating factor production by T cells",
+      "hasChildren": true,
+      "childrenKey": "4d64824e7964418da478fc4ccab7d3a40c7bcee8"
+    },
+    {
+      "iri": "obo:OBI_0001233",
+      "label": "assay measuring epitope specific granulocyte macrophage colony stimulating factor production by T cells",
+      "hasChildren": true,
+      "childrenKey": "f4aed80f3e7cb09f7ed1778cdca8c408c3f93677"
+    },
+    {
+      "iri": "obo:OBI_0001810",
+      "label": "assay measuring epitope specific granulysin release by T cells",
+      "hasChildren": true,
+      "childrenKey": "be5eb2760eb0e0aa1682f67ce6217938bdd0bfa4"
+    },
+    {
+      "iri": "obo:OBI_0001809",
+      "label": "assay measuring epitope specific granzyme A release by T cells",
+      "hasChildren": true,
+      "childrenKey": "089ab234e011a99581ef7271024e5f758bd13007"
+    },
+    {
+      "iri": "obo:OBI_0001436",
+      "label": "assay measuring epitope specific granzyme B release by T cells",
+      "hasChildren": true,
+      "childrenKey": "2d2552bb89aa3825ebb4e810afc964524f278d87"
+    },
+    {
+      "iri": "obo:OBI_0002669",
+      "label": "assay measuring epitope specific helper T cell enhancement of a B cell mediated immune response resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "2d5de05014371d77f9f90a9cfcf429cd2e17e0dd"
+    },
+    {
+      "iri": "obo:OBI_0002670",
+      "label": "assay measuring epitope specific helper T cell enhancement of a T cell mediated immune response resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "ebc00610812ad2781533915b9474cd97a6aaf1cb"
+    },
+    {
+      "iri": "obo:OBI_0001639",
+      "label": "assay measuring epitope specific Ig-mediated histamine release",
+      "hasChildren": false,
+      "childrenKey": "a882df8d5b5870051a203a3157a73b5bc925fffd"
+    },
+    {
+      "iri": "obo:OBI_0001695",
+      "label": "assay measuring epitope specific immune complex formation",
+      "hasChildren": false,
+      "childrenKey": "79510ad72bdc19f5196a0b84a1255c31ec4afd51"
+    },
+    {
+      "iri": "obo:OBI_0002452",
+      "label": "assay measuring epitope specific interferon-alpha production by T cells",
+      "hasChildren": true,
+      "childrenKey": "87c3812bd0a5d383d31fe4a976c5cf52f4370ef1"
+    },
+    {
+      "iri": "obo:OBI_0001390",
+      "label": "assay measuring epitope specific interferon-beta production by T cells",
+      "hasChildren": true,
+      "childrenKey": "2c7828ff0581cacbc016c160da79e909a1e79c18"
+    },
+    {
+      "iri": "obo:OBI_0001414",
+      "label": "assay measuring epitope specific interferon-gamma production by T cells",
+      "hasChildren": true,
+      "childrenKey": "3ee3335373e36c715f1eced6b25ad8402dc47011"
+    },
+    {
+      "iri": "obo:OBI_0001388",
+      "label": "assay measuring epitope specific interleukin-1 alpha production by T cells",
+      "hasChildren": true,
+      "childrenKey": "2ca9165f1be381cc2d36a1e6de50be4cf37ea047"
+    },
+    {
+      "iri": "obo:OBI_0001449",
+      "label": "assay measuring epitope specific interleukin-1 beta production by T cells",
+      "hasChildren": true,
+      "childrenKey": "605c748278297877d518281c4f06033038a246be"
+    },
+    {
+      "iri": "obo:OBI_0001209",
+      "label": "assay measuring epitope specific interleukin-10 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "856d3f30dfe7dbaf9fd74b33567dc685c6194674"
+    },
+    {
+      "iri": "obo:OBI_0001391",
+      "label": "assay measuring epitope specific interleukin-12 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "cb82ab1bde969725a1af66172acfd58b4f1bdfa1"
+    },
+    {
+      "iri": "obo:OBI_0001251",
+      "label": "assay measuring epitope specific interleukin-13 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "e58778ade969eeba826be55b408950480d8b6472"
+    },
+    {
+      "iri": "obo:OBI_0001292",
+      "label": "assay measuring epitope specific interleukin-15 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "f24d514b05092d60474c58553699aefde12e713f"
+    },
+    {
+      "iri": "obo:OBI_0001280",
+      "label": "assay measuring epitope specific interleukin-16 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "4077e155b18bd20287c9b4a5ea94320de757bed5"
+    },
+    {
+      "iri": "obo:OBI_0001295",
+      "label": "assay measuring epitope specific interleukin-17 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "cfb4c390ecc3f45405231cb4fef053e01d8ce888"
+    },
+    {
+      "iri": "obo:OBI_0001773",
+      "label": "assay measuring epitope specific interleukin-17A production by T cells",
+      "hasChildren": true,
+      "childrenKey": "96162790df6c9f487a0aa4b2127c73851bf6ec8a"
+    },
+    {
+      "iri": "obo:OBI_0001772",
+      "label": "assay measuring epitope specific interleukin-17F production by T cells",
+      "hasChildren": true,
+      "childrenKey": "88de07bfeb6a979d067028200121073ec082b95b"
+    },
+    {
+      "iri": "obo:OBI_0001380",
+      "label": "assay measuring epitope specific interleukin-18 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "285bce1fe7f5a9159773ba50eebd216d72cc6044"
+    },
+    {
+      "iri": "obo:OBI_0001445",
+      "label": "assay measuring epitope specific interleukin-2 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "1fb1194c7fc59ee235d62fd14c5b8848b4610bb2"
+    },
+    {
+      "iri": "obo:OBI_0001237",
+      "label": "assay measuring epitope specific interleukin-21 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "94c115b71a41df68d3567c20b8ef2307982aac06"
+    },
+    {
+      "iri": "obo:OBI_0001217",
+      "label": "assay measuring epitope specific interleukin-22 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "2b0c5737c1a2ffd0e21e0278f7f3a70ffb53254a"
+    },
+    {
+      "iri": "obo:OBI_0001363",
+      "label": "assay measuring epitope specific interleukin-23 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "508e553c324c099b0cd4e865721f8f8eec972121"
+    },
+    {
+      "iri": "obo:OBI_0003484",
+      "label": "assay measuring epitope specific interleukin-25 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "009bef3cebbc2372fce9bce3c2c5dfa28f14ab40"
+    },
+    {
+      "iri": "obo:OBI_0001198",
+      "label": "assay measuring epitope specific interleukin-27 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "ba6b39b872805ad5109f587a3b1b64abccd947ce"
+    },
+    {
+      "iri": "obo:OBI_0001406",
+      "label": "assay measuring epitope specific interleukin-3 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "319802359b5c84f35bc1ab6e10d8112b3295f2ef"
+    },
+    {
+      "iri": "obo:OBI_0001450",
+      "label": "assay measuring epitope specific interleukin-4 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "e0dc7ab0ba94b206dd5eb117e2ab6647d4159405"
+    },
+    {
+      "iri": "obo:OBI_0001230",
+      "label": "assay measuring epitope specific interleukin-5 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "9021f29f584ea75476e2dc4640e227618035e76f"
+    },
+    {
+      "iri": "obo:OBI_0001451",
+      "label": "assay measuring epitope specific interleukin-6 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "506e5c79193b5625ed80c360ecc36ca28078d9d7"
+    },
+    {
+      "iri": "obo:OBI_0001587",
+      "label": "assay measuring epitope specific interleukin-7 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "0023cf2f8f522c576e12e27f2fa7025f7f7a05ec"
+    },
+    {
+      "iri": "obo:OBI_0001218",
+      "label": "assay measuring epitope specific interleukin-8 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "d215bbb2d22e5aef8597aa598406879532957a05"
+    },
+    {
+      "iri": "obo:OBI_0001308",
+      "label": "assay measuring epitope specific IP-10 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "c9080fac959b1edb8b92009470724e3bc497b59c"
+    },
+    {
+      "iri": "obo:OBI_0003372",
+      "label": "assay measuring epitope specific lymphotactin production by T cells",
+      "hasChildren": true,
+      "childrenKey": "f55f17c937f077ba9155d32a491eaaaf45c4a730"
+    },
+    {
+      "iri": "obo:OBI_0001327",
+      "label": "assay measuring epitope specific lymphotoxin A production by T cells",
+      "hasChildren": true,
+      "childrenKey": "1de7a122c2bdfd455d0ecf924045befb446056d3"
+    },
+    {
+      "iri": "obo:OBI_0001333",
+      "label": "assay measuring epitope specific macrophage inflammatory protein-1 alpha production by T cells",
+      "hasChildren": true,
+      "childrenKey": "9769aa53e9590601bdd5ff2a3ca676e612996154"
+    },
+    {
+      "iri": "obo:OBI_0001456",
+      "label": "assay measuring epitope specific macrophage inflammatory protein-1 gamma production by T cells",
+      "hasChildren": true,
+      "childrenKey": "b2ec6d1aca8f0ed24d7ea57f2413327e259c6bce"
+    },
+    {
+      "iri": "obo:OBI_0002057",
+      "label": "assay measuring epitope specific macrophage migration inhibitory factor (MIF) production by T cells",
+      "hasChildren": true,
+      "childrenKey": "5753e8ba23d8957acdf9d3cc2a3a691734583ab3"
+    },
+    {
+      "iri": "obo:OBI_0001465",
+      "label": "assay measuring epitope specific monocyte chemotactic protein-1 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "3eb26452db1c4344b09a2f7b46527638a0ad6afd"
+    },
+    {
+      "iri": "obo:OBI_0002058",
+      "label": "assay measuring epitope specific oncostatin M production by T cells",
+      "hasChildren": true,
+      "childrenKey": "19b180aa4db81928d9405663371fb25a98d6af11"
+    },
+    {
+      "iri": "obo:OBI_0001644",
+      "label": "assay measuring epitope specific opsonization",
+      "hasChildren": false,
+      "childrenKey": "84372a591fbf43aaaa01d8a3e227fb2cf01e25c3"
+    },
+    {
+      "iri": "obo:OBI_0001497",
+      "label": "assay measuring epitope specific perforin release by T cells",
+      "hasChildren": true,
+      "childrenKey": "9ea00356e36d0f0a1c89d7a697ad956f1860aadd"
+    },
+    {
+      "iri": "obo:OBI_1110131",
+      "label": "assay measuring epitope specific proliferation of T cells",
+      "hasChildren": true,
+      "childrenKey": "e7c783b3d3587087cb842e9d1967878889f31c76"
+    },
+    {
+      "iri": "obo:OBI_0001232",
+      "label": "assay measuring epitope specific RANTES production by T cells",
+      "hasChildren": true,
+      "childrenKey": "c8280f7da279ac2a7d1c219aca4ece8f788fb8d5"
+    },
+    {
+      "iri": "obo:OBI_0001407",
+      "label": "assay measuring epitope specific T cell activation",
+      "hasChildren": false,
+      "childrenKey": "2e4eb49958b28f0cac5418c2b450c8c13a2f67f3"
+    },
+    {
+      "iri": "obo:OBI_0001264",
+      "label": "assay measuring epitope specific transforming growth factor-beta production by T cells",
+      "hasChildren": true,
+      "childrenKey": "8598fb7d132706a696dadf593ccc3a26367a3b5b"
+    },
+    {
+      "iri": "obo:OBI_0001607",
+      "label": "assay measuring epitope specific tumor necrosis factor (ligand) superfamily member 11 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "55d10b0ce18ac32897c8ac6d437638bcee7596ad"
+    },
+    {
+      "iri": "obo:OBI_0001416",
+      "label": "assay measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": true,
+      "childrenKey": "f4fd178d94b0d21cc58851cf709440d47accc93d"
+    },
+    {
+      "iri": "obo:OBI_0001400",
+      "label": "assay measuring epitope specific tumor necrosis factor superfamily cytokine production by T cells",
+      "hasChildren": true,
+      "childrenKey": "9c7d8664b5094d853a50237ac5371d98f6a25780"
+    },
+    {
+      "iri": "obo:OBI_0001570",
+      "label": "assay measuring epitope specific vascular endothelial growth factor production by T cells",
+      "hasChildren": true,
+      "childrenKey": "c3ed1efe8fa04a3f6efc34cfd6eb2040d99d212c"
+    },
+    {
+      "iri": "obo:OBI_0001253",
+      "label": "assay measuring interleukin-9 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "da949b8c07f835253482fa2fec928d497e9f6c65"
+    },
+    {
+      "iri": "obo:OBI_1110125",
+      "label": "assay measuring MHC ligand processing and presentation",
+      "hasChildren": true,
+      "childrenKey": "c50de0462c6317a35f57e8ae1eab6e2cd752ab55"
+    },
+    {
+      "iri": "obo:OBI_0001703",
+      "label": "assay measuring qualitative binding of a B cell epitope:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "75c92a437d1d4c1eb466fb453f4731ab670efa3e"
+    },
+    {
+      "iri": "obo:OBI_0002072",
+      "label": "assay measuring qualitative binding of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "d248e765ce8b9598df2b0d17fd5c8d12a594cc94"
+    },
+    {
+      "iri": "obo:OBI_1110124",
+      "label": "assay measuring qualitative binding of a T cell epitope:MHC:TCR complex",
+      "hasChildren": true,
+      "childrenKey": "59024d85fe8c82f0b8808a02de133478da6c1f1b"
+    },
+    {
+      "iri": "obo:OBI_0003145",
+      "label": "assay measuring quantitative binding of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "4d1ad2a2e610ee57a7667d3b1beffdaeefefeb12"
+    },
+    {
+      "iri": "obo:OBI_0003146",
+      "label": "assay measuring quantitative binding of an antigen:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "6367a6a74ef6cd8e0dd42f09ee80a593cdafbbcf"
+    },
+    {
+      "iri": "obo:OBI_0003147",
+      "label": "assay measuring quantitative binding of an epitope:MHC:TCR complex",
+      "hasChildren": true,
+      "childrenKey": "313b4869dc22d00765510fcfb051fd7f7dbff20c"
+    },
+    {
+      "iri": "obo:OBI_0001484",
+      "label": "assay measuring T cell epitope specific in vivo activity",
+      "hasChildren": true,
+      "childrenKey": "a0935e5ffddef43d3ba65de71d0e911f946d5bcb"
+    },
+    {
+      "iri": "obo:OBI_0001719",
+      "label": "assay measuring the association constant [KA] of a B cell epitope:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "c82fc810d4f85de3ef8fd4893ab6052a03b02f93"
+    },
+    {
+      "iri": "obo:OBI_0001987",
+      "label": "assay measuring the association constant [KA] of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "d247d8f1e13fd432995ad0886d0edf8294e7a576"
+    },
+    {
+      "iri": "obo:OBI_0002100",
+      "label": "assay measuring the association constant [KA] of a T cell epitope:MHC:TCR complex",
+      "hasChildren": false,
+      "childrenKey": "f529600632d9b7986b64636b352da781e85e073b"
+    },
+    {
+      "iri": "obo:OBI_0001708",
+      "label": "assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "de6ce1757443250d32f9b22675b28660b226278c"
+    },
+    {
+      "iri": "obo:OBI_0001988",
+      "label": "assay measuring the dissociation constant [KD] of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "8f0ed612e2776c3b427fbff593a9f7af471185d2"
+    },
+    {
+      "iri": "obo:OBI_0002097",
+      "label": "assay measuring the dissociation constant [KD] of a T cell epitope:MHC:TCR complex",
+      "hasChildren": true,
+      "childrenKey": "b56f516b8240e20c109d43323625d58b1dea36f0"
+    },
+    {
+      "iri": "obo:OBI_0001990",
+      "label": "assay measuring the half life of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "fd898c34f63be3bb8e77527dab94349a4be25fa8"
+    },
+    {
+      "iri": "obo:OBI_0001991",
+      "label": "assay measuring the half maximal effective concentration [EC50] of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "07065d984b3837f45b02aaeeef706c5b461735b2"
+    },
+    {
+      "iri": "obo:OBI_0001992",
+      "label": "assay measuring the half maximal inhibitory concentration [IC50] of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "063abf41c2bab23f4d0fa853bb9ecbac405ba70d"
+    },
+    {
+      "iri": "obo:OBI_0001994",
+      "label": "assay measuring the MHC ligand binding on rate [kon] of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "77aa5f45c657173b4582b21950312997d901f5e7"
+    },
+    {
+      "iri": "obo:OBI_0001723",
+      "label": "assay measuring the off rate [koff] of a B cell epitope:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "eb111ee0316c9e831b1954541f37f606bc965fc1"
+    },
+    {
+      "iri": "obo:OBI_0002099",
+      "label": "assay measuring the off rate [koff] of a T cell epitope:MHC:TCR complex",
+      "hasChildren": false,
+      "childrenKey": "95c581111b9606759924cfdfcc3461a6ec63c8bb"
+    },
+    {
+      "iri": "obo:OBI_0001993",
+      "label": "assay measuring the off rate measurement [koff] of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "cd10e7e9c6b1f16af425b440751caa21f5563e39"
+    },
+    {
+      "iri": "obo:OBI_0001718",
+      "label": "assay measuring the on rate [kon] of a B cell epitope:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "e563d2805afa39d9941b5b352c8a05ffda54952d"
+    },
+    {
+      "iri": "obo:OBI_0002098",
+      "label": "assay measuring the on rate [kon] of a T cell epitope:MHC:TCR complex",
+      "hasChildren": false,
+      "childrenKey": "fab109297c248ca97927695d221ca2f91f41ed12"
+    },
+    {
+      "iri": "obo:OBI_0003127",
+      "label": "B cell epitope assay",
+      "hasChildren": true,
+      "childrenKey": "f1444f284023af55c072b0455b15ac6657f03cdb"
+    },
+    {
+      "iri": "obo:OBI_0000117",
+      "label": "Bernoulli trial",
+      "hasChildren": false,
+      "childrenKey": "fb3117261ac44636ab67bbbe975ccb7fb1577131"
+    },
+    {
+      "iri": "obo:OBI_0001146",
+      "label": "binding assay",
+      "hasChildren": true,
+      "childrenKey": "499ad7ba19fa4a58a7724db0f96d4f8b88d8cdb4"
+    },
+    {
+      "iri": "obo:OBI_0003040",
+      "label": "blood assay",
+      "hasChildren": true,
+      "childrenKey": "5d9cfb7e21231b908bb24708a424c01ba4270975"
+    },
+    {
+      "iri": "obo:OBI_0002732",
+      "label": "blood meal assay",
+      "hasChildren": true,
+      "childrenKey": "55117f61250fb538871d11232f1040bdb7baa246"
+    },
+    {
+      "iri": "obo:OBI_0002106",
+      "label": "carboxyfluorescein succinimidyl ester staining assay",
+      "hasChildren": true,
+      "childrenKey": "6c07a5532b7cc6cd7b51c8d9de8b4373cb7f8a9f"
+    },
+    {
+      "iri": "obo:OBI_0003587",
+      "label": "cell culture assay",
+      "hasChildren": true,
+      "childrenKey": "9c146dfbde0c85f681517874a2acf4e74561981f"
+    },
+    {
+      "iri": "obo:OBI_0003232",
+      "label": "cerebrospinal fluid assay",
+      "hasChildren": true,
+      "childrenKey": "a3b0678cce8f5a3854c20ea72357b190c664398d"
+    },
+    {
+      "iri": "obo:OBI_0001954",
+      "label": "ChIP assay",
+      "hasChildren": true,
+      "childrenKey": "7e0628f61cc4061318d9efa4c059b40a5be7c34f"
+    },
+    {
+      "iri": "obo:OBI_0003686",
+      "label": "chromatin accessibility assay",
+      "hasChildren": true,
+      "childrenKey": "8ddcbe29662efc4e89a1916db53bf87ffaccac71"
+    },
+    {
+      "iri": "obo:OBI_0000537",
+      "label": "copy number variation profiling assay",
+      "hasChildren": false,
+      "childrenKey": "5dc9c93e49b8f63e2a09ccfa30bf1e3bc4590724"
+    },
+    {
+      "iri": "obo:OBI_0001689",
+      "label": "cytochalasin-induced inhibition of actin polymerization assay",
+      "hasChildren": false,
+      "childrenKey": "d9150a93ec447386fe52f0c50825755176aa38bb"
+    },
+    {
+      "iri": "obo:OBI_0001977",
+      "label": "cytometry assay",
+      "hasChildren": true,
+      "childrenKey": "797ebde3fb62820998fd792f2ef5f3843925efa5"
+    },
+    {
+      "iri": "obo:OBI_2100041",
+      "label": "cytosolic creatine kinase complex, MB-type assay",
+      "hasChildren": true,
+      "childrenKey": "f1831651cd01c99c6ed9c92fbdf60adfebcd5d24"
+    },
+    {
+      "iri": "obo:OBI_0003368",
+      "label": "detection technique",
+      "hasChildren": false,
+      "childrenKey": "d2dece292d8fbef2dc3ace311a95472b73b6b027"
+    },
+    {
+      "iri": "obo:OBI_0003298",
+      "label": "DNA adenine methyltransferase identification assay",
+      "hasChildren": true,
+      "childrenKey": "84bc6b71b61ca11a8ca58d172a899a4ec98da847"
+    },
+    {
+      "iri": "obo:OBI_0002694",
+      "label": "DNA fingerprinting assay",
+      "hasChildren": true,
+      "childrenKey": "cdb9234e085a2429ab5305f8b6cd3613fe48973d"
+    },
+    {
+      "iri": "obo:OBI_0000433",
+      "label": "DNA sequence feature detection assay",
+      "hasChildren": false,
+      "childrenKey": "cf1b233b4530127574e7ee07ecc8e9f21dd4eb25"
+    },
+    {
+      "iri": "obo:OBI_0000438",
+      "label": "DNA sequence variation detection assay",
+      "hasChildren": false,
+      "childrenKey": "b9104a0b5552a2373483f625e5af782e8e336f32"
+    },
+    {
+      "iri": "obo:OBI_0001178",
+      "label": "efficacy of epitope intervention experiment",
+      "hasChildren": true,
+      "childrenKey": "19d7f6c11bddcd012f169ad093ef7df0c97009f1"
+    },
+    {
+      "iri": "obo:OBI_0002176",
+      "label": "electrophysiology assay",
+      "hasChildren": true,
+      "childrenKey": "f721c09aa382ba0d91c932e59784e6e56532137f"
+    },
+    {
+      "iri": "obo:OBI_0003233",
+      "label": "endotracheal aspirate assay",
+      "hasChildren": true,
+      "childrenKey": "ac7ad9f82b6943b07018889181a4d81324e130b0"
+    },
+    {
+      "iri": "obo:OBI_0003422",
+      "label": "enzymatic activity level assay",
+      "hasChildren": true,
+      "childrenKey": "5768b0e5f2a74e5f5c1ba19d2fabcabd537c1ae1"
+    },
+    {
+      "iri": "obo:OBI_0002020",
+      "label": "epigenetic modification assay",
+      "hasChildren": true,
+      "childrenKey": "a1770ea28aa80c7c4407d4bd0209228b44b8bdf7"
+    },
+    {
+      "iri": "obo:OBI_0003237",
+      "label": "feces assay",
+      "hasChildren": true,
+      "childrenKey": "fc81f61a2fade0c081d937992172cc943ddf8c5b"
+    },
+    {
+      "iri": "obo:OBI_0003009",
+      "label": "ferritin assay",
+      "hasChildren": true,
+      "childrenKey": "cf03104bf89d17cf46659a25f143c67529886479"
+    },
+    {
+      "iri": "obo:OBI_0003010",
+      "label": "fibrinogen assay",
+      "hasChildren": true,
+      "childrenKey": "1dc3d33f4f36ab7d0ddfa5e6a07dcd829b49286c"
+    },
+    {
+      "iri": "obo:OBI_0001501",
+      "label": "fluorescence detection assay",
+      "hasChildren": true,
+      "childrenKey": "68a7e15d85d46934be6863cd340b3c7b8532c9d5"
+    },
+    {
+      "iri": "obo:OBI_0002162",
+      "label": "footprinting assay",
+      "hasChildren": true,
+      "childrenKey": "11854bc22e0c5a8de64cf9cc616fc20638772a99"
+    },
+    {
+      "iri": "obo:OBI_0001022",
+      "label": "gene dosage assay",
+      "hasChildren": false,
+      "childrenKey": "9e3f03106e0c004f61beee49637e526b311012f3"
+    },
+    {
+      "iri": "obo:OBI_0000944",
+      "label": "handedness assay",
+      "hasChildren": true,
+      "childrenKey": "7261cd4e17e9172401453777467e795da501860e"
+    },
+    {
+      "iri": "obo:OBI_0000630",
+      "label": "hematology assay",
+      "hasChildren": false,
+      "childrenKey": "aad93a06ca1bdaebdee85307dcc4c127ec104474"
+    },
+    {
+      "iri": "obo:OBI_0600020",
+      "label": "histological assay",
+      "hasChildren": true,
+      "childrenKey": "7470a9503465c2bc08054f25702fc5ea6abefe1b"
+    },
+    {
+      "iri": "obo:OBI_0000185",
+      "label": "imaging assay",
+      "hasChildren": true,
+      "childrenKey": "92b20ab065bd3baa3e68989760471da41f02b335"
+    },
+    {
+      "iri": "obo:OBI_1110128",
+      "label": "immune epitope assay",
+      "hasChildren": true,
+      "childrenKey": "5d964a127978b45c640706199daf6da2705276d9"
+    },
+    {
+      "iri": "obo:OBI_0000743",
+      "label": "immune response assay",
+      "hasChildren": false,
+      "childrenKey": "59fe92392384974a38576b240e7fa8c1a9b13aeb"
+    },
+    {
+      "iri": "obo:OBI_0000978",
+      "label": "in container assay",
+      "hasChildren": false,
+      "childrenKey": "bde1b343e14e736e07a88d1d4ba605c670639fef"
+    },
+    {
+      "iri": "obo:OBI_0000964",
+      "label": "in live cell assay",
+      "hasChildren": false,
+      "childrenKey": "6492098b8d1526d2cb21cdca3b8fcb08e2925abb"
+    },
+    {
+      "iri": "obo:OBI_0000966",
+      "label": "in live organism assay",
+      "hasChildren": false,
+      "childrenKey": "5bcbf71cde8867e36509b4f58a6bd2532d46ac9f"
+    },
+    {
+      "iri": "obo:OBI_0002071",
+      "label": "in vitro assay measuring epitope specific proliferation of T cells",
+      "hasChildren": true,
+      "childrenKey": "7f8b7430823758811128226c2ba8f51c9566aa4c"
+    },
+    {
+      "iri": "obo:OBI_0002677",
+      "label": "in vivo assay measuring a B cell epitope specific response after adoptive transfer of epitope specific antibodies or B cells",
+      "hasChildren": true,
+      "childrenKey": "331a2126a43894972d8cd844810a44742d7043cd"
+    },
+    {
+      "iri": "obo:OBI_0002676",
+      "label": "in vivo assay measuring a T cell epitope specific response after adoptive transfer of epitope specific T cells",
+      "hasChildren": true,
+      "childrenKey": "68169eeb815c0ca4798767e7f440f3eff2f91727"
+    },
+    {
+      "iri": "obo:OBI_0001228",
+      "label": "in vivo assay measuring epitope specific helper T cell enhancement of a B cell mediated immune response",
+      "hasChildren": true,
+      "childrenKey": "d4b0aa345d94e9e321f03568376f0ce3d7c39b48"
+    },
+    {
+      "iri": "obo:OBI_0001263",
+      "label": "in vivo assay measuring epitope specific helper T cell enhancement of a T cell mediated immune response",
+      "hasChildren": true,
+      "childrenKey": "ec0f0bb0252e670f6d78136cefb03de8a19784ba"
+    },
+    {
+      "iri": "obo:OBI_0002070",
+      "label": "in vivo assay measuring epitope specific proliferation of T cells",
+      "hasChildren": true,
+      "childrenKey": "3d0eddcaf6b14c1cadff5414ed9ddbc3a481c006"
+    },
+    {
+      "iri": "obo:OBI_0002668",
+      "label": "in vivo assay measuring epitope specific proliferation of T cells resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "5ee5330b01afa580c8e8b89b5679b5251a020495"
+    },
+    {
+      "iri": "obo:OBI_0001495",
+      "label": "in vivo assay measuring epitope specific T cell helper activity",
+      "hasChildren": true,
+      "childrenKey": "719be875c4f99e61421bed1f3a19ca5ef8e58acd"
+    },
+    {
+      "iri": "obo:OBI_0001980",
+      "label": "in vivo intervention experiment",
+      "hasChildren": true,
+      "childrenKey": "8065151e84f4240a8da62c15203698d61ce7513f"
+    },
+    {
+      "iri": "obo:OBI_0001686",
+      "label": "in-situ hybridization assay",
+      "hasChildren": true,
+      "childrenKey": "187d3738f6c260fecada871b277a746a4fd03eb1"
+    },
+    {
+      "iri": "obo:OBI_0003234",
+      "label": "induced sputum assay",
+      "hasChildren": true,
+      "childrenKey": "a5179a4e45a1d33f8b79c144cb7335e0736de156"
+    },
+    {
+      "iri": "obo:OBI_0001187",
+      "label": "infectious agent detection assay",
+      "hasChildren": true,
+      "childrenKey": "fa738ec18f06afa9254779da471ed1c3a0a2db43"
+    },
+    {
+      "iri": "obo:OBI_0002695",
+      "label": "insecticide resistance assay",
+      "hasChildren": true,
+      "childrenKey": "39b099b0656f7d11f7c32f45392e3822c5a1404f"
+    },
+    {
+      "iri": "obo:OBI_0002962",
+      "label": "kinase inhibitor assay",
+      "hasChildren": true,
+      "childrenKey": "4c7f5e97966e04e05a34e94759df39905cdac76d"
+    },
+    {
+      "iri": "obo:OBI_2100028",
+      "label": "lactate dehydrogenase complex assay",
+      "hasChildren": true,
+      "childrenKey": "d2bf61befb48c71941a586f036c82fed9c94f272"
+    },
+    {
+      "iri": "obo:OBI_0600026",
+      "label": "longitudinal mass measurement assay",
+      "hasChildren": false,
+      "childrenKey": "31c3753f785ee64e668a2e016d5c1a45778407dd"
+    },
+    {
+      "iri": "obo:OBI_0003235",
+      "label": "lung assay",
+      "hasChildren": true,
+      "childrenKey": "17a0ef4db235aee8427c06e87982c9c67752ad70"
+    },
+    {
+      "iri": "obo:OBI_0000445",
+      "label": "mass measurement assay",
+      "hasChildren": false,
+      "childrenKey": "dafa3fcb9ffc22aa9923558830ce84c4225f3b84"
+    },
+    {
+      "iri": "obo:OBI_0000470",
+      "label": "mass spectrometry assay",
+      "hasChildren": true,
+      "childrenKey": "7ef5dad2ecd5a0cd3311954d81a25d76d534dea1"
+    },
+    {
+      "iri": "obo:OBI_0000366",
+      "label": "metabolite profiling assay",
+      "hasChildren": true,
+      "childrenKey": "eb3c3f2f340492e34d8d0e5454d84810545db790"
+    },
+    {
+      "iri": "obo:OBI_0001684",
+      "label": "methylation-specific polymerase chain reaction assay",
+      "hasChildren": false,
+      "childrenKey": "f9fd83a260f97234764ffeeb3dcd393c1971b492"
+    },
+    {
+      "iri": "obo:OBI_0002075",
+      "label": "MHC ligand assay",
+      "hasChildren": true,
+      "childrenKey": "cb496c31842a6cc5ad24b70007cdcc888e24309f"
+    },
+    {
+      "iri": "obo:OBI_0003236",
+      "label": "milk assay",
+      "hasChildren": true,
+      "childrenKey": "352cda3ab02f8444b1f62c51faf7df382e136832"
+    },
+    {
+      "iri": "obo:OBI_0003290",
+      "label": "mosquito membrane feeding assay",
+      "hasChildren": false,
+      "childrenKey": "8814bcba75fce6a76a05910b915f45fa62272cf2"
+    },
+    {
+      "iri": "obo:OBI_0000623",
+      "label": "NMR spectroscopy assay",
+      "hasChildren": false,
+      "childrenKey": "a6bf4ed3942e4504b2c8858061c9167d87ffbc6b"
+    },
+    {
+      "iri": "obo:OBI_0002438",
+      "label": "nuclear ligation assay",
+      "hasChildren": true,
+      "childrenKey": "649277cd8a4af1438c86998e9f918fab520a6298"
+    },
+    {
+      "iri": "obo:OBI_0003498",
+      "label": "organism detection assay",
+      "hasChildren": true,
+      "childrenKey": "34cdc9dc6e6bace008710248dc48efaaab777d7c"
+    },
+    {
+      "iri": "obo:OBI_2100039",
+      "label": "osmolality assay",
+      "hasChildren": true,
+      "childrenKey": "18f616c98475e7e38ce46b45eeffa4d698990fb8"
+    },
+    {
+      "iri": "obo:OBI_0002441",
+      "label": "physical examination of an organism",
+      "hasChildren": true,
+      "childrenKey": "c8b285a8261892044b54fcf87c263b8ced15cf5c"
+    },
+    {
+      "iri": "obo:OBI_0002692",
+      "label": "polymerase chain reaction assay",
+      "hasChildren": true,
+      "childrenKey": "24a8375430c9b273625352c9a9644f79849cfbd2"
+    },
+    {
+      "iri": "obo:OBI_0000913",
+      "label": "promoter activity detection by reporter gene assay",
+      "hasChildren": true,
+      "childrenKey": "4d352a4e731c79299e56e14be805b4cdf0d19a93"
+    },
+    {
+      "iri": "obo:OBI_0000615",
+      "label": "protein expression profiling assay",
+      "hasChildren": true,
+      "childrenKey": "b78d8ae1606c3beea9aea54a2eb8a47f8c5d0ee0"
+    },
+    {
+      "iri": "obo:OBI_0002165",
+      "label": "protein localization assay",
+      "hasChildren": true,
+      "childrenKey": "5e736c8b6a4eb472e6e06aea4b3b67fa03a9442d"
+    },
+    {
+      "iri": "obo:OBI_0002953",
+      "label": "protein state assay",
+      "hasChildren": true,
+      "childrenKey": "2b66c10f42a382aa11eb643d5306d5e223217075"
+    },
+    {
+      "iri": "obo:OBI_0000288",
+      "label": "protein-protein interaction detection assay",
+      "hasChildren": false,
+      "childrenKey": "22d076c829ad8df2091b2f0b5ce0ac9d3aa4f004"
+    },
+    {
+      "iri": "obo:OBI_0000802",
+      "label": "prothrombin time assay",
+      "hasChildren": false,
+      "childrenKey": "627e823584d6987b5f4f9998ef8d500fb6608843"
+    },
+    {
+      "iri": "obo:OBI_0002132",
+      "label": "pulse stable isotope labeling by amino acids in cell culture",
+      "hasChildren": false,
+      "childrenKey": "65b30f134c5ec91fd860392317d3c9f423bf4ca7"
+    },
+    {
+      "iri": "obo:OBI_0003601",
+      "label": "quartz crystal microbalance assay",
+      "hasChildren": true,
+      "childrenKey": "08cd5ee98702550b60766368c6cfd6e5a643f99b"
+    },
+    {
+      "iri": "obo:OBI_2100042",
+      "label": "rac-lactic acid assay",
+      "hasChildren": true,
+      "childrenKey": "1e8d1ae43530749c271e54f1efd8a7f86eaf0e62"
+    },
+    {
+      "iri": "obo:OBI_0000910",
+      "label": "radio immuno assay",
+      "hasChildren": true,
+      "childrenKey": "9d464a954c70466e9452654c76a68ca284a1a8e5"
+    },
+    {
+      "iri": "obo:OBI_0000201",
+      "label": "radioactivity detection",
+      "hasChildren": false,
+      "childrenKey": "e7be07ee1a344eb1e0b3f287b8ffe091afc91094"
+    },
+    {
+      "iri": "obo:OBI_0002621",
+      "label": "reconstitution assay",
+      "hasChildren": true,
+      "childrenKey": "bc27e3c4b256a89eb7ca6405e96ab45c9e337573"
+    },
+    {
+      "iri": "obo:OBI_0002082",
+      "label": "reporter gene assay",
+      "hasChildren": true,
+      "childrenKey": "135878a84e11125ec49ab6d4654a3ab41b151ae9"
+    },
+    {
+      "iri": "obo:OBI_0002693",
+      "label": "restriction fragment length polymorphism assay",
+      "hasChildren": false,
+      "childrenKey": "310ee7bd861f4075b3885cc302943d9bbcf33c37"
+    },
+    {
+      "iri": "obo:OBI_0002436",
+      "label": "RNA interactome capture",
+      "hasChildren": false,
+      "childrenKey": "c455afb2f419fd8e0ea36357c372b98d0378fc66"
+    },
+    {
+      "iri": "obo:OBI_0001670",
+      "label": "RNA protection assay",
+      "hasChildren": false,
+      "childrenKey": "236afb67c139c1d9dde2c6c07c66be78af1b055b"
+    },
+    {
+      "iri": "obo:OBI_0003239",
+      "label": "saliva assay",
+      "hasChildren": false,
+      "childrenKey": "e743ef29e5a922054ce055404828c808702103d5"
+    },
+    {
+      "iri": "obo:OBI_0600047",
+      "label": "sequencing assay",
+      "hasChildren": true,
+      "childrenKey": "3918a00506e65bc26467fc62263f6b475a69b2fc"
+    },
+    {
+      "iri": "obo:OBI_0000870",
+      "label": "single-nucleotide-resolution nucleic acid structure mapping assay",
+      "hasChildren": true,
+      "childrenKey": "04b08aa8c3f1b19a0d0f043bbe8b000359ac8d07"
+    },
+    {
+      "iri": "obo:OBI_0002773",
+      "label": "single-value binding of antibody with reporter to antigen assay",
+      "hasChildren": false,
+      "childrenKey": "7b8cd1799744bc425862b4ba803d6cc1324f3363"
+    },
+    {
+      "iri": "obo:OBI_0000808",
+      "label": "spectrolyse heparin antifactor-Xa assay",
+      "hasChildren": false,
+      "childrenKey": "6fb0db8d9e7e0e7d9ce935432043cb5af66d8b09"
+    },
+    {
+      "iri": "obo:OBI_0600025",
+      "label": "substance detection assay",
+      "hasChildren": false,
+      "childrenKey": "38a1c57ac9e4ed8e8826a51167c63bf99472fecb"
+    },
+    {
+      "iri": "obo:OBI_0000699",
+      "label": "survival assessment assay",
+      "hasChildren": false,
+      "childrenKey": "c2e95da51f5ed33a7f000fcbce3c6535f29c493e"
+    },
+    {
+      "iri": "obo:OBI_0003128",
+      "label": "T cell epitope assay",
+      "hasChildren": true,
+      "childrenKey": "f7e390877c8e2a7235601e06021ed0fbd0221653"
+    },
+    {
+      "iri": "obo:OBI_0002140",
+      "label": "temperature measurement assay",
+      "hasChildren": true,
+      "childrenKey": "52e6e8321d7288f6bbbdef2d58f3a3c664d7d806"
+    },
+    {
+      "iri": "obo:OBI_0000823",
+      "label": "thrombin time assay",
+      "hasChildren": false,
+      "childrenKey": "c8de7d1e6c1f74fcbe8c56b250952499be3f3f31"
+    },
+    {
+      "iri": "obo:OBI_0000424",
+      "label": "transcription profiling assay",
+      "hasChildren": true,
+      "childrenKey": "185a701ee7c7d89b3b64515703e1ebcd0a6494de"
+    },
+    {
+      "iri": "obo:OBI_0600002",
+      "label": "tumor grading",
+      "hasChildren": false,
+      "childrenKey": "472e15bf35452cba0555f95dcd20671cade3ed3a"
+    },
+    {
+      "iri": "obo:OBI_0003238",
+      "label": "umbilical cord blood assay",
+      "hasChildren": true,
+      "childrenKey": "3c07574ecec059e1e258e849362e9dcbc0a310a0"
+    },
+    {
+      "iri": "obo:OBI_0003043",
+      "label": "urine assay",
+      "hasChildren": true,
+      "childrenKey": "394f7d5b5d646ddd8a21c60734463b43054eaf34"
+    },
+    {
+      "iri": "obo:OBI_0000875",
+      "label": "viral hemagglutination inhibition assay",
+      "hasChildren": true,
+      "childrenKey": "c10237ad2717a030c81356c49ae204ffcc20785d"
+    },
+    {
+      "iri": "obo:OBI_0002141",
+      "label": "volume measurement assay",
+      "hasChildren": false,
+      "childrenKey": "9937d18827f0350181f6778bee1dcd3ef90957aa"
+    }
+  ]
+}

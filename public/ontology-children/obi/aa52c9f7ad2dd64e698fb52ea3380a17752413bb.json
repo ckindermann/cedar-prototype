@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001672",
+  "children": [
+    {
+      "iri": "obo:OBI_0002628",
+      "label": "RNAi knockdown assay",
+      "hasChildren": false,
+      "childrenKey": "9479cf8d76218e37daeea60d0b9c731acff6154b"
+    }
+  ]
+}

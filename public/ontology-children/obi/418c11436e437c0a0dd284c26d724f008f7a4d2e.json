@@ -1,0 +1,90 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001017",
+  "children": [
+    {
+      "iri": "obo:OBI_0001006",
+      "label": "CMCT structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "b0b0ad8230ada8ea726c785a283c003c75b7be70"
+    },
+    {
+      "iri": "obo:OBI_0000897",
+      "label": "DEPC structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "6cc9c2dfa016b66b68e442675b140abff9c31934"
+    },
+    {
+      "iri": "obo:OBI_0001015",
+      "label": "DMS structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "4be0f46ec3749269157a5c9e5b2245c8697f4897"
+    },
+    {
+      "iri": "obo:OBI_0001011",
+      "label": "ENU structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "1f55e8977f84aa44b6af21fef18f850618ea89d9"
+    },
+    {
+      "iri": "obo:OBI_0001023",
+      "label": "Fe-BABE RNA structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "ebf24d7fec1ae255e21458722969facd823cb0eb"
+    },
+    {
+      "iri": "obo:OBI_0001039",
+      "label": "inline probing RNA structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "dc03437abf62c7f8178d2f4d720cdedadc1d93c7"
+    },
+    {
+      "iri": "obo:OBI_0001013",
+      "label": "kethoxal structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "be3c643047b2df1016363cad4baa5e62fba721c0"
+    },
+    {
+      "iri": "obo:OBI_0001020",
+      "label": "Lead structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "0cef923a3890beaff65aed7b409563925722f49f"
+    },
+    {
+      "iri": "obo:OBI_0001008",
+      "label": "MPE-Fe(II) structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "755e3bf229c7be79c002a26a889a7d6549ed73e5"
+    },
+    {
+      "iri": "obo:OBI_0001026",
+      "label": "NMIA RNA structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "7288b2aee40d7a144fbdcad963fea30285eec0bd"
+    },
+    {
+      "iri": "obo:OBI_0001029",
+      "label": "OH-radical structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "3830506ea413004f0249bfd6db42c52e7b008aeb"
+    },
+    {
+      "iri": "obo:OBI_0001018",
+      "label": "Rhodium DNA structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "94b50f08f8d73b8190f8c907a12a1f976cc043be"
+    },
+    {
+      "iri": "obo:OBI_0001038",
+      "label": "Ruthenium structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "6b67adef8817c3c7fe0b74c99c090393731921a8"
+    },
+    {
+      "iri": "obo:OBI_0001027",
+      "label": "Terbium RNA structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "039f0eb20f216773f78fcd3bd0690e64fba6c76e"
+    }
+  ]
+}

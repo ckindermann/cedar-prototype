@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000838",
+  "children": [
+    {
+      "iri": "obo:OBI_0600024",
+      "label": "maintaining cell culture",
+      "hasChildren": false,
+      "childrenKey": "4112d30d502467ae2891320b5372df0beba1072b"
+    },
+    {
+      "iri": "obo:OBI_0302893",
+      "label": "storage",
+      "hasChildren": true,
+      "childrenKey": "9beecf6358431550652aa9a77baae062f262961d"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000997",
+  "children": [
+    {
+      "iri": "obo:OBI_0001498",
+      "label": "atmosphere",
+      "hasChildren": false,
+      "childrenKey": "7f969c517e237bf0c2d564dc797f27d47a29917e"
+    }
+  ]
+}

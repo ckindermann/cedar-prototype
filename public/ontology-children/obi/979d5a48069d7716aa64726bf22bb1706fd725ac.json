@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000291",
+  "children": [
+    {
+      "iri": "obo:OBI_0002018",
+      "label": "transcription factor binding site identification by ChIP-chip assay",
+      "hasChildren": false,
+      "childrenKey": "18a4552afca8b7ec6e9e53decc589a21620ac69c"
+    },
+    {
+      "iri": "obo:OBI_0002019",
+      "label": "transcription factor binding site identification by ChIP-Seq assay",
+      "hasChildren": false,
+      "childrenKey": "4b0ffcbf72a555fb0ad3548f2feb0852bdff7e21"
+    }
+  ]
+}

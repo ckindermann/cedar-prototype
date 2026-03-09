@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001810",
+  "children": [
+    {
+      "iri": "obo:OBI_0003292",
+      "label": "cytometric bead array assay measuring epitope specific granulysin release by T cells",
+      "hasChildren": false,
+      "childrenKey": "b91ae52d8f601ccf215ef8f4021127b5084ea7de"
+    },
+    {
+      "iri": "obo:OBI_0001663",
+      "label": "ELISA measuring epitope specific granulysin release by T cells",
+      "hasChildren": false,
+      "childrenKey": "7c4a7a4b3e315be7c6701f25d41455caef3d48fa"
+    },
+    {
+      "iri": "obo:OBI_0001664",
+      "label": "intracellular material detection assay measuring epitope specific granulysin release by T cells",
+      "hasChildren": false,
+      "childrenKey": "419517ad654661ea4af5c4c57911f4686ab08318"
+    }
+  ]
+}

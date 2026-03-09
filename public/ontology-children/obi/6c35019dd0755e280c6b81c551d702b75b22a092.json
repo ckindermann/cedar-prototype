@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0100060",
+  "children": [
+    {
+      "iri": "obo:OBI_1110043",
+      "label": "cultured adherent cell population",
+      "hasChildren": false,
+      "childrenKey": "814adadab494fbc0e82f1dd1681b3fd250b22cc7"
+    },
+    {
+      "iri": "obo:OBI_0100063",
+      "label": "cultured clonal cell population",
+      "hasChildren": false,
+      "childrenKey": "751a3058b8b19c6428866b840ccd299f1ac5dfc0"
+    },
+    {
+      "iri": "obo:OBI_0001875",
+      "label": "cultured immune cell population",
+      "hasChildren": true,
+      "childrenKey": "0e7df0bf66f24382da9a7213f187b0a9b3455bd9"
+    },
+    {
+      "iri": "obo:OBI_0100061",
+      "label": "primary cultured cell population",
+      "hasChildren": false,
+      "childrenKey": "e3ed195b27ce44152f80a1d7911bb9d5e913db36"
+    },
+    {
+      "iri": "obo:OBI_0001905",
+      "label": "secondary cultured cell population",
+      "hasChildren": false,
+      "childrenKey": "d1336372be8c816d7979d74ab76f272b6df50578"
+    }
+  ]
+}

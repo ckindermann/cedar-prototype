@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003632",
+  "children": [
+    {
+      "iri": "obo:OBI_0003628",
+      "label": "antibody purification of H2-Dd protein complex",
+      "hasChildren": false,
+      "childrenKey": "cd373aa75d3f7941a6928c81b952d26a195746f6"
+    },
+    {
+      "iri": "obo:OBI_0003630",
+      "label": "antibody purification of H2-Kd protein complex",
+      "hasChildren": false,
+      "childrenKey": "48d380bf69819258dbf04d5f65db614e05ded685"
+    }
+  ]
+}

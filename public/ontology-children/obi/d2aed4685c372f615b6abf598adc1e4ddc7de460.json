@@ -1,0 +1,78 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002089",
+  "children": [
+    {
+      "iri": "obo:OBI_0000048",
+      "label": "chromatography device",
+      "hasChildren": true,
+      "childrenKey": "b84472ccc82dc51e6fbafbe6b35581d36c63278e"
+    },
+    {
+      "iri": "obo:OBI_0000404",
+      "label": "gel dryer",
+      "hasChildren": false,
+      "childrenKey": "2c66789437c5970f8e8cae6d79fee20423a6dd36"
+    },
+    {
+      "iri": "obo:OBI_0400140",
+      "label": "gel tank",
+      "hasChildren": false,
+      "childrenKey": "57ce2ed8048fb82c6dece8169ad6316c3b18bece"
+    },
+    {
+      "iri": "obo:OBI_0400110",
+      "label": "hybridization chamber",
+      "hasChildren": false,
+      "childrenKey": "0644b64461caca7f3c66b1fe11cd61250c2fa817"
+    },
+    {
+      "iri": "obo:OBI_0001075",
+      "label": "hybridization oven",
+      "hasChildren": false,
+      "childrenKey": "4d9bd5950f0bc329822465dced39d453828e17cf"
+    },
+    {
+      "iri": "obo:OBI_0001076",
+      "label": "incubator shaker",
+      "hasChildren": false,
+      "childrenKey": "8cb2c9280ec65bcd2e4241d1299a9d0048791778"
+    },
+    {
+      "iri": "obo:OBI_0000389",
+      "label": "isoelectric focusing device",
+      "hasChildren": false,
+      "childrenKey": "94ac2ba9c94330955dfb131f0d5fad2f937abef2"
+    },
+    {
+      "iri": "obo:OBI_0400094",
+      "label": "sheath tank",
+      "hasChildren": false,
+      "childrenKey": "d0f7934f9539a78040c81c9d5b3701f1105738bf"
+    },
+    {
+      "iri": "obo:OBI_0400120",
+      "label": "temperature control bath",
+      "hasChildren": true,
+      "childrenKey": "d4c136fdacd9e94019fcd8d80de16056da486317"
+    },
+    {
+      "iri": "obo:OBI_0400116",
+      "label": "thermal cycler",
+      "hasChildren": true,
+      "childrenKey": "2744ecf411c8bbd891dfea9ddcf17be256859a19"
+    },
+    {
+      "iri": "obo:OBI_0000390",
+      "label": "thermostatic circulator",
+      "hasChildren": false,
+      "childrenKey": "1341cc6e105049d5b9b5d7822d96e45c55008578"
+    },
+    {
+      "iri": "obo:OBI_0400117",
+      "label": "vacuum dryer",
+      "hasChildren": false,
+      "childrenKey": "0595e1d37affced37a8a7cdda53fb50cd81e8745"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001476",
+  "children": [
+    {
+      "iri": "obo:OBI_0001655",
+      "label": "phage display assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "a55a33ce5b2fc7f9fd407989b19511433032b1f5"
+    },
+    {
+      "iri": "obo:OBI_0001584",
+      "label": "phage display binding assay measuring binding of a purified-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "594e94f680fac8bc0e05d3c28e9168b3ee605a24"
+    }
+  ]
+}

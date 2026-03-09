@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001515",
+  "children": [
+    {
+      "iri": "obo:OBI_0001557",
+      "label": "material storage service",
+      "hasChildren": false,
+      "childrenKey": "64564d9ed0ca6e391aa8d9758f756566ba2a03bd"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002698",
+  "children": [
+    {
+      "iri": "obo:OBI_0002705",
+      "label": "direct insecticide resistance bioassay",
+      "hasChildren": true,
+      "childrenKey": "14edad932248c03231cb681747efd4bb8dc131a1"
+    },
+    {
+      "iri": "obo:OBI_0002706",
+      "label": "topical application insecticide resistance bioassay",
+      "hasChildren": false,
+      "childrenKey": "ebe9a81cf65209ca981fdd71a47da575c133b105"
+    }
+  ]
+}

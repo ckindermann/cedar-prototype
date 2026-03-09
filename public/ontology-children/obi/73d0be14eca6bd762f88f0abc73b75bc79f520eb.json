@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600053",
+  "children": [
+    {
+      "iri": "obo:OBI_0002686",
+      "label": "counter current immunoelectrophoresis",
+      "hasChildren": false,
+      "childrenKey": "7db6a128c98e8d51e676850db5eda93bb830f532"
+    },
+    {
+      "iri": "obo:OBI_0002685",
+      "label": "immunoelectrophoresis",
+      "hasChildren": false,
+      "childrenKey": "61951a64d6398e15503506314cf8a5c2cc5372d6"
+    }
+  ]
+}

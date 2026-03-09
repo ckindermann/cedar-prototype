@@ -1,0 +1,48 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003683",
+  "children": [
+    {
+      "iri": "obo:OBI_0002022",
+      "label": "Illumina HiSeq 1000",
+      "hasChildren": false,
+      "childrenKey": "ca1667578ab5bc7a647f4d51a8d7edd4961e4931"
+    },
+    {
+      "iri": "obo:OBI_0003386",
+      "label": "Illumina HiSeq 1500",
+      "hasChildren": false,
+      "childrenKey": "af6a01f50fc432d220586996e87e695a56cbac29"
+    },
+    {
+      "iri": "obo:OBI_0002001",
+      "label": "Illumina HiSeq 2000",
+      "hasChildren": false,
+      "childrenKey": "a97d5224d120e642d77e665fc0f32938a03ebb76"
+    },
+    {
+      "iri": "obo:OBI_0002002",
+      "label": "Illumina HiSeq 2500",
+      "hasChildren": false,
+      "childrenKey": "d34cc0882b351126869d1fa27f75b3562abb4399"
+    },
+    {
+      "iri": "obo:OBI_0002048",
+      "label": "Illumina HiSeq 3000",
+      "hasChildren": false,
+      "childrenKey": "8fcbb2434c21ef12ab1f34c3bb076d402ef2eb3c"
+    },
+    {
+      "iri": "obo:OBI_0002049",
+      "label": "Illumina HiSeq 4000",
+      "hasChildren": false,
+      "childrenKey": "b46441c80d95a08c5baef85bceb765bf8ac1e2b3"
+    },
+    {
+      "iri": "obo:OBI_0002129",
+      "label": "Illumina HiSeq X Ten",
+      "hasChildren": false,
+      "childrenKey": "3c82f24efed3498f1d90b0a18f577eb8164fbdbf"
+    }
+  ]
+}

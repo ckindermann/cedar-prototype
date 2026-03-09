@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001308",
+  "children": [
+    {
+      "iri": "obo:OBI_0001196",
+      "label": "cytometric bead array assay measuring epitope specific IP-10 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e17589d3a3194ffea0eb4a712e86d4f35a3ac57e"
+    },
+    {
+      "iri": "obo:OBI_0001383",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific IP-10 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "140bc178d4d9214c30d2c9d8c16224d64d247157"
+    },
+    {
+      "iri": "obo:OBI_0001281",
+      "label": "ELISA measuring epitope specific IP-10 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ee40e09d824b3ecb03e0e691329d454c3a9a56bf"
+    },
+    {
+      "iri": "obo:OBI_0001795",
+      "label": "ELISPOT assay measuring epitope specific IP-10 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "0ebb35247ba6e0c7e0a820646c26b06e9295272d"
+    },
+    {
+      "iri": "obo:OBI_0001796",
+      "label": "intracellular cytokine staining assay measuring epitope specific IP-10 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "a32463b45345c643afd681d6c0a323f06782fa98"
+    }
+  ]
+}

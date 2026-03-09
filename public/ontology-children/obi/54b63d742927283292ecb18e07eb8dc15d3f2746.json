@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003530",
+  "children": [
+    {
+      "iri": "obo:OBI_0003532",
+      "label": "lower limb coordination assessment",
+      "hasChildren": false,
+      "childrenKey": "0257f46d33cbdad4b57779e35abf2da38e161afc"
+    },
+    {
+      "iri": "obo:OBI_0003531",
+      "label": "upper limb coordination assessment",
+      "hasChildren": false,
+      "childrenKey": "05891c5a49720cefa59751dfd748f0a9db5cf9e8"
+    }
+  ]
+}

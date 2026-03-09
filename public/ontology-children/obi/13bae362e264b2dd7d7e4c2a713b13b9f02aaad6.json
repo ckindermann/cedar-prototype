@@ -1,0 +1,108 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100004",
+  "children": [
+    {
+      "iri": "obo:OBI_2100282",
+      "label": "ABL90 panel arterial blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "e310cebd0822a039784acfaf10c679378eb2683b"
+    },
+    {
+      "iri": "obo:OBI_2100296",
+      "label": "ABL90 panel venous blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "174850b15ef749e57bb57a6f1c6a3eecd8906cad"
+    },
+    {
+      "iri": "obo:OBI_2100181",
+      "label": "arterial blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "42694ac6c656269921c26e80f6076ac6f2222d77"
+    },
+    {
+      "iri": "obo:OBI_2100088",
+      "label": "basic metabolic panel venous blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "66050491c15d045fe1c8a039ec6e6c32159194c4"
+    },
+    {
+      "iri": "obo:OBI_2100225",
+      "label": "chem11 venous blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "9fa03d7573283f52b340247a44fa3348cd844275"
+    },
+    {
+      "iri": "obo:OBI_2100249",
+      "label": "chem16 venous blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "a809c3c36f13605121b9a0a5254d5692271fd4ca"
+    },
+    {
+      "iri": "obo:OBI_2100150",
+      "label": "comprehensive metabolic panel venous blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "6a11692b0e9f97d0d4b66d0b1eedba20e2ae94ec"
+    },
+    {
+      "iri": "obo:OBI_2100145",
+      "label": "electrolytes urine potassium assay",
+      "hasChildren": false,
+      "childrenKey": "6ff895f36a684f6e61052a544149499453916854"
+    },
+    {
+      "iri": "obo:OBI_2100191",
+      "label": "GEM premier blood gas venous blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "f9b19ccfa8b265ffd788ea33e2f0102292a6be64"
+    },
+    {
+      "iri": "obo:OBI_2100375",
+      "label": "GEM4 arterial blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "bf689bc81c6c57d7499040fc9834e06f8794ff43"
+    },
+    {
+      "iri": "obo:OBI_2100317",
+      "label": "GEM4000 ANLCOOX arterial blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "cf408fe80daa070169e69a30a972ee41fd73396d"
+    },
+    {
+      "iri": "obo:OBI_2100129",
+      "label": "inpatient profile venous blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "d5b2c2267fb9a3d6427441ae1d6e55afb3dd07e5"
+    },
+    {
+      "iri": "obo:OBI_2100055",
+      "label": "panel5 venous blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "585f456ee56e71a60fbdb2833dd4722211e1e5c9"
+    },
+    {
+      "iri": "obo:OBI_2100252",
+      "label": "POC chem8 arterial blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "3d7e373b6cf4250db565aca20ce7a99ee20c0de8"
+    },
+    {
+      "iri": "obo:OBI_0003168",
+      "label": "potassium(1+) concentration assay",
+      "hasChildren": false,
+      "childrenKey": "2e8e9266a62f108cc231379710bcc8bec239950a"
+    },
+    {
+      "iri": "obo:OBI_2100138",
+      "label": "random electrolytes urine potassium assay",
+      "hasChildren": false,
+      "childrenKey": "c207c93e18e2786e44bfdf75f7db7c0713cca542"
+    },
+    {
+      "iri": "obo:OBI_2100133",
+      "label": "venous blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "c807fcea5a38cde8c2de4eeba4ed429d10c7b539"
+    }
+  ]
+}

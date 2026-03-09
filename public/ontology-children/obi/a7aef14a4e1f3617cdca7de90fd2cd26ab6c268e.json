@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001630",
+  "children": [
+    {
+      "iri": "obo:OBI_0003544",
+      "label": "analytical chromatography measuring Chikungunya IgM antibody",
+      "hasChildren": false,
+      "childrenKey": "0028f94e46ea093c383f9306a060d89d8d60eaa1"
+    },
+    {
+      "iri": "obo:OBI_0001661",
+      "label": "chromatography assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "708d8ff65e72ed2e83856be3f31696c9fbd99981"
+    },
+    {
+      "iri": "obo:OBI_0001995",
+      "label": "chromatography assay measuring the association constant [KA] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "a8ddccb8c83806925e1457a53a28f55f98efb2c9"
+    },
+    {
+      "iri": "obo:OBI_0001996",
+      "label": "chromatography assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "0c224d1bcb5254b11cd5f918684444b7fb77dbf1"
+    },
+    {
+      "iri": "obo:OBI_0002116",
+      "label": "high performance liquid chromotography assay",
+      "hasChildren": false,
+      "childrenKey": "685160b171479e6255d70ff909c2b2d12c6992e5"
+    }
+  ]
+}

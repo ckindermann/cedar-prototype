@@ -1,0 +1,96 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000398",
+  "children": [
+    {
+      "iri": "obo:OBI_0400104",
+      "label": "array scanner",
+      "hasChildren": false,
+      "childrenKey": "a8e7f23bd0b8fef97bc720a11d33e7c25585ca86"
+    },
+    {
+      "iri": "obo:OBI_0001109",
+      "label": "bead array reader",
+      "hasChildren": false,
+      "childrenKey": "36391e956e41c39eb1d931c144b270c0a4cc94bb"
+    },
+    {
+      "iri": "obo:OBI_0000982",
+      "label": "computed tomography scanner",
+      "hasChildren": false,
+      "childrenKey": "c22024ed7aa7fba955efd611044585211b136e11"
+    },
+    {
+      "iri": "obo:OBI_0001048",
+      "label": "digital camera",
+      "hasChildren": false,
+      "childrenKey": "54c39f5d4d30944848033e5a0550708899ad27cd"
+    },
+    {
+      "iri": "obo:OBI_0001081",
+      "label": "gel imaging system",
+      "hasChildren": false,
+      "childrenKey": "d244a566fd148ed3f41f127bea10855f581bc036"
+    },
+    {
+      "iri": "obo:OBI_0400135",
+      "label": "image cytometer",
+      "hasChildren": false,
+      "childrenKey": "d2b1d79b532311921607abcce96f4584d8cbdbc3"
+    },
+    {
+      "iri": "obo:OBI_0001099",
+      "label": "immunoblot scanner",
+      "hasChildren": false,
+      "childrenKey": "1232ce6d57551a8a4b1453e014e17c2866762caf"
+    },
+    {
+      "iri": "obo:OBI_0001078",
+      "label": "infrared image acquisition device",
+      "hasChildren": false,
+      "childrenKey": "4a11bfab4cda84a7499e2d8f41bac069a9dbd760"
+    },
+    {
+      "iri": "obo:OBI_0400169",
+      "label": "microscope",
+      "hasChildren": true,
+      "childrenKey": "e0f463df9c076813cca9870b8aa5f2703e30a877"
+    },
+    {
+      "iri": "obo:OBI_0400146",
+      "label": "multispectral imaging flow cytometer",
+      "hasChildren": true,
+      "childrenKey": "ba0070f0c5e81233d0a525f8552a150a7431ad28"
+    },
+    {
+      "iri": "obo:OBI_0000933",
+      "label": "positron emission tomography scanner",
+      "hasChildren": false,
+      "childrenKey": "d6b42579a2052fb7b91be7159fb24eb7ae8b2478"
+    },
+    {
+      "iri": "obo:OBI_0001085",
+      "label": "radiography instrument",
+      "hasChildren": false,
+      "childrenKey": "0b30cdf437107047569ca6be7a6c531d29047e82"
+    },
+    {
+      "iri": "obo:OBI_0001077",
+      "label": "small-animal image acquisition device",
+      "hasChildren": false,
+      "childrenKey": "4c01b093f5f54310a101a4bfb7ebaf946780edec"
+    },
+    {
+      "iri": "obo:OBI_0001068",
+      "label": "SPECT scanner",
+      "hasChildren": false,
+      "childrenKey": "8741d5f5908d7bc8ad830d5cfbe85b48c7f5cab2"
+    },
+    {
+      "iri": "obo:OBI_0001098",
+      "label": "ultrasound machine",
+      "hasChildren": false,
+      "childrenKey": "b3e748fe4ac3dc653e3b3000acf20a323e757e2b"
+    }
+  ]
+}

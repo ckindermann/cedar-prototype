@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400120",
+  "children": [
+    {
+      "iri": "obo:OBI_0003690",
+      "label": "dry ice bath",
+      "hasChildren": false,
+      "childrenKey": "170e9b1af1031aaf8c8e11ee5e7dbdc906c17979"
+    },
+    {
+      "iri": "obo:OBI_0003689",
+      "label": "ice bath",
+      "hasChildren": false,
+      "childrenKey": "e52fb43e9cf5b3df2edf2077f2418c2bf0de0d1d"
+    },
+    {
+      "iri": "obo:OBI_0003691",
+      "label": "liquid nitrogen bath",
+      "hasChildren": false,
+      "childrenKey": "5c4819b11ec031037f9f9784d33c429c0467ab07"
+    },
+    {
+      "iri": "obo:OBI_0400157",
+      "label": "oil bath",
+      "hasChildren": false,
+      "childrenKey": "1af2cbb8849823f469a0670a5ef5cf5ee536aef0"
+    },
+    {
+      "iri": "obo:OBI_0003688",
+      "label": "sand bath",
+      "hasChildren": false,
+      "childrenKey": "aa92c60a370af6985737bb39640629c99a433c3d"
+    },
+    {
+      "iri": "obo:OBI_0400155",
+      "label": "water bath",
+      "hasChildren": false,
+      "childrenKey": "14ff4aa470b27b3f39c9fb77a3a567cc76700482"
+    }
+  ]
+}

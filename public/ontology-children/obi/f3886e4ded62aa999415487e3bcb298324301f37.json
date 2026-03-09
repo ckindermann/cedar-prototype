@@ -1,0 +1,120 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400103",
+  "children": [
+    {
+      "iri": "obo:OBI_0000689",
+      "label": "454 Genome Sequence 20",
+      "hasChildren": false,
+      "childrenKey": "c98617c1552b11da96cd9510edaa5fd33ccfefc3"
+    },
+    {
+      "iri": "obo:OBI_0000702",
+      "label": "454 Genome Sequencer FLX",
+      "hasChildren": false,
+      "childrenKey": "9c7d9805dab2be64763966e718ee787006ebba88"
+    },
+    {
+      "iri": "obo:OBI_0000696",
+      "label": "AB SOLiD System",
+      "hasChildren": true,
+      "childrenKey": "647e1fe03b4b68011f1444d7a40f7ff0dc980c0e"
+    },
+    {
+      "iri": "obo:OBI_0000691",
+      "label": "ABI 377 automated sequencer",
+      "hasChildren": false,
+      "childrenKey": "a9c1d5c3fb737160354c04338fa65b8ae3de630c"
+    },
+    {
+      "iri": "obo:OBI_0000717",
+      "label": "HeliScope Single Molecule Sequencer",
+      "hasChildren": false,
+      "childrenKey": "2af4867d38e9087366e9e3daba39c7cf2c9c618e"
+    },
+    {
+      "iri": "obo:OBI_0002128",
+      "label": "Illumina Genome Analyzer",
+      "hasChildren": false,
+      "childrenKey": "85d9e89d4047677298042f5b483a9575f3fcf41f"
+    },
+    {
+      "iri": "obo:OBI_0000703",
+      "label": "Illumina Genome Analyzer II",
+      "hasChildren": true,
+      "childrenKey": "a468b97b27e32cfa5eeaaf05c9c47bd7289869d3"
+    },
+    {
+      "iri": "obo:OBI_0003683",
+      "label": "Illumina HiSeq series instrument",
+      "hasChildren": true,
+      "childrenKey": "2eba981e9e3881e6cb4b25bd5db3aacba9f487ec"
+    },
+    {
+      "iri": "obo:OBI_0003114",
+      "label": "Illumina MiniSeq",
+      "hasChildren": false,
+      "childrenKey": "605cf5b78ee92b370d94ac452ee10e9215161047"
+    },
+    {
+      "iri": "obo:OBI_0002003",
+      "label": "Illumina MiSeq",
+      "hasChildren": false,
+      "childrenKey": "7be4e5c2339427f51ff42ab4865b60747ecbb4f7"
+    },
+    {
+      "iri": "obo:OBI_0003684",
+      "label": "Illumina NextSeq series instrument",
+      "hasChildren": true,
+      "childrenKey": "0002ee0105c77733381692beaa936395125a228f"
+    },
+    {
+      "iri": "obo:OBI_0003685",
+      "label": "Illumina NovaSeq series instrument",
+      "hasChildren": true,
+      "childrenKey": "b951bb1ec4ebc5fbb4f9caea29f2c9059e01726d"
+    },
+    {
+      "iri": "obo:OBI_0000710",
+      "label": "Li-Cor 4300 DNA Analysis System",
+      "hasChildren": false,
+      "childrenKey": "0aedc37dd7ca3a73629e6b077961a6d49c210d0a"
+    },
+    {
+      "iri": "obo:OBI_0002751",
+      "label": "Oxford Nanopore GridION Mk1",
+      "hasChildren": false,
+      "childrenKey": "fb073b26957ee394ff942bee62cfd3c6b8259a48"
+    },
+    {
+      "iri": "obo:OBI_0002750",
+      "label": "Oxford Nanopore MinION",
+      "hasChildren": false,
+      "childrenKey": "975b7656f5995f45866ba0dc309ee98c218e35e7"
+    },
+    {
+      "iri": "obo:OBI_0002752",
+      "label": "Oxford Nanopore PromethION",
+      "hasChildren": false,
+      "childrenKey": "8b3dc87e39ac8cbab0eacb2d4a2ae35f36e0f101"
+    },
+    {
+      "iri": "obo:OBI_0002012",
+      "label": "PacBio RS II",
+      "hasChildren": false,
+      "childrenKey": "51fd0a5d8cbd221f2d0cbe2f2192d8e19fe745b2"
+    },
+    {
+      "iri": "obo:OBI_0002632",
+      "label": "PacBio Sequel",
+      "hasChildren": false,
+      "childrenKey": "1bbf4e8d3419b3d861c7d6aaa1caa0a4bc0c6a55"
+    },
+    {
+      "iri": "obo:OBI_0002633",
+      "label": "PacBio Sequel II",
+      "hasChildren": false,
+      "childrenKey": "853dc21126a0c5353c841f09a889c6d1a6b2d3d1"
+    }
+  ]
+}

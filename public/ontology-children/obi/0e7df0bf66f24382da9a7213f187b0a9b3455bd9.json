@@ -1,0 +1,54 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001875",
+  "children": [
+    {
+      "iri": "obo:OBI_1110106",
+      "label": "cultured antigen presenting cell population",
+      "hasChildren": false,
+      "childrenKey": "3ab79d985b2a608b651270c8643ebb8fab54e6ac"
+    },
+    {
+      "iri": "obo:OBI_1110048",
+      "label": "cultured CD3- T cell population",
+      "hasChildren": false,
+      "childrenKey": "6d85e0f9b4c72717b10730241560da7b64e0d461"
+    },
+    {
+      "iri": "obo:OBI_1110047",
+      "label": "cultured CD3+ T cell population",
+      "hasChildren": false,
+      "childrenKey": "e766354a09c3b879f661a5dba8dc6c2dfdd68326"
+    },
+    {
+      "iri": "obo:OBI_1110050",
+      "label": "cultured CD4- T cell population",
+      "hasChildren": true,
+      "childrenKey": "53d332f4f83fd1681ee005e54646af11ed65e2f8"
+    },
+    {
+      "iri": "obo:OBI_1110052",
+      "label": "cultured CD4-/CD8- T cell population",
+      "hasChildren": false,
+      "childrenKey": "571322af51d544906d5f90cd2014c8d8dd153c63"
+    },
+    {
+      "iri": "obo:OBI_1110051",
+      "label": "cultured CD8- T cell population",
+      "hasChildren": true,
+      "childrenKey": "b651fa7cfaf489364c50af4fd7a3e3a8bb76d360"
+    },
+    {
+      "iri": "obo:OBI_1110107",
+      "label": "cultured effector T cell population",
+      "hasChildren": false,
+      "childrenKey": "893271bd53c23197336f2966d3c8d6bbd3d2f8a6"
+    },
+    {
+      "iri": "obo:OBI_1110044",
+      "label": "cultured PBMC cell population",
+      "hasChildren": false,
+      "childrenKey": "ccce4d6461c887bd5b32e25856fd7dc6df1e173c"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001909",
+  "children": [
+    {
+      "iri": "obo:OBI_0003367",
+      "label": "diagnosis of an organism",
+      "hasChildren": false,
+      "childrenKey": "1fc3d8d95d4617e4d1c15eea12c2dedf6421dcab"
+    }
+  ]
+}

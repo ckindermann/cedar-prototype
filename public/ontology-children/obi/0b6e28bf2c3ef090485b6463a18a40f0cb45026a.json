@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000182",
+  "children": [
+    {
+      "iri": "obo:OBI_0001647",
+      "label": "NMR assay determining the 3D structure of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "943d9745f6053c8e0f6c64b1176b597aff5ce4b1"
+    }
+  ]
+}

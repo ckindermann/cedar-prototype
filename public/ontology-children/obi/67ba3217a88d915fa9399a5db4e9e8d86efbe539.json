@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000571",
+  "children": [
+    {
+      "iri": "obo:OBI_0001069",
+      "label": "array manufacturer role",
+      "hasChildren": false,
+      "childrenKey": "b7e148a3203934e24a4c142691b8d49a16e91ce8"
+    }
+  ]
+}

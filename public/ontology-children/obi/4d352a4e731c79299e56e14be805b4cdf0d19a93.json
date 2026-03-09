@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000913",
+  "children": [
+    {
+      "iri": "obo:OBI_0001402",
+      "label": "promoter activity detection by reporter gene assay measuring epitope specific interleukin-2 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "d48fad5e9a319117794315fb293a5c542389d2d9"
+    }
+  ]
+}

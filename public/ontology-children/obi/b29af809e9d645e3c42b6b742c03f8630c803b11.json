@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002708",
+  "children": [
+    {
+      "iri": "obo:OBI_0002714",
+      "label": "insecticide resistance dose response by bottle assay",
+      "hasChildren": false,
+      "childrenKey": "b7fe9ace79952cd8acd06b4b07e44844141641e6"
+    },
+    {
+      "iri": "obo:OBI_0002715",
+      "label": "insecticide resistance dose response by survival of larvae assay",
+      "hasChildren": false,
+      "childrenKey": "3cb2d959d48d8cbd6bb769f76c601b198218120d"
+    },
+    {
+      "iri": "obo:OBI_0002716",
+      "label": "insecticide resistance dose response by WHO paper kit assay",
+      "hasChildren": false,
+      "childrenKey": "cc7eb03cb62eb2e9af35fc16c8078a262d8d54cd"
+    }
+  ]
+}

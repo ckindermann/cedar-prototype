@@ -1,0 +1,462 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000968",
+  "children": [
+    {
+      "iri": "obo:OBI_0400007",
+      "label": "analog-to-digital converter",
+      "hasChildren": false,
+      "childrenKey": "e9d79056043962769c9d6848a14cbe688cb47ff7"
+    },
+    {
+      "iri": "obo:OBI_0002797",
+      "label": "apron",
+      "hasChildren": false,
+      "childrenKey": "259c14a89bc34f00e91acd9e59b07b1e5615e5bf"
+    },
+    {
+      "iri": "obo:OBI_0400105",
+      "label": "arrayer",
+      "hasChildren": false,
+      "childrenKey": "af97b2b82047a9b54b5c32d8d304167bbfcb4ddf"
+    },
+    {
+      "iri": "obo:OBI_0002920",
+      "label": "arthropod trap",
+      "hasChildren": true,
+      "childrenKey": "6fd7eadd3b78bb658d1f3c018385eee40be03e41"
+    },
+    {
+      "iri": "obo:OBI_0001865",
+      "label": "assay array",
+      "hasChildren": true,
+      "childrenKey": "0720f3358a9186ac21b97c76c23c35b4d7072bcf"
+    },
+    {
+      "iri": "obo:OBI_0003369",
+      "label": "assay kit",
+      "hasChildren": true,
+      "childrenKey": "9baf682d8703a14ef03a7a50f488b0bad51f163e"
+    },
+    {
+      "iri": "obo:OBI_0001063",
+      "label": "automatic staining machine",
+      "hasChildren": false,
+      "childrenKey": "36b411d71223f52164e4efd97d00b9fdaaafc03a"
+    },
+    {
+      "iri": "obo:OBI_0001064",
+      "label": "automatic tissue processor",
+      "hasChildren": true,
+      "childrenKey": "089d31cd8e6fdd556f1042bdb31d446be8545e58"
+    },
+    {
+      "iri": "obo:OBI_0000555",
+      "label": "autosampler",
+      "hasChildren": true,
+      "childrenKey": "975f3ab2a96000f4758388ff9c916ded465b4950"
+    },
+    {
+      "iri": "obo:OBI_0002924",
+      "label": "BG-Counter",
+      "hasChildren": false,
+      "childrenKey": "a4c7c34642cf738487c9d43afd7eb247b86b637a"
+    },
+    {
+      "iri": "obo:OBI_0003048",
+      "label": "BG-lure scent dispenser",
+      "hasChildren": false,
+      "childrenKey": "a02bc180fb8a0701d76f097cfafe43e69c7408a7"
+    },
+    {
+      "iri": "obo:OBI_0000394",
+      "label": "blot module",
+      "hasChildren": false,
+      "childrenKey": "dc85e17b82deaef52f8eada319b22f6881d97741"
+    },
+    {
+      "iri": "obo:OBI_0000544",
+      "label": "Bruker SampleRail system",
+      "hasChildren": false,
+      "childrenKey": "1519046e235408eb649cad7d47efc414da35e39c"
+    },
+    {
+      "iri": "obo:OBI_0001045",
+      "label": "capillary blotter",
+      "hasChildren": false,
+      "childrenKey": "780acba1a66ecfa3eacdabcbb58520040382eff7"
+    },
+    {
+      "iri": "obo:OBI_0002830",
+      "label": "catheter",
+      "hasChildren": false,
+      "childrenKey": "a38c15796c94f42a7e5ad6f83dc8cc5a91c540c4"
+    },
+    {
+      "iri": "obo:OBI_0001119",
+      "label": "cell harvester",
+      "hasChildren": false,
+      "childrenKey": "90a3ca640822710c15d9a99bc30a8bd42ead0b84"
+    },
+    {
+      "iri": "obo:OBI_0400019",
+      "label": "charge plate",
+      "hasChildren": false,
+      "childrenKey": "8fc16e3aea36eb16cb5701cbcf8155e75071d3d5"
+    },
+    {
+      "iri": "obo:OBI_0001049",
+      "label": "chip spotting device",
+      "hasChildren": false,
+      "childrenKey": "1bc59b9a0103513c0fc5221ffe0ee5e47bb83bc6"
+    },
+    {
+      "iri": "obo:OBI_0400107",
+      "label": "computer",
+      "hasChildren": true,
+      "childrenKey": "4691784e4dea4fa5c0f75260fbb9504947cd49b8"
+    },
+    {
+      "iri": "obo:OBI_0000967",
+      "label": "container",
+      "hasChildren": true,
+      "childrenKey": "3aadb2a122c495583217eb5b917d4b55e212590f"
+    },
+    {
+      "iri": "obo:OBI_0002821",
+      "label": "cotton swab",
+      "hasChildren": false,
+      "childrenKey": "e7d6d2ef332e3583869cea64c2219d8d2fff4b35"
+    },
+    {
+      "iri": "obo:OBI_0003481",
+      "label": "cow-baited arthropod trap",
+      "hasChildren": false,
+      "childrenKey": "4e20521a77efb3905420ceba4d566f8c182e1447"
+    },
+    {
+      "iri": "obo:OBI_0001074",
+      "label": "cryofixation device",
+      "hasChildren": false,
+      "childrenKey": "947c4d655e55545d3858bc38f2bde4b585a49192"
+    },
+    {
+      "iri": "obo:OBI_0003005",
+      "label": "device for collection of resting adult arthropods",
+      "hasChildren": false,
+      "childrenKey": "303b7f6ea0e05f1cd9a8a7b32692acfaf17deacc"
+    },
+    {
+      "iri": "obo:OBI_0002586",
+      "label": "digital acquisition card",
+      "hasChildren": false,
+      "childrenKey": "ed8bea3064a3977ac236b1527c25def4f8e45e9c"
+    },
+    {
+      "iri": "obo:OBI_0400158",
+      "label": "digital-to-analog converter",
+      "hasChildren": false,
+      "childrenKey": "17ff54d839a976987cef9ce86ac8c383e59d67b0"
+    },
+    {
+      "iri": "obo:OBI_0002927",
+      "label": "dipper for arthropod immatures",
+      "hasChildren": false,
+      "childrenKey": "d9b1d23d374eeb17743e91bb3df9c9ba0727a79c"
+    },
+    {
+      "iri": "obo:OBI_0000955",
+      "label": "electrode puller",
+      "hasChildren": false,
+      "childrenKey": "d3968c2ed7c876997f09c00f177186abbf80b4f8"
+    },
+    {
+      "iri": "obo:OBI_0001034",
+      "label": "environmental control device",
+      "hasChildren": true,
+      "childrenKey": "567eed455836c2fb6fed35139ba5e3bdc7743abb"
+    },
+    {
+      "iri": "obo:OBI_0001127",
+      "label": "freeze substitution system",
+      "hasChildren": false,
+      "childrenKey": "a9a150d453d07bfd3a1366b92dd682c6f4c23f64"
+    },
+    {
+      "iri": "obo:OBI_0003049",
+      "label": "hand-held sweep net",
+      "hasChildren": false,
+      "childrenKey": "ab58ac4fa544383dd4dfde0d136c69638b731b58"
+    },
+    {
+      "iri": "obo:OBI_0000398",
+      "label": "image creation device",
+      "hasChildren": true,
+      "childrenKey": "f2ea4e0a5a24ac2386bc1e7ffe5aeb4cbb0effb2"
+    },
+    {
+      "iri": "obo:OBI_0000361",
+      "label": "ion source",
+      "hasChildren": false,
+      "childrenKey": "0bb2dd6f1ff0eaeb24e4997b8fc5ae52e8b886b4"
+    },
+    {
+      "iri": "obo:OBI_0001032",
+      "label": "light emission device",
+      "hasChildren": true,
+      "childrenKey": "db73a762d9192590b05079c18fdc17615082ff9f"
+    },
+    {
+      "iri": "obo:OBI_0400112",
+      "label": "liquid handler",
+      "hasChildren": true,
+      "childrenKey": "f650dc63a1ef4790880b7c7207ace0f5ae7ca834"
+    },
+    {
+      "iri": "obo:OBI_0001087",
+      "label": "lyophilizer",
+      "hasChildren": false,
+      "childrenKey": "cb1ecf7054f32149961c018bc50d903d2c8cd0a5"
+    },
+    {
+      "iri": "obo:OBI_0000523",
+      "label": "magic angle spinning rotor",
+      "hasChildren": false,
+      "childrenKey": "064dfc67bce7af23b90ec0e3ea4d81cf24357ea3"
+    },
+    {
+      "iri": "obo:OBI_0000932",
+      "label": "material separation device",
+      "hasChildren": true,
+      "childrenKey": "531cc0a27c70bd924d2c33d2ce9d66b2b41f4a19"
+    },
+    {
+      "iri": "obo:OBI_0000832",
+      "label": "measurement device",
+      "hasChildren": true,
+      "childrenKey": "5c79f193433a71e8d565959957b7b315fe5286d9"
+    },
+    {
+      "iri": "obo:OBI_0001123",
+      "label": "microdissection instrument",
+      "hasChildren": false,
+      "childrenKey": "40598e4895e8647052635d13d0741e12a9370a24"
+    },
+    {
+      "iri": "obo:OBI_0000935",
+      "label": "micromanipulator",
+      "hasChildren": false,
+      "childrenKey": "08928132514fd40d3d7e15d624f21a5b7275a723"
+    },
+    {
+      "iri": "obo:OBI_0001124",
+      "label": "micropipette puller",
+      "hasChildren": false,
+      "childrenKey": "7107f0331b926b548966d20a900a436d444a6f4b"
+    },
+    {
+      "iri": "obo:OBI_0001113",
+      "label": "microplate washer",
+      "hasChildren": true,
+      "childrenKey": "680961e660a6ba490eb1628aa14c9187951dee5d"
+    },
+    {
+      "iri": "obo:OBI_0400170",
+      "label": "microscope slide",
+      "hasChildren": false,
+      "childrenKey": "6b8b3b5a5df9887dbff7ab2cbcf175c56abc7042"
+    },
+    {
+      "iri": "obo:OBI_0002195",
+      "label": "microtome blade",
+      "hasChildren": true,
+      "childrenKey": "d511228943f52027123df33f8957354c7a76f367"
+    },
+    {
+      "iri": "obo:OBI_0001073",
+      "label": "microtome knife maker",
+      "hasChildren": false,
+      "childrenKey": "e0e6ae240ef378e1d3ad814cc6188702dc6a03c6"
+    },
+    {
+      "iri": "obo:OBI_0001093",
+      "label": "microtome knife sharpener",
+      "hasChildren": false,
+      "childrenKey": "9085bfb7cc7be3d4453b677008269f3f77c98948"
+    },
+    {
+      "iri": "obo:OBI_0001061",
+      "label": "microwave synthesis system",
+      "hasChildren": false,
+      "childrenKey": "f405d0749ee445ed7c225f77b075e4566246ba73"
+    },
+    {
+      "iri": "obo:OBI_0003289",
+      "label": "mosquito membrane feeding device",
+      "hasChildren": false,
+      "childrenKey": "e08c75f04aafea55aeb1f3a0e93d3ab7b2464205"
+    },
+    {
+      "iri": "obo:OBI_0000436",
+      "label": "needle",
+      "hasChildren": true,
+      "childrenKey": "f15978ac8b191231754d50c4ddc587a5ebf58a16"
+    },
+    {
+      "iri": "obo:OBI_0000499",
+      "label": "NMR console",
+      "hasChildren": true,
+      "childrenKey": "f8543d08b84fa9483c6e5812f660eafe43ebd2d7"
+    },
+    {
+      "iri": "obo:OBI_0000517",
+      "label": "NMR magnet",
+      "hasChildren": true,
+      "childrenKey": "9fbde3931973826c0257c8db03f09e544cee5079"
+    },
+    {
+      "iri": "obo:OBI_0000484",
+      "label": "NMR sample holder",
+      "hasChildren": true,
+      "childrenKey": "701b62fa031030deff7c0180b8c43ac724befcf5"
+    },
+    {
+      "iri": "obo:OBI_0000498",
+      "label": "NMR tube washing system",
+      "hasChildren": true,
+      "childrenKey": "a35fc6c3c22b5a215764259633b1ec9fb07238b1"
+    },
+    {
+      "iri": "obo:OBI_0400080",
+      "label": "optical subsystem",
+      "hasChildren": false,
+      "childrenKey": "6ae410d7fbb33963c48455e3ef706fc4b7d3affc"
+    },
+    {
+      "iri": "obo:OBI_0001067",
+      "label": "perfusion station",
+      "hasChildren": false,
+      "childrenKey": "0879f7ca5cbe1e18315495e972b7b6268a6dd991"
+    },
+    {
+      "iri": "obo:OBI_0002786",
+      "label": "personal protective device",
+      "hasChildren": true,
+      "childrenKey": "f5e3cba2b5de4ff782351c114b3bbaa107d4cf08"
+    },
+    {
+      "iri": "obo:OBI_0001033",
+      "label": "perturbation device",
+      "hasChildren": true,
+      "childrenKey": "6092acc08af34dfe9703f4c311018ad406fcf00d"
+    },
+    {
+      "iri": "obo:OBI_0001054",
+      "label": "PET synthesizer",
+      "hasChildren": false,
+      "childrenKey": "41c3144c3b4ebeafd7a9ba180b5bfc3eb7d3e7d4"
+    },
+    {
+      "iri": "obo:OBI_0002488",
+      "label": "pipette",
+      "hasChildren": false,
+      "childrenKey": "f6672337c1d1af46551fde93f0c35fd1c5283e82"
+    },
+    {
+      "iri": "obo:OBI_0400086",
+      "label": "plate loader",
+      "hasChildren": false,
+      "childrenKey": "7e30255f75d9538ed3002283ef93ae74b3452a47"
+    },
+    {
+      "iri": "obo:OBI_0001094",
+      "label": "plate shaker",
+      "hasChildren": false,
+      "childrenKey": "3c89cb3d01658ed1571c86bd29f53f1b9d98b439"
+    },
+    {
+      "iri": "obo:OBI_0400142",
+      "label": "power supply",
+      "hasChildren": false,
+      "childrenKey": "b58f4bf636b773e8c02c8e7a4c88f317f7cb5ad4"
+    },
+    {
+      "iri": "obo:OBI_0000041",
+      "label": "pump valve switch",
+      "hasChildren": false,
+      "childrenKey": "4bd542d44f210d45ab63377bcf40c277ef2d8385"
+    },
+    {
+      "iri": "obo:OBI_0001103",
+      "label": "rocker",
+      "hasChildren": false,
+      "childrenKey": "eb84ce2a9e2c74523411a1eaeb6f134b1016911f"
+    },
+    {
+      "iri": "obo:OBI_0002814",
+      "label": "specimen collection device",
+      "hasChildren": true,
+      "childrenKey": "d862d99eb648c2bd8b092e000e9b9eef50f6c7d3"
+    },
+    {
+      "iri": "obo:OBI_0001060",
+      "label": "spot cutter",
+      "hasChildren": false,
+      "childrenKey": "8d057c2d7b73156f88aecfc5788296051835c5c6"
+    },
+    {
+      "iri": "obo:OBI_0002046",
+      "label": "surface plasmon resonance sensor chip",
+      "hasChildren": false,
+      "childrenKey": "0b2de93ffa0a53e66a0b66ba7b87ce9743c4cbbd"
+    },
+    {
+      "iri": "obo:OBI_0000422",
+      "label": "syringe",
+      "hasChildren": false,
+      "childrenKey": "9155f50c8120d0bccf6082f839a383376e9f1ace"
+    },
+    {
+      "iri": "obo:OBI_0001107",
+      "label": "tissue embedding station",
+      "hasChildren": false,
+      "childrenKey": "601962f0bb79ce2943409f976770328a0a0182bc"
+    },
+    {
+      "iri": "obo:OBI_0002805",
+      "label": "transparent droplet barrier",
+      "hasChildren": false,
+      "childrenKey": "adea7495f1716e4f3d1feca0d53324d95d993e2a"
+    },
+    {
+      "iri": "obo:OBI_0001116",
+      "label": "vacuum manifold",
+      "hasChildren": false,
+      "childrenKey": "49d5dd6b5d02391253fa611928c708ceb93ce373"
+    },
+    {
+      "iri": "obo:OBI_0001084",
+      "label": "vitrification apparatus",
+      "hasChildren": false,
+      "childrenKey": "5674f729f03f4aab292745fe9c6dc7839ca3a4a4"
+    },
+    {
+      "iri": "obo:OBI_0400101",
+      "label": "voltage amplifier",
+      "hasChildren": true,
+      "childrenKey": "d4fa28b697dab9a0253c1c39046fb5be980d8bd1"
+    },
+    {
+      "iri": "obo:OBI_0003006",
+      "label": "well net for arthropod immatures",
+      "hasChildren": false,
+      "childrenKey": "ee786aa971787b177f24b7dfc9a15147f9276b8f"
+    },
+    {
+      "iri": "obo:OBI_0001138",
+      "label": "X-ray source",
+      "hasChildren": false,
+      "childrenKey": "ddc55a475d767e436769947e138df9dc56ffb013"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001681",
+  "children": [
+    {
+      "iri": "obo:OBI_0001682",
+      "label": "bacterial one-hybrid assay",
+      "hasChildren": false,
+      "childrenKey": "4db587d73a0ebc478b2b04b653153b64571c4790"
+    }
+  ]
+}

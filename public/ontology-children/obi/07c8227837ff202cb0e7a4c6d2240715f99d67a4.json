@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003194",
+  "children": [
+    {
+      "iri": "obo:OBI_0003195",
+      "label": "creatine concentration assay",
+      "hasChildren": false,
+      "childrenKey": "c21ea73896e1613acba432aa04e65a10f5cda1ee"
+    }
+  ]
+}

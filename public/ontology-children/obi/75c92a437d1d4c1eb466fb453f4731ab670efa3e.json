@@ -1,0 +1,132 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001703",
+  "children": [
+    {
+      "iri": "obo:OBI_0001701",
+      "label": "antigen inhibition assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "8da895048b9efd50e2d5c2d6b75edcc461a9504f"
+    },
+    {
+      "iri": "obo:OBI_0002104",
+      "label": "bio-layer interferometry assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "63d20cf29bd24ae1f012214ddc7e6404a9fb9167"
+    },
+    {
+      "iri": "obo:OBI_0001645",
+      "label": "calorimetry assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "c9dc866d6a23882e21393feb7399d28824b49a6b"
+    },
+    {
+      "iri": "obo:OBI_0001661",
+      "label": "chromatography assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "708d8ff65e72ed2e83856be3f31696c9fbd99981"
+    },
+    {
+      "iri": "obo:OBI_0001648",
+      "label": "cross blocking assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "f8fe1cf0df5497fb1516e842263fae87c5d62a60"
+    },
+    {
+      "iri": "obo:OBI_0001656",
+      "label": "electron microscopy assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "a31f90b765a33aec76182effe6c60eb8eba03d57"
+    },
+    {
+      "iri": "obo:OBI_0001657",
+      "label": "ELISA measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "df2be9ea978c68ebd9f3daba24cc028f17063b15"
+    },
+    {
+      "iri": "obo:OBI_0001658",
+      "label": "ELISPOT assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "50d29aa37584dd4962bc9370ae1b53a81bbe9a23"
+    },
+    {
+      "iri": "obo:OBI_0001659",
+      "label": "flow cytometry assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "c420e47c1094d676893de5a6f40f1744db036276"
+    },
+    {
+      "iri": "obo:OBI_0002449",
+      "label": "footprinting assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "cce9ee799d9e7ceccc39e471ec579120261184b6"
+    },
+    {
+      "iri": "obo:OBI_0001652",
+      "label": "immuno staining assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "6aca7a3a1d0ab25698f52807f61f18c30761a51f"
+    },
+    {
+      "iri": "obo:OBI_0001650",
+      "label": "immunoblot assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "71df4cc4f72f27a723496ee324f16d1f3dda3d83"
+    },
+    {
+      "iri": "obo:OBI_0001653",
+      "label": "immunoprecipitation assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "5aab1658c5d3542905083fd5dcb77c23a2380141"
+    },
+    {
+      "iri": "obo:OBI_0001654",
+      "label": "mass spectrometry assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "dc5e70481a9e7b4336ada8e3fc173e21eae73d71"
+    },
+    {
+      "iri": "obo:OBI_0002053",
+      "label": "microarray assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "3fa181e47f68fee117adb45a780dd03b02855a78"
+    },
+    {
+      "iri": "obo:OBI_0001662",
+      "label": "NMR assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "1debeb7ba2613e828d48af5ada019ff5ebcdb6a9"
+    },
+    {
+      "iri": "obo:OBI_0001655",
+      "label": "phage display assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "a55a33ce5b2fc7f9fd407989b19511433032b1f5"
+    },
+    {
+      "iri": "obo:OBI_0001651",
+      "label": "plasmon resonance assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "5f64c723c1575313002dced00e390a02d27430af"
+    },
+    {
+      "iri": "obo:OBI_0001726",
+      "label": "quenching assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "6f1c990aab47c276163b33d173facac3c1d25166"
+    },
+    {
+      "iri": "obo:OBI_0001649",
+      "label": "RIA measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "09036f2a2d9c617de7d1e2f045414bb1d3f6192e"
+    },
+    {
+      "iri": "obo:OBI_0001724",
+      "label": "viral hemagglutination inhibition assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "ac6dcc218fc5ab60d3f4e710d554236b7571aea0"
+    }
+  ]
+}

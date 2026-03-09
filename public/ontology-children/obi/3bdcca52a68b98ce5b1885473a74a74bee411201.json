@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400115",
+  "children": [
+    {
+      "iri": "obo:OBI_0001102",
+      "label": "electron paramagnetic resonance spectrometer",
+      "hasChildren": false,
+      "childrenKey": "1048cfa1e931f9591c2df7e02da229c4e74387d9"
+    },
+    {
+      "iri": "obo:OBI_0400143",
+      "label": "fluorometer",
+      "hasChildren": true,
+      "childrenKey": "c510c0471e5dfc58541f1198c0974f0dc593e77e"
+    },
+    {
+      "iri": "obo:OBI_0400063",
+      "label": "LactoScope C4",
+      "hasChildren": false,
+      "childrenKey": "0f2caeea344560ae17c4993c5477651876620866"
+    }
+  ]
+}

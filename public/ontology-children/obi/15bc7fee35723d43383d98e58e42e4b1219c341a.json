@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003122",
+  "children": [
+    {
+      "iri": "obo:OBI_0003123",
+      "label": "3D neural cell structure determination assay",
+      "hasChildren": true,
+      "childrenKey": "8838e4056ef9ba60f37e49e8d2c17471be73aad0"
+    }
+  ]
+}

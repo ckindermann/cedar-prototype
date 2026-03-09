@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400137",
+  "children": [
+    {
+      "iri": "obo:OBI_0400044",
+      "label": "flow cytometer",
+      "hasChildren": true,
+      "childrenKey": "5f4b7cdffae55f889a8b98fbc2642c00d10a47d8"
+    }
+  ]
+}

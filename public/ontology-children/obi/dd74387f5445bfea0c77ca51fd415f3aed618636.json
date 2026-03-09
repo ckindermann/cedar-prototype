@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003477",
+  "children": [
+    {
+      "iri": "obo:OBI_0002644",
+      "label": "in vivo assay measuring B cell epitope specific protection from challenge resulting from the adoptive transfer of epitope specific antibodies or B cells based on tumor burden",
+      "hasChildren": false,
+      "childrenKey": "ffd8bdb71467209b6545a3ef4a1a80c570d3cbbf"
+    },
+    {
+      "iri": "obo:OBI_0003478",
+      "label": "in vivo assay measuring B cell epitope specific protection from tumor challenge resulting from the adoptive transfer of epitope specific antibodies or B cells based on survival",
+      "hasChildren": false,
+      "childrenKey": "a339d53ec3f9d9ab9848cbf93f1b1c6119571629"
+    }
+  ]
+}

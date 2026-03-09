@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003260",
+  "children": [
+    {
+      "iri": "obo:OBI_0003281",
+      "label": "eukaryota in umbilical cord blood datum",
+      "hasChildren": false,
+      "childrenKey": "e94b5b44bf9dc0e76e03edf4aa36e801912762d1"
+    }
+  ]
+}

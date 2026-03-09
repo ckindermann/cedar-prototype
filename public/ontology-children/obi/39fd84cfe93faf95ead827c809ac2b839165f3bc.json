@@ -1,0 +1,60 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001014",
+  "children": [
+    {
+      "iri": "obo:OBI_0001016",
+      "label": "DNASE 1 structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "62d5569bf647d32f4bbb9ffc54401a4335179eb0"
+    },
+    {
+      "iri": "obo:OBI_0001035",
+      "label": "Nuclease S1 structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "671c006b6abb181205c8db1799ce567579f11c0e"
+    },
+    {
+      "iri": "obo:OBI_0002032",
+      "label": "parallel analysis of RNA structure assay",
+      "hasChildren": false,
+      "childrenKey": "98db1aafe4c347eddd4f56be29ae8161f088fa06"
+    },
+    {
+      "iri": "obo:OBI_0001019",
+      "label": "RNA ADA I RNA structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "f91bf475b02d73719a44030710f97075a3123403"
+    },
+    {
+      "iri": "obo:OBI_0001005",
+      "label": "RNASE CL3 structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "fe9258af8851089afa0cd2fa6b301976a600d90f"
+    },
+    {
+      "iri": "obo:OBI_0001030",
+      "label": "RNASE T1 structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "865a46fb14ea6b2556fc120c4582c2860f58cefd"
+    },
+    {
+      "iri": "obo:OBI_0001021",
+      "label": "RNASE T2 structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "2121377c76f732c710e771303ec5e79c128a148d"
+    },
+    {
+      "iri": "obo:OBI_0001024",
+      "label": "RNASE U2 structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "a792024accce5015258f0b5d019f3b9c4a8d6c4d"
+    },
+    {
+      "iri": "obo:OBI_0001012",
+      "label": "RNASE V1 structure mapping assay",
+      "hasChildren": false,
+      "childrenKey": "e9097b4e5095c75877ea176ade27425c63211eff"
+    }
+  ]
+}

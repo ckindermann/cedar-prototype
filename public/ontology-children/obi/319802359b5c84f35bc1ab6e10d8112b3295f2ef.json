@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001406",
+  "children": [
+    {
+      "iri": "obo:OBI_0001384",
+      "label": "cell culture analyte detection bioassay measuring epitope specific interleukin-3 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "16677186f5b72fc73abb16da4453d9b8cc6157bc"
+    },
+    {
+      "iri": "obo:OBI_0001807",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-3 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b70159714fd3148958f680f3a2962320e92b8599"
+    },
+    {
+      "iri": "obo:OBI_0001808",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-3 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "87602da20cdb454c12b60dbb208db7f620170b64"
+    },
+    {
+      "iri": "obo:OBI_0001260",
+      "label": "ELISA measuring epitope specific interleukin-3 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "53c09821fda98de8f5d44ff934b0a28295f7eb4c"
+    },
+    {
+      "iri": "obo:OBI_0001802",
+      "label": "ELISPOT assay measuring epitope specific interleukin-3 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7194c4ae96756595c7b31bb54aeafd0678d892ed"
+    },
+    {
+      "iri": "obo:OBI_0001376",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-3 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "767d641dc451fdb837029953061155603c57a026"
+    }
+  ]
+}

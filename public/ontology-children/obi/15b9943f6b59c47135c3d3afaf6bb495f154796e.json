@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000374",
+  "children": [
+    {
+      "iri": "obo:OBI_0000367",
+      "label": "light emission function",
+      "hasChildren": false,
+      "childrenKey": "d12ca53fca46417e485004034af460afde167f52"
+    }
+  ]
+}

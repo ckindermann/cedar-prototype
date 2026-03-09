@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003190",
+  "children": [
+    {
+      "iri": "obo:OBI_0003189",
+      "label": "mean cell volume assay",
+      "hasChildren": false,
+      "childrenKey": "a549faa27bb1508fba249628575629149e0c5ee3"
+    },
+    {
+      "iri": "obo:OBI_0003188",
+      "label": "nucleated erythrocyte percentage assay",
+      "hasChildren": false,
+      "childrenKey": "024f7332a72be76b495ff21d0a386caed5536449"
+    }
+  ]
+}

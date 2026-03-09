@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100044",
+  "children": [
+    {
+      "iri": "obo:OBI_2100172",
+      "label": "random venous blood vancomycin assay",
+      "hasChildren": false,
+      "childrenKey": "367992f2f564628dbf659919df51ee1be8a265b6"
+    },
+    {
+      "iri": "obo:OBI_2100211",
+      "label": "trough venous blood vancomycin assay",
+      "hasChildren": false,
+      "childrenKey": "695560fa3cddcbdaa8034b1224d5d67a2153f36b"
+    }
+  ]
+}

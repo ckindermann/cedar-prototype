@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002904",
+  "children": [
+    {
+      "iri": "obo:OBI_0002912",
+      "label": "arthropod specimen collection by aspiration",
+      "hasChildren": true,
+      "childrenKey": "7645cd957c20265833208f55040715b0c62e252c"
+    },
+    {
+      "iri": "obo:OBI_0003004",
+      "label": "flying adult arthropod collection process by passive interception",
+      "hasChildren": false,
+      "childrenKey": "555e06f5f448f4f82581229203f03d2cb1204342"
+    },
+    {
+      "iri": "obo:OBI_0003003",
+      "label": "landing arthropod specimen collection process",
+      "hasChildren": false,
+      "childrenKey": "22b3faf6e160a78cd9ff331a7ddd8e0243d531d0"
+    }
+  ]
+}

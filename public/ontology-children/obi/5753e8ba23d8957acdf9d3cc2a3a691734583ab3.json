@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002057",
+  "children": [
+    {
+      "iri": "obo:OBI_0002067",
+      "label": "cytometric bead array assay measuring epitope specific macrophage migration inhibitory factor (MIF) production by T cells",
+      "hasChildren": false,
+      "childrenKey": "71a9e4cafec7d86aacaeb72b584ee8a5ac761984"
+    }
+  ]
+}

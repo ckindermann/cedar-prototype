@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002036",
+  "children": [
+    {
+      "iri": "obo:OBI_0002037",
+      "label": "micrococcal nuclease digestion followed by tiling array assay",
+      "hasChildren": false,
+      "childrenKey": "edb6ce6b848b254eabdfbd4eff3c8592dde67bda"
+    }
+  ]
+}

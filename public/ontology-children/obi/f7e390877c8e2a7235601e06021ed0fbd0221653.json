@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003128",
+  "children": [
+    {
+      "iri": "obo:OBI_0001999",
+      "label": "3D molecular structure determination assay of a T cell epitope:MHC:TCR complex",
+      "hasChildren": true,
+      "childrenKey": "1741092237b70a43053390c5fe220ee1e44642bf"
+    },
+    {
+      "iri": "obo:OBI_1110037",
+      "label": "assay measuring binding of a T cell epitope:MHC:TCR complex",
+      "hasChildren": true,
+      "childrenKey": "10f69b4086b751e234d1f17cc2d0df729a6c57a9"
+    },
+    {
+      "iri": "obo:OBI_0002055",
+      "label": "assay measuring biological activity resulting from T cell epitope:MHC:TCR binding",
+      "hasChildren": true,
+      "childrenKey": "a11fd0815ca1139d2e61571eb87b99fe6c132854"
+    }
+  ]
+}

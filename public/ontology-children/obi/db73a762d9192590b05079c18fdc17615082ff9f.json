@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001032",
+  "children": [
+    {
+      "iri": "obo:OBI_0400065",
+      "label": "light source",
+      "hasChildren": true,
+      "childrenKey": "0e92102d6acee9bd39bf911f9763296cbcfe7cda"
+    },
+    {
+      "iri": "obo:OBI_0400121",
+      "label": "molecular crosslinker",
+      "hasChildren": false,
+      "childrenKey": "4532cca34006082ce3cadec21fa208ed9988ef7d"
+    }
+  ]
+}

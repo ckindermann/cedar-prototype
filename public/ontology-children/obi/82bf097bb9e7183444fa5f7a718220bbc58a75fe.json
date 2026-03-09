@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001180",
+  "children": [
+    {
+      "iri": "obo:OBI_0003143",
+      "label": "EC50 binding datum",
+      "hasChildren": true,
+      "childrenKey": "21bfeb9dc1081be0bfafb401d3b7d62515d92e94"
+    },
+    {
+      "iri": "obo:OBI_0001581",
+      "label": "equilibrium dissociation constant (KD) approximated by EC50",
+      "hasChildren": false,
+      "childrenKey": "4ca5707257fbac7e8377e62cc53fb2a98cea4e37"
+    }
+  ]
+}

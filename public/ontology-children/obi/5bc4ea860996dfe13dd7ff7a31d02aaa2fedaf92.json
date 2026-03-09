@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003462",
+  "children": [
+    {
+      "iri": "obo:OBI_0001492",
+      "label": "in vivo assay measuring T cell epitope specific protection based on survival",
+      "hasChildren": true,
+      "childrenKey": "66f0f8255bdb5b00f04f35587a8b1821f1ca66ff"
+    }
+  ]
+}

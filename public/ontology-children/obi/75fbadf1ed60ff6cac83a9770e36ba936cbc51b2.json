@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000852",
+  "children": [
+    {
+      "iri": "obo:OBI_0000858",
+      "label": "record of unknown sex",
+      "hasChildren": false,
+      "childrenKey": "18ef4599ba7b704ce2b744d1d1638487f00ab324"
+    }
+  ]
+}

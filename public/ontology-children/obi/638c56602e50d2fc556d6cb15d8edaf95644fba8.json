@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003246",
+  "children": [
+    {
+      "iri": "obo:OBI_0003264",
+      "label": "bacteria in feces datum",
+      "hasChildren": false,
+      "childrenKey": "7120b28335cd9dd2d60a8d5c0536f0dd32eaa850"
+    },
+    {
+      "iri": "obo:OBI_0003265",
+      "label": "eukaryota in feces datum",
+      "hasChildren": false,
+      "childrenKey": "70df1c74c840914a4348e76fc43ac003b14b4896"
+    },
+    {
+      "iri": "obo:OBI_0003266",
+      "label": "virus in feces datum",
+      "hasChildren": false,
+      "childrenKey": "b2243b34b09d2f2d5dc0ed9aaa3905d5b63cdd1e"
+    }
+  ]
+}

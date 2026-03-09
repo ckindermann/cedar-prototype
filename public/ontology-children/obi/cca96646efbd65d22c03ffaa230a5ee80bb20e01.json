@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110014",
+  "children": [
+    {
+      "iri": "obo:OBI_0001702",
+      "label": "immunoglobulin binding to epitope",
+      "hasChildren": true,
+      "childrenKey": "afc3f8e9d977bde44de4f2ce7eabb81b8fdca683"
+    },
+    {
+      "iri": "obo:OBI_1110057",
+      "label": "MHC:epitope complex binding to TCR",
+      "hasChildren": false,
+      "childrenKey": "1a2f1f955e9a11a6a275e5b29d1f09a1ba203f9b"
+    }
+  ]
+}

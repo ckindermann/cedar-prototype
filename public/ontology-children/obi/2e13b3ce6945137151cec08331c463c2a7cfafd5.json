@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001634",
+  "children": [
+    {
+      "iri": "obo:OBI_0001645",
+      "label": "calorimetry assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "c9dc866d6a23882e21393feb7399d28824b49a6b"
+    },
+    {
+      "iri": "obo:OBI_0001733",
+      "label": "calorimetry assay measuring the association constant [KA] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "0d742676f854b48faee16cf5126c8b858ef0e974"
+    },
+    {
+      "iri": "obo:OBI_0001734",
+      "label": "calorimetry assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "e4018f9513c11f35f0a3d2866405ec72a3f7adfd"
+    }
+  ]
+}

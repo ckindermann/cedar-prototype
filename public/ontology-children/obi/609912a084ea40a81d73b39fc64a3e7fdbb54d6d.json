@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000911",
+  "children": [
+    {
+      "iri": "obo:OBI_0003288",
+      "label": "multiplex real time reverse-transcription polymerase chain reaction assay",
+      "hasChildren": false,
+      "childrenKey": "12608956a6c879a117c8cefd3f350bc3d1b2e19a"
+    }
+  ]
+}

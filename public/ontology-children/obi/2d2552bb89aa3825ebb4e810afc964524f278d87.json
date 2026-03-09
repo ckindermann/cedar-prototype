@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001436",
+  "children": [
+    {
+      "iri": "obo:OBI_0002065",
+      "label": "cytometric bead array assay measuring epitope specific granzyme B release by T cells",
+      "hasChildren": false,
+      "childrenKey": "0b913ffe0f7b5e96969889c7b0ff6f137e861edf"
+    },
+    {
+      "iri": "obo:OBI_0002066",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific granzyme B release by T cells",
+      "hasChildren": false,
+      "childrenKey": "0319ef56d978a513a23959d7005c2f59f622fc92"
+    },
+    {
+      "iri": "obo:OBI_0001461",
+      "label": "ELISA measuring epitope specific granzyme B release by T cells",
+      "hasChildren": false,
+      "childrenKey": "ed2cafc49249dbb383ac9ba99ab35ea9ab97f52a"
+    },
+    {
+      "iri": "obo:OBI_0001322",
+      "label": "ELISPOT assay measuring epitope specific granzyme B release by T cells",
+      "hasChildren": false,
+      "childrenKey": "e899eb937a45170a9ced47f69359b048cfd39cb4"
+    },
+    {
+      "iri": "obo:OBI_0001423",
+      "label": "intracellular material detection measuring epitope specific granzyme B release by T cells",
+      "hasChildren": false,
+      "childrenKey": "8fced980a208fb937df749f82d75af9d53652865"
+    }
+  ]
+}

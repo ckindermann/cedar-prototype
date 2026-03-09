@@ -1,0 +1,126 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001271",
+  "children": [
+    {
+      "iri": "obo:OBI_0002143",
+      "label": "bromouride labeling and sequencing after UV exposure",
+      "hasChildren": false,
+      "childrenKey": "9655121df4b8f0312fa4e7a28e8d4bcdf5f49343"
+    },
+    {
+      "iri": "obo:OBI_0002113",
+      "label": "bromouridine labeling and sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "ade13f33a702e540f8c025fdd55195dafbd77e0e"
+    },
+    {
+      "iri": "obo:OBI_0002114",
+      "label": "bromouridine pulse-chase and sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "14e608463f43bd05cff7ea2d370962d69fc01f15"
+    },
+    {
+      "iri": "obo:OBI_0003090",
+      "label": "bulk RNA-seq assay",
+      "hasChildren": false,
+      "childrenKey": "c376958086bb81713b1d6441e5d6b712e74cb46b"
+    },
+    {
+      "iri": "obo:OBI_0002575",
+      "label": "isoform sequencing",
+      "hasChildren": false,
+      "childrenKey": "6b66b35919403e45836b222802dccb36ff96881e"
+    },
+    {
+      "iri": "obo:OBI_0002760",
+      "label": "metatranscriptome sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "ac4b4664097b95e211209adcbfb5007ef08bf999"
+    },
+    {
+      "iri": "obo:OBI_0002572",
+      "label": "polyA-depleted RNA sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "7db4e7f7da2a3782e53af6f97c00e3aa3cccee5d"
+    },
+    {
+      "iri": "obo:OBI_0002571",
+      "label": "polyA-selected RNA sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "6f07e57988dda56f1d38a610a834b8f9f1b3bb84"
+    },
+    {
+      "iri": "obo:OBI_0002045",
+      "label": "polyA-site sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "4a2f8b44e545344cb1e55431f7f482ce4157188d"
+    },
+    {
+      "iri": "obo:OBI_0002457",
+      "label": "precision nuclear run-on sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "97fa25dd58cb37eaff5b8ff72d532ce07456718b"
+    },
+    {
+      "iri": "obo:OBI_0002038",
+      "label": "ribosomal profiling by sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "588fe194394bba3bd8a237ed7918f9123e1a7288"
+    },
+    {
+      "iri": "obo:OBI_0002759",
+      "label": "ribosomal RNA-depleted RNA sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "98084d0671504fa2f7ca2e4fb0fa6d96312e324b"
+    },
+    {
+      "iri": "obo:OBI_0002044",
+      "label": "RNA Bind-n-Seq assay",
+      "hasChildren": false,
+      "childrenKey": "d0e1c097c1750a0001928f20b2b0d10161633ded"
+    },
+    {
+      "iri": "obo:OBI_0002041",
+      "label": "self-transcribing active regulatory region sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "212bc03136c9aa2dfdba66e97088d1eab133c737"
+    },
+    {
+      "iri": "obo:OBI_0002631",
+      "label": "single-cell RNA sequencing assay",
+      "hasChildren": true,
+      "childrenKey": "613f038e7807b0c9f2071a37a9396d52dc8e69a6"
+    },
+    {
+      "iri": "obo:OBI_0003109",
+      "label": "single-nucleus RNA sequencing assay",
+      "hasChildren": true,
+      "childrenKey": "f8a8329ae13927f4a14c6e4a5de80005c24416a0"
+    },
+    {
+      "iri": "obo:OBI_0003107",
+      "label": "slide-seq assay",
+      "hasChildren": false,
+      "childrenKey": "903ac5087fc0bb1a043918139565b86fd61d4768"
+    },
+    {
+      "iri": "obo:OBI_0002112",
+      "label": "small RNA sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "841d775fc64733e240ac0d0bf52c3bb6d7d2d33e"
+    },
+    {
+      "iri": "obo:OBI_0002034",
+      "label": "transcript leader sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "e227ca6202ae13d32b81bf332ce9b5dc5b648bd3"
+    },
+    {
+      "iri": "obo:OBI_0002033",
+      "label": "translation-associated transcript leader sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "4d9a0a1b9154b827bba166707f9169268a7ba309"
+    }
+  ]
+}

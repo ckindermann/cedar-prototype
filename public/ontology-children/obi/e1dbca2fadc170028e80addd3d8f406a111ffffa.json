@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000734",
+  "children": [
+    {
+      "iri": "obo:OBI_0000695",
+      "label": "chain termination sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "77b8502f27c7d86b613f5a39d5b9d98661edeb75"
+    },
+    {
+      "iri": "obo:OBI_0000697",
+      "label": "Helicos sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "2baf080a31c540485fb95f24d3f5d0fa5ccd5e92"
+    },
+    {
+      "iri": "obo:OBI_0000730",
+      "label": "pyrosequencing assay",
+      "hasChildren": false,
+      "childrenKey": "156a21fbe06d0548db6876800f59dd96184dd45c"
+    },
+    {
+      "iri": "obo:OBI_0000724",
+      "label": "Solexa sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "684f7b4863358c2a9829a4cfd0da21c71228533b"
+    }
+  ]
+}

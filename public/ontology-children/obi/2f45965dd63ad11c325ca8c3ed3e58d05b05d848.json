@@ -1,0 +1,72 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100022",
+  "children": [
+    {
+      "iri": "obo:OBI_0003148",
+      "label": "albumin concentration assay",
+      "hasChildren": false,
+      "childrenKey": "fb9ea6de5c88dc2e92d54930558342c36d222faa"
+    },
+    {
+      "iri": "obo:OBI_2100351",
+      "label": "bodily fluid albumin assay",
+      "hasChildren": false,
+      "childrenKey": "c7d1d534d7f145f44e070442aba30afda842952a"
+    },
+    {
+      "iri": "obo:OBI_2100298",
+      "label": "bone profile venous blood albumin assay",
+      "hasChildren": false,
+      "childrenKey": "afccc8b8ee7628f4cdb2b6d4f097a3bcebb5836a"
+    },
+    {
+      "iri": "obo:OBI_2100229",
+      "label": "chem11 venous blood albumin assay",
+      "hasChildren": false,
+      "childrenKey": "4d02291c57c2694184a323d922c0a47ce251ff28"
+    },
+    {
+      "iri": "obo:OBI_2100245",
+      "label": "chem16 venous blood albumin assay",
+      "hasChildren": false,
+      "childrenKey": "aa226ad8a2e180c8d037d5e59b7e15f8ec2b8d70"
+    },
+    {
+      "iri": "obo:OBI_2100153",
+      "label": "comprehensive metabolic panel venous blood albumin assay",
+      "hasChildren": false,
+      "childrenKey": "286dccd130566d5f85aca1385791694d9c32ef0a"
+    },
+    {
+      "iri": "obo:OBI_2100216",
+      "label": "hepatic panel venous blood albumin assay",
+      "hasChildren": false,
+      "childrenKey": "38a672d9e6fed9cc36286b1c0097af76e8dffcc7"
+    },
+    {
+      "iri": "obo:OBI_2100082",
+      "label": "liver evaluation venous blood albumin assay",
+      "hasChildren": false,
+      "childrenKey": "e5862a74d85abffda7c57d667f12746fcdd6fbae"
+    },
+    {
+      "iri": "obo:OBI_2100341",
+      "label": "liver function venous blood albumin assay",
+      "hasChildren": false,
+      "childrenKey": "561d517b424f1a50d76032d4c15403820f57c144"
+    },
+    {
+      "iri": "obo:OBI_2100209",
+      "label": "SPEP protein electrophoresis venous blood albumin assay",
+      "hasChildren": false,
+      "childrenKey": "56a27544cac7f78745c31c86908056a5f720d52f"
+    },
+    {
+      "iri": "obo:OBI_2100107",
+      "label": "venous blood albumin assay",
+      "hasChildren": false,
+      "childrenKey": "04bc628126461cdfec039774af1620adfcfc664a"
+    }
+  ]
+}

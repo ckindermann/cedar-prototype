@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002929",
+  "children": [
+    {
+      "iri": "obo:OBI_0003050",
+      "label": "Centers for Disease Control and Prevention gravid trap",
+      "hasChildren": false,
+      "childrenKey": "610afa54fe7f76ede5e6f3623b2e26b72c32a9af"
+    },
+    {
+      "iri": "obo:OBI_0002934",
+      "label": "MosquiTRAP",
+      "hasChildren": false,
+      "childrenKey": "71388dcfe9c2f2bdecfb826e27d8285172fd0cd6"
+    }
+  ]
+}

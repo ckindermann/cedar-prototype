@@ -1,0 +1,102 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001491",
+  "children": [
+    {
+      "iri": "obo:OBI_0001567",
+      "label": "radioactivity detection assay measuring binding off rate [koff] to determine direct binding of a cell-lysate-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "bbae2c3e26be89ebe394bad2d12135dcca91eb24"
+    },
+    {
+      "iri": "obo:OBI_0001599",
+      "label": "radioactivity detection assay measuring competitive binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "916b714f8c92df2f86852dc602e0457f6b451afe"
+    },
+    {
+      "iri": "obo:OBI_0001513",
+      "label": "radioactivity detection assay measuring competitive binding of a purified-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "722e510d333876587a5e0cb713f12af764bc90e8"
+    },
+    {
+      "iri": "obo:OBI_0001602",
+      "label": "radioactivity detection assay measuring direct binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "4348002996ca6cadf9bc24ec1cf744df3cd6a16b"
+    },
+    {
+      "iri": "obo:OBI_0001556",
+      "label": "radioactivity detection assay measuring direct binding of a cell-lysate-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "65457c5b5967e65b3be3a884a44bef0d652a28a0"
+    },
+    {
+      "iri": "obo:OBI_0001608",
+      "label": "radioactivity detection assay measuring direct binding of a purified-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "727760545d3dff7fde76b718cf9f3310bbf38499"
+    },
+    {
+      "iri": "obo:OBI_0001549",
+      "label": "radioactivity detection assay measuring equilibrium dissociation constant [KD] to determine competitive binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "7b2e43cf03e8b5f2e5d10a9d1a0efe885375423e"
+    },
+    {
+      "iri": "obo:OBI_0001544",
+      "label": "radioactivity detection assay measuring equilibrium dissociation constant [KD] to determine competitive binding of a cell-lysate-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "dc03f1387eae144c03d640084e6b13854e0e5965"
+    },
+    {
+      "iri": "obo:OBI_0001989",
+      "label": "radioactivity detection assay measuring equilibrium dissociation constant [KD] to determine competitive binding of a purified-MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "82ba0b72c1aad5610850115f1d8731fa5bbc8517"
+    },
+    {
+      "iri": "obo:OBI_0001564",
+      "label": "radioactivity detection assay measuring equilibrium dissociation constant [KD] to determine competitive binding of a purified-MHC:ligand complex approximated by IC50",
+      "hasChildren": false,
+      "childrenKey": "16074802805210a7bb079841242e47bae8cec63d"
+    },
+    {
+      "iri": "obo:OBI_0001558",
+      "label": "radioactivity detection assay measuring half life to determine direct binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "66f96d884888bc3624c4e9d4ae479fcb7d40b2fa"
+    },
+    {
+      "iri": "obo:OBI_0001565",
+      "label": "radioactivity detection assay measuring half life to determine direct binding of a cell-lysate-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "b9d1a4396d34c132d9a02aaf78f0c2bd73ea0b04"
+    },
+    {
+      "iri": "obo:OBI_0001586",
+      "label": "radioactivity detection assay measuring half life to determine direct binding of a purified-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "2fa7fb9c0e73697d4ee71a086e11d0608a896c86"
+    },
+    {
+      "iri": "obo:OBI_0001516",
+      "label": "radioactivity detection assay measuring half maximal effective concentration [EC50] to determine direct binding of a cell-lysate-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "f60b03873431a46d5208db7da6811b4917bb05bc"
+    },
+    {
+      "iri": "obo:OBI_0001517",
+      "label": "radioactivity detection assay measuring half maximal inhibitory concentration [IC50] to determine competitive binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "d714ed087bffdb1822a73587c088d3833f23b4d4"
+    },
+    {
+      "iri": "obo:OBI_0001568",
+      "label": "radioactivity detection assay measuring half maximal inhibitory concentration [IC50] to determine competitive binding of a purified-MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "06992e68dfe8b61d724becdcdc583da4b97a1a9b"
+    }
+  ]
+}

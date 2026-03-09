@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000366",
+  "children": [
+    {
+      "iri": "obo:OBI_0002968",
+      "label": "positive/negative ion switching metabolite profiling assay",
+      "hasChildren": false,
+      "childrenKey": "af69676de761d0f536581e51accf6b4108c3166e"
+    }
+  ]
+}

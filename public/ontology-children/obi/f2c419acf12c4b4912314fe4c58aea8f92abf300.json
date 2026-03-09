@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003026",
+  "children": [
+    {
+      "iri": "obo:OBI_2100368",
+      "label": "automated count venous blood reticulocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "0018d44dbbf512420ee10d7df7fad8d73e8d30a7"
+    },
+    {
+      "iri": "obo:OBI_2100132",
+      "label": "count venous blood reticulocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "1ccba504fedf9df56a05ee39cdf6c3fc655b81f4"
+    },
+    {
+      "iri": "obo:OBI_2100038",
+      "label": "reticulocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "008467ff76bf3ef1aa864d5c8b0e8554efbace2f"
+    },
+    {
+      "iri": "obo:OBI_0003170",
+      "label": "reticulocyte percentage assay",
+      "hasChildren": false,
+      "childrenKey": "0a6712673cd9be87efd33964308d3df7a9882702"
+    },
+    {
+      "iri": "obo:OBI_2100346",
+      "label": "venous blood reticulocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "4441d5414f2995e45bc13c8004de887698b17eec"
+    }
+  ]
+}

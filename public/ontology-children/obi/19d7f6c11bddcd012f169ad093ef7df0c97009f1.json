@@ -1,0 +1,60 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001178",
+  "children": [
+    {
+      "iri": "obo:OBI_0001188",
+      "label": "epitope disease exacerbation experiment",
+      "hasChildren": true,
+      "childrenKey": "e2c9d1e9013c5ecb31805ba825e187f4e590bee5"
+    },
+    {
+      "iri": "obo:OBI_0001184",
+      "label": "epitope protection experiment",
+      "hasChildren": true,
+      "childrenKey": "6fd7c6107866a48509c33fd0224ffb645b590882"
+    },
+    {
+      "iri": "obo:OBI_0001488",
+      "label": "epitope tolerance induction experiment",
+      "hasChildren": true,
+      "childrenKey": "636c74ccae128a8f8ac831033058756a71ca755f"
+    },
+    {
+      "iri": "obo:OBI_0001190",
+      "label": "epitope treatment experiment",
+      "hasChildren": true,
+      "childrenKey": "27536a4bbf8665c906417eea2ccf8d22aa468053"
+    },
+    {
+      "iri": "obo:OBI_0001694",
+      "label": "in vivo assay measuring B cell epitope specific induction of hypersensitivity",
+      "hasChildren": true,
+      "childrenKey": "2baacda0a4240cf0708741704f96904653a0716f"
+    },
+    {
+      "iri": "obo:OBI_0002666",
+      "label": "in vivo assay measuring B cell epitope specific induction of hypersensitivity resulting from the adoptive transfer of epitope specific antibodies or B cells",
+      "hasChildren": false,
+      "childrenKey": "f9efe268072d4d1add609b7b45d3522380e22438"
+    },
+    {
+      "iri": "obo:OBI_0001692",
+      "label": "in vivo assay measuring B cell epitope specific protection from fertility",
+      "hasChildren": false,
+      "childrenKey": "24088d93ef8ececd17e7cbd583544b92bfee69be"
+    },
+    {
+      "iri": "obo:OBI_0001348",
+      "label": "in vivo skin test assay measuring T cell epitope specific type IV hypersensitivity",
+      "hasChildren": true,
+      "childrenKey": "df04d5820c5c5ce735d934a857fd7915cb54af96"
+    },
+    {
+      "iri": "obo:OBI_0002667",
+      "label": "in vivo skin test assay measuring T cell epitope specific type IV hypersensitivity resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "5aef7e43f1951164db51e6e65c128fe8d6d8e210"
+    }
+  ]
+}

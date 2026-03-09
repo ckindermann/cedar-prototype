@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003635",
+  "children": [
+    {
+      "iri": "obo:OBI_0003625",
+      "label": "antibody purification of cattle MHC class I protein complex",
+      "hasChildren": false,
+      "childrenKey": "189419c7497ae3c8519e43406833448478d10fcb"
+    },
+    {
+      "iri": "obo:OBI_0003617",
+      "label": "antibody purification of human MHC class I protein complex",
+      "hasChildren": true,
+      "childrenKey": "44d2c5531f3ff35096ba4e653a9b13abb2f169ac"
+    },
+    {
+      "iri": "obo:OBI_0003624",
+      "label": "antibody purification of pig MHC class I protein complex",
+      "hasChildren": false,
+      "childrenKey": "d72d78047410238dbff9e253ffd6e58a42ae6263"
+    }
+  ]
+}

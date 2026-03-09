@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002134",
+  "children": [
+    {
+      "iri": "obo:OBI_0002133",
+      "label": "cytometric bead array assay measuring  epitope specific chemokine (C-C motif) ligand 20 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e494cde4bc56a6661a213a6f799ee6c47d364bf0"
+    }
+  ]
+}

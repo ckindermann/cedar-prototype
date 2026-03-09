@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110125",
+  "children": [
+    {
+      "iri": "obo:OBI_0001500",
+      "label": "coelution assay measuring MHC ligand processing and presentation using T cell recognition of HPLC fractionated eluate compared to synthetic ligand",
+      "hasChildren": false,
+      "childrenKey": "2262764d6fc20a8b5bf942143faa44b07aed0c18"
+    },
+    {
+      "iri": "obo:OBI_0001509",
+      "label": "Edman degradation assay measuring MHC ligand processing and presentation",
+      "hasChildren": false,
+      "childrenKey": "c2746ceceadae7b40346526dabde37b5da1f0ac6"
+    },
+    {
+      "iri": "obo:OBI_0003326",
+      "label": "high throughput multiplexed assay measuring MHC ligand processing and presentation",
+      "hasChildren": false,
+      "childrenKey": "0665d941c7bc3b589284f623f0a8a3a02efc8435"
+    },
+    {
+      "iri": "obo:OBI_0001478",
+      "label": "mass spectrometry assay measuring MHC ligand processing and presentation",
+      "hasChildren": true,
+      "childrenKey": "f3f3c1a7e2ea039991ed8c8838ad7acc13b76e8b"
+    },
+    {
+      "iri": "obo:OBI_0001469",
+      "label": "monospecific T cell recognition assay measuring MHC ligand processing and presentation",
+      "hasChildren": false,
+      "childrenKey": "f88332e716012dc7b9b5de996ddb95ccd18ddbce"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001465",
+  "children": [
+    {
+      "iri": "obo:OBI_0001243",
+      "label": "cytometric bead array assay measuring epitope specific monocyte chemotactic protein-1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ad24f5c3eff1be5f5d9ff0060837ad64dc605b49"
+    },
+    {
+      "iri": "obo:OBI_0001343",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific monocyte chemotactic protein-1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "db9c4f4223ac90089f7ef7120d12f66a9c985c97"
+    },
+    {
+      "iri": "obo:OBI_0001344",
+      "label": "ELISA measuring epitope specific monocyte chemotactic protein-1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7a3e462144bb7f12764a05e67a32beea0f66d511"
+    },
+    {
+      "iri": "obo:OBI_0001784",
+      "label": "ELISPOT assay measuring epitope specific monocyte chemotactic protein-1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ecd4b8b8c7a3cc1f276cf1d3d53caa0254e7d85b"
+    },
+    {
+      "iri": "obo:OBI_0001783",
+      "label": "intracellular cytokine staining assay measuring epitope specific monocyte chemotactic protein-1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "73cfe3f2402def5cf3cfe71e949de30b61feedce"
+    }
+  ]
+}

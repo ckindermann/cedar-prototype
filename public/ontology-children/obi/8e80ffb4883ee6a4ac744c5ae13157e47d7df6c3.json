@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0100016",
+  "children": [
+    {
+      "iri": "obo:OBI_0100017",
+      "label": "blood serum specimen",
+      "hasChildren": true,
+      "childrenKey": "99c9b0494e2c576cbf7de00d51c2352188de59d2"
+    },
+    {
+      "iri": "obo:OBI_0002774",
+      "label": "platelet-poor plasma specimen",
+      "hasChildren": false,
+      "childrenKey": "c02754ae6ede38fc921ac8c466dd34e155bb84b9"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001693",
+  "children": [
+    {
+      "iri": "obo:OBI_0002646",
+      "label": "in vivo assay measuring B cell epitope specific tolerance induction resulting from the adoptive transfer of epitope specific antibodies or B cells",
+      "hasChildren": false,
+      "childrenKey": "8d0437079c548c1ea596c02e8d82925bc7028296"
+    }
+  ]
+}

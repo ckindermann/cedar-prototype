@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001953",
+  "children": [
+    {
+      "iri": "obo:OBI_0001952",
+      "label": "flash freezing",
+      "hasChildren": false,
+      "childrenKey": "cc546d6310129bf0f6b2c6f6b0afba3615b357e2"
+    }
+  ]
+}

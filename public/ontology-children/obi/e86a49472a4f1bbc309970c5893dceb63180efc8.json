@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003366",
+  "children": [
+    {
+      "iri": "obo:OBI_0003374",
+      "label": "remote patient assessment",
+      "hasChildren": false,
+      "childrenKey": "c40af441f9cbbac9041c2d6feb803cca89541395"
+    }
+  ]
+}

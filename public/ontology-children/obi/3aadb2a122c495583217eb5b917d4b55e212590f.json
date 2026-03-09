@@ -1,0 +1,90 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000967",
+  "children": [
+    {
+      "iri": "obo:OBI_0400171",
+      "label": "animal cage",
+      "hasChildren": false,
+      "childrenKey": "2a694521674d4e4158c43ba403193429946b1cb4"
+    },
+    {
+      "iri": "obo:OBI_0001072",
+      "label": "cryostat",
+      "hasChildren": false,
+      "childrenKey": "2dc16ca90e785ea5389470ae209c9cef2db73de0"
+    },
+    {
+      "iri": "obo:OBI_0400043",
+      "label": "flow cell",
+      "hasChildren": true,
+      "childrenKey": "c5575f2a0a6648576cd6d031a27503363656e8f9"
+    },
+    {
+      "iri": "obo:OBI_0002681",
+      "label": "glass bottle",
+      "hasChildren": true,
+      "childrenKey": "777a0f3d01c2f012ef99ba032a909575d8a2124a"
+    },
+    {
+      "iri": "obo:OBI_0000192",
+      "label": "microtiter plate",
+      "hasChildren": false,
+      "childrenKey": "31cce108c655b63c084800fc833fcc6b831f4470"
+    },
+    {
+      "iri": "obo:OBI_0001111",
+      "label": "paraffin oven",
+      "hasChildren": false,
+      "childrenKey": "2f1ae24c3d5a6f0ea22b598d0e1ff1c47e6a9b7d"
+    },
+    {
+      "iri": "obo:OBI_0400084",
+      "label": "photomultiplier tube",
+      "hasChildren": false,
+      "childrenKey": "270118fc3941a34b92c1be3045cbf50a13460687"
+    },
+    {
+      "iri": "obo:OBI_0002089",
+      "label": "physical store",
+      "hasChildren": true,
+      "childrenKey": "d2aed4685c372f615b6abf598adc1e4ddc7de460"
+    },
+    {
+      "iri": "obo:OBI_0002088",
+      "label": "specimen container",
+      "hasChildren": false,
+      "childrenKey": "8f65cc8f7f519f8d3d1b94efcec91fefd84341a1"
+    },
+    {
+      "iri": "obo:OBI_0000146",
+      "label": "supernatant collection system harvesting frame",
+      "hasChildren": false,
+      "childrenKey": "c473e1e1778567ef9dd33eea7b7608432e9e3a07"
+    },
+    {
+      "iri": "obo:OBI_0400100",
+      "label": "syringe pump",
+      "hasChildren": false,
+      "childrenKey": "2fabc62982b8f7c66bc9b7f7a67462f0c6223186"
+    },
+    {
+      "iri": "obo:OBI_0001130",
+      "label": "vacuum oven",
+      "hasChildren": false,
+      "childrenKey": "6a4c0caa9d9b499a2734f27804e052984822dbef"
+    },
+    {
+      "iri": "obo:OBI_0000522",
+      "label": "vial",
+      "hasChildren": true,
+      "childrenKey": "b95f2a73c83f872ab544dcddb361f0855f7f1788"
+    },
+    {
+      "iri": "obo:OBI_0400102",
+      "label": "waste tank",
+      "hasChildren": false,
+      "childrenKey": "e6a7b61495e67156fbeaa1a735a6229f65c7a76a"
+    }
+  ]
+}

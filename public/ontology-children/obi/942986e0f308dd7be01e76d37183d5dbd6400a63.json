@@ -1,0 +1,192 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100023",
+  "children": [
+    {
+      "iri": "obo:OBI_2100262",
+      "label": "24 hour urine protein assay",
+      "hasChildren": false,
+      "childrenKey": "5f329be6ce264d57d6c17d119484245af658bcd5"
+    },
+    {
+      "iri": "obo:OBI_0003192",
+      "label": "adiponectin assay",
+      "hasChildren": true,
+      "childrenKey": "3e80dc81e9d06307eefee8646863cb449d5b72ba"
+    },
+    {
+      "iri": "obo:OBI_2100016",
+      "label": "alanine aminotransferase assay",
+      "hasChildren": true,
+      "childrenKey": "22be9240a3fa446846f14145c265823803e2c0bb"
+    },
+    {
+      "iri": "obo:OBI_2100022",
+      "label": "albumin assay",
+      "hasChildren": true,
+      "childrenKey": "2f45965dd63ad11c325ca8c3ed3e58d05b05d848"
+    },
+    {
+      "iri": "obo:OBI_2100017",
+      "label": "alkaline phosphatase (human) assay",
+      "hasChildren": true,
+      "childrenKey": "d4cd79fa3df50692739f34129cdbc892af2e6f55"
+    },
+    {
+      "iri": "obo:OBI_2100019",
+      "label": "aspartate aminotransferase (human) assay",
+      "hasChildren": true,
+      "childrenKey": "0f9724b92ca68ec4c5da85c480628deee348b2e1"
+    },
+    {
+      "iri": "obo:OBI_2100301",
+      "label": "bone profile venous blood protein assay",
+      "hasChildren": false,
+      "childrenKey": "03b716d67c7d155e3115ad40220724e9d7c68cae"
+    },
+    {
+      "iri": "obo:OBI_2100047",
+      "label": "C-reactive protein assay",
+      "hasChildren": true,
+      "childrenKey": "f955da7d564b5a5090a4ff713ffcd8289eb0adf5"
+    },
+    {
+      "iri": "obo:OBI_2100266",
+      "label": "cerebrospinal fluid protein assay",
+      "hasChildren": false,
+      "childrenKey": "4bcd275491f0587af84d47a7d99eafca20f39b9a"
+    },
+    {
+      "iri": "obo:OBI_2100158",
+      "label": "comprehensive metabolic panel venous blood protein assay",
+      "hasChildren": false,
+      "childrenKey": "2b10e562a29a6dccc8b3d66b902ac0985ba1fe06"
+    },
+    {
+      "iri": "obo:OBI_2100025",
+      "label": "creatine kinase assay",
+      "hasChildren": true,
+      "childrenKey": "a30e47ba2416707199fd7c804b5149a15592927f"
+    },
+    {
+      "iri": "obo:OBI_2100212",
+      "label": "hepatic panel venous blood protein assay",
+      "hasChildren": false,
+      "childrenKey": "9eccdb2db2e6fd6c9a6c408d24ada46a648d9cc3"
+    },
+    {
+      "iri": "obo:OBI_0003202",
+      "label": "leptin assay",
+      "hasChildren": true,
+      "childrenKey": "ce33b9c6c4c5b181f71089d1a977ff87e4dd9ab6"
+    },
+    {
+      "iri": "obo:OBI_2100086",
+      "label": "liver evaluation venous blood protein assay",
+      "hasChildren": false,
+      "childrenKey": "1530105e4a62c8998bc450a14440ed6f42313a2b"
+    },
+    {
+      "iri": "obo:OBI_2100342",
+      "label": "liver function venous blood protein assay",
+      "hasChildren": false,
+      "childrenKey": "78ecfbd4f53cf368459105bf863450712572bcb1"
+    },
+    {
+      "iri": "obo:OBI_0003543",
+      "label": "microarray assay measuring NS1",
+      "hasChildren": false,
+      "childrenKey": "a088cd16b97df85e3c395c80cb42c9b7bc8987c2"
+    },
+    {
+      "iri": "obo:OBI_2100034",
+      "label": "prostate-specific antigen assay",
+      "hasChildren": true,
+      "childrenKey": "3297c1201ba86fc246165163db72fa0266a903b6"
+    },
+    {
+      "iri": "obo:OBI_0001318",
+      "label": "proteomic profiling by array assay",
+      "hasChildren": true,
+      "childrenKey": "23b30ddcca6deb90eefa19dcd6030af5720bcee9"
+    },
+    {
+      "iri": "obo:OBI_2100208",
+      "label": "SPEP protein electrophoresis venous blood beta-globin assay",
+      "hasChildren": false,
+      "childrenKey": "69443b9d2c2b312dd1de422b9cdab84d128a9cbb"
+    },
+    {
+      "iri": "obo:OBI_2100210",
+      "label": "SPEP protein electrophoresis venous blood protein assay",
+      "hasChildren": false,
+      "childrenKey": "8818ae427d87d387e415ac270455cf84c0ab430c"
+    },
+    {
+      "iri": "obo:OBI_2100328",
+      "label": "total bodily fluid protein assay",
+      "hasChildren": false,
+      "childrenKey": "c533aeb56f857c70dd364add4a03903f015b967c"
+    },
+    {
+      "iri": "obo:OBI_2100118",
+      "label": "total venous blood protein assay",
+      "hasChildren": false,
+      "childrenKey": "b0f10561fbefa97b55833c9ef382a752aa23c2d4"
+    },
+    {
+      "iri": "obo:OBI_0003013",
+      "label": "transferrin assay",
+      "hasChildren": true,
+      "childrenKey": "d9eb5ad548190bdd951c9787235fb8037ff10b40"
+    },
+    {
+      "iri": "obo:OBI_2100205",
+      "label": "urine protein assay",
+      "hasChildren": false,
+      "childrenKey": "6da77ecbbeb4d4ce946e7696f180fd5d600af51e"
+    },
+    {
+      "iri": "obo:OBI_2100397",
+      "label": "venous blood beta-2-microglobulin assay",
+      "hasChildren": false,
+      "childrenKey": "2d2cd15ab328eb5f036acefdee97a2fc6cda35b1"
+    },
+    {
+      "iri": "obo:OBI_2100370",
+      "label": "venous blood Ceruloplasmin assay",
+      "hasChildren": false,
+      "childrenKey": "998474c437e1f024a5620fe9ce76b3726d26803f"
+    },
+    {
+      "iri": "obo:OBI_2100385",
+      "label": "venous blood erythropoietin assay",
+      "hasChildren": false,
+      "childrenKey": "b05571617906c745ede1e5d1259b5f1be5d49c6e"
+    },
+    {
+      "iri": "obo:OBI_2100223",
+      "label": "venous blood GGT assay",
+      "hasChildren": false,
+      "childrenKey": "ffb759400b59095bfde47d028189f2081255d0b5"
+    },
+    {
+      "iri": "obo:OBI_2100109",
+      "label": "venous blood haptoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "864719f4183917caf75d39c2a58e076f46f09cb4"
+    },
+    {
+      "iri": "obo:OBI_2100327",
+      "label": "venous blood parathyroid hormone assay",
+      "hasChildren": false,
+      "childrenKey": "bd9d5e4293f99e801489c4f321c7888a4150bc33"
+    },
+    {
+      "iri": "obo:OBI_2100111",
+      "label": "venous blood prealbunin assay",
+      "hasChildren": false,
+      "childrenKey": "d4726bd9fe29300c19dc7bc4a2c0c43db98e7e75"
+    }
+  ]
+}

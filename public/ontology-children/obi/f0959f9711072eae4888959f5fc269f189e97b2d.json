@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000663",
+  "children": [
+    {
+      "iri": "obo:OBI_0200099",
+      "label": "discriminant function analysis",
+      "hasChildren": false,
+      "childrenKey": "646bd5fff3e9f908b94cccfdefa21ce05094db4f"
+    },
+    {
+      "iri": "obo:OBI_0200101",
+      "label": "linear discriminant functional analysis",
+      "hasChildren": false,
+      "childrenKey": "8d0cb04602e3f4d1d4c17a0da5feaaa5eb0b4074"
+    },
+    {
+      "iri": "obo:OBI_0200113",
+      "label": "similarity calculation",
+      "hasChildren": true,
+      "childrenKey": "b19e7b4680a65c7e7026ab92e8fb105b980b0f34"
+    },
+    {
+      "iri": "obo:OBI_0000700",
+      "label": "support vector machine",
+      "hasChildren": false,
+      "childrenKey": "02a91d5447eca2379b6e863b2afb8e1bbfd076a1"
+    }
+  ]
+}

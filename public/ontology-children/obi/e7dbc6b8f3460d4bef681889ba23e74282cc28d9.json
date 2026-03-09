@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400079",
+  "children": [
+    {
+      "iri": "obo:OBI_0400013",
+      "label": "band pass filter",
+      "hasChildren": false,
+      "childrenKey": "d7514e1365ed14436bb19d320cce9f24bda6d52d"
+    },
+    {
+      "iri": "obo:OBI_0400030",
+      "label": "dichroic filter",
+      "hasChildren": false,
+      "childrenKey": "a9c70ea28dc196eea5601bd601b9c9f1bae824c0"
+    },
+    {
+      "iri": "obo:OBI_0400031",
+      "label": "dichroic mirror",
+      "hasChildren": false,
+      "childrenKey": "bfb7119523118a3a97d02280dd12d3066de01a70"
+    },
+    {
+      "iri": "obo:OBI_0400067",
+      "label": "long pass filter",
+      "hasChildren": false,
+      "childrenKey": "df424156868aa7b327265b4bcd5c28b39dd24dce"
+    },
+    {
+      "iri": "obo:OBI_0400095",
+      "label": "short pass filter",
+      "hasChildren": false,
+      "childrenKey": "ae6c54b49e4daf163ef1428de8b0fadd4ba0b8cd"
+    }
+  ]
+}

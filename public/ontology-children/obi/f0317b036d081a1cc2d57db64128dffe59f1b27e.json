@@ -1,0 +1,48 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200080",
+  "children": [
+    {
+      "iri": "obo:OBI_0200135",
+      "label": "edge quality calculation",
+      "hasChildren": true,
+      "childrenKey": "4f3d038d4c99b33bca7ef0d5aa8bfccc26efda58"
+    },
+    {
+      "iri": "obo:OBI_0200070",
+      "label": "edge weighting",
+      "hasChildren": false,
+      "childrenKey": "df707886e740de4b9bacb69e9b7d505e9467baad"
+    },
+    {
+      "iri": "obo:OBI_0200040",
+      "label": "modular decomposition",
+      "hasChildren": false,
+      "childrenKey": "0a6e1b9b23aa10e28b31dba5a7c0bff17c8e6504"
+    },
+    {
+      "iri": "obo:OBI_0200126",
+      "label": "network graph construction",
+      "hasChildren": true,
+      "childrenKey": "075a26ffb2d6a4d6f16ad16006561efec2fa6886"
+    },
+    {
+      "iri": "obo:OBI_0200147",
+      "label": "network graph quality calculation",
+      "hasChildren": true,
+      "childrenKey": "90f8f649bc72e782e48ea0a6d5890663617c3577"
+    },
+    {
+      "iri": "obo:OBI_0200137",
+      "label": "network subgraph quality calculation",
+      "hasChildren": true,
+      "childrenKey": "1dd04541d8b9fd9ba4f738015133c5300bca48b9"
+    },
+    {
+      "iri": "obo:OBI_0200129",
+      "label": "node quality calculation",
+      "hasChildren": true,
+      "childrenKey": "a70f09fc9f3afaf7ccb83715eb82ef17a10c16a9"
+    }
+  ]
+}

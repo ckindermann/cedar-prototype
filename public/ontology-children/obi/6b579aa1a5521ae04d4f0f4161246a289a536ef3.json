@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003079",
+  "children": [
+    {
+      "iri": "obo:OBI_0003072",
+      "label": "axillary temperature measurement datum",
+      "hasChildren": false,
+      "childrenKey": "748dd3ac78f593b1211f768f0b0ede803bee378f"
+    },
+    {
+      "iri": "obo:OBI_0003073",
+      "label": "organismal body temperature measurement datum",
+      "hasChildren": false,
+      "childrenKey": "b9fa3ea37766338e4646455ef6e417a5015a7fd7"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000060",
+  "children": [
+    {
+      "iri": "obo:OBI_0000144",
+      "label": "role of independent data monitoring committee",
+      "hasChildren": false,
+      "childrenKey": "d94972a674f2991ba376d13b2ef2ed37f021758c"
+    }
+  ]
+}

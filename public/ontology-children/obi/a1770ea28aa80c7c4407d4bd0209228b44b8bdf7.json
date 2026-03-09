@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002020",
+  "children": [
+    {
+      "iri": "obo:OBI_0000634",
+      "label": "DNA methylation profiling assay",
+      "hasChildren": true,
+      "childrenKey": "c8cac3af5935b1ab1f6cf2ed61745896943632ae"
+    },
+    {
+      "iri": "obo:OBI_0002014",
+      "label": "DNA methylation profiling by ChIP-chip assay",
+      "hasChildren": false,
+      "childrenKey": "b12aecb46637fb8031088303e38a46803a3807aa"
+    },
+    {
+      "iri": "obo:OBI_0002961",
+      "label": "global chromatin profiling by mass spectrometry assay",
+      "hasChildren": false,
+      "childrenKey": "e5a052f3a83f78bb295e78ab1b2d88f57004c616"
+    },
+    {
+      "iri": "obo:OBI_0002016",
+      "label": "histone modification identification by ChIP-chip assay",
+      "hasChildren": false,
+      "childrenKey": "7c5e8645d877b0e4220ae7c7bba4217292548ee8"
+    },
+    {
+      "iri": "obo:OBI_0002017",
+      "label": "histone modification identification by ChIP-Seq assay",
+      "hasChildren": false,
+      "childrenKey": "5f938eb0db3fd907d77edece91030f245c3d1c54"
+    }
+  ]
+}

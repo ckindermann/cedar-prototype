@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000652",
+  "children": [
+    {
+      "iri": "obo:OBI_0000274",
+      "label": "adding a material entity into a target",
+      "hasChildren": true,
+      "childrenKey": "62c3e30728b8c232090c6e5f295a5b7108f71422"
+    },
+    {
+      "iri": "obo:OBI_0000685",
+      "label": "creating a mixture of molecules in solution",
+      "hasChildren": false,
+      "childrenKey": "b3c1f14591740267fde294c95a6261463ff8ff38"
+    },
+    {
+      "iri": "obo:OBI_0600016",
+      "label": "pooling specimens",
+      "hasChildren": false,
+      "childrenKey": "f852e7f53e6a31fe9d6ea0ac779744c8326cea1a"
+    }
+  ]
+}

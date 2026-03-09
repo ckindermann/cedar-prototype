@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003146",
+  "children": [
+    {
+      "iri": "obo:OBI_0001709",
+      "label": "assay measuring a binding constant of a B cell epitope:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "03f32ea8ae3ac8e3b5ef9e9b5cd65a734f8d63d0"
+    }
+  ]
+}

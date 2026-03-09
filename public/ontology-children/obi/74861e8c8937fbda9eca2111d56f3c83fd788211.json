@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400081",
+  "children": [
+    {
+      "iri": "obo:OBI_0400076",
+      "label": "multi-well plate",
+      "hasChildren": false,
+      "childrenKey": "d19fb2f02ffb8c7dff03dbeb532b8978ab816f7a"
+    }
+  ]
+}

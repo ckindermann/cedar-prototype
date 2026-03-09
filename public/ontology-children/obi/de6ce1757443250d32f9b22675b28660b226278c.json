@@ -1,0 +1,66 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001708",
+  "children": [
+    {
+      "iri": "obo:OBI_0001638",
+      "label": "antigen inhibition assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex approximated by IC50",
+      "hasChildren": false,
+      "childrenKey": "a1ab6a71b7e3c5342807e529e7b40865d767a093"
+    },
+    {
+      "iri": "obo:OBI_0002105",
+      "label": "bio-layer interferometry assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "15980845a884de64483f44e905573c6cadd7f8db"
+    },
+    {
+      "iri": "obo:OBI_0001734",
+      "label": "calorimetry assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "e4018f9513c11f35f0a3d2866405ec72a3f7adfd"
+    },
+    {
+      "iri": "obo:OBI_0001996",
+      "label": "chromatography assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "0c224d1bcb5254b11cd5f918684444b7fb77dbf1"
+    },
+    {
+      "iri": "obo:OBI_0001728",
+      "label": "ELISA measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "4efa22968aa07d14fccaf051e30870eed318d863"
+    },
+    {
+      "iri": "obo:OBI_0002054",
+      "label": "NMR assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "e313da45b2a3ab6ccedeb3144f10192b93a84666"
+    },
+    {
+      "iri": "obo:OBI_0003602",
+      "label": "quartz crystal microbalance assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "8fa6e20a0d4511b9e06f47389615790589198dfc"
+    },
+    {
+      "iri": "obo:OBI_0001729",
+      "label": "quenching assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "e0e186307c57a91ebb648f54d821294f16c68ecd"
+    },
+    {
+      "iri": "obo:OBI_0001727",
+      "label": "RIA measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "ddcff1c868f5c2347cc39cc3cee0329b0952be73"
+    },
+    {
+      "iri": "obo:OBI_0001731",
+      "label": "surface plasmon resonance assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "b963ee3f0fdc09740fa21b938539348070997f74"
+    }
+  ]
+}

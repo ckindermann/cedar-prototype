@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003038",
+  "children": [
+    {
+      "iri": "obo:OBI_0003041",
+      "label": "falcivax rapid diagnostic test",
+      "hasChildren": false,
+      "childrenKey": "de249e5d0e46cec13af75b9aeba40d641e9041db"
+    },
+    {
+      "iri": "obo:OBI_0003037",
+      "label": "malaria rapid diagnosis assay",
+      "hasChildren": false,
+      "childrenKey": "96936998693c316113b93322304af5ce9802c4c8"
+    },
+    {
+      "iri": "obo:OBI_0003042",
+      "label": "optimal-IT rapid diagnostic test",
+      "hasChildren": false,
+      "childrenKey": "7b07f5be85e476bd24a17320c4d85b8615c0fc6a"
+    },
+    {
+      "iri": "obo:OBI_0003045",
+      "label": "parasite detection by PCR assay",
+      "hasChildren": true,
+      "childrenKey": "09237f9d3c38d766414e560a010937afb4472796"
+    },
+    {
+      "iri": "obo:OBI_0003036",
+      "label": "Plasmodium gametocyte detection assay",
+      "hasChildren": false,
+      "childrenKey": "6cca8fbd2926e5060f7512aac339d68db6fa0e83"
+    }
+  ]
+}

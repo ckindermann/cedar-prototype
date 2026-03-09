@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002585",
+  "children": [
+    {
+      "iri": "obo:OBI_0002565",
+      "label": "adapter-sequence trimming",
+      "hasChildren": false,
+      "childrenKey": "bf8dcc5c91c240e97d695dbbfd395456d8ed1a93"
+    }
+  ]
+}

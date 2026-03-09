@@ -1,0 +1,144 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600014",
+  "children": [
+    {
+      "iri": "obo:OBI_1110095",
+      "label": "blood harvesting",
+      "hasChildren": true,
+      "childrenKey": "89610a126142cf00e42c16c76631730e4a96ee67"
+    },
+    {
+      "iri": "obo:OBI_0001483",
+      "label": "cell collecting",
+      "hasChildren": false,
+      "childrenKey": "3fb0130fbe88c10afb8ea03d15aebf90318cb005"
+    },
+    {
+      "iri": "obo:OBI_0600037",
+      "label": "cell culture splitting",
+      "hasChildren": false,
+      "childrenKey": "085b60ad714a2ae1901f77eff9d118ce8c2de53b"
+    },
+    {
+      "iri": "obo:OBI_0302886",
+      "label": "centrifugation",
+      "hasChildren": false,
+      "childrenKey": "638314474e9dda95a9b4aac9148ee40f5f74df8e"
+    },
+    {
+      "iri": "obo:OBI_0600041",
+      "label": "concentrate",
+      "hasChildren": false,
+      "childrenKey": "01a810cf25f40e7aa130a5b0d8cb6c3d8123e453"
+    },
+    {
+      "iri": "obo:OBI_0600052",
+      "label": "dialysis",
+      "hasChildren": false,
+      "childrenKey": "59fb866354301ccba199bf4f104d30c420612448"
+    },
+    {
+      "iri": "obo:OBI_0302906",
+      "label": "DNA Subtraction",
+      "hasChildren": false,
+      "childrenKey": "1ebbcb5ddf26aca1b140253b59fbe18d27898337"
+    },
+    {
+      "iri": "obo:OBI_0600053",
+      "label": "electrophoresis",
+      "hasChildren": true,
+      "childrenKey": "73d0be14eca6bd762f88f0abc73b75bc79f520eb"
+    },
+    {
+      "iri": "obo:OBI_0600022",
+      "label": "excision",
+      "hasChildren": false,
+      "childrenKey": "e0afa8ea598aaaccd0a2c7d13838ebbc0f69a9f5"
+    },
+    {
+      "iri": "obo:OBI_0302884",
+      "label": "extraction",
+      "hasChildren": true,
+      "childrenKey": "55512a6080431f0b878a751750e14c598008f351"
+    },
+    {
+      "iri": "obo:OBI_0302885",
+      "label": "filtration",
+      "hasChildren": true,
+      "childrenKey": "862b0274cfd27e8060f598f08bb1115cf5843e3f"
+    },
+    {
+      "iri": "obo:OBI_0600051",
+      "label": "gradient separation",
+      "hasChildren": false,
+      "childrenKey": "e9346c3190ceee899e3cdec844c3d7f5cff2a877"
+    },
+    {
+      "iri": "obo:OBI_0000690",
+      "label": "immunoprecipitation",
+      "hasChildren": true,
+      "childrenKey": "a7e91f9e3a854d02527549aadd82318cc01e3afd"
+    },
+    {
+      "iri": "obo:OBI_0600029",
+      "label": "isolation of cell culture supernatant",
+      "hasChildren": false,
+      "childrenKey": "94f15ce0b9e60299e3d59674945fd19f10373dbb"
+    },
+    {
+      "iri": "obo:OBI_0000512",
+      "label": "isolation of cell population",
+      "hasChildren": true,
+      "childrenKey": "5a218b4b96d13f960e05e94f15e5490f1e05342a"
+    },
+    {
+      "iri": "obo:OBI_0600044",
+      "label": "lavage",
+      "hasChildren": false,
+      "childrenKey": "d5fbb11bc9519e0149a7f5cba860b84d0f826655"
+    },
+    {
+      "iri": "obo:OBI_0600018",
+      "label": "material portioning",
+      "hasChildren": false,
+      "childrenKey": "282e4516970bc69643dc001136c447540a4709e6"
+    },
+    {
+      "iri": "obo:OBI_1110046",
+      "label": "organ harvesting",
+      "hasChildren": false,
+      "childrenKey": "f71174df1c97cd8da9369238a560d6b2a233889c"
+    },
+    {
+      "iri": "obo:OBI_0002775",
+      "label": "platelet-poor plasma preparation process",
+      "hasChildren": false,
+      "childrenKey": "c95f0e64b0d9d59c1ab2ed89776aefb738e54f2c"
+    },
+    {
+      "iri": "obo:OBI_0600034",
+      "label": "precipitation",
+      "hasChildren": false,
+      "childrenKey": "1d53a81ea6baa94edc52dd7ca13749bbd8a9771e"
+    },
+    {
+      "iri": "obo:OBI_0600046",
+      "label": "preparative chromatography",
+      "hasChildren": true,
+      "childrenKey": "c993bda8df7ccd6057eaecba3f6ad5d1f0ab4c86"
+    },
+    {
+      "iri": "obo:OBI_0001505",
+      "label": "purification",
+      "hasChildren": true,
+      "childrenKey": "bf4c94a040bcb971f91f46df1aae99d49a64962b"
+    },
+    {
+      "iri": "obo:OBI_0003384",
+      "label": "synaptosome preparation process",
+      "hasChildren": false,
+      "childrenKey": "cc1f0ba362c1228a5cd934702eed535913937b70"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000426",
+  "children": [
+    {
+      "iri": "obo:OBI_0000431",
+      "label": "injection into organ section",
+      "hasChildren": false,
+      "childrenKey": "08fdbde6ccc2925818d74bf7bef356cf3f96fc8d"
+    },
+    {
+      "iri": "obo:OBI_0000942",
+      "label": "intradermal injection",
+      "hasChildren": false,
+      "childrenKey": "22920440e1ba2e6b20a72a1c7d7e3b6c1f4b068b"
+    },
+    {
+      "iri": "obo:OBI_0000934",
+      "label": "intramuscular injection",
+      "hasChildren": false,
+      "childrenKey": "3beb0f58b5809cf491ab2cf830499a70df8ddeac"
+    },
+    {
+      "iri": "obo:OBI_0000281",
+      "label": "intraperitoneal injection",
+      "hasChildren": false,
+      "childrenKey": "a36833bd2cbe9efa40dd1e3a19a15966909ba04a"
+    },
+    {
+      "iri": "obo:OBI_0000994",
+      "label": "intravenous injection",
+      "hasChildren": false,
+      "childrenKey": "27ab5fb70786c027afc2c512dd534b313612776f"
+    },
+    {
+      "iri": "obo:OBI_0000954",
+      "label": "subcutaneous injection",
+      "hasChildren": false,
+      "childrenKey": "6793817cec63c7af83f77147d2ac96dc529fc269"
+    }
+  ]
+}

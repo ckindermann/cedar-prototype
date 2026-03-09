@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002115",
+  "children": [
+    {
+      "iri": "obo:OBI_0003096",
+      "label": "imaging mass cytometry assay",
+      "hasChildren": false,
+      "childrenKey": "d96388cb2c07f6b505feacc3c0b4aaa39cda923b"
+    },
+    {
+      "iri": "obo:OBI_0003100",
+      "label": "multiplexed ion beam imaging assay",
+      "hasChildren": false,
+      "childrenKey": "c0d3c9db97625cf9c401cbeb2f0e8b732d055909"
+    }
+  ]
+}

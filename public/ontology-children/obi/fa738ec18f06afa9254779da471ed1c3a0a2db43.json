@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001187",
+  "children": [
+    {
+      "iri": "obo:OBI_0002680",
+      "label": "pseudovirus entry assay",
+      "hasChildren": false,
+      "childrenKey": "eb64b7964c7a85bf468d43d815e849902ed5d946"
+    }
+  ]
+}

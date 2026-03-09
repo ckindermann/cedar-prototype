@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000891",
+  "children": [
+    {
+      "iri": "obo:OBI_0000664",
+      "label": "BrdU incorporation assay",
+      "hasChildren": true,
+      "childrenKey": "3c370bd5de3d6c5985b8217bbba55e8def7a4786"
+    },
+    {
+      "iri": "obo:OBI_0003582",
+      "label": "cell proliferation assay using carboxyfluorescein succinimidyl ester staining",
+      "hasChildren": false,
+      "childrenKey": "c29a9982f9655071f1aaca1338f5c4ba059e1569"
+    },
+    {
+      "iri": "obo:OBI_0002947",
+      "label": "fluorescence imaging-based cell proliferation assay",
+      "hasChildren": false,
+      "childrenKey": "38a78e18923f92a3ca6082bd03fd630f49627611"
+    },
+    {
+      "iri": "obo:OBI_0000669",
+      "label": "tritiated thymidine incorporation assay",
+      "hasChildren": true,
+      "childrenKey": "9db4f17c1ed06e1b6915a28a9f7d6fab580c41b6"
+    }
+  ]
+}

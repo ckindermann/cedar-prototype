@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003465",
+  "children": [
+    {
+      "iri": "obo:OBI_0002051",
+      "label": "in vivo assay measuring B cell epitope specific protection from infectious challenge based on pathogen burden",
+      "hasChildren": true,
+      "childrenKey": "f5da6edc975e9d1cf646721b7a9851b37d70e9cb"
+    },
+    {
+      "iri": "obo:OBI_0003468",
+      "label": "in vivo assay measuring B cell epitope specific survival after pathogen challenge",
+      "hasChildren": true,
+      "childrenKey": "894f28fdfa0a805e9331590f75d974f7b95a3c83"
+    }
+  ]
+}

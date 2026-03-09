@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000134",
+  "children": [
+    {
+      "iri": "obo:OBI_0000232",
+      "label": "hardware optimization objective",
+      "hasChildren": false,
+      "childrenKey": "10b04755e0c46356bab3e96083a05202bbe784cd"
+    }
+  ]
+}

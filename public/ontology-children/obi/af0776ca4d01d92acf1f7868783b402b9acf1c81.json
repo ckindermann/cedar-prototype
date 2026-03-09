@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002444",
+  "children": [
+    {
+      "iri": "obo:OBI_0000275",
+      "label": "analyte role",
+      "hasChildren": false,
+      "childrenKey": "8a6d4d17398edf2985e6801768223a4e6ec82e68"
+    }
+  ]
+}

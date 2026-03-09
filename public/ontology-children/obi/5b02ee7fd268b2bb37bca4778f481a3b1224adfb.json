@@ -1,0 +1,84 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100036",
+  "children": [
+    {
+      "iri": "obo:OBI_2100304",
+      "label": "ABG/electrolytes arterial blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "da4d25ff975c0e9a518936b2ebe0c99368787ef3"
+    },
+    {
+      "iri": "obo:OBI_2100272",
+      "label": "ABL90 panel arterial blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "f639cef45d178066229f84b3eab20e04b8b68a3a"
+    },
+    {
+      "iri": "obo:OBI_2100290",
+      "label": "ABL90 panel venous blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "c6feca0887c46d9d6189f02a91f4eb04d05fc742"
+    },
+    {
+      "iri": "obo:OBI_2100386",
+      "label": "blood gas arterial blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "172000e53056ab07661be55330e15d60bbc95c70"
+    },
+    {
+      "iri": "obo:OBI_2100166",
+      "label": "blood gas venous blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "4e20b41110f3e5a4de5bfa1fa09d7a48749b3dee"
+    },
+    {
+      "iri": "obo:OBI_2100141",
+      "label": "cooximitery arterial blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "64603d157192f227768c727eeba7ec653cbd1078"
+    },
+    {
+      "iri": "obo:OBI_2100192",
+      "label": "GEM premier blood gas venous blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "38d7f6f299d1959e5b04ff9d4e81fcd996238384"
+    },
+    {
+      "iri": "obo:OBI_2100378",
+      "label": "GEM4 arterial blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "494c17fd6307ec825028aec6908eac5a3e55db65"
+    },
+    {
+      "iri": "obo:OBI_2100313",
+      "label": "GEM4000 ANLCOOX arterial blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "b1b9e9188ecd194d804e75524d9aaf93c0452b43"
+    },
+    {
+      "iri": "obo:OBI_2100125",
+      "label": "hemoglobin oxygen saturation arterial blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "86212793cb9b2bdb918ea9218b608b12f95a3b6c"
+    },
+    {
+      "iri": "obo:OBI_2100175",
+      "label": "non-vented blood gas arterial blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "ce412d50570cdc950632d64e3e899ae36a245aa3"
+    },
+    {
+      "iri": "obo:OBI_2100358",
+      "label": "venous blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "896ff2090126fca27233f89ec5d2ca0b3842d8a3"
+    },
+    {
+      "iri": "obo:OBI_2100184",
+      "label": "vented blood gas arterial blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "9c73a80a04444eb2d4252f6e9b5fb430a352e09e"
+    }
+  ]
+}

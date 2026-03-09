@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001928",
+  "children": [
+    {
+      "iri": "obo:OBI_0600008",
+      "label": "acquisition",
+      "hasChildren": true,
+      "childrenKey": "1646d4d4a9e53d0a6bbf5cc5a49d2cd524319ec5"
+    },
+    {
+      "iri": "obo:OBI_0600004",
+      "label": "human subject enrollment",
+      "hasChildren": false,
+      "childrenKey": "741360fc636501e4184c224eb62ab3f554d1fec8"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000456",
+  "children": [
+    {
+      "iri": "obo:OBI_0000996",
+      "label": "device creation objective",
+      "hasChildren": false,
+      "childrenKey": "1992a727bdbce3954b25e7ae581bc7f757493aa6"
+    },
+    {
+      "iri": "obo:OBI_0001153",
+      "label": "genetic transformation objective",
+      "hasChildren": false,
+      "childrenKey": "d143f8f129adf9190949321b28dd541e37304439"
+    },
+    {
+      "iri": "obo:OBI_0000458",
+      "label": "manufacturing objective",
+      "hasChildren": false,
+      "childrenKey": "03cfef5f5238e305e9bc21edd7369b3a9da572ca"
+    },
+    {
+      "iri": "obo:OBI_0000686",
+      "label": "material combination objective",
+      "hasChildren": true,
+      "childrenKey": "33754b2e522d57a2136d25533142557cda6b9945"
+    },
+    {
+      "iri": "obo:OBI_0000639",
+      "label": "material separation objective",
+      "hasChildren": true,
+      "childrenKey": "ad81987d178732c551822e9653381fbd8dd33513"
+    }
+  ]
+}

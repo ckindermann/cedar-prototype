@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0500007",
+  "children": [
+    {
+      "iri": "obo:OBI_0500012",
+      "label": "graeco latin square design",
+      "hasChildren": false,
+      "childrenKey": "80fb7d41c84577582eb4eb1698caf8c2f113e9ae"
+    },
+    {
+      "iri": "obo:OBI_0500013",
+      "label": "hyper graeco latin square design",
+      "hasChildren": false,
+      "childrenKey": "ab33bf225ec98fe1a64ee7aeb467f6307671979f"
+    },
+    {
+      "iri": "obo:OBI_0500011",
+      "label": "latin square design",
+      "hasChildren": false,
+      "childrenKey": "61c9afd5db2107e39e01185bcced48bfaf0d67bf"
+    }
+  ]
+}

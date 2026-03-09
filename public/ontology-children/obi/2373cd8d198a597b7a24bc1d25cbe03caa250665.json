@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001869",
+  "children": [
+    {
+      "iri": "obo:OBI_0002006",
+      "label": "1M-Duo Infinium HD BeadChip",
+      "hasChildren": false,
+      "childrenKey": "3fcd33ff92fe1b3e109a585c4df2124d5131958e"
+    },
+    {
+      "iri": "obo:OBI_0003401",
+      "label": "Illumina HumanHT-12 V4.0 expression beadchip",
+      "hasChildren": false,
+      "childrenKey": "9f49870830ecf8fa41ce101e989c4a66d67571b0"
+    },
+    {
+      "iri": "obo:OBI_0002130",
+      "label": "Illumina Infinium Omni5Exome-4 Kit",
+      "hasChildren": false,
+      "childrenKey": "fbe4f42b8914737ebf89db2000a3bed1203fd204"
+    },
+    {
+      "iri": "obo:OBI_0001870",
+      "label": "Illumina methylation BeadChip",
+      "hasChildren": true,
+      "childrenKey": "1d58cc8a7742b8606d254a8fe79412c827c8a8a8"
+    },
+    {
+      "iri": "obo:OBI_0003402",
+      "label": "Illumina MouseRef-8 v2.0 beadchip",
+      "hasChildren": false,
+      "childrenKey": "4bfd735e4d150d0255da8cc42cce19c429fdaed9"
+    }
+  ]
+}

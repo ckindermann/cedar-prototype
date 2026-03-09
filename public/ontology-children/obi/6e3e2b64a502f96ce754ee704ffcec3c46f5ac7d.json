@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003014",
+  "children": [
+    {
+      "iri": "obo:OBI_2100117",
+      "label": "venous blood uric acid assay",
+      "hasChildren": false,
+      "childrenKey": "88072cf3d28dceaca6c6d3b4662afb1929867156"
+    }
+  ]
+}

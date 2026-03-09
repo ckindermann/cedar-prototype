@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001719",
+  "children": [
+    {
+      "iri": "obo:OBI_0001733",
+      "label": "calorimetry assay measuring the association constant [KA] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "0d742676f854b48faee16cf5126c8b858ef0e974"
+    },
+    {
+      "iri": "obo:OBI_0001995",
+      "label": "chromatography assay measuring the association constant [KA] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "a8ddccb8c83806925e1457a53a28f55f98efb2c9"
+    },
+    {
+      "iri": "obo:OBI_0001735",
+      "label": "ELISA measuring the association constant [KA] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "fcee52564d23421462009b3511146635b9addb27"
+    },
+    {
+      "iri": "obo:OBI_0001732",
+      "label": "quenching assay measuring the association constant [KA] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "2227428fcbc56247d7ed1a0849b0e88e2a1a1414"
+    },
+    {
+      "iri": "obo:OBI_0001736",
+      "label": "RIA measuring the association constant [KA] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "e65536499c5ce1319f04463e982a1069946442a8"
+    },
+    {
+      "iri": "obo:OBI_0001730",
+      "label": "surface plasmon resonance assay measuring the association constant [KA] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "50a215efcb8e7d5f4a4591bc8169aba9120d0709"
+    }
+  ]
+}

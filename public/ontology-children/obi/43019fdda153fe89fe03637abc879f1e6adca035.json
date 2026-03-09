@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0302887",
+  "children": [
+    {
+      "iri": "obo:OBI_0003586",
+      "label": "Annexin V staining",
+      "hasChildren": false,
+      "childrenKey": "5da3f3f25de539872eb7fe27b14af00f44330731"
+    },
+    {
+      "iri": "obo:OBI_0003585",
+      "label": "carboxyfluorescein succinimidyl ester staining",
+      "hasChildren": false,
+      "childrenKey": "4358213b45f6d852709f547fed0478f5e8ef6787"
+    },
+    {
+      "iri": "obo:OBI_0002124",
+      "label": "H&E slide staining",
+      "hasChildren": false,
+      "childrenKey": "488c2ec34ebc523eaa17589c0b24e934ef9b1df3"
+    },
+    {
+      "iri": "obo:OBI_0002123",
+      "label": "IHC slide staining",
+      "hasChildren": false,
+      "childrenKey": "e9a63f3fe76acabe5bc21696e72d7bd11135cb00"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001190",
+  "children": [
+    {
+      "iri": "obo:OBI_0002636",
+      "label": "in vivo assay measuring B cell epitope specific disease reduction resulting from adoptive transfer of epitope specific antibodies or B cells",
+      "hasChildren": false,
+      "childrenKey": "f98157390b7cb50ca9cac6577981af0c80b79dbe"
+    },
+    {
+      "iri": "obo:OBI_0001697",
+      "label": "in vivo assay measuring B cell epitope specific treatment of disease",
+      "hasChildren": true,
+      "childrenKey": "427ce5cb7a2ffe692199dcdd3843ef895cee53bd"
+    },
+    {
+      "iri": "obo:OBI_0002635",
+      "label": "in vivo assay measuring T cell epitope specific disease reduction resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "8530e51d50447effdcd57ed5388be0b6b412bc62"
+    },
+    {
+      "iri": "obo:OBI_0001507",
+      "label": "in vivo assay measuring T cell epitope specific treatment of disease",
+      "hasChildren": true,
+      "childrenKey": "3895b284cca87965823facb9b7c49b11e2200a47"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002651",
+  "children": [
+    {
+      "iri": "obo:OBI_0002652",
+      "label": "computed tomography assisted biopsy",
+      "hasChildren": false,
+      "childrenKey": "e55bc2b25b7cb2a19d168092618f0c245ac8c624"
+    },
+    {
+      "iri": "obo:OBI_0002653",
+      "label": "ultrasound-guided needle biopsy",
+      "hasChildren": false,
+      "childrenKey": "2547fec267da156fd7faf5aa6df6bc1730a7e7ed"
+    }
+  ]
+}

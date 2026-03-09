@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000237",
+  "children": [
+    {
+      "iri": "obo:OBI_1110120",
+      "label": "assay antigen role",
+      "hasChildren": false,
+      "childrenKey": "35d003dbb13f079cbd7da94baca12a4eb48eb662"
+    }
+  ]
+}

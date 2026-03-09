@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003583",
+  "children": [
+    {
+      "iri": "obo:OBI_0003584",
+      "label": "cell viability assay using Annexin V staining",
+      "hasChildren": false,
+      "childrenKey": "d3685a7fcda475b03106ea9a7ad38715d9e8d3af"
+    }
+  ]
+}

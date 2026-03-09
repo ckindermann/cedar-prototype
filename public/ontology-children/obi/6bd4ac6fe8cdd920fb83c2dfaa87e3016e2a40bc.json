@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600050",
+  "children": [
+    {
+      "iri": "obo:OBI_0600055",
+      "label": "DNA restriction enzyme digestion",
+      "hasChildren": false,
+      "childrenKey": "34aa465aeeaaab095592bccd575a1d13b5f27873"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002907",
+  "children": [
+    {
+      "iri": "obo:OBI_0003051",
+      "label": "egg specimen collection process",
+      "hasChildren": false,
+      "childrenKey": "f44c1767df2ca07c0369de96de4efd4fda7d5046"
+    },
+    {
+      "iri": "obo:OBI_0003052",
+      "label": "larval specimen collection process",
+      "hasChildren": false,
+      "childrenKey": "1d5976e2bde3a9ba4e6547c401ea9684e9dde03c"
+    },
+    {
+      "iri": "obo:OBI_0003053",
+      "label": "pupal specimen collection process",
+      "hasChildren": false,
+      "childrenKey": "d003a9f1db029d9c903ae67e7dee5cc192db6044"
+    }
+  ]
+}

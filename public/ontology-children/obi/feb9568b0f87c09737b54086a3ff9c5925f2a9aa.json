@@ -1,0 +1,66 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000655",
+  "children": [
+    {
+      "iri": "obo:OBI_2000013",
+      "label": "arterial blood specimen",
+      "hasChildren": true,
+      "childrenKey": "fa95d42acc3242de56e31d18f65a31f584d399b6"
+    },
+    {
+      "iri": "obo:OBI_0002691",
+      "label": "arthropod meal of blood specimen",
+      "hasChildren": false,
+      "childrenKey": "0005d956f24b5e948782813e84c1559e22c960a3"
+    },
+    {
+      "iri": "obo:OBI_0100016",
+      "label": "blood plasma specimen",
+      "hasChildren": true,
+      "childrenKey": "8e80ffb4883ee6a4ac744c5ae13157e47d7df6c3"
+    },
+    {
+      "iri": "obo:OBI_0003054",
+      "label": "blood specimen in vacutainer",
+      "hasChildren": false,
+      "childrenKey": "bd6b5a9e8a1ebab4ad0bfb97fde608f6665a1870"
+    },
+    {
+      "iri": "obo:OBI_0003055",
+      "label": "blood specimen on filter paper",
+      "hasChildren": false,
+      "childrenKey": "d64b95950cbe8013e5720b3af793cc80b8657070"
+    },
+    {
+      "iri": "obo:OBI_2000015",
+      "label": "capillary blood specimen",
+      "hasChildren": false,
+      "childrenKey": "83a86b856d8de65af361d9c668da7a73b083a596"
+    },
+    {
+      "iri": "obo:OBI_0003415",
+      "label": "peripheral blood mononuclear cell specimen",
+      "hasChildren": false,
+      "childrenKey": "b4f2390eccf622777ed509609517660eda99267c"
+    },
+    {
+      "iri": "obo:OBI_0003380",
+      "label": "placental blood specimen",
+      "hasChildren": false,
+      "childrenKey": "cb53ba1cc1560b47e31f5d4f210e616bea832d81"
+    },
+    {
+      "iri": "obo:OBI_2000012",
+      "label": "umbilical cord blood specimen",
+      "hasChildren": false,
+      "childrenKey": "9c36e404c4c7f397f0b07ce38a2f83d8e9401d39"
+    },
+    {
+      "iri": "obo:OBI_2000014",
+      "label": "venous blood specimen",
+      "hasChildren": false,
+      "childrenKey": "bea8d8d2e5f8fc235d705bc391c82f72a95147fa"
+    }
+  ]
+}

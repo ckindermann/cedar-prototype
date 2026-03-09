@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000711",
+  "children": [
+    {
+      "iri": "obo:OBI_0001852",
+      "label": "paired-end library preparation",
+      "hasChildren": false,
+      "childrenKey": "428be4e992c194279ebb0c940cd26f72e17cb084"
+    },
+    {
+      "iri": "obo:OBI_0002028",
+      "label": "SAGE ditag library preparation",
+      "hasChildren": false,
+      "childrenKey": "dbe6d322972566fa51305669f8609c8f4f30cfda"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002165",
+  "children": [
+    {
+      "iri": "obo:OBI_0002167",
+      "label": "subcellular protein localization assay",
+      "hasChildren": false,
+      "childrenKey": "70cfc24b583c79b450186ed14d1414d67ac7f245"
+    },
+    {
+      "iri": "obo:OBI_0002166",
+      "label": "tissue-based protein localization assay",
+      "hasChildren": false,
+      "childrenKey": "632cff2e1153a2d8ae685c159d7829c550e70667"
+    }
+  ]
+}

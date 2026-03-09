@@ -1,0 +1,60 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001400",
+  "children": [
+    {
+      "iri": "obo:OBI_0001327",
+      "label": "assay measuring epitope specific lymphotoxin A production by T cells",
+      "hasChildren": true,
+      "childrenKey": "1de7a122c2bdfd455d0ecf924045befb446056d3"
+    },
+    {
+      "iri": "obo:OBI_0001607",
+      "label": "assay measuring epitope specific tumor necrosis factor (ligand) superfamily member 11 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "55d10b0ce18ac32897c8ac6d437638bcee7596ad"
+    },
+    {
+      "iri": "obo:OBI_0001416",
+      "label": "assay measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": true,
+      "childrenKey": "f4fd178d94b0d21cc58851cf709440d47accc93d"
+    },
+    {
+      "iri": "obo:OBI_0003488",
+      "label": "cell culture analyte detection bioassay measuring epitope specific tumor necrosis factor superfamily cytokine production by T cells",
+      "hasChildren": true,
+      "childrenKey": "0e9c4ac0e1732c9b19c755b028326c06509a2f22"
+    },
+    {
+      "iri": "obo:OBI_0001368",
+      "label": "cytometric bead array assay measuring epitope specific tumor necrosis factor superfamily cytokine production by T cells",
+      "hasChildren": true,
+      "childrenKey": "6ecdb1a9a883e4f847b167dd97dee5d1beb457a2"
+    },
+    {
+      "iri": "obo:OBI_0001788",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific tumor necrosis factor superfamily cytokine production by T cells",
+      "hasChildren": true,
+      "childrenKey": "0b3592548405bf40a73c29d0d3e46063ae13fc93"
+    },
+    {
+      "iri": "obo:OBI_0001246",
+      "label": "ELISA measuring epitope specific tumor necrosis factor superfamily cytokine production by T cells",
+      "hasChildren": true,
+      "childrenKey": "6923bc8c5699f7a40972b5713a8d4a6716021773"
+    },
+    {
+      "iri": "obo:OBI_0001272",
+      "label": "ELISPOT assay measuring epitope specific tumor necrosis factor superfamily cytokine production by T cells",
+      "hasChildren": true,
+      "childrenKey": "d019d097be5ec0228434ac88528e2e58c5531bcb"
+    },
+    {
+      "iri": "obo:OBI_0001385",
+      "label": "intracellular cytokine staining assay measuring epitope specific tumor necrosis factor superfamily cytokine production by T cells",
+      "hasChildren": true,
+      "childrenKey": "db6854672f1f8206994746404f1baee865e50896"
+    }
+  ]
+}

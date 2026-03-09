@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001555",
+  "children": [
+    {
+      "iri": "obo:OBI_0001534",
+      "label": "fluorescence detection assay measuring competitive binding of a purified-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "cd4aabc23afcddd38f9422ed320a9d4bcdd640d0"
+    },
+    {
+      "iri": "obo:OBI_0001590",
+      "label": "fluorescence detection assay measuring direct binding of a purified-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "0a798796ea0f287026d3831a12bf86136b54611a"
+    },
+    {
+      "iri": "obo:OBI_0001584",
+      "label": "phage display binding assay measuring binding of a purified-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "594e94f680fac8bc0e05d3c28e9168b3ee605a24"
+    },
+    {
+      "iri": "obo:OBI_0001513",
+      "label": "radioactivity detection assay measuring competitive binding of a purified-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "722e510d333876587a5e0cb713f12af764bc90e8"
+    },
+    {
+      "iri": "obo:OBI_0001608",
+      "label": "radioactivity detection assay measuring direct binding of a purified-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "727760545d3dff7fde76b718cf9f3310bbf38499"
+    }
+  ]
+}

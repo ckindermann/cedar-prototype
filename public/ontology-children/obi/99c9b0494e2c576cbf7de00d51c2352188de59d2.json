@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0100017",
+  "children": [
+    {
+      "iri": "obo:OBI_0003652",
+      "label": "albumin-free serum",
+      "hasChildren": false,
+      "childrenKey": "5a34f2d9bb1a599664eb47eb72a062b58238019c"
+    }
+  ]
+}

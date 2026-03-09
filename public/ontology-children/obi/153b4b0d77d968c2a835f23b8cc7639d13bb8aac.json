@@ -1,0 +1,90 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003064",
+  "children": [
+    {
+      "iri": "obo:OBI_0003244",
+      "label": "blood microbiology datum",
+      "hasChildren": true,
+      "childrenKey": "42730b1b5c8348a7bdd46763086b5cb70f6ae639"
+    },
+    {
+      "iri": "obo:OBI_0003579",
+      "label": "bone marrow microbiology datum",
+      "hasChildren": false,
+      "childrenKey": "c4acd11c052575044838a4257ed322329fc929c4"
+    },
+    {
+      "iri": "obo:OBI_0003253",
+      "label": "cerebrospinal fluid microbiology datum",
+      "hasChildren": false,
+      "childrenKey": "76e37230a428cb22ec6305e36522b2900fc2364e"
+    },
+    {
+      "iri": "obo:OBI_0003255",
+      "label": "endotracheal tube aspirate microbiology datum",
+      "hasChildren": true,
+      "childrenKey": "3f0a0599d65efd9dc0d37da31447c3a69260d75e"
+    },
+    {
+      "iri": "obo:OBI_0003246",
+      "label": "feces microbiology datum",
+      "hasChildren": true,
+      "childrenKey": "638c56602e50d2fc556d6cb15d8edaf95644fba8"
+    },
+    {
+      "iri": "obo:OBI_0003251",
+      "label": "induced sputum microbiology datum",
+      "hasChildren": true,
+      "childrenKey": "7bd0068d99268c105a0b3c652faae03f3eb3282e"
+    },
+    {
+      "iri": "obo:OBI_0003256",
+      "label": "lung microbiology datum",
+      "hasChildren": true,
+      "childrenKey": "a839fea422690f02ec57166960d2c4ac983bf4cf"
+    },
+    {
+      "iri": "obo:OBI_0003581",
+      "label": "nasal aspirate microbiology datum",
+      "hasChildren": false,
+      "childrenKey": "17121c3973c8deb1dce130f52c67a50471481dac"
+    },
+    {
+      "iri": "obo:OBI_0003257",
+      "label": "nasopharyngeal or oropharyngeal swab microbiology datum",
+      "hasChildren": true,
+      "childrenKey": "5f34befb3a6f72ce90ceab2183767e09a11d2ec0"
+    },
+    {
+      "iri": "obo:OBI_0003382",
+      "label": "placental blood microbiology datum",
+      "hasChildren": true,
+      "childrenKey": "78cf3910ed78fc8d45e500b1e91d06afbb284a00"
+    },
+    {
+      "iri": "obo:OBI_0003258",
+      "label": "pleural fluid microbiology datum",
+      "hasChildren": true,
+      "childrenKey": "af4be336b5bdc7ee8404224eb62831fc15373541"
+    },
+    {
+      "iri": "obo:OBI_0003577",
+      "label": "skin of body microbiology datum",
+      "hasChildren": false,
+      "childrenKey": "0fc0a2c15d6d2192d2f4bc5919fc57b67a86ea28"
+    },
+    {
+      "iri": "obo:OBI_0003260",
+      "label": "umbilical cord blood microbiology datum",
+      "hasChildren": true,
+      "childrenKey": "e43cc24b2ffd57c38bb9c8a267926edc222bfb47"
+    },
+    {
+      "iri": "obo:OBI_0003248",
+      "label": "urine microbiology datum",
+      "hasChildren": true,
+      "childrenKey": "1391f1869433266bc84931fcdd131a7699a9058c"
+    }
+  ]
+}

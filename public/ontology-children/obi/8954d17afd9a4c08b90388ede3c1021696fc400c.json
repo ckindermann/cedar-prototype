@@ -1,0 +1,438 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0500000",
+  "children": [
+    {
+      "iri": "obo:OBI_0001440",
+      "label": "all pairs design",
+      "hasChildren": false,
+      "childrenKey": "416937fe2937b9855813882c9a0c15476db2d083"
+    },
+    {
+      "iri": "obo:OBI_0001252",
+      "label": "array platform variation design",
+      "hasChildren": false,
+      "childrenKey": "fe32858e441077f9798a7ffe933c2510303a563f"
+    },
+    {
+      "iri": "obo:OBI_0002614",
+      "label": "birth cohort study design",
+      "hasChildren": false,
+      "childrenKey": "b24d3c5d188280576299faa48be4936274b5472d"
+    },
+    {
+      "iri": "obo:OBI_0002674",
+      "label": "case series design",
+      "hasChildren": false,
+      "childrenKey": "4818bbea39606a3b1acafb1165ef96b85f2f663b"
+    },
+    {
+      "iri": "obo:OBI_0002624",
+      "label": "case-control study design",
+      "hasChildren": false,
+      "childrenKey": "0d8232288da04edd13de9849b3709df6bbe2b67e"
+    },
+    {
+      "iri": "obo:OBI_0001205",
+      "label": "cell component comparison design",
+      "hasChildren": false,
+      "childrenKey": "d2dbdc192a4b27d1bdd9d07e643acc61095e59a9"
+    },
+    {
+      "iri": "obo:OBI_0001409",
+      "label": "cell cycle design",
+      "hasChildren": false,
+      "childrenKey": "7009659ac947e9dc821add26e496b14220780e9e"
+    },
+    {
+      "iri": "obo:OBI_0001429",
+      "label": "cell differentiation design",
+      "hasChildren": false,
+      "childrenKey": "d09a5584f7e0a4d027744862e315bc055fcf4847"
+    },
+    {
+      "iri": "obo:OBI_0001411",
+      "label": "cell type comparison design",
+      "hasChildren": false,
+      "childrenKey": "f46431435e06a350603675134bd81b132f49bd12"
+    },
+    {
+      "iri": "obo:OBI_0001365",
+      "label": "cellular process design",
+      "hasChildren": false,
+      "childrenKey": "cd3cd5627616aa9cbd4d1a6e5156c48e3d8edf7c"
+    },
+    {
+      "iri": "obo:OBI_0001337",
+      "label": "clinical history design",
+      "hasChildren": false,
+      "childrenKey": "50924789601d952f3b8d165fc911e1aa1a36bfd9"
+    },
+    {
+      "iri": "obo:OBI_0500001",
+      "label": "clinical study design",
+      "hasChildren": false,
+      "childrenKey": "7ae2c900609ebcfe7b640c1b3154c01f5f57cc54"
+    },
+    {
+      "iri": "obo:OBI_0001197",
+      "label": "comparative genome hybridization by array design",
+      "hasChildren": false,
+      "childrenKey": "10ea2f12d959c4b006170ce952d12f83d0eaa74a"
+    },
+    {
+      "iri": "obo:OBI_0001965",
+      "label": "decision analysis study design",
+      "hasChildren": false,
+      "childrenKey": "692fdcd9d2f5f8ced86ed25f8fd4fb5c9ee93141"
+    },
+    {
+      "iri": "obo:OBI_0002615",
+      "label": "disease specific study design",
+      "hasChildren": false,
+      "childrenKey": "8c05441f8224ef880358c4673946e490a1a0c32b"
+    },
+    {
+      "iri": "obo:OBI_0001293",
+      "label": "disease state design",
+      "hasChildren": false,
+      "childrenKey": "adb1188c73d6447e31134f2d441a530ab20fde42"
+    },
+    {
+      "iri": "obo:OBI_0001278",
+      "label": "DNA methylation profiling by array design",
+      "hasChildren": false,
+      "childrenKey": "db7f3f63dd0966e57098ae513f8a088e22a873aa"
+    },
+    {
+      "iri": "obo:OBI_0001435",
+      "label": "DNA methylation profiling by high throughput sequencing design",
+      "hasChildren": false,
+      "childrenKey": "3abef857a5399fe3e1a78e21276b25c2ac8e44ea"
+    },
+    {
+      "iri": "obo:OBI_0500017",
+      "label": "dye swap design",
+      "hasChildren": false,
+      "childrenKey": "5efb6a5fdca8d67b01092d1b7d096e7612e8ee42"
+    },
+    {
+      "iri": "obo:OBI_0001226",
+      "label": "environmental history design",
+      "hasChildren": false,
+      "childrenKey": "0b07c1a257ebc8bc3d53e34e571e527c946d391c"
+    },
+    {
+      "iri": "obo:OBI_0001211",
+      "label": "ex vivo design",
+      "hasChildren": false,
+      "childrenKey": "f9836a263ac94a980f05578dbf720806ae078c70"
+    },
+    {
+      "iri": "obo:OBI_0500014",
+      "label": "factorial design",
+      "hasChildren": true,
+      "childrenKey": "92c37d26afa1f8f5b9aff3f29f7ffe8bfd78061a"
+    },
+    {
+      "iri": "obo:OBI_0001329",
+      "label": "family history design",
+      "hasChildren": false,
+      "childrenKey": "c3145d74e5131238c793e6f7872c1e2f1a22f0ea"
+    },
+    {
+      "iri": "obo:OBI_0001444",
+      "label": "genotyping design",
+      "hasChildren": true,
+      "childrenKey": "ed2a90af0af08ec0355f6aaee6eddae9c5b75c86"
+    },
+    {
+      "iri": "obo:OBI_0001957",
+      "label": "hardware testing design",
+      "hasChildren": false,
+      "childrenKey": "24147fe5a97900b4d17177628083369edf2beac4"
+    },
+    {
+      "iri": "obo:OBI_0001408",
+      "label": "imprinting design",
+      "hasChildren": false,
+      "childrenKey": "05a5c5e9ad4d9bdff75f05cc12d3abcfe4f1e584"
+    },
+    {
+      "iri": "obo:OBI_0003291",
+      "label": "in silico design",
+      "hasChildren": false,
+      "childrenKey": "8bec0901b5564e7a9f4023e334bc5568116901b4"
+    },
+    {
+      "iri": "obo:OBI_0001285",
+      "label": "in vitro design",
+      "hasChildren": false,
+      "childrenKey": "29b6eb438e0d5e9f1bd94fb1c38531d6a31896d7"
+    },
+    {
+      "iri": "obo:OBI_0001199",
+      "label": "in vivo design",
+      "hasChildren": false,
+      "childrenKey": "6fb6383a1e5d2fe91b36e9d1fa33bf815920bd83"
+    },
+    {
+      "iri": "obo:OBI_0001448",
+      "label": "individual genetic characteristics comparison design",
+      "hasChildren": false,
+      "childrenKey": "245db81019c51e4d02632ebb7f2f4f2bef56703e"
+    },
+    {
+      "iri": "obo:OBI_0001374",
+      "label": "injury design",
+      "hasChildren": false,
+      "childrenKey": "946913c68100b707e13a053784d5fd458a6b90d7"
+    },
+    {
+      "iri": "obo:OBI_0001202",
+      "label": "innate behavior design",
+      "hasChildren": false,
+      "childrenKey": "e8deefc402c2c9e30b419cb1497ef2923f74f828"
+    },
+    {
+      "iri": "obo:OBI_0000115",
+      "label": "intervention design",
+      "hasChildren": true,
+      "childrenKey": "1565e964d1754d9793e3b45ddb438adfb332abb9"
+    },
+    {
+      "iri": "obo:OBI_0500009",
+      "label": "loop design",
+      "hasChildren": false,
+      "childrenKey": "1893e02ad808caff0300bf855db57dfa5931ef85"
+    },
+    {
+      "iri": "obo:OBI_0500005",
+      "label": "matched pairs design",
+      "hasChildren": false,
+      "childrenKey": "a11f87e0aa338b6e51ace689d6aee931cbf5e774"
+    },
+    {
+      "iri": "obo:OBI_0001323",
+      "label": "microRNA profiling by array design",
+      "hasChildren": false,
+      "childrenKey": "f168bf7719ca6cf05d93c270c2c55c94d1d62b1e"
+    },
+    {
+      "iri": "obo:OBI_0002590",
+      "label": "molecular interaction identification design",
+      "hasChildren": true,
+      "childrenKey": "6f6a0abacb55b9ebd9352b9ae377ae292c47f9ba"
+    },
+    {
+      "iri": "obo:OBI_0001214",
+      "label": "normalization testing design",
+      "hasChildren": false,
+      "childrenKey": "f122c950f672c8b7f14c8ea83fc6ff21e6d58bbc"
+    },
+    {
+      "iri": "obo:OBI_0300311",
+      "label": "observation design",
+      "hasChildren": false,
+      "childrenKey": "b00c54edc071f8efb362d3ed5be9a768ba42a4f2"
+    },
+    {
+      "iri": "obo:OBI_0001195",
+      "label": "operator variation design",
+      "hasChildren": false,
+      "childrenKey": "385269657390b00ae8acd0017eda574870879da4"
+    },
+    {
+      "iri": "obo:OBI_0001432",
+      "label": "operon identification design",
+      "hasChildren": false,
+      "childrenKey": "c3ef87d8e415e3df46b3d22c34465e2773ade3bc"
+    },
+    {
+      "iri": "obo:OBI_0001328",
+      "label": "organism development design",
+      "hasChildren": false,
+      "childrenKey": "876b58aa4a890672444d5625c87a30f8e1f56b2a"
+    },
+    {
+      "iri": "obo:OBI_0001422",
+      "label": "organism part comparison design",
+      "hasChildren": false,
+      "childrenKey": "70161c5752077ea3ff69d98cb860de830247f7ab"
+    },
+    {
+      "iri": "obo:OBI_0001377",
+      "label": "organism status comparison design",
+      "hasChildren": false,
+      "childrenKey": "a8e99531e19f3bc7a906c5c98c2f077b990e8697"
+    },
+    {
+      "iri": "obo:OBI_0500006",
+      "label": "parallel group design",
+      "hasChildren": false,
+      "childrenKey": "bbe4a41bdfe39943a3794af4f1e2e23ea9ed2d08"
+    },
+    {
+      "iri": "obo:OBI_0001454",
+      "label": "pathogenicity design",
+      "hasChildren": false,
+      "childrenKey": "acc38e479269e9bb3b5b5e65a29d87977e88d7d6"
+    },
+    {
+      "iri": "obo:OBI_0002945",
+      "label": "population based design",
+      "hasChildren": false,
+      "childrenKey": "62a43a0554ce5703618d1dd13cdd5334a7f0c2a2"
+    },
+    {
+      "iri": "obo:OBI_0001425",
+      "label": "protein binding site identification design",
+      "hasChildren": true,
+      "childrenKey": "589c79e287dfa506e0c912bee6322c8f4fe0be4f"
+    },
+    {
+      "iri": "obo:OBI_0001441",
+      "label": "proteomic profiling by array design",
+      "hasChildren": false,
+      "childrenKey": "a1457d5bb58043565c4b862fa47f95d7bfb618a6"
+    },
+    {
+      "iri": "obo:OBI_0002446",
+      "label": "proteomic profiling design",
+      "hasChildren": false,
+      "childrenKey": "6eaaf414e446ebfaead9021ba08dcfbd192a8d28"
+    },
+    {
+      "iri": "obo:OBI_0001401",
+      "label": "protocol optimization design",
+      "hasChildren": false,
+      "childrenKey": "b10956f5366742872926734bf3e47f34ed99ef61"
+    },
+    {
+      "iri": "obo:OBI_0001336",
+      "label": "quality control testing design",
+      "hasChildren": false,
+      "childrenKey": "198f46be701ba14be7f396d0e70b95bb5b439281"
+    },
+    {
+      "iri": "obo:OBI_0500010",
+      "label": "reference design",
+      "hasChildren": false,
+      "childrenKey": "446ed3fc03bb0ae2ce328dffb82225ef3f8edfef"
+    },
+    {
+      "iri": "obo:OBI_0500018",
+      "label": "replicate design",
+      "hasChildren": false,
+      "childrenKey": "f398c05e47a95915cc51daef82973d61e16a989e"
+    },
+    {
+      "iri": "obo:OBI_0003658",
+      "label": "ring trial design",
+      "hasChildren": false,
+      "childrenKey": "892eaba31d6028cd0763bf1590d83f5b35dcc057"
+    },
+    {
+      "iri": "obo:OBI_0001306",
+      "label": "RNA stability design",
+      "hasChildren": false,
+      "childrenKey": "c57a43df5071f8a69bdf081c0bc33068a1355a53"
+    },
+    {
+      "iri": "obo:OBI_0001286",
+      "label": "RNAi profiling by array design",
+      "hasChildren": false,
+      "childrenKey": "987635c8ac702840369ce1159b7b94255b5989ed"
+    },
+    {
+      "iri": "obo:OBI_0500019",
+      "label": "self vs self design",
+      "hasChildren": false,
+      "childrenKey": "42258ebc1923ceb35ce4670da8dc6bd392100310"
+    },
+    {
+      "iri": "obo:OBI_0001426",
+      "label": "sex comparison design",
+      "hasChildren": false,
+      "childrenKey": "c8ae97fcbd86f6c06881c7cd40b7d9ff18a80dbd"
+    },
+    {
+      "iri": "obo:OBI_0001310",
+      "label": "species comparison design",
+      "hasChildren": false,
+      "childrenKey": "fc4fb7535de8a799203928b25d7bf6dd1d8823c8"
+    },
+    {
+      "iri": "obo:OBI_0001464",
+      "label": "strain comparison design",
+      "hasChildren": false,
+      "childrenKey": "143021216dc7324d403f281b5f441828329b68dc"
+    },
+    {
+      "iri": "obo:OBI_0001958",
+      "label": "systematic review study design",
+      "hasChildren": false,
+      "childrenKey": "687dd2c07a97910fcaf4ccd5a062afcf0efdd196"
+    },
+    {
+      "iri": "obo:OBI_0500020",
+      "label": "time series design",
+      "hasChildren": false,
+      "childrenKey": "2df055a03145f11628488bf704b7020e8c5a91cd"
+    },
+    {
+      "iri": "obo:OBI_0001290",
+      "label": "transcription profiling by array design",
+      "hasChildren": false,
+      "childrenKey": "ebd843d78da4f8f5b7d41260b946d7bac7ca289a"
+    },
+    {
+      "iri": "obo:OBI_0001239",
+      "label": "transcription profiling by high throughput sequencing design",
+      "hasChildren": false,
+      "childrenKey": "8162eff30ac02cd407721790cfeb26174b58c9db"
+    },
+    {
+      "iri": "obo:OBI_0001313",
+      "label": "transcription profiling by RT-PCR design",
+      "hasChildren": false,
+      "childrenKey": "48980e347d135bec21e9ee01640985a64ff120a2"
+    },
+    {
+      "iri": "obo:OBI_0001427",
+      "label": "transcription profiling by tiling array design",
+      "hasChildren": false,
+      "childrenKey": "e2ca77d588d26185904ac015ea376668ea44b159"
+    },
+    {
+      "iri": "obo:OBI_0001430",
+      "label": "transcription profiling design",
+      "hasChildren": false,
+      "childrenKey": "9bc794da398d17910fd56ef365e92e649d0d9dd5"
+    },
+    {
+      "iri": "obo:OBI_0001410",
+      "label": "translation profiling design",
+      "hasChildren": false,
+      "childrenKey": "bed7ab679912ee015328ee14e126678a18cb9b87"
+    },
+    {
+      "iri": "obo:OBI_0001259",
+      "label": "translational bias design",
+      "hasChildren": false,
+      "childrenKey": "d229bb0566b7e926c75fa8d29444d1931a7a4175"
+    },
+    {
+      "iri": "obo:OBI_0001166",
+      "label": "validation by real time PCR design",
+      "hasChildren": false,
+      "childrenKey": "835707bcb4d8e450bc299364493cb81b0ead2ffd"
+    },
+    {
+      "iri": "obo:OBI_0001162",
+      "label": "validation by reverse transcription PCR design",
+      "hasChildren": false,
+      "childrenKey": "c0aacd0731581a8fa9596933d45bf8083a95c599"
+    }
+  ]
+}

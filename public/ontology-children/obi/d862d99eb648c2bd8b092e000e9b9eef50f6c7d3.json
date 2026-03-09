@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002814",
+  "children": [
+    {
+      "iri": "obo:OBI_0002822",
+      "label": "drag swab",
+      "hasChildren": false,
+      "childrenKey": "caae453a9f82188e79a2333d394c5ecd4172e695"
+    },
+    {
+      "iri": "obo:OBI_0002820",
+      "label": "specimen collection swab stick",
+      "hasChildren": true,
+      "childrenKey": "f123012e486af055c3bd0650cf8d35ee40e6d305"
+    },
+    {
+      "iri": "obo:OBI_0002819",
+      "label": "specimen pad",
+      "hasChildren": false,
+      "childrenKey": "ffc6fc4a28623a3780cc8346cb515433e797e1e0"
+    },
+    {
+      "iri": "obo:OBI_0002824",
+      "label": "surface wipe",
+      "hasChildren": false,
+      "childrenKey": "5eb83e43c79438dadd4b88696930285440193790"
+    }
+  ]
+}

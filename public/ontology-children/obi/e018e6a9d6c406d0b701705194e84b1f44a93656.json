@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001579",
+  "children": [
+    {
+      "iri": "obo:OBI_0001519",
+      "label": "fluorescence detection assay measuring direct binding of a cell-lysate-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "cc75881e220cea42b0fccd3dc00c672aa685c6d7"
+    },
+    {
+      "iri": "obo:OBI_0001556",
+      "label": "radioactivity detection assay measuring direct binding of a cell-lysate-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "65457c5b5967e65b3be3a884a44bef0d652a28a0"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003518",
+  "children": [
+    {
+      "iri": "obo:OBI_0003527",
+      "label": "gait assessment",
+      "hasChildren": false,
+      "childrenKey": "3fc721dec8dbc43bc074226ef7c7512b11e4ebee"
+    },
+    {
+      "iri": "obo:OBI_0003519",
+      "label": "sitting posture assessment",
+      "hasChildren": false,
+      "childrenKey": "52e917a48c933d4c12476a15ee39e16164ab030f"
+    },
+    {
+      "iri": "obo:OBI_0003520",
+      "label": "stance feet apart assessment",
+      "hasChildren": false,
+      "childrenKey": "5ed4645089ed8d7d3842a0f55d63a9d1b3350015"
+    },
+    {
+      "iri": "obo:OBI_0003521",
+      "label": "stance feet apart assessment, with eyes closed",
+      "hasChildren": false,
+      "childrenKey": "fb036c3064eccb6a81934c1addc46d37ae35398e"
+    },
+    {
+      "iri": "obo:OBI_0003522",
+      "label": "stance feet together assessment",
+      "hasChildren": false,
+      "childrenKey": "56f343aa0ef7179b1c7aeb51888f65e672e72424"
+    },
+    {
+      "iri": "obo:OBI_0003523",
+      "label": "stance feet together assessment, with eyes closed",
+      "hasChildren": false,
+      "childrenKey": "22e986ad599ffc91cb1c874f22ecd094d34e402b"
+    },
+    {
+      "iri": "obo:OBI_0003525",
+      "label": "stance on one foot assessment",
+      "hasChildren": false,
+      "childrenKey": "0af34b3ed6aa5e8394b948c548b73cd62ec7dbdc"
+    },
+    {
+      "iri": "obo:OBI_0003524",
+      "label": "tandem stance assessment",
+      "hasChildren": false,
+      "childrenKey": "183b7af706ad1154fa0fd5e32786f32ab9fb8112"
+    },
+    {
+      "iri": "obo:OBI_0003526",
+      "label": "tandem walk assessment",
+      "hasChildren": false,
+      "childrenKey": "d8a1147f0a3d323ac69da2fdde19e9294bf454dc"
+    }
+  ]
+}

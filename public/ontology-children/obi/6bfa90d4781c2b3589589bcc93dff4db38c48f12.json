@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002722",
+  "children": [
+    {
+      "iri": "obo:OBI_0002723",
+      "label": "insecticide resistance by ligase detection reaction-fluorescent microsphere assay",
+      "hasChildren": false,
+      "childrenKey": "298ad4ea53f9bc62ca93a447a1c91aa5bd770ad1"
+    }
+  ]
+}

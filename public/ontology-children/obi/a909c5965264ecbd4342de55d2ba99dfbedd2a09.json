@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003336",
+  "children": [
+    {
+      "iri": "obo:OBI_0003337",
+      "label": "resting state functional magnetic resonance image data set",
+      "hasChildren": false,
+      "childrenKey": "4b07c1d3fb4e2a6f3be466b90c3a0c8b250f3cce"
+    },
+    {
+      "iri": "obo:OBI_0003338",
+      "label": "task-based functional magnetic resonance image data set",
+      "hasChildren": false,
+      "childrenKey": "fa413027b8731dbb02f0030ea66c6c4fd89c741e"
+    }
+  ]
+}

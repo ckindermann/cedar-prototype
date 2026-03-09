@@ -1,0 +1,60 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600064",
+  "children": [
+    {
+      "iri": "obo:OBI_0000687",
+      "label": "nucleotide overhang cloning",
+      "hasChildren": false,
+      "childrenKey": "66e59fd2ff969db80df98c92eff709bb5c6940ad"
+    },
+    {
+      "iri": "obo:OBI_0000790",
+      "label": "recombinant BAC cloning",
+      "hasChildren": false,
+      "childrenKey": "2c1ac64ee45e5c9768e87dcf9246946063c07304"
+    },
+    {
+      "iri": "obo:OBI_0000799",
+      "label": "recombinant phage cloning",
+      "hasChildren": false,
+      "childrenKey": "d6e18160be42b70507da81ec891519383f7b9713"
+    },
+    {
+      "iri": "obo:OBI_0600042",
+      "label": "recombinant plasmid cloning",
+      "hasChildren": false,
+      "childrenKey": "dbcfeebf1150705c66e16ce7b07da1c876d9e5c2"
+    },
+    {
+      "iri": "obo:OBI_0000824",
+      "label": "recombinant YAC cloning",
+      "hasChildren": false,
+      "childrenKey": "7e5ad32a98f7b8730893c1eb39cc2f9aba576a18"
+    },
+    {
+      "iri": "obo:OBI_0000692",
+      "label": "recombination enzyme based cloning",
+      "hasChildren": false,
+      "childrenKey": "3d0e4ac9479c0d79d42e7b76f5a2c8f6194eb3ff"
+    },
+    {
+      "iri": "obo:OBI_0000738",
+      "label": "restriction enzyme based cloning",
+      "hasChildren": false,
+      "childrenKey": "cef01bfe2a082d5593023c52d1406e51acd166a0"
+    },
+    {
+      "iri": "obo:OBI_0600048",
+      "label": "vector mediated amplification",
+      "hasChildren": false,
+      "childrenKey": "eb179a616da9844c162cee10c4666334d7824794"
+    },
+    {
+      "iri": "obo:OBI_0600063",
+      "label": "vector mediated expression",
+      "hasChildren": false,
+      "childrenKey": "57d2fb2bff1a7d01408bf5c9d89a89095035a21f"
+    }
+  ]
+}

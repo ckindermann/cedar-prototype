@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100029",
+  "children": [
+    {
+      "iri": "obo:OBI_2100352",
+      "label": "bodily fluid triglyceride assay",
+      "hasChildren": false,
+      "childrenKey": "182793de1f227306a8fea4a68bdd37da5780a280"
+    },
+    {
+      "iri": "obo:OBI_2100241",
+      "label": "chem16 venous blood triglyceride assay",
+      "hasChildren": false,
+      "childrenKey": "643e714b2d271a60546120e1e034727e1202e33e"
+    },
+    {
+      "iri": "obo:OBI_2100399",
+      "label": "lipid panel reflex direct venous blood triglyceride assay",
+      "hasChildren": false,
+      "childrenKey": "308fe6a0ada6e07321b21a90fc2afe37877cf1d1"
+    },
+    {
+      "iri": "obo:OBI_2100112",
+      "label": "lipid panel venous blood triglyceride assay",
+      "hasChildren": false,
+      "childrenKey": "1c035950fdf502516e6360d5af8ad208d8906d18"
+    },
+    {
+      "iri": "obo:OBI_0003173",
+      "label": "triglyceride concentration assay",
+      "hasChildren": false,
+      "childrenKey": "e6595ddfc3070c0535cee592622295cc3aa25ca9"
+    },
+    {
+      "iri": "obo:OBI_2100264",
+      "label": "venous blood triglyceride assay",
+      "hasChildren": false,
+      "childrenKey": "c95394dc617db42c8329e767c69d40300bf838ea"
+    }
+  ]
+}

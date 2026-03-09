@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001155",
+  "children": [
+    {
+      "iri": "obo:OBI_0001525",
+      "label": "PDB file",
+      "hasChildren": false,
+      "childrenKey": "ddd1f9ba14a5bd0160bebf1df998c1d3b02afbd8"
+    },
+    {
+      "iri": "obo:OBI_0001596",
+      "label": "PDB file chain",
+      "hasChildren": false,
+      "childrenKey": "0b6e045432ba0572034fda63387dcb166a7ebb34"
+    }
+  ]
+}

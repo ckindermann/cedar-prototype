@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003117",
+  "children": [
+    {
+      "iri": "obo:OBI_0001145",
+      "label": "3D structure determination of bound molecular complex assay",
+      "hasChildren": true,
+      "childrenKey": "6771a83e3135aace5d4ba3c8d1522021d0c50a50"
+    },
+    {
+      "iri": "obo:OBI_0003118",
+      "label": "electron-microscopy 3D molecular structure determination assay",
+      "hasChildren": true,
+      "childrenKey": "f0503543cbb7132816645ea7f898426d4a1cf5eb"
+    },
+    {
+      "iri": "obo:OBI_0000182",
+      "label": "NMR 3D molecular structure determination assay",
+      "hasChildren": true,
+      "childrenKey": "0b6e28bf2c3ef090485b6463a18a40f0cb45026a"
+    },
+    {
+      "iri": "obo:OBI_0002108",
+      "label": "small-angle scattering 3D molecular structure determination assay",
+      "hasChildren": true,
+      "childrenKey": "33601658adfb5c04c0ea7f94e8deb81f0955a9ce"
+    },
+    {
+      "iri": "obo:OBI_0000912",
+      "label": "X-ray crystallography 3D molecular structure determination assay",
+      "hasChildren": true,
+      "childrenKey": "e1e11ad2817e5795f8ebd1a6800ea0869bb2f7d2"
+    }
+  ]
+}

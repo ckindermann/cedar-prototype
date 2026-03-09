@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001151",
+  "children": [
+    {
+      "iri": "obo:OBI_0302859",
+      "label": "genetically modified organism",
+      "hasChildren": true,
+      "childrenKey": "84f64c209ba1cea4b3a31410558d4c9c83fdac87"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000626",
+  "children": [
+    {
+      "iri": "obo:OBI_0000748",
+      "label": "bisulfite sequencing assay",
+      "hasChildren": true,
+      "childrenKey": "207304141c270e1bc035fb174b8280f53dd11074"
+    },
+    {
+      "iri": "obo:OBI_0001919",
+      "label": "Carbon-copy chromosome conformation capture assay",
+      "hasChildren": true,
+      "childrenKey": "b9be8839601e02421673b65c3fa05f1227934fc7"
+    },
+    {
+      "iri": "obo:OBI_0003033",
+      "label": "cleavage under targets and release using nuclease assay",
+      "hasChildren": false,
+      "childrenKey": "52d8a02c084f6a6017618f2c94d880813521ab01"
+    },
+    {
+      "iri": "obo:OBI_0003034",
+      "label": "cleavage under targets and tagmentation",
+      "hasChildren": false,
+      "childrenKey": "917bc1329cea5ade19f285128a4dcb5e61d040cc"
+    },
+    {
+      "iri": "obo:OBI_0000723",
+      "label": "DNA sequencing by ligation assay",
+      "hasChildren": true,
+      "childrenKey": "3d1edc390b909fb1f251a98b74513dd180640c32"
+    },
+    {
+      "iri": "obo:OBI_0000734",
+      "label": "DNA sequencing by synthesis assay",
+      "hasChildren": true,
+      "childrenKey": "e1dbca2fadc170028e80addd3d8f406a111ffffa"
+    },
+    {
+      "iri": "obo:OBI_0001853",
+      "label": "DNase I hypersensitive sites sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "6702983a2c4f18de4f85d94a58030c1b8334fb67"
+    },
+    {
+      "iri": "obo:OBI_0002118",
+      "label": "exome sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "05bfce9a2a74250fef6f822884463df703a5f756"
+    },
+    {
+      "iri": "obo:OBI_0002144",
+      "label": "extrachromosomal circular DNA sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "00a19ce6e50ac095d43f87e9f0c8058a9417b03b"
+    },
+    {
+      "iri": "obo:OBI_0003313",
+      "label": "genome architecture mapping assay",
+      "hasChildren": false,
+      "childrenKey": "765f60b0c4f2ba9ed1f8b47ac9a72bc7db5764d2"
+    },
+    {
+      "iri": "obo:OBI_0003412",
+      "label": "linked-read sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "d11005ed3f67b4f12b1053ce66a39b09cca1dab3"
+    },
+    {
+      "iri": "obo:OBI_0001861",
+      "label": "methylation-sensitive restriction enzyme sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "d2a244145938f65c8ff5efa52550572063164acf"
+    },
+    {
+      "iri": "obo:OBI_0001924",
+      "label": "micrococcal nuclease digestion followed by high throughput sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "effe00e825352f0c0bd3eff5588d7d6e18b3dcd0"
+    },
+    {
+      "iri": "obo:OBI_0003300",
+      "label": "nucleolus-associated domain sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "7fcf2fd96421b41cfe67e9c7c4e205724872badb"
+    },
+    {
+      "iri": "obo:OBI_2100402",
+      "label": "pooled clone sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "80deb8a51643e198ccae1e42c5daee08a5ff724a"
+    },
+    {
+      "iri": "obo:OBI_0001849",
+      "label": "structural analysis by paired-end tag sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "1d8adb584d1226b1a3b4462975f8fcc7d1480e82"
+    },
+    {
+      "iri": "obo:OBI_0003309",
+      "label": "transposase-mediated analysis of chromatin looping assay",
+      "hasChildren": false,
+      "childrenKey": "c42723c1de3d32fe29554f414ab241508707b83b"
+    },
+    {
+      "iri": "obo:OBI_0003297",
+      "label": "tyramide signal amplification sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "65d924f609bd39be8034c1c9360db1e7ab3a9493"
+    },
+    {
+      "iri": "obo:OBI_0002117",
+      "label": "whole genome sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "650653cb250270e1e4bc83ef77ac50c0da41d0ed"
+    },
+    {
+      "iri": "obo:OBI_0002623",
+      "label": "whole metagenome sequencing assay",
+      "hasChildren": true,
+      "childrenKey": "93d7949b35fba2dbe5f13b1c4ebc445d27996b4f"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001702",
+  "children": [
+    {
+      "iri": "obo:OBI_0001720",
+      "label": "B cell epitope specific immune complex formation",
+      "hasChildren": false,
+      "childrenKey": "c6905a779ac36fae072132a99b6f9d1b247b14f8"
+    }
+  ]
+}

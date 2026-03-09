@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003343",
+  "children": [
+    {
+      "iri": "obo:OBI_0003345",
+      "label": "baseline high resolution T1 weighted magnetic resonance image data set",
+      "hasChildren": false,
+      "childrenKey": "dc7d18b2d0829d1d40e7ee2a8bd527022f4fda90"
+    },
+    {
+      "iri": "obo:OBI_0003346",
+      "label": "follow-up high resolution T1 weighted magnetic resonance image data set",
+      "hasChildren": false,
+      "childrenKey": "9d903212cdcf8a6053e427bceabab4ec97bbe692"
+    },
+    {
+      "iri": "obo:OBI_0003344",
+      "label": "high resolution T1 weighted magnetic resonance image data set",
+      "hasChildren": false,
+      "childrenKey": "f760cf44f93b21eac4f2f4cd8f2f437a1d256366"
+    }
+  ]
+}

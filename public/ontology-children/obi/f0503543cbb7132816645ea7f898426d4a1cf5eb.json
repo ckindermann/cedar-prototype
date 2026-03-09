@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003118",
+  "children": [
+    {
+      "iri": "obo:OBI_0001646",
+      "label": "electron microscopy assay determining the 3D structure of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "8f2cb0539fd5b06edbaa9692b5c8f3c09768955f"
+    },
+    {
+      "iri": "obo:OBI_0003613",
+      "label": "electron microscopy assay determining the 3D structure of a MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "56ff830b9c6b57a69352ae79ebd86b38b0d485ed"
+    },
+    {
+      "iri": "obo:OBI_0003612",
+      "label": "electron microscopy assay determining the 3D structure of a T cell epitope:MHC:TCR complex",
+      "hasChildren": false,
+      "childrenKey": "1e2d53be1e365d40a217a0dd592f944380a2b41a"
+    }
+  ]
+}

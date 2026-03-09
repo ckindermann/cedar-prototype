@@ -1,0 +1,54 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002696",
+  "children": [
+    {
+      "iri": "obo:OBI_0002719",
+      "label": "insecticide resistance by amplification refractory mutation system assay",
+      "hasChildren": false,
+      "childrenKey": "87565a92d1638e7056098dd935a48a7615548054"
+    },
+    {
+      "iri": "obo:OBI_0002725",
+      "label": "insecticide resistance by fluorogenic PCR assay",
+      "hasChildren": false,
+      "childrenKey": "a5dd37f0e557d98aa9e937c8b7e24ac9f0d6f4e8"
+    },
+    {
+      "iri": "obo:OBI_0002722",
+      "label": "insecticide resistance by ligase detection reaction assay",
+      "hasChildren": true,
+      "childrenKey": "6bfa90d4781c2b3589589bcc93dff4db38c48f12"
+    },
+    {
+      "iri": "obo:OBI_0002721",
+      "label": "insecticide resistance by nested polymerase chain reaction assay",
+      "hasChildren": false,
+      "childrenKey": "a2c9cb281245add7ec72e92cec14ff8aa690da32"
+    },
+    {
+      "iri": "obo:OBI_0002724",
+      "label": "insecticide resistance by PCR amplification of specific alleles assay",
+      "hasChildren": false,
+      "childrenKey": "f7f8421a03eca26d291f6809a46ac8bbc712ad5b"
+    },
+    {
+      "iri": "obo:OBI_0002726",
+      "label": "insecticide resistance by PCR-RFLP assay",
+      "hasChildren": false,
+      "childrenKey": "c42811b5b6bed063513316b46943165387a4a941"
+    },
+    {
+      "iri": "obo:OBI_0002720",
+      "label": "insecticide resistance by primer introduced restriction analysis PCR assay",
+      "hasChildren": false,
+      "childrenKey": "0480f188a020bba2684314b17661a785dcc9b00b"
+    },
+    {
+      "iri": "obo:OBI_0002727",
+      "label": "insecticide resistance by short interspersed elements PCR assay",
+      "hasChildren": false,
+      "childrenKey": "cb7cba6d819cef510d234456901be80bda76bd00"
+    }
+  ]
+}

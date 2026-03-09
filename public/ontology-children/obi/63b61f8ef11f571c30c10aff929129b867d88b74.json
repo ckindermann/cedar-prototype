@@ -1,0 +1,72 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0500028",
+  "children": [
+    {
+      "iri": "obo:OBI_0002429",
+      "label": "blood transfusion exclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "28f854170d97e2ca4e70fabd097b0c3013f747a8"
+    },
+    {
+      "iri": "obo:OBI_0002424",
+      "label": "chemotherapy treatment exclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "b0038e391dd098f9a333dca85674757d92a913df"
+    },
+    {
+      "iri": "obo:OBI_0002426",
+      "label": "chemotherapy treatment within the recent past exclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "30001f761b4762b2808298bf970bda6380f667b6"
+    },
+    {
+      "iri": "obo:OBI_0002435",
+      "label": "exposure to blood borne infectious disease exclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "e83d82dfd7c3570972ae007e8379dbbc66ce1fd1"
+    },
+    {
+      "iri": "obo:OBI_0002430",
+      "label": "history of metastatic cancer exclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "8c4dcb23b79b3ff8b456f70f41f631fee648b927"
+    },
+    {
+      "iri": "obo:OBI_0002432",
+      "label": "history of sex with someone with a history of blood borne infection  exclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "3492e1e3cb5a8a0281e58aabc2da46677dae1416"
+    },
+    {
+      "iri": "obo:OBI_0002433",
+      "label": "history of sex with someone with a history of intravenous drugs exclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "6cffac9dfae358eba1f665c50cc3b74e4dfe59cd"
+    },
+    {
+      "iri": "obo:OBI_0002434",
+      "label": "HIV exclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "1489e87c337a161a71da0de5039b0d2035ac44f8"
+    },
+    {
+      "iri": "obo:OBI_0002431",
+      "label": "intravenous drug use exclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "c143d5991cfa67cdd34930c601473d503986f7ad"
+    },
+    {
+      "iri": "obo:OBI_0002425",
+      "label": "radiation treatment exclusion criteria",
+      "hasChildren": false,
+      "childrenKey": "fd08be11ba1fdb2cae1dad208528236c0d93d8ba"
+    },
+    {
+      "iri": "obo:OBI_0002427",
+      "label": "radiation treatment within the recent past exclusion criterion",
+      "hasChildren": false,
+      "childrenKey": "8197e8e886bda2f8d1d4cde945466f708062fbab"
+    }
+  ]
+}

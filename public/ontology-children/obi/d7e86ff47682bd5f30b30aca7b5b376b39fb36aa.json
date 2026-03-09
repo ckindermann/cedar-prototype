@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000518",
+  "children": [
+    {
+      "iri": "obo:OBI_0000562",
+      "label": "anion trap column",
+      "hasChildren": false,
+      "childrenKey": "ed824ba79c89dcc631d9f0f4de42a22358d5d5f4"
+    },
+    {
+      "iri": "obo:OBI_0000593",
+      "label": "cation trap column",
+      "hasChildren": false,
+      "childrenKey": "efb3db042f51955e2e7a1ad93b4515a918189be5"
+    }
+  ]
+}

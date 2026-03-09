@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600006",
+  "children": [
+    {
+      "iri": "obo:OBI_0000919",
+      "label": "animal euthanization",
+      "hasChildren": true,
+      "childrenKey": "19c547332c64f9db9f5eee94b3bc6727be1420d9"
+    },
+    {
+      "iri": "obo:OBI_0302894",
+      "label": "cell lysis",
+      "hasChildren": false,
+      "childrenKey": "67b67f1481a3eed5d94715434a1ffa37ae044e81"
+    }
+  ]
+}

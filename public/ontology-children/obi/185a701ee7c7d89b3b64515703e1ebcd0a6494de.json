@@ -1,0 +1,78 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000424",
+  "children": [
+    {
+      "iri": "obo:OBI_0001674",
+      "label": "cap analysis of gene expression assay",
+      "hasChildren": false,
+      "childrenKey": "631c77c46ec4269a355a72bec6266a1ab13b0002"
+    },
+    {
+      "iri": "obo:OBI_0003095",
+      "label": "decoding amplified targeted transcripts with fluorescence in situ hybridization assay",
+      "hasChildren": false,
+      "childrenKey": "2248c0ba060ad7cf51a10ef5a9a2489bfb517921"
+    },
+    {
+      "iri": "obo:OBI_0002965",
+      "label": "landmark transcript profiling assay",
+      "hasChildren": false,
+      "childrenKey": "496e8a299b0993ceb43afdd809dbeff1d34dd3d3"
+    },
+    {
+      "iri": "obo:OBI_0001926",
+      "label": "microRNA profiling assay",
+      "hasChildren": true,
+      "childrenKey": "5f9eef75cf3121f8ed59fbc19b51f078969ddc3f"
+    },
+    {
+      "iri": "obo:OBI_0001673",
+      "label": "nano-cap analysis of gene expression assay",
+      "hasChildren": false,
+      "childrenKey": "d341e27a0c31e07a6aaac39443f665e0989543d4"
+    },
+    {
+      "iri": "obo:OBI_0001864",
+      "label": "RNA Annotation and Mapping of Promoters for the Analysis of Gene Expression assay",
+      "hasChildren": false,
+      "childrenKey": "c443a6c2bcce12cb10af59735c7233c2052c158c"
+    },
+    {
+      "iri": "obo:OBI_0002029",
+      "label": "serial analysis of gene expression assay",
+      "hasChildren": false,
+      "childrenKey": "5847d6dc79566335079fa1702bb12dc4c83db27c"
+    },
+    {
+      "iri": "obo:OBI_0001850",
+      "label": "transcript analysis by paired-end tag sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "417920626e5661a2b705e8be4c78248625fb3280"
+    },
+    {
+      "iri": "obo:OBI_0001463",
+      "label": "transcription profiling by array assay",
+      "hasChildren": true,
+      "childrenKey": "238b5dc6bf812c349ec875cbb51892a0bccfa1d0"
+    },
+    {
+      "iri": "obo:OBI_0002015",
+      "label": "transcription profiling by MPSS assay",
+      "hasChildren": false,
+      "childrenKey": "7ef29a98b1f7f95f8aeb300c6b7316c2313c47b5"
+    },
+    {
+      "iri": "obo:OBI_0001361",
+      "label": "transcription profiling by RT-PCR assay",
+      "hasChildren": false,
+      "childrenKey": "24921496df5f87a632b0124732cb57937df9153a"
+    },
+    {
+      "iri": "obo:OBI_0002445",
+      "label": "transcription start site mapping by primer extension assay",
+      "hasChildren": false,
+      "childrenKey": "a0226653b409d3024f55c3e5f2a7f2ba0a68db80"
+    }
+  ]
+}

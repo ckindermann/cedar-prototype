@@ -1,0 +1,48 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0666666",
+  "children": [
+    {
+      "iri": "obo:OBI_0000859",
+      "label": "cytoplasmic RNA extraction",
+      "hasChildren": false,
+      "childrenKey": "911fb17fcbf7df2688ec702b8d4264fec1aeab11"
+    },
+    {
+      "iri": "obo:OBI_0000888",
+      "label": "nuclear RNA extraction",
+      "hasChildren": false,
+      "childrenKey": "cd7eb2eb38e6b24e579a06df01f88337a71e116f"
+    },
+    {
+      "iri": "obo:OBI_0000849",
+      "label": "organellar RNA extraction",
+      "hasChildren": false,
+      "childrenKey": "82cd38412ad630c1757c5645175fccdd98014c06"
+    },
+    {
+      "iri": "obo:OBI_0000848",
+      "label": "polyA RNA extraction",
+      "hasChildren": false,
+      "childrenKey": "42ec210c6403b536fa2912227238c3236c02f34d"
+    },
+    {
+      "iri": "obo:OBI_0002574",
+      "label": "RNA extraction with polyA depletion",
+      "hasChildren": false,
+      "childrenKey": "c0b5cfcbc06b83d33f0a4d937feea26912723f45"
+    },
+    {
+      "iri": "obo:OBI_0000855",
+      "label": "total RNA extraction",
+      "hasChildren": false,
+      "childrenKey": "b22975260ba6968cb82e68cfee97828e5e7b8f92"
+    },
+    {
+      "iri": "obo:OBI_0000407",
+      "label": "viral RNA extraction",
+      "hasChildren": false,
+      "childrenKey": "527dd7a69ace99b12e29df35c03aed84f7b0f90c"
+    }
+  ]
+}

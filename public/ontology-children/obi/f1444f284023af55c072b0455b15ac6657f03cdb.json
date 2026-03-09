@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003127",
+  "children": [
+    {
+      "iri": "obo:OBI_0001721",
+      "label": "3D molecular structure determination assay of an antigen:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "9ca66593260d23261b3d17e011ebfa316fa6f062"
+    },
+    {
+      "iri": "obo:OBI_1110127",
+      "label": "assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "6d9d5de980715825254d38862ee94a947704193d"
+    },
+    {
+      "iri": "obo:OBI_0001706",
+      "label": "assay measuring biological activity resulting from B cell epitope:antibody binding",
+      "hasChildren": true,
+      "childrenKey": "9e4b6c99892d8121b34c2b9517885e8283dc5184"
+    }
+  ]
+}

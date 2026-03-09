@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000592",
+  "children": [
+    {
+      "iri": "obo:OBI_0000538",
+      "label": "in-line filter",
+      "hasChildren": false,
+      "childrenKey": "e94d8ab28caeacbd714cfb96dbe03f227c869e7e"
+    },
+    {
+      "iri": "obo:OBI_0000543",
+      "label": "syringe filter",
+      "hasChildren": false,
+      "childrenKey": "becce040b92084a90c4a46dce27e5499365ba625"
+    }
+  ]
+}

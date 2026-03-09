@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400101",
+  "children": [
+    {
+      "iri": "obo:OBI_0400066",
+      "label": "logarithmic voltage amplifier",
+      "hasChildren": false,
+      "childrenKey": "565dc55b7fa75e717fd150745b58a1a5688d8afe"
+    },
+    {
+      "iri": "obo:OBI_0400087",
+      "label": "preamplifier",
+      "hasChildren": false,
+      "childrenKey": "5644c9775d3138f374acc7f72eb04f23e8022934"
+    }
+  ]
+}

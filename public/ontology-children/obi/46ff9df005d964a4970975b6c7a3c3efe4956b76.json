@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001699",
+  "children": [
+    {
+      "iri": "obo:OBI_0001648",
+      "label": "cross blocking assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "f8fe1cf0df5497fb1516e842263fae87c5d62a60"
+    }
+  ]
+}

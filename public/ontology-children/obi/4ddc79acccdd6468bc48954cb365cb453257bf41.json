@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000174",
+  "children": [
+    {
+      "iri": "obo:OBI_0002898",
+      "label": "cluster study group role",
+      "hasChildren": false,
+      "childrenKey": "3104ea8e2442c17f9388b0b49188921e2ea41abd"
+    },
+    {
+      "iri": "obo:OBI_0002899",
+      "label": "compound study group role",
+      "hasChildren": false,
+      "childrenKey": "52f5537c0af39d3a48a8953d092f84a1513e40d1"
+    }
+  ]
+}

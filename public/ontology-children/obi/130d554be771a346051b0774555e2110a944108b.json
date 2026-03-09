@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000415",
+  "children": [
+    {
+      "iri": "obo:OBI_0002598",
+      "label": "inverse polymerase chain reaction",
+      "hasChildren": false,
+      "childrenKey": "3635d6d1e64230643db13f98d420d03dd56d4c58"
+    },
+    {
+      "iri": "obo:OBI_0001914",
+      "label": "multiplex ligation-mediated amplification",
+      "hasChildren": false,
+      "childrenKey": "3be515c4dc2e68304e494f1673d69437b3e722aa"
+    },
+    {
+      "iri": "obo:OBI_0002684",
+      "label": "nested polymerase chain reaction",
+      "hasChildren": false,
+      "childrenKey": "ddd2a3425564cc9cb35613fdede0c62dba708855"
+    },
+    {
+      "iri": "obo:OBI_0002683",
+      "label": "short interspersed nuclear elements polymerase chain reaction",
+      "hasChildren": false,
+      "childrenKey": "aa155ae8d6fc6f1c6d93e6ff559f0f4386d68ace"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001118",
+  "children": [
+    {
+      "iri": "obo:OBI_0001083",
+      "label": "multichannel electronic pipette",
+      "hasChildren": false,
+      "childrenKey": "f283f51ecba7d95c176f801af09f8b30d1637eea"
+    }
+  ]
+}

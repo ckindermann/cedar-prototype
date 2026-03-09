@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002503",
+  "children": [
+    {
+      "iri": "obo:OBI_0002612",
+      "label": "fecal swab specimen",
+      "hasChildren": false,
+      "childrenKey": "598fcaf9b41ca97868b802706e15b489a59d2965"
+    },
+    {
+      "iri": "obo:OBI_2000011",
+      "label": "meconium specimen",
+      "hasChildren": false,
+      "childrenKey": "9518ab8341988270146e7bd39fa8ca0bdc51c266"
+    }
+  ]
+}

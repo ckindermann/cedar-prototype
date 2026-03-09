@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110108",
+  "children": [
+    {
+      "iri": "obo:OBI_0000737",
+      "label": "cloning vector",
+      "hasChildren": true,
+      "childrenKey": "c647967aac86912c46bbc119577e228862f7908c"
+    }
+  ]
+}

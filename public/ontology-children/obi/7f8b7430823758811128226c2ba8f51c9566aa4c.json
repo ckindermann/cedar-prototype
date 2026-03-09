@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002071",
+  "children": [
+    {
+      "iri": "obo:OBI_1110180",
+      "label": "3H-thymidine assay measuring epitope specific proliferation of T cells",
+      "hasChildren": false,
+      "childrenKey": "3a79d4289234f10a8236137c8dd627f90f23daf8"
+    },
+    {
+      "iri": "obo:OBI_1110181",
+      "label": "BrdU assay measuring epitope specific proliferation of T cells",
+      "hasChildren": false,
+      "childrenKey": "56c4e0c3c3d704ecf8137858b07a5c39f410a302"
+    },
+    {
+      "iri": "obo:OBI_0002096",
+      "label": "carboxyfluorescein succinimidyl ester staining assay measuring epitope specific proliferation of T cells",
+      "hasChildren": false,
+      "childrenKey": "60b3f360c800dc894906bc3f1e8187d0b98bc29e"
+    }
+  ]
+}

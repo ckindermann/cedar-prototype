@@ -1,0 +1,132 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001930",
+  "children": [
+    {
+      "iri": "obo:OBI_0002314",
+      "label": "clinical tumor stage group according to AJCC 7th edition",
+      "hasChildren": false,
+      "childrenKey": "dcd7d98d9a32d1c4b134270a93eb861122b64d4b"
+    },
+    {
+      "iri": "obo:OBI_0002205",
+      "label": "histologic grade according to AJCC 7th edition",
+      "hasChildren": false,
+      "childrenKey": "d703252b987767b5d6abebabe7830cdbe541ce88"
+    },
+    {
+      "iri": "obo:OBI_0002210",
+      "label": "histologic grade according to the Fuhrman Nuclear Grading System",
+      "hasChildren": false,
+      "childrenKey": "cf0a84904cefb0f32a7a54a9a3f64587055c0f87"
+    },
+    {
+      "iri": "obo:OBI_0002215",
+      "label": "histologic grade for ovarian tumor",
+      "hasChildren": true,
+      "childrenKey": "50e43f25d6c01986ec9dd6009a2d89bf02d706f2"
+    },
+    {
+      "iri": "obo:OBI_0003600",
+      "label": "hypertension grade",
+      "hasChildren": false,
+      "childrenKey": "31636a89c01eb6729ae622adfe2b43e99a7eaa1f"
+    },
+    {
+      "iri": "obo:OBI_0002326",
+      "label": "International Federation of Gynecology and Obstetrics cervical cancer stage value specification",
+      "hasChildren": false,
+      "childrenKey": "fca260169554d928199e00888c5a3dbf49b4744a"
+    },
+    {
+      "iri": "obo:OBI_0002341",
+      "label": "International Federation of Gynecology and Obstetrics ovarian cancer stage value specification",
+      "hasChildren": false,
+      "childrenKey": "45c9fe3c5d7c19c45c85a88a60161bc95b427caf"
+    },
+    {
+      "iri": "obo:OBI_0002756",
+      "label": "ordinal value specification",
+      "hasChildren": true,
+      "childrenKey": "5440c3f156362f43aa55baddddc6e901ceed4bd2"
+    },
+    {
+      "iri": "obo:OBI_0002290",
+      "label": "pathologic distant metastases stage for colon according to AJCC 7th edition",
+      "hasChildren": false,
+      "childrenKey": "c9df877e35a243f67969f639a46080d0d79f66ab"
+    },
+    {
+      "iri": "obo:OBI_0002306",
+      "label": "pathologic distant metastases stage for kidney according to AJCC 7th edition",
+      "hasChildren": false,
+      "childrenKey": "a869a8435d6f2e7caedd5d74ed2c9dbb02603282"
+    },
+    {
+      "iri": "obo:OBI_0002298",
+      "label": "pathologic distant metastases stage for lung according to AJCC 7th edition",
+      "hasChildren": false,
+      "childrenKey": "8a3a180737dc33d7ca9f9203b32700476607ab82"
+    },
+    {
+      "iri": "obo:OBI_0002310",
+      "label": "pathologic distant metastases stage for ovary according to AJCC 7th edition",
+      "hasChildren": false,
+      "childrenKey": "cc02ee4b1319b277773ac77d4e8a8264536aab90"
+    },
+    {
+      "iri": "obo:OBI_0002270",
+      "label": "pathologic lymph node stage for colon and rectum according to AJCC 7th edition",
+      "hasChildren": false,
+      "childrenKey": "b9a1fa17ef7eb100c63176840de625383db962c5"
+    },
+    {
+      "iri": "obo:OBI_0002284",
+      "label": "pathologic lymph node stage for kidney according to AJCC 7th edition",
+      "hasChildren": false,
+      "childrenKey": "c4aba26ff8f9f8a4b8aa5c394bfe82f6dabd182c"
+    },
+    {
+      "iri": "obo:OBI_0002279",
+      "label": "pathologic lymph node stage for lung according to AJCC 7th edition",
+      "hasChildren": false,
+      "childrenKey": "600b765d010c2a9538760396def19c8a275a5dbb"
+    },
+    {
+      "iri": "obo:OBI_0002287",
+      "label": "pathologic lymph node stage for ovary according to AJCC 7th edition",
+      "hasChildren": false,
+      "childrenKey": "0ef5d978cca6c8b20cf44c7c4eb17d5306380d5e"
+    },
+    {
+      "iri": "obo:OBI_0002224",
+      "label": "pathologic primary tumor stage for colon and rectum according to AJCC 7th edition",
+      "hasChildren": false,
+      "childrenKey": "fd0704dd20c4944555e169c6df78760e133a667e"
+    },
+    {
+      "iri": "obo:OBI_0002243",
+      "label": "pathologic primary tumor stage for kidney according to AJCC 7th edition",
+      "hasChildren": false,
+      "childrenKey": "164ebf956179060adfb39a61c6cd0bc1058edb8c"
+    },
+    {
+      "iri": "obo:OBI_0002232",
+      "label": "pathologic primary tumor stage for lung according to AJCC 7th edition",
+      "hasChildren": false,
+      "childrenKey": "431bcbd699c347825b45f5c2be8f860c91997546"
+    },
+    {
+      "iri": "obo:OBI_0002256",
+      "label": "pathologic primary tumor stage for ovary according to AJCC 7th edition",
+      "hasChildren": false,
+      "childrenKey": "e3335e02a986e3ef53831fec0452af4f81d2a054"
+    },
+    {
+      "iri": "obo:OBI_0002356",
+      "label": "performance status value specification",
+      "hasChildren": true,
+      "childrenKey": "b3dd7d3e32f8a1384e281bf10b07050c3ff316af"
+    }
+  ]
+}

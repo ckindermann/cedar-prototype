@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100015",
+  "children": [
+    {
+      "iri": "obo:OBI_2100302",
+      "label": "bone profile venous blood phosphate assay",
+      "hasChildren": false,
+      "childrenKey": "f44d670f262e2622bf5d09d4a60166ee27204684"
+    },
+    {
+      "iri": "obo:OBI_2100224",
+      "label": "chem11 venous blood phosphate assay",
+      "hasChildren": false,
+      "childrenKey": "28b214bcab9f23a3488ac36e83de50cc5b2fe1c9"
+    },
+    {
+      "iri": "obo:OBI_2100243",
+      "label": "chem16 venous blood phosphate assay",
+      "hasChildren": false,
+      "childrenKey": "8875bf302f38bd8ed45b289f400d8eb9d4460f4a"
+    },
+    {
+      "iri": "obo:OBI_0003167",
+      "label": "phosphate ion concentration assay",
+      "hasChildren": false,
+      "childrenKey": "4b46bc1e4f85d894cd3008afa301db7b75d456d6"
+    },
+    {
+      "iri": "obo:OBI_2100067",
+      "label": "venous blood phosphate assay",
+      "hasChildren": false,
+      "childrenKey": "f90e62334c422cbd9f6911b40b40501a433eed9c"
+    }
+  ]
+}

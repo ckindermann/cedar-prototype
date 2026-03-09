@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001173",
+  "children": [
+    {
+      "iri": "obo:OBI_0001551",
+      "label": "access service",
+      "hasChildren": false,
+      "childrenKey": "7c9cddb2c5c6c21f0406153f356acd5cf4457d84"
+    },
+    {
+      "iri": "obo:OBI_0001530",
+      "label": "data service",
+      "hasChildren": true,
+      "childrenKey": "8d8f1e22746362e4b7d011ed7ae6ba9d6f86108c"
+    },
+    {
+      "iri": "obo:OBI_0001528",
+      "label": "material service",
+      "hasChildren": true,
+      "childrenKey": "9ca43756bcdaf9bef3544ca551a1c2a7ad8887ae"
+    },
+    {
+      "iri": "obo:OBI_0001527",
+      "label": "support service",
+      "hasChildren": false,
+      "childrenKey": "9fe8dd0b3a936d9a41150d1a458f8eed20b05768"
+    },
+    {
+      "iri": "obo:OBI_0001538",
+      "label": "training service",
+      "hasChildren": false,
+      "childrenKey": "2f5252b2bbfa90f3e971f47805f51fb79de4121c"
+    }
+  ]
+}

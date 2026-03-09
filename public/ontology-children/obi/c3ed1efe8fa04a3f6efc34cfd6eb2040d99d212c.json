@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001570",
+  "children": [
+    {
+      "iri": "obo:OBI_0001787",
+      "label": "cytometric bead array assay measuring epitope specific vascular endothelial growth factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "2aa6d32239ba652386096840e985cff122f6a1ca"
+    },
+    {
+      "iri": "obo:OBI_0001766",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific vascular endothelial growth factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "2c631c693925ee792aa283841ed0620c50f7dcc3"
+    },
+    {
+      "iri": "obo:OBI_0001578",
+      "label": "ELISA measuring epitope specific vascular endothelial growth factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "eab7273ebe673282bf6160ddd7544091460292de"
+    },
+    {
+      "iri": "obo:OBI_0001771",
+      "label": "ELISPOT assay measuring epitope specific vascular endothelial growth factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "2ef32c31a7701f3c0397ac9fd1aa1b35b545ac83"
+    },
+    {
+      "iri": "obo:OBI_0001770",
+      "label": "intracellular cytokine staining assay measuring epitope specific vascular endothelial growth factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "01ccbacb496955740ba61aa90641436af80f57fa"
+    }
+  ]
+}

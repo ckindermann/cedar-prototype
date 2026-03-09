@@ -1,0 +1,66 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002800",
+  "children": [
+    {
+      "iri": "obo:OBI_0002806",
+      "label": "footwear cover",
+      "hasChildren": true,
+      "childrenKey": "5b30fefc9b1e6fb359bda74373e4d20f7e8543df"
+    },
+    {
+      "iri": "obo:OBI_0002802",
+      "label": "laboratory coat",
+      "hasChildren": false,
+      "childrenKey": "272b81b99266e9d4cab8618ab82626b750fd0e00"
+    },
+    {
+      "iri": "obo:OBI_0002813",
+      "label": "medical cap",
+      "hasChildren": false,
+      "childrenKey": "e4c9b74c899d80e39f19ee071813c1fe9613e32b"
+    },
+    {
+      "iri": "obo:OBI_0002796",
+      "label": "medical gown",
+      "hasChildren": true,
+      "childrenKey": "257cccdac9ae4b784451d707d53d98fdef75eb66"
+    },
+    {
+      "iri": "obo:OBI_0002792",
+      "label": "patient gown",
+      "hasChildren": true,
+      "childrenKey": "9e794cf862749a132bbf91178af6a76b251352c0"
+    },
+    {
+      "iri": "obo:OBI_0002799",
+      "label": "personal protective glove",
+      "hasChildren": true,
+      "childrenKey": "ad3fcdc4be8cee150db7100411f1ded5c752199a"
+    },
+    {
+      "iri": "obo:OBI_0002812",
+      "label": "protective apron",
+      "hasChildren": false,
+      "childrenKey": "0493194c9d01df51f1d91d78fcb984f94685653d"
+    },
+    {
+      "iri": "obo:OBI_0002810",
+      "label": "protective coverall",
+      "hasChildren": false,
+      "childrenKey": "fc8937c5c1f00dac63317075f5c498ade98b3a67"
+    },
+    {
+      "iri": "obo:OBI_0002811",
+      "label": "protective sleeve",
+      "hasChildren": false,
+      "childrenKey": "4a282a690974764367f7a9c65ead91eca7d620e1"
+    },
+    {
+      "iri": "obo:OBI_0002793",
+      "label": "scrubs",
+      "hasChildren": false,
+      "childrenKey": "d292cfe3505adc324bd9741c0ef2817ac86d6891"
+    }
+  ]
+}

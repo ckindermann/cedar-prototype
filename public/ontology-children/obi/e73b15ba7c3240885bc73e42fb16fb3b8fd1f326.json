@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100031",
+  "children": [
+    {
+      "iri": "obo:OBI_2100347",
+      "label": "bodily fluid cholesterol assay",
+      "hasChildren": false,
+      "childrenKey": "4562edab03a230dc6a96b108c021714e500ec71b"
+    },
+    {
+      "iri": "obo:OBI_0003152",
+      "label": "cholesterol concentration assay",
+      "hasChildren": false,
+      "childrenKey": "a714ce078fd5d35d313032ab40b15ea8ca25d36e"
+    },
+    {
+      "iri": "obo:OBI_2100400",
+      "label": "lipid panel reflex direct venous blood cholesterol assay",
+      "hasChildren": false,
+      "childrenKey": "8d96bbcc1cfadebf434afd07adbe74203ba91dbc"
+    },
+    {
+      "iri": "obo:OBI_2100114",
+      "label": "lipid panel venous blood cholesterol assay",
+      "hasChildren": false,
+      "childrenKey": "06eddebabc1cd468faf54a8e176e0f84b5341e7c"
+    },
+    {
+      "iri": "obo:OBI_2100263",
+      "label": "total venous blood cholesterol assay",
+      "hasChildren": false,
+      "childrenKey": "d2c11744eae46c15c2ceb43f60c796927880a60e"
+    }
+  ]
+}

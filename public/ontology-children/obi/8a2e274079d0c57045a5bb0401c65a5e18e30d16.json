@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001296",
+  "children": [
+    {
+      "iri": "obo:OBI_0001512",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-17A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "5b93b89d05491456a141d6d34914fed4e3708b7d"
+    },
+    {
+      "iri": "obo:OBI_0001523",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-17F production by T cells",
+      "hasChildren": false,
+      "childrenKey": "5be508828dd47e8ae57f02f8ad8da8df6a346993"
+    }
+  ]
+}

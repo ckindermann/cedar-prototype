@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001867",
+  "children": [
+    {
+      "iri": "obo:OBI_0000877",
+      "label": "cell line immortalization",
+      "hasChildren": false,
+      "childrenKey": "5176bbcb4ee60977b206d367bc7295bca9f45928"
+    },
+    {
+      "iri": "obo:OBI_0000867",
+      "label": "establishing cancer cell line",
+      "hasChildren": false,
+      "childrenKey": "b189451b5d55340d61f9aa7a76147f3869321028"
+    }
+  ]
+}

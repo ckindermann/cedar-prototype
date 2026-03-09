@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002787",
+  "children": [
+    {
+      "iri": "obo:OBI_0002789",
+      "label": "medical mask",
+      "hasChildren": false,
+      "childrenKey": "3e162d9ac27593a6a8ce35f12e0b20be6a0edab3"
+    },
+    {
+      "iri": "obo:OBI_0002790",
+      "label": "N95 respirator",
+      "hasChildren": true,
+      "childrenKey": "b7035eca4c5d4f210b97436521b6ba687d18709a"
+    },
+    {
+      "iri": "obo:OBI_0002788",
+      "label": "non-medical mask",
+      "hasChildren": false,
+      "childrenKey": "87896a8c9b38c0f1008b69ba64e5d069e5531f36"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000953",
+  "children": [
+    {
+      "iri": "obo:OBI_0100016",
+      "label": "blood plasma specimen",
+      "hasChildren": true,
+      "childrenKey": "8e80ffb4883ee6a4ac744c5ae13157e47d7df6c3"
+    },
+    {
+      "iri": "obo:OBI_0000924",
+      "label": "labeled specimen",
+      "hasChildren": true,
+      "childrenKey": "3f974fea0d28cd1862ea70c823e8195b9912a697"
+    },
+    {
+      "iri": "obo:OBI_0003666",
+      "label": "lavage fluid specimen",
+      "hasChildren": true,
+      "childrenKey": "6d99654367680322e91d3350c8314b1317d829f9"
+    },
+    {
+      "iri": "obo:OBI_1110041",
+      "label": "lymph node cell specimen",
+      "hasChildren": false,
+      "childrenKey": "9a2d2a67ac79462f33c21442a7c20087e51d907d"
+    },
+    {
+      "iri": "obo:OBI_0001010",
+      "label": "nucleic acid extract",
+      "hasChildren": true,
+      "childrenKey": "9731d6698026492decaef05c0a8b5488beac4f48"
+    },
+    {
+      "iri": "obo:OBI_0302716",
+      "label": "pool of specimens",
+      "hasChildren": false,
+      "childrenKey": "5db23f279c5b2c2f9c9dfffb35bf219e1d60031f"
+    },
+    {
+      "iri": "obo:OBI_1110116",
+      "label": "splenocyte specimen",
+      "hasChildren": false,
+      "childrenKey": "0c3256868a163b356e6aeebb9c977f800b0be56b"
+    },
+    {
+      "iri": "obo:OBI_1000049",
+      "label": "whole mount tissue",
+      "hasChildren": false,
+      "childrenKey": "064b7350c84b2cf2f488c13d3ecc7615fc524aa1"
+    }
+  ]
+}

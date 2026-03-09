@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002756",
+  "children": [
+    {
+      "iri": "obo:OBI_0002772",
+      "label": "presence or over-threshold value specification",
+      "hasChildren": false,
+      "childrenKey": "fd5e2274ae36b1a3eec8fe9ee7e7399d76997ca9"
+    }
+  ]
+}

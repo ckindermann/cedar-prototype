@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002200",
+  "children": [
+    {
+      "iri": "obo:OBI_0002202",
+      "label": "GX",
+      "hasChildren": false,
+      "childrenKey": "bde09708f7b023fa4be55f7734a2c604e2a5ae29"
+    },
+    {
+      "iri": "obo:OBI_0002204",
+      "label": "pNX",
+      "hasChildren": false,
+      "childrenKey": "7f2ca0617b193367b308ffe021c5fb6ca9a7c87f"
+    },
+    {
+      "iri": "obo:OBI_0002203",
+      "label": "pTX",
+      "hasChildren": false,
+      "childrenKey": "e8a6a6ce53b6f55529f73a72c700688cc05b3546"
+    }
+  ]
+}

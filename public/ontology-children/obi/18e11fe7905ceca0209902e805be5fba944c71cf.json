@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000429",
+  "children": [
+    {
+      "iri": "obo:OBI_0000281",
+      "label": "intraperitoneal injection",
+      "hasChildren": false,
+      "childrenKey": "a36833bd2cbe9efa40dd1e3a19a15966909ba04a"
+    }
+  ]
+}

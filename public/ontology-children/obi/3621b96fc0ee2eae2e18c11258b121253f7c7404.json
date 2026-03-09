@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003210",
+  "children": [
+    {
+      "iri": "obo:OBI_0003211",
+      "label": "nitrite concentration assay",
+      "hasChildren": false,
+      "childrenKey": "eade69b737800ff581640c17e2b6c5d96cd12b9c"
+    }
+  ]
+}

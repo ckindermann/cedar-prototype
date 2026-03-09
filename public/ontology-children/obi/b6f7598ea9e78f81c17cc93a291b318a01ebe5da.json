@@ -1,0 +1,288 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003115",
+  "children": [
+    {
+      "iri": "obo:OBI_0002133",
+      "label": "cytometric bead array assay measuring  epitope specific chemokine (C-C motif) ligand 20 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e494cde4bc56a6661a213a6f799ee6c47d364bf0"
+    },
+    {
+      "iri": "obo:OBI_0001828",
+      "label": "cytometric bead array assay measuring epitope specific chemokine (C-C motif) ligand 1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "844de903f8ca6c3ccf853f7219cb32469c804276"
+    },
+    {
+      "iri": "obo:OBI_0002061",
+      "label": "cytometric bead array assay measuring epitope specific chemokine (C-C motif) ligand 22 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "2fca8425c38747965591bc3046ac90c95f55bb20"
+    },
+    {
+      "iri": "obo:OBI_0001764",
+      "label": "cytometric bead array assay measuring epitope specific chemokine (C-C motif) ligand 4 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "a89bb9955d1b6b884f7b09fd6f03eb115887ac03"
+    },
+    {
+      "iri": "obo:OBI_0001754",
+      "label": "cytometric bead array assay measuring epitope specific chemokine (C-X-C motif) ligand 9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "d567b195aaf2ef386018a6632fc8eb483d5e6cd5"
+    },
+    {
+      "iri": "obo:OBI_0001397",
+      "label": "cytometric bead array assay measuring epitope specific granulocyte colony stimulating factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "32f5e3d8c13556ecfc21c04d7c9e648506247e70"
+    },
+    {
+      "iri": "obo:OBI_0003292",
+      "label": "cytometric bead array assay measuring epitope specific granulysin release by T cells",
+      "hasChildren": false,
+      "childrenKey": "b91ae52d8f601ccf215ef8f4021127b5084ea7de"
+    },
+    {
+      "iri": "obo:OBI_0002063",
+      "label": "cytometric bead array assay measuring epitope specific granzyme A release by T cells",
+      "hasChildren": false,
+      "childrenKey": "92bac3775cdf852ed28ac3ce7e9f6e2fb515c96d"
+    },
+    {
+      "iri": "obo:OBI_0002065",
+      "label": "cytometric bead array assay measuring epitope specific granzyme B release by T cells",
+      "hasChildren": false,
+      "childrenKey": "0b913ffe0f7b5e96969889c7b0ff6f137e861edf"
+    },
+    {
+      "iri": "obo:OBI_0001379",
+      "label": "cytometric bead array assay measuring epitope specific interferon-gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "f7ceb047efc04116617963a8bd191c5c7a26eabe"
+    },
+    {
+      "iri": "obo:OBI_0001747",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-1 alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b7dd3e4fabcf750dbb27830f41ac2c0edcb5c4ed"
+    },
+    {
+      "iri": "obo:OBI_0001223",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-1 beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "f5c55cc8d7ad889d78544a2cbf0e845be4cbabcd"
+    },
+    {
+      "iri": "obo:OBI_0001297",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-10 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "6617c5d0c8dbe514a4af6fe97cc4472316067c46"
+    },
+    {
+      "iri": "obo:OBI_0001284",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-12 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e68481876bf7c05b238a92753321029d250ef13a"
+    },
+    {
+      "iri": "obo:OBI_0001349",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-13 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3b7c7d4dfcdedcdcc90e8fb5d8e1390c94e52246"
+    },
+    {
+      "iri": "obo:OBI_0002664",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-15 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "0effd5ec946994e17cce2c4dc470c5943a0c7445"
+    },
+    {
+      "iri": "obo:OBI_0002665",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-16 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "534315648440b847b242afa2bb53d905f1565e14"
+    },
+    {
+      "iri": "obo:OBI_0001296",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-17 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "8a2e274079d0c57045a5bb0401c65a5e18e30d16"
+    },
+    {
+      "iri": "obo:OBI_0001512",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-17A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "5b93b89d05491456a141d6d34914fed4e3708b7d"
+    },
+    {
+      "iri": "obo:OBI_0001523",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-17F production by T cells",
+      "hasChildren": false,
+      "childrenKey": "5be508828dd47e8ae57f02f8ad8da8df6a346993"
+    },
+    {
+      "iri": "obo:OBI_0001835",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-18 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "1ca313f16e00b5f2eadcf0ec2ad2c4aaeb8a6218"
+    },
+    {
+      "iri": "obo:OBI_0001300",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-2 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "d1f5c8322b652eb5dd75fc41e71300d5c6adc576"
+    },
+    {
+      "iri": "obo:OBI_0001811",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-27 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e869ead9ceea8cbd7a94d373e0b47858c6d8a80e"
+    },
+    {
+      "iri": "obo:OBI_0001807",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-3 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b70159714fd3148958f680f3a2962320e92b8599"
+    },
+    {
+      "iri": "obo:OBI_0001326",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-4 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7c18bf2260c04144fa13320e53ea5c415c24b9f1"
+    },
+    {
+      "iri": "obo:OBI_0001289",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-5 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "6b2439faa654dbeeb5ecc343534115514b32e65a"
+    },
+    {
+      "iri": "obo:OBI_0001360",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-6 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "07a40db76becf9f9eab7e9deb464eb504e43e6ec"
+    },
+    {
+      "iri": "obo:OBI_0001585",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-7 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "2db0bf3ae228687b9532569b539efc876542116d"
+    },
+    {
+      "iri": "obo:OBI_0001457",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-8 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "acdfb851a648162d826e7544362454ab692d29d9"
+    },
+    {
+      "iri": "obo:OBI_0001532",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "5427c7dd26e5afc52bc43a540fb26f0d6a8db426"
+    },
+    {
+      "iri": "obo:OBI_0001601",
+      "label": "cytometric bead array assay measuring epitope specific intracellular cytokine staining (ICS) IL-21 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "f9aa37eb8bc1ffadb8b1fdc2ceceb83f5243d46e"
+    },
+    {
+      "iri": "obo:OBI_0001577",
+      "label": "cytometric bead array assay measuring epitope specific intracellular cytokine staining (ICS) IL-22 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "10abd3d2e8389c1c86121e78d4f3e2842951758f"
+    },
+    {
+      "iri": "obo:OBI_0001610",
+      "label": "cytometric bead array assay measuring epitope specific intracellular cytokine staining (ICS) IL-23 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7771983729596856f338398b643a2b96a5963557"
+    },
+    {
+      "iri": "obo:OBI_0001196",
+      "label": "cytometric bead array assay measuring epitope specific IP-10 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e17589d3a3194ffea0eb4a712e86d4f35a3ac57e"
+    },
+    {
+      "iri": "obo:OBI_0001793",
+      "label": "cytometric bead array assay measuring epitope specific lymphotoxin A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "72beb4c60d9c50510525da468c04d583d53c7162"
+    },
+    {
+      "iri": "obo:OBI_0001405",
+      "label": "cytometric bead array assay measuring epitope specific macrophage inflammatory protein-1 alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "d680dc1a3b5acf0e363ac193abc2d6394f016045"
+    },
+    {
+      "iri": "obo:OBI_0001781",
+      "label": "cytometric bead array assay measuring epitope specific macrophage inflammatory protein-1 gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "405eb38b27288e0db088a2f6b1cf1164d000187c"
+    },
+    {
+      "iri": "obo:OBI_0002067",
+      "label": "cytometric bead array assay measuring epitope specific macrophage migration inhibitory factor (MIF) production by T cells",
+      "hasChildren": false,
+      "childrenKey": "71a9e4cafec7d86aacaeb72b584ee8a5ac761984"
+    },
+    {
+      "iri": "obo:OBI_0001243",
+      "label": "cytometric bead array assay measuring epitope specific monocyte chemotactic protein-1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ad24f5c3eff1be5f5d9ff0060837ad64dc605b49"
+    },
+    {
+      "iri": "obo:OBI_0002068",
+      "label": "cytometric bead array assay measuring epitope specific oncostatin M production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b55d658e52da074ae32e38c5a2e2bd3127c5cce9"
+    },
+    {
+      "iri": "obo:OBI_0003293",
+      "label": "cytometric bead array assay measuring epitope specific perforin release by T cells",
+      "hasChildren": false,
+      "childrenKey": "477a852497a80368916bc761c67ae0fcc6590750"
+    },
+    {
+      "iri": "obo:OBI_0001412",
+      "label": "cytometric bead array assay measuring epitope specific RANTES production by T cells",
+      "hasChildren": false,
+      "childrenKey": "506f4fa84bc2987f0f6efe7d885530100fd02275"
+    },
+    {
+      "iri": "obo:OBI_0001210",
+      "label": "cytometric bead array assay measuring epitope specific transforming growth factor-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "03d342ae61ccdb3d49634e2e37fbc27e088b6ccd"
+    },
+    {
+      "iri": "obo:OBI_0001353",
+      "label": "cytometric bead array assay measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "bee19d7bf4c2678a5811b34683180acd30780a72"
+    },
+    {
+      "iri": "obo:OBI_0001368",
+      "label": "cytometric bead array assay measuring epitope specific tumor necrosis factor superfamily cytokine production by T cells",
+      "hasChildren": true,
+      "childrenKey": "6ecdb1a9a883e4f847b167dd97dee5d1beb457a2"
+    },
+    {
+      "iri": "obo:OBI_0001787",
+      "label": "cytometric bead array assay measuring epitope specific vascular endothelial growth factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "2aa6d32239ba652386096840e985cff122f6a1ca"
+    },
+    {
+      "iri": "obo:OBI_0001490",
+      "label": "cytometric bead array measuring epitope specific granulocyte macrophage colony-stimulating factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "8d28e1451fdf8803886bbd3963ce999597edcfd0"
+    }
+  ]
+}

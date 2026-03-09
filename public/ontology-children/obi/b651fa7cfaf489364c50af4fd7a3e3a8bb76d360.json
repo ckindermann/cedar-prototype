@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110051",
+  "children": [
+    {
+      "iri": "obo:OBI_1110052",
+      "label": "cultured CD4-/CD8- T cell population",
+      "hasChildren": false,
+      "childrenKey": "571322af51d544906d5f90cd2014c8d8dd153c63"
+    }
+  ]
+}

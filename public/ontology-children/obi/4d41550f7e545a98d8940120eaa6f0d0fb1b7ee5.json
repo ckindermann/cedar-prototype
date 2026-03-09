@@ -1,0 +1,288 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000047",
+  "children": [
+    {
+      "iri": "obo:OBI_0000439",
+      "label": "agarose gel",
+      "hasChildren": false,
+      "childrenKey": "361442faf0a85b1c214fa9def522095543910e4c"
+    },
+    {
+      "iri": "obo:OBI_0000809",
+      "label": "amplified DNA",
+      "hasChildren": true,
+      "childrenKey": "69db705abe3419d1316acff4aa04846926a48a30"
+    },
+    {
+      "iri": "obo:OBI_1000207",
+      "label": "assay bead",
+      "hasChildren": false,
+      "childrenKey": "8f3ca99386fadd6027cc1a833ac42eefb84a0e1e"
+    },
+    {
+      "iri": "obo:OBI_0000815",
+      "label": "Berichrom(r) Antithrombin III (A) Kit",
+      "hasChildren": false,
+      "childrenKey": "7e9e06076cb917c4c1a474e24d533a43c6178843"
+    },
+    {
+      "iri": "obo:OBI_0002754",
+      "label": "cDNA library",
+      "hasChildren": true,
+      "childrenKey": "4f86e06fa001a101ef3022fe72479fbbc50f16d7"
+    },
+    {
+      "iri": "obo:OBI_0001876",
+      "label": "cell culture",
+      "hasChildren": true,
+      "childrenKey": "e95438df2a0e1ae57195d4ef9f454470aa9ce8d3"
+    },
+    {
+      "iri": "obo:OBI_1000023",
+      "label": "cell culture supernatant",
+      "hasChildren": false,
+      "childrenKey": "d003f18cf0d6cb48c9f9784520b1f6d8f454828c"
+    },
+    {
+      "iri": "obo:OBI_0001912",
+      "label": "cell freezing medium",
+      "hasChildren": false,
+      "childrenKey": "28d1cb93b47a42c6c8be49bfc8b75e6c86188426"
+    },
+    {
+      "iri": "obo:OBI_1000036",
+      "label": "cell lysate",
+      "hasChildren": false,
+      "childrenKey": "8bb2a037bf9564cd159837edec76381d4fd28af0"
+    },
+    {
+      "iri": "obo:OBI_1000024",
+      "label": "cell pellet",
+      "hasChildren": false,
+      "childrenKey": "a9fd1ff6a309ace0b5ad6152da48dd78d402dae1"
+    },
+    {
+      "iri": "obo:OBI_0000737",
+      "label": "cloning vector",
+      "hasChildren": true,
+      "childrenKey": "c647967aac86912c46bbc119577e228862f7908c"
+    },
+    {
+      "iri": "obo:OBI_0000079",
+      "label": "culture medium",
+      "hasChildren": true,
+      "childrenKey": "b54caf84038a98afca4c04593ff9f1f41966cd23"
+    },
+    {
+      "iri": "obo:OBI_0100060",
+      "label": "cultured cell population",
+      "hasChildren": true,
+      "childrenKey": "6c35019dd0755e280c6b81c551d702b75b22a092"
+    },
+    {
+      "iri": "obo:OBI_0302837",
+      "label": "decapitated organism",
+      "hasChildren": false,
+      "childrenKey": "317e0671b8f6718672011fdc49d2f88779cd4725"
+    },
+    {
+      "iri": "obo:OBI_0002406",
+      "label": "delivery form for hormonal replacement therapy",
+      "hasChildren": true,
+      "childrenKey": "ddedd1787f02b0cf4ac4b0445254e89ece01e096"
+    },
+    {
+      "iri": "obo:OBI_0302835",
+      "label": "denatured polymer",
+      "hasChildren": false,
+      "childrenKey": "f6b90c96ebac210ad5c99ea9d16eed9f0684a8f9"
+    },
+    {
+      "iri": "obo:OBI_0000968",
+      "label": "device",
+      "hasChildren": true,
+      "childrenKey": "40aea3817c8c82b75de1b55af608cd4bad403170"
+    },
+    {
+      "iri": "obo:OBI_0000318",
+      "label": "eluate",
+      "hasChildren": false,
+      "childrenKey": "9ef5aea049ffd4684a12659589ee2bf5c5b76daa"
+    },
+    {
+      "iri": "obo:OBI_0002047",
+      "label": "enzyme-linked antibody",
+      "hasChildren": false,
+      "childrenKey": "ac5a5bb344102d4d035533db49f3789988036d92"
+    },
+    {
+      "iri": "obo:OBI_0100010",
+      "label": "Epstein Barr virus transformed B cell",
+      "hasChildren": false,
+      "childrenKey": "0098feec0ca9b68407b60a1a599fe192f07e71e0"
+    },
+    {
+      "iri": "obo:OBI_0002462",
+      "label": "ERCC RNA spike-in",
+      "hasChildren": false,
+      "childrenKey": "83524e4258bcabbaa438f3afcc6dc3e02c16cb49"
+    },
+    {
+      "iri": "obo:OBI_0000423",
+      "label": "extract",
+      "hasChildren": true,
+      "childrenKey": "19433d50170f7cd3de657352a5cac5c6b7c84193"
+    },
+    {
+      "iri": "obo:OBI_0001151",
+      "label": "genetically modified material",
+      "hasChildren": true,
+      "childrenKey": "d829597d9a8d284d10fe8aeb6286f974b8a11323"
+    },
+    {
+      "iri": "obo:OBI_0302847",
+      "label": "methylated polymer",
+      "hasChildren": false,
+      "childrenKey": "8b94fbdb2ac19262f4fe3db7b8370ca8a46bb35a"
+    },
+    {
+      "iri": "obo:OBI_0001936",
+      "label": "molecular-labeled material",
+      "hasChildren": true,
+      "childrenKey": "7ff502a33b3612a267d5a2533c7948e49aa49cff"
+    },
+    {
+      "iri": "obo:OBI_0001970",
+      "label": "multiplexed sequencing library",
+      "hasChildren": false,
+      "childrenKey": "fa799922288f413830ae661cc50b5b7c8e57d927"
+    },
+    {
+      "iri": "obo:OBI_0000735",
+      "label": "NTP-2000",
+      "hasChildren": false,
+      "childrenKey": "cf28f5055e49e2cc0b2acbac45d1e4afb840a68f"
+    },
+    {
+      "iri": "obo:OBI_0000742",
+      "label": "nucleic acid restriction enzyme digest",
+      "hasChildren": false,
+      "childrenKey": "447721f75f27e339d127b8ee18f9fe7c94fb12c2"
+    },
+    {
+      "iri": "obo:OBI_0003030",
+      "label": "oligonucleotide primer set",
+      "hasChildren": false,
+      "childrenKey": "dcff0d06f101624865d33dd8b68e8de0fa374754"
+    },
+    {
+      "iri": "obo:OBI_0100066",
+      "label": "organ section",
+      "hasChildren": false,
+      "childrenKey": "17889f349a20e51d6469f8b3bc78cdb8d8f85c06"
+    },
+    {
+      "iri": "obo:OBI_0000722",
+      "label": "paired-end library",
+      "hasChildren": false,
+      "childrenKey": "a9eadc52a794ac6d58422c99dc8d6ab2c45c2aec"
+    },
+    {
+      "iri": "obo:OBI_0400081",
+      "label": "particle delivery vessel",
+      "hasChildren": true,
+      "childrenKey": "74861e8c8937fbda9eca2111d56f3c83fd788211"
+    },
+    {
+      "iri": "obo:OBI_1000042",
+      "label": "peptide construct",
+      "hasChildren": false,
+      "childrenKey": "0e2efc10600ddcfbe8518ae7a815cf2c7678d0fd"
+    },
+    {
+      "iri": "obo:OBI_0000044",
+      "label": "physical document",
+      "hasChildren": false,
+      "childrenKey": "1b54f60d04b1a28c35c38557b9069539e1cdd6cb"
+    },
+    {
+      "iri": "obo:OBI_0400085",
+      "label": "piezo electric crystal",
+      "hasChildren": false,
+      "childrenKey": "99e82d6f1527a0db8cc3d4ca01da9fb7fa0fe678"
+    },
+    {
+      "iri": "obo:OBI_0000827",
+      "label": "pill",
+      "hasChildren": true,
+      "childrenKey": "347f2e7da27b149cc1ba83c65505dfa0c43a3370"
+    },
+    {
+      "iri": "obo:OBI_0000432",
+      "label": "polyacrylamide gel",
+      "hasChildren": false,
+      "childrenKey": "53e76060e36af01949835a1869e8f6dcc6b573ff"
+    },
+    {
+      "iri": "obo:OBI_0000286",
+      "label": "precipitate",
+      "hasChildren": false,
+      "childrenKey": "926c03bcb3ac9029061aa8ae0e38c6c29ec869b8"
+    },
+    {
+      "iri": "obo:OBI_0000953",
+      "label": "processed specimen",
+      "hasChildren": true,
+      "childrenKey": "32d6a522fd9bdadfcd9a8f9f7c6824121f607eff"
+    },
+    {
+      "iri": "obo:OBI_0001633",
+      "label": "purified material",
+      "hasChildren": true,
+      "childrenKey": "6678ac480902dcea7c698f8dca64284703b30bf8"
+    },
+    {
+      "iri": "obo:OBI_0001879",
+      "label": "reagent",
+      "hasChildren": true,
+      "childrenKey": "7da6ebc0f99552adef0bd8d42b9a20071be07246"
+    },
+    {
+      "iri": "obo:OBI_0000731",
+      "label": "recombinant vector",
+      "hasChildren": true,
+      "childrenKey": "154dc3828ad476b91e5ae5d8fa15915f1dc5a63c"
+    },
+    {
+      "iri": "obo:OBI_0100064",
+      "label": "screening library",
+      "hasChildren": false,
+      "childrenKey": "cf4fdac1631d698c5847700598da569e4b01ad60"
+    },
+    {
+      "iri": "obo:OBI_0000736",
+      "label": "single fragment library",
+      "hasChildren": false,
+      "childrenKey": "58d1203ab1338e9c96510d17185212573ca32df0"
+    },
+    {
+      "iri": "obo:OBI_0002463",
+      "label": "SIRV RNA spike-in",
+      "hasChildren": false,
+      "childrenKey": "602d7e14c2fd9dab0474ae25b843fa718684961e"
+    },
+    {
+      "iri": "obo:OBI_0100065",
+      "label": "synthetic peptide",
+      "hasChildren": false,
+      "childrenKey": "0a2ff2dfae9bce9f1c9375f5a0aa6cd349c4ca80"
+    },
+    {
+      "iri": "obo:OBI_0100058",
+      "label": "xenograft",
+      "hasChildren": false,
+      "childrenKey": "56c362d83b580ae8db2fcea102e4ecae21bccc75"
+    }
+  ]
+}

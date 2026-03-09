@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000131",
+  "children": [
+    {
+      "iri": "obo:OBI_0001917",
+      "label": "chromosome conformation identification objective",
+      "hasChildren": false,
+      "childrenKey": "e37a2a83c5d295a6f0351f65950c32c96d186f10"
+    },
+    {
+      "iri": "obo:OBI_0001916",
+      "label": "DNA replication identification objective",
+      "hasChildren": false,
+      "childrenKey": "7dbbec866876dd9fc05d4639822f66ba95ef4c56"
+    },
+    {
+      "iri": "obo:OBI_0001234",
+      "label": "epigenetic modification identification objective",
+      "hasChildren": false,
+      "childrenKey": "4461e00797829237d096dfd8f741a0b6c87f9b77"
+    },
+    {
+      "iri": "obo:OBI_0001331",
+      "label": "transcription profiling identification objective",
+      "hasChildren": true,
+      "childrenKey": "01ac950417ca455e828fd3013b1b1dbd629a6998"
+    }
+  ]
+}

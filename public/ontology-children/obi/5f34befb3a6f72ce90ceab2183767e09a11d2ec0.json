@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003257",
+  "children": [
+    {
+      "iri": "obo:OBI_0003275",
+      "label": "bacteria in nasopharyngeal or oropharyngeal swab datum",
+      "hasChildren": false,
+      "childrenKey": "b0b174f400cad56311fff672b544cfd8dd00a2bd"
+    },
+    {
+      "iri": "obo:OBI_0003276",
+      "label": "eukaryota in nasopharyngeal or oropharyngeal swab datum",
+      "hasChildren": false,
+      "childrenKey": "80410ee943ea1711aa1aa0c52c5c4b4d7a3cb474"
+    },
+    {
+      "iri": "obo:OBI_0003277",
+      "label": "virus in nasopharyngeal or oropharyngeal swab datum",
+      "hasChildren": false,
+      "childrenKey": "02585c59f9e2dcaab21da3800453308b026ba32c"
+    }
+  ]
+}

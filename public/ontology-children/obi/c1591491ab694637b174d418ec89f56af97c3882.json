@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002043",
+  "children": [
+    {
+      "iri": "obo:OBI_0002111",
+      "label": "enhanced cross-linking immunoprecipitation high-throughput sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "4eb176aff3ce3c3fe19f78ab1f57a7c1ef5e736a"
+    }
+  ]
+}

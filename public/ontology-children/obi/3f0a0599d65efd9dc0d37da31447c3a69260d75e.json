@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003255",
+  "children": [
+    {
+      "iri": "obo:OBI_0003271",
+      "label": "bacteria in endotracheal tube aspirate datum",
+      "hasChildren": false,
+      "childrenKey": "563fdaf8bedfbb6ea9a8fc5dbf9af2f1945c782e"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002452",
+  "children": [
+    {
+      "iri": "obo:OBI_0002451",
+      "label": "ELISA measuring epitope specific interferon-alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b0c53419749276d0a721f63513cd3442c648fbcd"
+    }
+  ]
+}

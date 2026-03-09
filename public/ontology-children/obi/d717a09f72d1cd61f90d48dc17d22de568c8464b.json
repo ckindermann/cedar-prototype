@@ -1,0 +1,66 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100018",
+  "children": [
+    {
+      "iri": "obo:OBI_2100246",
+      "label": "chem16 venous blood bilirubin assay",
+      "hasChildren": false,
+      "childrenKey": "08d3324571a2f43a4348a45a14e133e5db39b42c"
+    },
+    {
+      "iri": "obo:OBI_2100155",
+      "label": "comprehensive metabolic panel venous blood bilirubin assay",
+      "hasChildren": false,
+      "childrenKey": "224ccb5ea8064f4425a0363b60d28fbad1000299"
+    },
+    {
+      "iri": "obo:OBI_0003180",
+      "label": "direct bilirubin concentration assay",
+      "hasChildren": false,
+      "childrenKey": "f20e988d51171d4767bb03dc10bffdb612866727"
+    },
+    {
+      "iri": "obo:OBI_2100349",
+      "label": "direct venous blood bilirubin assay",
+      "hasChildren": false,
+      "childrenKey": "cf20226ba5dc4692600c68b05e4ab9450ca989d7"
+    },
+    {
+      "iri": "obo:OBI_2100213",
+      "label": "hepatic panel venous blood bilirubin assay",
+      "hasChildren": false,
+      "childrenKey": "6a0b1500c49d58937f567ad842c45f9625a8c303"
+    },
+    {
+      "iri": "obo:OBI_0003181",
+      "label": "indirect bilirubin concentration assay",
+      "hasChildren": false,
+      "childrenKey": "418b674288300fc00bddcba93997eeb726d3a9bd"
+    },
+    {
+      "iri": "obo:OBI_2100080",
+      "label": "liver evaluation venous blood bilirubin assay",
+      "hasChildren": false,
+      "childrenKey": "25f5eb1cc0eadb8318bf1c8895df925448eb2c43"
+    },
+    {
+      "iri": "obo:OBI_2100338",
+      "label": "liver function venous blood bilirubin assay",
+      "hasChildren": false,
+      "childrenKey": "4d0d39dc50ee333abb6088a15ddcf18d93a09099"
+    },
+    {
+      "iri": "obo:OBI_2100070",
+      "label": "liver injury venous blood bilirubin assay",
+      "hasChildren": false,
+      "childrenKey": "cbdb19ce33c2b650724d185fcfb0023653db288a"
+    },
+    {
+      "iri": "obo:OBI_0003182",
+      "label": "total bilirubin concentration assay",
+      "hasChildren": false,
+      "childrenKey": "28bfa82df18fc3337b3690de02bb5dce855186a6"
+    }
+  ]
+}

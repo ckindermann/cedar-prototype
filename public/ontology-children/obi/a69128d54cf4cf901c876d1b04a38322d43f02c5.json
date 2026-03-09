@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100040",
+  "children": [
+    {
+      "iri": "obo:OBI_2100308",
+      "label": "ABL90 panel arterial blood methemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "a759238eb0e4597a267b987839a3bf4d3dda36ba"
+    },
+    {
+      "iri": "obo:OBI_2100307",
+      "label": "ABL90 panel venous blood methemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "3431f406d3dee1051452d2e0bb452e4fa6149c4e"
+    },
+    {
+      "iri": "obo:OBI_2100143",
+      "label": "cooximitery arterial blood methemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "b815df967058beebd888a53cfc3200351edf7132"
+    },
+    {
+      "iri": "obo:OBI_0003163",
+      "label": "methemoglobin percentage assay",
+      "hasChildren": false,
+      "childrenKey": "93f92e643c1c4b71da0b4d951d0e0947445c8357"
+    }
+  ]
+}

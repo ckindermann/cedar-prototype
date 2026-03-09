@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400083",
+  "children": [
+    {
+      "iri": "obo:OBI_0400011",
+      "label": "avalanche photodiode",
+      "hasChildren": false,
+      "childrenKey": "a3a80adbe9dfef87c20e37e15fcbbddae3d52a9a"
+    }
+  ]
+}

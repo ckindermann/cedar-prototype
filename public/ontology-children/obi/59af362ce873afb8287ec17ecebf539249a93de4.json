@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600036",
+  "children": [
+    {
+      "iri": "obo:OBI_0001867",
+      "label": "establishing cell line",
+      "hasChildren": true,
+      "childrenKey": "e11be68eef4b25c59791eded24cf0c3da1991f4c"
+    },
+    {
+      "iri": "obo:OBI_0001878",
+      "label": "establishing primary cell culture",
+      "hasChildren": false,
+      "childrenKey": "b215a93ec6db0d358735ed64d1b22cea736d3862"
+    }
+  ]
+}

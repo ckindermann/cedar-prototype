@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001451",
+  "children": [
+    {
+      "iri": "obo:OBI_0001413",
+      "label": "cell culture analyte detection bioassay measuring epitope specific interleukin-6 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "a32f3856ff5db01a4c6e2ddca49c3d9321efb8aa"
+    },
+    {
+      "iri": "obo:OBI_0001360",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-6 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "07a40db76becf9f9eab7e9deb464eb504e43e6ec"
+    },
+    {
+      "iri": "obo:OBI_0001389",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-6 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "720c6783c5e892ed8944614d8bff1cdda1ed9e67"
+    },
+    {
+      "iri": "obo:OBI_1110158",
+      "label": "ELISA measuring epitope specific interleukin-6 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b13f72eae878804076a513cc382f3985bdb65185"
+    },
+    {
+      "iri": "obo:OBI_0001227",
+      "label": "ELISPOT assay measuring epitope specific interleukin-6 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b2eda56d3fb0e863ea3a731a839b6662153c5941"
+    },
+    {
+      "iri": "obo:OBI_0001240",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-6 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "1dd6162fec2233e6cb68b507ab3d9c87b1300aa0"
+    }
+  ]
+}

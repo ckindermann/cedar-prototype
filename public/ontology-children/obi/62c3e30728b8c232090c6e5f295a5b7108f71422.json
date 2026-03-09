@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000274",
+  "children": [
+    {
+      "iri": "obo:OBI_0600000",
+      "label": "adding substance to cell culture",
+      "hasChildren": true,
+      "childrenKey": "2a10a08f69180940010044489b24662db16ae5c5"
+    },
+    {
+      "iri": "obo:OBI_0600007",
+      "label": "administering substance in vivo",
+      "hasChildren": true,
+      "childrenKey": "11bd1ba3874a74f458c0f615f149b033d6fc7f48"
+    },
+    {
+      "iri": "obo:OBI_0000995",
+      "label": "administration of material to specimen",
+      "hasChildren": false,
+      "childrenKey": "a11ef0b196a65eb5ce26d728544f29b40333f04b"
+    },
+    {
+      "iri": "obo:OBI_0000426",
+      "label": "injection",
+      "hasChildren": true,
+      "childrenKey": "8d060a6d202282431da58e455b11b4e01cdfc26b"
+    }
+  ]
+}

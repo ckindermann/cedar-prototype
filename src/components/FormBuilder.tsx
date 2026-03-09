@@ -41,6 +41,7 @@ export const FIELD_TYPES: { type: FieldType; label: string; icon: string }[] = [
   { type: 'date', label: 'Date', icon: '📅' },
   { type: 'textarea', label: 'Long Text', icon: '📄' },
   { type: 'select', label: 'Dropdown', icon: '📋' },
+  { type: 'ontology-select', label: 'Ontology Dropdown', icon: '🧬' },
   { type: 'checkbox', label: 'Checkbox', icon: '☑️' },
 ];
 
@@ -183,20 +184,31 @@ export function FormBuilder({
     const customField = customFieldTypeId
       ? getCustomFieldVersion(customFieldTypeId, customFieldVersion)
       : undefined;
+    const resolvedType = customField ? customField.baseType : type;
     
     const newField: FormField = {
       id: generateId(),
-      type: customField ? customField.baseType : type,
+      type: resolvedType,
       customFieldTypeId,
       customFieldVersion: customField?.version,
       libraryId: libraryId || undefined,
       label: '',
       description: customField?.description || '',
       nameIri: customField?.nameIri || '',
+      nameIriLabel: customField?.nameIriLabel || '',
       placeholder: customField?.defaultPlaceholder || '',
       required: false,
       multiple: false,
-      options: type === 'select' ? ['Option 1', 'Option 2', 'Option 3'] : undefined,
+      options: resolvedType === 'select' ? ['Option 1', 'Option 2', 'Option 3'] : undefined,
+      ontologyOptions: resolvedType === 'ontology-select'
+        ? ((customField?.ontologyOptions || []).map((option) => ({ ...option })))
+        : undefined,
+      ontologyOptionSources: resolvedType === 'ontology-select'
+        ? ((customField?.ontologyOptionSources || []).map((source) => ({
+          ...source,
+          options: source.options.map((option) => ({ ...option })),
+        })))
+        : undefined,
       validationRules: customField?.validationRules ? [...customField.validationRules] : undefined,
     };
 
@@ -465,6 +477,7 @@ export function FormBuilder({
                 };
                 onSaveLibrary(newLibrary);
               }}
+              showSemanticStandardFields={semanticEnabled}
               onCreateFieldType={(libraryId) => {
                 setCreateFieldForLibraryId(libraryId);
                 setEditingFieldType(null);
@@ -506,14 +519,28 @@ export function FormBuilder({
                 {semanticEnabled && (
                   <div className="semantic-iri-row">
                     <label htmlFor="template-name-iri-input">Template Name IRI</label>
-                    <input
-                      id="template-name-iri-input"
-                      type="text"
-                      className="semantic-iri-input"
-                      value={schema.nameIri || ''}
-                      onChange={(e) => setSchema((prev) => ({ ...prev, nameIri: e.target.value }))}
-                      placeholder="https://example.org/iri/template-name"
-                    />
+                    <div className="iri-inline-row">
+                      <input
+                        id="template-name-iri-input"
+                        type="text"
+                        className="semantic-iri-input"
+                        value={schema.nameIri || ''}
+                        onChange={(e) => {
+                          const nextIri = e.target.value;
+                          setSchema((prev) => ({
+                            ...prev,
+                            nameIri: nextIri,
+                            nameIriLabel: nextIri === prev.nameIri ? prev.nameIriLabel : '',
+                          }));
+                        }}
+                        placeholder="https://example.org/iri/template-name"
+                      />
+                      {schema.nameIri && schema.nameIriLabel && (
+                        <span className="iri-label-chip" title={schema.nameIri}>
+                          {schema.nameIriLabel}
+                        </span>
+                      )}
+                    </div>
                   </div>
                 )}
                 <textarea

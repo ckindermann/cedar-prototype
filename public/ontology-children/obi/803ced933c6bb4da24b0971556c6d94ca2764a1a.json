@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000903",
+  "children": [
+    {
+      "iri": "obo:OBI_9999994",
+      "label": "chromium release assay",
+      "hasChildren": true,
+      "childrenKey": "77474520a9f7ce99fff6418b288abd8c6e562599"
+    },
+    {
+      "iri": "obo:OBI_0002062",
+      "label": "in vitro assay measuring epitope specific T cell killing",
+      "hasChildren": true,
+      "childrenKey": "21f6ae21b657c589433883fe8cfdd9fe12dda4ae"
+    }
+  ]
+}

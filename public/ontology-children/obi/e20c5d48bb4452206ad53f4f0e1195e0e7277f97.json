@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000826",
+  "children": [
+    {
+      "iri": "obo:OBI_0000793",
+      "label": "double blind study execution",
+      "hasChildren": false,
+      "childrenKey": "dd74f5da45967d26b35ca590ca2f635f9116f05a"
+    },
+    {
+      "iri": "obo:OBI_0000822",
+      "label": "single blind study execution",
+      "hasChildren": true,
+      "childrenKey": "43a3633900c55b8031da005048fec44493fe47d1"
+    }
+  ]
+}

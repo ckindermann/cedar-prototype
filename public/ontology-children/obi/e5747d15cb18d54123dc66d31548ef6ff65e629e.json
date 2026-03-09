@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001174",
+  "children": [
+    {
+      "iri": "obo:OBI_0001192",
+      "label": "epitope specific immune intervention",
+      "hasChildren": true,
+      "childrenKey": "970b757a087bcbf112706862d578e69693a6ad95"
+    }
+  ]
+}

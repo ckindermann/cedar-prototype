@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001033",
+  "children": [
+    {
+      "iri": "obo:OBI_0400109",
+      "label": "homogenizer",
+      "hasChildren": false,
+      "childrenKey": "d284dfa406cf78fda37869cd0dc02082d72f37c8"
+    },
+    {
+      "iri": "obo:OBI_0400114",
+      "label": "sonicator",
+      "hasChildren": false,
+      "childrenKey": "41db7918cf8e5a3e6464312f5eac52735292606c"
+    },
+    {
+      "iri": "obo:OBI_0400118",
+      "label": "vortexer",
+      "hasChildren": false,
+      "childrenKey": "f1dfe612e1fb13ed93c9eb3d996f86fd9459e175"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400043",
+  "children": [
+    {
+      "iri": "obo:OBI_0400088",
+      "label": "quartz cuvette flow chamber",
+      "hasChildren": false,
+      "childrenKey": "2f87e8ea26f08555f16cb30a67bcf4ad68ea8dc0"
+    }
+  ]
+}

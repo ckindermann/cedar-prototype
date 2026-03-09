@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000086",
+  "children": [
+    {
+      "iri": "obo:OBI_0002743",
+      "label": "molecular label role",
+      "hasChildren": true,
+      "childrenKey": "fa5a184dd2dbe9d7a8db6623a4153b91c8ee5080"
+    }
+  ]
+}

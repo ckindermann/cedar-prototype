@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200129",
+  "children": [
+    {
+      "iri": "obo:OBI_0200130",
+      "label": "node degree calculation",
+      "hasChildren": false,
+      "childrenKey": "9322870ea83eda874a0b8e2b75547369c7d654fb"
+    },
+    {
+      "iri": "obo:OBI_0200132",
+      "label": "node in-degree calculation",
+      "hasChildren": false,
+      "childrenKey": "39d084e80596d06d094c0a5513136a5deedc3663"
+    },
+    {
+      "iri": "obo:OBI_0200133",
+      "label": "node out-degree calculation",
+      "hasChildren": false,
+      "childrenKey": "dd8aff28b25fad259bd23db1cacd01558f3b2730"
+    },
+    {
+      "iri": "obo:OBI_0200134",
+      "label": "node shortest path identification",
+      "hasChildren": false,
+      "childrenKey": "c139cdb6df893da2658cd1f726a32311bc2cb449"
+    },
+    {
+      "iri": "obo:OBI_0200131",
+      "label": "quantitative node degree calculation",
+      "hasChildren": false,
+      "childrenKey": "b8dca7d070d9675b9a75948f20de154a93e9476f"
+    }
+  ]
+}

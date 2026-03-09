@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001973",
+  "children": [
+    {
+      "iri": "obo:OBI_0001974",
+      "label": "Ion 314 Chip v2",
+      "hasChildren": false,
+      "childrenKey": "3868354924b7d6cef4825303049507a06bf24bd5"
+    },
+    {
+      "iri": "obo:OBI_0001971",
+      "label": "Ion 316 Chip v2",
+      "hasChildren": false,
+      "childrenKey": "53d7df2faa6a6aae10a91cdb61a205b3ca190664"
+    },
+    {
+      "iri": "obo:OBI_0001972",
+      "label": "Ion 318 Chip v2",
+      "hasChildren": false,
+      "childrenKey": "b219070ac16020eac196b775ece26d914c969131"
+    }
+  ]
+}

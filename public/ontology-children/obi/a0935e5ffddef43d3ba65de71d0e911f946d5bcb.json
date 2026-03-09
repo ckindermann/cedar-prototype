@@ -1,0 +1,60 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001484",
+  "children": [
+    {
+      "iri": "obo:OBI_0002676",
+      "label": "in vivo assay measuring a T cell epitope specific response after adoptive transfer of epitope specific T cells",
+      "hasChildren": true,
+      "childrenKey": "68169eeb815c0ca4798767e7f440f3eff2f91727"
+    },
+    {
+      "iri": "obo:OBI_0002070",
+      "label": "in vivo assay measuring epitope specific proliferation of T cells",
+      "hasChildren": true,
+      "childrenKey": "3d0eddcaf6b14c1cadff5414ed9ddbc3a481c006"
+    },
+    {
+      "iri": "obo:OBI_0001495",
+      "label": "in vivo assay measuring epitope specific T cell helper activity",
+      "hasChildren": true,
+      "childrenKey": "719be875c4f99e61421bed1f3a19ca5ef8e58acd"
+    },
+    {
+      "iri": "obo:OBI_0001392",
+      "label": "in vivo assay measuring epitope specific T cell killing",
+      "hasChildren": true,
+      "childrenKey": "54e872f8b4701bdafa1da2e09744137df9301bab"
+    },
+    {
+      "iri": "obo:OBI_0001467",
+      "label": "in vivo assay measuring T cell epitope specific disease exacerbation",
+      "hasChildren": true,
+      "childrenKey": "a2638a7f0f349c192047233c812f2a16f1036ffb"
+    },
+    {
+      "iri": "obo:OBI_0002073",
+      "label": "in vivo assay measuring T cell epitope specific protection from challenge",
+      "hasChildren": true,
+      "childrenKey": "3406bef9bfaf153328ae00fc89d7546e59b1873f"
+    },
+    {
+      "iri": "obo:OBI_0001324",
+      "label": "in vivo assay measuring T cell epitope specific tolerance induction",
+      "hasChildren": true,
+      "childrenKey": "53553e056364a367d5d7aa804ef9b5126b1fbf01"
+    },
+    {
+      "iri": "obo:OBI_0001507",
+      "label": "in vivo assay measuring T cell epitope specific treatment of disease",
+      "hasChildren": true,
+      "childrenKey": "3895b284cca87965823facb9b7c49b11e2200a47"
+    },
+    {
+      "iri": "obo:OBI_0001348",
+      "label": "in vivo skin test assay measuring T cell epitope specific type IV hypersensitivity",
+      "hasChildren": true,
+      "childrenKey": "df04d5820c5c5ce735d934a857fd7915cb54af96"
+    }
+  ]
+}

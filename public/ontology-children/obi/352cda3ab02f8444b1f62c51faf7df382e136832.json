@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003236",
+  "children": [
+    {
+      "iri": "obo:OBI_0003419",
+      "label": "antigen specific antibodies in milk assay",
+      "hasChildren": false,
+      "childrenKey": "64a94f457e2c1bec0e481810835722154ba807dc"
+    }
+  ]
+}

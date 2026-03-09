@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001986",
+  "children": [
+    {
+      "iri": "obo:OBI_0001998",
+      "label": "immunohistochemistry assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "0a5fab4673d6b6465255020079d874d41c7a6d2b"
+    },
+    {
+      "iri": "obo:OBI_0002168",
+      "label": "subcellular protein immunohistochemistry assay",
+      "hasChildren": false,
+      "childrenKey": "4c1ffa53c70402ab877fadd188978f902233e4c1"
+    }
+  ]
+}

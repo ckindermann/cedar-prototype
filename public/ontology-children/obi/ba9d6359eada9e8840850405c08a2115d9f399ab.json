@@ -1,0 +1,102 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2000009",
+  "children": [
+    {
+      "iri": "obo:OBI_0002500",
+      "label": "amniotic fluid specimen",
+      "hasChildren": false,
+      "childrenKey": "23f307b49191c86ffd0ba03a0895a573eb63819a"
+    },
+    {
+      "iri": "obo:OBI_0000655",
+      "label": "blood specimen",
+      "hasChildren": true,
+      "childrenKey": "feb9568b0f87c09737b54086a3ff9c5925f2a9aa"
+    },
+    {
+      "iri": "obo:OBI_0002502",
+      "label": "cerebrospinal fluid specimen",
+      "hasChildren": false,
+      "childrenKey": "131a072d318422dda5b78ea5e693d566f44f24ec"
+    },
+    {
+      "iri": "obo:OBI_2000002",
+      "label": "cervical mucus specimen",
+      "hasChildren": false,
+      "childrenKey": "f48d3ac297386338961df11e649eb1fc896dd686"
+    },
+    {
+      "iri": "obo:OBI_0002504",
+      "label": "digestive system fluid or secretion specimen",
+      "hasChildren": true,
+      "childrenKey": "16742184bbe26db9a3b3173065383e2616d40b22"
+    },
+    {
+      "iri": "obo:OBI_0003482",
+      "label": "lymph specimen",
+      "hasChildren": false,
+      "childrenKey": "bb5c513f49ad9429bcfe5de73538c0093b29d61f"
+    },
+    {
+      "iri": "obo:OBI_0002505",
+      "label": "milk specimen",
+      "hasChildren": false,
+      "childrenKey": "e93149f0c686f1865590bd6eca0490f55e1cfb86"
+    },
+    {
+      "iri": "obo:OBI_0002506",
+      "label": "pericardial fluid specimen",
+      "hasChildren": false,
+      "childrenKey": "0ae210e6e338df0a971b958f700ab622f864c97a"
+    },
+    {
+      "iri": "obo:OBI_0002514",
+      "label": "peritoneal fluid specimen",
+      "hasChildren": false,
+      "childrenKey": "02537c5195980b210e586594411cc6c0a48bb95a"
+    },
+    {
+      "iri": "obo:OBI_0002515",
+      "label": "pleural fluid specimen",
+      "hasChildren": false,
+      "childrenKey": "3913f7b1366c084ae3f0f852f647e5da893c42f9"
+    },
+    {
+      "iri": "obo:OBI_0002507",
+      "label": "saliva specimen",
+      "hasChildren": false,
+      "childrenKey": "e04040519c8a358de4b543d3c49b2d9f21a9a10b"
+    },
+    {
+      "iri": "obo:OBI_2000008",
+      "label": "semen specimen",
+      "hasChildren": false,
+      "childrenKey": "a9dc46829a62d6e83c3c6d44ccdf2158e5184283"
+    },
+    {
+      "iri": "obo:OBI_0002508",
+      "label": "sputum specimen",
+      "hasChildren": true,
+      "childrenKey": "fb9314c3dabd3bf3548092aa51fc0d1dfad48e59"
+    },
+    {
+      "iri": "obo:OBI_0002509",
+      "label": "sweat specimen",
+      "hasChildren": false,
+      "childrenKey": "74b3efa9addf6ea92f66775e9e91763127df53f2"
+    },
+    {
+      "iri": "obo:OBI_0002510",
+      "label": "synovial fluid specimen",
+      "hasChildren": false,
+      "childrenKey": "e466ede7a7d96d33c5c1972bcd90267699999624"
+    },
+    {
+      "iri": "obo:OBI_0000651",
+      "label": "urine specimen",
+      "hasChildren": false,
+      "childrenKey": "6d6895549293f64c3ffbed365b286d97d4e693fd"
+    }
+  ]
+}

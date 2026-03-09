@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200194",
+  "children": [
+    {
+      "iri": "obo:OBI_0200088",
+      "label": "Kaplan Meier",
+      "hasChildren": false,
+      "childrenKey": "691b3f0659b1c6128388b727ff376f9f017ca924"
+    },
+    {
+      "iri": "obo:OBI_0200195",
+      "label": "proportional hazards model estimation",
+      "hasChildren": false,
+      "childrenKey": "13d5cd28a312fe12801952d3f74754eeb6f9174f"
+    }
+  ]
+}

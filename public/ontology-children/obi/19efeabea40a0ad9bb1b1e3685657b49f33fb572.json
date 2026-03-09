@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003456",
+  "children": [
+    {
+      "iri": "obo:OBI_0000712",
+      "label": "pathogen challenge",
+      "hasChildren": false,
+      "childrenKey": "d868dc277e12a650c6eae1c6aa4e4ababcd2b987"
+    },
+    {
+      "iri": "obo:OBI_0003455",
+      "label": "tumor challenge",
+      "hasChildren": false,
+      "childrenKey": "6be1541e209453db14188fd2cdf0ab28bea75004"
+    }
+  ]
+}

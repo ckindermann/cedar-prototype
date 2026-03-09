@@ -1,0 +1,102 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100020",
+  "children": [
+    {
+      "iri": "obo:OBI_2100273",
+      "label": "ABL90 panel arterial blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "8605661cb963ac7bff4769a9935fdcacbaa4b345"
+    },
+    {
+      "iri": "obo:OBI_2100284",
+      "label": "ABL90 panel venous blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "eebabafecd21eaa5f17b6d2a00cab5ff4d627580"
+    },
+    {
+      "iri": "obo:OBI_2100123",
+      "label": "arterial blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "92f8c7120a6e7660444f184c0393238640fcc058"
+    },
+    {
+      "iri": "obo:OBI_2100091",
+      "label": "basic metabolic panel venous blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "5a36b87b6d234a903b934fde19eb3ee10cfa5dbc"
+    },
+    {
+      "iri": "obo:OBI_2100329",
+      "label": "bodily fluid glucose assay",
+      "hasChildren": false,
+      "childrenKey": "23d1f4b2416a49481f1d797421a1cb612233ea72"
+    },
+    {
+      "iri": "obo:OBI_2100267",
+      "label": "cerebrospinal fluid glucose assay",
+      "hasChildren": false,
+      "childrenKey": "5fc0696edd78265c1c68ab8bd7183deea292bcaa"
+    },
+    {
+      "iri": "obo:OBI_2100227",
+      "label": "chem11 venous blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "f81cb1ccb735da7caca5c5eb91412cb2b3dce6fb"
+    },
+    {
+      "iri": "obo:OBI_2100239",
+      "label": "chem16 venous blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "e4381bb2b90b3e936935ca64ac427a51a12adf2a"
+    },
+    {
+      "iri": "obo:OBI_2100152",
+      "label": "comprehensive metabolic panel venous blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "cf6fd431dbe32e15aa40337a336e393104092c3e"
+    },
+    {
+      "iri": "obo:OBI_2100220",
+      "label": "fasting venous blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "30294691803b2387689625069dd19e6259744a1e"
+    },
+    {
+      "iri": "obo:OBI_2100195",
+      "label": "GEM premier blood gas venous blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "898c98e16de117655cfdd6c9002f019feeabd779"
+    },
+    {
+      "iri": "obo:OBI_2100377",
+      "label": "GEM4 arterial blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "919138abd30278730efc29da424863e357a21e62"
+    },
+    {
+      "iri": "obo:OBI_2100318",
+      "label": "GEM4000 ANLCOOX arterial blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "8ec9a3608a566ba17321e19fb282b351b6b4ebd4"
+    },
+    {
+      "iri": "obo:OBI_0000418",
+      "label": "measuring glucose concentration in blood serum assay",
+      "hasChildren": false,
+      "childrenKey": "e4820dae3aa423886c4e6a76a957ce25f25c0dea"
+    },
+    {
+      "iri": "obo:OBI_2100250",
+      "label": "POC chem8 arterial blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "7e8f90f9fd3156ebda46e690bcc0ced7efa6e6db"
+    },
+    {
+      "iri": "obo:OBI_2100072",
+      "label": "venous blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "7111913819626f703d371ad061c4c1713888f1ff"
+    }
+  ]
+}

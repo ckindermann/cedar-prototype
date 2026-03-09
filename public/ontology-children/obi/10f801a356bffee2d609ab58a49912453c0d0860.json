@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001181",
+  "children": [
+    {
+      "iri": "obo:OBI_0003141",
+      "label": "categorical binding datum",
+      "hasChildren": true,
+      "childrenKey": "5ccc62df1bd3f068581fe4212e745359a7a724a4"
+    },
+    {
+      "iri": "obo:OBI_0003142",
+      "label": "quantitative binding datum",
+      "hasChildren": true,
+      "childrenKey": "8d9ab934c21745878f1f79f7d73e0c0a7f3ecf5b"
+    }
+  ]
+}

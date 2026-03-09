@@ -1,0 +1,48 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200089",
+  "children": [
+    {
+      "iri": "obo:OBI_0200163",
+      "label": "false discovery rate correction method",
+      "hasChildren": true,
+      "childrenKey": "5c2792807f1c6e5bf0696d2442ac8f97e17d415a"
+    },
+    {
+      "iri": "obo:OBI_0200073",
+      "label": "family wise error rate correction method",
+      "hasChildren": true,
+      "childrenKey": "ae50d6227b4026713290a809584c9bef6afb8578"
+    },
+    {
+      "iri": "obo:OBI_0200160",
+      "label": "generalized family wise error rate correction method",
+      "hasChildren": false,
+      "childrenKey": "47d859fa270440736efb7fab9da537c6d8b02b54"
+    },
+    {
+      "iri": "obo:OBI_0200164",
+      "label": "proportion of expected false positives correction method",
+      "hasChildren": false,
+      "childrenKey": "71d5ed662f382112abaa8d48af7108c230adb44e"
+    },
+    {
+      "iri": "obo:OBI_0200161",
+      "label": "quantile number of false positives correction method",
+      "hasChildren": false,
+      "childrenKey": "fe087ade54a9ad89b5ef05b17a42b361c5ea703c"
+    },
+    {
+      "iri": "obo:OBI_0200165",
+      "label": "quantile proportion of false positives correction method",
+      "hasChildren": false,
+      "childrenKey": "3fd4fb40ba338e133362fef0e646fa941a73023d"
+    },
+    {
+      "iri": "obo:OBI_0200162",
+      "label": "tail probability for the proportion of false positives correction method",
+      "hasChildren": false,
+      "childrenKey": "3f61f4829d1ac0a2ba25e90c726ff1522cbc3985"
+    }
+  ]
+}

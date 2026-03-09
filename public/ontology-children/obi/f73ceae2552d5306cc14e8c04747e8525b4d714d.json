@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002594",
+  "children": [
+    {
+      "iri": "obo:OBI_0002595",
+      "label": "enzymatic reaction identification design",
+      "hasChildren": false,
+      "childrenKey": "f95910678f5299a8b47b8c437fae71af36a6906a"
+    }
+  ]
+}

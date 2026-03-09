@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001246",
+  "children": [
+    {
+      "iri": "obo:OBI_0001288",
+      "label": "ELISA measuring epitope specific lymphotoxin A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e32e71e3e85d5c25010f9170cc8ef8fdc27b4f34"
+    },
+    {
+      "iri": "obo:OBI_1110155",
+      "label": "ELISA measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "cfa9f69b331ac8da36f5d12b7f5126229ca04bd1"
+    }
+  ]
+}

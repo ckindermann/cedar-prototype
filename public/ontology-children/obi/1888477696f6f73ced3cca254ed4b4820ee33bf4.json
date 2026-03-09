@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003019",
+  "children": [
+    {
+      "iri": "obo:OBI_2100283",
+      "label": "CBC with manual differential venous blood promyelocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "41eaffb567a90ad597e72a664266e12bf587a6bf"
+    }
+  ]
+}

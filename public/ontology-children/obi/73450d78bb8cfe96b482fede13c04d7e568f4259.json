@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000599",
+  "children": [
+    {
+      "iri": "obo:OBI_0000483",
+      "label": "APOLLO console",
+      "hasChildren": false,
+      "childrenKey": "0d38039070df416327f86b65c7498d7e4af7a4ae"
+    },
+    {
+      "iri": "obo:OBI_0000513",
+      "label": "DISCOVERY console",
+      "hasChildren": false,
+      "childrenKey": "a6bc5fc03ea0e3f0b4454f19ea095ffd8cd4e9c8"
+    }
+  ]
+}

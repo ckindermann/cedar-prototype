@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002709",
+  "children": [
+    {
+      "iri": "obo:OBI_0002717",
+      "label": "insecticide resistance time response by bottle assay",
+      "hasChildren": false,
+      "childrenKey": "3e264c83547f8dc09f082bf64ac189976e2fd337"
+    },
+    {
+      "iri": "obo:OBI_0002718",
+      "label": "insecticide resistance time response by WHO paper kit assay",
+      "hasChildren": false,
+      "childrenKey": "cd2fd6716d29b1596f193c2d36817a34dccdbf78"
+    }
+  ]
+}

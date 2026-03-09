@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002059",
+  "children": [
+    {
+      "iri": "obo:OBI_0002100",
+      "label": "assay measuring the association constant [KA] of a T cell epitope:MHC:TCR complex",
+      "hasChildren": false,
+      "childrenKey": "f529600632d9b7986b64636b352da781e85e073b"
+    },
+    {
+      "iri": "obo:OBI_0002097",
+      "label": "assay measuring the dissociation constant [KD] of a T cell epitope:MHC:TCR complex",
+      "hasChildren": true,
+      "childrenKey": "b56f516b8240e20c109d43323625d58b1dea36f0"
+    },
+    {
+      "iri": "obo:OBI_0002099",
+      "label": "assay measuring the off rate [koff] of a T cell epitope:MHC:TCR complex",
+      "hasChildren": false,
+      "childrenKey": "95c581111b9606759924cfdfcc3461a6ec63c8bb"
+    },
+    {
+      "iri": "obo:OBI_0002098",
+      "label": "assay measuring the on rate [kon] of a T cell epitope:MHC:TCR complex",
+      "hasChildren": false,
+      "childrenKey": "fab109297c248ca97927695d221ca2f91f41ed12"
+    }
+  ]
+}

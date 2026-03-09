@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003147",
+  "children": [
+    {
+      "iri": "obo:OBI_0002059",
+      "label": "assay measuring a binding constant of a T cell epitope:MHC:TCR complex",
+      "hasChildren": true,
+      "childrenKey": "d296dceee79aafa0c28780e9d8c10eec33e7b69c"
+    }
+  ]
+}

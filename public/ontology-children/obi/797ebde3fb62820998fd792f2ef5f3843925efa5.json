@@ -1,0 +1,312 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001977",
+  "children": [
+    {
+      "iri": "obo:OBI_0003122",
+      "label": "3D cell structure determination assay",
+      "hasChildren": true,
+      "childrenKey": "15bc7fee35723d43383d98e58e42e4b1219c341a"
+    },
+    {
+      "iri": "obo:OBI_0003021",
+      "label": "basophil assay",
+      "hasChildren": true,
+      "childrenKey": "d7310f006eebbf572993b067fea064811b0e34e3"
+    },
+    {
+      "iri": "obo:OBI_2100345",
+      "label": "bodily fluid cell count assay",
+      "hasChildren": false,
+      "childrenKey": "df979282a05be27c0d1910f903494462e417c431"
+    },
+    {
+      "iri": "obo:OBI_2100075",
+      "label": "CBC venous blood WBC count assay",
+      "hasChildren": false,
+      "childrenKey": "408802e1c3509da0a0cfe4f85901e3d4c811dd6e"
+    },
+    {
+      "iri": "obo:OBI_2100064",
+      "label": "CBC with automated differential venous blood WBC count assay",
+      "hasChildren": false,
+      "childrenKey": "642486beff2a2d4747245022df9bbe2eed3cb67b"
+    },
+    {
+      "iri": "obo:OBI_2100124",
+      "label": "CBC with manual differential venous blood cell count assay",
+      "hasChildren": false,
+      "childrenKey": "362ddd0371d0c51e4adc8185579c506d67eb5080"
+    },
+    {
+      "iri": "obo:OBI_2100324",
+      "label": "CBC with manual differential venous blood megakaryocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "793fa0d2ab67a767a08546463da8ec4790903154"
+    },
+    {
+      "iri": "obo:OBI_2100100",
+      "label": "CBC with manual differential venous blood WBC count assay",
+      "hasChildren": false,
+      "childrenKey": "9cba4258ce8c5535f59f40295693cd5d7190240c"
+    },
+    {
+      "iri": "obo:OBI_0000891",
+      "label": "cell proliferation assay",
+      "hasChildren": true,
+      "childrenKey": "472211b62439bd0a793a0b93d2e0d3abbea7904a"
+    },
+    {
+      "iri": "obo:OBI_0003583",
+      "label": "cell viability assay",
+      "hasChildren": true,
+      "childrenKey": "1dbccfba9d8b69a62e43587c1ce77af32bc044e2"
+    },
+    {
+      "iri": "obo:OBI_0000975",
+      "label": "cell-cell binding detection by flow cytometry assay",
+      "hasChildren": false,
+      "childrenKey": "d4046ff57d324d439ce620a4b59525ac124d7c89"
+    },
+    {
+      "iri": "obo:OBI_0000882",
+      "label": "cell-cell killing assay",
+      "hasChildren": true,
+      "childrenKey": "6c5aa748879882b90d3a9f78068f058089158d0f"
+    },
+    {
+      "iri": "obo:OBI_2100392",
+      "label": "cerebrospinal fluid mesothelial cell count assay",
+      "hasChildren": false,
+      "childrenKey": "a8937373eef39419f865642bee47b5174bf1350f"
+    },
+    {
+      "iri": "obo:OBI_0302736",
+      "label": "comet assay",
+      "hasChildren": false,
+      "childrenKey": "227cf4431bf246266be58cc2245e350f0b71d6ed"
+    },
+    {
+      "iri": "obo:OBI_2100079",
+      "label": "corrected venous blood leukocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "7cf7625b12503411d15bd0b33de43e43ed897ae8"
+    },
+    {
+      "iri": "obo:OBI_2100330",
+      "label": "count bodily fluid cell count assay",
+      "hasChildren": false,
+      "childrenKey": "04f8210f95b7d217a52eb5d9a63f806e01e3c735"
+    },
+    {
+      "iri": "obo:OBI_0002115",
+      "label": "cytometry time of flight assay",
+      "hasChildren": true,
+      "childrenKey": "8e1715d0369613970078a03739b2fc00c173b6d1"
+    },
+    {
+      "iri": "obo:OBI_0600031",
+      "label": "enzyme-linked immunospot assay",
+      "hasChildren": true,
+      "childrenKey": "536271fd2663fde1ef74bca17bbebd29da781847"
+    },
+    {
+      "iri": "obo:OBI_0003023",
+      "label": "eosinophil assay",
+      "hasChildren": true,
+      "childrenKey": "0f742940d2c4a8d7ca8e585fda7948171a6ef81e"
+    },
+    {
+      "iri": "obo:OBI_0000916",
+      "label": "flow cytometry assay",
+      "hasChildren": true,
+      "childrenKey": "63c6bd0e25e7759aba07e0d3c81c0d9749fb741b"
+    },
+    {
+      "iri": "obo:OBI_0002952",
+      "label": "fluorescence imaging multiplex cytological profiling",
+      "hasChildren": false,
+      "childrenKey": "abdf20cdf829b7b43cd93da653d8f4de17ad5e1a"
+    },
+    {
+      "iri": "obo:OBI_0002946",
+      "label": "fluorescence imaging-based apoptosis assay",
+      "hasChildren": false,
+      "childrenKey": "8b0198f4159539266e93bc8c405b6135915fe954"
+    },
+    {
+      "iri": "obo:OBI_0002948",
+      "label": "fluorescence imaging-based cell cycle state assay",
+      "hasChildren": false,
+      "childrenKey": "ea611068a2b2a8b9bad4983748397028436c9c84"
+    },
+    {
+      "iri": "obo:OBI_0002951",
+      "label": "fluorescence imaging-based cell morphology assay",
+      "hasChildren": false,
+      "childrenKey": "0895d2b9b4408af36e40d425532d31806f660169"
+    },
+    {
+      "iri": "obo:OBI_0002949",
+      "label": "fluorescence imaging-based cell viability assay",
+      "hasChildren": false,
+      "childrenKey": "9e28e040c4954c6124dd383470dbca90ae73bd09"
+    },
+    {
+      "iri": "obo:OBI_0002950",
+      "label": "fluorescence imaging-based drug synergy assay",
+      "hasChildren": false,
+      "childrenKey": "d6ab32f1710d9f8db9951f5e863447ac11346e77"
+    },
+    {
+      "iri": "obo:OBI_0003228",
+      "label": "fluorescent immunospot assay",
+      "hasChildren": false,
+      "childrenKey": "292d7f8186afd84da86a9048c171e4e11880db9b"
+    },
+    {
+      "iri": "obo:OBI_0002647",
+      "label": "Giemsa stain assay",
+      "hasChildren": false,
+      "childrenKey": "df5a31bfddbeccbb8016b31d0f98caca64c6511d"
+    },
+    {
+      "iri": "obo:OBI_0003018",
+      "label": "hematocrit assay",
+      "hasChildren": true,
+      "childrenKey": "e6b408ea3699024b45b37f1cc42541bad428a261"
+    },
+    {
+      "iri": "obo:OBI_0002174",
+      "label": "immunocytochemistry",
+      "hasChildren": false,
+      "childrenKey": "6f0c9b19e4bb06a64634e0d768a53d187dc7465e"
+    },
+    {
+      "iri": "obo:OBI_0003659",
+      "label": "in vitro CRISPR screen assay",
+      "hasChildren": true,
+      "childrenKey": "076937939f53112fde86318b6214614c2a3d1a53"
+    },
+    {
+      "iri": "obo:OBI_2100013",
+      "label": "leukocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "310527c555f704fd1c0247f9e352499d9019a382"
+    },
+    {
+      "iri": "obo:OBI_0003024",
+      "label": "lymphocyte assay",
+      "hasChildren": true,
+      "childrenKey": "b4d6e0182c07f1fd5def69b9e4829c8bd5ed412f"
+    },
+    {
+      "iri": "obo:OBI_0003027",
+      "label": "macrophage assay",
+      "hasChildren": true,
+      "childrenKey": "c383c5a4f86013f941877fc7b0f1a7a950d16957"
+    },
+    {
+      "iri": "obo:OBI_2100332",
+      "label": "manual differential bodily fluid mesothelial cell count assay",
+      "hasChildren": false,
+      "childrenKey": "0ac34ff88947227e8ea6b1515e4556229bf78270"
+    },
+    {
+      "iri": "obo:OBI_2100048",
+      "label": "megakaryocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "807fe2a8b31c1fc6a483d73a53aacc1fb160c3d4"
+    },
+    {
+      "iri": "obo:OBI_2100049",
+      "label": "mesothelial cell count assay",
+      "hasChildren": false,
+      "childrenKey": "e5173c72e74716a5150c46d4ab8a57f35f72ff7f"
+    },
+    {
+      "iri": "obo:OBI_0003017",
+      "label": "metamyelocyte assay",
+      "hasChildren": true,
+      "childrenKey": "ccb19f6923198150ffa6deabf47f7459a4c2cbae"
+    },
+    {
+      "iri": "obo:OBI_0002966",
+      "label": "microenvironment microarray assay",
+      "hasChildren": false,
+      "childrenKey": "1f64a42ce42f143ba7f9b94bada2f0a929b73df3"
+    },
+    {
+      "iri": "obo:OBI_0002120",
+      "label": "mixed lymphocyte reaction assay",
+      "hasChildren": false,
+      "childrenKey": "2750b911b505e7ea98aa06394f2f4eea6dbc9006"
+    },
+    {
+      "iri": "obo:OBI_0003025",
+      "label": "monocyte assay",
+      "hasChildren": true,
+      "childrenKey": "bfd58c89e1db33f1a76b0dd0892a39ff02f917b6"
+    },
+    {
+      "iri": "obo:OBI_0003016",
+      "label": "myelocyte assay",
+      "hasChildren": true,
+      "childrenKey": "9cfed998fdaa9da3005aab664d75c84ff0b9cfb6"
+    },
+    {
+      "iri": "obo:OBI_0003022",
+      "label": "neutrophil assay",
+      "hasChildren": true,
+      "childrenKey": "7a54f47101140518b1b22d32b13742b9efa8ad34"
+    },
+    {
+      "iri": "obo:OBI_0003028",
+      "label": "platelet assay",
+      "hasChildren": true,
+      "childrenKey": "ae666fc8635f23044ab6dbb1736b71617936930a"
+    },
+    {
+      "iri": "obo:OBI_0003019",
+      "label": "promyelocyte assay",
+      "hasChildren": true,
+      "childrenKey": "1888477696f6f73ced3cca254ed4b4820ee33bf4"
+    },
+    {
+      "iri": "obo:OBI_0003026",
+      "label": "reticulocyte assay",
+      "hasChildren": true,
+      "childrenKey": "f2c419acf12c4b4912314fe4c58aea8f92abf300"
+    },
+    {
+      "iri": "obo:OBI_0002187",
+      "label": "single-unit recording",
+      "hasChildren": false,
+      "childrenKey": "6d17b362bb67188fb71064a5cd305740f3cdf05a"
+    },
+    {
+      "iri": "obo:OBI_2100268",
+      "label": "tube 1 count cerebrospinal fluid cell count assay",
+      "hasChildren": false,
+      "childrenKey": "eef5ff2b66f4359f55ae9e466944b6828e7a5881"
+    },
+    {
+      "iri": "obo:OBI_2100265",
+      "label": "tube 4 count cerebrospinal fluid cell count assay",
+      "hasChildren": false,
+      "childrenKey": "ca357f6490133e1f6b520d6b8cc736bb91727d12"
+    },
+    {
+      "iri": "obo:OBI_2100365",
+      "label": "venous blood megakaryocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "483d5efd10b3a3709ea50dcbf05c70f0a9d540c6"
+    },
+    {
+      "iri": "obo:OBI_2100367",
+      "label": "venous blood WBC count assay",
+      "hasChildren": false,
+      "childrenKey": "9b52e24933b8eb5dd388d5bcb720e6372e13d1b7"
+    }
+  ]
+}

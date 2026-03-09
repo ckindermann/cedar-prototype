@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001723",
+  "children": [
+    {
+      "iri": "obo:OBI_0002103",
+      "label": "bio-layer interferometry assay measuring the off rate [koff] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "b8d001e8cdb4a95011aa4d2bb1dbbe2266becdd2"
+    },
+    {
+      "iri": "obo:OBI_0001740",
+      "label": "quenching assay measuring the off rate [koff] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "32b74208fe1be67d8fd18133bafab19b2ce8b8c1"
+    },
+    {
+      "iri": "obo:OBI_0001739",
+      "label": "surface plasmon resonance assay measuring the off rate [koff] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "77ef0d84a5e2f1643caa07c27228448b5f1668aa"
+    }
+  ]
+}

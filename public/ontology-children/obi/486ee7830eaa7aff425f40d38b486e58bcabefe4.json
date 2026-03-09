@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002783",
+  "children": [
+    {
+      "iri": "obo:OBI_0002971",
+      "label": "endotracheal tube specimen",
+      "hasChildren": false,
+      "childrenKey": "4926ed80c1399d3984a6cc70c6eb84a8463111cc"
+    },
+    {
+      "iri": "obo:OBI_0002781",
+      "label": "lower respiratory tract aspirate specimen",
+      "hasChildren": true,
+      "childrenKey": "5ca864a776121f4c24aff385029e0b1f1139d699"
+    },
+    {
+      "iri": "obo:OBI_0002534",
+      "label": "lung specimen",
+      "hasChildren": false,
+      "childrenKey": "8936941195b09f833933ecc1b7e43a541d3c79d1"
+    },
+    {
+      "iri": "obo:OBI_0002778",
+      "label": "tracheal aspirate specimen",
+      "hasChildren": false,
+      "childrenKey": "ffe4f8a970378e50fb837ee04c33a4646d98a0d3"
+    }
+  ]
+}

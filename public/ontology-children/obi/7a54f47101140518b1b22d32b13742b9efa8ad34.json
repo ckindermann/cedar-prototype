@@ -1,0 +1,72 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003022",
+  "children": [
+    {
+      "iri": "obo:OBI_2100057",
+      "label": "automated differential venous blood neutrophil count assay",
+      "hasChildren": false,
+      "childrenKey": "da36faea810355ffd89609f645f2aa5f7592fbd0"
+    },
+    {
+      "iri": "obo:OBI_2100099",
+      "label": "CBC with manual differential venous blood band neutrophil count assay",
+      "hasChildren": false,
+      "childrenKey": "ffe2e5f3dc294acc50926d7b8489b1469dab67c4"
+    },
+    {
+      "iri": "obo:OBI_2100362",
+      "label": "CBC with manual differential venous blood neutrophil count assay",
+      "hasChildren": false,
+      "childrenKey": "eb7d8b3395e4340e1f484d0f8479116321a0ff57"
+    },
+    {
+      "iri": "obo:OBI_2100105",
+      "label": "CBC with manual differential venous blood segmented neutrophil count assay",
+      "hasChildren": false,
+      "childrenKey": "4df6fa316fa8657477ec4d169e86e266fb069e39"
+    },
+    {
+      "iri": "obo:OBI_2100391",
+      "label": "cerebrospinal fluid segmented neutrophil count assay",
+      "hasChildren": false,
+      "childrenKey": "30190dcc3d23b241ad076c69c88b177bd3b73f38"
+    },
+    {
+      "iri": "obo:OBI_0003186",
+      "label": "immature neutrophil count assay",
+      "hasChildren": false,
+      "childrenKey": "e4d2c0f69dc18a95e129d0a8e6c9f984fa334a98"
+    },
+    {
+      "iri": "obo:OBI_0003187",
+      "label": "immature neutrophil percentage assay",
+      "hasChildren": false,
+      "childrenKey": "23290b3d9fc49938f3777474afa460244aeef760"
+    },
+    {
+      "iri": "obo:OBI_2100331",
+      "label": "manual differential bodily fluid segmented neutrophil count assay",
+      "hasChildren": false,
+      "childrenKey": "8b4c27e9e94878235e1cbef28f5d83c9b9d24589"
+    },
+    {
+      "iri": "obo:OBI_2100006",
+      "label": "neutrophil count assay",
+      "hasChildren": false,
+      "childrenKey": "420a12bd66d920a7bd067e33773c975e75d80dd5"
+    },
+    {
+      "iri": "obo:OBI_0003166",
+      "label": "neutrophil percentage assay",
+      "hasChildren": false,
+      "childrenKey": "43a4abf763dd774f3e187436ace16a802be171bd"
+    },
+    {
+      "iri": "obo:OBI_2100027",
+      "label": "segmented neutrophil of bone marrow count assay",
+      "hasChildren": false,
+      "childrenKey": "1174a0e0381084717f32554a05e4f5653b48b271"
+    }
+  ]
+}

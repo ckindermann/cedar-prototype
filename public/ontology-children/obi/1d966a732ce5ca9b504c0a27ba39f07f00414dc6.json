@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000220",
+  "children": [
+    {
+      "iri": "obo:OBI_0000143",
+      "label": "baseline participant role",
+      "hasChildren": false,
+      "childrenKey": "17674af0c312b71d2e132fce968a2771cb09f7b9"
+    },
+    {
+      "iri": "obo:OBI_0000198",
+      "label": "biological replicate role",
+      "hasChildren": true,
+      "childrenKey": "aca40a325c5937d640b1769563f63eb18b2d92cb"
+    },
+    {
+      "iri": "obo:OBI_0000161",
+      "label": "crossover population role",
+      "hasChildren": false,
+      "childrenKey": "b89955322618b644fd7984a90e4593e9cd13c5f2"
+    },
+    {
+      "iri": "obo:OBI_0000249",
+      "label": "technical replicate role",
+      "hasChildren": false,
+      "childrenKey": "91240af87bc2cfbcc458da7558ec87886cef8a8e"
+    }
+  ]
+}

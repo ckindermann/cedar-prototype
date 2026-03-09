@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000731",
+  "children": [
+    {
+      "iri": "obo:OBI_0000164",
+      "label": "clonal cDNA library",
+      "hasChildren": false,
+      "childrenKey": "47fe371a754bfecd96e6e72a912a0ce9a6be120d"
+    },
+    {
+      "iri": "obo:OBI_1000029",
+      "label": "phage display library",
+      "hasChildren": false,
+      "childrenKey": "8322a3635fc769ff6837e7223f789757e58ddbd3"
+    },
+    {
+      "iri": "obo:OBI_0000410",
+      "label": "recombinant plasmid",
+      "hasChildren": false,
+      "childrenKey": "e5473844de8309906ba5ec37caf00891860a37a3"
+    }
+  ]
+}

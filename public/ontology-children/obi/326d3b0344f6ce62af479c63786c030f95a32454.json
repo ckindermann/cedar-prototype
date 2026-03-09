@@ -1,0 +1,108 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100001",
+  "children": [
+    {
+      "iri": "obo:OBI_2100303",
+      "label": "ABG/electrolytes arterial blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "c4f3e6caefc235faf02ff63fc6080354467a9e43"
+    },
+    {
+      "iri": "obo:OBI_2100277",
+      "label": "ABL90 panel arterial blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "21e035b49e0dde38df7f9b44e5bc660d4bc7f721"
+    },
+    {
+      "iri": "obo:OBI_2100287",
+      "label": "ABL90 panel venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "6cdb3d4997207e58a8ceeee91f09c1f84fb2da03"
+    },
+    {
+      "iri": "obo:OBI_2100093",
+      "label": "basic metabolic panel venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "474aa3341a8454503f34675673f6515cb4af100c"
+    },
+    {
+      "iri": "obo:OBI_2100388",
+      "label": "blood gas arterial blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "0381823d2d7fdcb8b88975d2066f6b430d4ab6f7"
+    },
+    {
+      "iri": "obo:OBI_2100168",
+      "label": "blood gas venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "ccf57441e25257f2e81ba1cb91d8897295ff2c2e"
+    },
+    {
+      "iri": "obo:OBI_2100228",
+      "label": "chem11 venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "a54c393a708c8136eb6280b68c8f9161ae4beb99"
+    },
+    {
+      "iri": "obo:OBI_2100238",
+      "label": "chem16 venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "e8cbb6e9c7089a12fa0ad8e684c47e96c1eda8b7"
+    },
+    {
+      "iri": "obo:OBI_2100148",
+      "label": "comprehensive metabolic panel venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "0096be3396fda972ac5aa41f5c8286c8ed9751cf"
+    },
+    {
+      "iri": "obo:OBI_2100198",
+      "label": "GEM premier blood gas venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "3ad4f58b0179704b94467a8d13b4a9ef692dc6a2"
+    },
+    {
+      "iri": "obo:OBI_2100381",
+      "label": "GEM4 arterial blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "59a1157052b0a253e2be82271434cdb00a1c19ab"
+    },
+    {
+      "iri": "obo:OBI_2100320",
+      "label": "GEM4000 ANLCOOX arterial blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "4313f6ac1ab69632f6ca8725d80eae3fffd01088"
+    },
+    {
+      "iri": "obo:OBI_2100130",
+      "label": "inpatient profile venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "3b66139e02aa518e97fe6bef8e08c391cad92d41"
+    },
+    {
+      "iri": "obo:OBI_2100174",
+      "label": "non-vented blood gas arterial blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "cb7e1ddb3eb1c78be39b947446aa3f7798bd9f99"
+    },
+    {
+      "iri": "obo:OBI_2100052",
+      "label": "panel5 venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "5520d252841a6a670765f39bca1ac39422cb5500"
+    },
+    {
+      "iri": "obo:OBI_2100134",
+      "label": "venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "9543b200194b0b5ea22304995ea9639981f3e8ee"
+    },
+    {
+      "iri": "obo:OBI_2100185",
+      "label": "vented blood gas arterial blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "9acd012f8ea5f8818f8cce9a06340105a67cf27a"
+    }
+  ]
+}

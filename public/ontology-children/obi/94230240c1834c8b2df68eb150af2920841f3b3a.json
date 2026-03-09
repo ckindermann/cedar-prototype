@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002079",
+  "children": [
+    {
+      "iri": "obo:OBI_0002080",
+      "label": "human specimen set",
+      "hasChildren": false,
+      "childrenKey": "8d2f48d4a356ad51fde72bbe1094b46ca0286a5f"
+    }
+  ]
+}

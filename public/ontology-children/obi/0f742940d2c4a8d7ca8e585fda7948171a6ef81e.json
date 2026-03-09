@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003023",
+  "children": [
+    {
+      "iri": "obo:OBI_2100058",
+      "label": "automated differential venous blood eosinophil count assay",
+      "hasChildren": false,
+      "childrenKey": "3537f63b3b9aa928294558fde1eb08bae383e1dd"
+    },
+    {
+      "iri": "obo:OBI_2100101",
+      "label": "CBC with manual differential venous blood eosinophil count assay",
+      "hasChildren": false,
+      "childrenKey": "91797b81b7207c0b007ca22d75f577dabe8e45c9"
+    },
+    {
+      "iri": "obo:OBI_2100396",
+      "label": "cerebrospinal fluid eosinophil count assay",
+      "hasChildren": false,
+      "childrenKey": "3af3581650cf9686787cd6fb46feb5bf5fc3c088"
+    },
+    {
+      "iri": "obo:OBI_2100007",
+      "label": "eosinophil count assay",
+      "hasChildren": false,
+      "childrenKey": "f1074111677a857798d30f43f09e0ba9f47b1c9e"
+    },
+    {
+      "iri": "obo:OBI_0003154",
+      "label": "eosinophil percentage assay",
+      "hasChildren": false,
+      "childrenKey": "7b48c8ff49443185826e213c976a6b1f11f75eef"
+    },
+    {
+      "iri": "obo:OBI_2100337",
+      "label": "manual differential bodily fluid eosinophil count assay",
+      "hasChildren": false,
+      "childrenKey": "d4112d09f3ea881bf6655bc7c5e7d8079845f0fa"
+    }
+  ]
+}

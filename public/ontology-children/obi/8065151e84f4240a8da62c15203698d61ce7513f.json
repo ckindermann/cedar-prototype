@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001980",
+  "children": [
+    {
+      "iri": "obo:OBI_0001981",
+      "label": "disease exacerbation in vivo intervention experiment",
+      "hasChildren": false,
+      "childrenKey": "8029d77eea1ca8db5fd3a97298b96a7262694c2f"
+    },
+    {
+      "iri": "obo:OBI_0001982",
+      "label": "protection from challenge in vivo intervention experiment",
+      "hasChildren": false,
+      "childrenKey": "942b86022bceb257dd16e41de3bd3f840e0b74ed"
+    },
+    {
+      "iri": "obo:OBI_0001983",
+      "label": "tolerance induction intervention experiment",
+      "hasChildren": false,
+      "childrenKey": "2299b7954e9a0017a407c5cc1efc7eaa14285823"
+    },
+    {
+      "iri": "obo:OBI_0001984",
+      "label": "treatment intervention experiment",
+      "hasChildren": false,
+      "childrenKey": "edc95036374023f13c2f67d6e2a0a53e67b2f146"
+    }
+  ]
+}

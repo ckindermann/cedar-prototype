@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000498",
+  "children": [
+    {
+      "iri": "obo:OBI_0000475",
+      "label": "Bruker AutoClean system",
+      "hasChildren": false,
+      "childrenKey": "2c9aebbf9ceb39fd6fda942cb367dd3f08d86981"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002504",
+  "children": [
+    {
+      "iri": "obo:OBI_0002501",
+      "label": "bile specimen",
+      "hasChildren": false,
+      "childrenKey": "0601c162a325ed6e0b0af9937afec8739a65e573"
+    }
+  ]
+}

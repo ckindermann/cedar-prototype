@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003360",
+  "children": [
+    {
+      "iri": "obo:OBI_0003361",
+      "label": "lesion mask",
+      "hasChildren": true,
+      "childrenKey": "d7e7d0f3b906656154dd0913a667e670ab1da12c"
+    }
+  ]
+}

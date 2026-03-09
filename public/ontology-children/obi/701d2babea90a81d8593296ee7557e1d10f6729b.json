@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400082",
+  "children": [
+    {
+      "iri": "obo:OBI_0400083",
+      "label": "photodiode",
+      "hasChildren": true,
+      "childrenKey": "586b8007e0228617122eb1e53d07b61c40a62545"
+    }
+  ]
+}

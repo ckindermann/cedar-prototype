@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002743",
+  "children": [
+    {
+      "iri": "obo:OBI_0000250",
+      "label": "dye role",
+      "hasChildren": true,
+      "childrenKey": "d0d7d9a6fd466275e0979a859baa8c125fbf4eb1"
+    },
+    {
+      "iri": "obo:OBI_0000163",
+      "label": "radiolabel role",
+      "hasChildren": false,
+      "childrenKey": "c4d7c2a76314009f3cae9f1b1e3a015701e5f507"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003192",
+  "children": [
+    {
+      "iri": "obo:OBI_0003193",
+      "label": "adiponectin concentration assay",
+      "hasChildren": false,
+      "childrenKey": "dd37b1633de8b4857b3051669d2547bce998bdf8"
+    }
+  ]
+}

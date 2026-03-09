@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600020",
+  "children": [
+    {
+      "iri": "obo:OBI_0002564",
+      "label": "histopathology assay",
+      "hasChildren": false,
+      "childrenKey": "ada1b8f1b4648873d9e1abe07d276317cd2bd895"
+    },
+    {
+      "iri": "obo:OBI_0003103",
+      "label": "periodic acid-Schiff staining assay",
+      "hasChildren": false,
+      "childrenKey": "1913f8c520d35fee89a5e4040704f0a1912b2c4d"
+    }
+  ]
+}

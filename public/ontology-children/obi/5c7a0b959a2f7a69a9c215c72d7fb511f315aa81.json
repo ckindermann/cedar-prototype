@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003348",
+  "children": [
+    {
+      "iri": "obo:OBI_0003349",
+      "label": "T2 weighted FLAIR magnetic resonance image data set",
+      "hasChildren": false,
+      "childrenKey": "163debd7df9aa46e23aad6213298076841e8ecb6"
+    },
+    {
+      "iri": "obo:OBI_0003350",
+      "label": "T2 weighted FSE  magnetic resonance image data set",
+      "hasChildren": false,
+      "childrenKey": "460f48f0a2b6719650cd8b4d0b09c46366fd739e"
+    },
+    {
+      "iri": "obo:OBI_0003351",
+      "label": "T2 weighted SE magnetic resonance image data set",
+      "hasChildren": false,
+      "childrenKey": "e1bb1489f41390776105d969870aa61b36754f8f"
+    },
+    {
+      "iri": "obo:OBI_0003352",
+      "label": "T2 weighted STIR magnetic resonance image data set",
+      "hasChildren": false,
+      "childrenKey": "2a2b2d7e0d6cec251eaa87db4cd2cabb645ef9e4"
+    },
+    {
+      "iri": "obo:OBI_0003353",
+      "label": "T2* weighted GRE magnetic resonance image data set",
+      "hasChildren": false,
+      "childrenKey": "374c991d4f8c247118147a4f24970e60cb0e1d8a"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002039",
+  "children": [
+    {
+      "iri": "obo:OBI_0003089",
+      "label": "bulk assay for transposase-accessible chromatin using sequencing",
+      "hasChildren": false,
+      "childrenKey": "bbb7a2f493ebdc8edb83e91a056fa33629d214ca"
+    },
+    {
+      "iri": "obo:OBI_0003104",
+      "label": "single cell combinatorial indexing assay for transposase-accessessable chromatin using sequencing",
+      "hasChildren": false,
+      "childrenKey": "7e2f4390d0a37d12cbbaa7add939ba8b73c61e3f"
+    },
+    {
+      "iri": "obo:OBI_0002764",
+      "label": "single-cell ATAC-seq",
+      "hasChildren": false,
+      "childrenKey": "b96b27cdaf245e336b7e551c157f7e60015139da"
+    },
+    {
+      "iri": "obo:OBI_0002762",
+      "label": "single-nucleus ATAC-seq",
+      "hasChildren": false,
+      "childrenKey": "a355e3f00d0b89a600d051190c88110220ec413e"
+    }
+  ]
+}

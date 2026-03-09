@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002769",
+  "children": [
+    {
+      "iri": "obo:OBI_0002771",
+      "label": "full karyotype information",
+      "hasChildren": false,
+      "childrenKey": "eeab523e4aa0ab5819cc9e66938ebf8bbeb533b2"
+    },
+    {
+      "iri": "obo:OBI_0002770",
+      "label": "partial karyotype information",
+      "hasChildren": false,
+      "childrenKey": "2b32a03f73c65af4f7959a02a1af71dca5a2b51c"
+    }
+  ]
+}

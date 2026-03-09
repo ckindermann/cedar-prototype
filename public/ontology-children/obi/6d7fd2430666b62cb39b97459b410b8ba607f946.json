@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003646",
+  "children": [
+    {
+      "iri": "obo:OBI_0003642",
+      "label": "antibody purification of mouse MHC class II protein complex",
+      "hasChildren": true,
+      "childrenKey": "7a69e7e0a792fb9cc0cd29a4bb2499ca0eb79635"
+    }
+  ]
+}

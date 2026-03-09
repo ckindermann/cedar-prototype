@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002913",
+  "children": [
+    {
+      "iri": "obo:OBI_0002907",
+      "label": "aquatic arthropod specimen collection process",
+      "hasChildren": true,
+      "childrenKey": "1ea354719562a98c650ebe41bd8dbfb43ceaaee7"
+    },
+    {
+      "iri": "obo:OBI_0002998",
+      "label": "arthropod collection process with automated identification",
+      "hasChildren": false,
+      "childrenKey": "dce8b7deeca1fe9d7402cacf98272deefdd0b43e"
+    },
+    {
+      "iri": "obo:OBI_0002999",
+      "label": "gravid female arthropod specimen collection process",
+      "hasChildren": false,
+      "childrenKey": "a68307d7ad399230e061d5015e5e8f7fcd575244"
+    },
+    {
+      "iri": "obo:OBI_0002919",
+      "label": "live arthropod specimen collection process",
+      "hasChildren": true,
+      "childrenKey": "cb6ad4fe870030e2f0948b53fb821cc0a9eee74b"
+    },
+    {
+      "iri": "obo:OBI_0003000",
+      "label": "resting flight-capable arthropod specimen collection process",
+      "hasChildren": false,
+      "childrenKey": "0d2495b7853d449dbf6eaaf605846c0f34cffc38"
+    }
+  ]
+}

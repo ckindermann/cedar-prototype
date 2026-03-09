@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003540",
+  "children": [
+    {
+      "iri": "obo:OBI_0002959",
+      "label": "tandem mass tag mass spectrometry assay",
+      "hasChildren": false,
+      "childrenKey": "d33ebc0d1878a879c22042196da0addc7b4003ec"
+    }
+  ]
+}

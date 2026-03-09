@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001619",
+  "children": [
+    {
+      "iri": "obo:OBI_0003083",
+      "label": "specimen collection time post disease onset",
+      "hasChildren": false,
+      "childrenKey": "7021dcd0b3328e782aa3a7eb8750cea614a09a6e"
+    },
+    {
+      "iri": "obo:OBI_0003084",
+      "label": "specimen collection time post infection",
+      "hasChildren": false,
+      "childrenKey": "820f7b864b9ed7ef6775a7bc596278ee62e377fb"
+    }
+  ]
+}

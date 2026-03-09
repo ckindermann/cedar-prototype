@@ -1,0 +1,60 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002599",
+  "children": [
+    {
+      "iri": "obo:OBI_0002604",
+      "label": "breast swab specimen",
+      "hasChildren": true,
+      "childrenKey": "121f55de84b1f404c9400812312b250a5c44070c"
+    },
+    {
+      "iri": "obo:OBI_0002613",
+      "label": "environmental swab specimen",
+      "hasChildren": false,
+      "childrenKey": "0c3617b4d937e4622d844fe1eabe7abf6fb1016f"
+    },
+    {
+      "iri": "obo:OBI_0002612",
+      "label": "fecal swab specimen",
+      "hasChildren": false,
+      "childrenKey": "598fcaf9b41ca97868b802706e15b489a59d2965"
+    },
+    {
+      "iri": "obo:OBI_0000917",
+      "label": "nasal swab specimen",
+      "hasChildren": true,
+      "childrenKey": "783df6323294ce58c5bc2fbd474cb78b7b944cdc"
+    },
+    {
+      "iri": "obo:OBI_0002606",
+      "label": "nasopharyngeal swab specimen",
+      "hasChildren": false,
+      "childrenKey": "39130389756b4df6f2e41355ad596cb67b44682a"
+    },
+    {
+      "iri": "obo:OBI_0002607",
+      "label": "oral swab specimen",
+      "hasChildren": true,
+      "childrenKey": "7be14c993ef7a0c7f3c464d0ecba349934faf5ca"
+    },
+    {
+      "iri": "obo:OBI_0002608",
+      "label": "oropharyngeal swab specimen",
+      "hasChildren": false,
+      "childrenKey": "b3b35bf991ec5cb13260e56a6b1e293cbf340c48"
+    },
+    {
+      "iri": "obo:OBI_0002609",
+      "label": "rectal swab specimen",
+      "hasChildren": false,
+      "childrenKey": "1ca742996443ac2f700e4dc25578c928b1ec4294"
+    },
+    {
+      "iri": "obo:OBI_0002611",
+      "label": "vagina swab specimen",
+      "hasChildren": false,
+      "childrenKey": "00b6767959f2ea172c0f3a87d2847f37d913c469"
+    }
+  ]
+}

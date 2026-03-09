@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000597",
+  "children": [
+    {
+      "iri": "obo:OBI_0000567",
+      "label": "Bruker UltraShield NMR magnet",
+      "hasChildren": false,
+      "childrenKey": "89eae0806a7fe8e1ef1a22dafd965610d5d0c1f2"
+    },
+    {
+      "iri": "obo:OBI_0000530",
+      "label": "Bruker UltraShield Plus NMR magnet",
+      "hasChildren": false,
+      "childrenKey": "8cbab0a4ff829311a45ef7c396889310b70c8fd6"
+    },
+    {
+      "iri": "obo:OBI_0000575",
+      "label": "Bruker Ultrastabilized NMR magnet",
+      "hasChildren": false,
+      "childrenKey": "4298f7c9a76e6072967ff54ed6f73e6283b15ca8"
+    },
+    {
+      "iri": "obo:OBI_0000467",
+      "label": "Bruker US 2 NMR magnet",
+      "hasChildren": false,
+      "childrenKey": "701a7adfc440ef909297972ddebf8a7ba02ea81e"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001718",
+  "children": [
+    {
+      "iri": "obo:OBI_0002102",
+      "label": "bio-layer interferometry assay measuring the on rate [kon] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "8fd303d16a5a19f11c9db51f64a04b92cf0db8d8"
+    },
+    {
+      "iri": "obo:OBI_0001742",
+      "label": "quenching assay measuring the on rate [kon] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "e7b344c267bc0ddb24137824440fa93655ba5b09"
+    },
+    {
+      "iri": "obo:OBI_0001741",
+      "label": "surface plasmon resonance assay measuring the on rate [kon] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "d84ee3433b87935f8f511e5796477d1ba2e65bdc"
+    }
+  ]
+}

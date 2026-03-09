@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000231",
+  "children": [
+    {
+      "iri": "obo:OBI_0600023",
+      "label": "non specific enzymatic cleavage",
+      "hasChildren": false,
+      "childrenKey": "fc1df1716df31aea79cc64f4fd2ff52060f7aefb"
+    },
+    {
+      "iri": "obo:OBI_0600056",
+      "label": "protease cleavage",
+      "hasChildren": true,
+      "childrenKey": "5378b567a29ed0f36ce43a8efcb105b89d033d16"
+    },
+    {
+      "iri": "obo:OBI_0600050",
+      "label": "specific enzymatic cleavage",
+      "hasChildren": true,
+      "childrenKey": "6bd4ac6fe8cdd920fb83c2dfaa87e3016e2a40bc"
+    }
+  ]
+}

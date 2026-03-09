@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003027",
+  "children": [
+    {
+      "iri": "obo:OBI_2100393",
+      "label": "cerebrospinal fluid macrophage count assay",
+      "hasChildren": false,
+      "childrenKey": "2db075193b5ded3ea160b84e4d117b2200c088ec"
+    },
+    {
+      "iri": "obo:OBI_2100050",
+      "label": "macrophage count assay",
+      "hasChildren": false,
+      "childrenKey": "bda798da5202869f00aa08963d197b8faed9aa77"
+    },
+    {
+      "iri": "obo:OBI_2100335",
+      "label": "manual differential bodily fluid macrophage count assay",
+      "hasChildren": false,
+      "childrenKey": "b4697c20abe795c54d27c3cb924a40e222f00f1f"
+    }
+  ]
+}

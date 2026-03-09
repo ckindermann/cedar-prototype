@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000464",
+  "children": [
+    {
+      "iri": "obo:OBI_0000492",
+      "label": "Bruker B-ACS system",
+      "hasChildren": false,
+      "childrenKey": "d6ac202536abfd9b4b41a4854a31bcc5fd06ac82"
+    },
+    {
+      "iri": "obo:OBI_0000591",
+      "label": "Bruker BEST NMR system",
+      "hasChildren": false,
+      "childrenKey": "cb80d244dad4da048a11120b64e2517a31b7ad3f"
+    },
+    {
+      "iri": "obo:OBI_0000473",
+      "label": "Bruker NMR Case sample changer",
+      "hasChildren": false,
+      "childrenKey": "0c4219398cf8a272b2098182d289ec2c373c126d"
+    },
+    {
+      "iri": "obo:OBI_0000624",
+      "label": "Bruker SampleJet system",
+      "hasChildren": false,
+      "childrenKey": "5f741d00754e4169a41a4da38f27db74e0842120"
+    }
+  ]
+}

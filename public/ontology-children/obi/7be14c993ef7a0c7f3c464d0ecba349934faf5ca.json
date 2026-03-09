@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002607",
+  "children": [
+    {
+      "iri": "obo:OBI_0002605",
+      "label": "cheek swab specimen",
+      "hasChildren": false,
+      "childrenKey": "f69ab71594e9249e9474bca7c32185b8f320315a"
+    },
+    {
+      "iri": "obo:OBI_0002610",
+      "label": "tongue swab specimen",
+      "hasChildren": false,
+      "childrenKey": "d74dac064b7268fe0e16734b83ac78c3bb0f11ac"
+    }
+  ]
+}

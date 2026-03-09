@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002697",
+  "children": [
+    {
+      "iri": "obo:OBI_0002701",
+      "label": "insecticide resistance by detecting acetylcholinesterase activity assay",
+      "hasChildren": false,
+      "childrenKey": "2e33a67a7f45074a1a11624bd90dd3b44ac9a3f9"
+    },
+    {
+      "iri": "obo:OBI_0002699",
+      "label": "insecticide resistance by detecting alpha esterase activity assay",
+      "hasChildren": false,
+      "childrenKey": "3123d224afa66dfdbb0931c455da288ceeea65b4"
+    },
+    {
+      "iri": "obo:OBI_0002700",
+      "label": "insecticide resistance by detecting beta esterase activity assay",
+      "hasChildren": false,
+      "childrenKey": "2a7378f53ecebc446607c13ccc6860683375f98e"
+    },
+    {
+      "iri": "obo:OBI_0002703",
+      "label": "insecticide resistance by detecting carboxylic ester hydrolase activity assay",
+      "hasChildren": false,
+      "childrenKey": "4d33c3a2064feebeaa8b8c9cf402fd2cb7b83370"
+    },
+    {
+      "iri": "obo:OBI_0002702",
+      "label": "insecticide resistance by detecting glutathione S-transferase activity assay",
+      "hasChildren": false,
+      "childrenKey": "ee231481fef879e1cd63a7ff2b96a65987a355b4"
+    },
+    {
+      "iri": "obo:OBI_0002704",
+      "label": "insecticide resistance by detecting mixed-function oxidase assay",
+      "hasChildren": false,
+      "childrenKey": "fba36de96f801a594c40413a606793aff250c5ff"
+    }
+  ]
+}

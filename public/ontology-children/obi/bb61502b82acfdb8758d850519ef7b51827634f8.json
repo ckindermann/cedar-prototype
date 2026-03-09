@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002926",
+  "children": [
+    {
+      "iri": "obo:OBI_0003550",
+      "label": "odor baited CDC light trap",
+      "hasChildren": false,
+      "childrenKey": "195b961a8526d2977c2fd255e83124ecac880e88"
+    }
+  ]
+}

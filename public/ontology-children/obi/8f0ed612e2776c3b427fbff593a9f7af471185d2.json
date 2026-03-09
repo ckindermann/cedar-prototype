@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001988",
+  "children": [
+    {
+      "iri": "obo:OBI_0001539",
+      "label": "fluorescence detection assay measuring equilibrium dissociation constant [KD] to determine competitive binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "028219f46cecedd52b34fbe98cd9c601179c6c64"
+    },
+    {
+      "iri": "obo:OBI_0001537",
+      "label": "fluorescence detection assay measuring equilibrium dissociation constant [KD] to determine competitive binding of a purified-MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "9ab1d1eb29808b5a09977be91eeea4f360540fee"
+    },
+    {
+      "iri": "obo:OBI_0001543",
+      "label": "fluorescence detection assay measuring equilibrium dissociation constant [KD] to determine direct binding of a purified-MHC:ligand complex approximated by EC50",
+      "hasChildren": false,
+      "childrenKey": "a554b33f132551804da9cb4e3999750a418b6dd0"
+    },
+    {
+      "iri": "obo:OBI_0001549",
+      "label": "radioactivity detection assay measuring equilibrium dissociation constant [KD] to determine competitive binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "7b2e43cf03e8b5f2e5d10a9d1a0efe885375423e"
+    },
+    {
+      "iri": "obo:OBI_0001544",
+      "label": "radioactivity detection assay measuring equilibrium dissociation constant [KD] to determine competitive binding of a cell-lysate-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "dc03f1387eae144c03d640084e6b13854e0e5965"
+    },
+    {
+      "iri": "obo:OBI_0001989",
+      "label": "radioactivity detection assay measuring equilibrium dissociation constant [KD] to determine competitive binding of a purified-MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "82ba0b72c1aad5610850115f1d8731fa5bbc8517"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002649",
+  "children": [
+    {
+      "iri": "obo:OBI_0003381",
+      "label": "placental blood microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "be0b4dadbf47408e95515a24dedcfa2049f084b7"
+    },
+    {
+      "iri": "obo:OBI_0003284",
+      "label": "umbilical cord blood microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "b4ff78125db7f0ef47778e153f841339ba04ddc7"
+    },
+    {
+      "iri": "obo:OBI_0003321",
+      "label": "venous blood microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "7d6e84ac0a4df62ca0d57718027550509e1d6a6a"
+    }
+  ]
+}

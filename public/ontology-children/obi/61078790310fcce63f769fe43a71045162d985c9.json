@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002526",
+  "children": [
+    {
+      "iri": "obo:OBI_0002551",
+      "label": "suprapubic skin specimen",
+      "hasChildren": false,
+      "childrenKey": "1014369265091ed803a44d4c8309cdc6e87d2ccf"
+    }
+  ]
+}

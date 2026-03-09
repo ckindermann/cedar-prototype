@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001143",
+  "children": [
+    {
+      "iri": "obo:OBI_0000908",
+      "label": "labeled DNA extract",
+      "hasChildren": false,
+      "childrenKey": "ff72704ec918dfb0258c5653b4474998762f8b43"
+    },
+    {
+      "iri": "obo:OBI_0000921",
+      "label": "labeled RNA extract",
+      "hasChildren": false,
+      "childrenKey": "5be905f4cad5f3613758901922e10bd845397182"
+    }
+  ]
+}

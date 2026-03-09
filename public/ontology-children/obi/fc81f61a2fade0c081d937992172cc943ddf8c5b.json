@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003237",
+  "children": [
+    {
+      "iri": "obo:OBI_0003039",
+      "label": "feces microbiology assay",
+      "hasChildren": false,
+      "childrenKey": "98c582b643936837a1854f3b08b5aa4fa4ad65ba"
+    }
+  ]
+}

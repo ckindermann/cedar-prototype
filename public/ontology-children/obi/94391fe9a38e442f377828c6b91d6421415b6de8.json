@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002990",
+  "children": [
+    {
+      "iri": "obo:OBI_0003599",
+      "label": "single cell T cell receptor repertoire sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "0e247a0f0b6bd6816c0d6c2e2fb4b0a793778f64"
+    }
+  ]
+}

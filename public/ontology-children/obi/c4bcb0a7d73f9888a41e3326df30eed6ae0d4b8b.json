@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000102",
+  "children": [
+    {
+      "iri": "obo:OBI_0000103",
+      "label": "principal investigator role",
+      "hasChildren": false,
+      "childrenKey": "3d702050e33c7085275ae70ef182cea4b1f5613f"
+    },
+    {
+      "iri": "obo:OBI_0000243",
+      "label": "sponsor role",
+      "hasChildren": false,
+      "childrenKey": "e5795decb7df1344b1f94e7a95dc4ed101d08e82"
+    },
+    {
+      "iri": "obo:OBI_0000060",
+      "label": "trial monitor role",
+      "hasChildren": true,
+      "childrenKey": "da49bae6855b49d4f496f4e6086d1a58e823f24c"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600009",
+  "children": [
+    {
+      "iri": "obo:OBI_0600011",
+      "label": "acclimatization",
+      "hasChildren": false,
+      "childrenKey": "5ea656ae43baea95da34b2cfa69b5168cafcf16b"
+    },
+    {
+      "iri": "obo:OBI_0000045",
+      "label": "waiting",
+      "hasChildren": false,
+      "childrenKey": "73c05a6b17867343ff58c7c8e2e7955e3ed0b18c"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003259",
+  "children": [
+    {
+      "iri": "obo:OBI_0003260",
+      "label": "umbilical cord blood microbiology datum",
+      "hasChildren": true,
+      "childrenKey": "e43cc24b2ffd57c38bb9c8a267926edc222bfb47"
+    }
+  ]
+}

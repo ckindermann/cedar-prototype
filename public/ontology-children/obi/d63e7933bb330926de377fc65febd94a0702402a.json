@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000447",
+  "children": [
+    {
+      "iri": "obo:OBI_0002185",
+      "label": "current clamp assay",
+      "hasChildren": false,
+      "childrenKey": "e29caeeb9dc2238b573ee9a116b44a0c158240bd"
+    },
+    {
+      "iri": "obo:OBI_0002177",
+      "label": "patch clamp assay",
+      "hasChildren": true,
+      "childrenKey": "11bf47b39c39a4cf4e1538271e7d8c379cf3fb31"
+    },
+    {
+      "iri": "obo:OBI_0002182",
+      "label": "voltage clamp assay",
+      "hasChildren": true,
+      "childrenKey": "9458ea28af511794da33d89f71392ecdbc6f1386"
+    }
+  ]
+}

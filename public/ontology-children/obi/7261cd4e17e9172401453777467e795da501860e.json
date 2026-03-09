@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000944",
+  "children": [
+    {
+      "iri": "obo:OBI_0001001",
+      "label": "Edinburgh handedness assay",
+      "hasChildren": false,
+      "childrenKey": "b68e9d49e27834c217e6e10b0f2f0d5b37466387"
+    },
+    {
+      "iri": "obo:OBI_0000957",
+      "label": "self reported handedness assessment",
+      "hasChildren": false,
+      "childrenKey": "6b6be6077628c61cfb45e2d87c4c0678cf62f61a"
+    }
+  ]
+}

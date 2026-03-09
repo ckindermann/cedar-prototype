@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000679",
+  "children": [
+    {
+      "iri": "obo:OBI_0001618",
+      "label": "average depth of sequence coverage",
+      "hasChildren": false,
+      "childrenKey": "14c417250964e1af09d24f0654a7bdea869d3ebd"
+    }
+  ]
+}

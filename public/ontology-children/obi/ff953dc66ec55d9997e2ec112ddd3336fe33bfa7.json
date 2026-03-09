@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0302729",
+  "children": [
+    {
+      "iri": "obo:OBI_0100046",
+      "label": "phosphate buffered saline solution",
+      "hasChildren": false,
+      "childrenKey": "51b25860de28ad9c266e8eb1883e5482778d8648"
+    }
+  ]
+}

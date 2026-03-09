@@ -1,0 +1,264 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001193",
+  "children": [
+    {
+      "iri": "obo:OBI_0001219",
+      "label": "epitope specific chemokine (C-C motif) ligand 1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "6cb07611c83df001e008fc46654aef74b20fec99"
+    },
+    {
+      "iri": "obo:OBI_0001825",
+      "label": "epitope specific chemokine (C-C motif) ligand 19 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7962419d289347a4c466803c46f98710a3c58fcd"
+    },
+    {
+      "iri": "obo:OBI_0001823",
+      "label": "epitope specific chemokine (C-C motif) ligand 21 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "02d5f6f6dc924acd0d8c34f7f1eb172f78823b2f"
+    },
+    {
+      "iri": "obo:OBI_0001819",
+      "label": "epitope specific chemokine (C-C motif) ligand 22 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "36c2fc5ec72453e7a2384fe9cc908f2bd9a6b174"
+    },
+    {
+      "iri": "obo:OBI_0001362",
+      "label": "epitope specific chemokine (C-C motif) ligand 4 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "12dd2f6c52bf751eeace228efb4bc4d3f0c77ea5"
+    },
+    {
+      "iri": "obo:OBI_0001818",
+      "label": "epitope specific chemokine (C-X-C motif) ligand 12 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "33df5c58345ce8b28b52c52f9551fed9ba7ed3c9"
+    },
+    {
+      "iri": "obo:OBI_0001816",
+      "label": "epitope specific chemokine (C-X-C motif) ligand 13 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "2e7d7156341b03162fabd5a9452124c20047bb63"
+    },
+    {
+      "iri": "obo:OBI_0001820",
+      "label": "epitope specific chemokine (C-X-C motif) ligand 16 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "a568e346e5981a476cbc7600fcf06b6878d285ae"
+    },
+    {
+      "iri": "obo:OBI_0001439",
+      "label": "epitope specific chemokine (C-X-C motif) ligand 9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "36b393989260918f71608c917fe7c499b2ccd02c"
+    },
+    {
+      "iri": "obo:OBI_1110184",
+      "label": "epitope specific GM-CSF release by T cells",
+      "hasChildren": false,
+      "childrenKey": "63636ab1a1aa2002dfeaf3b65fa42a8f4b1dcf11"
+    },
+    {
+      "iri": "obo:OBI_0001334",
+      "label": "epitope specific granulocyte colony stimulating factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "f31b5066fe8329a1d775bfc6caf51aa0d0f35235"
+    },
+    {
+      "iri": "obo:OBI_1110185",
+      "label": "epitope specific IFN-g release by T cells",
+      "hasChildren": false,
+      "childrenKey": "c4c531dc8e7daf5248781ea4cff1f027b2b5e662"
+    },
+    {
+      "iri": "obo:OBI_1110187",
+      "label": "epitope specific IL-10 release by T cells",
+      "hasChildren": false,
+      "childrenKey": "67c7cda1f4ffee7934108ebbb3e111864e0bb158"
+    },
+    {
+      "iri": "obo:OBI_1110190",
+      "label": "epitope specific IL-12 release by T cells",
+      "hasChildren": false,
+      "childrenKey": "ab5a4f03adac1a7b371a2944a4a2fc9b4eae8320"
+    },
+    {
+      "iri": "obo:OBI_1110191",
+      "label": "epitope specific IL-13 release by T cells",
+      "hasChildren": false,
+      "childrenKey": "98c9d75406dd77dae5bbf40eedc0fd4b2f003c88"
+    },
+    {
+      "iri": "obo:OBI_1110193",
+      "label": "epitope specific IL-17 release by T cells",
+      "hasChildren": true,
+      "childrenKey": "62c794163c2b525aba1ab9f80bdee8474711274e"
+    },
+    {
+      "iri": "obo:OBI_1110195",
+      "label": "epitope specific IL-18 release by T cells",
+      "hasChildren": false,
+      "childrenKey": "fa5e233c17e202ec1ec2a7f5d4a452241864c99a"
+    },
+    {
+      "iri": "obo:OBI_1110196",
+      "label": "epitope specific IL-1b release by T cells",
+      "hasChildren": false,
+      "childrenKey": "952c652005462cf683a61e8fd5f266e039c85b4c"
+    },
+    {
+      "iri": "obo:OBI_1110056",
+      "label": "epitope specific IL-2 release by T cells",
+      "hasChildren": false,
+      "childrenKey": "ea74b904dcb9c09c1e8aaed086093badb5a27f48"
+    },
+    {
+      "iri": "obo:OBI_1110199",
+      "label": "epitope specific IL-4 release by T cells",
+      "hasChildren": false,
+      "childrenKey": "9aa218897c557279319ff607d6127d02336b270e"
+    },
+    {
+      "iri": "obo:OBI_1110202",
+      "label": "epitope specific IL-5 release by T cells",
+      "hasChildren": false,
+      "childrenKey": "f4340fe4c959fe4b7b0f76ff058360df5559fe46"
+    },
+    {
+      "iri": "obo:OBI_1110203",
+      "label": "epitope specific IL-6 release by T cells",
+      "hasChildren": false,
+      "childrenKey": "8192d14be12693f1d7e459a105c73f0c9557b040"
+    },
+    {
+      "iri": "obo:OBI_0001421",
+      "label": "epitope specific interferon-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "5930e5034cf037c1f8c060bd28f86557b07254c7"
+    },
+    {
+      "iri": "obo:OBI_0001257",
+      "label": "epitope specific interleukin-1 alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "f8af09408d16f0153a688f1b21ba206817f5f2fa"
+    },
+    {
+      "iri": "obo:OBI_0001446",
+      "label": "epitope specific interleukin-15 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "2cb56549c6e40b1c158b82d5c9267ab9cea72dbf"
+    },
+    {
+      "iri": "obo:OBI_0001275",
+      "label": "epitope specific interleukin-16 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "553c2a71bdf0de082c212174e991555c2f418f65"
+    },
+    {
+      "iri": "obo:OBI_0001316",
+      "label": "epitope specific interleukin-21 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "5196d4f18d4437d4446fe47b0df5cf74401070a5"
+    },
+    {
+      "iri": "obo:OBI_0001399",
+      "label": "epitope specific interleukin-22 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "0383c96059d0c7bfe95903721445662292794286"
+    },
+    {
+      "iri": "obo:OBI_0001381",
+      "label": "epitope specific interleukin-23 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "d4b627b5d137a6af9070c490539fd8d24a029ce8"
+    },
+    {
+      "iri": "obo:OBI_0001262",
+      "label": "epitope specific interleukin-27 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "115e4a73d7a1a0e88edb1de83b6d580c606d68a7"
+    },
+    {
+      "iri": "obo:OBI_0001254",
+      "label": "epitope specific interleukin-3 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "fa84ba7a988951ab9fb5701566b114fcf2a3a6bc"
+    },
+    {
+      "iri": "obo:OBI_0001535",
+      "label": "epitope specific interleukin-7 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "f1b02a930fef67cea80c7349e21676f6dd5ba2aa"
+    },
+    {
+      "iri": "obo:OBI_0001373",
+      "label": "epitope specific interleukin-8 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "729cc6f461b9d434582b800cda02f3c5fbd03735"
+    },
+    {
+      "iri": "obo:OBI_0001415",
+      "label": "epitope specific interleukin-9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "28c75e58dd3ef9f51cea70567eec3ce33ad7deaa"
+    },
+    {
+      "iri": "obo:OBI_0001462",
+      "label": "epitope specific IP-10 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3d8c4ea8a941d273f2624b4decba209b161a2678"
+    },
+    {
+      "iri": "obo:OBI_0001207",
+      "label": "epitope specific macrophage inflammatory protein-1 alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b1d6d7ab33f9f4b887627af9dd63a1c1ffce1758"
+    },
+    {
+      "iri": "obo:OBI_0001447",
+      "label": "epitope specific macrophage inflammatory protein-1 gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "c000c62fd61f94b8b6389cfd73d695a4e4986bef"
+    },
+    {
+      "iri": "obo:OBI_0001386",
+      "label": "epitope specific monocyte chemotactic protein-1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7f468d9f4a1fced7a6aad323dd9705e700450f96"
+    },
+    {
+      "iri": "obo:OBI_0001366",
+      "label": "epitope specific RANTES production by T cells",
+      "hasChildren": false,
+      "childrenKey": "817b624287e5d1f03353a8fa58bed5ce9b4cb683"
+    },
+    {
+      "iri": "obo:OBI_0001267",
+      "label": "epitope specific transforming growth factor-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "0213ce5f29e1022afe9f0ef203e4be7cdec81656"
+    },
+    {
+      "iri": "obo:OBI_0001351",
+      "label": "epitope specific tumor necrosis factor superfamily cytokine production by T cells",
+      "hasChildren": true,
+      "childrenKey": "f2895f51d0e7623df41c273e3abe281bd964b73b"
+    },
+    {
+      "iri": "obo:OBI_0001612",
+      "label": "epitope specific vascular endothelial growth factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e436c654c3ae9e5a9d7e729bf0d6793fa671cb48"
+    },
+    {
+      "iri": "obo:OBI_0003371",
+      "label": "epitope specific XCL1 release by T cells",
+      "hasChildren": false,
+      "childrenKey": "80219d4a45cf666bc8e60ba7c10474f106b04cee"
+    }
+  ]
+}

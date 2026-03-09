@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001686",
+  "children": [
+    {
+      "iri": "obo:OBI_0001683",
+      "label": "chromosome organization assay by fluorescence in-situ hybridization",
+      "hasChildren": false,
+      "childrenKey": "ab6329ef5d9cc7e05c6b652650305ffd456083f5"
+    },
+    {
+      "iri": "obo:OBI_0003094",
+      "label": "fluorescence in-situ hybridization assay",
+      "hasChildren": true,
+      "childrenKey": "4de25121c6c54bc1e1dea3dbccbb7b40f208809a"
+    },
+    {
+      "iri": "obo:OBI_0002085",
+      "label": "transcript expression location detection by hybridization chain reaction assay",
+      "hasChildren": false,
+      "childrenKey": "774f7c44f7308ac8a4de200df5a0f1fce9a7a054"
+    }
+  ]
+}

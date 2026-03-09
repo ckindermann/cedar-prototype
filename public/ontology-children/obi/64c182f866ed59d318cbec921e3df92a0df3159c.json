@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000453",
+  "children": [
+    {
+      "iri": "obo:OBI_0000397",
+      "label": "image acquisition function",
+      "hasChildren": false,
+      "childrenKey": "9fe66137c76920ff702dcf2ee27261b1426fb553"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200102",
+  "children": [
+    {
+      "iri": "obo:OBI_0200103",
+      "label": "multiple linear regression analysis",
+      "hasChildren": false,
+      "childrenKey": "b3076d09af551783fc1dd5444d82203da24514a0"
+    },
+    {
+      "iri": "obo:OBI_0200105",
+      "label": "partial least square regression analysis",
+      "hasChildren": false,
+      "childrenKey": "abd10d1917fabf3a245cb4cae1f76cff6c208090"
+    },
+    {
+      "iri": "obo:OBI_0200104",
+      "label": "principal component regression",
+      "hasChildren": false,
+      "childrenKey": "13dd813bcd92c9d57b15cb81aa90e237b1d2cfe8"
+    }
+  ]
+}

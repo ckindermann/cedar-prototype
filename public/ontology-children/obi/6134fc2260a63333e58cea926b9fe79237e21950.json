@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110094",
+  "children": [
+    {
+      "iri": "obo:OBI_1110015",
+      "label": "Immunization in vivo",
+      "hasChildren": true,
+      "childrenKey": "843bdfe49794f060478e6399325dcfe27563f319"
+    }
+  ]
+}

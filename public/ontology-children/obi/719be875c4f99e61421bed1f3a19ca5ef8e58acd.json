@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001495",
+  "children": [
+    {
+      "iri": "obo:OBI_0001228",
+      "label": "in vivo assay measuring epitope specific helper T cell enhancement of a B cell mediated immune response",
+      "hasChildren": true,
+      "childrenKey": "d4b0aa345d94e9e321f03568376f0ce3d7c39b48"
+    },
+    {
+      "iri": "obo:OBI_0001263",
+      "label": "in vivo assay measuring epitope specific helper T cell enhancement of a T cell mediated immune response",
+      "hasChildren": true,
+      "childrenKey": "ec0f0bb0252e670f6d78136cefb03de8a19784ba"
+    }
+  ]
+}

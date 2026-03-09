@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000747",
+  "children": [
+    {
+      "iri": "obo:OBI_0000671",
+      "label": "sample from organism",
+      "hasChildren": false,
+      "childrenKey": "d888bbc23fabe203b027abfff1f7684bddecd384"
+    }
+  ]
+}

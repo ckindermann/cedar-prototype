@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003472",
+  "children": [
+    {
+      "iri": "obo:OBI_0002643",
+      "label": "in vivo assay measuring T cell epitope specific protection from challenge resulting from the adoptive transfer of epitope specific T cells based on tumor burden",
+      "hasChildren": false,
+      "childrenKey": "c256a2f31e9d042c36a9333b1bd85b1beb07564b"
+    },
+    {
+      "iri": "obo:OBI_0003473",
+      "label": "in vivo assay measuring T cell epitope specific protection from tumor challenge resulting from the adoptive transfer of epitope specific T cells based on survival",
+      "hasChildren": false,
+      "childrenKey": "a05d24645ae9b59177d9a0451aea5795281859f2"
+    }
+  ]
+}

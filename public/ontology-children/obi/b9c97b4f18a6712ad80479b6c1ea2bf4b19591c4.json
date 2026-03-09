@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000792",
+  "children": [
+    {
+      "iri": "obo:OBI_0200035",
+      "label": "boostrapping",
+      "hasChildren": false,
+      "childrenKey": "d18a248a987e09bab9c844752af38fbad0d35921"
+    },
+    {
+      "iri": "obo:OBI_0200034",
+      "label": "jackknifing method",
+      "hasChildren": false,
+      "childrenKey": "7cf77842d6c2be50cb979916a13f34baea0d7db9"
+    },
+    {
+      "iri": "obo:OBI_0200032",
+      "label": "K-fold cross validation method",
+      "hasChildren": false,
+      "childrenKey": "835436562e9b80b34c5def772b3d6362aef4fb77"
+    },
+    {
+      "iri": "obo:OBI_0200033",
+      "label": "leave one out cross validation method",
+      "hasChildren": false,
+      "childrenKey": "589a7278a548fbbf11a15dd1033b2530948644aa"
+    }
+  ]
+}

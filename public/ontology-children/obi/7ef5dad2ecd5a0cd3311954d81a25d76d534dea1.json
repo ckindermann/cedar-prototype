@@ -1,0 +1,54 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000470",
+  "children": [
+    {
+      "iri": "obo:OBI_0003110",
+      "label": "gas chromatography mass spectrometry assay",
+      "hasChildren": false,
+      "childrenKey": "27b007da118ce386bd3dc5c37cb52408a51bbc06"
+    },
+    {
+      "iri": "obo:OBI_0003097",
+      "label": "liquid chromatography mass spectrometry assay",
+      "hasChildren": false,
+      "childrenKey": "84f3894b0cfcd69c637caf24f62edc99bb34df75"
+    },
+    {
+      "iri": "obo:OBI_0001654",
+      "label": "mass spectrometry assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "dc5e70481a9e7b4336ada8e3fc173e21eae73d71"
+    },
+    {
+      "iri": "obo:OBI_0003099",
+      "label": "matrix assisted laser desorption ionization imaging mass spectrometry assay",
+      "hasChildren": false,
+      "childrenKey": "81876e17193b305cc05f06b1eedb7d501478e5fa"
+    },
+    {
+      "iri": "obo:OBI_0003101",
+      "label": "nanospray desorption electrospray ionization assay",
+      "hasChildren": false,
+      "childrenKey": "dce87f5f0e9921fa305f799d2815b64e5488c52b"
+    },
+    {
+      "iri": "obo:OBI_0002035",
+      "label": "peptide mass fingerprinting assay",
+      "hasChildren": false,
+      "childrenKey": "7b17e3deef117513abb4e3612887bfa2e97c50c8"
+    },
+    {
+      "iri": "obo:OBI_0001923",
+      "label": "protein sequencing by tandem mass spectrometry assay",
+      "hasChildren": false,
+      "childrenKey": "8d702b4bab72891da6c668a78d57e60edd5d2316"
+    },
+    {
+      "iri": "obo:OBI_0003540",
+      "label": "tandem mass spectrometry assay",
+      "hasChildren": true,
+      "childrenKey": "4ed682799c645e645d3885f38ba6f246e2619efa"
+    }
+  ]
+}

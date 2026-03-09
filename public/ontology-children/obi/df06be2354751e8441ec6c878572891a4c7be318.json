@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001053",
+  "children": [
+    {
+      "iri": "obo:OBI_0001132",
+      "label": "capillary electrophoresis instrument",
+      "hasChildren": false,
+      "childrenKey": "5ae350b332d8e6f0a2bf9101df12db0b3c80d71d"
+    },
+    {
+      "iri": "obo:OBI_0001121",
+      "label": "gel electrophoresis system",
+      "hasChildren": true,
+      "childrenKey": "0ed0e62de1a0304ae889bb95378ba121574467a4"
+    }
+  ]
+}

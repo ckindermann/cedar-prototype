@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002442",
+  "children": [
+    {
+      "iri": "obo:OBI_0002450",
+      "label": "hydroxyl-radical footprinting assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "558a34abc296b39b84f86745ddbed18edee03c2d"
+    }
+  ]
+}

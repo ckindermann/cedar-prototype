@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000950",
+  "children": [
+    {
+      "iri": "obo:OBI_1200000",
+      "label": "FFPE specimen",
+      "hasChildren": false,
+      "childrenKey": "8466245076f98dc629cb5b3aca6be872169962c7"
+    }
+  ]
+}

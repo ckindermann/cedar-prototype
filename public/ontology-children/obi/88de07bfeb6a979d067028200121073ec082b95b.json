@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001772",
+  "children": [
+    {
+      "iri": "obo:OBI_0001523",
+      "label": "cytometric bead array assay measuring epitope specific interleukin-17F production by T cells",
+      "hasChildren": false,
+      "childrenKey": "5be508828dd47e8ae57f02f8ad8da8df6a346993"
+    },
+    {
+      "iri": "obo:OBI_0001832",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-17F production by T cells",
+      "hasChildren": false,
+      "childrenKey": "46a479e17b7c5844eecb9aa40f08e81a80acff82"
+    },
+    {
+      "iri": "obo:OBI_0001831",
+      "label": "ELISA measuring epitope specific interleukin-17F production by T cells",
+      "hasChildren": false,
+      "childrenKey": "e720bd2400f23c02acc8158bf99e808558de1abe"
+    },
+    {
+      "iri": "obo:OBI_0001830",
+      "label": "ELISPOT assay measuring epitope specific interleukin-17F production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3736a0b90e4b0713933d35211c4214bd26fd95d3"
+    },
+    {
+      "iri": "obo:OBI_0001562",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-17F production by T cells",
+      "hasChildren": false,
+      "childrenKey": "75e47e1ea6e359613a5f89988e4cffaa1262f2a7"
+    }
+  ]
+}

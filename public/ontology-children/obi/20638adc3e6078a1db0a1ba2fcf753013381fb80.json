@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000560",
+  "children": [
+    {
+      "iri": "obo:OBI_0000584",
+      "label": "anion exchange column",
+      "hasChildren": false,
+      "childrenKey": "229a2403dda9bd2ee572ece7c66ff8a47482b4c9"
+    },
+    {
+      "iri": "obo:OBI_0000490",
+      "label": "cation exchange column",
+      "hasChildren": false,
+      "childrenKey": "3d09105ed290c0a1b63399e60f771a9d0e2bf01b"
+    }
+  ]
+}

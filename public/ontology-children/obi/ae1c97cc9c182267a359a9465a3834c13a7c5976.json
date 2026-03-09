@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001475",
+  "children": [
+    {
+      "iri": "obo:OBI_0002639",
+      "label": "in vivo assay measuring T cell epitope specific protection from challenge resulting from the adoptive transfer of epitope specific T cells based on pathogen burden",
+      "hasChildren": false,
+      "childrenKey": "2ba8764a772c0ef7e3ddcbee7e1e58a977690066"
+    }
+  ]
+}

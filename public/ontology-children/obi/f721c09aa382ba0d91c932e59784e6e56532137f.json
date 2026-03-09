@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002176",
+  "children": [
+    {
+      "iri": "obo:OBI_0000454",
+      "label": "extracellular electrophysiology recording assay",
+      "hasChildren": true,
+      "childrenKey": "f2a55543c99e61322de84f77c6bdeda65b409162"
+    },
+    {
+      "iri": "obo:OBI_0000447",
+      "label": "intracellular electrophysiology recording assay",
+      "hasChildren": true,
+      "childrenKey": "d63e7933bb330926de377fc65febd94a0702402a"
+    }
+  ]
+}

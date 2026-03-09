@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003124",
+  "children": [
+    {
+      "iri": "obo:OBI_0003126",
+      "label": "neuron morphology reconstruction assay",
+      "hasChildren": false,
+      "childrenKey": "57b1ee955d23926a95d9eeb0ec16488f336dd39d"
+    }
+  ]
+}

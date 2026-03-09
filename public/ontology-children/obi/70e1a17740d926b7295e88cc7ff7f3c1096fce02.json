@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003224",
+  "children": [
+    {
+      "iri": "obo:OBI_0003225",
+      "label": "follicle stimulating hormone concentration assay",
+      "hasChildren": false,
+      "childrenKey": "d91b7d313e52e7f51beefd6eb257f68de5ff86ad"
+    }
+  ]
+}

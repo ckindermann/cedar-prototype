@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400044",
+  "children": [
+    {
+      "iri": "obo:OBI_0400008",
+      "label": "flow cytometer analyzer",
+      "hasChildren": true,
+      "childrenKey": "76c5b348a8825d3d678e58fdf3226da4c5ff9d03"
+    },
+    {
+      "iri": "obo:OBI_0400099",
+      "label": "flow cytometer sorter",
+      "hasChildren": true,
+      "childrenKey": "b34138573d801454db767402aa3a3350ceb5072a"
+    }
+  ]
+}

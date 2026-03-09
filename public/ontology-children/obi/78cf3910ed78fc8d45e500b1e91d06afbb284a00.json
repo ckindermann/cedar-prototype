@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003382",
+  "children": [
+    {
+      "iri": "obo:OBI_0003383",
+      "label": "eukaryota in placental blood datum",
+      "hasChildren": false,
+      "childrenKey": "ad4de7b13537c70a98a232affb43067670ebcbe1"
+    }
+  ]
+}

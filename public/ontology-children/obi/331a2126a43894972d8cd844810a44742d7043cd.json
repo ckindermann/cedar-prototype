@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002677",
+  "children": [
+    {
+      "iri": "obo:OBI_0002634",
+      "label": "in vivo assay measuring B cell epitope specific disease exacerbation resulting from the adoptive transfer of epitope specific antibodies or B cells",
+      "hasChildren": false,
+      "childrenKey": "74b561f38c8939ce6336fc17e3a686c2841ab378"
+    },
+    {
+      "iri": "obo:OBI_0002636",
+      "label": "in vivo assay measuring B cell epitope specific disease reduction resulting from adoptive transfer of epitope specific antibodies or B cells",
+      "hasChildren": false,
+      "childrenKey": "f98157390b7cb50ca9cac6577981af0c80b79dbe"
+    },
+    {
+      "iri": "obo:OBI_0002666",
+      "label": "in vivo assay measuring B cell epitope specific induction of hypersensitivity resulting from the adoptive transfer of epitope specific antibodies or B cells",
+      "hasChildren": false,
+      "childrenKey": "f9efe268072d4d1add609b7b45d3522380e22438"
+    },
+    {
+      "iri": "obo:OBI_0002638",
+      "label": "in vivo assay measuring B cell epitope specific protection from challenge resulting from adoptive transfer of epitope specific antibodies or B cells",
+      "hasChildren": true,
+      "childrenKey": "fd30871bffbabcacc48dc6b79f1293623819bab2"
+    },
+    {
+      "iri": "obo:OBI_0002646",
+      "label": "in vivo assay measuring B cell epitope specific tolerance induction resulting from the adoptive transfer of epitope specific antibodies or B cells",
+      "hasChildren": false,
+      "childrenKey": "8d0437079c548c1ea596c02e8d82925bc7028296"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_9999994",
+  "children": [
+    {
+      "iri": "obo:OBI_1110150",
+      "label": "51 chromium assay measuring epitope specific T cell killing",
+      "hasChildren": false,
+      "childrenKey": "cd3b70fa689e95f4e24f9ac1329c6e9a96c964b8"
+    }
+  ]
+}

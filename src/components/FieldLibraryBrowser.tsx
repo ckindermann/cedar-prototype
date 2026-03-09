@@ -15,6 +15,7 @@ interface FieldLibraryBrowserProps {
   onEditFieldType?: (fieldType: CustomFieldType) => void;
   highlightedFieldType?: { type: FieldType; customFieldTypeId?: string; libraryId?: string } | null;
   searchQuery: string;
+  showSemanticStandardFields?: boolean;
 }
 
 interface LibraryNode {
@@ -40,6 +41,7 @@ export function FieldLibraryBrowser({
   onEditFieldType,
   highlightedFieldType,
   searchQuery,
+  showSemanticStandardFields = false,
 }: FieldLibraryBrowserProps) {
   const [expandedLibraries, setExpandedLibraries] = useState<Set<string>>(new Set());
   const [isCollapsed, setIsCollapsed] = useState(false);
@@ -55,6 +57,13 @@ export function FieldLibraryBrowser({
   const [dragOverTarget, setDragOverTarget] = useState<string | null>(null);
   const [inspectorFieldId, setInspectorFieldId] = useState<string | null>(null);
   const [inspectorVersion, setInspectorVersion] = useState<number | null>(null);
+  const standardFieldTypes = useMemo(
+    () =>
+      showSemanticStandardFields
+        ? FIELD_TYPES
+        : FIELD_TYPES.filter((fieldType) => fieldType.type !== 'ontology-select'),
+    [showSemanticStandardFields],
+  );
 
   // Auto-expand library containing highlighted field
   useEffect(() => {
@@ -135,7 +144,7 @@ export function FieldLibraryBrowser({
     }> = [];
 
     // Search standard fields
-    FIELD_TYPES.forEach(fieldType => {
+    standardFieldTypes.forEach(fieldType => {
       if (fieldType.label.toLowerCase().includes(query) || 
           fieldType.type.toLowerCase().includes(query)) {
         results.push({
@@ -169,7 +178,7 @@ export function FieldLibraryBrowser({
     });
 
     return results;
-  }, [searchQuery, customFields, fieldLibraries]);
+  }, [searchQuery, customFields, fieldLibraries, standardFieldTypes]);
 
   const toggleLibrary = (libraryId: string) => {
     setExpandedLibraries(prev => {
@@ -656,12 +665,12 @@ export function FieldLibraryBrowser({
                   <span className="library-toggle">{isStandardExpanded ? '▼' : '▶'}</span>
                   <span className="library-icon">📚</span>
                   <span className="library-node-name">Standard Fields</span>
-                  <span className="library-field-count">{FIELD_TYPES.length}</span>
+                  <span className="library-field-count">{standardFieldTypes.length}</span>
                 </div>
 
                 {isStandardExpanded && (
                   <div className="library-children">
-                    {FIELD_TYPES.map(fieldType => (
+                    {standardFieldTypes.map(fieldType => (
                       <div
                         key={fieldType.type}
                         className={`field-item ${
@@ -777,6 +786,12 @@ export function FieldLibraryBrowser({
                   <span className="version-inspector-label">Name IRI</span>
                   <span className="version-inspector-value">
                     {inspectorSnapshot.nameIri || '—'}
+                  </span>
+                </div>
+                <div className="version-inspector-row">
+                  <span className="version-inspector-label">Name IRI Label</span>
+                  <span className="version-inspector-value">
+                    {inspectorSnapshot.nameIriLabel || '—'}
                   </span>
                 </div>
                 <div className="version-inspector-row">

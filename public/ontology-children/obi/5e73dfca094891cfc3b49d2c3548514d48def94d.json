@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000561",
+  "children": [
+    {
+      "iri": "obo:OBI_0000590",
+      "label": "Bruker 1mm MicroProbe",
+      "hasChildren": false,
+      "childrenKey": "da2628d6d766616ca181b8eeed6894c95483af15"
+    },
+    {
+      "iri": "obo:OBI_0000531",
+      "label": "Bruker CryoProbe",
+      "hasChildren": false,
+      "childrenKey": "6858fb3d0c5f46a73772aabc52cf404e4cbfc00e"
+    },
+    {
+      "iri": "obo:OBI_0000480",
+      "label": "Bruker high resolution probe",
+      "hasChildren": true,
+      "childrenKey": "b5ba8e30bddd9c3bae142ddcd384277a4967465c"
+    },
+    {
+      "iri": "obo:OBI_0000620",
+      "label": "Bruker micro imaging probe",
+      "hasChildren": false,
+      "childrenKey": "3d7f24bf035d2c8448413df61d7c46de87414272"
+    },
+    {
+      "iri": "obo:OBI_0000629",
+      "label": "Bruker solid magic angle spinning probe",
+      "hasChildren": false,
+      "childrenKey": "2e8086be1efa3091dc3e6b575ec687fd39edc407"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200163",
+  "children": [
+    {
+      "iri": "obo:OBI_0200036",
+      "label": "Benjamini and Hochberg false discovery rate correction method",
+      "hasChildren": false,
+      "childrenKey": "b72b5825cf7a13a249fc3687cb83be295a8db4a0"
+    },
+    {
+      "iri": "obo:OBI_0200049",
+      "label": "Benjamini and Yekutieli false discovery rate correction method",
+      "hasChildren": false,
+      "childrenKey": "0fc0f884a2d6e9c54d559f7044f4477756130fae"
+    }
+  ]
+}

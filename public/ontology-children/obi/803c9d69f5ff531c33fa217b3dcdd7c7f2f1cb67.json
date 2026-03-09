@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600038",
+  "children": [
+    {
+      "iri": "obo:OBI_0600019",
+      "label": "non-specific labeling",
+      "hasChildren": false,
+      "childrenKey": "8b372036bde5ff54378def02e3f9a4dc33053c2b"
+    },
+    {
+      "iri": "obo:OBI_0000879",
+      "label": "random primed DNA labeling",
+      "hasChildren": false,
+      "childrenKey": "dc2ad3db3d2230792178b3d005abbb2adc63d5f2"
+    },
+    {
+      "iri": "obo:OBI_0600067",
+      "label": "specific labeling",
+      "hasChildren": false,
+      "childrenKey": "1fb79c88bedc3c5e8dcd6858d49f98e87ed239c5"
+    }
+  ]
+}

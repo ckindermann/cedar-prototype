@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000504",
+  "children": [
+    {
+      "iri": "obo:OBI_0000610",
+      "label": "auto injector",
+      "hasChildren": false,
+      "childrenKey": "d9876eba7637408f5cd34209b5842503893ad759"
+    },
+    {
+      "iri": "obo:OBI_0000476",
+      "label": "manual injection system",
+      "hasChildren": false,
+      "childrenKey": "d98b3641b3e14d71e14aeb5a3c5719d7f552076b"
+    },
+    {
+      "iri": "obo:OBI_0000525",
+      "label": "splitless GC injector",
+      "hasChildren": false,
+      "childrenKey": "d98799114a96cbf7045543029d6f990e67271d89"
+    }
+  ]
+}

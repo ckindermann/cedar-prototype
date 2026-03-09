@@ -1,0 +1,114 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100002",
+  "children": [
+    {
+      "iri": "obo:OBI_2100271",
+      "label": "ABL90 panel arterial blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "9413f7d6b24b5166eea21f5060fb6393545a51de"
+    },
+    {
+      "iri": "obo:OBI_2100289",
+      "label": "ABL90 panel venous blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "032bf44e87d6017f0e7b6bd973df7fa99a9299d3"
+    },
+    {
+      "iri": "obo:OBI_2100180",
+      "label": "arterial blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "69c26943ab489867a3da7c4a2fdfc07cddb1b285"
+    },
+    {
+      "iri": "obo:OBI_2100089",
+      "label": "basic metabolic panel venous blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "753c45dd453acb69453f9b3f0280a83b40377026"
+    },
+    {
+      "iri": "obo:OBI_2100230",
+      "label": "chem11 venous blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "34a5414cf4cbb1aea55d6b1e832a6b1a9b13bdd7"
+    },
+    {
+      "iri": "obo:OBI_2100242",
+      "label": "chem16 venous blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "84091a43181d93197d5d1b5db7613e727dc89702"
+    },
+    {
+      "iri": "obo:OBI_2100151",
+      "label": "comprehensive metabolic panel venous blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "ae3df1ead76638da788ab26fc5ef5c8db96896b7"
+    },
+    {
+      "iri": "obo:OBI_2100144",
+      "label": "electrolytes urine sodium assay",
+      "hasChildren": false,
+      "childrenKey": "b6b91d2902d432a481f48432a67bb13bf93eb770"
+    },
+    {
+      "iri": "obo:OBI_2100196",
+      "label": "GEM premier blood gas venous blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "48459b060dcb7ffe13fd7f6a195e645e95f69bfa"
+    },
+    {
+      "iri": "obo:OBI_2100374",
+      "label": "GEM4 arterial blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "d181e140f74fa57bd5bb879292a8c0d143bdb0c3"
+    },
+    {
+      "iri": "obo:OBI_2100321",
+      "label": "GEM4000 ANLCOOX arterial blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "c64746edefb894b7a7fd3a954862268663f1a11f"
+    },
+    {
+      "iri": "obo:OBI_2100127",
+      "label": "inpatient profile venous blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "f94d325298a4fe641507ba52dccf64ba1a3d4101"
+    },
+    {
+      "iri": "obo:OBI_2100053",
+      "label": "panel5 venous blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "0e78c9e57c437b052e7e10c99e0f8847ff025911"
+    },
+    {
+      "iri": "obo:OBI_2100253",
+      "label": "POC chem8 arterial blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "7da8276f7e0b461699cfe6e62600ab7bc1d1c251"
+    },
+    {
+      "iri": "obo:OBI_2100137",
+      "label": "random electrolytes urine sodium assay",
+      "hasChildren": false,
+      "childrenKey": "cfd2a360ffdb65a66eaafe31a79c548c21f6aa9a"
+    },
+    {
+      "iri": "obo:OBI_0003171",
+      "label": "sodium(1+) concentration assay",
+      "hasChildren": false,
+      "childrenKey": "17493fe959c0ab9e91317f10faa19ecef57cc6bd"
+    },
+    {
+      "iri": "obo:OBI_2100297",
+      "label": "urine sodium assay",
+      "hasChildren": false,
+      "childrenKey": "721349e9c42c1de1135c9d8725fc8c955c55005e"
+    },
+    {
+      "iri": "obo:OBI_2100136",
+      "label": "venous blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "44d6e76e3aed2e703b2d16c5eb40e4889670ba88"
+    }
+  ]
+}

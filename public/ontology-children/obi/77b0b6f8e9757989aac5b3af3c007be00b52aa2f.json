@@ -1,0 +1,138 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001499",
+  "children": [
+    {
+      "iri": "obo:OBI_0001604",
+      "label": "fluorescence detection assay measuring 50% dissociation of binding temperature [Tm] of a purified-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "56279feda7a4151562f9b20b3258bdfbe254c539"
+    },
+    {
+      "iri": "obo:OBI_0001665",
+      "label": "fluorescence detection assay measuring binding off rate [koff] to determine direct binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "05d07b17553c6a08ea18d3a5d7f19701ff59d12e"
+    },
+    {
+      "iri": "obo:OBI_0001569",
+      "label": "fluorescence detection assay measuring binding off rate [koff] to determine direct binding of a purified-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "41e7828b2bbbf976086d6f4a6eb2906d4388fb87"
+    },
+    {
+      "iri": "obo:OBI_0001666",
+      "label": "fluorescence detection assay measuring binding on rate [kon] to determine direct binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "d33ef7e3e1e7aef3c5157eb3fd27cbef3b694073"
+    },
+    {
+      "iri": "obo:OBI_0001541",
+      "label": "fluorescence detection assay measuring binding on rate [kon] to determine direct binding of a purified-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "19d71cf9e3343d6754e2f3252fd9796ae7ef68b0"
+    },
+    {
+      "iri": "obo:OBI_0001594",
+      "label": "fluorescence detection assay measuring competitive binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "bf026ef8679c32809e20ff6b366a478a640348dc"
+    },
+    {
+      "iri": "obo:OBI_0001534",
+      "label": "fluorescence detection assay measuring competitive binding of a purified-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "cd4aabc23afcddd38f9422ed320a9d4bcdd640d0"
+    },
+    {
+      "iri": "obo:OBI_0001606",
+      "label": "fluorescence detection assay measuring direct binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "8aba236e35fdede1411d66c5df7d46f23e540832"
+    },
+    {
+      "iri": "obo:OBI_0001519",
+      "label": "fluorescence detection assay measuring direct binding of a cell-lysate-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "cc75881e220cea42b0fccd3dc00c672aa685c6d7"
+    },
+    {
+      "iri": "obo:OBI_0001590",
+      "label": "fluorescence detection assay measuring direct binding of a purified-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "0a798796ea0f287026d3831a12bf86136b54611a"
+    },
+    {
+      "iri": "obo:OBI_0001524",
+      "label": "fluorescence detection assay measuring equilibrium association constant [KA] to determine direct binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "af79c2d52e7d14f1d0f23e8d77c0684da770dc4d"
+    },
+    {
+      "iri": "obo:OBI_0001539",
+      "label": "fluorescence detection assay measuring equilibrium dissociation constant [KD] to determine competitive binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "028219f46cecedd52b34fbe98cd9c601179c6c64"
+    },
+    {
+      "iri": "obo:OBI_0001537",
+      "label": "fluorescence detection assay measuring equilibrium dissociation constant [KD] to determine competitive binding of a purified-MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "9ab1d1eb29808b5a09977be91eeea4f360540fee"
+    },
+    {
+      "iri": "obo:OBI_0001667",
+      "label": "fluorescence detection assay measuring equilibrium dissociation constant [KD] to determine competitive binding of a purified-MHC:ligand complex approximated by IC50",
+      "hasChildren": false,
+      "childrenKey": "65fe0b074aa70ad84d44d139885d00744068ff0c"
+    },
+    {
+      "iri": "obo:OBI_0001543",
+      "label": "fluorescence detection assay measuring equilibrium dissociation constant [KD] to determine direct binding of a purified-MHC:ligand complex approximated by EC50",
+      "hasChildren": false,
+      "childrenKey": "a554b33f132551804da9cb4e3999750a418b6dd0"
+    },
+    {
+      "iri": "obo:OBI_0001559",
+      "label": "fluorescence detection assay measuring half life to determine direct binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "e37b6561ae353093a2148e0215c3370f0981da6d"
+    },
+    {
+      "iri": "obo:OBI_0001531",
+      "label": "fluorescence detection assay measuring half life to determine direct binding of a purified-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "717696ae3ee0b966264f051982e85461359189a2"
+    },
+    {
+      "iri": "obo:OBI_0001561",
+      "label": "fluorescence detection assay measuring half maximal effective concentration [EC50] to determine direct binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "74eed37bcb80e0dafc020ed65918288cf3c801c0"
+    },
+    {
+      "iri": "obo:OBI_0001592",
+      "label": "fluorescence detection assay measuring half maximal effective concentration [EC50] to determine direct binding of a purified-MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "8f7e4ee73a001bb943a00cac832d0b4f908f1c20"
+    },
+    {
+      "iri": "obo:OBI_0001520",
+      "label": "fluorescence detection assay measuring half maximal inhibitory concentration [IC50] to determine competitive binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "7e7996f03af9ea22c31a888bd9e7baa2327a921f"
+    },
+    {
+      "iri": "obo:OBI_0001613",
+      "label": "fluorescence detection assay measuring half maximal inhibitory concentration [IC50] to determine competitive binding of a purified-MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "8edfdd236304dfafb5bb7df199665b45a4010c92"
+    },
+    {
+      "iri": "obo:OBI_0001979",
+      "label": "fluorescence quenching binding assay",
+      "hasChildren": true,
+      "childrenKey": "0f89208ef1b4880a806dd03e9201b54865281c6b"
+    }
+  ]
+}

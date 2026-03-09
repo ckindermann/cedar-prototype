@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001999",
+  "children": [
+    {
+      "iri": "obo:OBI_0003612",
+      "label": "electron microscopy assay determining the 3D structure of a T cell epitope:MHC:TCR complex",
+      "hasChildren": false,
+      "childrenKey": "1e2d53be1e365d40a217a0dd592f944380a2b41a"
+    },
+    {
+      "iri": "obo:OBI_0001311",
+      "label": "X-ray crystallography assay determining the 3D structure of a T cell epitope:MHC:TCR complex",
+      "hasChildren": false,
+      "childrenKey": "b4f1a860a07b11b8fcfabd641604e0ae0353996d"
+    }
+  ]
+}

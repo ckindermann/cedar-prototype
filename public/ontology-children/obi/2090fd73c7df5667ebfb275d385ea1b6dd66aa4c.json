@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000854",
+  "children": [
+    {
+      "iri": "obo:OBI_0002967",
+      "label": "microwestern meso-scale quantitative western blot assay",
+      "hasChildren": false,
+      "childrenKey": "4a4cff788c444a11b4d11b224ef5e953eb0f08cb"
+    }
+  ]
+}

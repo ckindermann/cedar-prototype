@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100028",
+  "children": [
+    {
+      "iri": "obo:OBI_2100110",
+      "label": "venous blood lactate dehydrogenase assay",
+      "hasChildren": false,
+      "childrenKey": "40ddedc2e60a6bd9b0a5dbeda3a153207c64b923"
+    },
+    {
+      "iri": "obo:OBI_2100161",
+      "label": "venous blood LDH assay",
+      "hasChildren": false,
+      "childrenKey": "86731f0b63a3a12306268291d97d873111331069"
+    }
+  ]
+}

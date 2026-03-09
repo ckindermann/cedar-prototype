@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002590",
+  "children": [
+    {
+      "iri": "obo:OBI_0002591",
+      "label": "colocalization identification design",
+      "hasChildren": false,
+      "childrenKey": "03d3d99e49223ec4d09d97660eb664e55f1be9a9"
+    },
+    {
+      "iri": "obo:OBI_0002594",
+      "label": "direct interaction identification design",
+      "hasChildren": true,
+      "childrenKey": "f73ceae2552d5306cc14e8c04747e8525b4d714d"
+    },
+    {
+      "iri": "obo:OBI_0002593",
+      "label": "functional association identification design",
+      "hasChildren": false,
+      "childrenKey": "63a424bf554bbc2049ffa76ac0853d884dda1ee8"
+    },
+    {
+      "iri": "obo:OBI_0002592",
+      "label": "genetic interaction identification design",
+      "hasChildren": false,
+      "childrenKey": "31f9b79c4d61a42a13d0cbb61cf474fe12bb528e"
+    },
+    {
+      "iri": "obo:OBI_0002596",
+      "label": "self interaction identification design",
+      "hasChildren": false,
+      "childrenKey": "283345fb7f86a88ddc4a11e491217ed201fb5ca3"
+    }
+  ]
+}

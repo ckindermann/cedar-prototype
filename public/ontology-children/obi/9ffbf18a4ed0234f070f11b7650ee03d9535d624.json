@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001940",
+  "children": [
+    {
+      "iri": "obo:OBI_0001941",
+      "label": "contig N50",
+      "hasChildren": false,
+      "childrenKey": "b924a5006e79c911cf5eec4d0cf5d116b640445f"
+    },
+    {
+      "iri": "obo:OBI_0001945",
+      "label": "scaffold N50",
+      "hasChildren": false,
+      "childrenKey": "288a44cb9332f2d91b4a97fb7342bd25c12483e2"
+    }
+  ]
+}

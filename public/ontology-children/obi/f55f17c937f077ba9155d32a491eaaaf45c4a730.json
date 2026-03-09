@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003372",
+  "children": [
+    {
+      "iri": "obo:OBI_0003373",
+      "label": "ELISA measuring epitope specific lymphotactin production by T cells",
+      "hasChildren": false,
+      "childrenKey": "c9509d61ceb2ec7b8e2d17eba4ce8e63e7c5bf99"
+    }
+  ]
+}

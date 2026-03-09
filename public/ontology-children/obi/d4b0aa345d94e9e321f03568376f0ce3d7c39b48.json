@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001228",
+  "children": [
+    {
+      "iri": "obo:OBI_0002669",
+      "label": "assay measuring epitope specific helper T cell enhancement of a B cell mediated immune response resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "2d5de05014371d77f9f90a9cfcf429cd2e17e0dd"
+    }
+  ]
+}

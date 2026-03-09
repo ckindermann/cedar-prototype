@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003369",
+  "children": [
+    {
+      "iri": "obo:OBI_0003494",
+      "label": "Advantage Chikungunya IgM Card kit",
+      "hasChildren": false,
+      "childrenKey": "a995a5b3d565489e47fbc7533acde813273afefd"
+    },
+    {
+      "iri": "obo:OBI_0003491",
+      "label": "Panbio Dengue Early ELISA kit",
+      "hasChildren": false,
+      "childrenKey": "209379ef77bc5d026b6c5d91f7e3cfdf959bbf39"
+    },
+    {
+      "iri": "obo:OBI_0003490",
+      "label": "Panbio Dengue IgM capture ELISA kit",
+      "hasChildren": false,
+      "childrenKey": "3c925f98162da69f47b1f8dbff87948822f1d136"
+    },
+    {
+      "iri": "obo:OBI_0003489",
+      "label": "Scrub Typhus Detect IgM ELISA kit",
+      "hasChildren": false,
+      "childrenKey": "619f0c596faa79c96b0a7a1b10e4ab621b65206a"
+    },
+    {
+      "iri": "obo:OBI_0003493",
+      "label": "SD Bioline Chikungunya IgM capture ELISA kit",
+      "hasChildren": false,
+      "childrenKey": "246e68046ddc5276bbce51190f67b5ea95c23069"
+    },
+    {
+      "iri": "obo:OBI_0003492",
+      "label": "SD Bioline Chikungunya IgM RDT kit",
+      "hasChildren": false,
+      "childrenKey": "b00e212ee343a6682f3d3654745f1a6d2a67365f"
+    }
+  ]
+}

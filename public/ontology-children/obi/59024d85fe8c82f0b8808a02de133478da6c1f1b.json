@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110124",
+  "children": [
+    {
+      "iri": "obo:OBI_0001317",
+      "label": "flow cytometry assay measuring cell-cell binding of a T cell epitope:MHC:TCR complex",
+      "hasChildren": false,
+      "childrenKey": "01e85e5dc80a4ee38906de7744a3ab34173fb777"
+    },
+    {
+      "iri": "obo:OBI_1110179",
+      "label": "MHC tetramer/multimer assay measuring binding of a T cell epitope:MHC:TCR complex",
+      "hasChildren": false,
+      "childrenKey": "f257a69dd55d101e62d547d2b4c44ecc0d35fdda"
+    }
+  ]
+}

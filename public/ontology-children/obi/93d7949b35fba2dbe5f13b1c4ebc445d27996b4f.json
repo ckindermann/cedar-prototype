@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002623",
+  "children": [
+    {
+      "iri": "obo:OBI_0002768",
+      "label": "whole virome sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "ba01f22833d8edeb8ca07ed64f8f95e555cf2302"
+    }
+  ]
+}

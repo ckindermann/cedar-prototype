@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000664",
+  "children": [
+    {
+      "iri": "obo:OBI_1110181",
+      "label": "BrdU assay measuring epitope specific proliferation of T cells",
+      "hasChildren": false,
+      "childrenKey": "56c4e0c3c3d704ecf8137858b07a5c39f410a302"
+    }
+  ]
+}

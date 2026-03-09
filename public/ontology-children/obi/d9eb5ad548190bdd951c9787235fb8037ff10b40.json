@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003013",
+  "children": [
+    {
+      "iri": "obo:OBI_2100135",
+      "label": "venous blood transferrin assay",
+      "hasChildren": false,
+      "childrenKey": "934b7ccff5fb1c32c47b4992591e671fc452d936"
+    }
+  ]
+}

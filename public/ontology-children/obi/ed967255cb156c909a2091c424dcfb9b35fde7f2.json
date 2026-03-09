@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003536",
+  "children": [
+    {
+      "iri": "obo:OBI_0003502",
+      "label": "facial atrophy assessment",
+      "hasChildren": false,
+      "childrenKey": "9b92ddb26ccd7cec76e1d22ed18c0d76aa4da512"
+    },
+    {
+      "iri": "obo:OBI_0003513",
+      "label": "muscle atrophy assessment",
+      "hasChildren": false,
+      "childrenKey": "cacd09f18b93322e8618059d85d2fd948957b237"
+    },
+    {
+      "iri": "obo:OBI_0003503",
+      "label": "tongue atrophy assessment",
+      "hasChildren": false,
+      "childrenKey": "b02613cd75ee6259af5706fe14e644d69b862701"
+    }
+  ]
+}

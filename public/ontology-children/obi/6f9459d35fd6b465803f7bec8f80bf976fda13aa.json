@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001547",
+  "children": [
+    {
+      "iri": "obo:OBI_0001904",
+      "label": "sequencing service",
+      "hasChildren": true,
+      "childrenKey": "cbd71eec01d5062468be885ab1c2111b7ab1c474"
+    }
+  ]
+}

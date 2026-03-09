@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000989",
+  "children": [
+    {
+      "iri": "obo:OBI_0001110",
+      "label": "real-time PCR machine",
+      "hasChildren": false,
+      "childrenKey": "981cd6751a05ff702d76a34d4c2415049a170815"
+    }
+  ]
+}

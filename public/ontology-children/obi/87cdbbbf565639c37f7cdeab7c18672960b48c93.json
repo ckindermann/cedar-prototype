@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000067",
+  "children": [
+    {
+      "iri": "obo:OBI_0003029",
+      "label": "barcode target locus role",
+      "hasChildren": false,
+      "childrenKey": "058bf87d26442a66a72e1598771d4ae8c51291f1"
+    },
+    {
+      "iri": "obo:OBI_0003330",
+      "label": "magnetic resonance imaging evaluant role",
+      "hasChildren": false,
+      "childrenKey": "6259ebffd56a7cbe4746f9a09f40bfd0d8ef7259"
+    }
+  ]
+}

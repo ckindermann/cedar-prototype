@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000673",
+  "children": [
+    {
+      "iri": "obo:OBI_0200201",
+      "label": "ANOVA",
+      "hasChildren": false,
+      "childrenKey": "4108c2985bbd12e46192c60441ce4324a140a896"
+    },
+    {
+      "iri": "obo:OBI_0200200",
+      "label": "chi square test",
+      "hasChildren": false,
+      "childrenKey": "738fcd5cd232e5a3486158b1942829a6f12a3387"
+    },
+    {
+      "iri": "obo:OBI_0200176",
+      "label": "Fisher's exact test",
+      "hasChildren": false,
+      "childrenKey": "01d8d3b71a7ff441e69c42685da7d24b9fb65aa5"
+    },
+    {
+      "iri": "obo:OBI_0000739",
+      "label": "Student's t-test",
+      "hasChildren": false,
+      "childrenKey": "387466431edf7a499dd64b6007f619ea694159e0"
+    }
+  ]
+}

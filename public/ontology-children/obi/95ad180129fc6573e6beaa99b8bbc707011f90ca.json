@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002955",
+  "children": [
+    {
+      "iri": "obo:OBI_0002956",
+      "label": "targeted, drug-modulated, mass spectrometry-based protein phoshporylation-state assay",
+      "hasChildren": false,
+      "childrenKey": "3fea219dcca669320f5c65fad660e49f632a900a"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001788",
+  "children": [
+    {
+      "iri": "obo:OBI_0001794",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific lymphotoxin A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "1fd37a930572c697a7f2318690835a76724c62ea"
+    },
+    {
+      "iri": "obo:OBI_0001242",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "358909df858d332969bf1ca71bf4d7c153b3a3ad"
+    }
+  ]
+}

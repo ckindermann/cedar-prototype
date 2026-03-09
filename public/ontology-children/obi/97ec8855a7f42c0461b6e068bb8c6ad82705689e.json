@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200057",
+  "children": [
+    {
+      "iri": "obo:OBI_0200055",
+      "label": "dye swap merge",
+      "hasChildren": false,
+      "childrenKey": "6b7619acb31297106a42a6d27b147b25e7b71acd"
+    }
+  ]
+}

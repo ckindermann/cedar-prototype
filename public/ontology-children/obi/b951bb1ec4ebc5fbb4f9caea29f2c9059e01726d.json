@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003685",
+  "children": [
+    {
+      "iri": "obo:OBI_0002630",
+      "label": "Illumina NovaSeq 6000",
+      "hasChildren": false,
+      "childrenKey": "51d76d0c50d4a13135bafcce50e8e1d0c7c1a451"
+    },
+    {
+      "iri": "obo:OBI_0003663",
+      "label": "Illumina NovaSeq X",
+      "hasChildren": false,
+      "childrenKey": "6f342ade53da72b1246c0cb229e958f3f9ea9b2a"
+    },
+    {
+      "iri": "obo:OBI_0003664",
+      "label": "Illumina NovaSeq X Plus",
+      "hasChildren": false,
+      "childrenKey": "a7d4120f9711b511de67aaae70258c991719ac7e"
+    }
+  ]
+}

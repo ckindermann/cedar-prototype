@@ -60,6 +60,14 @@ const syncFieldDependenciesToLatest = (
               ? [...nextField.options]
               : [...DEFAULT_SELECT_OPTIONS])
             : undefined,
+        ontologyOptions:
+          latestFieldType.baseType === 'ontology-select'
+            ? deepClone(latestFieldType.ontologyOptions || nextField.ontologyOptions || [])
+            : undefined,
+        ontologyOptionSources:
+          latestFieldType.baseType === 'ontology-select'
+            ? deepClone(latestFieldType.ontologyOptionSources || nextField.ontologyOptionSources || [])
+            : undefined,
       };
     }
   }

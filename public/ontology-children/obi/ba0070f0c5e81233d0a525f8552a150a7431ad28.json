@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400146",
+  "children": [
+    {
+      "iri": "obo:OBI_0400054",
+      "label": "Amnis ImageStream",
+      "hasChildren": false,
+      "childrenKey": "e04ce22a33a38f65bad1199229bb56d186472696"
+    }
+  ]
+}

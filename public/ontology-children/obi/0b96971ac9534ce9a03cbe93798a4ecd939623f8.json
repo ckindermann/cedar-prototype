@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000938",
+  "children": [
+    {
+      "iri": "obo:OBI_0000976",
+      "label": "handedness categorical measurement datum",
+      "hasChildren": false,
+      "childrenKey": "73b63bd0564caeee00803211f2be1679b2f9ada9"
+    }
+  ]
+}

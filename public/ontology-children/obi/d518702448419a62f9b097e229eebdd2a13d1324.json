@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200074",
+  "children": [
+    {
+      "iri": "obo:OBI_0200076",
+      "label": "column submatrix extraction",
+      "hasChildren": false,
+      "childrenKey": "f16b3cb2afd8ae0a2c434427e1f923c8b59522b9"
+    },
+    {
+      "iri": "obo:OBI_0200075",
+      "label": "row submatrix extraction",
+      "hasChildren": false,
+      "childrenKey": "a8b3aa7c211c3b456d5d9ade16f4f1bfc4cbb31d"
+    }
+  ]
+}

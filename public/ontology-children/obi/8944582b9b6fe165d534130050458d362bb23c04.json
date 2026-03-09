@@ -1,0 +1,48 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001698",
+  "children": [
+    {
+      "iri": "obo:OBI_0002677",
+      "label": "in vivo assay measuring a B cell epitope specific response after adoptive transfer of epitope specific antibodies or B cells",
+      "hasChildren": true,
+      "childrenKey": "331a2126a43894972d8cd844810a44742d7043cd"
+    },
+    {
+      "iri": "obo:OBI_0001711",
+      "label": "in vivo assay measuring B cell epitope specific disease exacerbation",
+      "hasChildren": true,
+      "childrenKey": "562cd8f240a935ea6a44c3673fa579ed6aa6ef5d"
+    },
+    {
+      "iri": "obo:OBI_0001694",
+      "label": "in vivo assay measuring B cell epitope specific induction of hypersensitivity",
+      "hasChildren": true,
+      "childrenKey": "2baacda0a4240cf0708741704f96904653a0716f"
+    },
+    {
+      "iri": "obo:OBI_0001710",
+      "label": "in vivo assay measuring B cell epitope specific protection from challenge",
+      "hasChildren": true,
+      "childrenKey": "59619fe473e6c738c36e9d531d045fc858228402"
+    },
+    {
+      "iri": "obo:OBI_0001692",
+      "label": "in vivo assay measuring B cell epitope specific protection from fertility",
+      "hasChildren": false,
+      "childrenKey": "24088d93ef8ececd17e7cbd583544b92bfee69be"
+    },
+    {
+      "iri": "obo:OBI_0001693",
+      "label": "in vivo assay measuring B cell epitope specific tolerance induction",
+      "hasChildren": true,
+      "childrenKey": "6e1392e097fedcf2d02fdffb672231aa65ba5e5f"
+    },
+    {
+      "iri": "obo:OBI_0001697",
+      "label": "in vivo assay measuring B cell epitope specific treatment of disease",
+      "hasChildren": true,
+      "childrenKey": "427ce5cb7a2ffe692199dcdd3843ef895cee53bd"
+    }
+  ]
+}

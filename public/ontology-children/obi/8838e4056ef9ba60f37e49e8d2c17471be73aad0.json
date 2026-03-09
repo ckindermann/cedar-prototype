@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003123",
+  "children": [
+    {
+      "iri": "obo:OBI_0003125",
+      "label": "mosaicism with repeat frameshift genetic sparse labeling",
+      "hasChildren": false,
+      "childrenKey": "f253a5443fe364b7a3ae586eed85dd1ad29b5c98"
+    },
+    {
+      "iri": "obo:OBI_0003124",
+      "label": "neuron morphology assay",
+      "hasChildren": true,
+      "childrenKey": "ce7402a3493fe1ebb1fca28afb8bffc3670f5884"
+    }
+  ]
+}

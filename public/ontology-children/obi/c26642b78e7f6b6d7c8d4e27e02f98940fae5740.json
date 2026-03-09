@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003247",
+  "children": [
+    {
+      "iri": "obo:OBI_0003248",
+      "label": "urine microbiology datum",
+      "hasChildren": true,
+      "childrenKey": "1391f1869433266bc84931fcdd131a7699a9058c"
+    }
+  ]
+}

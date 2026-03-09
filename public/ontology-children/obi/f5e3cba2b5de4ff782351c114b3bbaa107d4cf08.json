@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002786",
+  "children": [
+    {
+      "iri": "obo:OBI_0002787",
+      "label": "face mask",
+      "hasChildren": true,
+      "childrenKey": "361432b2c84fab31e03743ce43847bbb49eb7f84"
+    },
+    {
+      "iri": "obo:OBI_0002791",
+      "label": "face shield",
+      "hasChildren": false,
+      "childrenKey": "4697d87bfb828bb619373327159d0c2e91033292"
+    },
+    {
+      "iri": "obo:OBI_0002800",
+      "label": "personal protective clothing item",
+      "hasChildren": true,
+      "childrenKey": "d162e2f5624e9e6d13d6d3bcac8f8ecafce8bd92"
+    }
+  ]
+}

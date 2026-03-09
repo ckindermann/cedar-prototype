@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001348",
+  "children": [
+    {
+      "iri": "obo:OBI_0002667",
+      "label": "in vivo skin test assay measuring T cell epitope specific type IV hypersensitivity resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "5aef7e43f1951164db51e6e65c128fe8d6d8e210"
+    }
+  ]
+}

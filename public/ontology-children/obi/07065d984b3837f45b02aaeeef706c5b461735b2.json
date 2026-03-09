@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001991",
+  "children": [
+    {
+      "iri": "obo:OBI_0001561",
+      "label": "fluorescence detection assay measuring half maximal effective concentration [EC50] to determine direct binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "74eed37bcb80e0dafc020ed65918288cf3c801c0"
+    },
+    {
+      "iri": "obo:OBI_0001592",
+      "label": "fluorescence detection assay measuring half maximal effective concentration [EC50] to determine direct binding of a purified-MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "8f7e4ee73a001bb943a00cac832d0b4f908f1c20"
+    },
+    {
+      "iri": "obo:OBI_0001516",
+      "label": "radioactivity detection assay measuring half maximal effective concentration [EC50] to determine direct binding of a cell-lysate-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "f60b03873431a46d5208db7da6811b4917bb05bc"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001507",
+  "children": [
+    {
+      "iri": "obo:OBI_0002635",
+      "label": "in vivo assay measuring T cell epitope specific disease reduction resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "8530e51d50447effdcd57ed5388be0b6b412bc62"
+    }
+  ]
+}

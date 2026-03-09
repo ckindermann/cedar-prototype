@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110015",
+  "children": [
+    {
+      "iri": "obo:OBI_0001176",
+      "label": "Individual epitope immunization in vivo",
+      "hasChildren": false,
+      "childrenKey": "069932a5f36859aeaaa278c794c2d197c48cf2da"
+    }
+  ]
+}

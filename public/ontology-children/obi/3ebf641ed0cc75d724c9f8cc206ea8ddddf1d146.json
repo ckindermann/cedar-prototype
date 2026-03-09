@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000268",
+  "children": [
+    {
+      "iri": "obo:OBI_0002689",
+      "label": "detection of pathogenic organisms objective",
+      "hasChildren": false,
+      "childrenKey": "19329037b56260b4e76da9cc4a07e25ec1d1c3ae"
+    },
+    {
+      "iri": "obo:OBI_0002690",
+      "label": "insecticide resistance detection objective",
+      "hasChildren": false,
+      "childrenKey": "3ef29580f250b923e1bd1556cc059dee502a3a67"
+    }
+  ]
+}

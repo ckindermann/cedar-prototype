@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000912",
+  "children": [
+    {
+      "iri": "obo:OBI_0001738",
+      "label": "X-ray crystallography assay determining the 3D structure of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "0e155d73bc0dfc79e896e0f98eb096c483792796"
+    },
+    {
+      "iri": "obo:OBI_0001595",
+      "label": "X-ray crystallography assay determining the 3D structure of a MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "d498981e6eb8e1b89a665a5f409887891e9197c3"
+    },
+    {
+      "iri": "obo:OBI_0001311",
+      "label": "X-ray crystallography assay determining the 3D structure of a T cell epitope:MHC:TCR complex",
+      "hasChildren": false,
+      "childrenKey": "b4f1a860a07b11b8fcfabd641604e0ae0353996d"
+    }
+  ]
+}

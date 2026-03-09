@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001987",
+  "children": [
+    {
+      "iri": "obo:OBI_0001524",
+      "label": "fluorescence detection assay measuring equilibrium association constant [KA] to determine direct binding of a cell-bound-MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "af79c2d52e7d14f1d0f23e8d77c0684da770dc4d"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003638",
+  "children": [
+    {
+      "iri": "obo:OBI_0003641",
+      "label": "antibody purification of HLA protein complex with DQ3 serotype",
+      "hasChildren": false,
+      "childrenKey": "d6975333a2057739564920c9cca9fba8480bcbfe"
+    },
+    {
+      "iri": "obo:OBI_0003639",
+      "label": "antibody purification of HLA-DP protein complex",
+      "hasChildren": false,
+      "childrenKey": "6c11ef5c3a08e32ffe60493a66bbd712fb165660"
+    },
+    {
+      "iri": "obo:OBI_0003640",
+      "label": "antibody purification of HLA-DR protein complex",
+      "hasChildren": false,
+      "childrenKey": "1c310e5966bbe2dee7c5db777fb9c5e795899c42"
+    }
+  ]
+}

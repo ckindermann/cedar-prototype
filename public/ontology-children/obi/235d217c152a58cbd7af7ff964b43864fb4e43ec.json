@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200170",
+  "children": [
+    {
+      "iri": "obo:OBI_0200079",
+      "label": "arithmetic mean calculation",
+      "hasChildren": false,
+      "childrenKey": "b3f9a9c8eb22c3a532472c2ba4651ee25a305b95"
+    },
+    {
+      "iri": "obo:OBI_0200056",
+      "label": "moving average",
+      "hasChildren": false,
+      "childrenKey": "5db3c97b5d0777b9fffe35ef8ee128229313cb4b"
+    }
+  ]
+}

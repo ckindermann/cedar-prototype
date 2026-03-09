@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003258",
+  "children": [
+    {
+      "iri": "obo:OBI_0003278",
+      "label": "bacteria in pleural fluid datum",
+      "hasChildren": false,
+      "childrenKey": "27a0f03b1088de4cd42a1a288434b2ebf069a1c3"
+    },
+    {
+      "iri": "obo:OBI_0003279",
+      "label": "eukaryota in pleural fluid datum",
+      "hasChildren": false,
+      "childrenKey": "fa492de7963b2f3b45fce4aca4ec1d16323427ee"
+    },
+    {
+      "iri": "obo:OBI_0003280",
+      "label": "virus in pleural fluid datum",
+      "hasChildren": false,
+      "childrenKey": "7fc120ea7e5b87cf81b76f15b251dceb9a91e2db"
+    }
+  ]
+}

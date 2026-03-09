@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000690",
+  "children": [
+    {
+      "iri": "obo:OBI_00001975",
+      "label": "chromatin immunoprecipitation",
+      "hasChildren": false,
+      "childrenKey": "57bc46d2050c340a294560d122562f41e9d78a97"
+    }
+  ]
+}

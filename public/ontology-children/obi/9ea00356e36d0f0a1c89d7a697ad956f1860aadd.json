@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001497",
+  "children": [
+    {
+      "iri": "obo:OBI_0003293",
+      "label": "cytometric bead array assay measuring epitope specific perforin release by T cells",
+      "hasChildren": false,
+      "childrenKey": "477a852497a80368916bc761c67ae0fcc6590750"
+    },
+    {
+      "iri": "obo:OBI_0001245",
+      "label": "detection of specific nucleic acids with complementary probes assay measuring epitope specific perforin release",
+      "hasChildren": false,
+      "childrenKey": "b71f578d481c91f2062720ee75f14adbbed7e60d"
+    },
+    {
+      "iri": "obo:OBI_0002672",
+      "label": "ELISA measuring epitope specific perforin release by T cells",
+      "hasChildren": false,
+      "childrenKey": "037e2d0b69cc78dbd8d6b76cb33daec576bf9170"
+    },
+    {
+      "iri": "obo:OBI_0002069",
+      "label": "ELISPOT assay measuring epitope specific perforin release by T cells",
+      "hasChildren": false,
+      "childrenKey": "4fc58a745aae0de122c15f625dfbbdc205608641"
+    },
+    {
+      "iri": "obo:OBI_0001215",
+      "label": "intracellular material detection assay measuring epitope specific perforin release",
+      "hasChildren": false,
+      "childrenKey": "df5ddf23b0991f0a87526a29265bc8639f08a43c"
+    }
+  ]
+}

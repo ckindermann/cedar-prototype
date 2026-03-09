@@ -1,0 +1,90 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000245",
+  "children": [
+    {
+      "iri": "obo:OBI_0001626",
+      "label": "Bioinformatics Resource Center",
+      "hasChildren": false,
+      "childrenKey": "e0b284072e745e408c95b571717d14d7b10b0674"
+    },
+    {
+      "iri": "obo:OBI_0003250",
+      "label": "biomedical laboratory organization",
+      "hasChildren": false,
+      "childrenKey": "fafb5167841f85c18fe9b23ffe7482f0e60c8852"
+    },
+    {
+      "iri": "obo:OBI_0003068",
+      "label": "clinical study center",
+      "hasChildren": false,
+      "childrenKey": "02999415fbb6445abac8c98d0c3d5ee1d2b592fb"
+    },
+    {
+      "iri": "obo:OBI_0002190",
+      "label": "courier organization",
+      "hasChildren": false,
+      "childrenKey": "9309adbe1a932c69b613d9d6165b7d34826f5d73"
+    },
+    {
+      "iri": "obo:OBI_0001942",
+      "label": "grant agency",
+      "hasChildren": false,
+      "childrenKey": "cd7aeb120aa38c8ed1c151f34a861b58a21bc92b"
+    },
+    {
+      "iri": "obo:OBI_0002198",
+      "label": "molecular analysis facility organization",
+      "hasChildren": true,
+      "childrenKey": "e334bd76771c8910687f7e766eaf9f844b730a0f"
+    },
+    {
+      "iri": "obo:OBI_0001881",
+      "label": "organization of Bioinformatics Resource Center contact person",
+      "hasChildren": false,
+      "childrenKey": "7208be6dcff834fc48b98f566f99a3ecbda20542"
+    },
+    {
+      "iri": "obo:OBI_0001897",
+      "label": "organization of sequencing facility contact person",
+      "hasChildren": false,
+      "childrenKey": "4261227f50d15370c463766f52399856f7b93d29"
+    },
+    {
+      "iri": "obo:OBI_0001893",
+      "label": "organization of specimen collector",
+      "hasChildren": false,
+      "childrenKey": "560f20bab5d22bf23a0194404abd4f34658766bd"
+    },
+    {
+      "iri": "obo:OBI_0001880",
+      "label": "organization of specimen provider principal investigator",
+      "hasChildren": false,
+      "childrenKey": "c61556e934a4855b5a596379fe776f52fe09eb93"
+    },
+    {
+      "iri": "obo:OBI_0000450",
+      "label": "regulatory agency",
+      "hasChildren": false,
+      "childrenKey": "fc46e452032b0722d195b0ba9f39e64dedbd1d90"
+    },
+    {
+      "iri": "obo:OBI_0000828",
+      "label": "research organization",
+      "hasChildren": false,
+      "childrenKey": "cfbd2644869364ad284a192c888b55ca0eb59829"
+    },
+    {
+      "iri": "obo:OBI_0001891",
+      "label": "sequencing facility organization",
+      "hasChildren": false,
+      "childrenKey": "610afd1baffc08d257338a6386b91c63e0a686b0"
+    },
+    {
+      "iri": "obo:OBI_0001885",
+      "label": "specimen repository organization",
+      "hasChildren": false,
+      "childrenKey": "07df203777668b9eec90c11f3553b481d9fccf54"
+    }
+  ]
+}

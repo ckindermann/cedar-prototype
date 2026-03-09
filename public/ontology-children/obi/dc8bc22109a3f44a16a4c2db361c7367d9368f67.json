@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000105",
+  "children": [
+    {
+      "iri": "obo:OBI_0000057",
+      "label": "allotransplantation",
+      "hasChildren": false,
+      "childrenKey": "0a3e85cd8133db504400b11fb3813e6e8bfd91f5"
+    },
+    {
+      "iri": "obo:OBI_0000171",
+      "label": "autotransplantation",
+      "hasChildren": false,
+      "childrenKey": "b3b0cacc8dd5e8b0c84247e6477c879b3576fd70"
+    },
+    {
+      "iri": "obo:OBI_0000043",
+      "label": "xenotransplantation",
+      "hasChildren": false,
+      "childrenKey": "17fada2f25cdc7af4c5cf3b0c2cec943b51ab296"
+    }
+  ]
+}

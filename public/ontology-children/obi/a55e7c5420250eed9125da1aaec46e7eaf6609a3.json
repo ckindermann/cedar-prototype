@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100032",
+  "children": [
+    {
+      "iri": "obo:OBI_2100398",
+      "label": "lipid panel reflex direct venous blood low density lipoprotein assay",
+      "hasChildren": false,
+      "childrenKey": "1374ac3f772d2ab501ee1114c93d7f7a65924f73"
+    },
+    {
+      "iri": "obo:OBI_2100115",
+      "label": "lipid panel venous blood low density lipoprotein assay",
+      "hasChildren": false,
+      "childrenKey": "ec69d4bacda59a8172d7f2842c7f33add3f1d240"
+    },
+    {
+      "iri": "obo:OBI_0003159",
+      "label": "low-density lipoprotein cholesterol concentration assay",
+      "hasChildren": false,
+      "childrenKey": "343eb1a7ff859fcdab5a71a3604abd8efc1af4dd"
+    }
+  ]
+}

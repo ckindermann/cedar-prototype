@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002154",
+  "children": [
+    {
+      "iri": "obo:OBI_0003590",
+      "label": "serum anti-cytomegalovirus antibody level assay",
+      "hasChildren": false,
+      "childrenKey": "1768fb19239d8f76fb30248f478bda1bb9748b1d"
+    }
+  ]
+}

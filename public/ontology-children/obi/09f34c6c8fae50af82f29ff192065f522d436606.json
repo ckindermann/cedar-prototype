@@ -1,0 +1,66 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000637",
+  "children": [
+    {
+      "iri": "obo:OBI_0000642",
+      "label": "atomic emission detector",
+      "hasChildren": false,
+      "childrenKey": "3382cdb9c0f6c5b3f086b4530badb2819afa36e3"
+    },
+    {
+      "iri": "obo:OBI_0000509",
+      "label": "electron capture detector",
+      "hasChildren": false,
+      "childrenKey": "0101bbb36289a589a1739a7e54bb1fa6abe08834"
+    },
+    {
+      "iri": "obo:OBI_0000521",
+      "label": "flame ionization detector",
+      "hasChildren": false,
+      "childrenKey": "9ee9c1fec35cde6551a83454855c083f9ca0f57d"
+    },
+    {
+      "iri": "obo:OBI_0000588",
+      "label": "flame photometric detector",
+      "hasChildren": false,
+      "childrenKey": "f3e3ec33c186d0e601b4ab8c7f0b3ebcf600836c"
+    },
+    {
+      "iri": "obo:OBI_0000617",
+      "label": "fluorine-induced chemiluminescence detector",
+      "hasChildren": false,
+      "childrenKey": "cdd060d7f814e2a8567c4356c3d41e453f85c9f3"
+    },
+    {
+      "iri": "obo:OBI_0000569",
+      "label": "mass selective detector",
+      "hasChildren": false,
+      "childrenKey": "5cd097411709ebce0ebf4f5511906e77e92d970d"
+    },
+    {
+      "iri": "obo:OBI_0000489",
+      "label": "nitrogen phosphorous detector",
+      "hasChildren": false,
+      "childrenKey": "3aee2aee16fce80b3961a1c301e29716051944b4"
+    },
+    {
+      "iri": "obo:OBI_0000598",
+      "label": "ozone-induced chemiluminescence detector",
+      "hasChildren": false,
+      "childrenKey": "f6aa333be1755116b1ba690023f0cf1e4e536cf2"
+    },
+    {
+      "iri": "obo:OBI_0000506",
+      "label": "photoionization detector",
+      "hasChildren": false,
+      "childrenKey": "80587f1e06f995d0dc5485d5610fbcb03312bedf"
+    },
+    {
+      "iri": "obo:OBI_0000466",
+      "label": "thermal conductivity detector",
+      "hasChildren": false,
+      "childrenKey": "fb4f6a8fcbe6d72e31ad1f59a4114dc3d1a708ad"
+    }
+  ]
+}

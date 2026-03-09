@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000723",
+  "children": [
+    {
+      "iri": "obo:OBI_0000706",
+      "label": "SOLiD sequencing assay",
+      "hasChildren": false,
+      "childrenKey": "cdb333ff22e986e96443da824ed018279a0cf80c"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100035",
+  "children": [
+    {
+      "iri": "obo:OBI_0003176",
+      "label": "free thyroxine concentration assay",
+      "hasChildren": false,
+      "childrenKey": "0af6e96e26253c196b8d4c1c1142c7b20a37dab4"
+    },
+    {
+      "iri": "obo:OBI_2100295",
+      "label": "free venous blood T4 assay",
+      "hasChildren": false,
+      "childrenKey": "b10da591d498f61ca057e2ab00877a2539355058"
+    },
+    {
+      "iri": "obo:OBI_2100122",
+      "label": "T4 uptake venous blood T4 assay",
+      "hasChildren": false,
+      "childrenKey": "57038a698d0f652dfe7134153756f3d1e6752a45"
+    },
+    {
+      "iri": "obo:OBI_0003177",
+      "label": "total thyroxine concentration assay",
+      "hasChildren": false,
+      "childrenKey": "0f3900ac3e9cb3c6a2cd7cf54118fcf295a6610d"
+    },
+    {
+      "iri": "obo:OBI_2100294",
+      "label": "venous blood T4 assay",
+      "hasChildren": false,
+      "childrenKey": "f3dee65f7e5453d10d6046e6a5fc2e28548a47c2"
+    }
+  ]
+}

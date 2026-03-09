@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0302859",
+  "children": [
+    {
+      "iri": "obo:OBI_1000048",
+      "label": "transgenic organism",
+      "hasChildren": false,
+      "childrenKey": "c61d43a2a023d9d910dd1df954d1550b61f96382"
+    }
+  ]
+}

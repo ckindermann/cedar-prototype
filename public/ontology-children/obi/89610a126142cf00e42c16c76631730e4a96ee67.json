@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110095",
+  "children": [
+    {
+      "iri": "obo:OBI_0003231",
+      "label": "leukapheresis",
+      "hasChildren": false,
+      "childrenKey": "47f6a36865e794f9ab6195bad87db4ca1d64f575"
+    }
+  ]
+}

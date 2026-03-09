@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003025",
+  "children": [
+    {
+      "iri": "obo:OBI_2100060",
+      "label": "automated differential venous blood monocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "434aa881743db50cb695cc2639b95f86a316d190"
+    },
+    {
+      "iri": "obo:OBI_2100104",
+      "label": "CBC with manual differential venous blood monocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "ce23a20de3770bd63696d9ed3406b54d14e9eb9c"
+    },
+    {
+      "iri": "obo:OBI_2100395",
+      "label": "cerebrospinal fluid monocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "8f1960519f49a74d77b6bdd47b9fd6b11d60136f"
+    },
+    {
+      "iri": "obo:OBI_2100333",
+      "label": "manual differential bodily fluid monocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "5b1ae198525c0ccd085901264c354481a11acd14"
+    },
+    {
+      "iri": "obo:OBI_2100009",
+      "label": "monocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "88801b619552304dda7eb89124b87846b2fc2b94"
+    },
+    {
+      "iri": "obo:OBI_0003164",
+      "label": "monocyte percentage assay",
+      "hasChildren": false,
+      "childrenKey": "ce1358bd73d515af6c8946d4108bf325c6de89bb"
+    }
+  ]
+}

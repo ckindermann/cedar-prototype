@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002107",
+  "children": [
+    {
+      "iri": "obo:OBI_0002104",
+      "label": "bio-layer interferometry assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "63d20cf29bd24ae1f012214ddc7e6404a9fb9167"
+    },
+    {
+      "iri": "obo:OBI_0002105",
+      "label": "bio-layer interferometry assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "15980845a884de64483f44e905573c6cadd7f8db"
+    },
+    {
+      "iri": "obo:OBI_0002103",
+      "label": "bio-layer interferometry assay measuring the off rate [koff] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "b8d001e8cdb4a95011aa4d2bb1dbbe2266becdd2"
+    },
+    {
+      "iri": "obo:OBI_0002102",
+      "label": "bio-layer interferometry assay measuring the on rate [kon] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "8fd303d16a5a19f11c9db51f64a04b92cf0db8d8"
+    }
+  ]
+}

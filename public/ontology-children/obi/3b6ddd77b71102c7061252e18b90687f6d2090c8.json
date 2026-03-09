@@ -1,0 +1,54 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002440",
+  "children": [
+    {
+      "iri": "obo:OBI_0003306",
+      "label": "bulk Hi-C assay",
+      "hasChildren": false,
+      "childrenKey": "cd273ee109be2581f061ce7a1fef30e5d80b2313"
+    },
+    {
+      "iri": "obo:OBI_0002984",
+      "label": "capture Hi-C assay",
+      "hasChildren": false,
+      "childrenKey": "ab1b8e57782da5cf96faef4cc49c980ee16a11b4"
+    },
+    {
+      "iri": "obo:OBI_0003301",
+      "label": "DNase Hi-C assay",
+      "hasChildren": false,
+      "childrenKey": "fbcf1d275f893e3af0902b5a23cf0342b37e7940"
+    },
+    {
+      "iri": "obo:OBI_0003302",
+      "label": "micro-C assay",
+      "hasChildren": false,
+      "childrenKey": "333ae4dd0f49fbcf45415738f2526387d2e9e6aa"
+    },
+    {
+      "iri": "obo:OBI_0003307",
+      "label": "multi-contact Hi-C assay",
+      "hasChildren": false,
+      "childrenKey": "b6ad472790dde6ade588c5902e3b394d21b06d8a"
+    },
+    {
+      "iri": "obo:OBI_0003303",
+      "label": "single cell combinatorial indexing Hi-C assay",
+      "hasChildren": false,
+      "childrenKey": "2a997d899057f727f20aad965fcc60e9933b6018"
+    },
+    {
+      "iri": "obo:OBI_0003305",
+      "label": "single cell Hi-C assay",
+      "hasChildren": false,
+      "childrenKey": "04af020bd5e22e2ff33adc574a6f1a0d6708c4b0"
+    },
+    {
+      "iri": "obo:OBI_0003304",
+      "label": "single nucleus Hi-C assay",
+      "hasChildren": false,
+      "childrenKey": "de38804e4d35b764e0c8d86b9787cb3ca7a89e50"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001331",
+  "children": [
+    {
+      "iri": "obo:OBI_0001851",
+      "label": "transcription start site identification objective",
+      "hasChildren": false,
+      "childrenKey": "e66535fe4c5ed8f99647b30402e15dc05fcd2f6e"
+    }
+  ]
+}

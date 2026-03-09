@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000393",
+  "children": [
+    {
+      "iri": "obo:OBI_0000395",
+      "label": "signal amplification function",
+      "hasChildren": false,
+      "childrenKey": "c90ac93da11785093e9aa30a4350329ae5d89bb0"
+    }
+  ]
+}

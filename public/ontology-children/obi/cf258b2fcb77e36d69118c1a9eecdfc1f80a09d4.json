@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001169",
+  "children": [
+    {
+      "iri": "obo:OBI_0003075",
+      "label": "age since birth at time of enrollment",
+      "hasChildren": false,
+      "childrenKey": "b1632a4e02cb7788ac5ba06d0c5daefca341270d"
+    },
+    {
+      "iri": "obo:OBI_0003076",
+      "label": "age since birth at time of visit",
+      "hasChildren": false,
+      "childrenKey": "ab21747ab91fab621cf6a7be2740f9182a4cd30c"
+    }
+  ]
+}

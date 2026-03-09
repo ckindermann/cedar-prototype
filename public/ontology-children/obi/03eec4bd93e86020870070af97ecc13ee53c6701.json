@@ -1,0 +1,78 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002145",
+  "children": [
+    {
+      "iri": "obo:OBI_0003418",
+      "label": "antigen specific antibodies in blood assay",
+      "hasChildren": false,
+      "childrenKey": "3b02967c18a68d3a211fc2d263c5399299c2eca3"
+    },
+    {
+      "iri": "obo:OBI_0003419",
+      "label": "antigen specific antibodies in milk assay",
+      "hasChildren": false,
+      "childrenKey": "64a94f457e2c1bec0e481810835722154ba807dc"
+    },
+    {
+      "iri": "obo:OBI_0002154",
+      "label": "CMV antibody assay",
+      "hasChildren": true,
+      "childrenKey": "bbdb4fa5a0c74f6ef5c3c361fa4a9e358a14d5e1"
+    },
+    {
+      "iri": "obo:OBI_0002149",
+      "label": "core HBV antibody assay",
+      "hasChildren": false,
+      "childrenKey": "dda12d2b5b213f9c16f3aa43b57eeab4438cbc4a"
+    },
+    {
+      "iri": "obo:OBI_0002150",
+      "label": "core HBV IgM antibody assay",
+      "hasChildren": false,
+      "childrenKey": "076c5f858b4c4f0fe7959b5e5d39f6ea8679223f"
+    },
+    {
+      "iri": "obo:OBI_0002152",
+      "label": "EBV IgG antibody assay",
+      "hasChildren": false,
+      "childrenKey": "6246548989b2afe71072be359b196ea20525b171"
+    },
+    {
+      "iri": "obo:OBI_0002153",
+      "label": "EBV IgM antibody assay",
+      "hasChildren": false,
+      "childrenKey": "6eca5226364382541fbb1c393b5fd4c94bf3dc5d"
+    },
+    {
+      "iri": "obo:OBI_0002151",
+      "label": "HCV antibody assay",
+      "hasChildren": false,
+      "childrenKey": "8b5b7f63db2393b316c361432f519e7c455dc830"
+    },
+    {
+      "iri": "obo:OBI_0002146",
+      "label": "HIV antibody assay",
+      "hasChildren": false,
+      "childrenKey": "2b7e62288ad9f8b7e3b2256801ddd55474fcac02"
+    },
+    {
+      "iri": "obo:OBI_0002147",
+      "label": "HIV group O antibody assay",
+      "hasChildren": false,
+      "childrenKey": "9bbee7e5fa00d85dc7f9929e9e401384a05a0f47"
+    },
+    {
+      "iri": "obo:OBI_0003589",
+      "label": "serum anti-Epstein-Barr virus antibody level assay",
+      "hasChildren": false,
+      "childrenKey": "14a56ced7aa1fff7fbe4254358b1a361557705b2"
+    },
+    {
+      "iri": "obo:OBI_0002148",
+      "label": "surface HBV antibody assay",
+      "hasChildren": false,
+      "childrenKey": "03c82c813db720c9874d7fdce47a91b84654c449"
+    }
+  ]
+}

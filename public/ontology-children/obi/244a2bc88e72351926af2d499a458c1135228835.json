@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003249",
+  "children": [
+    {
+      "iri": "obo:OBI_0003251",
+      "label": "induced sputum microbiology datum",
+      "hasChildren": true,
+      "childrenKey": "7bd0068d99268c105a0b3c652faae03f3eb3282e"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000923",
+  "children": [
+    {
+      "iri": "obo:OBI_0001651",
+      "label": "plasmon resonance assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "5f64c723c1575313002dced00e390a02d27430af"
+    },
+    {
+      "iri": "obo:OBI_0001229",
+      "label": "plasmon resonance assay measuring the dissociation constant [KD] of a T cell epitope:MHC:TCR complex",
+      "hasChildren": false,
+      "childrenKey": "923a95ae7bb4d691f7f3e2f3a35bd54e172bc43c"
+    },
+    {
+      "iri": "obo:OBI_0001730",
+      "label": "surface plasmon resonance assay measuring the association constant [KA] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "50a215efcb8e7d5f4a4591bc8169aba9120d0709"
+    },
+    {
+      "iri": "obo:OBI_0001731",
+      "label": "surface plasmon resonance assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "b963ee3f0fdc09740fa21b938539348070997f74"
+    },
+    {
+      "iri": "obo:OBI_0001739",
+      "label": "surface plasmon resonance assay measuring the off rate [koff] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "77ef0d84a5e2f1643caa07c27228448b5f1668aa"
+    },
+    {
+      "iri": "obo:OBI_0001741",
+      "label": "surface plasmon resonance assay measuring the on rate [kon] of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "d84ee3433b87935f8f511e5796477d1ba2e65bdc"
+    }
+  ]
+}

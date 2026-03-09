@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001478",
+  "children": [
+    {
+      "iri": "obo:OBI_0001489",
+      "label": "mass spectrometry assay measuring MHC ligand processing and presentation of MHC ligands eluted from cellular MHC",
+      "hasChildren": false,
+      "childrenKey": "8b19346c1bf677118cc43fc3505f3eb151f901ea"
+    },
+    {
+      "iri": "obo:OBI_0001510",
+      "label": "mass spectrometry assay measuring MHC ligand processing and presentation of MHC ligands eluted from secreted MHC",
+      "hasChildren": false,
+      "childrenKey": "03fc6a2d8c9d727d722d63cb2c1b553081e93339"
+    }
+  ]
+}

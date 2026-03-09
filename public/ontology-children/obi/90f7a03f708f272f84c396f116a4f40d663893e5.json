@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100046",
+  "children": [
+    {
+      "iri": "obo:OBI_0003174",
+      "label": "3,3',5'-triiodothyronine concentration assay",
+      "hasChildren": false,
+      "childrenKey": "d0bfac64de45af901fb90be53fb1583339ba0b9b"
+    },
+    {
+      "iri": "obo:OBI_2100350",
+      "label": "free venous blood T3 assay",
+      "hasChildren": false,
+      "childrenKey": "5f26f5f826b8b7827a989a5f43e14866d3f8ae20"
+    },
+    {
+      "iri": "obo:OBI_2100261",
+      "label": "total venous blood T3 assay",
+      "hasChildren": false,
+      "childrenKey": "2617ed4b5d5f8f8f26c0216ff79a1c7f4be2c8a9"
+    },
+    {
+      "iri": "obo:OBI_2100361",
+      "label": "venous blood T3 assay",
+      "hasChildren": false,
+      "childrenKey": "04b6d38816974c04709482d1af6577c913b0eb97"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001167",
+  "children": [
+    {
+      "iri": "obo:OBI_0001169",
+      "label": "age since birth measurement datum",
+      "hasChildren": true,
+      "childrenKey": "cf258b2fcb77e36d69118c1a9eecdfc1f80a09d4"
+    },
+    {
+      "iri": "obo:OBI_0001165",
+      "label": "age since coitus measurement datum",
+      "hasChildren": false,
+      "childrenKey": "6b9e8be5b3290b9e9454812eab747ec86e02b994"
+    },
+    {
+      "iri": "obo:OBI_0002465",
+      "label": "age since culture seeding measurement datum",
+      "hasChildren": false,
+      "childrenKey": "da09a25aba80fef466399912d30af4f3ebc85430"
+    },
+    {
+      "iri": "obo:OBI_0001163",
+      "label": "age since eclosion measurement datum",
+      "hasChildren": false,
+      "childrenKey": "e4d629a124919d64ad6aa8930c3c7c12e7b7ca81"
+    },
+    {
+      "iri": "obo:OBI_0001159",
+      "label": "age since egg laying measurement datum",
+      "hasChildren": false,
+      "childrenKey": "9467a7c1420a99be6631e90e2124cdc3ac07843e"
+    },
+    {
+      "iri": "obo:OBI_0001168",
+      "label": "age since fertilization measurement datum",
+      "hasChildren": false,
+      "childrenKey": "f5b95711b0842bf43600b226e8990351353b116c"
+    },
+    {
+      "iri": "obo:OBI_0001161",
+      "label": "age since germination measurement datum",
+      "hasChildren": false,
+      "childrenKey": "2715d2881205b9f92e5e5a9dbe802cb3c5343913"
+    },
+    {
+      "iri": "obo:OBI_0001157",
+      "label": "age since hatching measurement datum",
+      "hasChildren": false,
+      "childrenKey": "2207c912925d4ac9cb6aa1a224fc1854464f289a"
+    },
+    {
+      "iri": "obo:OBI_0001156",
+      "label": "age since planting measurement datum",
+      "hasChildren": false,
+      "childrenKey": "6e8216d31f0bd98fda8103ae54ea77d7e9fe92e9"
+    },
+    {
+      "iri": "obo:OBI_0001164",
+      "label": "age since sowing measurement datum",
+      "hasChildren": false,
+      "childrenKey": "99401e43c2660e93fc1db922884bfb626ed47584"
+    },
+    {
+      "iri": "obo:OBI_0002396",
+      "label": "age when gave birth to first child",
+      "hasChildren": false,
+      "childrenKey": "cad249d768566e09a48719c8f4485cddf14a6fee"
+    }
+  ]
+}

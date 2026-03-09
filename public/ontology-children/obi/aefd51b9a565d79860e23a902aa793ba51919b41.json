@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0100026",
+  "children": [
+    {
+      "iri": "obo:OBI_0002995",
+      "label": "blood meal source organism",
+      "hasChildren": false,
+      "childrenKey": "758f80603bdd14bd0bb0c61bbb4f43d5903049e2"
+    },
+    {
+      "iri": "obo:OBI_0100014",
+      "label": "chimera",
+      "hasChildren": false,
+      "childrenKey": "b1e448634ba9adc7b5bcef97b91fe3df70d93fb9"
+    },
+    {
+      "iri": "obo:OBI_0302859",
+      "label": "genetically modified organism",
+      "hasChildren": true,
+      "childrenKey": "84f64c209ba1cea4b3a31410558d4c9c83fdac87"
+    },
+    {
+      "iri": "obo:OBI_1110026",
+      "label": "host of immune response",
+      "hasChildren": false,
+      "childrenKey": "bb027699aae40d432d452f028c631762db863a8a"
+    },
+    {
+      "iri": "obo:OBI_0000925",
+      "label": "infectious agent",
+      "hasChildren": false,
+      "childrenKey": "397985b41ba742d8d2cc44bb87f6da9b68c580d3"
+    },
+    {
+      "iri": "obo:OBI_0001185",
+      "label": "selectively maintained organism",
+      "hasChildren": false,
+      "childrenKey": "224c8ec7c3e396011dda79a9e4b70507b9c572e8"
+    }
+  ]
+}

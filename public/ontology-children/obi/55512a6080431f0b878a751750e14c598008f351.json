@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0302884",
+  "children": [
+    {
+      "iri": "obo:OBI_0666667",
+      "label": "nucleic acid extraction",
+      "hasChildren": true,
+      "childrenKey": "43ae713b645693c69e116a0902e5db822afcb221"
+    }
+  ]
+}

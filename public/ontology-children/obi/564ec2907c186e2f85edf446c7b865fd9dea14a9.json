@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003012",
+  "children": [
+    {
+      "iri": "obo:OBI_2100024",
+      "label": "calcium cation assay",
+      "hasChildren": true,
+      "childrenKey": "47214dc47fd9bd8aa4a3b0c2f091533fd62b26ab"
+    }
+  ]
+}

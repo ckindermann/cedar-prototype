@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001593",
+  "children": [
+    {
+      "iri": "obo:OBI_0001699",
+      "label": "antibody cross-blocking assay",
+      "hasChildren": true,
+      "childrenKey": "46ff9df005d964a4970975b6c7a3c3efe4956b76"
+    }
+  ]
+}

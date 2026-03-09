@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001528",
+  "children": [
+    {
+      "iri": "obo:OBI_0001547",
+      "label": "material analysis service",
+      "hasChildren": true,
+      "childrenKey": "6f9459d35fd6b465803f7bec8f80bf976fda13aa"
+    },
+    {
+      "iri": "obo:OBI_0001515",
+      "label": "material maintenance service",
+      "hasChildren": true,
+      "childrenKey": "c0513d9203c177112a68f1459b8cacee91805f2c"
+    },
+    {
+      "iri": "obo:OBI_0001563",
+      "label": "material processing service",
+      "hasChildren": false,
+      "childrenKey": "46ca11d84b16fbabfdcc7ce04ee20bc364cfaa4c"
+    },
+    {
+      "iri": "obo:OBI_0001557",
+      "label": "material storage service",
+      "hasChildren": false,
+      "childrenKey": "64564d9ed0ca6e391aa8d9758f756566ba2a03bd"
+    },
+    {
+      "iri": "obo:OBI_0001580",
+      "label": "material transport service",
+      "hasChildren": false,
+      "childrenKey": "cbbc4db8c2c455cda9d8dda0c3bfc4fddb2f837d"
+    },
+    {
+      "iri": "obo:OBI_0001904",
+      "label": "sequencing service",
+      "hasChildren": true,
+      "childrenKey": "cbd71eec01d5062468be885ab1c2111b7ab1c474"
+    }
+  ]
+}

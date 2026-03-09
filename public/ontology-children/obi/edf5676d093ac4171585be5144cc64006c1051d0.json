@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000960",
+  "children": [
+    {
+      "iri": "obo:OBI_0000961",
+      "label": "addition of molecular tracer function",
+      "hasChildren": false,
+      "childrenKey": "ab0344efe428eff10473c4564072abeef30c6ef5"
+    }
+  ]
+}

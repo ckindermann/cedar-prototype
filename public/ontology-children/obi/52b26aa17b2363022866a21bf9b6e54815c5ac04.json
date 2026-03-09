@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001079",
+  "children": [
+    {
+      "iri": "obo:OBI_0001125",
+      "label": "laser scanning confocal microscope",
+      "hasChildren": false,
+      "childrenKey": "a0c718931796f287734e95beff14192f820b9ac6"
+    },
+    {
+      "iri": "obo:OBI_0001071",
+      "label": "programmable array microscope",
+      "hasChildren": false,
+      "childrenKey": "69bcc70d5039548850ec3242395c3f817aa7f6e0"
+    },
+    {
+      "iri": "obo:OBI_0001055",
+      "label": "spinning-disk confocal microscope",
+      "hasChildren": false,
+      "childrenKey": "7f75659965a22668810e1a9748fb5d36ede72091"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003659",
+  "children": [
+    {
+      "iri": "obo:OBI_0003661",
+      "label": "in vitro CRISPR screen using flow cytometry",
+      "hasChildren": false,
+      "childrenKey": "4cadc5d1fee52dbbdeb529770dd81b17293195fe"
+    },
+    {
+      "iri": "obo:OBI_0003660",
+      "label": "in vitro CRISPR screen using single-cell RNA-seq",
+      "hasChildren": false,
+      "childrenKey": "f2375bdb4a5fdf457f83a12246a6b5d1eae4e076"
+    }
+  ]
+}

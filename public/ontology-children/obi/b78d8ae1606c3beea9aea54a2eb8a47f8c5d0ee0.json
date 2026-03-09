@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000615",
+  "children": [
+    {
+      "iri": "obo:OBI_0002765",
+      "label": "microbiome protein expression profiling assay",
+      "hasChildren": false,
+      "childrenKey": "76684baf9910891675ea3860561e3437685cd699"
+    },
+    {
+      "iri": "obo:OBI_0003102",
+      "label": "nanodroplet processing in one pot for trace samples assay",
+      "hasChildren": false,
+      "childrenKey": "89f6fcd6e5da69fce162867150b99b1d9856feea"
+    },
+    {
+      "iri": "obo:OBI_0002958",
+      "label": "SWATH-MS protein profiling assay",
+      "hasChildren": false,
+      "childrenKey": "6bc63ab7b0c02bc0f897343c57b0b692bfb5e00e"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110178",
+  "children": [
+    {
+      "iri": "obo:OBI_0001589",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-17A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "f9ca0b58ffd20168c8744daaaf775e447c15e403"
+    },
+    {
+      "iri": "obo:OBI_0001562",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-17F production by T cells",
+      "hasChildren": false,
+      "childrenKey": "75e47e1ea6e359613a5f89988e4cffaa1262f2a7"
+    }
+  ]
+}

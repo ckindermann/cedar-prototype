@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000919",
+  "children": [
+    {
+      "iri": "obo:OBI_0302897",
+      "label": "asphyxiation",
+      "hasChildren": false,
+      "childrenKey": "061489ca17e4014d9380d466b219bd2cb43d0b5b"
+    },
+    {
+      "iri": "obo:OBI_0302896",
+      "label": "cervical dislocation",
+      "hasChildren": false,
+      "childrenKey": "4ffb2bf239f35d92dfb3e3b61849dab8811f81c2"
+    },
+    {
+      "iri": "obo:OBI_0302899",
+      "label": "decapitation",
+      "hasChildren": false,
+      "childrenKey": "619c7a1d32e6c1b739568b976b93a9be305ddb40"
+    },
+    {
+      "iri": "obo:OBI_0302895",
+      "label": "electrocution",
+      "hasChildren": false,
+      "childrenKey": "445f8cc612f89d607046a49e1f54d4bdf1521715"
+    },
+    {
+      "iri": "obo:OBI_0302898",
+      "label": "intentional overdosing",
+      "hasChildren": false,
+      "childrenKey": "19c252e209d396a8c5d3d80a2bc09f8697337e8a"
+    }
+  ]
+}

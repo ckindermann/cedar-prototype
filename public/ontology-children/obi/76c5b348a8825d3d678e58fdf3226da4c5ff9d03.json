@@ -1,0 +1,162 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400008",
+  "children": [
+    {
+      "iri": "obo:OBI_0400005",
+      "label": "A10-Analyzer",
+      "hasChildren": false,
+      "childrenKey": "2875fffec4b74494fe0ec611ca00897d1d07fac0"
+    },
+    {
+      "iri": "obo:OBI_0400006",
+      "label": "A40-MiniFCM",
+      "hasChildren": false,
+      "childrenKey": "bfc447d9de2c664661b876f2fc6c3b364dda4f50"
+    },
+    {
+      "iri": "obo:OBI_0400012",
+      "label": "Bactiflow",
+      "hasChildren": false,
+      "childrenKey": "4606b4ee250a994d34664da2da7a91c9aab5b3d9"
+    },
+    {
+      "iri": "obo:OBI_0400018",
+      "label": "Cell Lab Quanta SC",
+      "hasChildren": false,
+      "childrenKey": "b0d548bfdb575d7f2378885744c4724d17eb8402"
+    },
+    {
+      "iri": "obo:OBI_0400022",
+      "label": "Cyan",
+      "hasChildren": false,
+      "childrenKey": "0ea1cef78d457ed9b97448d935673f89f3cd6dcf"
+    },
+    {
+      "iri": "obo:OBI_0400023",
+      "label": "CYFlow ML",
+      "hasChildren": false,
+      "childrenKey": "8fab5b3cc130ec66382c5afda2149a6af6f59d35"
+    },
+    {
+      "iri": "obo:OBI_0400024",
+      "label": "CyFlow SL",
+      "hasChildren": false,
+      "childrenKey": "36ebb521a56301973477920be102acc990a66495"
+    },
+    {
+      "iri": "obo:OBI_0400025",
+      "label": "CyFlow SL3",
+      "hasChildren": false,
+      "childrenKey": "0a98c71b4f6b234b357fc9b1c06f0878202c9955"
+    },
+    {
+      "iri": "obo:OBI_0400027",
+      "label": "CytoBuoy flow cytometer analyzer",
+      "hasChildren": false,
+      "childrenKey": "aed1c4ab2ff05599f25bffcbb60130d4bb46c7e2"
+    },
+    {
+      "iri": "obo:OBI_0400028",
+      "label": "CytoSence",
+      "hasChildren": false,
+      "childrenKey": "e4522382ae0d405354ba33db3989e74345bc9427"
+    },
+    {
+      "iri": "obo:OBI_0400029",
+      "label": "CytoSub",
+      "hasChildren": false,
+      "childrenKey": "4e67e362f0336bc274c18c2a54e4b9d6ea92c63e"
+    },
+    {
+      "iri": "obo:OBI_0400037",
+      "label": "FACS Canto",
+      "hasChildren": false,
+      "childrenKey": "d2d123f33ce628b8efff6b46e46893f3546ba33c"
+    },
+    {
+      "iri": "obo:OBI_0400038",
+      "label": "FACS Canto2",
+      "hasChildren": false,
+      "childrenKey": "c2852aff90e89916d9da0b1c4eabd1c4f970cf60"
+    },
+    {
+      "iri": "obo:OBI_0400039",
+      "label": "FACS Scan",
+      "hasChildren": false,
+      "childrenKey": "ef154759fc0740056d3d347f358cf5002465a0bc"
+    },
+    {
+      "iri": "obo:OBI_0400042",
+      "label": "FC 500",
+      "hasChildren": false,
+      "childrenKey": "7816798f18054be477767c8ba9d7c653a9a68786"
+    },
+    {
+      "iri": "obo:OBI_0400048",
+      "label": "Guava EasyCyte Mini",
+      "hasChildren": false,
+      "childrenKey": "f6f89b290a8d39ae38fde78f574e6ac2a8b7537e"
+    },
+    {
+      "iri": "obo:OBI_0400049",
+      "label": "Guava EasyCyte Plus",
+      "hasChildren": false,
+      "childrenKey": "ce62bfe354aa1c66b8b0aaa42f56973ecfb59aae"
+    },
+    {
+      "iri": "obo:OBI_0400050",
+      "label": "Guava Personal Cell Analysis",
+      "hasChildren": false,
+      "childrenKey": "d2649734c4c99623dda439b8cb5e59a72ac44c10"
+    },
+    {
+      "iri": "obo:OBI_0400051",
+      "label": "Guava Personal Cell Analysis-96",
+      "hasChildren": false,
+      "childrenKey": "2fa18772e8d34a00a199e02d7e5a9aeb76122dce"
+    },
+    {
+      "iri": "obo:OBI_0400055",
+      "label": "inFlux Analyzer",
+      "hasChildren": false,
+      "childrenKey": "0bb9aee29163e5ae7e5c73bf7f3bf4254b9743b0"
+    },
+    {
+      "iri": "obo:OBI_0001871",
+      "label": "LSRFortessa X-20",
+      "hasChildren": false,
+      "childrenKey": "26170cebbe80684221e3a1b6f8ed46a7f38b3903"
+    },
+    {
+      "iri": "obo:OBI_0400069",
+      "label": "Luminex 100",
+      "hasChildren": false,
+      "childrenKey": "c6253c06e96b48f6458ece9ce7f960fa74461dc9"
+    },
+    {
+      "iri": "obo:OBI_0400070",
+      "label": "Luminex 200",
+      "hasChildren": false,
+      "childrenKey": "5e01c013b3eff486bbfd05222f348f6a1ace2f29"
+    },
+    {
+      "iri": "obo:OBI_0400071",
+      "label": "MACS Quant",
+      "hasChildren": false,
+      "childrenKey": "58a59732174dddf395f21c42a60c543a6c5dabc9"
+    },
+    {
+      "iri": "obo:OBI_0400097",
+      "label": "Somacount",
+      "hasChildren": false,
+      "childrenKey": "8f3fcc4d91d2b1b8ba085afd241ca092bccde2d7"
+    },
+    {
+      "iri": "obo:OBI_0400098",
+      "label": "SomaScope",
+      "hasChildren": false,
+      "childrenKey": "cc9159fb881b675f6edf2c3a6a6b32c6cc674049"
+    }
+  ]
+}

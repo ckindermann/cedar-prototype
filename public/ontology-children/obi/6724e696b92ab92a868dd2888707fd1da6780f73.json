@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003460",
+  "children": [
+    {
+      "iri": "obo:OBI_0001475",
+      "label": "in vivo assay measuring T cell epitope specific protection from infectious challenge based on pathogen burden",
+      "hasChildren": true,
+      "childrenKey": "ae1c97cc9c182267a359a9465a3834c13a7c5976"
+    },
+    {
+      "iri": "obo:OBI_0003464",
+      "label": "in vivo assay measuring T cell epitope specific survival after pathogen challenge",
+      "hasChildren": true,
+      "childrenKey": "587361d7512d09918fe977a80499f171bf01f48f"
+    }
+  ]
+}

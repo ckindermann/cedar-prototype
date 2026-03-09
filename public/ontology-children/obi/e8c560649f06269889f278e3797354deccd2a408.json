@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000214",
+  "children": [
+    {
+      "iri": "obo:OBI_0000169",
+      "label": "placebo role",
+      "hasChildren": false,
+      "childrenKey": "0d5ec966e80e9d5140146f9d2bd73448bf8479c9"
+    }
+  ]
+}

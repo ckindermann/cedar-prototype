@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001870",
+  "children": [
+    {
+      "iri": "obo:OBI_0002131",
+      "label": "Illumina Infinium MethylationEPIC v1.0 BeadChip",
+      "hasChildren": false,
+      "childrenKey": "d70bd0f3cbda61c71e96bb480d9b7f45a79dce80"
+    },
+    {
+      "iri": "obo:OBI_0003650",
+      "label": "Illumina Infinium MethylationEPIC v2.0 BeadChip",
+      "hasChildren": false,
+      "childrenKey": "2ddedbf098abaa00dc4d82c1dfe98c046934b95b"
+    },
+    {
+      "iri": "obo:OBI_0002005",
+      "label": "Methylation 27K BeadChip",
+      "hasChildren": false,
+      "childrenKey": "7c196e256487b2801a58fb33efa69e7454b64d8a"
+    },
+    {
+      "iri": "obo:OBI_0002004",
+      "label": "Methylation 450K BeadChip",
+      "hasChildren": false,
+      "childrenKey": "befa466dda78d518e1294b691d479ce020e9511e"
+    }
+  ]
+}

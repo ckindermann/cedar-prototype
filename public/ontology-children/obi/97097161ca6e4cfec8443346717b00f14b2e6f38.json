@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003196",
+  "children": [
+    {
+      "iri": "obo:OBI_0003197",
+      "label": "estradiol concentration assay",
+      "hasChildren": false,
+      "childrenKey": "012501d1a5c2a5fd97537f12256cecf0c3e8cfaf"
+    }
+  ]
+}

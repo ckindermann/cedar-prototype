@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0600033",
+  "children": [
+    {
+      "iri": "obo:OBI_0302912",
+      "label": "electroporation",
+      "hasChildren": false,
+      "childrenKey": "168c27c59bda909baae1eadce130f7c36f4ec938"
+    }
+  ]
+}

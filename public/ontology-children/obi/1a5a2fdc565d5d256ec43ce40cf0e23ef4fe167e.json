@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002397",
+  "children": [
+    {
+      "iri": "obo:OBI_0002398",
+      "label": "hysterectomy history",
+      "hasChildren": false,
+      "childrenKey": "186600e90bf8765f09d8ef54016e3a4e6fb3961d"
+    },
+    {
+      "iri": "obo:OBI_0002400",
+      "label": "neither hysterectomy nor oophorectomy history",
+      "hasChildren": false,
+      "childrenKey": "f7914799b4f993f6ab80fd835f4ad1279d230f4e"
+    },
+    {
+      "iri": "obo:OBI_0002399",
+      "label": "unilateral oophorectomy history",
+      "hasChildren": false,
+      "childrenKey": "84866a9ecd16213784edd6aaec2571b6567a4cb2"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001152",
+  "children": [
+    {
+      "iri": "obo:OBI_0600060",
+      "label": "DNA transfection",
+      "hasChildren": false,
+      "childrenKey": "c8d2f5ab3a4d01e021511ad79167b25e45cc9978"
+    }
+  ]
+}

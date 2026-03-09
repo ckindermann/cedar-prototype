@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000809",
+  "children": [
+    {
+      "iri": "obo:OBI_0000406",
+      "label": "PCR product",
+      "hasChildren": false,
+      "childrenKey": "5536d9a11a9e8f20fbf7b92623bcb7e70f87fa15"
+    }
+  ]
+}

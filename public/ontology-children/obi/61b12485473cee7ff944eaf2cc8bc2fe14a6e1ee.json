@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003254",
+  "children": [
+    {
+      "iri": "obo:OBI_0003255",
+      "label": "endotracheal tube aspirate microbiology datum",
+      "hasChildren": true,
+      "childrenKey": "3f0a0599d65efd9dc0d37da31447c3a69260d75e"
+    }
+  ]
+}

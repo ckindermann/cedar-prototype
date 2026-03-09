@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003028",
+  "children": [
+    {
+      "iri": "obo:OBI_2100077",
+      "label": "CBC venous blood platelet count assay",
+      "hasChildren": false,
+      "childrenKey": "001611ce554b27cc3f39c797c806f90c5cd64347"
+    },
+    {
+      "iri": "obo:OBI_2100063",
+      "label": "CBC with automated differential venous blood platelet count assay",
+      "hasChildren": false,
+      "childrenKey": "63227d00e3487568b15010938e9778dd4ab79905"
+    },
+    {
+      "iri": "obo:OBI_2100360",
+      "label": "liver fibrosis (chronic viral hepatitis) venous blood platelet count assay",
+      "hasChildren": false,
+      "childrenKey": "8bf4cd0e2089889c53d88790071af59a20f1ec82"
+    },
+    {
+      "iri": "obo:OBI_2100382",
+      "label": "liver fibrosis (NAFLD) venous blood platelet count assay",
+      "hasChildren": false,
+      "childrenKey": "27d2fd725cab5474962a36336759585290672dd6"
+    },
+    {
+      "iri": "obo:OBI_0003185",
+      "label": "mean platelet volume assay",
+      "hasChildren": false,
+      "childrenKey": "f6a531affcc10d20c9150ece2572174895204abc"
+    },
+    {
+      "iri": "obo:OBI_2100012",
+      "label": "platelet count assay",
+      "hasChildren": false,
+      "childrenKey": "46fd157e1b3e1c924a57a2531ee228cc8601da8f"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000480",
+  "children": [
+    {
+      "iri": "obo:OBI_0000527",
+      "label": "flow high resolution probe",
+      "hasChildren": false,
+      "childrenKey": "3bbe9cb91fe4124e2886167dde875149ee24dea0"
+    },
+    {
+      "iri": "obo:OBI_0000607",
+      "label": "high resolution magic angle spin probe",
+      "hasChildren": false,
+      "childrenKey": "1493c2a374ca503dd59ce6121ff5a8f11681dbb5"
+    },
+    {
+      "iri": "obo:OBI_0000616",
+      "label": "high resolution probe with automatic tuning and matching",
+      "hasChildren": false,
+      "childrenKey": "215b374dc40976fbe8b03fc9f036f7c9b4e1abbe"
+    }
+  ]
+}

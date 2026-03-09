@@ -1,0 +1,102 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0100051",
+  "children": [
+    {
+      "iri": "obo:OBI_0000981",
+      "label": "agar stab specimen",
+      "hasChildren": false,
+      "childrenKey": "7a06f0966daea480b8ff4799303d33ed23ecd70f"
+    },
+    {
+      "iri": "obo:OBI_0002613",
+      "label": "environmental swab specimen",
+      "hasChildren": false,
+      "childrenKey": "0c3617b4d937e4622d844fe1eabe7abf6fb1016f"
+    },
+    {
+      "iri": "obo:OBI_0000922",
+      "label": "frozen specimen",
+      "hasChildren": false,
+      "childrenKey": "0b7a382278629bf65919557cf08f513e74290072"
+    },
+    {
+      "iri": "obo:OBI_0002648",
+      "label": "individual organism specimen",
+      "hasChildren": false,
+      "childrenKey": "be2b5cd28376db990c8a3d77bbbe60b7db9f0183"
+    },
+    {
+      "iri": "obo:OBI_0000924",
+      "label": "labeled specimen",
+      "hasChildren": true,
+      "childrenKey": "3f974fea0d28cd1862ea70c823e8195b9912a697"
+    },
+    {
+      "iri": "obo:OBI_0000965",
+      "label": "lyophilized specimen",
+      "hasChildren": false,
+      "childrenKey": "cbb204e2f3a008d55413fc3cf8e96313b42da285"
+    },
+    {
+      "iri": "obo:OBI_0000747",
+      "label": "material sample",
+      "hasChildren": true,
+      "childrenKey": "56db58da8233acf7aef0f0a8bbfdf823d94c2864"
+    },
+    {
+      "iri": "obo:OBI_0001010",
+      "label": "nucleic acid extract",
+      "hasChildren": true,
+      "childrenKey": "9731d6698026492decaef05c0a8b5488beac4f48"
+    },
+    {
+      "iri": "obo:OBI_0000950",
+      "label": "paraffin specimen",
+      "hasChildren": true,
+      "childrenKey": "0e11828ff6dc41862f4878bdc87a5a92d1bc55de"
+    },
+    {
+      "iri": "obo:OBI_0302716",
+      "label": "pool of specimens",
+      "hasChildren": false,
+      "childrenKey": "5db23f279c5b2c2f9c9dfffb35bf219e1d60031f"
+    },
+    {
+      "iri": "obo:OBI_0000953",
+      "label": "processed specimen",
+      "hasChildren": true,
+      "childrenKey": "32d6a522fd9bdadfcd9a8f9f7c6824121f607eff"
+    },
+    {
+      "iri": "obo:OBI_0001479",
+      "label": "specimen from organism",
+      "hasChildren": true,
+      "childrenKey": "28be09e6dde82ffa171721450fa16342ce5166bb"
+    },
+    {
+      "iri": "obo:OBI_0001472",
+      "label": "specimen with known storage state",
+      "hasChildren": true,
+      "childrenKey": "832b39fc4f10da019ef4e969db60dfd81c8e16af"
+    },
+    {
+      "iri": "obo:OBI_0001506",
+      "label": "specimen with pre- or post-mortem status",
+      "hasChildren": true,
+      "childrenKey": "c5f64bb3c0a3216f798e8f9718d8c64e6009f3cb"
+    },
+    {
+      "iri": "obo:OBI_0002599",
+      "label": "swab specimen",
+      "hasChildren": true,
+      "childrenKey": "a51b5cf4bab875ba8a83ba37aa81c6765d43f13b"
+    },
+    {
+      "iri": "obo:OBI_0000680",
+      "label": "whole organism preparation",
+      "hasChildren": true,
+      "childrenKey": "fff7acb5b7a7320b36fb5f9e260e3cc0a133a47b"
+    }
+  ]
+}

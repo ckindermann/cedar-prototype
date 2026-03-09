@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000136",
+  "children": [
+    {
+      "iri": "obo:OBI_0001075",
+      "label": "hybridization oven",
+      "hasChildren": false,
+      "childrenKey": "4d9bd5950f0bc329822465dced39d453828e17cf"
+    }
+  ]
+}

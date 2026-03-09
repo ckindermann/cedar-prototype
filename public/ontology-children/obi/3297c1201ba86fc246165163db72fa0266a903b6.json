@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100034",
+  "children": [
+    {
+      "iri": "obo:OBI_2100389",
+      "label": "free/total venous blood PSA assay",
+      "hasChildren": false,
+      "childrenKey": "d06625e158e786741297d249bf347ae669d8a549"
+    },
+    {
+      "iri": "obo:OBI_2100259",
+      "label": "intact venous blood PTH assay",
+      "hasChildren": false,
+      "childrenKey": "925e1647ac242900cf7c817d42e9a7df5ab9044d"
+    },
+    {
+      "iri": "obo:OBI_2100326",
+      "label": "intraoperative venous blood PTH assay",
+      "hasChildren": false,
+      "childrenKey": "5628bbcad8abb2405be118ef3273db1978d32805"
+    },
+    {
+      "iri": "obo:OBI_2100260",
+      "label": "total venous blood PSA assay",
+      "hasChildren": false,
+      "childrenKey": "0798fbb6438b918bb9e1c246aa8c8340c69108f3"
+    },
+    {
+      "iri": "obo:OBI_2100120",
+      "label": "venous blood prostate specific antigen assay",
+      "hasChildren": false,
+      "childrenKey": "af29c68ba3b6e111df84ab3c235e6f1de0b56512"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002625",
+  "children": [
+    {
+      "iri": "obo:OBI_0002626",
+      "label": "RNAi gene knockdown",
+      "hasChildren": false,
+      "childrenKey": "195da0abcb17273d43186bf8740609f85497a16e"
+    }
+  ]
+}

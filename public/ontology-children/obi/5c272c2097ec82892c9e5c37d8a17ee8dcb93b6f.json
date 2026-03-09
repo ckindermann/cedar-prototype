@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000202",
+  "children": [
+    {
+      "iri": "obo:OBI_0000068",
+      "label": "reporting party role",
+      "hasChildren": true,
+      "childrenKey": "326216f931f8faad2665cd9cdd5cfdf27e50ae7f"
+    },
+    {
+      "iri": "obo:OBI_0000102",
+      "label": "responsible party role",
+      "hasChildren": true,
+      "childrenKey": "c4bcb0a7d73f9888a41e3326df30eed6ae0d4b8b"
+    },
+    {
+      "iri": "obo:OBI_0001769",
+      "label": "specimen collector role",
+      "hasChildren": false,
+      "childrenKey": "f9a823fadc321b0403cbac9d9b434b60588473a1"
+    },
+    {
+      "iri": "obo:OBI_0000116",
+      "label": "worker role",
+      "hasChildren": true,
+      "childrenKey": "67e957c6f9682102580331e9719ed33ef84d940a"
+    }
+  ]
+}

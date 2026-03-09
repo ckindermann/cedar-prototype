@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400168",
+  "children": [
+    {
+      "iri": "obo:OBI_0002194",
+      "label": "Microm Ergostar HM200",
+      "hasChildren": false,
+      "childrenKey": "23d7a83808caa6a9a638ad04946741f4857d9c6b"
+    }
+  ]
+}

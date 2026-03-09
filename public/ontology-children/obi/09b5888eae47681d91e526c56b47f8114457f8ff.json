@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001139",
+  "children": [
+    {
+      "iri": "obo:OBI_0001057",
+      "label": "high performance liquid chromatography instrument",
+      "hasChildren": false,
+      "childrenKey": "0677a2aff3534f170f2384e97bafc0b8b1fefa46"
+    }
+  ]
+}

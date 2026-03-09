@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000669",
+  "children": [
+    {
+      "iri": "obo:OBI_1110180",
+      "label": "3H-thymidine assay measuring epitope specific proliferation of T cells",
+      "hasChildren": false,
+      "childrenKey": "3a79d4289234f10a8236137c8dd627f90f23daf8"
+    }
+  ]
+}

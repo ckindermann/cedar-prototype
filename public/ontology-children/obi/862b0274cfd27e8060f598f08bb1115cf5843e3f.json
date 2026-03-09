@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0302885",
+  "children": [
+    {
+      "iri": "obo:OBI_0003656",
+      "label": "water filtration",
+      "hasChildren": false,
+      "childrenKey": "0d59937cb70c5b87606c59609447f3b79cfe206a"
+    }
+  ]
+}

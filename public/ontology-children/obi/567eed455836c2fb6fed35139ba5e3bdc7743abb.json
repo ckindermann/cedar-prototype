@@ -1,0 +1,108 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001034",
+  "children": [
+    {
+      "iri": "obo:OBI_0001112",
+      "label": "autoclave",
+      "hasChildren": false,
+      "childrenKey": "34c5475115b4c5c078700dd34cb31c08fc44d369"
+    },
+    {
+      "iri": "obo:OBI_0001046",
+      "label": "bioreactor",
+      "hasChildren": false,
+      "childrenKey": "f42bfb3766b3c48625ace991a78d149e67575c65"
+    },
+    {
+      "iri": "obo:OBI_0001072",
+      "label": "cryostat",
+      "hasChildren": false,
+      "childrenKey": "2dc16ca90e785ea5389470ae209c9cef2db73de0"
+    },
+    {
+      "iri": "obo:OBI_0001002",
+      "label": "Faraday cage",
+      "hasChildren": false,
+      "childrenKey": "e62a1babb2a06dee7a2387ce77b45fb07bc1e4a3"
+    },
+    {
+      "iri": "obo:OBI_0400045",
+      "label": "fluid pressure regulator",
+      "hasChildren": false,
+      "childrenKey": "b9619d3fe84fc833b7513a72861add62eed82cd0"
+    },
+    {
+      "iri": "obo:OBI_0400108",
+      "label": "heating block",
+      "hasChildren": false,
+      "childrenKey": "a6b0d594eabe293a5193042e710e14aa9f1c5826"
+    },
+    {
+      "iri": "obo:OBI_0400111",
+      "label": "hybridization station",
+      "hasChildren": false,
+      "childrenKey": "3303a0bbdd89c87d0e59c80d8a29d423bf09e437"
+    },
+    {
+      "iri": "obo:OBI_0000136",
+      "label": "incubator",
+      "hasChildren": true,
+      "childrenKey": "8033e8a41652342e6f2f9b896cd7343b5ca83d8a"
+    },
+    {
+      "iri": "obo:OBI_0000052",
+      "label": "microarray platform",
+      "hasChildren": false,
+      "childrenKey": "5fb96af52ff65dcb571542025bf75b1543f267d0"
+    },
+    {
+      "iri": "obo:OBI_0400119",
+      "label": "microarray wash station",
+      "hasChildren": false,
+      "childrenKey": "bce6a38cd8a22981c4259a6c92cac5226c0761a9"
+    },
+    {
+      "iri": "obo:OBI_0400121",
+      "label": "molecular crosslinker",
+      "hasChildren": false,
+      "childrenKey": "4532cca34006082ce3cadec21fa208ed9988ef7d"
+    },
+    {
+      "iri": "obo:OBI_0400113",
+      "label": "oligonucleotide synthesizer",
+      "hasChildren": true,
+      "childrenKey": "2cf3daecc00b117550a9179712b762f691448ab6"
+    },
+    {
+      "iri": "obo:OBI_0001111",
+      "label": "paraffin oven",
+      "hasChildren": false,
+      "childrenKey": "2f1ae24c3d5a6f0ea22b598d0e1ff1c47e6a9b7d"
+    },
+    {
+      "iri": "obo:OBI_0002089",
+      "label": "physical store",
+      "hasChildren": true,
+      "childrenKey": "d2aed4685c372f615b6abf598adc1e4ddc7de460"
+    },
+    {
+      "iri": "obo:OBI_0001131",
+      "label": "slide warmer",
+      "hasChildren": false,
+      "childrenKey": "f6bf5975da9296771dfa283af2c960dcbc2c34ed"
+    },
+    {
+      "iri": "obo:OBI_0001130",
+      "label": "vacuum oven",
+      "hasChildren": false,
+      "childrenKey": "6a4c0caa9d9b499a2734f27804e052984822dbef"
+    },
+    {
+      "iri": "obo:OBI_0000945",
+      "label": "vibration isolation table",
+      "hasChildren": false,
+      "childrenKey": "62f59d3efdf892f5daf411d4e382e743e9819f4d"
+    }
+  ]
+}

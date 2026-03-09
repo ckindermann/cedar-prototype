@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003220",
+  "children": [
+    {
+      "iri": "obo:OBI_0003221",
+      "label": "free fatty acid concentration assay",
+      "hasChildren": false,
+      "childrenKey": "2edca7c273b7e004581347e47ccdd45931295f58"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000499",
+  "children": [
+    {
+      "iri": "obo:OBI_0000599",
+      "label": "tecmag NMR console",
+      "hasChildren": true,
+      "childrenKey": "73450d78bb8cfe96b482fede13c04d7e568f4259"
+    }
+  ]
+}

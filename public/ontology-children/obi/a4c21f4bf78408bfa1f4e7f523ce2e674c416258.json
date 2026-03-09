@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_1110126",
+  "children": [
+    {
+      "iri": "obo:OBI_0002072",
+      "label": "assay measuring qualitative binding of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "d248e765ce8b9598df2b0d17fd5c8d12a594cc94"
+    },
+    {
+      "iri": "obo:OBI_0003145",
+      "label": "assay measuring quantitative binding of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "4d1ad2a2e610ee57a7667d3b1beffdaeefefeb12"
+    },
+    {
+      "iri": "obo:OBI_0003325",
+      "label": "high throughput multiplexed assay measuring binding of a MHC:ligand complex",
+      "hasChildren": false,
+      "childrenKey": "980b997d4ad87da93e617d6b5cb522c157b1feae"
+    }
+  ]
+}

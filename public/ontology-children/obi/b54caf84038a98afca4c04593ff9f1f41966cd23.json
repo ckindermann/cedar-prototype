@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000079",
+  "children": [
+    {
+      "iri": "obo:OBI_0000918",
+      "label": "Dulbecco's modified Eagle medium",
+      "hasChildren": false,
+      "childrenKey": "d02cd31793a757d68808b43f397ff37742a8745a"
+    },
+    {
+      "iri": "obo:OBI_0002673",
+      "label": "enrichment culture medium",
+      "hasChildren": false,
+      "childrenKey": "74779f3df932b9ed8ef7615b6cb0378965c7d782"
+    }
+  ]
+}

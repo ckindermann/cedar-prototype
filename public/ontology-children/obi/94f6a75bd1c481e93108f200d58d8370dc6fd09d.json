@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000883",
+  "children": [
+    {
+      "iri": "obo:OBI_0001392",
+      "label": "in vivo assay measuring epitope specific T cell killing",
+      "hasChildren": true,
+      "childrenKey": "54e872f8b4701bdafa1da2e09744137df9301bab"
+    },
+    {
+      "iri": "obo:OBI_0002671",
+      "label": "in vivo assay measuring epitope specific T cell killing resulting from the adoptive transfer of epitope specific T cells",
+      "hasChildren": false,
+      "childrenKey": "121d2c6fdf061219c605886de98fd066b05bee01"
+    }
+  ]
+}

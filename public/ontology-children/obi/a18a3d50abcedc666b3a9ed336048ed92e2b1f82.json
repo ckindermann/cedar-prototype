@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000016",
+  "children": [
+    {
+      "iri": "obo:OBI_0000092",
+      "label": "role of certified IRB professional",
+      "hasChildren": false,
+      "childrenKey": "08e13e46bd23ac51412b26156e36b3279069930e"
+    },
+    {
+      "iri": "obo:OBI_0000196",
+      "label": "role of impartial witness",
+      "hasChildren": false,
+      "childrenKey": "0c02274e4aeb083a9ba2828c832e427a42a73111"
+    },
+    {
+      "iri": "obo:OBI_0000215",
+      "label": "role of legally acceptable representative",
+      "hasChildren": false,
+      "childrenKey": "de2f795acbd61df0703bd402a8c2cfbb26b4af92"
+    }
+  ]
+}

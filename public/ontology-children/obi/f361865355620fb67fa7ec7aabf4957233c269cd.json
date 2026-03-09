@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000430",
+  "children": [
+    {
+      "iri": "obo:OBI_0000729",
+      "label": "cloning plasmid",
+      "hasChildren": false,
+      "childrenKey": "9704be87eaebf143907852eed5adf3d020294efe"
+    },
+    {
+      "iri": "obo:OBI_0000410",
+      "label": "recombinant plasmid",
+      "hasChildren": false,
+      "childrenKey": "e5473844de8309906ba5ec37caf00891860a37a3"
+    }
+  ]
+}

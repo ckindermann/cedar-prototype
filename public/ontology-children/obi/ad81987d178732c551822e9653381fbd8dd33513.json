@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000639",
+  "children": [
+    {
+      "iri": "obo:OBI_0000678",
+      "label": "portioning objective",
+      "hasChildren": false,
+      "childrenKey": "5812a6364f056353782d06adb67b99bb42e6041d"
+    },
+    {
+      "iri": "obo:OBI_0000681",
+      "label": "separation into different composition objective",
+      "hasChildren": true,
+      "childrenKey": "639a26e9774c3c1111aadbd653506714839d8aee"
+    }
+  ]
+}

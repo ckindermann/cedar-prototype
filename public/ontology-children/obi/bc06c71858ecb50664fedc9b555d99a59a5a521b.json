@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000064",
+  "children": [
+    {
+      "iri": "obo:OBI_0001955",
+      "label": "competitive binding reference ligand role",
+      "hasChildren": false,
+      "childrenKey": "a53757010fc17d8efbfc05bea1cde44090f65bb1"
+    }
+  ]
+}

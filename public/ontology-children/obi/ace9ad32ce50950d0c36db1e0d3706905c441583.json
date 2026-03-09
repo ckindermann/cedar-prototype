@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002650",
+  "children": [
+    {
+      "iri": "obo:OBI_0002660",
+      "label": "abdominal wall fat pad biopsy",
+      "hasChildren": false,
+      "childrenKey": "adf79bcd18434c774b0b6ed61267057f9c7d01f2"
+    },
+    {
+      "iri": "obo:OBI_0002662",
+      "label": "bone marrow biopsy",
+      "hasChildren": false,
+      "childrenKey": "4222ea56167829aed9614aad18f534551b2c6a71"
+    },
+    {
+      "iri": "obo:OBI_0002654",
+      "label": "needle biopsy",
+      "hasChildren": true,
+      "childrenKey": "798b67d3273916a4e6f57669e4c724ec4c3d6f2d"
+    },
+    {
+      "iri": "obo:OBI_0002663",
+      "label": "skinpunch biopsy",
+      "hasChildren": false,
+      "childrenKey": "6b49b4df4e1f70cc52c3cda8fc76062dde1cbcfc"
+    },
+    {
+      "iri": "obo:OBI_0002657",
+      "label": "surgical biopsy",
+      "hasChildren": false,
+      "childrenKey": "76325ea9f87f0248357b5a998306080a3ef9a514"
+    },
+    {
+      "iri": "obo:OBI_0002661",
+      "label": "tail biopsy",
+      "hasChildren": false,
+      "childrenKey": "fe4e5e1c661f019a29a8aba5f953d847cd9138a9"
+    }
+  ]
+}

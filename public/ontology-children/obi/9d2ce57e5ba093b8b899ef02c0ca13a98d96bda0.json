@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200111",
+  "children": [
+    {
+      "iri": "obo:OBI_0200193",
+      "label": "background corrected data visualization",
+      "hasChildren": false,
+      "childrenKey": "7b505c7b9d7ab82a42be1f289a8d31e769babd86"
+    },
+    {
+      "iri": "obo:OBI_0200192",
+      "label": "classified data visualization",
+      "hasChildren": false,
+      "childrenKey": "573913aac70890b8837bf8f471a80b2e095e5985"
+    },
+    {
+      "iri": "obo:OBI_0200190",
+      "label": "clustered data visualization",
+      "hasChildren": false,
+      "childrenKey": "69ce313d3062a6978b8e58c8fc102559d2caf4c2"
+    },
+    {
+      "iri": "obo:OBI_0200191",
+      "label": "gene list visualization",
+      "hasChildren": false,
+      "childrenKey": "75688247f850fd1cee9dc74b4ccd255ccf1297a6"
+    }
+  ]
+}

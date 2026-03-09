@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003517",
+  "children": [
+    {
+      "iri": "obo:OBI_0003537",
+      "label": "deep tendon reflex assessment of the ankle joint",
+      "hasChildren": false,
+      "childrenKey": "b832bdfbfed40cdd787dd076345cab07dbfa34b8"
+    },
+    {
+      "iri": "obo:OBI_0003539",
+      "label": "deep tendon reflex assessment of the brachioradialis",
+      "hasChildren": false,
+      "childrenKey": "7ff20a91d205c04b6b5cc986534af6d3c11e2373"
+    },
+    {
+      "iri": "obo:OBI_0003535",
+      "label": "deep tendon reflex assessment of the knee joint",
+      "hasChildren": false,
+      "childrenKey": "19e4b78624ca6996629f6bbaf820a8f1322fd715"
+    },
+    {
+      "iri": "obo:OBI_0003538",
+      "label": "deep tendon reflex assessment of the tendon of biceps brachii",
+      "hasChildren": false,
+      "childrenKey": "e326da8f9b04658219c452b8e9cd6c424ce301fd"
+    }
+  ]
+}

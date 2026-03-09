@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000566",
+  "children": [
+    {
+      "iri": "obo:OBI_0000596",
+      "label": "Bruker NMR instrument",
+      "hasChildren": true,
+      "childrenKey": "75e41a774013f05bf07aaae0b69b8032a48b58f1"
+    },
+    {
+      "iri": "obo:OBI_0000486",
+      "label": "continuous wave NMR instrument",
+      "hasChildren": false,
+      "childrenKey": "835cbbb408e59bb67772a2d7300d32cf396d1c68"
+    },
+    {
+      "iri": "obo:OBI_0000487",
+      "label": "fourier transformation NMR instrument",
+      "hasChildren": false,
+      "childrenKey": "eb3fe387f4bcdf9b0a7d81f5b74214160737725f"
+    },
+    {
+      "iri": "obo:OBI_0000600",
+      "label": "JEOL NMR instrument",
+      "hasChildren": true,
+      "childrenKey": "53336f4883f12fc36b0eb3241c194b9b5aaceda0"
+    },
+    {
+      "iri": "obo:OBI_0000534",
+      "label": "tecmag NMR instrument",
+      "hasChildren": false,
+      "childrenKey": "9c696a42f144dfbaf55dba9083b054a2b7ee7535"
+    },
+    {
+      "iri": "obo:OBI_0000611",
+      "label": "Varian NMR instrument",
+      "hasChildren": true,
+      "childrenKey": "77b881d8143fdfa50455528ddb42bc9f51dd9187"
+    }
+  ]
+}

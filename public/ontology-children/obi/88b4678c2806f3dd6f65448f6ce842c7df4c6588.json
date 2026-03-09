@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003357",
+  "children": [
+    {
+      "iri": "obo:OBI_0003359",
+      "label": "deterministic brain region atlas image data set",
+      "hasChildren": false,
+      "childrenKey": "816b69cdc884af1b950d70da367fd6070a1893bd"
+    },
+    {
+      "iri": "obo:OBI_0003358",
+      "label": "probabilistic brain region atlas image dataset",
+      "hasChildren": false,
+      "childrenKey": "c872feaf3c4296446a9d16d9aec82faa9cfac365"
+    }
+  ]
+}

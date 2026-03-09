@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003298",
+  "children": [
+    {
+      "iri": "obo:OBI_0003299",
+      "label": "DamID-seq",
+      "hasChildren": false,
+      "childrenKey": "9dc2b88d0e8ddc363e2fbffacab15791bca1c368"
+    }
+  ]
+}

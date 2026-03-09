@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200171",
+  "children": [
+    {
+      "iri": "obo:OBI_0200100",
+      "label": "canonical variate analysis",
+      "hasChildren": false,
+      "childrenKey": "8f2fbb83651e8be49d0e42293281a38c955484d0"
+    },
+    {
+      "iri": "obo:OBI_0200077",
+      "label": "gating",
+      "hasChildren": true,
+      "childrenKey": "aa6d8c9a22d8c914876e152a760af7d32c7eec61"
+    },
+    {
+      "iri": "obo:OBI_0200041",
+      "label": "k-means clustering",
+      "hasChildren": false,
+      "childrenKey": "40881de7b491e21fbdeb168bffec502ebd4b83e0"
+    },
+    {
+      "iri": "obo:OBI_0000727",
+      "label": "k-nearest neighbors",
+      "hasChildren": false,
+      "childrenKey": "a0499b1c6c3207752660418c67546f0f9a26c91a"
+    },
+    {
+      "iri": "obo:OBI_0000792",
+      "label": "statistical model validation",
+      "hasChildren": true,
+      "childrenKey": "b9c97b4f18a6712ad80479b6c1ea2bf4b19591c4"
+    }
+  ]
+}

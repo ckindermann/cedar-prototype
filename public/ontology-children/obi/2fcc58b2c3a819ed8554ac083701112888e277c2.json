@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000242",
+  "children": [
+    {
+      "iri": "obo:OBI_0000055",
+      "label": "software optimization objective",
+      "hasChildren": false,
+      "childrenKey": "715be9238ec7ae704ddbadeab1b88a5e3441e305"
+    }
+  ]
+}

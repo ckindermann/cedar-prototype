@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000680",
+  "children": [
+    {
+      "iri": "obo:OBI_1000049",
+      "label": "whole mount tissue",
+      "hasChildren": false,
+      "childrenKey": "064b7350c84b2cf2f488c13d3ecc7615fc524aa1"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000932",
+  "children": [
+    {
+      "iri": "obo:OBI_0400106",
+      "label": "centrifuge",
+      "hasChildren": true,
+      "childrenKey": "d3f54a5f3e004692a0f909510b8528f6d9c19882"
+    },
+    {
+      "iri": "obo:OBI_0000038",
+      "label": "chromatography column",
+      "hasChildren": true,
+      "childrenKey": "7dc270669c74faf601e3891c3556535c9b575de2"
+    },
+    {
+      "iri": "obo:OBI_0000048",
+      "label": "chromatography device",
+      "hasChildren": true,
+      "childrenKey": "b84472ccc82dc51e6fbafbe6b35581d36c63278e"
+    },
+    {
+      "iri": "obo:OBI_0000485",
+      "label": "chromatography instrument",
+      "hasChildren": true,
+      "childrenKey": "16d58dacb29c267774236a24e1250afd40e3d959"
+    },
+    {
+      "iri": "obo:OBI_0001133",
+      "label": "denaturing high-performance liquid chromatography instrument",
+      "hasChildren": false,
+      "childrenKey": "8dd389eab47323fbb460aa82137a6a0c9496e240"
+    },
+    {
+      "iri": "obo:OBI_0400153",
+      "label": "droplet sorter",
+      "hasChildren": false,
+      "childrenKey": "d91bfd9d810debe54ae0ae9b1bd4c59ea571fab8"
+    },
+    {
+      "iri": "obo:OBI_0001053",
+      "label": "electrophoresis system",
+      "hasChildren": true,
+      "childrenKey": "df06be2354751e8441ec6c878572891a4c7be318"
+    },
+    {
+      "iri": "obo:OBI_0000151",
+      "label": "filter paper",
+      "hasChildren": false,
+      "childrenKey": "485007d38fbf094a7614469bbec2ce100bc86af0"
+    },
+    {
+      "iri": "obo:OBI_0400099",
+      "label": "flow cytometer sorter",
+      "hasChildren": true,
+      "childrenKey": "b34138573d801454db767402aa3a3350ceb5072a"
+    },
+    {
+      "iri": "obo:OBI_0000051",
+      "label": "liquid chromatography mass spectrometry platform",
+      "hasChildren": false,
+      "childrenKey": "1bdb18b05ffcc2c7d539d5388829d272a2b6feb5"
+    },
+    {
+      "iri": "obo:OBI_0000345",
+      "label": "mass analyzer",
+      "hasChildren": false,
+      "childrenKey": "cfa50a44665d71d451c813c649bdeb1261f5802b"
+    },
+    {
+      "iri": "obo:OBI_0002487",
+      "label": "microraft",
+      "hasChildren": false,
+      "childrenKey": "39c5f9772e75adfaa417cf9bb648d289d9888536"
+    },
+    {
+      "iri": "obo:OBI_0400168",
+      "label": "microtome",
+      "hasChildren": true,
+      "childrenKey": "e3eafab05315d32571b194c50c642dbc4715c8b7"
+    },
+    {
+      "iri": "obo:OBI_0001114",
+      "label": "nucleic acid extraction/purification instrument",
+      "hasChildren": true,
+      "childrenKey": "94a0cf106c59bc6df4a3fbf8364350f1df946c60"
+    },
+    {
+      "iri": "obo:OBI_0400078",
+      "label": "obscuration bar",
+      "hasChildren": false,
+      "childrenKey": "288d6c3d85ecec0155563ec14609f7673abe135c"
+    },
+    {
+      "iri": "obo:OBI_0400079",
+      "label": "optical filter",
+      "hasChildren": true,
+      "childrenKey": "e7dbc6b8f3460d4bef681889ba23e74282cc28d9"
+    },
+    {
+      "iri": "obo:OBI_0001082",
+      "label": "protein separation apparatus",
+      "hasChildren": false,
+      "childrenKey": "fa85b422e5e91b64756b333769824030047d3b88"
+    },
+    {
+      "iri": "obo:OBI_0000493",
+      "label": "rapid resolution column",
+      "hasChildren": false,
+      "childrenKey": "c170cd4353c30c13e963d311bb362cbd21c7bd29"
+    },
+    {
+      "iri": "obo:OBI_0000959",
+      "label": "vibrotome",
+      "hasChildren": false,
+      "childrenKey": "4ae1c8f5f56d3962ff974193baa89c12a0eddc66"
+    }
+  ]
+}

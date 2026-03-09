@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200113",
+  "children": [
+    {
+      "iri": "obo:OBI_0200114",
+      "label": "euclidean distance calculation",
+      "hasChildren": false,
+      "childrenKey": "e92af319c08e438985cf9db50b8a94048972146a"
+    },
+    {
+      "iri": "obo:OBI_0200115",
+      "label": "pearson correlation coefficient calculation",
+      "hasChildren": false,
+      "childrenKey": "fd9270b037759c36cd2b2f4c36f721d77fe628cb"
+    }
+  ]
+}

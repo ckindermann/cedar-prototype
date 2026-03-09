@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0200073",
+  "children": [
+    {
+      "iri": "obo:OBI_0200066",
+      "label": "Holm-Bonferroni family-wise error rate correction method",
+      "hasChildren": false,
+      "childrenKey": "765047f3ea82732b14e57e3782e14652fc0126b0"
+    },
+    {
+      "iri": "obo:OBI_0200092",
+      "label": "Westfall and Young family wise error rate correction",
+      "hasChildren": false,
+      "childrenKey": "d2af7403122a607c6e7ee633133ce491e3e001a7"
+    }
+  ]
+}

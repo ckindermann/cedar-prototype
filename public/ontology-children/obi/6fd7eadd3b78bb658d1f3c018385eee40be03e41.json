@@ -1,0 +1,96 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0002920",
+  "children": [
+    {
+      "iri": "obo:OBI_0003007",
+      "label": "arthropod trap containing small non-human animal bait",
+      "hasChildren": false,
+      "childrenKey": "ed7e812714a865702a93c5f69ad8762430497702"
+    },
+    {
+      "iri": "obo:OBI_0002922",
+      "label": "baited net trap",
+      "hasChildren": false,
+      "childrenKey": "354f3b456c88c9befddfb6f042ebe3a125b15994"
+    },
+    {
+      "iri": "obo:OBI_0002923",
+      "label": "barrier trap",
+      "hasChildren": false,
+      "childrenKey": "ce0536827656a9c33c4e0556503ab3198b61a1cd"
+    },
+    {
+      "iri": "obo:OBI_0002925",
+      "label": "BG-Sentinel trap",
+      "hasChildren": false,
+      "childrenKey": "68018c51041a81504a045e3ad388ba8e64d082dd"
+    },
+    {
+      "iri": "obo:OBI_0003046",
+      "label": "free-standing window trap",
+      "hasChildren": false,
+      "childrenKey": "96d2d1554885aaa43ff5ad2dddea7717c4d23024"
+    },
+    {
+      "iri": "obo:OBI_0002929",
+      "label": "gravid trap",
+      "hasChildren": true,
+      "childrenKey": "014340fbfe87f80fe706a0f1e04d81e2fcea6a79"
+    },
+    {
+      "iri": "obo:OBI_0002930",
+      "label": "light trap",
+      "hasChildren": true,
+      "childrenKey": "ccbbad3401d2a1de40ca8f36ba2fe636992f8bdf"
+    },
+    {
+      "iri": "obo:OBI_0003454",
+      "label": "Mosquito Magnet Liberty Plus trap",
+      "hasChildren": false,
+      "childrenKey": "08d115f229b4a08b4ea745060f819fa9beee77b8"
+    },
+    {
+      "iri": "obo:OBI_0002933",
+      "label": "Mosquito Magnet Pro trap",
+      "hasChildren": false,
+      "childrenKey": "6c06cf63af8e1ae14362f2a215b8f558dad28f2d"
+    },
+    {
+      "iri": "obo:OBI_0002936",
+      "label": "Onderstepoort Veterinary Institute light-suction trap",
+      "hasChildren": false,
+      "childrenKey": "5ffe2b3a5cd9198d5624774c7f8971d46c6c6b92"
+    },
+    {
+      "iri": "obo:OBI_0002937",
+      "label": "outlet window trap",
+      "hasChildren": false,
+      "childrenKey": "4cb43096261fac6e3014de6a56f2d3867a2bf7a1"
+    },
+    {
+      "iri": "obo:OBI_0002938",
+      "label": "ovitrap",
+      "hasChildren": false,
+      "childrenKey": "695c68293d3ef5e028dc8095b6d919f4ef617695"
+    },
+    {
+      "iri": "obo:OBI_0002939",
+      "label": "resting arthropod trap",
+      "hasChildren": true,
+      "childrenKey": "48f845270f6f438b54dccf5b12e5610135900e1f"
+    },
+    {
+      "iri": "obo:OBI_0002942",
+      "label": "Shannon trap",
+      "hasChildren": false,
+      "childrenKey": "875f55a823c14b605c07242e3ee8c328b14e6e32"
+    },
+    {
+      "iri": "obo:OBI_0003008",
+      "label": "trap for emerging adult arthropods",
+      "hasChildren": false,
+      "childrenKey": "2107293c7e08f52ee9d3cd9fc1807f81780379e2"
+    }
+  ]
+}

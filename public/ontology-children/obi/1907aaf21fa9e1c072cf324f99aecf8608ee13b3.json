@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000618",
+  "children": [
+    {
+      "iri": "obo:OBI_0000535",
+      "label": "gel filtration column",
+      "hasChildren": false,
+      "childrenKey": "0af2b423982fb06e8f7f0eab5655f6506490bb3a"
+    }
+  ]
+}

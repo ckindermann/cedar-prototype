@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001463",
+  "children": [
+    {
+      "iri": "obo:OBI_0001235",
+      "label": "transcription profiling by tiling array assay",
+      "hasChildren": false,
+      "childrenKey": "86fc1502208c2e8b1d8a37f07eaa79af0af06379"
+    }
+  ]
+}

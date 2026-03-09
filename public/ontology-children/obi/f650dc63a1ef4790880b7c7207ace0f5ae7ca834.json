@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400112",
+  "children": [
+    {
+      "iri": "obo:OBI_0001097",
+      "label": "liquid extraction robot",
+      "hasChildren": false,
+      "childrenKey": "481c34250c633f678a7cc693bbf390c7629034bc"
+    }
+  ]
+}

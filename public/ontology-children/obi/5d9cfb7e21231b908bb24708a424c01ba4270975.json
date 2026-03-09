@@ -1,0 +1,1962 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003040",
+  "children": [
+    {
+      "iri": "obo:OBI_2100303",
+      "label": "ABG/electrolytes arterial blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "c4f3e6caefc235faf02ff63fc6080354467a9e43"
+    },
+    {
+      "iri": "obo:OBI_2100305",
+      "label": "ABG/electrolytes arterial blood ionized calcium assay",
+      "hasChildren": false,
+      "childrenKey": "b7bff9b5d290801b2f49b2ce6df63856c8034ed0"
+    },
+    {
+      "iri": "obo:OBI_2100304",
+      "label": "ABG/electrolytes arterial blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "da4d25ff975c0e9a518936b2ebe0c99368787ef3"
+    },
+    {
+      "iri": "obo:OBI_2100281",
+      "label": "ABL90 panel arterial blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "7268bb133051d7917412e155c5a9d3a98363b76b"
+    },
+    {
+      "iri": "obo:OBI_2100279",
+      "label": "ABL90 panel arterial blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "69973de074db74e0d3580f06977ba1116e18e454"
+    },
+    {
+      "iri": "obo:OBI_2100277",
+      "label": "ABL90 panel arterial blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "21e035b49e0dde38df7f9b44e5bc660d4bc7f721"
+    },
+    {
+      "iri": "obo:OBI_2100276",
+      "label": "ABL90 panel arterial blood chloride assay",
+      "hasChildren": false,
+      "childrenKey": "9de2788ac4018acce8012925f60be2a8b00ce02d"
+    },
+    {
+      "iri": "obo:OBI_2100273",
+      "label": "ABL90 panel arterial blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "8605661cb963ac7bff4769a9935fdcacbaa4b345"
+    },
+    {
+      "iri": "obo:OBI_2100278",
+      "label": "ABL90 panel arterial blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "9dcb6e55eed501f4cee5515893008f8d18a50701"
+    },
+    {
+      "iri": "obo:OBI_2100275",
+      "label": "ABL90 panel arterial blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "5d68c6d4abf3524dd891a6131a16be3e936f028d"
+    },
+    {
+      "iri": "obo:OBI_2100274",
+      "label": "ABL90 panel arterial blood lactic acid assay",
+      "hasChildren": false,
+      "childrenKey": "eeca136374c42968aa192622f5c5380bd0d34ebc"
+    },
+    {
+      "iri": "obo:OBI_2100308",
+      "label": "ABL90 panel arterial blood methemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "a759238eb0e4597a267b987839a3bf4d3dda36ba"
+    },
+    {
+      "iri": "obo:OBI_2100272",
+      "label": "ABL90 panel arterial blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "f639cef45d178066229f84b3eab20e04b8b68a3a"
+    },
+    {
+      "iri": "obo:OBI_2100282",
+      "label": "ABL90 panel arterial blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "e310cebd0822a039784acfaf10c679378eb2683b"
+    },
+    {
+      "iri": "obo:OBI_2100271",
+      "label": "ABL90 panel arterial blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "9413f7d6b24b5166eea21f5060fb6393545a51de"
+    },
+    {
+      "iri": "obo:OBI_2100280",
+      "label": "ABL90 panel arterial blood temperature assay",
+      "hasChildren": false,
+      "childrenKey": "627e2a8238609694f12c8ba709fed63b1c8fe370"
+    },
+    {
+      "iri": "obo:OBI_2100291",
+      "label": "ABL90 panel venous blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "c6f55c2babd97356622bfd8e02bc2dbfbf01d930"
+    },
+    {
+      "iri": "obo:OBI_2100287",
+      "label": "ABL90 panel venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "6cdb3d4997207e58a8ceeee91f09c1f84fb2da03"
+    },
+    {
+      "iri": "obo:OBI_2100293",
+      "label": "ABL90 panel venous blood chloride assay",
+      "hasChildren": false,
+      "childrenKey": "36399a56e7de21a833c892e137c0e70fcd089307"
+    },
+    {
+      "iri": "obo:OBI_2100284",
+      "label": "ABL90 panel venous blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "eebabafecd21eaa5f17b6d2a00cab5ff4d627580"
+    },
+    {
+      "iri": "obo:OBI_2100288",
+      "label": "ABL90 panel venous blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "c7ee53a399a365fb548d0108dfeb83832b2c6003"
+    },
+    {
+      "iri": "obo:OBI_2100285",
+      "label": "ABL90 panel venous blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "03e52d32a09e16df4e3340345c156b7e4678fa62"
+    },
+    {
+      "iri": "obo:OBI_2100286",
+      "label": "ABL90 panel venous blood ionized calcium assay",
+      "hasChildren": false,
+      "childrenKey": "0763de1cd17838b3bd71fc8b14c063636de9c608"
+    },
+    {
+      "iri": "obo:OBI_2100292",
+      "label": "ABL90 panel venous blood lactic acid assay",
+      "hasChildren": false,
+      "childrenKey": "bfaf26bb4858c78c9feaa225ebfdd92ed36e0693"
+    },
+    {
+      "iri": "obo:OBI_2100307",
+      "label": "ABL90 panel venous blood methemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "3431f406d3dee1051452d2e0bb452e4fa6149c4e"
+    },
+    {
+      "iri": "obo:OBI_2100290",
+      "label": "ABL90 panel venous blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "c6feca0887c46d9d6189f02a91f4eb04d05fc742"
+    },
+    {
+      "iri": "obo:OBI_2100296",
+      "label": "ABL90 panel venous blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "174850b15ef749e57bb57a6f1c6a3eecd8906cad"
+    },
+    {
+      "iri": "obo:OBI_2100289",
+      "label": "ABL90 panel venous blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "032bf44e87d6017f0e7b6bd973df7fa99a9299d3"
+    },
+    {
+      "iri": "obo:OBI_0000820",
+      "label": "activated partial thromboplastin time assay",
+      "hasChildren": false,
+      "childrenKey": "04ccca2600a84d809799f83a0ccc569e48f76533"
+    },
+    {
+      "iri": "obo:OBI_0003296",
+      "label": "antibodies from lymphocyte secretions assay",
+      "hasChildren": false,
+      "childrenKey": "f3a44993da019eeb0db8a09614e59da46981459f"
+    },
+    {
+      "iri": "obo:OBI_0003418",
+      "label": "antigen specific antibodies in blood assay",
+      "hasChildren": false,
+      "childrenKey": "3b02967c18a68d3a211fc2d263c5399299c2eca3"
+    },
+    {
+      "iri": "obo:OBI_2100187",
+      "label": "arterial blood chloride assay",
+      "hasChildren": false,
+      "childrenKey": "928714208685a386583d21d45114fd91d0e0875f"
+    },
+    {
+      "iri": "obo:OBI_2100170",
+      "label": "arterial blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "52d7ce883ec837be577f8fb395d0f3127975433f"
+    },
+    {
+      "iri": "obo:OBI_2100123",
+      "label": "arterial blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "92f8c7120a6e7660444f184c0393238640fcc058"
+    },
+    {
+      "iri": "obo:OBI_2100186",
+      "label": "arterial blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "8874a4f5727c778a8f183d8d217ea075e41aafed"
+    },
+    {
+      "iri": "obo:OBI_2100188",
+      "label": "arterial blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "0337288a279a998af09d99752c3bd257f0102fdc"
+    },
+    {
+      "iri": "obo:OBI_2100202",
+      "label": "arterial blood lactic acid assay",
+      "hasChildren": false,
+      "childrenKey": "57a76fb193ccdc04532c7b66d57596ec1464564c"
+    },
+    {
+      "iri": "obo:OBI_2100181",
+      "label": "arterial blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "42694ac6c656269921c26e80f6076ac6f2222d77"
+    },
+    {
+      "iri": "obo:OBI_2100180",
+      "label": "arterial blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "69c26943ab489867a3da7c4a2fdfc07cddb1b285"
+    },
+    {
+      "iri": "obo:OBI_2100368",
+      "label": "automated count venous blood reticulocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "0018d44dbbf512420ee10d7df7fad8d73e8d30a7"
+    },
+    {
+      "iri": "obo:OBI_2100056",
+      "label": "automated differential venous blood basophil count assay",
+      "hasChildren": false,
+      "childrenKey": "1ff8935b66509e41b4b3eb4b57fbfcb26109fdf8"
+    },
+    {
+      "iri": "obo:OBI_2100058",
+      "label": "automated differential venous blood eosinophil count assay",
+      "hasChildren": false,
+      "childrenKey": "3537f63b3b9aa928294558fde1eb08bae383e1dd"
+    },
+    {
+      "iri": "obo:OBI_2100059",
+      "label": "automated differential venous blood lymphocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "080858b441efbd1b7435208955fe7d2105f7f8b4"
+    },
+    {
+      "iri": "obo:OBI_2100060",
+      "label": "automated differential venous blood monocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "434aa881743db50cb695cc2639b95f86a316d190"
+    },
+    {
+      "iri": "obo:OBI_2100057",
+      "label": "automated differential venous blood neutrophil count assay",
+      "hasChildren": false,
+      "childrenKey": "da36faea810355ffd89609f645f2aa5f7592fbd0"
+    },
+    {
+      "iri": "obo:OBI_2100092",
+      "label": "basic metabolic panel venous blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "69b63c19f453a5d2f1ced52b449a2e56e09859e2"
+    },
+    {
+      "iri": "obo:OBI_2100093",
+      "label": "basic metabolic panel venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "474aa3341a8454503f34675673f6515cb4af100c"
+    },
+    {
+      "iri": "obo:OBI_2100087",
+      "label": "basic metabolic panel venous blood chloride assay",
+      "hasChildren": false,
+      "childrenKey": "17d0b9f6308a51e4ed0c07852a06de05339f3ab1"
+    },
+    {
+      "iri": "obo:OBI_2100090",
+      "label": "basic metabolic panel venous blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "3363f420949456f8dbeae74a4aa8807fffa2913d"
+    },
+    {
+      "iri": "obo:OBI_2100091",
+      "label": "basic metabolic panel venous blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "5a36b87b6d234a903b934fde19eb3ee10cfa5dbc"
+    },
+    {
+      "iri": "obo:OBI_2100088",
+      "label": "basic metabolic panel venous blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "66050491c15d045fe1c8a039ec6e6c32159194c4"
+    },
+    {
+      "iri": "obo:OBI_2100089",
+      "label": "basic metabolic panel venous blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "753c45dd453acb69453f9b3f0280a83b40377026"
+    },
+    {
+      "iri": "obo:OBI_2100146",
+      "label": "Biosite cardiac panel arterial blood creatine kinase MB assay",
+      "hasChildren": false,
+      "childrenKey": "32288c798688f6a46503c09a540bd2ab946b1cef"
+    },
+    {
+      "iri": "obo:OBI_2100387",
+      "label": "blood gas arterial blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "36d999f26ac5be04f91d0a15bfd18f079996674c"
+    },
+    {
+      "iri": "obo:OBI_2100388",
+      "label": "blood gas arterial blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "0381823d2d7fdcb8b88975d2066f6b430d4ab6f7"
+    },
+    {
+      "iri": "obo:OBI_2100386",
+      "label": "blood gas arterial blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "172000e53056ab07661be55330e15d60bbc95c70"
+    },
+    {
+      "iri": "obo:OBI_2100169",
+      "label": "blood gas venous blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "3fbc65491c09de819ef799bc48c9b33dd0b2d73c"
+    },
+    {
+      "iri": "obo:OBI_2100168",
+      "label": "blood gas venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "ccf57441e25257f2e81ba1cb91d8897295ff2c2e"
+    },
+    {
+      "iri": "obo:OBI_2100166",
+      "label": "blood gas venous blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "4e20b41110f3e5a4de5bfa1fa09d7a48749b3dee"
+    },
+    {
+      "iri": "obo:OBI_0002649",
+      "label": "blood microbiology assay",
+      "hasChildren": true,
+      "childrenKey": "ac8e40acdafc2c9134e71cc016adbbb2ce2928a5"
+    },
+    {
+      "iri": "obo:OBI_2100298",
+      "label": "bone profile venous blood albumin assay",
+      "hasChildren": false,
+      "childrenKey": "afccc8b8ee7628f4cdb2b6d4f097a3bcebb5836a"
+    },
+    {
+      "iri": "obo:OBI_2100299",
+      "label": "bone profile venous blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "240090f11ac4c481f14edfdde85159c0ed7b7753"
+    },
+    {
+      "iri": "obo:OBI_2100300",
+      "label": "bone profile venous blood human alkaline phosphatase assay",
+      "hasChildren": false,
+      "childrenKey": "733ccc2e0de161b47a1103ec7901d8350ab6a59d"
+    },
+    {
+      "iri": "obo:OBI_2100302",
+      "label": "bone profile venous blood phosphate assay",
+      "hasChildren": false,
+      "childrenKey": "f44d670f262e2622bf5d09d4a60166ee27204684"
+    },
+    {
+      "iri": "obo:OBI_2100301",
+      "label": "bone profile venous blood protein assay",
+      "hasChildren": false,
+      "childrenKey": "03b716d67c7d155e3115ad40220724e9d7c68cae"
+    },
+    {
+      "iri": "obo:OBI_2100108",
+      "label": "cardiac enzymes venous blood creatine kinase assay",
+      "hasChildren": false,
+      "childrenKey": "1cec313566b464da0b8c013ea169ed8d44087f0c"
+    },
+    {
+      "iri": "obo:OBI_2100076",
+      "label": "CBC venous blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "9041791cb9eac1204200c82ca84cea9d53a2ecc9"
+    },
+    {
+      "iri": "obo:OBI_2100078",
+      "label": "CBC venous blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "ec5df9440a80c21574c5df8402fe3cadc6d4bd9f"
+    },
+    {
+      "iri": "obo:OBI_2100077",
+      "label": "CBC venous blood platelet count assay",
+      "hasChildren": false,
+      "childrenKey": "001611ce554b27cc3f39c797c806f90c5cd64347"
+    },
+    {
+      "iri": "obo:OBI_2100074",
+      "label": "CBC venous blood RBC count assay",
+      "hasChildren": false,
+      "childrenKey": "1098a3a46e030a53ffa5cad045a1ac33a6287519"
+    },
+    {
+      "iri": "obo:OBI_2100075",
+      "label": "CBC venous blood WBC count assay",
+      "hasChildren": false,
+      "childrenKey": "408802e1c3509da0a0cfe4f85901e3d4c811dd6e"
+    },
+    {
+      "iri": "obo:OBI_2100065",
+      "label": "CBC with automated differential venous blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "0ea4d030a1ad38ddb06877bd126db6b2a5668e1a"
+    },
+    {
+      "iri": "obo:OBI_2100066",
+      "label": "CBC with automated differential venous blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "abd09364e10980ae3d11ee998962004fab20990e"
+    },
+    {
+      "iri": "obo:OBI_2100306",
+      "label": "CBC with automated differential venous blood nucleated RBC count assay",
+      "hasChildren": false,
+      "childrenKey": "7b6e1d1bb80049027cc5aa46c3e15b8e028549da"
+    },
+    {
+      "iri": "obo:OBI_2100063",
+      "label": "CBC with automated differential venous blood platelet count assay",
+      "hasChildren": false,
+      "childrenKey": "63227d00e3487568b15010938e9778dd4ab79905"
+    },
+    {
+      "iri": "obo:OBI_2100062",
+      "label": "CBC with automated differential venous blood RBC count assay",
+      "hasChildren": false,
+      "childrenKey": "e032cbc6de332e2242063f424733a1973a62c127"
+    },
+    {
+      "iri": "obo:OBI_2100064",
+      "label": "CBC with automated differential venous blood WBC count assay",
+      "hasChildren": false,
+      "childrenKey": "642486beff2a2d4747245022df9bbe2eed3cb67b"
+    },
+    {
+      "iri": "obo:OBI_2100099",
+      "label": "CBC with manual differential venous blood band neutrophil count assay",
+      "hasChildren": false,
+      "childrenKey": "ffe2e5f3dc294acc50926d7b8489b1469dab67c4"
+    },
+    {
+      "iri": "obo:OBI_2100106",
+      "label": "CBC with manual differential venous blood basophil count assay",
+      "hasChildren": false,
+      "childrenKey": "7098e6308138dfbd3284a0b0ce477caf8de93aac"
+    },
+    {
+      "iri": "obo:OBI_2100124",
+      "label": "CBC with manual differential venous blood cell count assay",
+      "hasChildren": false,
+      "childrenKey": "362ddd0371d0c51e4adc8185579c506d67eb5080"
+    },
+    {
+      "iri": "obo:OBI_2100101",
+      "label": "CBC with manual differential venous blood eosinophil count assay",
+      "hasChildren": false,
+      "childrenKey": "91797b81b7207c0b007ca22d75f577dabe8e45c9"
+    },
+    {
+      "iri": "obo:OBI_2100102",
+      "label": "CBC with manual differential venous blood lymphocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "59eda836e02a2c7881ceeda7e98db282326952f3"
+    },
+    {
+      "iri": "obo:OBI_2100324",
+      "label": "CBC with manual differential venous blood megakaryocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "793fa0d2ab67a767a08546463da8ec4790903154"
+    },
+    {
+      "iri": "obo:OBI_2100201",
+      "label": "CBC with manual differential venous blood metamyelocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "5a76d49fecca94ae15daa67b79f9ab742e99bfff"
+    },
+    {
+      "iri": "obo:OBI_2100104",
+      "label": "CBC with manual differential venous blood monocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "ce23a20de3770bd63696d9ed3406b54d14e9eb9c"
+    },
+    {
+      "iri": "obo:OBI_2100207",
+      "label": "CBC with manual differential venous blood myelocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "5e65045aba47d64d3ecf0e6d68e2e7ad460c8769"
+    },
+    {
+      "iri": "obo:OBI_2100362",
+      "label": "CBC with manual differential venous blood neutrophil count assay",
+      "hasChildren": false,
+      "childrenKey": "eb7d8b3395e4340e1f484d0f8479116321a0ff57"
+    },
+    {
+      "iri": "obo:OBI_2100103",
+      "label": "CBC with manual differential venous blood nucleated RBC count assay",
+      "hasChildren": false,
+      "childrenKey": "73615703620f5bed702b347d48ad6515ef919469"
+    },
+    {
+      "iri": "obo:OBI_2100384",
+      "label": "CBC with manual differential venous blood plasma cell count assay",
+      "hasChildren": false,
+      "childrenKey": "61d08d94096853d98a0e7f4582cad77096838ca1"
+    },
+    {
+      "iri": "obo:OBI_2100283",
+      "label": "CBC with manual differential venous blood promyelocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "41eaffb567a90ad597e72a664266e12bf587a6bf"
+    },
+    {
+      "iri": "obo:OBI_2100105",
+      "label": "CBC with manual differential venous blood segmented neutrophil count assay",
+      "hasChildren": false,
+      "childrenKey": "4df6fa316fa8657477ec4d169e86e266fb069e39"
+    },
+    {
+      "iri": "obo:OBI_2100100",
+      "label": "CBC with manual differential venous blood WBC count assay",
+      "hasChildren": false,
+      "childrenKey": "9cba4258ce8c5535f59f40295693cd5d7190240c"
+    },
+    {
+      "iri": "obo:OBI_2100229",
+      "label": "chem11 venous blood albumin assay",
+      "hasChildren": false,
+      "childrenKey": "4d02291c57c2694184a323d922c0a47ce251ff28"
+    },
+    {
+      "iri": "obo:OBI_2100226",
+      "label": "chem11 venous blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "60c9fb2fc7c9c594fba4b73d564ea3e376e8a284"
+    },
+    {
+      "iri": "obo:OBI_2100228",
+      "label": "chem11 venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "a54c393a708c8136eb6280b68c8f9161ae4beb99"
+    },
+    {
+      "iri": "obo:OBI_2100233",
+      "label": "chem11 venous blood chloride assay",
+      "hasChildren": false,
+      "childrenKey": "a3cc5b315549e01ae11595a50d5008126a3d63ef"
+    },
+    {
+      "iri": "obo:OBI_2100232",
+      "label": "chem11 venous blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "583ebba14406327e96a4c6762b264d2e931dd17f"
+    },
+    {
+      "iri": "obo:OBI_2100227",
+      "label": "chem11 venous blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "f81cb1ccb735da7caca5c5eb91412cb2b3dce6fb"
+    },
+    {
+      "iri": "obo:OBI_2100231",
+      "label": "chem11 venous blood magnesium assay",
+      "hasChildren": false,
+      "childrenKey": "70c62d1f1f0e78d63c432f86cb8842c7af0072c3"
+    },
+    {
+      "iri": "obo:OBI_2100224",
+      "label": "chem11 venous blood phosphate assay",
+      "hasChildren": false,
+      "childrenKey": "28b214bcab9f23a3488ac36e83de50cc5b2fe1c9"
+    },
+    {
+      "iri": "obo:OBI_2100225",
+      "label": "chem11 venous blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "9fa03d7573283f52b340247a44fa3348cd844275"
+    },
+    {
+      "iri": "obo:OBI_2100230",
+      "label": "chem11 venous blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "34a5414cf4cbb1aea55d6b1e832a6b1a9b13bdd7"
+    },
+    {
+      "iri": "obo:OBI_2100248",
+      "label": "chem16 venous blood alanine aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "156597a76d4c5024fad603a71c4e988f7fbe1d44"
+    },
+    {
+      "iri": "obo:OBI_2100245",
+      "label": "chem16 venous blood albumin assay",
+      "hasChildren": false,
+      "childrenKey": "aa226ad8a2e180c8d037d5e59b7e15f8ec2b8d70"
+    },
+    {
+      "iri": "obo:OBI_2100246",
+      "label": "chem16 venous blood bilirubin assay",
+      "hasChildren": false,
+      "childrenKey": "08d3324571a2f43a4348a45a14e133e5db39b42c"
+    },
+    {
+      "iri": "obo:OBI_2100240",
+      "label": "chem16 venous blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "5f14eae5c6e77ebd040929241b41730861cc6039"
+    },
+    {
+      "iri": "obo:OBI_2100238",
+      "label": "chem16 venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "e8cbb6e9c7089a12fa0ad8e684c47e96c1eda8b7"
+    },
+    {
+      "iri": "obo:OBI_2100247",
+      "label": "chem16 venous blood chloride assay",
+      "hasChildren": false,
+      "childrenKey": "e528965206a54b39d7791dd35f7865dc6e160541"
+    },
+    {
+      "iri": "obo:OBI_2100236",
+      "label": "chem16 venous blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "0243ed0e1e42b54f79400c339a32ebcdff7341fd"
+    },
+    {
+      "iri": "obo:OBI_2100239",
+      "label": "chem16 venous blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "e4381bb2b90b3e936935ca64ac427a51a12adf2a"
+    },
+    {
+      "iri": "obo:OBI_2100244",
+      "label": "chem16 venous blood human alkaline phosphatase assay",
+      "hasChildren": false,
+      "childrenKey": "5b30d39a63ece20f58d66e1332b7b27bf2d4b431"
+    },
+    {
+      "iri": "obo:OBI_2100235",
+      "label": "chem16 venous blood human aspartate aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "3b468effef2a12b881dffef6fe9d403f70244776"
+    },
+    {
+      "iri": "obo:OBI_2100237",
+      "label": "chem16 venous blood magnesium assay",
+      "hasChildren": false,
+      "childrenKey": "73e97cf07dc5519d7b0818ccebd683d7a3f26de4"
+    },
+    {
+      "iri": "obo:OBI_2100243",
+      "label": "chem16 venous blood phosphate assay",
+      "hasChildren": false,
+      "childrenKey": "8875bf302f38bd8ed45b289f400d8eb9d4460f4a"
+    },
+    {
+      "iri": "obo:OBI_2100249",
+      "label": "chem16 venous blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "a809c3c36f13605121b9a0a5254d5692271fd4ca"
+    },
+    {
+      "iri": "obo:OBI_2100242",
+      "label": "chem16 venous blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "84091a43181d93197d5d1b5db7613e727dc89702"
+    },
+    {
+      "iri": "obo:OBI_2100241",
+      "label": "chem16 venous blood triglyceride assay",
+      "hasChildren": false,
+      "childrenKey": "643e714b2d271a60546120e1e034727e1202e33e"
+    },
+    {
+      "iri": "obo:OBI_2100160",
+      "label": "comprehensive metabolic panel venous blood alanine aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "49c3c44cb17d04af231db8cc2c6fa857cc320d99"
+    },
+    {
+      "iri": "obo:OBI_2100153",
+      "label": "comprehensive metabolic panel venous blood albumin assay",
+      "hasChildren": false,
+      "childrenKey": "286dccd130566d5f85aca1385791694d9c32ef0a"
+    },
+    {
+      "iri": "obo:OBI_2100155",
+      "label": "comprehensive metabolic panel venous blood bilirubin assay",
+      "hasChildren": false,
+      "childrenKey": "224ccb5ea8064f4425a0363b60d28fbad1000299"
+    },
+    {
+      "iri": "obo:OBI_2100149",
+      "label": "comprehensive metabolic panel venous blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "b9af7aa0205a210c452d6fa7cd41d23e1590eb7a"
+    },
+    {
+      "iri": "obo:OBI_2100148",
+      "label": "comprehensive metabolic panel venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "0096be3396fda972ac5aa41f5c8286c8ed9751cf"
+    },
+    {
+      "iri": "obo:OBI_2100156",
+      "label": "comprehensive metabolic panel venous blood chloride assay",
+      "hasChildren": false,
+      "childrenKey": "d478c953a4a3744cbe28e3da5938d048a87c2ef3"
+    },
+    {
+      "iri": "obo:OBI_2100159",
+      "label": "comprehensive metabolic panel venous blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "a644f07835eb5e7db0174f4e7bb7d3fa85d06813"
+    },
+    {
+      "iri": "obo:OBI_2100152",
+      "label": "comprehensive metabolic panel venous blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "cf6fd431dbe32e15aa40337a336e393104092c3e"
+    },
+    {
+      "iri": "obo:OBI_2100154",
+      "label": "comprehensive metabolic panel venous blood human alkaline phosphatase assay",
+      "hasChildren": false,
+      "childrenKey": "1c9eabf808f90a5df978aca52e885e665c535eee"
+    },
+    {
+      "iri": "obo:OBI_2100157",
+      "label": "comprehensive metabolic panel venous blood human aspartate aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "a985730471ae93249a9f26e345b1aa78a8352691"
+    },
+    {
+      "iri": "obo:OBI_2100150",
+      "label": "comprehensive metabolic panel venous blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "6a11692b0e9f97d0d4b66d0b1eedba20e2ae94ec"
+    },
+    {
+      "iri": "obo:OBI_2100158",
+      "label": "comprehensive metabolic panel venous blood protein assay",
+      "hasChildren": false,
+      "childrenKey": "2b10e562a29a6dccc8b3d66b902ac0985ba1fe06"
+    },
+    {
+      "iri": "obo:OBI_2100151",
+      "label": "comprehensive metabolic panel venous blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "ae3df1ead76638da788ab26fc5ef5c8db96896b7"
+    },
+    {
+      "iri": "obo:OBI_2100142",
+      "label": "cooximitery arterial blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "789e322db230469d473abc56f9a10bccd76c9fe7"
+    },
+    {
+      "iri": "obo:OBI_2100143",
+      "label": "cooximitery arterial blood methemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "b815df967058beebd888a53cfc3200351edf7132"
+    },
+    {
+      "iri": "obo:OBI_2100141",
+      "label": "cooximitery arterial blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "64603d157192f227768c727eeba7ec653cbd1078"
+    },
+    {
+      "iri": "obo:OBI_2100079",
+      "label": "corrected venous blood leukocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "7cf7625b12503411d15bd0b33de43e43ed897ae8"
+    },
+    {
+      "iri": "obo:OBI_2100132",
+      "label": "count venous blood reticulocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "1ccba504fedf9df56a05ee39cdf6c3fc655b81f4"
+    },
+    {
+      "iri": "obo:OBI_2100349",
+      "label": "direct venous blood bilirubin assay",
+      "hasChildren": false,
+      "childrenKey": "cf20226ba5dc4692600c68b05e4ab9450ca989d7"
+    },
+    {
+      "iri": "obo:OBI_2100219",
+      "label": "DT60 venous blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "175cea54e82ce74fcd01b26f49e9d3204105be4b"
+    },
+    {
+      "iri": "obo:OBI_2100218",
+      "label": "estimated venous blood glomerular filtration assay",
+      "hasChildren": false,
+      "childrenKey": "d7a882c84de5a9cf0cb2ea52416d54c289197d6b"
+    },
+    {
+      "iri": "obo:OBI_0003041",
+      "label": "falcivax rapid diagnostic test",
+      "hasChildren": false,
+      "childrenKey": "de249e5d0e46cec13af75b9aeba40d641e9041db"
+    },
+    {
+      "iri": "obo:OBI_2100220",
+      "label": "fasting venous blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "30294691803b2387689625069dd19e6259744a1e"
+    },
+    {
+      "iri": "obo:OBI_2100350",
+      "label": "free venous blood T3 assay",
+      "hasChildren": false,
+      "childrenKey": "5f26f5f826b8b7827a989a5f43e14866d3f8ae20"
+    },
+    {
+      "iri": "obo:OBI_2100295",
+      "label": "free venous blood T4 assay",
+      "hasChildren": false,
+      "childrenKey": "b10da591d498f61ca057e2ab00877a2539355058"
+    },
+    {
+      "iri": "obo:OBI_2100389",
+      "label": "free/total venous blood PSA assay",
+      "hasChildren": false,
+      "childrenKey": "d06625e158e786741297d249bf347ae669d8a549"
+    },
+    {
+      "iri": "obo:OBI_2100194",
+      "label": "GEM premier blood gas venous blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "48d2449fa0ea702463c8cda760448d5fb18b187e"
+    },
+    {
+      "iri": "obo:OBI_2100198",
+      "label": "GEM premier blood gas venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "3ad4f58b0179704b94467a8d13b4a9ef692dc6a2"
+    },
+    {
+      "iri": "obo:OBI_2100195",
+      "label": "GEM premier blood gas venous blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "898c98e16de117655cfdd6c9002f019feeabd779"
+    },
+    {
+      "iri": "obo:OBI_2100189",
+      "label": "GEM premier blood gas venous blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "1e75ceb78ef90b3668b77522e1f80767f60a9d9f"
+    },
+    {
+      "iri": "obo:OBI_2100193",
+      "label": "GEM premier blood gas venous blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "7858f58d2f0998b4861da087d1f7f1901f49c055"
+    },
+    {
+      "iri": "obo:OBI_2100190",
+      "label": "GEM premier blood gas venous blood ionized calcium assay",
+      "hasChildren": false,
+      "childrenKey": "c665406795f22a8dccc93db4f1e16d7a2181fafe"
+    },
+    {
+      "iri": "obo:OBI_2100197",
+      "label": "GEM premier blood gas venous blood lactic acid assay",
+      "hasChildren": false,
+      "childrenKey": "378979b4e25607a2a3a4f6b830c36b5a3fbbf97d"
+    },
+    {
+      "iri": "obo:OBI_2100192",
+      "label": "GEM premier blood gas venous blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "38d7f6f299d1959e5b04ff9d4e81fcd996238384"
+    },
+    {
+      "iri": "obo:OBI_2100191",
+      "label": "GEM premier blood gas venous blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "f9b19ccfa8b265ffd788ea33e2f0102292a6be64"
+    },
+    {
+      "iri": "obo:OBI_2100196",
+      "label": "GEM premier blood gas venous blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "48459b060dcb7ffe13fd7f6a195e645e95f69bfa"
+    },
+    {
+      "iri": "obo:OBI_2100371",
+      "label": "GEM4 arterial blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "b07075e650cf955f1a0ab3c3e152d4405756e029"
+    },
+    {
+      "iri": "obo:OBI_2100381",
+      "label": "GEM4 arterial blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "59a1157052b0a253e2be82271434cdb00a1c19ab"
+    },
+    {
+      "iri": "obo:OBI_2100377",
+      "label": "GEM4 arterial blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "919138abd30278730efc29da424863e357a21e62"
+    },
+    {
+      "iri": "obo:OBI_2100379",
+      "label": "GEM4 arterial blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "31d8e4ab7c59dcfb5014b45333c209b0c801969a"
+    },
+    {
+      "iri": "obo:OBI_2100373",
+      "label": "GEM4 arterial blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "45a1ada823171ebbdca8f140c236c89263766929"
+    },
+    {
+      "iri": "obo:OBI_2100380",
+      "label": "GEM4 arterial blood ionized calcium assay",
+      "hasChildren": false,
+      "childrenKey": "5f5d8c60006d1cb6158b9d3b8ccf06a432477a63"
+    },
+    {
+      "iri": "obo:OBI_2100372",
+      "label": "GEM4 arterial blood lactic acid assay",
+      "hasChildren": false,
+      "childrenKey": "1dbe3a22de9e889e94ffcc826dc2473bf3cf842d"
+    },
+    {
+      "iri": "obo:OBI_2100378",
+      "label": "GEM4 arterial blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "494c17fd6307ec825028aec6908eac5a3e55db65"
+    },
+    {
+      "iri": "obo:OBI_2100375",
+      "label": "GEM4 arterial blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "bf689bc81c6c57d7499040fc9834e06f8794ff43"
+    },
+    {
+      "iri": "obo:OBI_2100374",
+      "label": "GEM4 arterial blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "d181e140f74fa57bd5bb879292a8c0d143bdb0c3"
+    },
+    {
+      "iri": "obo:OBI_2100376",
+      "label": "GEM4 arterial blood temperature assay",
+      "hasChildren": false,
+      "childrenKey": "c367a997ee8fbca61c712495e6ad7c76f8fb98c5"
+    },
+    {
+      "iri": "obo:OBI_2100312",
+      "label": "GEM4000 ANLCOOX arterial blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "554ff781ec5b76f55cfd3e8279f7d713700ea432"
+    },
+    {
+      "iri": "obo:OBI_2100320",
+      "label": "GEM4000 ANLCOOX arterial blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "4313f6ac1ab69632f6ca8725d80eae3fffd01088"
+    },
+    {
+      "iri": "obo:OBI_2100318",
+      "label": "GEM4000 ANLCOOX arterial blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "8ec9a3608a566ba17321e19fb282b351b6b4ebd4"
+    },
+    {
+      "iri": "obo:OBI_2100314",
+      "label": "GEM4000 ANLCOOX arterial blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "b1377db3cc8fb909648d66d652d59f9222539f61"
+    },
+    {
+      "iri": "obo:OBI_2100316",
+      "label": "GEM4000 ANLCOOX arterial blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "d59381bd73e91b6a8349b4df69e8a65e133d96f1"
+    },
+    {
+      "iri": "obo:OBI_2100319",
+      "label": "GEM4000 ANLCOOX arterial blood ionized calcium assay",
+      "hasChildren": false,
+      "childrenKey": "388822d7a643371c014cf9f37240282334329cf3"
+    },
+    {
+      "iri": "obo:OBI_2100313",
+      "label": "GEM4000 ANLCOOX arterial blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "b1b9e9188ecd194d804e75524d9aaf93c0452b43"
+    },
+    {
+      "iri": "obo:OBI_2100317",
+      "label": "GEM4000 ANLCOOX arterial blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "cf408fe80daa070169e69a30a972ee41fd73396d"
+    },
+    {
+      "iri": "obo:OBI_2100321",
+      "label": "GEM4000 ANLCOOX arterial blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "c64746edefb894b7a7fd3a954862268663f1a11f"
+    },
+    {
+      "iri": "obo:OBI_2100315",
+      "label": "GEM4000 ANLCOOX arterial blood temperature assay",
+      "hasChildren": false,
+      "childrenKey": "9018b3f4baf3251fe5ff7a67bde0d0750242702d"
+    },
+    {
+      "iri": "obo:OBI_0000721",
+      "label": "glucose tolerance test",
+      "hasChildren": false,
+      "childrenKey": "f4d4fec747e553350e13eb97dbca23925b95cc71"
+    },
+    {
+      "iri": "obo:OBI_2100353",
+      "label": "hemoglobin and hematocrit venous blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "1d80a2527212cd1852cd838b30ea874c50c468db"
+    },
+    {
+      "iri": "obo:OBI_2100354",
+      "label": "hemoglobin and hematocrit venous blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "705fd89d33a796862f56e97cfbc51bf8081fc323"
+    },
+    {
+      "iri": "obo:OBI_2100126",
+      "label": "hemoglobin oxygen saturation arterial blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "4653e18debc74f838dd8068d8c61c34511ea9a5b"
+    },
+    {
+      "iri": "obo:OBI_2100125",
+      "label": "hemoglobin oxygen saturation arterial blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "86212793cb9b2bdb918ea9218b608b12f95a3b6c"
+    },
+    {
+      "iri": "obo:OBI_2100214",
+      "label": "hepatic panel venous blood alanine aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "555fcedc7992f9a08a8fc6d5daaba767ab9c3510"
+    },
+    {
+      "iri": "obo:OBI_2100216",
+      "label": "hepatic panel venous blood albumin assay",
+      "hasChildren": false,
+      "childrenKey": "38a672d9e6fed9cc36286b1c0097af76e8dffcc7"
+    },
+    {
+      "iri": "obo:OBI_2100213",
+      "label": "hepatic panel venous blood bilirubin assay",
+      "hasChildren": false,
+      "childrenKey": "6a0b1500c49d58937f567ad842c45f9625a8c303"
+    },
+    {
+      "iri": "obo:OBI_2100217",
+      "label": "hepatic panel venous blood human alkaline phosphatase assay",
+      "hasChildren": false,
+      "childrenKey": "88a1327d0e42cf813ad096f069053630ba0eec6a"
+    },
+    {
+      "iri": "obo:OBI_2100215",
+      "label": "hepatic panel venous blood human aspartate aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "1482c8731f7345ad16600ccbe5e1268e4aa848c7"
+    },
+    {
+      "iri": "obo:OBI_2100212",
+      "label": "hepatic panel venous blood protein assay",
+      "hasChildren": false,
+      "childrenKey": "9eccdb2db2e6fd6c9a6c408d24ada46a648d9cc3"
+    },
+    {
+      "iri": "obo:OBI_2100310",
+      "label": "high sensitivity cardiac/neonatal venous blood c-reactive protein assay",
+      "hasChildren": false,
+      "childrenKey": "3d13ada2488a457acc56290ec1a25cbbb01409d4"
+    },
+    {
+      "iri": "obo:OBI_2100130",
+      "label": "inpatient profile venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "3b66139e02aa518e97fe6bef8e08c391cad92d41"
+    },
+    {
+      "iri": "obo:OBI_2100128",
+      "label": "inpatient profile venous blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "c1970a2047b2960e9362b70404917860b3abc9ac"
+    },
+    {
+      "iri": "obo:OBI_2100129",
+      "label": "inpatient profile venous blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "d5b2c2267fb9a3d6427441ae1d6e55afb3dd07e5"
+    },
+    {
+      "iri": "obo:OBI_2100127",
+      "label": "inpatient profile venous blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "f94d325298a4fe641507ba52dccf64ba1a3d4101"
+    },
+    {
+      "iri": "obo:OBI_2100259",
+      "label": "intact venous blood PTH assay",
+      "hasChildren": false,
+      "childrenKey": "925e1647ac242900cf7c817d42e9a7df5ab9044d"
+    },
+    {
+      "iri": "obo:OBI_2100326",
+      "label": "intraoperative venous blood PTH assay",
+      "hasChildren": false,
+      "childrenKey": "5628bbcad8abb2405be118ef3273db1978d32805"
+    },
+    {
+      "iri": "obo:OBI_2100182",
+      "label": "ionized arterial blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "d2a09fdcab1f16abc128125d906b1102aa6e3f94"
+    },
+    {
+      "iri": "obo:OBI_2100322",
+      "label": "ionized venous blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "56dbe602dc29009fbe2f286d4cdfda73f34b146d"
+    },
+    {
+      "iri": "obo:OBI_2100167",
+      "label": "ionized venous blood ionized calcium assay",
+      "hasChildren": false,
+      "childrenKey": "eb9b212d991ff70f6d8ab79def99a4f639b31dd5"
+    },
+    {
+      "iri": "obo:OBI_2100400",
+      "label": "lipid panel reflex direct venous blood cholesterol assay",
+      "hasChildren": false,
+      "childrenKey": "8d96bbcc1cfadebf434afd07adbe74203ba91dbc"
+    },
+    {
+      "iri": "obo:OBI_2100401",
+      "label": "lipid panel reflex direct venous blood high density lipoprotein assay",
+      "hasChildren": false,
+      "childrenKey": "c3c67103d558f09baec37692c71fc7fd19a86a14"
+    },
+    {
+      "iri": "obo:OBI_2100398",
+      "label": "lipid panel reflex direct venous blood low density lipoprotein assay",
+      "hasChildren": false,
+      "childrenKey": "1374ac3f772d2ab501ee1114c93d7f7a65924f73"
+    },
+    {
+      "iri": "obo:OBI_2100399",
+      "label": "lipid panel reflex direct venous blood triglyceride assay",
+      "hasChildren": false,
+      "childrenKey": "308fe6a0ada6e07321b21a90fc2afe37877cf1d1"
+    },
+    {
+      "iri": "obo:OBI_2100114",
+      "label": "lipid panel venous blood cholesterol assay",
+      "hasChildren": false,
+      "childrenKey": "06eddebabc1cd468faf54a8e176e0f84b5341e7c"
+    },
+    {
+      "iri": "obo:OBI_2100113",
+      "label": "lipid panel venous blood high density lipoprotein assay",
+      "hasChildren": false,
+      "childrenKey": "fc2356749cd02b76a0d3885c00a81ba9e47d257f"
+    },
+    {
+      "iri": "obo:OBI_2100115",
+      "label": "lipid panel venous blood low density lipoprotein assay",
+      "hasChildren": false,
+      "childrenKey": "ec69d4bacda59a8172d7f2842c7f33add3f1d240"
+    },
+    {
+      "iri": "obo:OBI_2100112",
+      "label": "lipid panel venous blood triglyceride assay",
+      "hasChildren": false,
+      "childrenKey": "1c035950fdf502516e6360d5af8ad208d8906d18"
+    },
+    {
+      "iri": "obo:OBI_2100084",
+      "label": "liver evaluation venous blood alanine aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "bbc3fcdcfcfaf420a36d0129e4ea0c6988fa3c18"
+    },
+    {
+      "iri": "obo:OBI_2100082",
+      "label": "liver evaluation venous blood albumin assay",
+      "hasChildren": false,
+      "childrenKey": "e5862a74d85abffda7c57d667f12746fcdd6fbae"
+    },
+    {
+      "iri": "obo:OBI_2100080",
+      "label": "liver evaluation venous blood bilirubin assay",
+      "hasChildren": false,
+      "childrenKey": "25f5eb1cc0eadb8318bf1c8895df925448eb2c43"
+    },
+    {
+      "iri": "obo:OBI_2100081",
+      "label": "liver evaluation venous blood globulin assay",
+      "hasChildren": false,
+      "childrenKey": "61c5dcfe73a3ecf4534427d4c6192aa93842ee38"
+    },
+    {
+      "iri": "obo:OBI_2100085",
+      "label": "liver evaluation venous blood human alkaline phosphatase assay",
+      "hasChildren": false,
+      "childrenKey": "d548c1f1bc7aef4e4589fa0af4f2f82baf931014"
+    },
+    {
+      "iri": "obo:OBI_2100083",
+      "label": "liver evaluation venous blood human aspartate aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "69fffcfb36593879f8ac0d202dcfed6833ec4905"
+    },
+    {
+      "iri": "obo:OBI_2100086",
+      "label": "liver evaluation venous blood protein assay",
+      "hasChildren": false,
+      "childrenKey": "1530105e4a62c8998bc450a14440ed6f42313a2b"
+    },
+    {
+      "iri": "obo:OBI_2100360",
+      "label": "liver fibrosis (chronic viral hepatitis) venous blood platelet count assay",
+      "hasChildren": false,
+      "childrenKey": "8bf4cd0e2089889c53d88790071af59a20f1ec82"
+    },
+    {
+      "iri": "obo:OBI_2100382",
+      "label": "liver fibrosis (NAFLD) venous blood platelet count assay",
+      "hasChildren": false,
+      "childrenKey": "27d2fd725cab5474962a36336759585290672dd6"
+    },
+    {
+      "iri": "obo:OBI_2100339",
+      "label": "liver function venous blood alanine aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "4625942eac155deed36531e9b1c7d9bd58db84b4"
+    },
+    {
+      "iri": "obo:OBI_2100341",
+      "label": "liver function venous blood albumin assay",
+      "hasChildren": false,
+      "childrenKey": "561d517b424f1a50d76032d4c15403820f57c144"
+    },
+    {
+      "iri": "obo:OBI_2100338",
+      "label": "liver function venous blood bilirubin assay",
+      "hasChildren": false,
+      "childrenKey": "4d0d39dc50ee333abb6088a15ddcf18d93a09099"
+    },
+    {
+      "iri": "obo:OBI_2100343",
+      "label": "liver function venous blood human alkaline phosphatase assay",
+      "hasChildren": false,
+      "childrenKey": "f2db6cd62bb7501bca4e4721452073919298ed16"
+    },
+    {
+      "iri": "obo:OBI_2100340",
+      "label": "liver function venous blood human aspartate aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "0e46981d752d0efd58b7c15fbc81a604a1d6c2c7"
+    },
+    {
+      "iri": "obo:OBI_2100342",
+      "label": "liver function venous blood protein assay",
+      "hasChildren": false,
+      "childrenKey": "78ecfbd4f53cf368459105bf863450712572bcb1"
+    },
+    {
+      "iri": "obo:OBI_2100068",
+      "label": "liver injury venous blood alanine aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "6fac99aad8cda99ea53a60d1010f0f045d7f8432"
+    },
+    {
+      "iri": "obo:OBI_2100070",
+      "label": "liver injury venous blood bilirubin assay",
+      "hasChildren": false,
+      "childrenKey": "cbdb19ce33c2b650724d185fcfb0023653db288a"
+    },
+    {
+      "iri": "obo:OBI_2100069",
+      "label": "liver injury venous blood human alkaline phosphatase assay",
+      "hasChildren": false,
+      "childrenKey": "1f1c6702138e20c825c27f666f610da2ef47758b"
+    },
+    {
+      "iri": "obo:OBI_2100071",
+      "label": "liver injury venous blood human aspartate aminotransferase assay",
+      "hasChildren": false,
+      "childrenKey": "2bed4a6bb67b8486efd7da82421ad232453a03ef"
+    },
+    {
+      "iri": "obo:OBI_0003037",
+      "label": "malaria rapid diagnosis assay",
+      "hasChildren": false,
+      "childrenKey": "96936998693c316113b93322304af5ce9802c4c8"
+    },
+    {
+      "iri": "obo:OBI_0000418",
+      "label": "measuring glucose concentration in blood serum assay",
+      "hasChildren": false,
+      "childrenKey": "e4820dae3aa423886c4e6a76a957ce25f25c0dea"
+    },
+    {
+      "iri": "obo:OBI_2100325",
+      "label": "non-cardiac venous blood c-reactive protein assay",
+      "hasChildren": false,
+      "childrenKey": "6d85ea8d1b077bf628632b026f0418af9c4097b4"
+    },
+    {
+      "iri": "obo:OBI_2100176",
+      "label": "non-vented blood gas arterial blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "3488a46dd6a8486161f7da13729217f9fa80c95c"
+    },
+    {
+      "iri": "obo:OBI_2100174",
+      "label": "non-vented blood gas arterial blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "cb7e1ddb3eb1c78be39b947446aa3f7798bd9f99"
+    },
+    {
+      "iri": "obo:OBI_2100175",
+      "label": "non-vented blood gas arterial blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "ce412d50570cdc950632d64e3e899ae36a245aa3"
+    },
+    {
+      "iri": "obo:OBI_0003042",
+      "label": "optimal-IT rapid diagnostic test",
+      "hasChildren": false,
+      "childrenKey": "7b07f5be85e476bd24a17320c4d85b8615c0fc6a"
+    },
+    {
+      "iri": "obo:OBI_2100052",
+      "label": "panel5 venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "5520d252841a6a670765f39bca1ac39422cb5500"
+    },
+    {
+      "iri": "obo:OBI_2100054",
+      "label": "panel5 venous blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "53634269c9f14f6637399fa1f1d6a7b29f09f726"
+    },
+    {
+      "iri": "obo:OBI_2100055",
+      "label": "panel5 venous blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "585f456ee56e71a60fbdb2833dd4722211e1e5c9"
+    },
+    {
+      "iri": "obo:OBI_2100053",
+      "label": "panel5 venous blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "0e78c9e57c437b052e7e10c99e0f8847ff025911"
+    },
+    {
+      "iri": "obo:OBI_2100257",
+      "label": "peak venous blood tobramycin assay",
+      "hasChildren": false,
+      "childrenKey": "f555cd5f2df4174c2f04bd299ac50a2a5b2e6aa7"
+    },
+    {
+      "iri": "obo:OBI_2100311",
+      "label": "POC arterial blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "657957ed1d3baea9518e020adb5306ba2ff4fad2"
+    },
+    {
+      "iri": "obo:OBI_2100256",
+      "label": "POC chem8 arterial blood chloride assay",
+      "hasChildren": false,
+      "childrenKey": "6bea973376cc84aa89c0e3effc8ad8f205cc4579"
+    },
+    {
+      "iri": "obo:OBI_2100254",
+      "label": "POC chem8 arterial blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "bb31cf56eb445b0ee9f1d376ebf3b6ec3a677a69"
+    },
+    {
+      "iri": "obo:OBI_2100250",
+      "label": "POC chem8 arterial blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "7e8f90f9fd3156ebda46e690bcc0ced7efa6e6db"
+    },
+    {
+      "iri": "obo:OBI_2100255",
+      "label": "POC chem8 arterial blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "da92547d0f5d75f7accb6c5c17762709f5adca7d"
+    },
+    {
+      "iri": "obo:OBI_2100251",
+      "label": "POC chem8 arterial blood ionized calcium assay",
+      "hasChildren": false,
+      "childrenKey": "c877b5b69cf13f94ee2008529be1c36b25ce8713"
+    },
+    {
+      "iri": "obo:OBI_2100252",
+      "label": "POC chem8 arterial blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "3d7e373b6cf4250db565aca20ce7a99ee20c0de8"
+    },
+    {
+      "iri": "obo:OBI_2100253",
+      "label": "POC chem8 arterial blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "7da8276f7e0b461699cfe6e62600ab7bc1d1c251"
+    },
+    {
+      "iri": "obo:OBI_2100179",
+      "label": "quantitative venous blood IgA assay",
+      "hasChildren": false,
+      "childrenKey": "19098481c3006607a762338e29da0591f050a8e8"
+    },
+    {
+      "iri": "obo:OBI_2100177",
+      "label": "quantitative venous blood IgG assay",
+      "hasChildren": false,
+      "childrenKey": "aa3f5d311935cf194071e4ce326302ca88230a74"
+    },
+    {
+      "iri": "obo:OBI_2100178",
+      "label": "quantitative venous blood IgM assay",
+      "hasChildren": false,
+      "childrenKey": "99ac2e8f2cf18ae6ae6311db18eace30d1a9e48e"
+    },
+    {
+      "iri": "obo:OBI_2100221",
+      "label": "random venous blood amikacin assay",
+      "hasChildren": false,
+      "childrenKey": "cb253d475c4eb31a0fae035d9a53831559b737c9"
+    },
+    {
+      "iri": "obo:OBI_2100200",
+      "label": "random venous blood tobramycin assay",
+      "hasChildren": false,
+      "childrenKey": "1e8d18c2c498b716f6fa2ba41b50d29f5fa17751"
+    },
+    {
+      "iri": "obo:OBI_2100172",
+      "label": "random venous blood vancomycin assay",
+      "hasChildren": false,
+      "childrenKey": "367992f2f564628dbf659919df51ee1be8a265b6"
+    },
+    {
+      "iri": "obo:OBI_0003590",
+      "label": "serum anti-cytomegalovirus antibody level assay",
+      "hasChildren": false,
+      "childrenKey": "1768fb19239d8f76fb30248f478bda1bb9748b1d"
+    },
+    {
+      "iri": "obo:OBI_0003589",
+      "label": "serum anti-Epstein-Barr virus antibody level assay",
+      "hasChildren": false,
+      "childrenKey": "14a56ced7aa1fff7fbe4254358b1a361557705b2"
+    },
+    {
+      "iri": "obo:OBI_0000872",
+      "label": "serum neutralization of viral infectivity assay",
+      "hasChildren": true,
+      "childrenKey": "7774c043c7275a9cf190840e7c00e578dd2b1215"
+    },
+    {
+      "iri": "obo:OBI_2100209",
+      "label": "SPEP protein electrophoresis venous blood albumin assay",
+      "hasChildren": false,
+      "childrenKey": "56a27544cac7f78745c31c86908056a5f720d52f"
+    },
+    {
+      "iri": "obo:OBI_2100208",
+      "label": "SPEP protein electrophoresis venous blood beta-globin assay",
+      "hasChildren": false,
+      "childrenKey": "69443b9d2c2b312dd1de422b9cdab84d128a9cbb"
+    },
+    {
+      "iri": "obo:OBI_2100210",
+      "label": "SPEP protein electrophoresis venous blood protein assay",
+      "hasChildren": false,
+      "childrenKey": "8818ae427d87d387e415ac270455cf84c0ab430c"
+    },
+    {
+      "iri": "obo:OBI_2100122",
+      "label": "T4 uptake venous blood T4 assay",
+      "hasChildren": false,
+      "childrenKey": "57038a698d0f652dfe7134153756f3d1e6752a45"
+    },
+    {
+      "iri": "obo:OBI_2100097",
+      "label": "total venous blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "478df86e14dc315523078d73fab4574086d2f24d"
+    },
+    {
+      "iri": "obo:OBI_2100263",
+      "label": "total venous blood cholesterol assay",
+      "hasChildren": false,
+      "childrenKey": "d2c11744eae46c15c2ceb43f60c796927880a60e"
+    },
+    {
+      "iri": "obo:OBI_2100369",
+      "label": "total venous blood homocysteine assay",
+      "hasChildren": false,
+      "childrenKey": "fa44f8d9bfc7da4d57816152f0b9523ec7cc83c5"
+    },
+    {
+      "iri": "obo:OBI_2100234",
+      "label": "total venous blood IgE assay",
+      "hasChildren": false,
+      "childrenKey": "69e2cb54b07688ef5e42cf443675179eb878f4f2"
+    },
+    {
+      "iri": "obo:OBI_2100118",
+      "label": "total venous blood protein assay",
+      "hasChildren": false,
+      "childrenKey": "b0f10561fbefa97b55833c9ef382a752aa23c2d4"
+    },
+    {
+      "iri": "obo:OBI_2100260",
+      "label": "total venous blood PSA assay",
+      "hasChildren": false,
+      "childrenKey": "0798fbb6438b918bb9e1c246aa8c8340c69108f3"
+    },
+    {
+      "iri": "obo:OBI_2100261",
+      "label": "total venous blood T3 assay",
+      "hasChildren": false,
+      "childrenKey": "2617ed4b5d5f8f8f26c0216ff79a1c7f4be2c8a9"
+    },
+    {
+      "iri": "obo:OBI_2100199",
+      "label": "trough venous blood tobramycin assay",
+      "hasChildren": false,
+      "childrenKey": "41c082f6b6bfbfd27bdcc29a66bf85e8eb98e4f5"
+    },
+    {
+      "iri": "obo:OBI_2100211",
+      "label": "trough venous blood vancomycin assay",
+      "hasChildren": false,
+      "childrenKey": "695560fa3cddcbdaa8034b1224d5d67a2153f36b"
+    },
+    {
+      "iri": "obo:OBI_2100348",
+      "label": "TSH reflex Free T4 venous blood thyroid stimulating hormone assay",
+      "hasChildren": false,
+      "childrenKey": "811d1d80c59aba3d1cc231d0a9ba20570e31913e"
+    },
+    {
+      "iri": "obo:OBI_0003238",
+      "label": "umbilical cord blood assay",
+      "hasChildren": true,
+      "childrenKey": "3c07574ecec059e1e258e849362e9dcbc0a310a0"
+    },
+    {
+      "iri": "obo:OBI_2100203",
+      "label": "venous blood 25-hydroxyvitamin D2 assay",
+      "hasChildren": false,
+      "childrenKey": "90ffac37f362bfdb4ff41bb7ed49bf5acd13cf03"
+    },
+    {
+      "iri": "obo:OBI_2100107",
+      "label": "venous blood albumin assay",
+      "hasChildren": false,
+      "childrenKey": "04bc628126461cdfec039774af1620adfcfc664a"
+    },
+    {
+      "iri": "obo:OBI_2100222",
+      "label": "venous blood ammonia assay",
+      "hasChildren": false,
+      "childrenKey": "31c55647787927e24f1aae9a3d5b04e1651db94c"
+    },
+    {
+      "iri": "obo:OBI_2100383",
+      "label": "venous blood beta hydroxybutric acid assay",
+      "hasChildren": false,
+      "childrenKey": "888466dced78f183e17b5990447c3226acb9939e"
+    },
+    {
+      "iri": "obo:OBI_2100364",
+      "label": "venous blood beta hydroxybutryic acid assay",
+      "hasChildren": false,
+      "childrenKey": "65e9de639b61f6da155c498a5c3ac242f6a41963"
+    },
+    {
+      "iri": "obo:OBI_2100397",
+      "label": "venous blood beta-2-microglobulin assay",
+      "hasChildren": false,
+      "childrenKey": "2d2cd15ab328eb5f036acefdee97a2fc6cda35b1"
+    },
+    {
+      "iri": "obo:OBI_2100357",
+      "label": "venous blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "543248eb3a441897b30e81a324640d95a2456829"
+    },
+    {
+      "iri": "obo:OBI_2100095",
+      "label": "venous blood calcium assay",
+      "hasChildren": false,
+      "childrenKey": "dc4a7df7204441cf42df3e09f6fcb235a9034728"
+    },
+    {
+      "iri": "obo:OBI_2100134",
+      "label": "venous blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "9543b200194b0b5ea22304995ea9639981f3e8ee"
+    },
+    {
+      "iri": "obo:OBI_2100370",
+      "label": "venous blood Ceruloplasmin assay",
+      "hasChildren": false,
+      "childrenKey": "998474c437e1f024a5620fe9ce76b3726d26803f"
+    },
+    {
+      "iri": "obo:OBI_2100061",
+      "label": "venous blood chloride assay",
+      "hasChildren": false,
+      "childrenKey": "ae0d441373cc52b718d93473bfeacd94a40fa0b7"
+    },
+    {
+      "iri": "obo:OBI_2100270",
+      "label": "venous blood cortisol assay",
+      "hasChildren": false,
+      "childrenKey": "523cd686afc65b5446c3d31f74bf34dbfca9b4fc"
+    },
+    {
+      "iri": "obo:OBI_2100094",
+      "label": "venous blood creatine kinase assay",
+      "hasChildren": false,
+      "childrenKey": "3c551af37fa9f10629431fbc78a28f2524812031"
+    },
+    {
+      "iri": "obo:OBI_2100162",
+      "label": "venous blood creatine kinase MB assay",
+      "hasChildren": false,
+      "childrenKey": "b282fe9d0a9dd062be596064194f352c4b4fe665"
+    },
+    {
+      "iri": "obo:OBI_2100165",
+      "label": "venous blood creatinine assay",
+      "hasChildren": false,
+      "childrenKey": "d1f6e970ae89b8193746d965827392800e515659"
+    },
+    {
+      "iri": "obo:OBI_2100269",
+      "label": "venous blood dehydroepiandrosterone assay",
+      "hasChildren": false,
+      "childrenKey": "95a9ecf94d4963b2a5baa6a7f9ba22a8f11d64ac"
+    },
+    {
+      "iri": "obo:OBI_2100204",
+      "label": "venous blood digoxin assay",
+      "hasChildren": false,
+      "childrenKey": "88d7f8c9027dc9f7fc0490bec50d06ae86962530"
+    },
+    {
+      "iri": "obo:OBI_2100385",
+      "label": "venous blood erythropoietin assay",
+      "hasChildren": false,
+      "childrenKey": "b05571617906c745ede1e5d1259b5f1be5d49c6e"
+    },
+    {
+      "iri": "obo:OBI_2100096",
+      "label": "venous blood ferritin assay",
+      "hasChildren": false,
+      "childrenKey": "25c5d62603131c72ceb0a3d009cca47661b93377"
+    },
+    {
+      "iri": "obo:OBI_2100147",
+      "label": "venous blood fibrinogen assay",
+      "hasChildren": false,
+      "childrenKey": "cae7046be016b2cc03a52f715127db37c3a04465"
+    },
+    {
+      "iri": "obo:OBI_2100131",
+      "label": "venous blood folic acid assay",
+      "hasChildren": false,
+      "childrenKey": "da94e6381c43910505a155aee1ef71388c0ba044"
+    },
+    {
+      "iri": "obo:OBI_2100223",
+      "label": "venous blood GGT assay",
+      "hasChildren": false,
+      "childrenKey": "ffb759400b59095bfde47d028189f2081255d0b5"
+    },
+    {
+      "iri": "obo:OBI_2100072",
+      "label": "venous blood glucose assay",
+      "hasChildren": false,
+      "childrenKey": "7111913819626f703d371ad061c4c1713888f1ff"
+    },
+    {
+      "iri": "obo:OBI_2100109",
+      "label": "venous blood haptoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "864719f4183917caf75d39c2a58e076f46f09cb4"
+    },
+    {
+      "iri": "obo:OBI_2100164",
+      "label": "venous blood hematocrit assay",
+      "hasChildren": false,
+      "childrenKey": "bc54da64576ce1a1adcc2037252eb7252ed8104d"
+    },
+    {
+      "iri": "obo:OBI_2100116",
+      "label": "venous blood hemoglobin A1c assay",
+      "hasChildren": false,
+      "childrenKey": "f2e3d755788052bc099d83f8abcaa564cb6d8113"
+    },
+    {
+      "iri": "obo:OBI_2100323",
+      "label": "venous blood hemoglobin assay",
+      "hasChildren": false,
+      "childrenKey": "00f65c362a92a4b589c59827dc96fb4c9043ee8a"
+    },
+    {
+      "iri": "obo:OBI_2100355",
+      "label": "venous blood ionized calcium assay",
+      "hasChildren": false,
+      "childrenKey": "35e7537b78ce364d107a47508268bcf3be608e13"
+    },
+    {
+      "iri": "obo:OBI_2100098",
+      "label": "venous blood iron assay",
+      "hasChildren": false,
+      "childrenKey": "c1223456328e9208dfc8037f65533efb9a0255b4"
+    },
+    {
+      "iri": "obo:OBI_2100110",
+      "label": "venous blood lactate dehydrogenase assay",
+      "hasChildren": false,
+      "childrenKey": "40ddedc2e60a6bd9b0a5dbeda3a153207c64b923"
+    },
+    {
+      "iri": "obo:OBI_2100163",
+      "label": "venous blood lactic acid assay",
+      "hasChildren": false,
+      "childrenKey": "26aa6adfb99e119a16b2b3b9b7599edb561fb550"
+    },
+    {
+      "iri": "obo:OBI_2100161",
+      "label": "venous blood LDH assay",
+      "hasChildren": false,
+      "childrenKey": "86731f0b63a3a12306268291d97d873111331069"
+    },
+    {
+      "iri": "obo:OBI_2100073",
+      "label": "venous blood magnesium assay",
+      "hasChildren": false,
+      "childrenKey": "a1d62088690707cc1dad893eb4c41e6bcfc7460d"
+    },
+    {
+      "iri": "obo:OBI_2100365",
+      "label": "venous blood megakaryocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "483d5efd10b3a3709ea50dcbf05c70f0a9d540c6"
+    },
+    {
+      "iri": "obo:OBI_2100173",
+      "label": "venous blood mycophenolic acid assay",
+      "hasChildren": false,
+      "childrenKey": "49206ae10e34a0665acaf97e24c7d0e8f370eafd"
+    },
+    {
+      "iri": "obo:OBI_2100366",
+      "label": "venous blood nucleated RBC count assay",
+      "hasChildren": false,
+      "childrenKey": "8243ad3fae8a810899f95067b2eb50fbca998e4c"
+    },
+    {
+      "iri": "obo:OBI_2100359",
+      "label": "venous blood osmolality assay",
+      "hasChildren": false,
+      "childrenKey": "61b3f659505170aa8903eb15e08f9ed1d3300f47"
+    },
+    {
+      "iri": "obo:OBI_2100358",
+      "label": "venous blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "896ff2090126fca27233f89ec5d2ca0b3842d8a3"
+    },
+    {
+      "iri": "obo:OBI_2100327",
+      "label": "venous blood parathyroid hormone assay",
+      "hasChildren": false,
+      "childrenKey": "bd9d5e4293f99e801489c4f321c7888a4150bc33"
+    },
+    {
+      "iri": "obo:OBI_2100067",
+      "label": "venous blood phosphate assay",
+      "hasChildren": false,
+      "childrenKey": "f90e62334c422cbd9f6911b40b40501a433eed9c"
+    },
+    {
+      "iri": "obo:OBI_2100133",
+      "label": "venous blood potassium assay",
+      "hasChildren": false,
+      "childrenKey": "c807fcea5a38cde8c2de4eeba4ed429d10c7b539"
+    },
+    {
+      "iri": "obo:OBI_2100111",
+      "label": "venous blood prealbunin assay",
+      "hasChildren": false,
+      "childrenKey": "d4726bd9fe29300c19dc7bc4a2c0c43db98e7e75"
+    },
+    {
+      "iri": "obo:OBI_2100120",
+      "label": "venous blood prostate specific antigen assay",
+      "hasChildren": false,
+      "childrenKey": "af29c68ba3b6e111df84ab3c235e6f1de0b56512"
+    },
+    {
+      "iri": "obo:OBI_2100346",
+      "label": "venous blood reticulocyte count assay",
+      "hasChildren": false,
+      "childrenKey": "4441d5414f2995e45bc13c8004de887698b17eec"
+    },
+    {
+      "iri": "obo:OBI_2100136",
+      "label": "venous blood sodium assay",
+      "hasChildren": false,
+      "childrenKey": "44d6e76e3aed2e703b2d16c5eb40e4889670ba88"
+    },
+    {
+      "iri": "obo:OBI_2100361",
+      "label": "venous blood T3 assay",
+      "hasChildren": false,
+      "childrenKey": "04b6d38816974c04709482d1af6577c913b0eb97"
+    },
+    {
+      "iri": "obo:OBI_2100294",
+      "label": "venous blood T4 assay",
+      "hasChildren": false,
+      "childrenKey": "f3dee65f7e5453d10d6046e6a5fc2e28548a47c2"
+    },
+    {
+      "iri": "obo:OBI_2100171",
+      "label": "venous blood tacrolimus assay",
+      "hasChildren": false,
+      "childrenKey": "ce4f17dae30a49ee2d8bf5eac1d228683c7f9a77"
+    },
+    {
+      "iri": "obo:OBI_2100356",
+      "label": "venous blood temperature assay",
+      "hasChildren": false,
+      "childrenKey": "75183090898d5ff50428e05a508db92f7493a28f"
+    },
+    {
+      "iri": "obo:OBI_2100119",
+      "label": "venous blood thyroid stimulating hormone assay",
+      "hasChildren": false,
+      "childrenKey": "f27ffa6f3ec1c67762892a6689d2a5802dddf3a1"
+    },
+    {
+      "iri": "obo:OBI_2100206",
+      "label": "venous blood tobramycin assay",
+      "hasChildren": false,
+      "childrenKey": "d68798dea37735546dc9b7116b9b09604f33fbc4"
+    },
+    {
+      "iri": "obo:OBI_2100135",
+      "label": "venous blood transferrin assay",
+      "hasChildren": false,
+      "childrenKey": "934b7ccff5fb1c32c47b4992591e671fc452d936"
+    },
+    {
+      "iri": "obo:OBI_2100264",
+      "label": "venous blood triglyceride assay",
+      "hasChildren": false,
+      "childrenKey": "c95394dc617db42c8329e767c69d40300bf838ea"
+    },
+    {
+      "iri": "obo:OBI_2100117",
+      "label": "venous blood uric acid assay",
+      "hasChildren": false,
+      "childrenKey": "88072cf3d28dceaca6c6d3b4662afb1929867156"
+    },
+    {
+      "iri": "obo:OBI_2100309",
+      "label": "venous blood valproic acid assay",
+      "hasChildren": false,
+      "childrenKey": "c6df5588add9e01c25d0669f0cd397b9b73d1cf6"
+    },
+    {
+      "iri": "obo:OBI_2100367",
+      "label": "venous blood WBC count assay",
+      "hasChildren": false,
+      "childrenKey": "9b52e24933b8eb5dd388d5bcb720e6372e13d1b7"
+    },
+    {
+      "iri": "obo:OBI_2100183",
+      "label": "vented blood gas arterial blood bicarbonate assay",
+      "hasChildren": false,
+      "childrenKey": "f8747d2f321f3e0c71b1e4e53839ffad48f2e453"
+    },
+    {
+      "iri": "obo:OBI_2100185",
+      "label": "vented blood gas arterial blood carbon dioxide assay",
+      "hasChildren": false,
+      "childrenKey": "9acd012f8ea5f8818f8cce9a06340105a67cf27a"
+    },
+    {
+      "iri": "obo:OBI_2100184",
+      "label": "vented blood gas arterial blood oxygen assay",
+      "hasChildren": false,
+      "childrenKey": "9c73a80a04444eb2d4252f6e9b5fb430a352e09e"
+    },
+    {
+      "iri": "obo:OBI_2100344",
+      "label": "vitamin B12 and Folate venous blood folic acid assay",
+      "hasChildren": false,
+      "childrenKey": "9afdb91c23ec76fdb5db405aa6782f2afd5d832b"
+    }
+  ]
+}

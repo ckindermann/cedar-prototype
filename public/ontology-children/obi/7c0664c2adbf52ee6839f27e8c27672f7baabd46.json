@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001494",
+  "children": [
+    {
+      "iri": "obo:OBI_0002687",
+      "label": "ligase detection reaction",
+      "hasChildren": false,
+      "childrenKey": "da39fc842cd7823120efb2f73014fa84cd57d3aa"
+    }
+  ]
+}

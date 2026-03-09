@@ -1,0 +1,30 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400064",
+  "children": [
+    {
+      "iri": "obo:OBI_0400033",
+      "label": "diode laser",
+      "hasChildren": false,
+      "childrenKey": "d18d5b16f2c8e0adb75b9274e4f69dcefc51d313"
+    },
+    {
+      "iri": "obo:OBI_0400034",
+      "label": "dye laser",
+      "hasChildren": false,
+      "childrenKey": "29241e9d68015d459d7ad93203e1ee39f323ce21"
+    },
+    {
+      "iri": "obo:OBI_0400047",
+      "label": "gas laser",
+      "hasChildren": true,
+      "childrenKey": "3a661dbe3b0a5d17ccb584d3db3bf022dc6f49ef"
+    },
+    {
+      "iri": "obo:OBI_0400096",
+      "label": "solid state laser",
+      "hasChildren": true,
+      "childrenKey": "0e6da8f6c74aa5e5e435be0278c8fe0ce0508cc5"
+    }
+  ]
+}

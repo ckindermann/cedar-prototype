@@ -1,0 +1,306 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000916",
+  "children": [
+    {
+      "iri": "obo:OBI_0001659",
+      "label": "flow cytometry assay measuring binding of a B cell epitope:antibody complex",
+      "hasChildren": false,
+      "childrenKey": "c420e47c1094d676893de5a6f40f1744db036276"
+    },
+    {
+      "iri": "obo:OBI_0001317",
+      "label": "flow cytometry assay measuring cell-cell binding of a T cell epitope:MHC:TCR complex",
+      "hasChildren": false,
+      "childrenKey": "01e85e5dc80a4ee38906de7744a3ab34173fb777"
+    },
+    {
+      "iri": "obo:OBI_0001768",
+      "label": "intracellular cytokine staining assay measuring epitope specific chemokine (C-C motif) ligand 1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "a84ddf5cab1998f8ccd34ca6aa6d787376f232be"
+    },
+    {
+      "iri": "obo:OBI_0001370",
+      "label": "intracellular cytokine staining assay measuring epitope specific chemokine (C-C motif) ligand 4 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "0826361b67b1adf5736e87ce5e0ec5d4e4c8f64d"
+    },
+    {
+      "iri": "obo:OBI_0001437",
+      "label": "intracellular cytokine staining assay measuring epitope specific chemokine (C-X-C motif) ligand 9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "95f676b671fc39497931342b513d21135a22a45a"
+    },
+    {
+      "iri": "obo:OBI_0001750",
+      "label": "intracellular cytokine staining assay measuring epitope specific granulocyte colony stimulating factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "b210220498899cedbe739f7474bac8c9cbf6ecb9"
+    },
+    {
+      "iri": "obo:OBI_0001303",
+      "label": "intracellular cytokine staining assay measuring epitope specific granulocyte macrophage colony-stimulating factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "eb4cb1491887c10d6b1be7f6c3120e38d6c81bc9"
+    },
+    {
+      "iri": "obo:OBI_0001749",
+      "label": "intracellular cytokine staining assay measuring epitope specific interferon-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "c6de6db5a8ccb0a75aeed1bbe6cf1e9093e6f8d6"
+    },
+    {
+      "iri": "obo:OBI_1110172",
+      "label": "intracellular cytokine staining assay measuring epitope specific interferon-gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "c33967ef0c933eee5f6c0e920bfd32963f56d14d"
+    },
+    {
+      "iri": "obo:OBI_0001744",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-1 alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "33d9d55a67c4a7ec37e330dfc101f0a7a81ce162"
+    },
+    {
+      "iri": "obo:OBI_0001841",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-1 beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "5bfda2dda6c83666139c64a16c604d178971f418"
+    },
+    {
+      "iri": "obo:OBI_1110177",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-10 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "155638f0e77bde4853eeeb9d8f187eb16150794c"
+    },
+    {
+      "iri": "obo:OBI_0001466",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-12 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "a6e95bdbee88c130f6d9ddf720469dc82e768698"
+    },
+    {
+      "iri": "obo:OBI_0001309",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-13 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "9d61aa772336bafa77730638f12382bb16299444"
+    },
+    {
+      "iri": "obo:OBI_0001845",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-15 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "0cf0ffd30ae70bb5b0b8e8f507701cea801bb3fa"
+    },
+    {
+      "iri": "obo:OBI_0001839",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-16 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ddc076ff087227dd2b57bd1a7625dde8515ec414"
+    },
+    {
+      "iri": "obo:OBI_1110178",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-17 production by T cells",
+      "hasChildren": true,
+      "childrenKey": "5c23c06c1ea40774f5a89a25b40bccc23c7a6439"
+    },
+    {
+      "iri": "obo:OBI_0001589",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-17A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "f9ca0b58ffd20168c8744daaaf775e447c15e403"
+    },
+    {
+      "iri": "obo:OBI_0001562",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-17F production by T cells",
+      "hasChildren": false,
+      "childrenKey": "75e47e1ea6e359613a5f89988e4cffaa1262f2a7"
+    },
+    {
+      "iri": "obo:OBI_0001824",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-18 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7f4f41fb1c7a2ee2b4da54194508a700148ec67c"
+    },
+    {
+      "iri": "obo:OBI_1110173",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-2 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "33b6d677face7db2a4d4ee30bfff03fb75dc6612"
+    },
+    {
+      "iri": "obo:OBI_0001342",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-21 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "3fb3d8e6bc70a0b7855e189b21df77f9e0d9b14e"
+    },
+    {
+      "iri": "obo:OBI_0001496",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-22 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "13763f76efbdffe0b00eba0239875e257524edcc"
+    },
+    {
+      "iri": "obo:OBI_0001812",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-23 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "0eeb59edc4779b9dc33015a660ea1a47c03a8340"
+    },
+    {
+      "iri": "obo:OBI_0003486",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-25 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ca6b6bf69f46fc503bbe46028f3efd0a0174f696"
+    },
+    {
+      "iri": "obo:OBI_0001806",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-27 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "dcc0c0f180be76b28d3ccb16d79981a291935c9b"
+    },
+    {
+      "iri": "obo:OBI_0001376",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-3 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "767d641dc451fdb837029953061155603c57a026"
+    },
+    {
+      "iri": "obo:OBI_1110175",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-4 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "693201963d539ed1bc2939c8a5c015d5339a7f9d"
+    },
+    {
+      "iri": "obo:OBI_0001299",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-5 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "ffc756b8c4112ec6d15a39aa8967f5f2abb4d8f8"
+    },
+    {
+      "iri": "obo:OBI_0001240",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-6 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "1dd6162fec2233e6cb68b507ab3d9c87b1300aa0"
+    },
+    {
+      "iri": "obo:OBI_0001805",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-7 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "96a96887ddc21170e6a7a482cc27c74348dc0369"
+    },
+    {
+      "iri": "obo:OBI_0001609",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-8 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "5cb8c9136ad9e4a3caf02252096bfa45ebbfd7b6"
+    },
+    {
+      "iri": "obo:OBI_0001798",
+      "label": "intracellular cytokine staining assay measuring epitope specific interleukin-9 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "c30510108ad8aa338f38f0e6d187a18bb2a5913d"
+    },
+    {
+      "iri": "obo:OBI_0001796",
+      "label": "intracellular cytokine staining assay measuring epitope specific IP-10 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "a32463b45345c643afd681d6c0a323f06782fa98"
+    },
+    {
+      "iri": "obo:OBI_0001453",
+      "label": "intracellular cytokine staining assay measuring epitope specific lymphotoxin A production by T cells",
+      "hasChildren": false,
+      "childrenKey": "f7dcbc335feeb52a4ac595aa7694d7c5e3f9de00"
+    },
+    {
+      "iri": "obo:OBI_0001545",
+      "label": "intracellular cytokine staining assay measuring epitope specific macrophage inflammatory protein-1 alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "656751fe24b0f0255ef736f4ca6fe4177de51c39"
+    },
+    {
+      "iri": "obo:OBI_0001785",
+      "label": "intracellular cytokine staining assay measuring epitope specific macrophage inflammatory protein-1 gamma production by T cells",
+      "hasChildren": false,
+      "childrenKey": "706c6f8a130652b5e2e5c4a9f88362b6d2129794"
+    },
+    {
+      "iri": "obo:OBI_0001783",
+      "label": "intracellular cytokine staining assay measuring epitope specific monocyte chemotactic protein-1 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "73cfe3f2402def5cf3cfe71e949de30b61feedce"
+    },
+    {
+      "iri": "obo:OBI_0001789",
+      "label": "intracellular cytokine staining assay measuring epitope specific RANTES production by T cells",
+      "hasChildren": false,
+      "childrenKey": "7598b9fae28df552fa7dcd838db920905c7c85ef"
+    },
+    {
+      "iri": "obo:OBI_0001482",
+      "label": "intracellular cytokine staining assay measuring epitope specific transforming growth factor-beta production by T cells",
+      "hasChildren": false,
+      "childrenKey": "69b3736df701cf05bd37c079944a11be076aba50"
+    },
+    {
+      "iri": "obo:OBI_0001552",
+      "label": "intracellular cytokine staining assay measuring epitope specific tumor necrosis factor (ligand) superfamily member 11 production by T cells",
+      "hasChildren": false,
+      "childrenKey": "76857988e63988c8ee8f21d00830f493c4b8652b"
+    },
+    {
+      "iri": "obo:OBI_1110174",
+      "label": "intracellular cytokine staining assay measuring epitope specific tumor necrosis factor alpha production by T cells",
+      "hasChildren": false,
+      "childrenKey": "6c056d16c6e545d78f1e3ed5f625a9e523adcd44"
+    },
+    {
+      "iri": "obo:OBI_0001385",
+      "label": "intracellular cytokine staining assay measuring epitope specific tumor necrosis factor superfamily cytokine production by T cells",
+      "hasChildren": true,
+      "childrenKey": "db6854672f1f8206994746404f1baee865e50896"
+    },
+    {
+      "iri": "obo:OBI_0001770",
+      "label": "intracellular cytokine staining assay measuring epitope specific vascular endothelial growth factor production by T cells",
+      "hasChildren": false,
+      "childrenKey": "01ccbacb496955740ba61aa90641436af80f57fa"
+    },
+    {
+      "iri": "obo:OBI_0001664",
+      "label": "intracellular material detection assay measuring epitope specific granulysin release by T cells",
+      "hasChildren": false,
+      "childrenKey": "419517ad654661ea4af5c4c57911f4686ab08318"
+    },
+    {
+      "iri": "obo:OBI_0001660",
+      "label": "intracellular material detection assay measuring epitope specific granzyme A release by T cells",
+      "hasChildren": false,
+      "childrenKey": "cc9f24bb0bfb341fa7432c9ec4c81c149169d573"
+    },
+    {
+      "iri": "obo:OBI_0001215",
+      "label": "intracellular material detection assay measuring epitope specific perforin release",
+      "hasChildren": false,
+      "childrenKey": "df5ddf23b0991f0a87526a29265bc8639f08a43c"
+    },
+    {
+      "iri": "obo:OBI_0001423",
+      "label": "intracellular material detection measuring epitope specific granzyme B release by T cells",
+      "hasChildren": false,
+      "childrenKey": "8fced980a208fb937df749f82d75af9d53652865"
+    },
+    {
+      "iri": "obo:OBI_1110179",
+      "label": "MHC tetramer/multimer assay measuring binding of a T cell epitope:MHC:TCR complex",
+      "hasChildren": false,
+      "childrenKey": "f257a69dd55d101e62d547d2b4c44ecc0d35fdda"
+    },
+    {
+      "iri": "obo:OBI_0003230",
+      "label": "T cell activation induced marker assay",
+      "hasChildren": false,
+      "childrenKey": "0608fe7e40bed2f7f75135aff6bdd9d7f4c37ea1"
+    }
+  ]
+}

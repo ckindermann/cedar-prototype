@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001879",
+  "children": [
+    {
+      "iri": "obo:OBI_0001946",
+      "label": "forward PCR primer",
+      "hasChildren": false,
+      "childrenKey": "bc2c44aabf3e551c1c3ebd820dc2fcd6333067fa"
+    },
+    {
+      "iri": "obo:OBI_0002744",
+      "label": "molecular label",
+      "hasChildren": false,
+      "childrenKey": "b702622a4633adda41ffa28d9bee3a8c6f2006e9"
+    },
+    {
+      "iri": "obo:OBI_0001951",
+      "label": "reverse PCR primer",
+      "hasChildren": false,
+      "childrenKey": "dcedb4d4e3420107d8d7cdde7f595ee3c75c492e"
+    }
+  ]
+}

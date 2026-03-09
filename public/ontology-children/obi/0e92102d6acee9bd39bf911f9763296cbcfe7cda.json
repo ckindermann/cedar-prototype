@@ -1,0 +1,42 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0400065",
+  "children": [
+    {
+      "iri": "obo:OBI_0400009",
+      "label": "arc lamp",
+      "hasChildren": false,
+      "childrenKey": "76c9c556a0fa5f74ac6dc49686d17085b8b66d60"
+    },
+    {
+      "iri": "obo:OBI_0400064",
+      "label": "laser",
+      "hasChildren": true,
+      "childrenKey": "5adae0f8ed35d9667036388b65023fdb20c79c1b"
+    },
+    {
+      "iri": "obo:OBI_0002902",
+      "label": "solar light source",
+      "hasChildren": false,
+      "childrenKey": "bf959966b642b5ea5314c8e844ce8fee64eb4a69"
+    },
+    {
+      "iri": "obo:OBI_0001052",
+      "label": "two-photon laser/detector",
+      "hasChildren": false,
+      "childrenKey": "ab4c8994010b02c6411a5cfb442cfd9597f511a0"
+    },
+    {
+      "iri": "obo:OBI_0002900",
+      "label": "ultraviolet light source",
+      "hasChildren": false,
+      "childrenKey": "b77a1df316853b13e09fb0a87d155187a6ffb407"
+    },
+    {
+      "iri": "obo:OBI_0002901",
+      "label": "visible light source",
+      "hasChildren": false,
+      "childrenKey": "46d0f8b4e53672193759bed43cdf59fcd933aae4"
+    }
+  ]
+}

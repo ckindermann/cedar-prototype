@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003132",
+  "children": [
+    {
+      "iri": "obo:OBI_0003133",
+      "label": "cas mediated mutagenesis",
+      "hasChildren": false,
+      "childrenKey": "d96389cc3436745881339d0f1fd74f8c4f614d3e"
+    },
+    {
+      "iri": "obo:OBI_0003134",
+      "label": "TALEN mediated mutagenesis",
+      "hasChildren": false,
+      "childrenKey": "c8222d48140a312c06d3fc42a2912889ac209df9"
+    },
+    {
+      "iri": "obo:OBI_0003135",
+      "label": "zinc finger mediated mutagenesis",
+      "hasChildren": false,
+      "childrenKey": "415307bbb1c969ce0701a8cd1254a2111887367a"
+    }
+  ]
+}

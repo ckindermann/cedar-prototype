@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0003113",
+  "children": [
+    {
+      "iri": "obo:OBI_0003112",
+      "label": "Olink assay",
+      "hasChildren": false,
+      "childrenKey": "2cc86646306abe83bdf05040e8541af417c29ea4"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001146",
+  "children": [
+    {
+      "iri": "obo:OBI_0001499",
+      "label": "binding assay using fluorescence detection",
+      "hasChildren": true,
+      "childrenKey": "77b0b6f8e9757989aac5b3af3c007be00b52aa2f"
+    },
+    {
+      "iri": "obo:OBI_0001491",
+      "label": "binding assay using radioactivity detection",
+      "hasChildren": true,
+      "childrenKey": "acfb4a17be8dace670391e20fc2d1588f95e49f4"
+    },
+    {
+      "iri": "obo:OBI_0001025",
+      "label": "binding constant determination assay",
+      "hasChildren": false,
+      "childrenKey": "537c4c2377c691a8aa434d53421f9dc225e5f264"
+    },
+    {
+      "iri": "obo:OBI_0002107",
+      "label": "bio-layer interferometry assay",
+      "hasChildren": true,
+      "childrenKey": "3176389a5cea6c57b8a2fdddefe2b8486a2513c5"
+    },
+    {
+      "iri": "obo:OBI_0001634",
+      "label": "calorimetric binding assay",
+      "hasChildren": true,
+      "childrenKey": "2e13b3ce6945137151cec08331c463c2a7cfafd5"
+    },
+    {
+      "iri": "obo:OBI_0001593",
+      "label": "competitive inhibition of binding assay",
+      "hasChildren": true,
+      "childrenKey": "9e8795cbec8751a31768d9882c2557d749405288"
+    },
+    {
+      "iri": "obo:OBI_0001591",
+      "label": "direct binding assay",
+      "hasChildren": true,
+      "childrenKey": "a2b34e16f2fd53f0aea9475d262d2c7d19b21833"
+    },
+    {
+      "iri": "obo:OBI_0001671",
+      "label": "electrophoretic mobility shift assay",
+      "hasChildren": false,
+      "childrenKey": "94b68ad84c6bb6db9cbc4a682abdbb105ad06452"
+    },
+    {
+      "iri": "obo:OBI_0001669",
+      "label": "far-western blot assay",
+      "hasChildren": false,
+      "childrenKey": "e59117d26408e3d20743d3f1fd639a2783006a4f"
+    },
+    {
+      "iri": "obo:OBI_0002164",
+      "label": "mammalian 2-hybrid assay",
+      "hasChildren": false,
+      "childrenKey": "8272b7952a8e36f41fc1684424d9793c1f486a91"
+    },
+    {
+      "iri": "obo:OBI_0001476",
+      "label": "phage display binding assay",
+      "hasChildren": true,
+      "childrenKey": "d94726ef47476686ff79796832937b2f71a8b3f6"
+    },
+    {
+      "iri": "obo:OBI_0001680",
+      "label": "Sos-recruitment assay",
+      "hasChildren": false,
+      "childrenKey": "e89ec81f3e1d3c760252aa04849771c86b29172a"
+    },
+    {
+      "iri": "obo:OBI_0001668",
+      "label": "split-ubiquitin assay",
+      "hasChildren": false,
+      "childrenKey": "5633360002219433389f7a4821c9ae89af17a684"
+    },
+    {
+      "iri": "obo:OBI_0000923",
+      "label": "surface plasmon resonance binding assay",
+      "hasChildren": true,
+      "childrenKey": "391471468633558fb16a2c1e55410a7e6b4f2474"
+    },
+    {
+      "iri": "obo:OBI_0002161",
+      "label": "systematic evolution of ligands by exponential enrichment assay",
+      "hasChildren": true,
+      "childrenKey": "bc3473f710dcbb2431138d2b41becca3ed1fdc86"
+    },
+    {
+      "iri": "obo:OBI_0000291",
+      "label": "transcription factor binding site assay",
+      "hasChildren": true,
+      "childrenKey": "979d5a48069d7716aa64726bf22bb1706fd725ac"
+    },
+    {
+      "iri": "obo:OBI_0001679",
+      "label": "yeast 2-hybrid assay",
+      "hasChildren": false,
+      "childrenKey": "28b7690dd441b8b601fca483c04da15c50b80679"
+    },
+    {
+      "iri": "obo:OBI_0001681",
+      "label": "yeast one-hybrid assay",
+      "hasChildren": true,
+      "childrenKey": "62a981ed3913a79a80253e6c59709c692a30ee3b"
+    }
+  ]
+}

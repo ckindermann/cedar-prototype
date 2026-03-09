@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000484",
+  "children": [
+    {
+      "iri": "obo:OBI_0000612",
+      "label": "Bruker MATCH tube holder system",
+      "hasChildren": false,
+      "childrenKey": "e7bd8a898e01de2dcb858e1e9a1f9d7a02a80499"
+    }
+  ]
+}

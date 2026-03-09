@@ -1,0 +1,12 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0000364",
+  "children": [
+    {
+      "iri": "obo:OBI_0001973",
+      "label": "ion semiconductor chip",
+      "hasChildren": true,
+      "childrenKey": "82f86294485b6e2b6c848a9eee22e4c1f5423560"
+    }
+  ]
+}

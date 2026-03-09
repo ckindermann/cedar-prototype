@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100030",
+  "children": [
+    {
+      "iri": "obo:OBI_0003157",
+      "label": "high-density lipoprotein cholesterol concentration assay",
+      "hasChildren": false,
+      "childrenKey": "c93013a660feda24af229a89e121957104344a68"
+    },
+    {
+      "iri": "obo:OBI_2100401",
+      "label": "lipid panel reflex direct venous blood high density lipoprotein assay",
+      "hasChildren": false,
+      "childrenKey": "c3c67103d558f09baec37692c71fc7fd19a86a14"
+    },
+    {
+      "iri": "obo:OBI_2100113",
+      "label": "lipid panel venous blood high density lipoprotein assay",
+      "hasChildren": false,
+      "childrenKey": "fc2356749cd02b76a0d3885c00a81ba9e47d257f"
+    }
+  ]
+}

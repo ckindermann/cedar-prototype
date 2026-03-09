@@ -1,0 +1,36 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001248",
+  "children": [
+    {
+      "iri": "obo:OBI_0001221",
+      "label": "ChIP-chip by SNP array assay",
+      "hasChildren": false,
+      "childrenKey": "b0e0b0e0703b0f7b9ec55666f59c7ffbebe3161f"
+    },
+    {
+      "iri": "obo:OBI_0001419",
+      "label": "ChIP-chip by tiling array assay",
+      "hasChildren": false,
+      "childrenKey": "b60797d4a23df6d476e62a6c0bedda309da8a1d5"
+    },
+    {
+      "iri": "obo:OBI_0002014",
+      "label": "DNA methylation profiling by ChIP-chip assay",
+      "hasChildren": false,
+      "childrenKey": "b12aecb46637fb8031088303e38a46803a3807aa"
+    },
+    {
+      "iri": "obo:OBI_0002016",
+      "label": "histone modification identification by ChIP-chip assay",
+      "hasChildren": false,
+      "childrenKey": "7c5e8645d877b0e4220ae7c7bba4217292548ee8"
+    },
+    {
+      "iri": "obo:OBI_0002018",
+      "label": "transcription factor binding site identification by ChIP-chip assay",
+      "hasChildren": false,
+      "childrenKey": "18a4552afca8b7ec6e9e53decc589a21620ac69c"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_2100047",
+  "children": [
+    {
+      "iri": "obo:OBI_2100310",
+      "label": "high sensitivity cardiac/neonatal venous blood c-reactive protein assay",
+      "hasChildren": false,
+      "childrenKey": "3d13ada2488a457acc56290ec1a25cbbb01409d4"
+    },
+    {
+      "iri": "obo:OBI_2100325",
+      "label": "non-cardiac venous blood c-reactive protein assay",
+      "hasChildren": false,
+      "childrenKey": "6d85ea8d1b077bf628632b026f0418af9c4097b4"
+    }
+  ]
+}

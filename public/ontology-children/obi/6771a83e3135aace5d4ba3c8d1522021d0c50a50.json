@@ -1,0 +1,24 @@
+{
+  "ontologyId": "obi",
+  "parentIri": "obo:OBI_0001145",
+  "children": [
+    {
+      "iri": "obo:OBI_0002050",
+      "label": "3D molecular structure determination assay of a MHC:ligand complex",
+      "hasChildren": true,
+      "childrenKey": "02f7a251f4ebe6f812824814b973e72ff782857f"
+    },
+    {
+      "iri": "obo:OBI_0001999",
+      "label": "3D molecular structure determination assay of a T cell epitope:MHC:TCR complex",
+      "hasChildren": true,
+      "childrenKey": "1741092237b70a43053390c5fe220ee1e44642bf"
+    },
+    {
+      "iri": "obo:OBI_0001721",
+      "label": "3D molecular structure determination assay of an antigen:antibody complex",
+      "hasChildren": true,
+      "childrenKey": "9ca66593260d23261b3d17e011ebfa316fa6f062"
+    }
+  ]
+}

@@ -157,6 +157,25 @@ export function FormPreview({
             </select>
           );
 
+        case 'ontology-select':
+          {
+            const ontologyOptions = (
+              field.ontologyOptions && field.ontologyOptions.length > 0
+                ? field.ontologyOptions
+                : (field.ontologyOptionSources || []).flatMap((source) => source.options || [])
+            );
+          return (
+            <select {...inputProps}>
+              <option value="">Select a class...</option>
+              {ontologyOptions.map((option) => (
+                <option key={option.iri} value={option.iri}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
+          );
+          }
+
         case 'checkbox':
           return (
             <label className="preview-checkbox">
