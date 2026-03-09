@@ -5,6 +5,7 @@ import { FIELD_TYPES } from './FormBuilder';
 interface FieldLibraryBrowserProps {
   customFields: CustomFieldType[];
   customFieldVersions: Record<string, CustomFieldVersion[]>;
+  showVersionInfo?: boolean;
   fieldLibraries: FieldLibrary[];
   onAddField: (type: FieldType, customFieldTypeId?: string, libraryId?: string, customFieldVersion?: number) => void;
   onCreateLibrary: (name: string, parentId?: string) => void;
@@ -29,6 +30,7 @@ type DraggedFieldItem =
 export function FieldLibraryBrowser({
   customFields,
   customFieldVersions,
+  showVersionInfo = false,
   fieldLibraries,
   onAddField,
   onCreateLibrary,
@@ -60,6 +62,13 @@ export function FieldLibraryBrowser({
       setExpandedLibraries(prev => new Set([...prev, highlightedFieldType.libraryId!]));
     }
   }, [highlightedFieldType]);
+
+  useEffect(() => {
+    if (!showVersionInfo) {
+      setInspectorFieldId(null);
+      setInspectorVersion(null);
+    }
+  }, [showVersionInfo]);
 
   // Check if a field type matches the highlighted one
   const isHighlighted = (fieldType: FieldType, customFieldId?: string, isStandard?: boolean) => {
@@ -430,19 +439,23 @@ export function FieldLibraryBrowser({
               >
                 <span className="field-item-icon">{field.icon}</span>
                 <span className="field-item-name">{field.name}</span>
-                <span className="field-item-type">{field.baseType} · v{field.version}</span>
+                <span className="field-item-type">
+                  {showVersionInfo ? `${field.baseType} · v${field.version}` : field.baseType}
+                </span>
                 <div className="field-item-actions">
-                  <button
-                    className="field-item-inspect-btn"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      openVersionInspector(field);
-                    }}
-                    title="Inspect field versions"
-                    aria-label="Inspect field versions"
-                  >
-                    🕘
-                  </button>
+                  {showVersionInfo && (
+                    <button
+                      className="field-item-inspect-btn"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        openVersionInspector(field);
+                      }}
+                      title="Inspect field versions"
+                      aria-label="Inspect field versions"
+                    >
+                      🕘
+                    </button>
+                  )}
                   {onEditFieldType && (
                     <button
                       className="field-item-edit-btn"
@@ -588,10 +601,12 @@ export function FieldLibraryBrowser({
                   <span className="field-item-type">
                     {result.isStandard
                       ? result.libraryName
-                      : `${result.libraryName} · v${(result.field as CustomFieldType).version}`}
+                      : (showVersionInfo
+                        ? `${result.libraryName} · v${(result.field as CustomFieldType).version}`
+                        : result.libraryName)}
                   </span>
                   <div className="field-item-actions">
-                    {!result.isStandard && (
+                    {!result.isStandard && showVersionInfo && (
                       <button
                         className="field-item-inspect-btn"
                         onClick={(e) => {
@@ -714,7 +729,7 @@ export function FieldLibraryBrowser({
         )}
       </div>}
 
-      {inspectorField && inspectorSnapshot && (
+      {showVersionInfo && inspectorField && inspectorSnapshot && (
         <div className="modal-overlay" onClick={closeVersionInspector}>
           <div className="modal-content field-version-inspector" onClick={(e) => e.stopPropagation()}>
             <div className="modal-header">

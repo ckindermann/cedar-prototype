@@ -4,6 +4,7 @@ import type { FormSchema, TemplateLibrary } from '../types';
 interface TemplateLibraryBrowserProps {
   templates: FormSchema[];
   templateLibraries: TemplateLibrary[];
+  showVersionInfo?: boolean;
   activeTemplateId: string | null;
   onSelectTemplate: (templateId: string) => void;
   onCreateTemplate: (libraryId?: string) => void;
@@ -30,6 +31,7 @@ type DraggedTemplateItem =
 export function TemplateLibraryBrowser({
   templates,
   templateLibraries,
+  showVersionInfo = false,
   activeTemplateId,
   onSelectTemplate,
   onCreateTemplate,
@@ -230,7 +232,9 @@ export function TemplateLibraryBrowser({
         <span className="field-item-icon">📋</span>
         <span className="field-item-name">{template.title || 'Untitled Template'}</span>
         <span className="field-item-type">
-          v{template.version} · {template.fields.length} field{template.fields.length !== 1 ? 's' : ''}
+          {showVersionInfo
+            ? `v${template.version} · ${template.fields.length} field${template.fields.length !== 1 ? 's' : ''}`
+            : `${template.fields.length} field${template.fields.length !== 1 ? 's' : ''}`}
         </span>
         <div className="field-item-actions">
           <button

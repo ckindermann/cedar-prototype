@@ -26,6 +26,7 @@ interface FieldEditorProps {
   templateVersions?: Record<string, TemplateVersion[]>;
   currentTemplateId?: string;
   showSemanticFields?: boolean;
+  showVersionControls?: boolean;
   onEditFieldType?: (fieldType: CustomFieldType) => void;
 }
 
@@ -44,6 +45,7 @@ export function FieldEditor({
   templateVersions = {},
   currentTemplateId,
   showSemanticFields = false,
+  showVersionControls = false,
   onEditFieldType,
 }: FieldEditorProps) {
 
@@ -160,7 +162,7 @@ export function FieldEditor({
               )}
             </select>
           )}
-          {!!field.customFieldTypeId && customFieldVersionHistory.length > 0 && (
+          {showVersionControls && !!field.customFieldTypeId && customFieldVersionHistory.length > 0 && (
             <select
               className="field-type-select field-version-select"
               value={selectedCustomFieldVersion || ''}
@@ -261,7 +263,7 @@ export function FieldEditor({
                   </option>
                 ))}
               </select>
-              {selectedTemplate && componentTemplateVersionHistory.length > 0 && (
+              {showVersionControls && selectedTemplate && componentTemplateVersionHistory.length > 0 && (
                 <div className="form-group" style={{ marginTop: '10px', marginBottom: 0 }}>
                   <label>Template Version</label>
                   <select

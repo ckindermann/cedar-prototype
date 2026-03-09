@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import { FormBuilder } from './components/FormBuilder'
 import type {
+  BuilderProfile,
   CustomFieldType,
   CustomFieldVersion,
   FieldLibrary,
+  FormField,
   FormSchema,
   TemplateLibrary,
   TemplateVersion,
@@ -12,6 +14,146 @@ import './App.css'
 
 const generateId = () => Math.random().toString(36).substring(2, 11);
 const deepClone = <T,>(value: T): T => JSON.parse(JSON.stringify(value));
+const DEFAULT_SELECT_OPTIONS = ['Option 1', 'Option 2', 'Option 3'];
+
+const buildLatestTemplateVersionMap = (
+  templates: FormSchema[],
+  templateVersions: Record<string, TemplateVersion[]>,
+  overrides: Record<string, number> = {},
+): Record<string, number> => {
+  const latestVersions: Record<string, number> = {};
+
+  templates.forEach((template) => {
+    latestVersions[template.id] = Math.max(latestVersions[template.id] || 0, template.version);
+  });
+
+  Object.entries(templateVersions).forEach(([templateId, history]) => {
+    const highestVersion = history.reduce((max, item) => Math.max(max, item.version), 0);
+    latestVersions[templateId] = Math.max(latestVersions[templateId] || 0, highestVersion);
+  });
+
+  Object.entries(overrides).forEach(([templateId, version]) => {
+    latestVersions[templateId] = Math.max(latestVersions[templateId] || 0, version);
+  });
+
+  return latestVersions;
+};
+
+const syncFieldDependenciesToLatest = (
+  field: FormField,
+  latestCustomFields: Map<string, CustomFieldType>,
+  latestTemplateVersions: Record<string, number>,
+): FormField => {
+  let nextField = { ...field };
+
+  if (nextField.customFieldTypeId) {
+    const latestFieldType = latestCustomFields.get(nextField.customFieldTypeId);
+    if (latestFieldType) {
+      nextField = {
+        ...nextField,
+        type: latestFieldType.baseType,
+        customFieldVersion: latestFieldType.version,
+        validationRules: deepClone(latestFieldType.validationRules),
+        options:
+          latestFieldType.baseType === 'select'
+            ? (nextField.options && nextField.options.length > 0
+              ? [...nextField.options]
+              : [...DEFAULT_SELECT_OPTIONS])
+            : undefined,
+      };
+    }
+  }
+
+  if (nextField.type === 'template' && nextField.componentTemplateId) {
+    const latestTemplateVersion = latestTemplateVersions[nextField.componentTemplateId];
+    if (latestTemplateVersion) {
+      nextField = {
+        ...nextField,
+        componentTemplateVersion: latestTemplateVersion,
+      };
+    }
+  }
+
+  return nextField;
+};
+
+const syncTemplatesToLatestDependencies = (
+  templatesToSync: FormSchema[],
+  latestCustomFieldsList: CustomFieldType[],
+  templateVersions: Record<string, TemplateVersion[]>,
+  templateVersionOverrides: Record<string, number> = {},
+): FormSchema[] => {
+  const latestCustomFields = new Map(latestCustomFieldsList.map((field) => [field.id, field]));
+  const latestTemplateVersions = buildLatestTemplateVersionMap(
+    templatesToSync,
+    templateVersions,
+    templateVersionOverrides,
+  );
+
+  return templatesToSync.map((template) => ({
+    ...template,
+    fields: template.fields.map((field) =>
+      syncFieldDependenciesToLatest(field, latestCustomFields, latestTemplateVersions),
+    ),
+  }));
+};
+
+const hasTemplateChanged = (previousTemplate: FormSchema, nextTemplate: FormSchema): boolean => {
+  const previousComparable = { ...previousTemplate, version: 0 };
+  const nextComparable = { ...nextTemplate, version: 0 };
+  return JSON.stringify(previousComparable) !== JSON.stringify(nextComparable);
+};
+
+const versionChangedTemplates = (
+  previousTemplates: FormSchema[],
+  nextTemplates: FormSchema[],
+  templateVersions: Record<string, TemplateVersion[]>,
+): {
+  versionedTemplates: FormSchema[];
+  nextTemplateVersions: Record<string, TemplateVersion[]>;
+} => {
+  const previousById = new Map(previousTemplates.map((template) => [template.id, template]));
+  const nextTemplateVersions: Record<string, TemplateVersion[]> = { ...templateVersions };
+  const savedAt = new Date().toISOString();
+
+  const versionedTemplates = nextTemplates.map((nextTemplate) => {
+    const previousTemplate = previousById.get(nextTemplate.id);
+    if (!previousTemplate) return nextTemplate;
+
+    if (!hasTemplateChanged(previousTemplate, nextTemplate)) {
+      return {
+        ...nextTemplate,
+        version: previousTemplate.version,
+      };
+    }
+
+    const history = nextTemplateVersions[nextTemplate.id] || [];
+    const highestVersion = history.reduce((max, item) => Math.max(max, item.version), 0);
+    const nextVersion = highestVersion + 1 || 1;
+
+    const versionedTemplate: FormSchema = {
+      ...nextTemplate,
+      version: nextVersion,
+      fields: deepClone(nextTemplate.fields),
+    };
+
+    nextTemplateVersions[nextTemplate.id] = [
+      ...history,
+      {
+        version: nextVersion,
+        savedAt,
+        snapshot: deepClone(versionedTemplate),
+      },
+    ];
+
+    return versionedTemplate;
+  });
+
+  return {
+    versionedTemplates,
+    nextTemplateVersions,
+  };
+};
 
 function App() {
   const [customFields, setCustomFields] = useState<CustomFieldType[]>([]);
@@ -40,7 +182,7 @@ function App() {
   const [activeTemplateId, setActiveTemplateId] = useState<string>(initialTemplate.id);
   const [templateLibraries, setTemplateLibraries] = useState<TemplateLibrary[]>([]);
 
-  const handleSaveCustomField = (field: CustomFieldType) => {
+  const handleSaveCustomField = (field: CustomFieldType, profile: BuilderProfile) => {
     const savedAt = new Date().toISOString();
     const currentVersion = customFields.find((f) => f.id === field.id)?.version || 0;
     const nextVersion = currentVersion + 1 || 1;
@@ -51,30 +193,43 @@ function App() {
       libraryIds: field.libraryIds ? [...field.libraryIds] : undefined,
     };
 
-    setCustomFields(prev => {
-      const existingIndex = prev.findIndex(f => f.id === fieldWithVersion.id);
-      if (existingIndex >= 0) {
-        const updated = [...prev];
-        updated[existingIndex] = fieldWithVersion;
-        return updated;
-      }
-      return [...prev, fieldWithVersion];
-    });
+    const existingIndex = customFields.findIndex((f) => f.id === fieldWithVersion.id);
+    const updatedCustomFields =
+      existingIndex >= 0
+        ? customFields.map((existingField) =>
+          existingField.id === fieldWithVersion.id ? fieldWithVersion : existingField,
+        )
+        : [...customFields, fieldWithVersion];
+    const fieldHistory = customFieldVersions[fieldWithVersion.id] || [];
+    const updatedCustomFieldVersions: Record<string, CustomFieldVersion[]> = {
+      ...customFieldVersions,
+      [fieldWithVersion.id]: [
+        ...fieldHistory,
+        {
+          version: fieldWithVersion.version,
+          savedAt,
+          snapshot: deepClone(fieldWithVersion),
+        },
+      ],
+    };
 
-    setCustomFieldVersions(prev => {
-      const history = prev[fieldWithVersion.id] || [];
-      return {
-        ...prev,
-        [fieldWithVersion.id]: [
-          ...history,
-          {
-            version: fieldWithVersion.version,
-            savedAt,
-            snapshot: deepClone(fieldWithVersion),
-          },
-        ],
-      };
-    });
+    setCustomFields(updatedCustomFields);
+    setCustomFieldVersions(updatedCustomFieldVersions);
+
+    if (profile !== 'modular') {
+      const syncedTemplates = syncTemplatesToLatestDependencies(
+        templates,
+        updatedCustomFields,
+        templateVersions,
+      );
+      const { versionedTemplates, nextTemplateVersions } = versionChangedTemplates(
+        templates,
+        syncedTemplates,
+        templateVersions,
+      );
+      setTemplates(versionedTemplates);
+      setTemplateVersions(nextTemplateVersions);
+    }
   };
 
   const handleSaveLibrary = (library: FieldLibrary) => {
@@ -91,12 +246,35 @@ function App() {
 
   const activeTemplate = templates.find(t => t.id === activeTemplateId) || templates[0];
 
-  const handleUpdateTemplate = (schema: FormSchema) => {
-    setTemplates(prev => prev.map(t =>
-      t.id === schema.id
-        ? { ...schema, version: t.version }
-        : t
-    ));
+  const handleUpdateTemplate = (schema: FormSchema, profile: BuilderProfile) => {
+    if (profile === 'modular') {
+      setTemplates((prev) => prev.map((template) =>
+        template.id === schema.id
+          ? { ...schema, version: template.version }
+          : template,
+      ));
+      return;
+    }
+
+    const history = templateVersions[schema.id] || [];
+    const highestVersion = history.reduce((max, item) => Math.max(max, item.version), 0);
+    const nextVersion = highestVersion + 1 || 1;
+    const updatedTemplates = templates.map((template) =>
+      template.id === schema.id ? { ...schema } : template,
+    );
+    const syncedTemplates = syncTemplatesToLatestDependencies(
+      updatedTemplates,
+      customFields,
+      templateVersions,
+      { [schema.id]: nextVersion },
+    );
+    const { versionedTemplates, nextTemplateVersions } = versionChangedTemplates(
+      templates,
+      syncedTemplates,
+      templateVersions,
+    );
+    setTemplates(versionedTemplates);
+    setTemplateVersions(nextTemplateVersions);
   };
 
   const handleSaveTemplateVersion = (templateId: string) => {

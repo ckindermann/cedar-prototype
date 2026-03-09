@@ -6,6 +6,7 @@ interface FormPreviewProps {
   focusedFieldId: string | null;
   templates?: FormSchema[];
   templateVersions?: Record<string, TemplateVersion[]>;
+  showVersionInfo?: boolean;
 }
 
 export function FormPreview({
@@ -13,6 +14,7 @@ export function FormPreview({
   focusedFieldId,
   templates = [],
   templateVersions = {},
+  showVersionInfo = false,
 }: FormPreviewProps) {
   const [values, setValues] = useState<Record<string, string | string[]>>({});
 
@@ -101,7 +103,7 @@ export function FormPreview({
                   >
                     {nestedTemplate.title || 'Untitled Template'}
                   </span>
-                  {nestedTemplateVersion && (
+                  {showVersionInfo && nestedTemplateVersion && (
                     <span className="nested-template-version"> v{nestedTemplateVersion}</span>
                   )}
                 </div>

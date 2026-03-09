@@ -1,4 +1,5 @@
 export type FieldType = 'text' | 'email' | 'number' | 'date' | 'textarea' | 'select' | 'checkbox' | 'template';
+export type BuilderProfile = 'basic' | 'semantic' | 'modular';
 
 export interface ValidationRule {
   type: 'regex' | 'min' | 'max' | 'minLength' | 'maxLength';

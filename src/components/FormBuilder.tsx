@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import type {
+  BuilderProfile,
   CustomFieldType,
   CustomFieldVersion,
   FieldLibrary,
@@ -21,8 +22,6 @@ interface DeletedFieldInfo {
   field: FormField;
   index: number;
 }
-
-type BuilderProfile = 'basic' | 'semantic' | 'modular';
 
 const formatVersionDisplay = (timestamp: string): string => {
   return new Date(timestamp).toLocaleString('en-US', {
@@ -49,13 +48,13 @@ interface FormBuilderProps {
   customFields: CustomFieldType[];
   customFieldVersions: Record<string, CustomFieldVersion[]>;
   fieldLibraries: FieldLibrary[];
-  onSaveCustomField: (field: CustomFieldType) => void;
+  onSaveCustomField: (field: CustomFieldType, profile: BuilderProfile) => void;
   onSaveLibrary: (library: FieldLibrary) => void;
   templates: FormSchema[];
   templateVersions: Record<string, TemplateVersion[]>;
   activeTemplate: FormSchema;
   templateLibraries: TemplateLibrary[];
-  onUpdateTemplate: (schema: FormSchema) => void;
+  onUpdateTemplate: (schema: FormSchema, profile: BuilderProfile) => void;
   onSaveTemplateVersion: (templateId: string) => void;
   onLoadTemplateVersion: (templateId: string, version: number) => void;
   onSelectTemplate: (templateId: string) => void;
@@ -96,9 +95,9 @@ export function FormBuilder({
   const schema = activeTemplate;
   const setSchema = (updater: FormSchema | ((prev: FormSchema) => FormSchema)) => {
     if (typeof updater === 'function') {
-      onUpdateTemplate(updater(schema));
+      onUpdateTemplate(updater(schema), activeProfile);
     } else {
-      onUpdateTemplate(updater);
+      onUpdateTemplate(updater, activeProfile);
     }
   };
 
@@ -134,6 +133,7 @@ export function FormBuilder({
     return profileOrder[activeProfile] >= profileOrder[minimumProfile];
   };
   const semanticEnabled = profileIncludes('semantic');
+  const modularVersioningEnabled = activeProfile === 'modular';
 
   const templateDependsOn = (
     sourceTemplateId: string,
@@ -427,6 +427,7 @@ export function FormBuilder({
               <TemplateLibraryBrowser
                 templates={templates}
                 templateLibraries={templateLibraries}
+                showVersionInfo={modularVersioningEnabled}
                 activeTemplateId={activeTemplate.id}
                 onSelectTemplate={onSelectTemplate}
                 onCreateTemplate={onCreateTemplate}
@@ -450,6 +451,7 @@ export function FormBuilder({
               <FieldLibraryBrowser
               customFields={customFields}
               customFieldVersions={customFieldVersions}
+              showVersionInfo={modularVersioningEnabled}
               fieldLibraries={fieldLibraries}
               onAddField={(type, customFieldTypeId, libraryId, customFieldVersion) => {
                 addField(type, customFieldTypeId, libraryId, customFieldVersion);
@@ -490,7 +492,7 @@ export function FormBuilder({
           <div className="split-panel builder-panel">
             <div className="split-panel-header builder-panel-header">
               <span className="builder-panel-title">Builder</span>
-              {renderVersionControl()}
+              {modularVersioningEnabled && renderVersionControl()}
             </div>
             <main className="form-canvas">
               <div className="form-meta">
@@ -573,6 +575,7 @@ export function FormBuilder({
                             templateVersions={templateVersions}
                             currentTemplateId={schema.id}
                             showSemanticFields={semanticEnabled}
+                            showVersionControls={modularVersioningEnabled}
                             onEditFieldType={(fieldType) => {
                               setEditingFieldType(fieldType);
                               setIsCreateFieldModalOpen(true);
@@ -610,6 +613,7 @@ export function FormBuilder({
                 focusedFieldId={focusedFieldId}
                 templates={templates}
                 templateVersions={templateVersions}
+                showVersionInfo={modularVersioningEnabled}
               />
             </div>
           </div>
@@ -634,7 +638,7 @@ export function FormBuilder({
           setEditingFieldType(null);
           setCreateFieldForLibraryId(null);
         }}
-        onSave={onSaveCustomField}
+        onSave={(field) => onSaveCustomField(field, activeProfile)}
         fieldLibraries={fieldLibraries}
         enableSemanticFeatures={semanticEnabled}
         preSelectedLibraryId={createFieldForLibraryId}
