@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { FormBuilder } from './components/FormBuilder'
 import type {
   BuilderProfile,
@@ -15,6 +15,45 @@ import './App.css'
 const generateId = () => Math.random().toString(36).substring(2, 11);
 const deepClone = <T,>(value: T): T => JSON.parse(JSON.stringify(value));
 const DEFAULT_SELECT_OPTIONS = ['Option 1', 'Option 2', 'Option 3'];
+const HISTORY_LIMIT = 200;
+type HistoryChangeType = 'text' | 'non-text';
+
+interface AppSnapshot {
+  customFields: CustomFieldType[];
+  customFieldVersions: Record<string, CustomFieldVersion[]>;
+  fieldLibraries: FieldLibrary[];
+  templates: FormSchema[];
+  templateVersions: Record<string, TemplateVersion[]>;
+  activeTemplateId: string;
+  templateLibraries: TemplateLibrary[];
+}
+
+const stripFieldForTextDiff = (field: FormField): FormField => ({
+  ...field,
+  label: '',
+  description: '',
+  placeholder: '',
+  nameIri: '',
+  nameIriLabel: '',
+  options: field.options ? [] : undefined,
+});
+
+const stripTemplateForTextDiff = (template: FormSchema): FormSchema => ({
+  ...template,
+  title: '',
+  description: '',
+  nameIri: '',
+  nameIriLabel: '',
+  fields: template.fields.map(stripFieldForTextDiff),
+});
+
+const isTemplateTextOnlyChange = (previous: FormSchema, next: FormSchema): boolean => {
+  const previousCore = stripTemplateForTextDiff(previous);
+  const nextCore = stripTemplateForTextDiff(next);
+
+  if (JSON.stringify(previousCore) !== JSON.stringify(nextCore)) return false;
+  return JSON.stringify(previous) !== JSON.stringify(next);
+};
 
 const buildLatestTemplateVersionMap = (
   templates: FormSchema[],
@@ -189,8 +228,111 @@ function App() {
   });
   const [activeTemplateId, setActiveTemplateId] = useState<string>(initialTemplate.id);
   const [templateLibraries, setTemplateLibraries] = useState<TemplateLibrary[]>([]);
+  const [undoStack, setUndoStack] = useState<AppSnapshot[]>([]);
+  const [redoStack, setRedoStack] = useState<AppSnapshot[]>([]);
+  const lastHistoryChangeTypeRef = useRef<HistoryChangeType | null>(null);
+
+  const createSnapshot = (): AppSnapshot => ({
+    customFields: deepClone(customFields),
+    customFieldVersions: deepClone(customFieldVersions),
+    fieldLibraries: deepClone(fieldLibraries),
+    templates: deepClone(templates),
+    templateVersions: deepClone(templateVersions),
+    activeTemplateId,
+    templateLibraries: deepClone(templateLibraries),
+  });
+
+  const applySnapshot = (snapshot: AppSnapshot) => {
+    setCustomFields(deepClone(snapshot.customFields));
+    setCustomFieldVersions(deepClone(snapshot.customFieldVersions));
+    setFieldLibraries(deepClone(snapshot.fieldLibraries));
+    setTemplates(deepClone(snapshot.templates));
+    setTemplateVersions(deepClone(snapshot.templateVersions));
+    setActiveTemplateId(snapshot.activeTemplateId);
+    setTemplateLibraries(deepClone(snapshot.templateLibraries));
+  };
+
+  const recordHistory = (changeType: HistoryChangeType = 'non-text') => {
+    if (changeType === 'text' && lastHistoryChangeTypeRef.current === 'text') {
+      return;
+    }
+
+    const snapshot = createSnapshot();
+    setUndoStack((prev) => {
+      const next = [...prev, snapshot];
+      return next.length > HISTORY_LIMIT
+        ? next.slice(next.length - HISTORY_LIMIT)
+        : next;
+    });
+    setRedoStack([]);
+    lastHistoryChangeTypeRef.current = changeType;
+  };
+
+  const handleUndo = () => {
+    if (undoStack.length === 0) return;
+    const previousSnapshot = undoStack[undoStack.length - 1];
+    const currentSnapshot = createSnapshot();
+
+    setUndoStack((prev) => prev.slice(0, -1));
+    setRedoStack((prev) => {
+      const next = [...prev, currentSnapshot];
+      return next.length > HISTORY_LIMIT
+        ? next.slice(next.length - HISTORY_LIMIT)
+        : next;
+    });
+    applySnapshot(previousSnapshot);
+    lastHistoryChangeTypeRef.current = null;
+  };
+
+  const handleRedo = () => {
+    if (redoStack.length === 0) return;
+    const nextSnapshot = redoStack[redoStack.length - 1];
+    const currentSnapshot = createSnapshot();
+
+    setRedoStack((prev) => prev.slice(0, -1));
+    setUndoStack((prev) => {
+      const next = [...prev, currentSnapshot];
+      return next.length > HISTORY_LIMIT
+        ? next.slice(next.length - HISTORY_LIMIT)
+        : next;
+    });
+    applySnapshot(nextSnapshot);
+    lastHistoryChangeTypeRef.current = null;
+  };
+
+  useEffect(() => {
+    const handleGlobalKeyDown = (event: KeyboardEvent) => {
+      if (!(event.metaKey || event.ctrlKey)) return;
+
+      const target = event.target as HTMLElement | null;
+      const targetTag = target?.tagName?.toLowerCase();
+      const isTypingTarget = !!target?.isContentEditable ||
+        targetTag === 'input' ||
+        targetTag === 'textarea' ||
+        targetTag === 'select';
+      if (isTypingTarget) return;
+
+      const key = event.key.toLowerCase();
+      const isUndoKey = key === 'z' && !event.shiftKey;
+      const isRedoKey = (key === 'z' && event.shiftKey) || key === 'y';
+
+      if (isUndoKey && undoStack.length > 0) {
+        event.preventDefault();
+        handleUndo();
+      }
+
+      if (isRedoKey && redoStack.length > 0) {
+        event.preventDefault();
+        handleRedo();
+      }
+    };
+
+    window.addEventListener('keydown', handleGlobalKeyDown);
+    return () => window.removeEventListener('keydown', handleGlobalKeyDown);
+  }, [undoStack.length, redoStack.length, undoStack, redoStack]);
 
   const handleSaveCustomField = (field: CustomFieldType, profile: BuilderProfile) => {
+    recordHistory();
     const savedAt = new Date().toISOString();
     const currentVersion = customFields.find((f) => f.id === field.id)?.version || 0;
     const nextVersion = currentVersion + 1 || 1;
@@ -241,6 +383,7 @@ function App() {
   };
 
   const handleSaveLibrary = (library: FieldLibrary) => {
+    recordHistory();
     setFieldLibraries(prev => {
       const existingIndex = prev.findIndex(l => l.id === library.id);
       if (existingIndex >= 0) {
@@ -255,6 +398,12 @@ function App() {
   const activeTemplate = templates.find(t => t.id === activeTemplateId) || templates[0];
 
   const handleUpdateTemplate = (schema: FormSchema, profile: BuilderProfile) => {
+    const previousTemplate = templates.find((template) => template.id === schema.id);
+    const changeType: HistoryChangeType =
+      previousTemplate && isTemplateTextOnlyChange(previousTemplate, schema)
+        ? 'text'
+        : 'non-text';
+    recordHistory(changeType);
     if (profile === 'modular') {
       setTemplates((prev) => prev.map((template) =>
         template.id === schema.id
@@ -288,6 +437,7 @@ function App() {
   const handleSaveTemplateVersion = (templateId: string) => {
     const template = templates.find((t) => t.id === templateId);
     if (!template) return;
+    recordHistory();
 
     const savedAt = new Date().toISOString();
     const history = templateVersions[templateId] || [];
@@ -318,10 +468,12 @@ function App() {
     const history = templateVersions[templateId] || [];
     const versionItem = history.find((item) => item.version === version);
     if (!versionItem) return;
+    recordHistory();
     setTemplates(prev => prev.map(t => t.id === templateId ? deepClone(versionItem.snapshot) : t));
   };
 
   const handleCreateTemplate = (libraryId?: string) => {
+    recordHistory();
     const newTemplate: FormSchema = {
       id: generateId(),
       title: 'Untitled Template',
@@ -346,6 +498,7 @@ function App() {
   };
 
   const handleDeleteTemplate = (id: string) => {
+    recordHistory();
     setTemplates(prev => {
       const filtered = prev.filter(t => t.id !== id);
       // If we deleted the active one, switch to another
@@ -385,6 +538,7 @@ function App() {
   };
 
   const handleMoveTemplate = (templateId: string, targetLibraryId?: string) => {
+    recordHistory();
     setTemplates(prev =>
       prev.map(t =>
         t.id === templateId ? { ...t, libraryId: targetLibraryId } : t
@@ -393,6 +547,7 @@ function App() {
   };
 
   const handleSaveTemplateLibrary = (library: TemplateLibrary) => {
+    recordHistory();
     setTemplateLibraries(prev => {
       const existingIndex = prev.findIndex(l => l.id === library.id);
       if (existingIndex >= 0) {
@@ -405,6 +560,7 @@ function App() {
   };
 
   const handleMoveTemplateLibrary = (libraryId: string, targetParentId?: string) => {
+    recordHistory();
     setTemplateLibraries(prev =>
       prev.map(l =>
         l.id === libraryId ? { ...l, parentId: targetParentId } : l
@@ -413,6 +569,7 @@ function App() {
   };
 
   const handleDeleteTemplateLibrary = (id: string) => {
+    recordHistory();
     // Remove library and unassign any templates that were in it
     setTemplateLibraries(prev => prev.filter(l => l.id !== id));
     setTemplates(prev => prev.map(t =>
@@ -421,6 +578,7 @@ function App() {
   };
 
   const handleMoveCustomField = (fieldTypeId: string, targetLibraryId?: string) => {
+    recordHistory();
     setCustomFields(prev =>
       prev.map(field =>
         field.id === fieldTypeId
@@ -431,6 +589,7 @@ function App() {
   };
 
   const handleMoveFieldLibrary = (libraryId: string, targetParentId?: string) => {
+    recordHistory();
     setFieldLibraries(prev =>
       prev.map(l =>
         l.id === libraryId ? { ...l, parentId: targetParentId } : l
@@ -462,6 +621,10 @@ function App() {
         onDeleteTemplateLibrary={handleDeleteTemplateLibrary}
         onMoveCustomField={handleMoveCustomField}
         onMoveFieldLibrary={handleMoveFieldLibrary}
+        onUndo={handleUndo}
+        onRedo={handleRedo}
+        canUndo={undoStack.length > 0}
+        canRedo={redoStack.length > 0}
       />
     </div>
   );

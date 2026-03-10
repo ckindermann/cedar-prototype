@@ -302,14 +302,57 @@ body {
   flex-shrink: 0;
 }
 
+.builder-panel-controls {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
 .builder-panel-header .version-control {
   margin-left: auto;
   text-transform: none;
   letter-spacing: normal;
 }
 
+.builder-panel-controls .version-control {
+  margin-left: 0;
+}
+
 .builder-panel-header .version-dropdown-trigger {
   min-width: 150px;
+}
+
+.history-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.history-button {
+  height: 34px;
+  padding: 0 12px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  background: var(--bg-white);
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.history-button:hover:not(:disabled) {
+  border-color: var(--text-muted);
+  background: var(--bg-light);
+  color: var(--text-primary);
+}
+
+.history-button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
 }
 
 .split-panel .form-canvas {

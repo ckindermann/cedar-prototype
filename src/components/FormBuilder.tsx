@@ -67,6 +67,10 @@ interface FormBuilderProps {
   onDeleteTemplateLibrary: (id: string) => void;
   onMoveCustomField: (fieldTypeId: string, targetLibraryId?: string) => void;
   onMoveFieldLibrary: (libraryId: string, targetParentId?: string) => void;
+  onUndo: () => void;
+  onRedo: () => void;
+  canUndo: boolean;
+  canRedo: boolean;
 }
 
 export function FormBuilder({
@@ -91,6 +95,10 @@ export function FormBuilder({
   onDeleteTemplateLibrary,
   onMoveCustomField,
   onMoveFieldLibrary,
+  onUndo,
+  onRedo,
+  canUndo,
+  canRedo,
 }: FormBuilderProps) {
   const schema = activeTemplate;
   const [focusedFieldId, setFocusedFieldId] = useState<string | null>(null);
@@ -397,6 +405,29 @@ export function FormBuilder({
     </div>
   );
 
+  const renderHistoryControls = () => (
+    <div className="history-control">
+      <button
+        type="button"
+        className="history-button"
+        onClick={onUndo}
+        disabled={!canUndo}
+        title="Undo (Ctrl/Cmd+Z)"
+      >
+        ↶ Undo
+      </button>
+      <button
+        type="button"
+        className="history-button"
+        onClick={onRedo}
+        disabled={!canRedo}
+        title="Redo (Ctrl+Y or Ctrl/Cmd+Shift+Z)"
+      >
+        ↷ Redo
+      </button>
+    </div>
+  );
+
   return (
     <div className="form-builder">
       <header className="form-builder-header">
@@ -529,7 +560,10 @@ export function FormBuilder({
           <div className="split-panel builder-panel">
             <div className="split-panel-header builder-panel-header">
               <span className="builder-panel-title">Builder</span>
-              {modularVersioningEnabled && renderVersionControl()}
+              <div className="builder-panel-controls">
+                {renderHistoryControls()}
+                {modularVersioningEnabled && renderVersionControl()}
+              </div>
             </div>
             <main className="form-canvas">
               {isTemplateReadOnlyInProfile && (
