@@ -173,7 +173,11 @@ const fetchBranchChildren = async (
 interface FieldEditorProps {
   field: FormField;
   position: number;
-  onUpdate: (field: FormField) => void;
+  onUpdate: (
+    field: FormField,
+    changeTypeHint?: 'text' | 'non-text',
+    textChangeKey?: string,
+  ) => void;
   onDelete: (id: string) => void;
   isFocused: boolean;
   onFocus: () => void;
@@ -220,9 +224,13 @@ export function FieldEditor({
     showDescriptionInput: false,
     showIriInput: false,
   });
-  const onUpdate = (nextField: FormField) => {
+  const onUpdate = (
+    nextField: FormField,
+    changeTypeHint: 'text' | 'non-text' = 'non-text',
+    textChangeKey?: string,
+  ) => {
     if (isReadOnly) return;
-    onUpdateProp(nextField);
+    onUpdateProp(nextField, changeTypeHint, textChangeKey);
   };
   const onDelete = (id: string) => {
     if (isReadOnly) return;
@@ -448,7 +456,7 @@ export function FieldEditor({
             className="field-label-input"
             value={field.label}
             disabled={isReadOnly}
-            onChange={(e) => onUpdate({ ...field, label: e.target.value })}
+            onChange={(e) => onUpdate({ ...field, label: e.target.value }, 'text', `field:${field.id}:label`)}
             onClick={(e) => e.stopPropagation()}
             placeholder={isTemplateComponentField ? 'Component Name' : 'Untitled Field'}
           />
@@ -531,7 +539,7 @@ export function FieldEditor({
                       ...field,
                       nameIri: nextIri,
                       nameIriLabel: nextIri === field.nameIri ? field.nameIriLabel : '',
-                    });
+                    }, 'text', `field:${field.id}:nameIri`);
                   }}
                   placeholder="https://example.org/iri/field-name"
                 />
@@ -615,7 +623,11 @@ export function FieldEditor({
                     type="text"
                     value={field.placeholder || ''}
                     disabled={isReadOnly}
-                    onChange={(e) => onUpdate({ ...field, placeholder: e.target.value })}
+                    onChange={(e) => onUpdate(
+                      { ...field, placeholder: e.target.value },
+                      'text',
+                      `field:${field.id}:placeholder`,
+                    )}
                     placeholder="Enter placeholder text..."
                   />
                 </div>
@@ -627,7 +639,11 @@ export function FieldEditor({
                     type="text"
                     value={field.description || ''}
                     disabled={isReadOnly}
-                    onChange={(e) => onUpdate({ ...field, description: e.target.value })}
+                    onChange={(e) => onUpdate(
+                      { ...field, description: e.target.value },
+                      'text',
+                      `field:${field.id}:description`,
+                    )}
                     placeholder="Short description for tooltip..."
                   />
                 </div>
@@ -645,7 +661,7 @@ export function FieldEditor({
                   onUpdate({
                     ...field,
                     options: e.target.value.split('\n').filter((o) => o.trim()),
-                  })
+                  }, 'text', `field:${field.id}:options`)
                 }
                 placeholder="Option 1&#10;Option 2&#10;Option 3"
                 rows={4}

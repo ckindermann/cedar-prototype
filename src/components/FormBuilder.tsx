@@ -23,6 +23,12 @@ interface DeletedFieldInfo {
   index: number;
 }
 
+interface TemplateDisplayOptions {
+  showDescription: boolean;
+  showIri: boolean;
+}
+type TemplateChangeType = 'text' | 'non-text';
+
 const formatVersionDisplay = (timestamp: string): string => {
   return new Date(timestamp).toLocaleString('en-US', {
     month: 'short',
@@ -55,7 +61,12 @@ interface FormBuilderProps {
   templateVersions: Record<string, TemplateVersion[]>;
   activeTemplate: FormSchema;
   templateLibraries: TemplateLibrary[];
-  onUpdateTemplate: (schema: FormSchema, profile: BuilderProfile) => void;
+  onUpdateTemplate: (
+    schema: FormSchema,
+    profile: BuilderProfile,
+    changeTypeHint?: TemplateChangeType,
+    textChangeKey?: string,
+  ) => void;
   onSaveTemplateVersion: (templateId: string) => void;
   onLoadTemplateVersion: (templateId: string, version: number) => void;
   onSelectTemplate: (templateId: string) => void;
@@ -113,6 +124,11 @@ export function FormBuilder({
   const [searchTemplates, setSearchTemplates] = useState(true);
   const [searchFields, setSearchFields] = useState(true);
   const [activeProfile, setActiveProfile] = useState<BuilderProfile>('basic');
+  const [isTemplateOptionsOpen, setIsTemplateOptionsOpen] = useState(false);
+  const [templateDisplayOptions, setTemplateDisplayOptions] = useState<TemplateDisplayOptions>({
+    showDescription: true,
+    showIri: true,
+  });
 
   // Auto-dismiss toast after 5 seconds
   useEffect(() => {
@@ -153,12 +169,16 @@ export function FormBuilder({
   const staleFieldVersionLabel =
     outdatedFieldVersionCount === 1 ? 'field version' : 'field versions';
 
-  const setSchema = (updater: FormSchema | ((prev: FormSchema) => FormSchema)) => {
+  const setSchema = (
+    updater: FormSchema | ((prev: FormSchema) => FormSchema),
+    changeTypeHint: TemplateChangeType = 'non-text',
+    textChangeKey?: string,
+  ) => {
     if (isTemplateReadOnlyInProfile) return;
     if (typeof updater === 'function') {
-      onUpdateTemplate(updater(schema), activeProfile);
+      onUpdateTemplate(updater(schema), activeProfile, changeTypeHint, textChangeKey);
     } else {
-      onUpdateTemplate(updater, activeProfile);
+      onUpdateTemplate(updater, activeProfile, changeTypeHint, textChangeKey);
     }
   };
 
@@ -270,11 +290,15 @@ export function FormBuilder({
     }));
   };
 
-  const updateField = (updatedField: FormField) => {
+  const updateField = (
+    updatedField: FormField,
+    changeTypeHint: TemplateChangeType = 'non-text',
+    textChangeKey?: string,
+  ) => {
     setSchema((prev) => ({
       ...prev,
       fields: prev.fields.map((f) => (f.id === updatedField.id ? updatedField : f)),
-    }));
+    }), changeTypeHint, textChangeKey);
   };
 
   const deleteField = (id: string) => {
@@ -428,6 +452,13 @@ export function FormBuilder({
     </div>
   );
 
+  const toggleTemplateDisplayOption = (option: keyof TemplateDisplayOptions) => {
+    setTemplateDisplayOptions((prev) => ({
+      ...prev,
+      [option]: !prev[option],
+    }));
+  };
+
   return (
     <div className="form-builder">
       <header className="form-builder-header">
@@ -573,15 +604,57 @@ export function FormBuilder({
                 </div>
               )}
               <div className="form-meta">
+                <div className="template-options-row">
+                  <div className="template-more-options-container">
+                    <button
+                      type="button"
+                      className={`template-more-options-trigger ${isTemplateOptionsOpen ? 'is-open' : ''}`}
+                      onClick={() => setIsTemplateOptionsOpen((prev) => !prev)}
+                    >
+                      More Options
+                      <span className="dropdown-arrow">{isTemplateOptionsOpen ? '▲' : '▼'}</span>
+                    </button>
+                    {isTemplateOptionsOpen && (
+                      <div className="template-more-options-dropdown">
+                        <label className="template-more-options-checkbox">
+                          <input
+                            type="checkbox"
+                            checked={templateDisplayOptions.showDescription}
+                            onChange={() => toggleTemplateDisplayOption('showDescription')}
+                          />
+                          <span>Show Description</span>
+                        </label>
+                        <label className="template-more-options-checkbox">
+                          <input
+                            type="checkbox"
+                            checked={templateDisplayOptions.showIri}
+                            disabled={!semanticEnabled}
+                            onChange={() => toggleTemplateDisplayOption('showIri')}
+                          />
+                          <span>
+                            Show Template IRI
+                            {!semanticEnabled ? ' (Semantic/Modular only)' : ''}
+                          </span>
+                        </label>
+                      </div>
+                    )}
+                  </div>
+                </div>
                 <input
                   type="text"
                   className="form-title-input"
                   value={schema.title}
                   disabled={isTemplateReadOnlyInProfile}
-                  onChange={(e) => setSchema((prev) => ({ ...prev, title: e.target.value }))}
+                  onChange={(e) =>
+                    setSchema(
+                      (prev) => ({ ...prev, title: e.target.value }),
+                      'text',
+                      `template:${schema.id}:title`,
+                    )
+                  }
                   placeholder="Template Title"
                 />
-                {semanticEnabled && (
+                {semanticEnabled && templateDisplayOptions.showIri && (
                   <div className="semantic-iri-row">
                     <label htmlFor="template-name-iri-input">Template Name IRI</label>
                     <div className="iri-inline-row">
@@ -597,7 +670,7 @@ export function FormBuilder({
                             ...prev,
                             nameIri: nextIri,
                             nameIriLabel: nextIri === prev.nameIri ? prev.nameIriLabel : '',
-                          }));
+                          }), 'text', `template:${schema.id}:nameIri`);
                         }}
                         placeholder="https://example.org/iri/template-name"
                       />
@@ -609,14 +682,22 @@ export function FormBuilder({
                     </div>
                   </div>
                 )}
-                <textarea
-                  className="form-description-input"
-                  value={schema.description}
-                  disabled={isTemplateReadOnlyInProfile}
-                  onChange={(e) => setSchema((prev) => ({ ...prev, description: e.target.value }))}
-                  placeholder="Add a description for your template (optional)"
-                  rows={2}
-                />
+                {templateDisplayOptions.showDescription && (
+                  <textarea
+                    className="form-description-input"
+                    value={schema.description}
+                    disabled={isTemplateReadOnlyInProfile}
+                    onChange={(e) =>
+                      setSchema(
+                        (prev) => ({ ...prev, description: e.target.value }),
+                        'text',
+                        `template:${schema.id}:description`,
+                      )
+                    }
+                    placeholder="Add a description for your template (optional)"
+                    rows={2}
+                  />
+                )}
               </div>
 
               <div className={`fields-list ${draggedFieldId ? 'dragging-mode' : ''}`}>

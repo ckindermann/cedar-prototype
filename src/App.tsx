@@ -230,7 +230,22 @@ function App() {
   const [templateLibraries, setTemplateLibraries] = useState<TemplateLibrary[]>([]);
   const [undoStack, setUndoStack] = useState<AppSnapshot[]>([]);
   const [redoStack, setRedoStack] = useState<AppSnapshot[]>([]);
-  const lastHistoryChangeTypeRef = useRef<HistoryChangeType | null>(null);
+  const lastHistoryChangeRef = useRef<{
+    changeType: HistoryChangeType | null;
+    textChangeKey: string | null;
+  }>({
+    changeType: null,
+    textChangeKey: null,
+  });
+  const lastTemplateVersionChangeRef = useRef<{
+    templateId: string | null;
+    changeType: HistoryChangeType | null;
+    textChangeKey: string | null;
+  }>({
+    templateId: null,
+    changeType: null,
+    textChangeKey: null,
+  });
 
   const createSnapshot = (): AppSnapshot => ({
     customFields: deepClone(customFields),
@@ -252,8 +267,16 @@ function App() {
     setTemplateLibraries(deepClone(snapshot.templateLibraries));
   };
 
-  const recordHistory = (changeType: HistoryChangeType = 'non-text') => {
-    if (changeType === 'text' && lastHistoryChangeTypeRef.current === 'text') {
+  const recordHistory = (
+    changeType: HistoryChangeType = 'non-text',
+    textChangeKey?: string,
+  ) => {
+    const normalizedTextChangeKey = changeType === 'text' ? (textChangeKey ?? null) : null;
+    if (
+      changeType === 'text' &&
+      lastHistoryChangeRef.current.changeType === 'text' &&
+      lastHistoryChangeRef.current.textChangeKey === normalizedTextChangeKey
+    ) {
       return;
     }
 
@@ -265,7 +288,17 @@ function App() {
         : next;
     });
     setRedoStack([]);
-    lastHistoryChangeTypeRef.current = changeType;
+    lastHistoryChangeRef.current = {
+      changeType,
+      textChangeKey: normalizedTextChangeKey,
+    };
+    if (changeType !== 'text') {
+      lastTemplateVersionChangeRef.current = {
+        templateId: null,
+        changeType,
+        textChangeKey: null,
+      };
+    }
   };
 
   const handleUndo = () => {
@@ -281,7 +314,15 @@ function App() {
         : next;
     });
     applySnapshot(previousSnapshot);
-    lastHistoryChangeTypeRef.current = null;
+    lastHistoryChangeRef.current = {
+      changeType: null,
+      textChangeKey: null,
+    };
+    lastTemplateVersionChangeRef.current = {
+      templateId: null,
+      changeType: null,
+      textChangeKey: null,
+    };
   };
 
   const handleRedo = () => {
@@ -297,7 +338,15 @@ function App() {
         : next;
     });
     applySnapshot(nextSnapshot);
-    lastHistoryChangeTypeRef.current = null;
+    lastHistoryChangeRef.current = {
+      changeType: null,
+      textChangeKey: null,
+    };
+    lastTemplateVersionChangeRef.current = {
+      templateId: null,
+      changeType: null,
+      textChangeKey: null,
+    };
   };
 
   useEffect(() => {
@@ -397,25 +446,88 @@ function App() {
 
   const activeTemplate = templates.find(t => t.id === activeTemplateId) || templates[0];
 
-  const handleUpdateTemplate = (schema: FormSchema, profile: BuilderProfile) => {
+  const handleUpdateTemplate = (
+    schema: FormSchema,
+    profile: BuilderProfile,
+    changeTypeHint?: HistoryChangeType,
+    textChangeKey?: string,
+  ) => {
     const previousTemplate = templates.find((template) => template.id === schema.id);
-    const changeType: HistoryChangeType =
+    const inferredChangeType: HistoryChangeType =
       previousTemplate && isTemplateTextOnlyChange(previousTemplate, schema)
         ? 'text'
         : 'non-text';
-    recordHistory(changeType);
+    const changeType = changeTypeHint ?? inferredChangeType;
+    const normalizedTextChangeKey = changeType === 'text' ? (textChangeKey ?? null) : null;
+    recordHistory(changeType, normalizedTextChangeKey ?? undefined);
     if (profile === 'modular') {
       setTemplates((prev) => prev.map((template) =>
         template.id === schema.id
           ? { ...schema, version: template.version }
           : template,
       ));
+      lastTemplateVersionChangeRef.current = {
+        templateId: schema.id,
+        changeType,
+        textChangeKey: normalizedTextChangeKey,
+      };
       return;
     }
 
     const history = templateVersions[schema.id] || [];
     const highestVersion = history.reduce((max, item) => Math.max(max, item.version), 0);
     const nextVersion = highestVersion + 1 || 1;
+
+    // Coalesce consecutive text-only template edits into one saved version event.
+    if (
+      changeType === 'text' &&
+      lastTemplateVersionChangeRef.current.changeType === 'text' &&
+      lastTemplateVersionChangeRef.current.templateId === schema.id &&
+      lastTemplateVersionChangeRef.current.textChangeKey === normalizedTextChangeKey
+    ) {
+      const currentVersion = highestVersion || previousTemplate?.version || schema.version || 1;
+      const coalescedTemplate: FormSchema = {
+        ...schema,
+        version: currentVersion,
+        fields: deepClone(schema.fields),
+      };
+      setTemplates((prev) =>
+        prev.map((template) =>
+          template.id === schema.id
+            ? coalescedTemplate
+            : template,
+        ),
+      );
+      setTemplateVersions((prev) => {
+        const existingHistory = prev[schema.id] || [];
+        if (existingHistory.length === 0) {
+          return {
+            ...prev,
+            [schema.id]: [
+              {
+                version: currentVersion,
+                savedAt: new Date().toISOString(),
+                snapshot: deepClone(coalescedTemplate),
+              },
+            ],
+          };
+        }
+        const latestVersion = existingHistory.reduce((max, item) => Math.max(max, item.version), 0);
+        const latestIndex = existingHistory.findIndex((item) => item.version === latestVersion);
+        const nextHistory = [...existingHistory];
+        nextHistory[latestIndex >= 0 ? latestIndex : nextHistory.length - 1] = {
+          ...nextHistory[latestIndex >= 0 ? latestIndex : nextHistory.length - 1],
+          savedAt: new Date().toISOString(),
+          snapshot: deepClone(coalescedTemplate),
+        };
+        return {
+          ...prev,
+          [schema.id]: nextHistory,
+        };
+      });
+      return;
+    }
+
     const updatedTemplates = templates.map((template) =>
       template.id === schema.id ? { ...schema } : template,
     );
@@ -432,6 +544,11 @@ function App() {
     );
     setTemplates(versionedTemplates);
     setTemplateVersions(nextTemplateVersions);
+    lastTemplateVersionChangeRef.current = {
+      templateId: schema.id,
+      changeType,
+      textChangeKey: normalizedTextChangeKey,
+    };
   };
 
   const handleSaveTemplateVersion = (templateId: string) => {
