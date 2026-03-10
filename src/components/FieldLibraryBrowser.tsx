@@ -7,6 +7,7 @@ interface FieldLibraryBrowserProps {
   customFieldVersions: Record<string, CustomFieldVersion[]>;
   showVersionInfo?: boolean;
   fieldLibraries: FieldLibrary[];
+  disableAddActions?: boolean;
   onAddField: (type: FieldType, customFieldTypeId?: string, libraryId?: string, customFieldVersion?: number) => void;
   onCreateLibrary: (name: string, parentId?: string) => void;
   onCreateFieldType: (libraryId: string) => void;
@@ -33,6 +34,7 @@ export function FieldLibraryBrowser({
   customFieldVersions,
   showVersionInfo = false,
   fieldLibraries,
+  disableAddActions = false,
   onAddField,
   onCreateLibrary,
   onCreateFieldType,
@@ -197,6 +199,7 @@ export function FieldLibraryBrowser({
     isStandard: boolean,
     libraryId: string | null,
   ) => {
+    if (disableAddActions) return;
     if (isStandard) {
       const standardField = field as { type: FieldType; label: string; icon: string };
       onAddField(standardField.type);
@@ -483,8 +486,13 @@ export function FieldLibraryBrowser({
                       e.stopPropagation();
                       handleAddField(field, false, node.library.id);
                     }}
-                    title={`Add ${field.name}`}
+                    title={
+                      disableAddActions
+                        ? 'Template is read-only in this profile'
+                        : `Add ${field.name}`
+                    }
                     aria-label={`Add ${field.name}`}
+                    disabled={disableAddActions}
                   >
                     +
                   </button>
@@ -634,16 +642,21 @@ export function FieldLibraryBrowser({
                         e.stopPropagation();
                         handleAddField(result.field, result.isStandard, result.libraryId);
                       }}
-                      title={`Add ${
-                        result.isStandard
-                          ? (result.field as { label: string }).label
-                          : (result.field as CustomFieldType).name
-                      }`}
+                      title={
+                        disableAddActions
+                          ? 'Template is read-only in this profile'
+                          : `Add ${
+                            result.isStandard
+                              ? (result.field as { label: string }).label
+                              : (result.field as CustomFieldType).name
+                          }`
+                      }
                       aria-label={`Add ${
                         result.isStandard
                           ? (result.field as { label: string }).label
                           : (result.field as CustomFieldType).name
                       }`}
+                      disabled={disableAddActions}
                     >
                       +
                     </button>
@@ -695,8 +708,13 @@ export function FieldLibraryBrowser({
                               e.stopPropagation();
                               handleAddField(fieldType, true, null);
                             }}
-                            title={`Add ${fieldType.label}`}
+                            title={
+                              disableAddActions
+                                ? 'Template is read-only in this profile'
+                                : `Add ${fieldType.label}`
+                            }
                             aria-label={`Add ${fieldType.label}`}
+                            disabled={disableAddActions}
                           >
                             +
                           </button>

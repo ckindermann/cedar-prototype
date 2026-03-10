@@ -186,14 +186,15 @@ interface FieldEditorProps {
   currentTemplateId?: string;
   showSemanticFields?: boolean;
   showVersionControls?: boolean;
+  isReadOnly?: boolean;
   onEditFieldType?: (fieldType: CustomFieldType) => void;
 }
 
 export function FieldEditor({
   field,
   position,
-  onUpdate,
-  onDelete,
+  onUpdate: onUpdateProp,
+  onDelete: onDeleteProp,
   isFocused,
   onFocus,
   onBlur,
@@ -205,6 +206,7 @@ export function FieldEditor({
   currentTemplateId,
   showSemanticFields = false,
   showVersionControls = false,
+  isReadOnly = false,
   onEditFieldType,
 }: FieldEditorProps) {
   const [isOntologyPickerOpen, setIsOntologyPickerOpen] = useState(false);
@@ -212,6 +214,20 @@ export function FieldEditor({
   const [ontologyOptionSelectionMode, setOntologyOptionSelectionMode] = useState<'single' | 'children' | 'branch'>('single');
   const [ontologyOptionStatus, setOntologyOptionStatus] = useState<string | null>(null);
   const [isLoadingOntologyOptionSource, setIsLoadingOntologyOptionSource] = useState(false);
+  const [isMoreOptionsOpen, setIsMoreOptionsOpen] = useState(false);
+  const [fieldDisplayOptions, setFieldDisplayOptions] = useState({
+    showPlaceholderInput: false,
+    showDescriptionInput: false,
+    showIriInput: false,
+  });
+  const onUpdate = (nextField: FormField) => {
+    if (isReadOnly) return;
+    onUpdateProp(nextField);
+  };
+  const onDelete = (id: string) => {
+    if (isReadOnly) return;
+    onDeleteProp(id);
+  };
 
   // Get library fields based on the field's own libraryId (not the global selection)
   const fieldLibraryId = field.libraryId;
@@ -319,6 +335,14 @@ export function FieldEditor({
         : sourcesFromOptions(field.ontologyOptions),
     [field.ontologyOptionSources, field.ontologyOptions],
   );
+  const toggleDisplayOption = (
+    option: 'showPlaceholderInput' | 'showDescriptionInput' | 'showIriInput',
+  ) => {
+    setFieldDisplayOptions((prev) => ({
+      ...prev,
+      [option]: !prev[option],
+    }));
+  };
 
   return (
     <div 
@@ -331,7 +355,8 @@ export function FieldEditor({
         }
       }}
     >
-      <div className="field-editor-header">
+      <fieldset className="field-editor-fieldset">
+        <div className="field-editor-header">
         <div className="field-editor-title">
           <span className="field-order-badge" title={`Field ${position} in template`}>
             {position}
@@ -342,6 +367,7 @@ export function FieldEditor({
             <select
               className="field-type-select"
               value={selectValue}
+              disabled={isReadOnly}
               onChange={(e) => handleTypeChange(e.target.value)}
               onClick={(e) => e.stopPropagation()}
             >
@@ -364,6 +390,7 @@ export function FieldEditor({
             <select
               className="field-type-select field-version-select"
               value={selectedCustomFieldVersion || ''}
+              disabled={isReadOnly}
               onChange={(e) => {
                 const version = Number(e.target.value);
                 const selectedVersion = customFieldVersionHistory.find((item) => item.version === version);
@@ -406,6 +433,7 @@ export function FieldEditor({
           {currentCustomField && onEditFieldType && (
             <button
               className="edit-field-type-button"
+              disabled={isReadOnly}
               onClick={(e) => {
                 e.stopPropagation();
                 onEditFieldType(currentCustomField);
@@ -419,17 +447,69 @@ export function FieldEditor({
             type="text"
             className="field-label-input"
             value={field.label}
+            disabled={isReadOnly}
             onChange={(e) => onUpdate({ ...field, label: e.target.value })}
             onClick={(e) => e.stopPropagation()}
             placeholder={isTemplateComponentField ? 'Component Name' : 'Untitled Field'}
           />
         </div>
         <div className="field-editor-actions">
-          <span className="drag-handle" title="Drag to reorder">⠿</span>
+          <div className="field-more-options-container">
+            <button
+              type="button"
+              className={`field-more-options-trigger ${isMoreOptionsOpen ? 'is-open' : ''}`}
+              onClick={(e) => {
+                e.stopPropagation();
+                setIsMoreOptionsOpen((prev) => !prev);
+              }}
+            >
+              More Options
+              <span className="dropdown-arrow">{isMoreOptionsOpen ? '▲' : '▼'}</span>
+            </button>
+            {isMoreOptionsOpen && (
+              <div className="field-more-options-dropdown" onClick={(e) => e.stopPropagation()}>
+                {!isTemplateComponentField && (
+                  <label className="field-more-options-checkbox">
+                    <input
+                      type="checkbox"
+                      checked={fieldDisplayOptions.showPlaceholderInput}
+                      onChange={() => toggleDisplayOption('showPlaceholderInput')}
+                    />
+                    <span>Placeholder Text</span>
+                  </label>
+                )}
+                {!isTemplateComponentField && (
+                  <label className="field-more-options-checkbox">
+                    <input
+                      type="checkbox"
+                      checked={fieldDisplayOptions.showDescriptionInput}
+                      onChange={() => toggleDisplayOption('showDescriptionInput')}
+                    />
+                    <span>Description</span>
+                  </label>
+                )}
+                <label className="field-more-options-checkbox">
+                  <input
+                    type="checkbox"
+                    checked={fieldDisplayOptions.showIriInput}
+                    disabled={!showSemanticFields}
+                    onChange={() => toggleDisplayOption('showIriInput')}
+                  />
+                  <span>
+                    IRI
+                    {!showSemanticFields ? ' (Semantic/Modular only)' : ''}
+                  </span>
+                </label>
+              </div>
+            )}
+          </div>
+          {isReadOnly && <span className="field-read-only-pill">Read only</span>}
+          <span className={`drag-handle ${isReadOnly ? 'is-disabled' : ''}`} title="Drag to reorder">⠿</span>
           <button
             className="icon-button delete"
             onClick={(e) => { e.stopPropagation(); onDelete(field.id); }}
             title="Delete field"
+            disabled={isReadOnly}
           >
             ×
           </button>
@@ -437,13 +517,14 @@ export function FieldEditor({
       </div>
 
       <div className="field-editor-body">
-          {showSemanticFields && (
+          {showSemanticFields && fieldDisplayOptions.showIriInput && (
             <div className="form-group">
               <label>Field Name IRI</label>
               <div className="iri-input-row">
                 <input
                   type="text"
                   value={field.nameIri || ''}
+                  disabled={isReadOnly}
                   onChange={(e) => {
                     const nextIri = e.target.value;
                     onUpdate({
@@ -462,6 +543,7 @@ export function FieldEditor({
                 <button
                   type="button"
                   className="iri-picker-button"
+                  disabled={isReadOnly}
                   onClick={(e) => {
                     e.stopPropagation();
                     setIsOntologyPickerOpen(true);
@@ -478,6 +560,7 @@ export function FieldEditor({
               <label>Referenced Template</label>
               <select
                 value={field.componentTemplateId || ''}
+                disabled={isReadOnly}
                 onChange={(e) => {
                   const templateId = e.target.value || undefined;
                   onUpdate({
@@ -499,6 +582,7 @@ export function FieldEditor({
                   <label>Template Version</label>
                   <select
                     value={field.componentTemplateVersion || selectedTemplate.version}
+                    disabled={isReadOnly}
                     onChange={(e) =>
                       onUpdate({
                         ...field,
@@ -522,32 +606,41 @@ export function FieldEditor({
             </div>
           ) : (
             <>
-          <div className="field-detail-row">
-            <div className="form-group">
-              <label>Placeholder Text</label>
-              <input
-                type="text"
-                value={field.placeholder || ''}
-                onChange={(e) => onUpdate({ ...field, placeholder: e.target.value })}
-                placeholder="Enter placeholder text..."
-              />
+          {(fieldDisplayOptions.showPlaceholderInput || fieldDisplayOptions.showDescriptionInput) && (
+            <div className="field-detail-row">
+              {fieldDisplayOptions.showPlaceholderInput && (
+                <div className="form-group">
+                  <label>Placeholder Text</label>
+                  <input
+                    type="text"
+                    value={field.placeholder || ''}
+                    disabled={isReadOnly}
+                    onChange={(e) => onUpdate({ ...field, placeholder: e.target.value })}
+                    placeholder="Enter placeholder text..."
+                  />
+                </div>
+              )}
+              {fieldDisplayOptions.showDescriptionInput && (
+                <div className="form-group">
+                  <label>Field Description</label>
+                  <input
+                    type="text"
+                    value={field.description || ''}
+                    disabled={isReadOnly}
+                    onChange={(e) => onUpdate({ ...field, description: e.target.value })}
+                    placeholder="Short description for tooltip..."
+                  />
+                </div>
+              )}
             </div>
-            <div className="form-group">
-              <label>Field Description</label>
-              <input
-                type="text"
-                value={field.description || ''}
-                onChange={(e) => onUpdate({ ...field, description: e.target.value })}
-                placeholder="Short description for tooltip..."
-              />
-            </div>
-          </div>
+          )}
 
           {field.type === 'select' && (
             <div className="form-group">
               <label>Options (one per line)</label>
               <textarea
                 value={(field.options || []).join('\n')}
+                disabled={isReadOnly}
                 onChange={(e) =>
                   onUpdate({
                     ...field,
@@ -566,6 +659,7 @@ export function FieldEditor({
                 <button
                   type="button"
                   className="iri-picker-button"
+                  disabled={isReadOnly}
                   onClick={(e) => {
                     e.stopPropagation();
                     setOntologyOptionSelectionMode('single');
@@ -577,6 +671,7 @@ export function FieldEditor({
                 <button
                   type="button"
                   className="iri-picker-button"
+                  disabled={isReadOnly}
                   onClick={(e) => {
                     e.stopPropagation();
                     setOntologyOptionSelectionMode('children');
@@ -588,6 +683,7 @@ export function FieldEditor({
                 <button
                   type="button"
                   className="iri-picker-button"
+                  disabled={isReadOnly}
                   onClick={(e) => {
                     e.stopPropagation();
                     setOntologyOptionSelectionMode('branch');
@@ -631,6 +727,7 @@ export function FieldEditor({
                       <button
                         type="button"
                         className="ontology-option-remove"
+                        disabled={isReadOnly}
                         onClick={(e) => {
                           e.stopPropagation();
                           const nextSources = effectiveOntologyOptionSources.filter(
@@ -658,6 +755,7 @@ export function FieldEditor({
               <input
                 type="checkbox"
                 checked={field.required}
+                disabled={isReadOnly}
                 onChange={(e) => onUpdate({ ...field, required: e.target.checked })}
               />
               <span>Required</span>
@@ -667,6 +765,7 @@ export function FieldEditor({
               <input
                 type="checkbox"
                 checked={field.multiple}
+                disabled={isReadOnly}
                 onChange={(e) => onUpdate({ ...field, multiple: e.target.checked })}
               />
               <span>Allow Multiple Values</span>
@@ -675,15 +774,20 @@ export function FieldEditor({
             </>
           )}
         </div>
+      </fieldset>
       <OntologyIriPickerModal
         isOpen={isOntologyPickerOpen}
         onClose={() => setIsOntologyPickerOpen(false)}
-        onSelectIri={({ iri, label }) => onUpdate({ ...field, nameIri: iri, nameIriLabel: label })}
+        onSelectIri={({ iri, label }) => {
+          if (isReadOnly) return;
+          onUpdate({ ...field, nameIri: iri, nameIriLabel: label });
+        }}
       />
       <OntologyIriPickerModal
         isOpen={isOntologyOptionPickerOpen}
         onClose={() => setIsOntologyOptionPickerOpen(false)}
         onSelectIri={async (selection: OntologyPickerSelection) => {
+          if (isReadOnly) return;
           setOntologyOptionStatus(null);
 
           if (ontologyOptionSelectionMode === 'children' || ontologyOptionSelectionMode === 'branch') {

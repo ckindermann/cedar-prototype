@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import type {
   BuilderProfile,
   CustomFieldType,
@@ -92,16 +92,7 @@ export function FormBuilder({
   onMoveCustomField,
   onMoveFieldLibrary,
 }: FormBuilderProps) {
-  // Use the activeTemplate as the schema, syncing changes back via onUpdateTemplate
   const schema = activeTemplate;
-  const setSchema = (updater: FormSchema | ((prev: FormSchema) => FormSchema)) => {
-    if (typeof updater === 'function') {
-      onUpdateTemplate(updater(schema), activeProfile);
-    } else {
-      onUpdateTemplate(updater, activeProfile);
-    }
-  };
-
   const [focusedFieldId, setFocusedFieldId] = useState<string | null>(null);
   const [draggedFieldId, setDraggedFieldId] = useState<string | null>(null);
   const [dropTargetIndex, setDropTargetIndex] = useState<number | null>(null);
@@ -135,6 +126,33 @@ export function FormBuilder({
   };
   const semanticEnabled = profileIncludes('semantic');
   const modularVersioningEnabled = activeProfile === 'modular';
+  const latestCustomFieldVersionById = useMemo(
+    () => new Map(customFields.map((fieldType) => [fieldType.id, fieldType.version])),
+    [customFields],
+  );
+  const outdatedFieldVersionCount = useMemo(
+    () =>
+      schema.fields.filter((field) => {
+        if (!field.customFieldTypeId) return false;
+        const latestVersion = latestCustomFieldVersionById.get(field.customFieldTypeId);
+        if (!latestVersion) return false;
+        const configuredVersion = field.customFieldVersion ?? latestVersion;
+        return configuredVersion !== latestVersion;
+      }).length,
+    [schema.fields, latestCustomFieldVersionById],
+  );
+  const isTemplateReadOnlyInProfile = activeProfile !== 'modular' && outdatedFieldVersionCount > 0;
+  const staleFieldVersionLabel =
+    outdatedFieldVersionCount === 1 ? 'field version' : 'field versions';
+
+  const setSchema = (updater: FormSchema | ((prev: FormSchema) => FormSchema)) => {
+    if (isTemplateReadOnlyInProfile) return;
+    if (typeof updater === 'function') {
+      onUpdateTemplate(updater(schema), activeProfile);
+    } else {
+      onUpdateTemplate(updater, activeProfile);
+    }
+  };
 
   const templateDependsOn = (
     sourceTemplateId: string,
@@ -296,10 +314,12 @@ export function FormBuilder({
   };
 
   const handleDragStart = (fieldId: string) => {
+    if (isTemplateReadOnlyInProfile) return;
     setDraggedFieldId(fieldId);
   };
 
   const handleDragEnd = () => {
+    if (isTemplateReadOnlyInProfile) return;
     if (draggedFieldId && dropTargetIndex !== null) {
       moveFieldToPosition(draggedFieldId, dropTargetIndex);
     }
@@ -308,6 +328,7 @@ export function FormBuilder({
   };
 
   const handleDragOver = (e: React.DragEvent, index: number) => {
+    if (isTemplateReadOnlyInProfile) return;
     e.preventDefault();
     e.dataTransfer.dropEffect = 'move';
     setDropTargetIndex(index);
@@ -318,6 +339,7 @@ export function FormBuilder({
   };
 
   const handleDrop = (e: React.DragEvent, index: number) => {
+    if (isTemplateReadOnlyInProfile) return;
     e.preventDefault();
     if (draggedFieldId) {
       moveFieldToPosition(draggedFieldId, index);
@@ -461,45 +483,47 @@ export function FormBuilder({
                 searchQuery={searchTemplates ? librarySearchQuery : ''}
               />
               <FieldLibraryBrowser
-              customFields={customFields}
-              customFieldVersions={customFieldVersions}
-              showVersionInfo={modularVersioningEnabled}
-              fieldLibraries={fieldLibraries}
-              onAddField={(type, customFieldTypeId, libraryId, customFieldVersion) => {
-                addField(type, customFieldTypeId, libraryId, customFieldVersion);
-              }}
-              onCreateLibrary={(name, parentId) => {
-                const newLibrary: FieldLibrary = {
-                  id: generateId(),
-                  name,
-                  description: '',
-                  parentId,
-                };
-                onSaveLibrary(newLibrary);
-              }}
-              showSemanticStandardFields={semanticEnabled}
-              onCreateFieldType={(libraryId) => {
-                setCreateFieldForLibraryId(libraryId);
-                setEditingFieldType(null);
-                setIsCreateFieldModalOpen(true);
-              }}
+                customFields={customFields}
+                customFieldVersions={customFieldVersions}
+                showVersionInfo={modularVersioningEnabled}
+                fieldLibraries={fieldLibraries}
+                disableAddActions={isTemplateReadOnlyInProfile}
+                onAddField={(type, customFieldTypeId, libraryId, customFieldVersion) => {
+                  if (isTemplateReadOnlyInProfile) return;
+                  addField(type, customFieldTypeId, libraryId, customFieldVersion);
+                }}
+                onCreateLibrary={(name, parentId) => {
+                  const newLibrary: FieldLibrary = {
+                    id: generateId(),
+                    name,
+                    description: '',
+                    parentId,
+                  };
+                  onSaveLibrary(newLibrary);
+                }}
+                showSemanticStandardFields={semanticEnabled}
+                onCreateFieldType={(libraryId) => {
+                  setCreateFieldForLibraryId(libraryId);
+                  setEditingFieldType(null);
+                  setIsCreateFieldModalOpen(true);
+                }}
                 onMoveFieldType={onMoveCustomField}
                 onMoveLibrary={onMoveFieldLibrary}
-              onEditFieldType={(fieldType) => {
-                setEditingFieldType(fieldType);
-                setIsCreateFieldModalOpen(true);
-              }}
-              highlightedFieldType={focusedFieldId ? (() => {
-                const field = schema.fields.find(f => f.id === focusedFieldId);
-                if (!field) return null;
-                return {
-                  type: field.type,
-                  customFieldTypeId: field.customFieldTypeId,
-                  libraryId: field.libraryId,
-                };
-              })() : null}
-              searchQuery={searchFields ? librarySearchQuery : ''}
-            />
+                onEditFieldType={(fieldType) => {
+                  setEditingFieldType(fieldType);
+                  setIsCreateFieldModalOpen(true);
+                }}
+                highlightedFieldType={focusedFieldId ? (() => {
+                  const field = schema.fields.find((f) => f.id === focusedFieldId);
+                  if (!field) return null;
+                  return {
+                    type: field.type,
+                    customFieldTypeId: field.customFieldTypeId,
+                    libraryId: field.libraryId,
+                  };
+                })() : null}
+                searchQuery={searchFields ? librarySearchQuery : ''}
+              />
             </div>
           </div>
           <div className="split-panel builder-panel">
@@ -508,11 +532,18 @@ export function FormBuilder({
               {modularVersioningEnabled && renderVersionControl()}
             </div>
             <main className="form-canvas">
+              {isTemplateReadOnlyInProfile && (
+                <div className="template-read-only-banner" role="status">
+                  This template references {outdatedFieldVersionCount} non-latest {staleFieldVersionLabel}.
+                  Switch to the Modular profile to edit it.
+                </div>
+              )}
               <div className="form-meta">
                 <input
                   type="text"
                   className="form-title-input"
                   value={schema.title}
+                  disabled={isTemplateReadOnlyInProfile}
                   onChange={(e) => setSchema((prev) => ({ ...prev, title: e.target.value }))}
                   placeholder="Template Title"
                 />
@@ -525,6 +556,7 @@ export function FormBuilder({
                         type="text"
                         className="semantic-iri-input"
                         value={schema.nameIri || ''}
+                        disabled={isTemplateReadOnlyInProfile}
                         onChange={(e) => {
                           const nextIri = e.target.value;
                           setSchema((prev) => ({
@@ -546,6 +578,7 @@ export function FormBuilder({
                 <textarea
                   className="form-description-input"
                   value={schema.description}
+                  disabled={isTemplateReadOnlyInProfile}
                   onChange={(e) => setSchema((prev) => ({ ...prev, description: e.target.value }))}
                   placeholder="Add a description for your template (optional)"
                   rows={2}
@@ -578,8 +611,9 @@ export function FormBuilder({
                           )}
                           <div
                             className={`field-drag-wrapper ${isDragging ? 'is-dragging' : ''}`}
-                            draggable
+                            draggable={!isTemplateReadOnlyInProfile}
                             onDragStart={(e) => {
+                              if (isTemplateReadOnlyInProfile) return;
                               e.dataTransfer.effectAllowed = 'move';
                               handleDragStart(field.id);
                             }}
@@ -593,19 +627,20 @@ export function FormBuilder({
                               onUpdate={updateField}
                               onDelete={deleteField}
                               isFocused={focusedFieldId === field.id}
-                            onFocus={() => setFocusedFieldId(field.id)}
-                            onBlur={() => setFocusedFieldId(null)}
-                            customFields={customFields}
-                            customFieldVersions={customFieldVersions}
-                            fieldLibraries={fieldLibraries}
-                            templates={templates}
-                            templateVersions={templateVersions}
-                            currentTemplateId={schema.id}
-                            showSemanticFields={semanticEnabled}
-                            showVersionControls={modularVersioningEnabled}
-                            onEditFieldType={(fieldType) => {
-                              setEditingFieldType(fieldType);
-                              setIsCreateFieldModalOpen(true);
+                              onFocus={() => setFocusedFieldId(field.id)}
+                              onBlur={() => setFocusedFieldId(null)}
+                              customFields={customFields}
+                              customFieldVersions={customFieldVersions}
+                              fieldLibraries={fieldLibraries}
+                              templates={templates}
+                              templateVersions={templateVersions}
+                              currentTemplateId={schema.id}
+                              showSemanticFields={semanticEnabled}
+                              showVersionControls={modularVersioningEnabled}
+                              isReadOnly={isTemplateReadOnlyInProfile}
+                              onEditFieldType={(fieldType) => {
+                                setEditingFieldType(fieldType);
+                                setIsCreateFieldModalOpen(true);
                               }}
                             />
                           </div>
